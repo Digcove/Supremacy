@@ -1,6 +1,98 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "3c3f3c93099a637050a60465f17f7a90a1b906692a22830ef604ad02e379fc32"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/01_awakening.snbt"
+hash = "4dd64af5f3938b4931b7fcbe1105c02dbe085ac09ee85ededf06797f236da653"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
+hash = "7ca0ba9cdf65f7651ebe385341bcb740b10ce9d353313b7f54588adfc0593168"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/03_first_light.snbt"
+hash = "bc1c47d6a34984520b0e8221cf2b4ee5965b89016f09cbcf61843200b586a315"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/04_arcane_and_machine.snbt"
+hash = "82e5cde24b73dd0ceb7b2c1b9b9d7907d72a1e2ae1c5ebdb5e65e16f8bbb7315"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/05_into_the_mist.snbt"
+hash = "486e4a338d8d3dccd43696704672e10febfe923c3ced7708a5b4e42009735fc3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/06_blood_flowers_demons.snbt"
+hash = "c5651488d618b24dabc6ee211ebdb0a116db398ea3081c2cc3f602302d54244d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/07_medium_voltage.snbt"
+hash = "42b8939a2098151ef7220f1b2760c994451079c81e53a343682b093d94cacd23"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/08_digital_frontier.snbt"
+hash = "6abc3ebdf517c5f54d2508c139e63590f8525de8a31f9d9565adac5dc98bc80d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/09_high_voltage.snbt"
+hash = "e2a1c56301a2a292698a468835c702ce023ef666b28a4176c1f674a68e9c65b9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/10_sky_captains.snbt"
+hash = "9670f755333da32a6f1f8e876c29683ea530373e899d06f15da19c1d17cee20e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/11_extreme_voltage.snbt"
+hash = "8af0a98457655b2480e7663888d7a8b76cef8b7d1707518f6ca1553178608152"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/12_gates_of_oblivion.snbt"
+hash = "2ed0623e2a9d0497dd246f3418dfedce44abf1034fb35f4a6ed6c4085d813062"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/13_beyond_the_map.snbt"
+hash = "2cbcfecdfe1df8010cb6d21ec4b98458ebf7db5bf01194cceb508c73f51dc52b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/side_a_farmers_life.snbt"
+hash = "d943b98c24b6cd2232fcbb22a232ff8cb774ae7e25706717ffd4393af7d5868f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/side_b_steel_and_glory.snbt"
+hash = "013aa8cd15ae31ed8fa4878a6a9f4cd1c6673598a9a2c36e457c4c47f92dfe18"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/side_c_community_board.snbt"
+hash = "bc5c963335447f1f2df792a93e4b518642b7042cbf2719a2736f19c507eb42c3"
+
+[[files]]
+file = "kubejs/server_scripts/banana.js"
+hash = "8d3a42606293ad63a0f9f9186043fff4dc330df62e2a3061ade4d6f8302fc460"
+
+[[files]]
+file = "kubejs/server_scripts/flint_compass.js"
+hash = "1b8baf1b47f08437fe8f52bdb7c53ed732b699e8170d3306683bb9ba6eb6f8e1"
+
+[[files]]
+file = "kubejs/server_scripts/flint_knapping.js"
+hash = "4dfbf7c72e3fd466803e11524316906582f3410cbd70e7c104f783879edc2d11"
+
+[[files]]
+file = "kubejs/server_scripts/sock.js"
+hash = "c7677934a130e6c123f44127284246f53b767c5c61ed78f30628113f2ebe34ea"
+
+[[files]]
+file = "kubejs/server_scripts/spawn_eggs.js"
+hash = "29098aa01c89c8cd8ae4e58afb271dae4dff2483a4d82e5b94da509f9c0c134d"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+hash = "d699c02f1e39df1d02b27402e222ca3059d7ec77c18d6c796eb8c8a9f5586f3d"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
 metafile = true
@@ -152,7 +244,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "b7b5d139282c441057c253e1d01d8333ed22b377a75242edac5c78bb26907ab2"
+hash = "ca55f3ceb2ccbf454645c4eb691109220ad14205ca2592caf46223d81f73ced3"
 metafile = true
 
 [[files]]
@@ -415,6 +507,11 @@ hash = "94c7c45a70d0cea86695ecd467f8e5c22510442c53c44291a570986e234428e5"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
+metafile = true
+
+[[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
 metafile = true
@@ -527,6 +624,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "1d623ba29fcb52d5db733af383a13273792ac3dc1ac7a8f9e3f58a17ae1bc2c7"
+metafile = true
+
+[[files]]
+file = "mods/lodestone.pw.toml"
+hash = "a484a0a768e886244dab01dd9793d979ca5d57b8327f9f4caa36a3031fc46d63"
 metafile = true
 
 [[files]]
@@ -717,6 +819,11 @@ metafile = true
 [[files]]
 file = "mods/powah.pw.toml"
 hash = "5f62a327932de16d603c5d922ff655069ac8fd8ccffb5f3f8b23f6cda4c04da0"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "f79cb80b6ea599fe4ca9404465277ff7edf25118976170c28827590febfcee7a"
 metafile = true
 
 [[files]]
@@ -998,3 +1105,7 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true
+
+[[files]]
+file = "texture_checklist.md"
+hash = "b1472c4adfddec789f384db333b4ec3a7ec0ab50017cb9934a66fe9e22ceaf53"

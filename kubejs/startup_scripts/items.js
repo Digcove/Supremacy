@@ -68,4 +68,38 @@ StartupEvents.registry('item', event => {
         .displayName('Bull Cum Soaked Sock')
         .texture('kubejs:item/soaked_sock')
 
+    // === BANANA SYSTEM ===
+
+    event.create('orange')
+        .displayName('Orange')
+        .texture('kubejs:item/orange')
+
+    event.create('block_of_pure_vitamin_c')
+        .displayName('Block of Pure Vitamin C')
+        .texture('kubejs:item/block_of_pure_vitamin_c')
+
+    event.create('banana_pickaxe', 'pickaxe')
+        .displayName('Bannana Pickaxe')
+        .texture('kubejs:item/banana_pickaxe')
+        .tier(tier => {
+            tier.uses = 1561            // Diamond durability
+            tier.speed = 4.0           // Stone mining speed
+            tier.attackDamageBonus = 1.0
+            tier.level = 2             // Can mine iron-level blocks
+            tier.enchantmentValue = 5
+            tier.repairIngredient = 'pamhc2trees:bananaitem'
+        })
+
+    event.create('banana_helmet', 'helmet')
+        .displayName('Banana Helmet')
+        .texture('kubejs:item/banana_helmet')
+        .tier(tier => {
+            tier.durabilityFactor = 10
+            tier.slotProtections = [1, 3, 5, 2]  // [boots, legs, chest, head] — gold values
+            tier.enchantmentValue = 12
+            tier.toughness = 0.0
+            tier.knockbackResistance = 0.0
+            tier.repairIngredient = 'pamhc2trees:bananaitem'
+        })
+
 })

@@ -29,6 +29,7 @@
 		id: "0000000000003004"
 		x: 2.0d
 		y: 0.0d
+		dependencies: ["0000000000003001"]
 		title: "A Man's Best Friend"
 		icon: {id: "minecraft:horse_spawn_egg", Count: 1b}
 		description: ["Craft a Horse Spawn Egg and bring your loyal companion into the world."]
@@ -50,6 +51,7 @@
 		id: "0000000000003008"
 		x: 4.0d
 		y: 0.0d
+		dependencies: ["0000000000003004"]
 		title: "I've Got a Woody"
 		icon: {id: "minecraft:oak_log", Count: 1b}
 		description: ["Wasn't that hard on your fists."]
@@ -69,6 +71,7 @@
 		id: "000000000000300B"
 		x: 6.0d
 		y: 0.0d
+		dependencies: ["0000000000003008"]
 		title: "Bony-ier Bones"
 		icon: {id: "minecraft:bone", Count: 1b}
 		description: ["In order to knap flint into tools you're gonna need a big ole boner."]
@@ -86,6 +89,7 @@
 		id: "000000000000300E"
 		x: 8.0d
 		y: 0.0d
+		dependencies: ["000000000000300B"]
 		title: "Four Walls and a Roof"
 		icon: {id: "minecraft:oak_planks", Count: 1b}
 		description: ["Put those flint tools to work. This land is wild and unforgiving — you need four walls and a roof before nightfall claims you. Spend 30 minutes building your first home. The wilderness can wait."]
@@ -116,6 +120,7 @@
 		id: "0000000000003014"
 		x: 10.0d
 		y: 0.0d
+		dependencies: ["000000000000300E"]
 		title: "Sleep Tight"
 		icon: {id: "minecraft:red_bed", Count: 1b}
 		description: ["A roof overhead means nothing if you're sleeping on the floor. Craft a bed — you know what goes in it."]
@@ -127,6 +132,29 @@
 		}]
 		rewards: [{
 			id: "0000000000003016"
+			type: "item"
+			item: {id: "kubejs:orange", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003017"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000003014"]
+		title: "Orange You Glad I Didn't Say Bannana"
+		icon: {id: "kubejs:banana_pickaxe", Count: 1b}
+		description: ["Farm 9 oranges and craft them into a Block of Pure Vitamin C. Throw it into water. What comes out is not an orange. Craft the bananana pickaxe and never look back."]
+		tasks: [{
+			id: "0000000000003018"
+			type: "item"
+			item: {id: "pamhc2trees:orangeitem", Count: 1b}
+			count: 9L
+		}, {
+			id: "0000000000003019"
+			type: "item"
+			item: {id: "kubejs:banana_pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000301A"
 			type: "item"
 			item: {id: "minecraft:paper", Count: 1b}
 		}]
