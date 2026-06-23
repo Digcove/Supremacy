@@ -875,11 +875,6 @@ hash = "3a623778e123036da9a2c2aa1cc4aad9c4fba087c9c0a0935c31ff6c87e00527"
 metafile = true
 
 [[files]]
-file = "mods/the-one-probe.pw.toml"
-hash = "97063e6b0b10ed95e42c1d4954ab577f8d6e94a79c0a8a93206b35475dce1460"
-metafile = true
-
-[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 hash = "d1f859de9867b7433305aef1631aa22a436a4c3924474a21c0a22ab5f2093c04"
 metafile = true
