@@ -1,16 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "blue-skies.pw.toml"
-hash = "db235a96ec72ffe949a3efdbb4ede028bb4f5be890bb9990f1eee217673d528a"
-metafile = true
-
-[[files]]
-file = "explorify.pw.toml"
-hash = "7cd4c2565a55c1903820a8c2e6e6bff5c29bf7623dd18aa03d8ba39c2b6d5025"
-metafile = true
-
-[[files]]
 file = "mods/ae2.pw.toml"
 hash = "74bbdad7434bc02ec767c15c0136269f885331601f73fa2365252c24e58c09bd"
 metafile = true
@@ -88,6 +78,11 @@ metafile = true
 [[files]]
 file = "mods/blood-magic.pw.toml"
 hash = "3b879bca4fd5bb5a90e9f0ce5d975c89f5676071997cb2e61383a40242fa0b3d"
+metafile = true
+
+[[files]]
+file = "mods/blue-skies.pw.toml"
+hash = "db235a96ec72ffe949a3efdbb4ede028bb4f5be890bb9990f1eee217673d528a"
 metafile = true
 
 [[files]]
@@ -178,6 +173,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
+metafile = true
+
+[[files]]
+file = "mods/explorify.pw.toml"
+hash = "7cd4c2565a55c1903820a8c2e6e6bff5c29bf7623dd18aa03d8ba39c2b6d5025"
 metafile = true
 
 [[files]]
@@ -521,6 +521,11 @@ hash = "7bf5beda21dae1c14bf20864657e95c1a2af98e6c7317dcb620826aa0d08d7e3"
 metafile = true
 
 [[files]]
+file = "mods/the-aether.pw.toml"
+hash = "82c51fd501da0f0e6f950bbe8a39c038042f62913435120941f5cafbda4faaaa"
+metafile = true
+
+[[files]]
 file = "mods/the-one-probe.pw.toml"
 hash = "97063e6b0b10ed95e42c1d4954ab577f8d6e94a79c0a8a93206b35475dce1460"
 metafile = true
@@ -613,9 +618,4 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
-metafile = true
-
-[[files]]
-file = "the-aether.pw.toml"
-hash = "82c51fd501da0f0e6f950bbe8a39c038042f62913435120941f5cafbda4faaaa"
 metafile = true
