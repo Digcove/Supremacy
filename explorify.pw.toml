@@ -1,0 +1,13 @@
+name = "explorify"
+filename = "chamba.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6d01abe3b7a019d327e95e20785b706b94a374a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4839568
+project-id = 931611
