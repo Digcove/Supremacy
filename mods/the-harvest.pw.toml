@@ -1,0 +1,13 @@
+name = "The Harvest"
+filename = "The-Harvest-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sV6ykEOL/versions/RUZ0WXad/The-Harvest-1.20.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "c4e0e456b8cbfadeaaa63bfde6bd69f33db092e3f02c8fca19b7c24d71421e643a5b60d794684477c4bcf49c25c250e52720fcdb32ef5c18291aa1a0298c227f"
+
+[update]
+[update.modrinth]
+mod-id = "sV6ykEOL"
+version = "RUZ0WXad"

@@ -1,0 +1,13 @@
+name = "Library of Exile"
+filename = "Library_of_Exile-1.20.1-2.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/p87a38Zl/versions/ufVIE8TS/Library_of_Exile-1.20.1-2.1.3.jar"
+hash-format = "sha512"
+hash = "91906d36bb7f6f0b3a32b8654c200ca960625c82d66b7f0a546101466bff578986e177c7a01c1226f3e3dea4cc43788c685362b67ac3780f1810f0fb4a44bc54"
+
+[update]
+[update.modrinth]
+mod-id = "p87a38Zl"
+version = "ufVIE8TS"

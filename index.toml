@@ -261,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
+hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
@@ -277,6 +277,11 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "eb60f70cc84efa111a51c35311a44ae352b3b9c98ec7ba4e64595ae627e33006"
+metafile = true
+
+[[files]]
+file = "mods/dungeon-realm.pw.toml"
+hash = "de01e07ec1fda45f293b65f69fa9c7f6b9b8077bc1a18b1ea788c187b1ee9998"
 metafile = true
 
 [[files]]
@@ -480,6 +485,11 @@ hash = "fbf967b492d575d65f066941652400dc32b998a16ac477a4b8f0efc2f681296a"
 metafile = true
 
 [[files]]
+file = "mods/library-of-exile.pw.toml"
+hash = "d70f5c7777551605a32de6225c48c73727185e3b2d146b2e0779bc907988efa2"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "300eb043e53e956e58c9ff56d261d2473b473a387eef3dcfec44324c8d330a39"
 metafile = true
@@ -527,6 +537,11 @@ metafile = true
 [[files]]
 file = "mods/mcjtylib.pw.toml"
 hash = "cad191760503c4f85107c334d987b3aec7286396134f2f3b4f8b6a4eaafee44e"
+metafile = true
+
+[[files]]
+file = "mods/mine-and-slash.pw.toml"
+hash = "97f77a252b2151f317c71feef1fe5370ea452a51365b6d431497bd3929d39284"
 metafile = true
 
 [[files]]
@@ -661,7 +676,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
+hash = "765987a78e5d8c782d0da2de99998b43b5907d6c41347d3804045ad109e4a586"
 metafile = true
 
 [[files]]
@@ -817,6 +832,11 @@ metafile = true
 [[files]]
 file = "mods/the-aether.pw.toml"
 hash = "82c51fd501da0f0e6f950bbe8a39c038042f62913435120941f5cafbda4faaaa"
+metafile = true
+
+[[files]]
+file = "mods/the-harvest.pw.toml"
+hash = "3a623778e123036da9a2c2aa1cc4aad9c4fba087c9c0a0935c31ff6c87e00527"
 metafile = true
 
 [[files]]
