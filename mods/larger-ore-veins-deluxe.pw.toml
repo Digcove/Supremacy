@@ -1,0 +1,13 @@
+name = "Larger Ore Veins: Deluxe"
+filename = "larger-ore-veins-deluxe-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1bRLEs28/versions/B9H5LIvU/larger-ore-veins-deluxe-1.2.2.jar"
+hash-format = "sha512"
+hash = "8540cd110b75b292fc8d2567ea7301c032947ef51952aeff8abaf26612b9072e2d50ff3a099fb9c0fb66af1b6018e25f6d0335c4d1408fdb08ef222341d1bd3a"
+
+[update]
+[update.modrinth]
+mod-id = "1bRLEs28"
+version = "B9H5LIvU"

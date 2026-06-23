@@ -1,0 +1,13 @@
+name = "Farmers Respite"
+filename = "Farmers Respite emf.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce452d06e94ed958aa747bcc2eff782817321be9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6393073
+project-id = 1223700
