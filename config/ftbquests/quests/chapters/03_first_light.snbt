@@ -1,0 +1,13 @@
+{
+	id: "0000000000002003"
+	group: "0000000000001001"
+	order_index: 2
+	filename: "03_first_light"
+	title: "First Light"
+	icon: {id: "minecraft:redstone", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

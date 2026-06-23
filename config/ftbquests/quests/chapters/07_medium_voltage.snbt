@@ -1,0 +1,13 @@
+{
+	id: "0000000000002007"
+	group: "0000000000001001"
+	order_index: 6
+	filename: "07_medium_voltage"
+	title: "Medium Voltage"
+	icon: {id: "minecraft:comparator", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

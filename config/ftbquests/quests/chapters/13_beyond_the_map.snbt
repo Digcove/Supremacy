@@ -1,0 +1,13 @@
+{
+	id: "000000000000200D"
+	group: "0000000000001001"
+	order_index: 12
+	filename: "13_beyond_the_map"
+	title: "Beyond the Map"
+	icon: {id: "minecraft:nether_star", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

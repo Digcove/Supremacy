@@ -1,0 +1,13 @@
+{
+	id: "0000000000002004"
+	group: "0000000000001001"
+	order_index: 3
+	filename: "04_arcane_and_machine"
+	title: "The Arcane & The Machine"
+	icon: {id: "minecraft:blaze_powder", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

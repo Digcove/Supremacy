@@ -1,0 +1,13 @@
+{
+	id: "0000000000002009"
+	group: "0000000000001001"
+	order_index: 8
+	filename: "09_high_voltage"
+	title: "High Voltage"
+	icon: {id: "minecraft:gold_ingot", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

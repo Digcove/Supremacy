@@ -1,0 +1,13 @@
+{
+	id: "0000000000002002"
+	group: "0000000000001001"
+	order_index: 1
+	filename: "02_stone_and_steel"
+	title: "Stone & Steel"
+	icon: {id: "minecraft:iron_sword", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

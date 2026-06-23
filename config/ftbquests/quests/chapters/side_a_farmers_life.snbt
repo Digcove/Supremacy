@@ -1,0 +1,13 @@
+{
+	id: "000000000000200E"
+	group: "0000000000001002"
+	order_index: 0
+	filename: "side_a_farmers_life"
+	title: "A Farmer's Life"
+	icon: {id: "minecraft:wheat", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

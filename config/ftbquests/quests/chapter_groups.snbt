@@ -1,0 +1,13 @@
+{
+	groups: [{
+		id: "0000000000001001"
+		order_index: 0
+		title: "Main Progression"
+		icon: {id: "minecraft:nether_star", Count: 1b}
+	}, {
+		id: "0000000000001002"
+		order_index: 1
+		title: "Side Quests"
+		icon: {id: "minecraft:map", Count: 1b}
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	id: "000000000000200B"
+	group: "0000000000001001"
+	order_index: 10
+	filename: "11_extreme_voltage"
+	title: "Extreme Voltage"
+	icon: {id: "minecraft:diamond", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

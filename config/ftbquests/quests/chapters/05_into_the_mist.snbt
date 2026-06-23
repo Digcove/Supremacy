@@ -1,0 +1,13 @@
+{
+	id: "0000000000002005"
+	group: "0000000000001001"
+	order_index: 4
+	filename: "05_into_the_mist"
+	title: "Into the Mist"
+	icon: {id: "minecraft:lily_pad", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}

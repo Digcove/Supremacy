@@ -1,0 +1,13 @@
+{
+	id: "000000000000200C"
+	group: "0000000000001001"
+	order_index: 11
+	filename: "12_gates_of_oblivion"
+	title: "Gates of Oblivion"
+	icon: {id: "minecraft:end_crystal", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: []
+	quest_links: []
+}
