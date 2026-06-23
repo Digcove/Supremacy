@@ -8,6 +8,80 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000003001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Ground Beneath Your Feet"
+		icon: {id: "minecraft:dirt", Count: 1b}
+		description: ["Suddenly, both known and unknown, rough on your hands. The soil of this land is the same as my old world. Ripe land for you the great grandson of the pig god to conquer."]
+		tasks: [{
+			id: "0000000000003002"
+			type: "item"
+			item: {id: "minecraft:dirt", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003003"
+			type: "item"
+			item: {id: "minecraft:golden_helmet", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003004"
+		x: 2.0d
+		y: 0.0d
+		title: "A Man's Best Friend"
+		icon: {id: "minecraft:horse_spawn_egg", Count: 1b}
+		description: ["Craft a Horse Spawn Egg and bring your loyal companion into the world."]
+		tasks: [{
+			id: "0000000000003005"
+			type: "item"
+			item: {id: "minecraft:horse_spawn_egg", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003006"
+			type: "item"
+			item: {id: "minecraft:saddle", Count: 1b}
+		}, {
+			id: "0000000000003007"
+			type: "item"
+			item: {id: "minecraft:iron_horse_armor", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003008"
+		x: 4.0d
+		y: 0.0d
+		title: "I've Got a Woody"
+		icon: {id: "minecraft:oak_log", Count: 1b}
+		description: ["Wasn't that hard on your fists."]
+		tasks: [{
+			id: "0000000000003009"
+			type: "item"
+			item: {id: "minecraft:oak_log", Count: 1b}
+			count: 16L
+			tag: "forge:logs"
+		}]
+		rewards: [{
+			id: "000000000000300A"
+			type: "item"
+			item: {id: "minecraft:wooden_axe", Count: 1b}
+		}]
+	}, {
+		id: "000000000000300B"
+		x: 6.0d
+		y: 0.0d
+		title: "Bony-ier Bones"
+		icon: {id: "minecraft:bone", Count: 1b}
+		description: ["In order to knap flint into tools you're gonna need a big ole boner."]
+		tasks: [{
+			id: "000000000000300C"
+			type: "item"
+			item: {id: "minecraft:bone", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000300D"
+			type: "item"
+			item: {id: "kubejs:flint_compass", Count: 1b}
+		}]
+	}]
 	quest_links: []
 }
