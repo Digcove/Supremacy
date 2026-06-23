@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
 
 [[files]]
@@ -361,7 +361,7 @@ metafile = true
 
 [[files]]
 file = "mods/gregtechceu-modern.pw.toml"
-hash = "985697bebbb8874f9b2f12f4caca721e2cf28d42dc084e894f40f045d4c21fe5"
+hash = "7ce907dafa5ddfd25353cbdd258559f04db20c152f5228f10486d1436c6634d4"
 metafile = true
 
 [[files]]
