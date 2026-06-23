@@ -1,16 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "create-new-age.pw.toml"
-hash = "6bac6f8105555860812e08bca344eb0a05a3ff3f31c6ab50440cb3b0672eb76f"
-metafile = true
-
-[[files]]
-file = "farmers-respite.pw.toml"
-hash = "5bde4fb52a48538aea7b16c14f5fbdd0762573d570c8a89e2c84ce86ebdd91eb"
-metafile = true
-
-[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
 metafile = true
@@ -231,6 +221,11 @@ hash = "40ac9690c8b569e974a1f3172ea9a517ca1459ad04ab7144a0be85280227c45e"
 metafile = true
 
 [[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "6bac6f8105555860812e08bca344eb0a05a3ff3f31c6ab50440cb3b0672eb76f"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "a432e8775c2bdec53fca88146917905c5c82273e1b66af48b5ace0809433c8fe"
 metafile = true
@@ -293,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d7139e5db4b5a9b5d80330854bb23ce2cd197009b6d8e3636aa017434066b830"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite.pw.toml"
+hash = "5bde4fb52a48538aea7b16c14f5fbdd0762573d570c8a89e2c84ce86ebdd91eb"
 metafile = true
 
 [[files]]
