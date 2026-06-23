@@ -82,6 +82,54 @@
 			type: "item"
 			item: {id: "kubejs:flint_compass", Count: 1b}
 		}]
+	}, {
+		id: "000000000000300E"
+		x: 8.0d
+		y: 0.0d
+		title: "Four Walls and a Roof"
+		icon: {id: "minecraft:oak_planks", Count: 1b}
+		description: ["Put those flint tools to work. This land is wild and unforgiving — you need four walls and a roof before nightfall claims you. Spend 30 minutes building your first home. The wilderness can wait."]
+		tasks: [{
+			id: "000000000000300F"
+			type: "stat"
+			stat: "minecraft:play_time"
+			value: 36000L
+		}]
+		rewards: [{
+			id: "0000000000003010"
+			type: "item"
+			item: {id: "kubejs:soaked_sock", Count: 1b}
+		}, {
+			id: "0000000000003011"
+			type: "item"
+			item: {id: "waystones:waystone", Count: 1b}
+		}, {
+			id: "0000000000003012"
+			type: "item"
+			item: {id: "sophisticatedbackpacks:backpack", Count: 1b}
+		}, {
+			id: "0000000000003013"
+			type: "item"
+			item: {id: "supplementaries:sleeping_bag", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003014"
+		x: 10.0d
+		y: 0.0d
+		title: "Sleep Tight"
+		icon: {id: "minecraft:red_bed", Count: 1b}
+		description: ["A roof overhead means nothing if you're sleeping on the floor. Craft a bed — you know what goes in it."]
+		tasks: [{
+			id: "0000000000003015"
+			type: "item"
+			item: {id: "minecraft:red_bed", Count: 1b}
+			tag: "minecraft:beds"
+		}]
+		rewards: [{
+			id: "0000000000003016"
+			type: "item"
+			item: {id: "minecraft:paper", Count: 1b}
+		}]
 	}]
 	quest_links: []
 }

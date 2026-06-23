@@ -58,4 +58,14 @@ StartupEvents.registry('item', event => {
         .displayName('Flint Compass')
         .texture('kubejs:item/flint_compass')
 
+    // === SOCK SYSTEM ===
+
+    event.create('sock')
+        .displayName('Sock')
+        .texture('kubejs:item/sock')
+
+    event.create('soaked_sock')
+        .displayName('Bull Cum Soaked Sock')
+        .texture('kubejs:item/soaked_sock')
+
 })
