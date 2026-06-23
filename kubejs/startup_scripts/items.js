@@ -68,6 +68,25 @@ StartupEvents.registry('item', event => {
         .displayName('Bull Cum Soaked Sock')
         .texture('kubejs:item/soaked_sock')
 
+    // === STONER SPEAR SYSTEM ===
+
+    event.create('compressed_stick')
+        .displayName('Compressed Stick')
+        .texture('kubejs:item/compressed_stick')
+
+    event.create('stoner_spear', 'sword')
+        .displayName('Stoner Spear')
+        .texture('kubejs:item/stoner_spear')
+        .tag('forge:tools/swords')
+        .tier(tier => {
+            tier.uses = 500
+            tier.speed = 6.0
+            tier.attackDamageBonus = 3.0
+            tier.level = 2
+            tier.enchantmentValue = 10
+            tier.repairIngredient = 'rcc:cobblestone_one'
+        })
+
     // === BANANA SYSTEM ===
 
     event.create('orange')

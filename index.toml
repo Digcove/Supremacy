@@ -89,8 +89,16 @@ file = "kubejs/server_scripts/spawn_eggs.js"
 hash = "29098aa01c89c8cd8ae4e58afb271dae4dff2483a4d82e5b94da509f9c0c134d"
 
 [[files]]
+file = "kubejs/server_scripts/stoner_spear.js"
+hash = "d0a03fcb47a48bafca4ff1fdbd5e5dd0e17f84258b218ef921a8ca88aa565977"
+
+[[files]]
+file = "kubejs/server_scripts/weapon_disable.js"
+hash = "13ddb6062e53cb329d180c2a4d750ff4a487709a1e2db458ec5afa90739b6f73"
+
+[[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "d699c02f1e39df1d02b27402e222ca3059d7ec77c18d6c796eb8c8a9f5586f3d"
+hash = "736c8b76874bcd4c1667370bdfb3c0ab5a54a189d6dbd3f10dfd92c7e1ccd012"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -847,6 +855,11 @@ hash = "e162eaf2b01dcfc4f7f9f796284f1a577fcfc244057081e32f8f432891ba6a7a"
 metafile = true
 
 [[files]]
+file = "mods/remags-compressed-cobblestone.pw.toml"
+hash = "6081af86ffbba99acc53953ceee070ddd3258ab3d5ea95e3ad9f90c653d088c2"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "e242387207a2538b5ccb55697174c65e549e1eb2fef9da37e1ad3734e0372b65"
 metafile = true
@@ -1108,4 +1121,4 @@ metafile = true
 
 [[files]]
 file = "texture_checklist.md"
-hash = "b1472c4adfddec789f384db333b4ec3a7ec0ab50017cb9934a66fe9e22ceaf53"
+hash = "0c4f2013a02f18689599d945967baf12e7fc22a63a7707c554a11a5060c62702"

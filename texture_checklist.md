@@ -37,5 +37,6 @@ Format: 16×16 PNG
 
 ---
 
-## To Be Added
-*New custom items will be appended here as quests are written.*
+## Stoner Spear System
+- [ ] `compressed_stick.png` — 9 sticks compressed into 1
+- [ ] `stoner_spear.png` — Stone Spear + compressed cobblestone weapon with Unbreaking V / Knockback III
