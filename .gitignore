@@ -1,3 +1,6 @@
 # packwiz cache
 .packwiz/
 *.tmp
+
+# Large export files
+*.mrpack
