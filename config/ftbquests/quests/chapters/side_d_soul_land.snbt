@@ -9,6 +9,23 @@
 	default_hide_dependency_lines: false
 	groups: []
 	quests: [{
+		id: "000000000000A050"
+		x: -2.0d
+		y: 0.0d
+		title: "The Cultivation Manual"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["The Cultivation Manual is Soul Land's reference guide — it covers the cultivation rank system, Soul Ring absorption, Martial Soul forms, Spirit Beast hunting, and the Forging Table recipes.", "Craft it at the Forging Table. Read it before your first meditation session. The rank progression (Spirit Scholar → Spirit Master → Soul Master → ...) and the ring color hierarchy (White → Yellow → Purple → Black → Red → Gold) are both explained inside."]
+		tasks: [{
+			id: "000000000000A051"
+			type: "checkmark"
+			title: "Craft and read the Cultivation Manual"
+		}]
+		rewards: [{
+			id: "000000000000A052"
+			type: "item"
+			item: {id: "soulland:spirit_condensing_pill", Count: 1b}
+		}]
+	}, {
 		id: "000000000000A001"
 		x: 0.0d
 		y: 0.0d

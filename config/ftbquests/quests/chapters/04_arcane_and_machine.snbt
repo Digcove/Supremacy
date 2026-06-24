@@ -9,6 +9,40 @@
 	default_hide_dependency_lines: false
 	groups: []
 	quests: [{
+		id: "000000000000C019"
+		x: -2.0d
+		y: 0.0d
+		title: "The Worn Notebook"
+		icon: {id: "ars_nouveau:worn_notebook", Count: 1b}
+		description: ["The Worn Notebook is your Ars Nouveau reference guide. It covers the spell grammar system (Form → Effect → Augment), Source generation, familiar summoning, and all glyph recipes.", "You won't have it in your inventory at spawn — find it by crafting: one Book plus one Mana Gem (Source Gem). Read it before you start assembling spells. The glyph system is unintuitive until you understand the grammar."]
+		tasks: [{
+			id: "000000000000C01A"
+			type: "checkmark"
+			title: "Craft and read the Worn Notebook"
+		}]
+		rewards: [{
+			id: "000000000000C01B"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000000C01C"
+		x: 0.0d
+		y: -2.0d
+		title: "On the Dynamics of Integration"
+		icon: {id: "ars_creo:book", Count: 1b}
+		description: ["Ars Creo bridges Ars Nouveau and Create — it adds spell glyphs that interact with rotational mechanics and Create structures, and Create blocks that respond to Source input.", "The guidebook 'On the Dynamics of Integration' explains every cross-mod mechanic. Craft it once you have both a Source infrastructure and working rotational power. The integration opens up late-game automation options that neither mod offers alone."]
+		tasks: [{
+			id: "000000000000C01D"
+			type: "checkmark"
+			title: "Obtain and read On the Dynamics of Integration (Ars Creo guidebook)"
+		}]
+		rewards: [{
+			id: "000000000000C01E"
+			type: "item"
+			item: {id: "create:brass_ingot", Count: 4b}
+		}]
+	}, {
 		id: "000000000000C001"
 		x: 0.0d
 		y: 0.0d

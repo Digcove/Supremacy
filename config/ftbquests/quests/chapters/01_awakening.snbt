@@ -30,251 +30,249 @@
 		x: 2.0d
 		y: 0.0d
 		dependencies: ["0000000000003001"]
-		title: "A Man's Best Friend"
-		icon: {id: "minecraft:horse_spawn_egg", Count: 1b}
-		description: ["Craft a Horse Spawn Egg and bring your loyal companion into the world."]
-		tasks: [{
-			id: "0000000000003005"
-			type: "item"
-			item: {id: "minecraft:horse_spawn_egg", Count: 1b}
-		}]
-		rewards: [{
-			id: "0000000000003006"
-			type: "item"
-			item: {id: "minecraft:saddle", Count: 1b}
-		}, {
-			id: "0000000000003007"
-			type: "item"
-			item: {id: "minecraft:iron_horse_armor", Count: 1b}
-		}]
-	}, {
-		id: "0000000000003008"
-		x: 4.0d
-		y: 0.0d
-		dependencies: ["0000000000003004"]
 		title: "I've Got a Woody"
 		icon: {id: "minecraft:oak_log", Count: 1b}
 		description: ["Wasn't that hard on your fists."]
 		tasks: [{
-			id: "0000000000003009"
+			id: "0000000000003005"
 			type: "item"
 			item: {id: "minecraft:oak_log", Count: 1b}
 			count: 16L
 			tag: "forge:logs"
 		}]
 		rewards: [{
-			id: "000000000000300A"
+			id: "0000000000003006"
 			type: "item"
 			item: {id: "minecraft:wooden_axe", Count: 1b}
 		}]
 	}, {
-		id: "000000000000300B"
+		id: "0000000000003007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000003004"]
+		title: "Stone Cold"
+		icon: {id: "minecraft:stone_pickaxe", Count: 1b}
+		description: ["Those wooden twigs won't last the hour. Get yourself a proper pickaxe — cobblestone is right beneath your feet."]
+		tasks: [{
+			id: "0000000000003008"
+			type: "item"
+			item: {id: "minecraft:stone_pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003009"
+			type: "item"
+			item: {id: "minecraft:cobblestone", Count: 16b}
+		}]
+	}, {
+		id: "000000000000300A"
 		x: 6.0d
 		y: 0.0d
-		dependencies: ["0000000000003008"]
-		title: "Bony-ier Bones"
-		icon: {id: "minecraft:bone", Count: 1b}
-		description: ["In order to knap flint into tools you're gonna need a big ole boner."]
+		dependencies: ["0000000000003007"]
+		title: "A Man's Best Friend"
+		icon: {id: "minecraft:saddle", Count: 1b}
+		description: ["Every great warrior needs a mount. You're not getting one for free — gather five wheat and an apple. The saddle's yours."]
 		tasks: [{
+			id: "000000000000300B"
+			type: "item"
+			item: {id: "minecraft:wheat", Count: 1b}
+			count: 5L
+		}, {
 			id: "000000000000300C"
 			type: "item"
-			item: {id: "minecraft:bone", Count: 1b}
+			item: {id: "minecraft:apple", Count: 1b}
 		}]
 		rewards: [{
 			id: "000000000000300D"
 			type: "item"
-			item: {id: "kubejs:flint_compass", Count: 1b}
+			item: {id: "minecraft:saddle", Count: 1b}
+		}, {
+			id: "000000000000300E"
+			type: "item"
+			item: {id: "minecraft:iron_horse_armor", Count: 1b}
 		}]
 	}, {
-		id: "000000000000300E"
+		id: "000000000000300F"
 		x: 8.0d
 		y: 0.0d
-		dependencies: ["000000000000300B"]
+		dependencies: ["000000000000300A"]
+		title: "Blood from Stone"
+		icon: {id: "minecraft:iron_ingot", Count: 1b}
+		description: ["The surface yields only so much. Go underground — sixteen iron ingots is the price of admission into anything worth doing in this world."]
+		tasks: [{
+			id: "0000000000003010"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 1b}
+			count: 16L
+			tag: "forge:ingots/iron"
+		}]
+		rewards: [{
+			id: "0000000000003011"
+			type: "item"
+			item: {id: "minecraft:blast_furnace", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003012"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000300F"]
 		title: "Four Walls and a Roof"
 		icon: {id: "minecraft:oak_planks", Count: 1b}
-		description: ["Put those flint tools to work. This land is wild and unforgiving — you need four walls and a roof before nightfall claims you. Spend 30 minutes building your first home. The wilderness can wait."]
+		description: ["Put those tools to work. This land is wild and unforgiving — you need four walls and a roof before nightfall claims you. Spend 30 minutes building your first home. The wilderness can wait."]
 		tasks: [{
-			id: "000000000000300F"
+			id: "0000000000003013"
 			type: "stat"
 			stat: "minecraft:play_time"
 			value: 36000L
 		}]
 		rewards: [{
-			id: "0000000000003010"
-			type: "item"
-			item: {id: "kubejs:soaked_sock", Count: 1b}
-		}, {
-			id: "0000000000003011"
+			id: "0000000000003014"
 			type: "item"
 			item: {id: "waystones:waystone", Count: 1b}
 		}, {
-			id: "0000000000003012"
+			id: "0000000000003015"
 			type: "item"
 			item: {id: "sophisticatedbackpacks:backpack", Count: 1b}
 		}, {
-			id: "0000000000003013"
-			type: "item"
-			item: {id: "supplementaries:sleeping_bag", Count: 1b}
-		}]
-	}, {
-		id: "0000000000003014"
-		x: 10.0d
-		y: 0.0d
-		dependencies: ["000000000000300E"]
-		title: "Sleep Tight"
-		icon: {id: "minecraft:red_bed", Count: 1b}
-		description: ["A roof overhead means nothing if you're sleeping on the floor. Craft a bed — you know what goes in it."]
-		tasks: [{
-			id: "0000000000003015"
-			type: "item"
-			item: {id: "minecraft:red_bed", Count: 1b}
-			tag: "minecraft:beds"
-		}]
-		rewards: [{
 			id: "0000000000003016"
 			type: "item"
-			item: {id: "kubejs:orange", Count: 1b}
+			item: {id: "supplementaries:sleeping_bag", Count: 1b}
 		}]
 	}, {
 		id: "0000000000003017"
 		x: 12.0d
 		y: 0.0d
-		dependencies: ["0000000000003014"]
-		title: "Orange You Glad I Didn't Say Bannana"
-		icon: {id: "kubejs:banana_pickaxe", Count: 1b}
-		description: ["Farm 9 oranges and craft them into a Block of Pure Vitamin C. Throw it into water. What comes out is not an orange. Craft the bananana pickaxe and never look back."]
+		dependencies: ["0000000000003012"]
+		title: "Sleep Tight"
+		icon: {id: "minecraft:red_bed", Count: 1b}
+		description: ["A roof overhead means nothing if you're sleeping on the floor. Craft a bed — you know what goes in it."]
 		tasks: [{
 			id: "0000000000003018"
 			type: "item"
-			item: {id: "pamhc2trees:orangeitem", Count: 1b}
-			count: 9L
-		}, {
-			id: "0000000000003019"
-			type: "item"
-			item: {id: "kubejs:banana_pickaxe", Count: 1b}
+			item: {id: "minecraft:red_bed", Count: 1b}
+			tag: "minecraft:beds"
 		}]
 		rewards: [{
-			id: "000000000000301A"
+			id: "0000000000003019"
 			type: "item"
-			item: {id: "minecraft:paper", Count: 1b}
+			item: {id: "minecraft:bread", Count: 4b}
 		}]
 	}, {
-		id: "000000000000301B"
+		id: "000000000000301A"
 		x: 14.0d
 		y: 0.0d
 		dependencies: ["0000000000003017"]
 		title: "The Stoner Spear"
-		icon: {id: "kubejs:stoner_spear", Count: 1b}
-		description: ["Three chunks of compressed cobblestone, a stone spear, and a compressed stick! The weight alone is enough to make even the mightiest bloke look like he's had the biggest toke. Craft the Stoner Spear."]
+		icon: {id: "spartanweaponry:stone_spear", Count: 1b}
+		description: ["The night has teeth. A stone spear won't win you any wars, but it'll buy you enough mornings to get somewhere worth going. Craft one and introduce the local wildlife to what happens when you stop running."]
 		tasks: [{
-			id: "000000000000301C"
+			id: "000000000000301B"
 			type: "item"
-			item: {id: "kubejs:stoner_spear", Count: 1b}
+			item: {id: "spartanweaponry:stone_spear", Count: 1b}
 		}]
 		rewards: [{
-			id: "000000000000301D"
+			id: "000000000000301C"
 			type: "item"
 			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
 		}]
 	}, {
-		id: "000000000000301E"
+		id: "000000000000301D"
 		x: 16.0d
 		y: 0.0d
-		dependencies: ["000000000000301B"]
+		dependencies: ["000000000000301A"]
 		title: "The Soul Within"
 		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
-		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socketor Orb to unlock its true potential.", "This is the Mine & Slash soul — the stat-building layer. There is also a Soul Land Martial Soul running a parallel cultivation track. Both are worth your time. Both feed the same endgame. See Side D."]
+		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socket Orb to unlock its true potential.", "This is the Mine & Slash soul — the stat-building layer. There is also a Soul Land Martial Soul running a parallel cultivation track. Both are worth your time. Both feed the same endgame. See Side D."]
 		tasks: [{
-			id: "000000000000301F"
+			id: "000000000000301E"
 			type: "item"
-			item: {id: "kubejs:stoner_spear", Count: 1b}
+			item: {id: "spartanweaponry:stone_spear", Count: 1b}
 		}]
 		rewards: [{
-			id: "0000000000003020"
+			id: "000000000000301F"
 			type: "item"
 			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
 		}]
 	}, {
-		id: "0000000000003021"
+		id: "0000000000003020"
 		x: 18.0d
 		y: 0.0d
-		dependencies: ["000000000000301E"]
-		title: "Dressed to the Bone"
-		icon: {id: "kubejs:boneanner_chestplate", Count: 1b}
-		description: ["Bone and banana — an unlikely pair, but Kieransmama has never been conventional. Craft the Boneanner Chestplate, Leggings, and Boots to complete the set. What you lack in style you will more than make up for in Projectile Protection.", "Once the set is complete, three paths will open. Each one defines what kind of warrior you are — Plate for raw defense, Leather for agility, Cloth for arcane power. Choose one path only. Apply the modifiers to all three pieces. There is no going back."]
+		dependencies: ["000000000000301D"]
+		title: "Dressed for Battle"
+		icon: {id: "minecraft:iron_chestplate", Count: 1b}
+		description: ["Iron across the chest, down the legs, and on the feet. Complete the set. Then choose your path — Plate for those who stand firm, Leather for those who move fast, Cloth for those who command the unseen.", "Once the set is complete, three paths will open. Each one defines what kind of warrior you are. Choose one path only. Apply the Force Soul Tags to all three pieces. There is no going back."]
 		tasks: [{
+			id: "0000000000003021"
+			type: "item"
+			item: {id: "minecraft:iron_chestplate", Count: 1b}
+		}, {
 			id: "0000000000003022"
 			type: "item"
-			item: {id: "kubejs:boneanner_chestplate", Count: 1b}
+			item: {id: "minecraft:iron_leggings", Count: 1b}
 		}, {
 			id: "0000000000003023"
 			type: "item"
-			item: {id: "kubejs:boneanner_leggings", Count: 1b}
-		}, {
-			id: "0000000000003024"
-			type: "item"
-			item: {id: "kubejs:boneanner_boots", Count: 1b}
+			item: {id: "minecraft:iron_boots", Count: 1b}
 		}]
 		rewards: [{
-			id: "0000000000003025"
+			id: "0000000000003024"
 			type: "item"
-			item: {id: "kubejs:banana_helmet", Count: 1b}
+			item: {id: "minecraft:iron_helmet", Count: 1b}
 		}, {
-			id: "0000000000003026"
+			id: "0000000000003025"
 			type: "item"
 			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 4b}
 		}]
 	}, {
-		id: "0000000000003027"
+		id: "0000000000003026"
 		x: 20.0d
 		y: -1.0d
-		dependencies: ["0000000000003021"]
+		dependencies: ["0000000000003020"]
 		title: "The Plate Path"
 		icon: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 1b}
-		description: ["You have chosen the Plate Path. Your Boneanner armor will become heavy plate — built to absorb punishment and hold the line. Use each of the three Force Soul Tag: Armor modifiers on your Chestplate, Leggings, and Boots to lock in the plate archetype across the full set. Do not complete the other paths."]
+		description: ["You have chosen the Plate Path. Your iron armor will become heavy plate — built to absorb punishment and hold the line. Use each of the three Force Soul Tag: Armor modifiers on your Chestplate, Leggings, and Boots to lock in the plate archetype across the full set. Do not complete the other paths."]
 		tasks: [{
-			id: "0000000000003028"
+			id: "0000000000003027"
 			type: "item"
-			item: {id: "kubejs:boneanner_chestplate", Count: 1b}
+			item: {id: "minecraft:iron_chestplate", Count: 1b}
 		}]
 		rewards: [{
-			id: "0000000000003029"
+			id: "0000000000003028"
 			type: "item"
 			item: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 3b}
 		}]
 	}, {
-		id: "000000000000302A"
+		id: "0000000000003029"
 		x: 20.0d
 		y: 0.0d
-		dependencies: ["0000000000003021"]
+		dependencies: ["0000000000003020"]
 		title: "The Leather Path"
 		icon: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 1b}
-		description: ["You have chosen the Leather Path. Your Boneanner armor will become supple leather — built for those who survive by not being where the blade lands. Use each of the three Force Soul Tag: Dodge modifiers on your Chestplate, Leggings, and Boots to lock in the leather archetype across the full set. Do not complete the other paths."]
+		description: ["You have chosen the Leather Path. Your iron armor will become supple leather — built for those who survive by not being where the blade lands. Use each of the three Force Soul Tag: Dodge modifiers on your Chestplate, Leggings, and Boots to lock in the leather archetype across the full set. Do not complete the other paths."]
 		tasks: [{
-			id: "000000000000302B"
+			id: "000000000000302A"
 			type: "item"
-			item: {id: "kubejs:boneanner_leggings", Count: 1b}
+			item: {id: "minecraft:iron_leggings", Count: 1b}
 		}]
 		rewards: [{
-			id: "000000000000302C"
+			id: "000000000000302B"
 			type: "item"
 			item: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 3b}
 		}]
 	}, {
-		id: "000000000000302D"
+		id: "000000000000302C"
 		x: 20.0d
 		y: 1.0d
-		dependencies: ["0000000000003021"]
+		dependencies: ["0000000000003020"]
 		title: "The Cloth Path"
 		icon: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 1b}
-		description: ["You have chosen the Cloth Path. Your Boneanner armor will become woven cloth — built for those who answer steel with something far less forgiving. Use each of the three Force Soul Tag: Magic Shield modifiers on your Chestplate, Leggings, and Boots to lock in the cloth archetype across the full set. Do not complete the other paths."]
+		description: ["You have chosen the Cloth Path. Your iron armor will become woven cloth — built for those who answer steel with something far less forgiving. Use each of the three Force Soul Tag: Magic Shield modifiers on your Chestplate, Leggings, and Boots to lock in the cloth archetype across the full set. Do not complete the other paths."]
 		tasks: [{
-			id: "000000000000302E"
+			id: "000000000000302D"
 			type: "item"
-			item: {id: "kubejs:boneanner_boots", Count: 1b}
+			item: {id: "minecraft:iron_boots", Count: 1b}
 		}]
 		rewards: [{
-			id: "000000000000302F"
+			id: "000000000000302E"
 			type: "item"
 			item: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 3b}
 		}]

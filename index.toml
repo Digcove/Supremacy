@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".vscode/settings.json"
+hash = "f7c0978a395397c5dc0f4a359610123caecd53b7331c992a283a48c2806dafae"
+
+[[files]]
 file = "StarTechnology"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -518,7 +522,7 @@ hash = "d34ba6aacb8b473c52eb221080c34e5d96c17dfcea15096c16a8ebc583f0cca2"
 
 [[files]]
 file = "kubejs/startup_scripts/orb_forge_machines.js"
-hash = "bbbd1208a9056879e0f942ea7d9b6e85f8e6c026589f460f2cea54ebe10124e5"
+hash = "dab593431e03fb2578b325c96e610c76894ef21f7652f39d7adfeb2871816f4f"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"

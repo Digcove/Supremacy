@@ -232,6 +232,276 @@
 			type: "item"
 			item: {id: "occultism:spirit_attuned_gem", Count: 4b}
 		}]
+	}, {
+		id: "0000000000230001"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["000000000000E018"]
+		title: "Tier 2: Blood Runes"
+		icon: {id: "bloodmagic:blood_rune", Count: 1b}
+		description: ["The Blood Rune is the base upgrade component. Place eight of them around the outside of your altar to reach Tier 2. T2 unlocks a larger LP capacity and lets you craft the first Blood Orb — a portable Soul Network extension.", "The Weak Blood Orb holds 5,000 LP. Carry it. It dies so you don't have to run back to the altar."]
+		tasks: [{
+			id: "0000000000230002"
+			type: "item"
+			item: {id: "bloodmagic:blood_rune", Count: 8b}
+		}]
+		rewards: [{
+			id: "0000000000230003"
+			type: "item"
+			item: {id: "bloodmagic:weak_blood_orb", Count: 1b}
+		}]
+	}, {
+		id: "0000000000230004"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["0000000000230001"]
+		title: "Bound Tools"
+		icon: {id: "bloodmagic:bound_pickaxe", Count: 1b}
+		description: ["Bound Tools work like the Bound Blade — infinite durability in exchange for Life Essence per use. The Bound Pickaxe becomes Fortune III when your Soul Network is full and Silk Touch when it's low.", "They're not free — keep your network fed or the tools go dormant. But a full Soul Network makes them faster and better-enchanted than almost anything else at this tier."]
+		tasks: [{
+			id: "0000000000230005"
+			type: "item"
+			item: {id: "bloodmagic:bound_pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000230006"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 8b}
+		}]
+	}, {
+		id: "0000000000230007"
+		x: 6.0d
+		y: 4.0d
+		dependencies: ["0000000000230001"]
+		title: "Utility Sigils"
+		icon: {id: "bloodmagic:sigil_green_grove", Count: 1b}
+		description: ["The Sigil of the Green Grove hydrates farmland and accelerates nearby crop growth — just hold it in your offhand. The Void Sigil deletes a bucket's worth of fluid on use. The Magnetism Sigil pulls item drops to you from range.", "Sigils cost LP per use, not durability. They're the cheapest sustained-utility option Blood Magic offers."]
+		tasks: [{
+			id: "0000000000230008"
+			type: "item"
+			item: {id: "bloodmagic:sigil_green_grove", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000230009"
+			type: "item"
+			item: {id: "bloodmagic:sigil_void", Count: 1b}
+		}]
+	}, {
+		id: "000000000023000A"
+		x: 10.0d
+		y: 2.0d
+		dependencies: ["0000000000230004"]
+		title: "Tier 3: Speed Runes"
+		icon: {id: "bloodmagic:apprentice_blood_orb", Count: 1b}
+		description: ["Speed Runes (Acceleration Runes) reduce the altar's crafting time dramatically. Add enough to push to Tier 3 and the altar becomes fast enough for Living Armor and ritual component recipes.", "T3 also unlocks the Apprentice Blood Orb, which holds 25,000 LP. Your Soul Network just got a lot deeper."]
+		tasks: [{
+			id: "000000000023000B"
+			type: "checkmark"
+			title: "Upgrade your Blood Altar to Tier 3 with Speed Runes"
+		}]
+		rewards: [{
+			id: "000000000023000C"
+			type: "item"
+			item: {id: "bloodmagic:apprentice_blood_orb", Count: 1b}
+		}]
+	}, {
+		id: "000000000023000D"
+		x: 12.0d
+		y: 2.0d
+		dependencies: ["000000000023000A"]
+		title: "The Ritual Diviner"
+		icon: {id: "bloodmagic:ritual_diviner", Count: 1b}
+		description: ["Rituals are large multiblock structures built from Ritual Stones arranged around a Master Ritual Stone. The Ritual Diviner shows you exactly where each stone goes — right-click the ground and it projects the layout.", "There are rituals for crop growth, LP transfer across dimensions, mob summoning, and more. The Diviner is how you build them without losing your mind."]
+		tasks: [{
+			id: "000000000023000E"
+			type: "item"
+			item: {id: "bloodmagic:ritual_diviner", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000023000F"
+			type: "item"
+			item: {id: "bloodmagic:ritual_stone", Count: 16b}
+		}]
+	}, {
+		id: "0000000000230010"
+		x: 14.0d
+		y: 2.0d
+		dependencies: ["000000000023000D"]
+		title: "Living Armor"
+		icon: {id: "bloodmagic:living_chestplate", Count: 1b}
+		description: ["Living Armor is Blood Magic's endgame armor. Instead of enchantments it runs Upgrades — each slot consumes LP over time to maintain its effect. Flight, fire resistance, step assist, fall immunity — they stack and can be toggled.", "Pieces are crafted at the altar from Living Infused String. Once you have a full set, the upgrade system is where the real power lives."]
+		tasks: [{
+			id: "0000000000230011"
+			type: "checkmark"
+			title: "Craft a full set of Living Armor at the Blood Altar"
+		}]
+		rewards: [{
+			id: "0000000000230012"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 16b}
+		}]
+	}, {
+		id: "0000000000230013"
+		x: 12.0d
+		y: 4.0d
+		dependencies: ["000000000023000D"]
+		title: "Demonic Will"
+		icon: {id: "bloodmagic:sentient_sword", Count: 1b}
+		description: ["Demonic Will is a second resource collected by killing mobs while carrying a Tartaric Gem. The Petty Tartaric Gem holds a small amount — upgrade through Lesser, Common, and Grand tiers as you kill more.", "Enough Will lets you craft a Sentient Sword — it consumes Will instead of durability, deals bonus damage scaled to Will capacity, and transforms based on your current Will level."]
+		tasks: [{
+			id: "0000000000230014"
+			type: "checkmark"
+			title: "Fill a Petty Tartaric Gem with Demonic Will by slaying mobs"
+		}]
+		rewards: [{
+			id: "0000000000230015"
+			type: "item"
+			item: {id: "bloodmagic:sentient_sword", Count: 1b}
+		}]
+	}, {
+		id: "0000000000230016"
+		x: 16.0d
+		y: 2.0d
+		dependencies: ["0000000000230010"]
+		title: "Master Blood Orb"
+		icon: {id: "bloodmagic:master_blood_orb", Count: 1b}
+		description: ["The Master Blood Orb holds 10 million LP — enough to sustain any ritual, any Living Armor build, and still have reserves. Reaching T5 altar means you've climbed the Capacity Rune ladder all the way up.", "At this point, Blood Magic stops gating you on LP quantity and starts gating you on ritual complexity. Everything from here is about what you build with your network, not how big it is."]
+		tasks: [{
+			id: "0000000000230017"
+			type: "item"
+			item: {id: "bloodmagic:master_blood_orb", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000230018"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 32b}
+		}]
+	}, {
+		id: "0000000000230019"
+		x: 8.0d
+		y: -2.0d
+		dependencies: ["000000000000E024"]
+		title: "Iesnium: Otherworld Metal"
+		icon: {id: "occultism:iesnium_ingot", Count: 1b}
+		description: ["Iesnium is Occultism's native metal, found only in the Otherworld dimension. You can reach it via a sacrificial ritual, or harvest it passively by binding a Djinn miner to a Dimensional Mineshaft.", "Iesnium is required for Spirit Attuned Pickaxe Heads, higher-tier Books of Binding, and the more powerful storage infrastructure. Get a supply running early."]
+		tasks: [{
+			id: "000000000023001A"
+			type: "item"
+			item: {id: "occultism:iesnium_ingot", Count: 4b}
+		}]
+		rewards: [{
+			id: "000000000023001B"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000023001C"
+		x: 10.0d
+		y: -2.0d
+		dependencies: ["0000000000230019"]
+		title: "Gold Chalk: Djinn Tier"
+		icon: {id: "occultism:chalk_gold", Count: 1b}
+		description: ["Gold Chalk is required for higher-rank rituals including Djinn summoning. Djinn are more versatile than Foliots: they can run Wild Crushers for ore doubling, power the Storage Actuator, and manage more demanding tasks.", "Craft the Gold Chalk, draw the summoning circle from the Dictionary of Spirits, place the ritual items, activate. The chalk is consumed. The Djinn is not."]
+		tasks: [{
+			id: "000000000023001D"
+			type: "item"
+			item: {id: "occultism:chalk_gold", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000023001E"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000023001F"
+		x: 12.0d
+		y: -2.0d
+		dependencies: ["000000000023001C"]
+		title: "Purple Chalk: Afrit Tier"
+		icon: {id: "occultism:chalk_purple", Count: 1b}
+		description: ["Afrit are third-rank demons. They're powerful enough to operate smelters, run machines Djinn can't handle, and manage weather-altering rituals. Purple Chalk unlocks their summoning circles.", "Getting an Afrit requires more materials and a larger ritual setup than a Djinn. The payoff is automation that would otherwise need much heavier infrastructure."]
+		tasks: [{
+			id: "0000000000230020"
+			type: "item"
+			item: {id: "occultism:chalk_purple", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000230021"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 4b}
+		}]
+	}, {
+		id: "0000000000230022"
+		x: 14.0d
+		y: -2.0d
+		dependencies: ["000000000023001F"]
+		title: "Dimensional Mineshaft"
+		icon: {id: "occultism:dimensional_mineshaft", Count: 1b}
+		description: ["The Dimensional Mineshaft connects to a pocket dimension full of ore. Bind a Djinn miner to it and it will continuously extract ore from that dimension without touching your world.", "It doesn't run out. The pocket dimension regenerates. This is Occultism's passive ore generation — quiet, consistent, and completely hands-off once set up."]
+		tasks: [{
+			id: "0000000000230023"
+			type: "checkmark"
+			title: "Bind a miner demon to a Dimensional Mineshaft and let it run"
+		}]
+		rewards: [{
+			id: "0000000000230024"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 6b}
+		}]
+	}, {
+		id: "0000000000230025"
+		x: 16.0d
+		y: -2.0d
+		dependencies: ["0000000000230022"]
+		title: "Marid: The Apex Rank"
+		icon: {id: "occultism:chalk_red", Count: 1b}
+		description: ["Marid are the most powerful demon rank in Occultism. Red Chalk is required for their circles. A bound Marid can perform tasks no lower rank can — cutting entire forests, mining deep veins, pulling resources from the deep Otherworld.", "Getting here means you've climbed all four ranks of the demonic hierarchy. Occultism at its peak is a silent army of bound spirits working while you do something else."]
+		tasks: [{
+			id: "0000000000230026"
+			type: "item"
+			item: {id: "occultism:chalk_red", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000230027"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 8b}
+		}]
+	}, {
+		id: "0000000000230028"
+		x: 8.0d
+		y: -4.0d
+		dependencies: ["000000000000E024"]
+		title: "Spirit Fire"
+		icon: {id: "occultism:spirit_fire", Count: 1b}
+		description: ["Spirit Fire is a special ritual flame that converts mundane materials into Otherworld components — logs to Otherwood, stone to Otherstone. It's created through a specific item ritual using candles and Otherstone.", "Spirit Fire conversions are how you mass-produce Otherworld materials without constantly farming Otherworld Trees. Once you have a source of logs and stone, you have infinite Otherworld materials."]
+		tasks: [{
+			id: "0000000000230029"
+			type: "checkmark"
+			title: "Use Spirit Fire to convert at least one item into its Otherworld variant"
+		}]
+		rewards: [{
+			id: "000000000023002A"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 2b}
+		}]
+	}, {
+		id: "000000000023002B"
+		x: 10.0d
+		y: -4.0d
+		dependencies: ["0000000000230028"]
+		title: "The Familiar"
+		icon: {id: "occultism:familiar_ring", Count: 1b}
+		description: ["The Familiar ritual summons a spirit companion that bonds to you. Familiars provide passive buffs — a bat gives night vision, a cthulhu familiar gives water breathing, a beaver boosts mining speed. Equip the Familiar Ring in your curio slot so the familiar can follow you.", "Different familiars come from different ritual patterns. Check the Dictionary of Spirits for the circle matching the familiar you want."]
+		tasks: [{
+			id: "000000000023002C"
+			type: "checkmark"
+			title: "Complete a Familiar ritual and bond a spirit companion"
+		}]
+		rewards: [{
+			id: "000000000023002D"
+			type: "item"
+			item: {id: "occultism:familiar_ring", Count: 1b}
+		}]
 	}]
 	quest_links: []
 }

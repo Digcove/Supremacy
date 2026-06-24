@@ -1776,6 +1776,366 @@
 			type: "item"
 			item: {id: "pamhc2foodcore:market", Count: 4b}
 		}]
+	}, {
+		id: "0000000000013010"
+		x: 0.0d
+		y: 32.0d
+		title: "Stock the Kitchen"
+		icon: {id: "pamhc2foodcore:potitem", Count: 1b}
+		description: ["Pam's Harvestcraft 2 Food Core adds a complete cooking toolkit on top of the crop layer. Unlike Farmer's Delight's placed blocks, each Pam's tool is a handheld crafting ingredient — place it in the crafting grid alongside food items to process them. None of them are consumed by recipes; they stay in your inventory indefinitely.", "The Grinder mills grain into flour. The Juicer extracts fruit juice. The Mixing Bowl makes dough and batter. The Pot simmers dairy, meat, and soups. The Roller flattens dough into pasta and presses nuts into oil. The Saucepan reduces milk into yogurt or caramel. The Bakeware handles pies, cakes, and muffins. All seven tools are cheap to craft and non-consumable."]
+		tasks: [{
+			id: "0000000000013011"
+			type: "item"
+			item: {id: "pamhc2foodcore:grinderitem", Count: 1b}
+		}, {
+			id: "0000000000013012"
+			type: "item"
+			item: {id: "pamhc2foodcore:juiceritem", Count: 1b}
+		}, {
+			id: "0000000000013013"
+			type: "item"
+			item: {id: "pamhc2foodcore:mixingbowlitem", Count: 1b}
+		}, {
+			id: "0000000000013014"
+			type: "item"
+			item: {id: "pamhc2foodcore:potitem", Count: 1b}
+		}, {
+			id: "0000000000013015"
+			type: "item"
+			item: {id: "pamhc2foodcore:rolleritem", Count: 1b}
+		}, {
+			id: "0000000000013016"
+			type: "item"
+			item: {id: "pamhc2foodcore:saucepanitem", Count: 1b}
+		}, {
+			id: "0000000000013017"
+			type: "item"
+			item: {id: "pamhc2foodcore:bakewareitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000013018"
+			type: "item"
+			item: {id: "minecraft:egg", Count: 8b}
+		}, {
+			id: "0000000000013019"
+			type: "item"
+			item: {id: "minecraft:sugar", Count: 8b}
+		}]
+	}, {
+		id: "0000000000013020"
+		x: 2.0d
+		y: 32.0d
+		dependencies: ["0000000000013010"]
+		title: "Milled Flour"
+		icon: {id: "pamhc2foodcore:flouritem", Count: 1b}
+		description: ["Flour is the foundation of every baked good in Pam's Harvestcraft. Use the Grinder with any grain in the crafting grid — wheat, barley, oat, rye, rice, or quinoa from your fields — to produce one flour per use. No block placement needed; the Grinder is just an ingredient in the recipe.", "Flour feeds into dough, batter, stew, and fried chicken. Build a stockpile early. Nearly every cooking chain downstream burns through it quickly, and grains are cheap to grow in bulk with Botany Pots."]
+		tasks: [{
+			id: "0000000000013021"
+			type: "item"
+			item: {id: "pamhc2foodcore:flouritem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000013022"
+			type: "item"
+			item: {id: "pamhc2crops:barleyitem", Count: 8b}
+		}, {
+			id: "0000000000013023"
+			type: "item"
+			item: {id: "pamhc2crops:oatitem", Count: 8b}
+		}]
+	}, {
+		id: "0000000000013030"
+		x: 4.0d
+		y: 32.0d
+		dependencies: ["0000000000013010"]
+		title: "A Pinch of Salt"
+		icon: {id: "pamhc2foodcore:saltitem", Count: 1b}
+		description: ["Salt is extracted by boiling water in the Pot. One Pot with a water bottle or bucket yields one salt — simple, but salt appears in nearly every savory recipe: cheese, dough, stew, mashed potatoes, crackers. Keep a stack on hand.", "You will burn through it faster than expected once cooking ramps up. Glass bottles filled from any water source work. If your base is near a river or ocean this is essentially free, and any water bottle in your inventory can become salt in one crafting operation."]
+		tasks: [{
+			id: "0000000000013031"
+			type: "item"
+			item: {id: "pamhc2foodcore:saltitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000013032"
+			type: "item"
+			item: {id: "minecraft:glass_bottle", Count: 8b}
+		}]
+	}, {
+		id: "0000000000013040"
+		x: 6.0d
+		y: 32.0d
+		dependencies: ["0000000000013010"]
+		title: "Pressed Oil"
+		icon: {id: "pamhc2foodcore:cookingoilitem", Count: 1b}
+		description: ["Cooking Oil is pressed from nuts using the Roller. Any nut from Pam's tree crops — peanuts, almonds, chestnuts — can be rolled into oil, producing two bottles per use. Oil is the frying medium for fried chicken and a required ingredient in several other savory dishes.", "Peanut is a ground crop that grows in Botany Pots, making it the easiest source of a fully automated oil supply. If your almond or chestnut trees are already mature, roll the surplus. Two nuts, two bottles — it adds up fast."]
+		tasks: [{
+			id: "0000000000013041"
+			type: "item"
+			item: {id: "pamhc2foodcore:cookingoilitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000013042"
+			type: "item"
+			item: {id: "pamhc2crops:peanutitem", Count: 8b}
+		}, {
+			id: "0000000000013043"
+			type: "item"
+			item: {id: "pamhc2trees:almonditem", Count: 4b}
+		}]
+	}, {
+		id: "0000000000013050"
+		x: 8.0d
+		y: 32.0d
+		dependencies: ["0000000000013020", "0000000000013030"]
+		title: "From the Dairy"
+		icon: {id: "pamhc2foodcore:cheeseitem", Count: 1b}
+		description: ["Butter is made by simmering milk in the Pot — just the Pot and a milk bucket. Cheese adds salt to the same process: Pot, milk, salt. Both are essential to the cooking chain: butter goes into mashed potatoes and pastries, cheese into mac and cheese, grilled cheese, and crackers.", "Establish a reliable milk source before going deeper into Pam's cooking. Passive cows near your base are fine early on. The investment pays dividends across dozens of recipes and both dairy products appear consistently through the sweet and savory sides of the kitchen."]
+		tasks: [{
+			id: "0000000000013051"
+			type: "item"
+			item: {id: "pamhc2foodcore:butteritem", Count: 1b}
+			count: 2L
+		}, {
+			id: "0000000000013052"
+			type: "item"
+			item: {id: "pamhc2foodcore:cheeseitem", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "0000000000013053"
+			type: "item"
+			item: {id: "minecraft:sugar", Count: 16b}
+		}]
+	}, {
+		id: "0000000000013060"
+		x: 10.0d
+		y: 32.0d
+		dependencies: ["0000000000013050"]
+		title: "The Baker's Prep"
+		icon: {id: "pamhc2foodcore:doughitem", Count: 1b}
+		description: ["Dough and Batter are the two base forms for all baked goods in Pam's. Dough is flour, water, and salt in the Mixing Bowl — two per craft. It goes into pies and soft pretzels, and rolls into pasta with the Roller. Batter is flour, milk, and an egg in the Mixing Bowl — also two per craft. It goes into cakes, muffins, and donuts.", "Both can be prepared in advance and held in a chest. Batch a stack of each before starting a baking session. Once your flour and dairy supply is running, prepping these two takes under a minute and unlocks the entire baking tree."]
+		tasks: [{
+			id: "0000000000013061"
+			type: "item"
+			item: {id: "pamhc2foodcore:doughitem", Count: 1b}
+			count: 2L
+		}, {
+			id: "0000000000013062"
+			type: "item"
+			item: {id: "pamhc2foodcore:batteritem", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "0000000000013063"
+			type: "item"
+			item: {id: "minecraft:egg", Count: 8b}
+		}, {
+			id: "0000000000013064"
+			type: "item"
+			item: {id: "minecraft:sugar", Count: 8b}
+		}]
+	}, {
+		id: "0000000000013070"
+		x: 12.0d
+		y: 32.0d
+		dependencies: ["0000000000013050"]
+		title: "Sweet and Cultured"
+		icon: {id: "pamhc2foodcore:caramelitem", Count: 1b}
+		description: ["Yogurt is made in the Saucepan from milk alone. Caramel is milk and sugar in the same pan. Both are starting points for a wide family of flavored variants: Apple Yogurt, Caramel Ice Cream, Caramel Donuts, Caramel Cake, and more. The Saucepan reduces gently rather than boiling, producing smooth results.", "Caramel in particular threads through the entire sweet side of Pam's — keep it stocked if you plan to bake seriously. Yogurt flavors well with any fruit from your orchards and is one of the better everyday foods for its cost."]
+		tasks: [{
+			id: "0000000000013071"
+			type: "item"
+			item: {id: "pamhc2foodcore:yogurtitem", Count: 1b}
+			count: 2L
+		}, {
+			id: "0000000000013072"
+			type: "item"
+			item: {id: "pamhc2foodcore:caramelitem", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "0000000000013073"
+			type: "item"
+			item: {id: "pamhc2foodcore:chocolatebaritem", Count: 4b}
+		}]
+	}, {
+		id: "0000000000013080"
+		x: 0.0d
+		y: 34.0d
+		dependencies: ["0000000000013010"]
+		title: "Farm to Table"
+		icon: {id: "pamhc2foodcore:fruitsaladitem", Count: 1b}
+		description: ["Fruit Salad is the simplest prepared meal in Pam's kitchen: any two fruits on the Cutting Board, no heat required. Chop two pieces from your orchards and you have a dish that restores more hunger than eating them raw, with a bonus from the combination.", "This recipe demonstrates Pam's core philosophy — even basic preparation beats raw consumption. A bowl of mixed orchard fruit from your morning harvest outperforms eating individual apples every time. Once your trees are mature, this is entirely free."]
+		tasks: [{
+			id: "0000000000013081"
+			type: "item"
+			item: {id: "pamhc2foodcore:fruitsaladitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000013082"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000013090"
+		x: 2.0d
+		y: 34.0d
+		dependencies: ["0000000000013020", "0000000000013040"]
+		title: "Simmered Down"
+		icon: {id: "pamhc2foodcore:stewitem", Count: 1b}
+		description: ["Pam's Stew is a one-pot meal: raw meat, two vegetables, and flour in the Pot. Any raw meat works — beef, pork, chicken, mutton, rabbit, or fish. Any vegetables fill the vegetable slots: Pam's crops, vanilla carrots and potatoes, Farmer's Delight produce. Flour thickens the broth.", "Stew is easy to batch in large quantities once your fields and pasture are producing. It is the first true complex meal in the Pam's cooking chain — filling, flexible, and a reliable food source for extended mining or exploration sessions."]
+		tasks: [{
+			id: "0000000000013091"
+			type: "item"
+			item: {id: "pamhc2foodcore:stewitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000013092"
+			type: "item"
+			item: {id: "minecraft:cooked_beef", Count: 4b}
+		}]
+	}, {
+		id: "00000000000130A0"
+		x: 4.0d
+		y: 34.0d
+		dependencies: ["0000000000013090"]
+		title: "Sunday Roast"
+		icon: {id: "pamhc2foodcore:potroastitem", Count: 1b}
+		description: ["Pot Roast is the prestige savory dish of Pam's kitchen. Craft it from raw beef, potato, and carrot in the Pot — slow braising in the crafting grid, no fire required. The roast restores a large portion of hunger with a strong and lasting Saturation boost.", "This is one of the best standalone meals in the pack for extended combat or mining sessions. It demands a pastoral setup — beef from your pasture, potatoes and carrots from your fields — and rewards that investment with superior sustenance that outlasts simpler food significantly."]
+		tasks: [{
+			id: "00000000000130A1"
+			type: "item"
+			item: {id: "pamhc2foodcore:potroastitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130A2"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 1b}
+		}]
+	}, {
+		id: "00000000000130B0"
+		x: 6.0d
+		y: 34.0d
+		dependencies: ["0000000000013040"]
+		title: "Crispy and Golden"
+		icon: {id: "pamhc2foodcore:friedchickenitem", Count: 1b}
+		description: ["Fried Chicken is made from raw chicken, flour, and cooking oil in the Pot. The oil fries the floured chicken to a crisp — no heat source needed, the Pot handles it in the crafting grid. This is a distinct item from Farmer's Delight's Roast Chicken, with its own food stats.", "If your oil supply is running from a Botany Pot of peanuts, the only recurring cost is flour and raw chicken. That makes this one of the most economical high-quality meals in the pack per ingredient spent — especially with a chicken farm nearby."]
+		tasks: [{
+			id: "00000000000130B1"
+			type: "item"
+			item: {id: "pamhc2foodcore:friedchickenitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130B2"
+			type: "item"
+			item: {id: "pamhc2foodcore:cookingoilitem", Count: 4b}
+		}]
+	}, {
+		id: "00000000000130C0"
+		x: 8.0d
+		y: 34.0d
+		dependencies: ["0000000000013060"]
+		title: "Pasta Night"
+		icon: {id: "pamhc2foodcore:macncheeseitem", Count: 1b}
+		description: ["Mac and Cheese requires building a small supply chain: flour into dough in the Mixing Bowl, dough into pasta with the Roller, milk and salt into cheese in the Pot — then pasta and cheese combined in the Pot for the final dish. Five operations, each simple.", "The result tests whether all your basic cooking pipelines are actually running. If you can make mac and cheese from scratch without pausing to gather ingredients, your kitchen infrastructure is solid and you are ready for everything else Pam's offers."]
+		tasks: [{
+			id: "00000000000130C1"
+			type: "item"
+			item: {id: "pamhc2foodcore:macncheeseitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130C2"
+			type: "item"
+			item: {id: "pamhc2foodcore:cheeseitem", Count: 4b}
+		}]
+	}, {
+		id: "00000000000130D0"
+		x: 10.0d
+		y: 34.0d
+		dependencies: ["0000000000013010"]
+		title: "Freshly Squeezed"
+		icon: {id: "pamhc2foodcore:fruitpunchitem", Count: 1b}
+		description: ["The Juicer extracts liquid from fruit placed with it in the crafting grid. Fruit Punch blends three different fruits in the Juicer into a single drink with good saturation and hunger restoration. Most Pam's tree fruits and berries can also be juiced solo into their own single-fruit juice.", "If you have a mature orchard, juice is essentially a free food source — anything that falls from your trees can be pressed. Fruit Punch is the most efficient use of a mixed harvest: three fruits become one satisfying drink rather than three small snacks."]
+		tasks: [{
+			id: "00000000000130D1"
+			type: "item"
+			item: {id: "pamhc2foodcore:fruitpunchitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130D2"
+			type: "item"
+			item: {id: "minecraft:emerald", Count: 4b}
+		}]
+	}, {
+		id: "00000000000130E0"
+		x: 4.0d
+		y: 36.0d
+		dependencies: ["0000000000013060"]
+		title: "Something Sweet"
+		icon: {id: "pamhc2foodcore:applepieitem", Count: 1b}
+		description: ["Apple Pie is the cornerstone of Pam's baked goods. Combine dough, sugar, and any apple in the Bakeware. Vanilla apples, Pam's orchard apples — all work in the apple slot. No fuel, no heat source, no placed block needed: Bakeware is a crafting-grid tool like the rest.", "The pie restores solid hunger with a lasting Saturation bonus and is one of the better food items for the calorie-to-ingredient ratio in the pack. Once your dough pipeline is running, pies are cheap to batch in quantity and make excellent food for long dungeon runs."]
+		tasks: [{
+			id: "00000000000130E1"
+			type: "item"
+			item: {id: "pamhc2foodcore:applepieitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130E2"
+			type: "item"
+			item: {id: "minecraft:sugar", Count: 16b}
+		}]
+	}, {
+		id: "00000000000130F0"
+		x: 6.0d
+		y: 36.0d
+		dependencies: ["0000000000013060", "0000000000013070"]
+		title: "Layer Cake"
+		icon: {id: "pamhc2foodcore:chocolatecakeitem", Count: 1b}
+		description: ["Chocolate Cake is a two-step bake. First make a Chocolate Bar — Saucepan plus cocoa beans, one use, one bar. Then combine the bar, batter, and sugar in the Bakeware. Cocoa beans grow naturally in jungle biomes and on jungle tree leaves, making chocolate one of the most accessible luxury ingredients once you locate a jungle.", "The chocolate cake has excellent hunger restoration and a strong saturation effect — the most complex baked good in the standard Pam's repertoire and a fitting reward for a functioning bakery."]
+		tasks: [{
+			id: "00000000000130F1"
+			type: "item"
+			item: {id: "pamhc2foodcore:chocolatecakeitem", Count: 1b}
+		}]
+		rewards: [{
+			id: "00000000000130F2"
+			type: "item"
+			item: {id: "minecraft:cocoa_beans", Count: 16b}
+		}]
+	}, {
+		id: "0000000000013100"
+		x: 5.0d
+		y: 38.0d
+		dependencies: ["0000000000013080", "0000000000013090", "00000000000130A0", "00000000000130B0", "00000000000130C0", "00000000000130D0", "00000000000130E0", "00000000000130F0"]
+		title: "A Kitchen Well-Stocked"
+		icon: {id: "pamhc2foodcore:potroastitem", Count: 1b}
+		description: ["You have learned everything Pam's Harvestcraft has to teach. The tools are built and ready. The pantry holds flour, salt, oil, butter, and cheese. Dough rests in the bowl. Batter is mixed and waiting. The stove has seen pot roast and fried chicken. Pasta came out perfectly. The orchard gave fruit salad and fresh juice every morning. Pies cool on the counter. Chocolate cake is already half-gone.", "A farmer who can cook is nearly impossible to defeat. You started with seeds and wild crop bushes and ended with a fully stocked kitchen producing some of the best food in the pack. Claim your reward — you've earned it."]
+		tasks: [{
+			id: "0000000000013101"
+			type: "checkmark"
+			title: "A fully equipped and proven kitchen"
+		}]
+		rewards: [{
+			id: "0000000000013102"
+			type: "item"
+			item: {id: "minecraft:emerald_block", Count: 10b}
+		}, {
+			id: "0000000000013103"
+			type: "item"
+			item: {id: "pamhc2foodcore:flouritem", Count: 32b}
+		}, {
+			id: "0000000000013104"
+			type: "item"
+			item: {id: "pamhc2foodcore:saltitem", Count: 16b}
+		}, {
+			id: "0000000000013105"
+			type: "item"
+			item: {id: "pamhc2foodcore:cookingoilitem", Count: 16b}
+		}]
 	}]
 	quest_links: []
 }

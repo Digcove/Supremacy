@@ -1,7 +1,7 @@
 {
 	id: "0000000000002025"
 	group: "0000000000001005"
-	order_index: 4
+	order_index: 3
 	filename: "logbook_completionist"
 	title: "Completionist"
 	icon: {id: "minecraft:nether_star", Count: 1b}

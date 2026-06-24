@@ -167,6 +167,23 @@
 			item: {id: "thermal:flux_capacitor", Count: 1b}
 		}]
 	}, {
+		id: "0000000000207029"
+		x: 6.0d
+		y: -2.0d
+		title: "Advanced Peripherals"
+		icon: {id: "advancedperipherals:computer_book", Count: 1b}
+		description: ["Advanced Peripherals extends ComputerCraft with mod-aware peripherals — the ME Bridge connects Lua programs to your AE2 network, the Chat Box fires chat events to scripts, the Energy Detector reads Flux Networks power levels, and the Block Reader queries any block's NBT data.", "This is the automation control layer on top of Create and AE2. Once your factory is running, Advanced Peripherals lets you write programs that react to network state, auto-craft on demand, and monitor GT machine progress through scripts. Check JEI and the mod's included guidebook for peripheral API references."]
+		tasks: [{
+			id: "000000000020702A"
+			type: "checkmark"
+			title: "Read the Advanced Peripherals guidebook and place a ComputerCraft peripheral"
+		}]
+		rewards: [{
+			id: "000000000020702B"
+			type: "item"
+			item: {id: "computercraft:computer_normal", Count: 1b}
+		}]
+	}, {
 		id: "0000000000207025"
 		x: 12.0d
 		y: 0.0d

@@ -225,6 +225,23 @@
 			item: {id: "minecraft:golden_apple", Count: 1b}
 		}]
 	}, {
+		id: "0000000000007029"
+		x: -2.0d
+		y: -2.0d
+		title: "Materials and You"
+		icon: {id: "tconstruct:materials_and_you", Count: 1b}
+		description: ["Materials and You is the Tinkers' Construct reference guide — it covers the Smeltery, material traits, tool parts, modifiers, and the full crafting system.", "Craft it at a Crafting Table: one Book plus one Smeltery Controller. Read it when you start the Tinkers' Metallurgy quest chain. Material trait selection is the core of Tinkers' tool building — different materials behave differently at the same tier."]
+		tasks: [{
+			id: "000000000000702A"
+			type: "checkmark"
+			title: "Craft and read Materials and You"
+		}]
+		rewards: [{
+			id: "000000000000702B"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 8b}
+		}]
+	}, {
 		id: "0000000000007026"
 		x: 4.0d
 		y: 2.0d
@@ -240,6 +257,78 @@
 			id: "0000000000007028"
 			type: "item"
 			item: {id: "minecraft:enchanted_book", Count: 2b}
+		}]
+	}, {
+		id: "000000000000702C"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["0000000000007026"]
+		title: "Chronicle of Shadows"
+		icon: {id: "apotheosis:chronicle_of_shadows", Count: 1b}
+		description: ["The Chronicle of Shadows is the Apotheosis mod guide. It covers the full enchanting overhaul, the Gem system, boss champion variants, the Reforging Table, and Apotheosis's sigil and affix loot systems.", "Craft it at a Crafting Table. Read it alongside the enchanting setup quest — Apotheosis has enough depth in just the enchanting layer to justify its own reference."]
+		tasks: [{
+			id: "000000000000702D"
+			type: "checkmark"
+			title: "Craft and read the Chronicle of Shadows"
+		}]
+		rewards: [{
+			id: "000000000000702E"
+			type: "item"
+			item: {id: "minecraft:enchanted_book", Count: 1b}
+		}]
+	}, {
+		id: "000000000000702F"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["000000000000702C"]
+		title: "The Gem System"
+		icon: {id: "apotheosis:gem_dust", Count: 1b}
+		description: ["Apotheosis Gems are socketed stat bonuses that roll randomly when they drop — think of them as an additional affix layer on top of Mine & Slash gear. Gems drop from enemies and structures, come in Common through Mythic rarity tiers, and insert into socketed items.", "Gems and M&S sockets stack: a socketed item holds one Gem AND benefits from Mine & Slash affixes. Insert the best gem you have for your build path — physical damage gems for melee, magic power gems for casters. Upgrade gems by salvaging lower-tier ones and rerolling via the Reforging Table."]
+		tasks: [{
+			id: "0000000000007030"
+			type: "checkmark"
+			title: "Insert an Apotheosis Gem into a socketed item"
+		}]
+		rewards: [{
+			id: "0000000000007031"
+			type: "item"
+			item: {id: "apotheosis:gem_dust", Count: 4b}
+		}]
+	}, {
+		id: "0000000000007032"
+		x: 10.0d
+		y: 2.0d
+		dependencies: ["000000000000702F"]
+		title: "Champion Hunters"
+		icon: {id: "minecraft:wither_skeleton_skull", Count: 1b}
+		description: ["Apotheosis adds Champion mob variants — elite enemies with random affixes that make them faster, tougher, or harder-hitting than normal. They drop better loot, including rare Gems and high-tier enchanted books.", "Champions are marked by a glowing name and particle effects. They spawn naturally at low probability everywhere. Don't skip them — the loot is worth the difficulty spike. A well-rolled champion kill can drop Mythic-tier Gems."]
+		tasks: [{
+			id: "0000000000007033"
+			type: "checkmark"
+			title: "Kill an Apotheosis Champion mob and collect its loot"
+		}]
+		rewards: [{
+			id: "0000000000007034"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 2b}
+		}]
+	}, {
+		id: "0000000000007035"
+		x: 12.0d
+		y: 2.0d
+		dependencies: ["0000000000007032"]
+		title: "The Reforging Table"
+		icon: {id: "apotheosis:reforging_table", Count: 1b}
+		description: ["The Apotheosis Reforging Table rerolls the affix loot bonuses on enchanted gear. Feed it Rarity Materials (gem dust plus specific reagents) and it randomizes the affixes on your item — keeping the enchantments, changing the bonus stats.", "This is the late-game gear perfecting system. Once you have a piece of gear with the right enchantments, use the Reforging Table to fish for the best possible affixes on top of them. Stack this with M&S stat souls and Gems for maximum gear optimization."]
+		tasks: [{
+			id: "0000000000007036"
+			type: "item"
+			item: {id: "apotheosis:reforging_table", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007037"
+			type: "item"
+			item: {id: "apotheosis:gem_dust", Count: 8b}
 		}]
 	}]
 	quest_links: []

@@ -1,0 +1,426 @@
+{
+	id: "0000000000002019"
+	group: "0000000000001002"
+	order_index: 8
+	filename: "side_i_alex_mobs"
+	title: "Wild Kingdom"
+	icon: {id: "alexsmobs:animal_dictionary", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000220030"
+		x: 0.0d
+		y: 0.0d
+		title: "Animal Dictionary"
+		icon: {id: "alexsmobs:animal_dictionary", Count: 1b}
+		description: ["Alex's Mobs adds over 80 creatures across every biome — predators, passive wildlife, aquatic life, and creatures from the Nether and End. Each has unique behaviors, drops, and interactions.", "The Animal Dictionary is the mod's field guide. Craft it at a Crafting Table (one Book). Every creature has its own entry with habitat, behavior, drops, and taming/breeding info. Read it before hunting any Alex's Mob specifically — some creatures like the Tarantula Hawk and Cachalot Whale require specific approaches."]
+		tasks: [{
+			id: "0000000000220031"
+			type: "checkmark"
+			title: "Craft and read the Animal Dictionary"
+		}]
+		rewards: [{
+			id: "0000000000220032"
+			type: "item"
+			item: {id: "minecraft:cooked_beef", Count: 4b}
+		}]
+	}, {
+		id: "0000000000220033"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000220030"]
+		title: "Bison Country"
+		icon: {id: "alexsmobs:bison", Count: 1b}
+		description: ["Bison roam plains and savannas in herds. They're massive, slow, and hit hard if you startle them. Tame a Bison with Wheat by sneaking and feeding — it takes several attempts.", "Tamed Bison can be ridden without a saddle, carry a chest, and have much more HP than horses. They're the early-game pack animal of choice. You may already know them for another use involving a Sock."]
+		tasks: [{
+			id: "0000000000220034"
+			type: "checkmark"
+			title: "Tame a Bison"
+		}]
+		rewards: [{
+			id: "0000000000220035"
+			type: "item"
+			item: {id: "minecraft:wheat", Count: 16b}
+		}]
+	}, {
+		id: "0000000000220036"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000220033"]
+		title: "The Tarantula Hawk"
+		icon: {id: "alexsmobs:tarantula_hawk_elytra", Count: 1b}
+		description: ["The Tarantula Hawk is a giant wasp that hunts Tarantulas. It spawns in deserts and warm biomes, is aggressive, and inflicts a powerful venom on hit.", "Kill one and it drops a Tarantula Hawk Elytra — a wearable elytra variant with increased durability. It replaces vanilla Elytra in flight capability while looking considerably more menacing. This is one of the most valuable early-flight upgrades in the pack, and it's a much easier path than going to the End."]
+		tasks: [{
+			id: "0000000000220037"
+			type: "item"
+			item: {id: "alexsmobs:tarantula_hawk_elytra", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220038"
+			type: "item"
+			item: {id: "minecraft:firework_rocket", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220039"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000220036"]
+		title: "Sea Serpent"
+		icon: {id: "alexsmobs:sea_serpent_scale", Count: 1b}
+		description: ["Sea Serpents are massive aquatic predators that spawn in deep ocean. They patrol in long sinuous arcs, detect players from significant range, and hit extremely hard underwater.", "Sea Serpent Scales craft into Sea Serpent armor — one of the best early-mid aquatic gear sets. If your progression takes you near oceans, they will find you before you find them. Come prepared or come back later with better gear."]
+		tasks: [{
+			id: "000000000022003A"
+			type: "item"
+			item: {id: "alexsmobs:sea_serpent_scale", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000022003B"
+			type: "item"
+			item: {id: "minecraft:experience_bottle", Count: 4b}
+		}]
+	}, {
+		id: "000000000022003C"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["0000000000220039"]
+		title: "Mantis Shrimp"
+		icon: {id: "alexsmobs:mantis_shrimp", Count: 1b}
+		description: ["Mantis Shrimp lurk in warm ocean floors, camouflaged among coral and seagrass. They're deceptively small and strike with one of the highest per-hit damage values in the mod. They attack anything within reach and ignore armor scaling surprisingly well.", "Collect a Mantis Shrimp Claw — it's a functional item and a crafting ingredient for reinforced aquatic gear. If you're diving warm coral reefs, stay off the ocean floor or you'll meet one on its terms."]
+		tasks: [{
+			id: "000000000022003D"
+			type: "item"
+			item: {id: "alexsmobs:mantis_shrimp_claw", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000022003E"
+			type: "item"
+			item: {id: "minecraft:prismarine_crystals", Count: 8b}
+		}]
+	}, {
+		id: "000000000022003F"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000022003C"]
+		title: "Cachalot Whale"
+		icon: {id: "alexsmobs:cachalot_whale", Count: 1b}
+		description: ["The Cachalot Whale is one of the largest creatures in the mod, spawning in deep cold oceans. It's passive unless provoked, but its size means you can be flung by its movement if you're directly adjacent. Killing one is a long fight — their HP pool is immense.", "Cachalot Oil is the primary drop. It brews into Water Breathing and Speed-in-Water potions and has other crafting uses. Bring a trident with Loyalty and fight from a distance — don't try to melee a creature this large in its native element."]
+		tasks: [{
+			id: "0000000000220040"
+			type: "item"
+			item: {id: "alexsmobs:cachalot_oil", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220041"
+			type: "item"
+			item: {id: "minecraft:prismarine_shard", Count: 16b}
+		}]
+	}, {
+		id: "0000000000220042"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["000000000022003F"]
+		title: "Laviathan"
+		icon: {id: "alexsmobs:laviathan", Count: 1b}
+		description: ["The Laviathan is an armored deep-ocean leviathan — effectively a mini-boss. It patrols frozen and cold deep oceans, has massive HP, plated armor that reduces incoming damage, and a devastating tail sweep that can knock you back dozens of blocks.", "The Laviathan Eye drops on kill and is a high-tier crafting material. This is the hardest encounter in the ocean tier: come with fully enchanted aquatic gear, Depth Strider, and a strong ranged weapon. The Cachalot is preparation for this fight."]
+		tasks: [{
+			id: "0000000000220043"
+			type: "item"
+			item: {id: "alexsmobs:laviathan_eye", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220044"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 4b}
+		}]
+	}, {
+		id: "0000000000220045"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["0000000000220030"]
+		title: "Raccoon"
+		icon: {id: "alexsmobs:raccoon", Count: 1b}
+		description: ["Raccoons spawn in forest and taiga biomes, typically at night. They're neutral but opportunistic — leave a chest open or drop food on the ground and they'll grab it. They can pick up and carry small items on their own.", "To tame a Raccoon, drop food on the ground near one rather than offering it directly. A tamed Raccoon follows you and picks up nearby loose items, making it a low-maintenance companion and item-gathering helper."]
+		tasks: [{
+			id: "0000000000220046"
+			type: "checkmark"
+			title: "Tame a Raccoon"
+		}]
+		rewards: [{
+			id: "0000000000220047"
+			type: "item"
+			item: {id: "minecraft:cooked_rabbit", Count: 4b}
+		}]
+	}, {
+		id: "0000000000220048"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["0000000000220045"]
+		title: "Kangaroo"
+		icon: {id: "alexsmobs:kangaroo", Count: 1b}
+		description: ["Kangaroos spawn in savanna and plains biomes. Females carry joeys in their pouches — the joey grows into a new adult. Kangaroos can kick enemies on contact and deliver knockback, making them one of the few passive mobs that can interfere with combat.", "Tame a Kangaroo with wheat or seeds. A tamed Kangaroo can be ridden with a saddle and has exceptional jump height — better than most horses for navigating terrain. Kangaroo Hide drops on kill and crafts into lightweight mobile armor."]
+		tasks: [{
+			id: "0000000000220049"
+			type: "checkmark"
+			title: "Tame a Kangaroo"
+		}]
+		rewards: [{
+			id: "000000000022004A"
+			type: "item"
+			item: {id: "minecraft:leather", Count: 8b}
+		}]
+	}, {
+		id: "000000000022004B"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["0000000000220048"]
+		title: "Gorilla"
+		icon: {id: "alexsmobs:gorilla", Count: 1b}
+		description: ["Gorillas spawn in jungles in small groups. They're aggressive if you approach too closely or disturb their food. They throw boulders at range and hit very hard in melee — a gorilla ambush in dense jungle is a genuine threat in early-to-mid game.", "The Gorilla Paw is the key drop. Holding it in your offhand grants a passive Strength effect. For a strength-scaling M&S build, the Gorilla Paw is a free buff slot that costs you nothing but an offhand weapon. Highly worth farming early."]
+		tasks: [{
+			id: "000000000022004C"
+			type: "item"
+			item: {id: "alexsmobs:gorilla_paw", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000022004D"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 1b}
+		}]
+	}, {
+		id: "000000000022004E"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["000000000022004B"]
+		title: "Capuchin Monkey"
+		icon: {id: "alexsmobs:capuchin_monkey", Count: 1b}
+		description: ["Capuchin Monkeys are small passive primates in jungle biomes. They climb trees, throw items off the ground, and interact with their environment more actively than most passive mobs.", "Tame a Capuchin with a Cookie and it will ride on your shoulder. A shoulder-mounted Capuchin throws small rocks at nearby enemies, dealing minor chip damage. It's not a significant combat upgrade, but it's a free supplemental attack source that requires no upkeep once tamed."]
+		tasks: [{
+			id: "000000000022004F"
+			type: "checkmark"
+			title: "Tame a Capuchin Monkey"
+		}]
+		rewards: [{
+			id: "0000000000220050"
+			type: "item"
+			item: {id: "minecraft:cookie", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220051"
+		x: 2.0d
+		y: 6.0d
+		dependencies: ["0000000000220030"]
+		title: "Grizzly Bear"
+		icon: {id: "alexsmobs:grizzly_bear", Count: 1b}
+		description: ["Grizzly Bears spawn in forests and mountains. They're neutral — they leave you alone unless you approach their cubs or strike them first. When aggro'd, they rear up on their hind legs before charging. That's your only warning.", "Grizzly Bears can be tamed with Salmon. A tamed Grizzly is a formidable tank companion — their HP is substantially higher than wolves and their melee damage keeps up through the early game. Bear Fur drops on kill and crafts into fur-lined cold-resistant armor."]
+		tasks: [{
+			id: "0000000000220052"
+			type: "checkmark"
+			title: "Tame a Grizzly Bear"
+		}]
+		rewards: [{
+			id: "0000000000220053"
+			type: "item"
+			item: {id: "minecraft:salmon", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220054"
+		x: 4.0d
+		y: 6.0d
+		dependencies: ["0000000000220051"]
+		title: "Mimicube"
+		icon: {id: "alexsmobs:mimicube", Count: 1b}
+		description: ["The Mimicube is a predatory creature that disguises itself as a chest. It holds perfectly still until a player attempts to open it — then it unfolds and attacks. They spawn in dungeons, mineshafts, and anywhere chests might naturally appear.", "You'll encounter one sooner or later without knowing it. The tell is subtle: Mimicubes don't emit the slight noise that real chests make, and they sit in slightly wrong positions. After you've been ambushed once, you'll start checking every dungeon chest before opening."]
+		tasks: [{
+			id: "0000000000220055"
+			type: "checkmark"
+			title: "Survive a Mimicube ambush"
+		}]
+		rewards: [{
+			id: "0000000000220056"
+			type: "item"
+			item: {id: "minecraft:chest", Count: 4b}
+		}]
+	}, {
+		id: "0000000000220057"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["0000000000220036"]
+		title: "Bone Serpent"
+		icon: {id: "alexsmobs:bone_serpent", Count: 1b}
+		description: ["Bone Serpents burrow beneath desert sand and erupt upward when a player walks overhead. They're undead, immune to sunlight, and attack by rearing up and striking. A buried Bone Serpent is nearly invisible — a subtle sand disturbance is the only warning.", "Bone Serpent Spines are the key drop and a useful mid-tier crafting ingredient. If you're crossing desert biomes, Bone Serpents can and will ambush from below. Move carefully on sand surfaces, especially in canyon terrain where they cluster."]
+		tasks: [{
+			id: "0000000000220058"
+			type: "item"
+			item: {id: "alexsmobs:bone_serpent_spine", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220059"
+			type: "item"
+			item: {id: "minecraft:bone", Count: 16b}
+		}]
+	}, {
+		id: "000000000022005A"
+		x: 8.0d
+		y: -2.0d
+		dependencies: ["0000000000220057"]
+		title: "Anaconda"
+		icon: {id: "alexsmobs:anaconda", Count: 1b}
+		description: ["Anacondas lurk in jungles and swamps, slow-moving until a player enters their range. They attack by constricting — wrapping around you and dealing sustained squeeze damage while your movement is locked.", "Anacondas are dangerous specifically when you're already low on HP or fighting other mobs. A constrict at 40% health is usually fatal. Fight them on open ground — the dense vegetation of their native biomes makes disengagement difficult."]
+		tasks: [{
+			id: "000000000022005B"
+			type: "checkmark"
+			title: "Kill an Anaconda"
+		}]
+		rewards: [{
+			id: "000000000022005C"
+			type: "item"
+			item: {id: "minecraft:experience_bottle", Count: 4b}
+		}]
+	}, {
+		id: "000000000022005D"
+		x: 10.0d
+		y: -2.0d
+		dependencies: ["000000000022005A"]
+		title: "Froststalker"
+		icon: {id: "alexsmobs:froststalker", Count: 1b}
+		description: ["The Froststalker is a snowy ambush predator that blends into snow and ice surfaces. It holds perfectly still and is nearly invisible against a white background until it moves. It lunges with a pounce attack on first contact, dealing high burst damage before settling into melee.", "The Froststalker Pelt is the primary drop and crafts into fur-lined cold-resistant armor. If you're exploring tundra, taiga, or Ice Spikes biomes, assume a Froststalker is waiting on every flat snow field. Sweep with your cursor before walking onto open snow terrain."]
+		tasks: [{
+			id: "000000000022005E"
+			type: "checkmark"
+			title: "Kill a Froststalker"
+		}]
+		rewards: [{
+			id: "000000000022005F"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220060"
+		x: 6.0d
+		y: 4.0d
+		dependencies: ["0000000000220036"]
+		title: "Straddler"
+		icon: {id: "alexsmobs:straddler", Count: 1b}
+		description: ["Straddlers are four-legged lava-dwelling creatures that walk across lava pools in the Nether Wastes and Basalt Deltas. They shoot lava-imbued projectiles at players and also spawn Stradpoles — infant Straddlers that grow into adults.", "Straddler Legs are the key drop. Combined with Stradpoles, they're used to craft boots with partial lava-walking. This is the Alex's Mobs native path to lava traversal before you have Magma Walker enchanted boots. Prioritize this encounter early in Nether exploration."]
+		tasks: [{
+			id: "0000000000220061"
+			type: "item"
+			item: {id: "alexsmobs:straddler_leg", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220062"
+			type: "item"
+			item: {id: "minecraft:magma_cream", Count: 4b}
+		}]
+	}, {
+		id: "0000000000220063"
+		x: 8.0d
+		y: 4.0d
+		dependencies: ["0000000000220060"]
+		title: "Soul Vulture"
+		icon: {id: "alexsmobs:soul_vulture", Count: 1b}
+		description: ["Soul Vultures circle the Soul Sand Valley in large flocks. They're passive until you drop below a certain HP threshold, at which point the entire flock turns hostile simultaneously. They also aggro on players who have recently taken damage.", "Soul Vulture Feathers are used in brewing and crafting. The real hazard is their pack behavior — getting mobbed by eight Soul Vultures while already injured in the Soul Sand Valley is a fast death. They also pick up items dropped from player deaths, which makes recovering your inventory in that biome complicated."]
+		tasks: [{
+			id: "0000000000220064"
+			type: "item"
+			item: {id: "alexsmobs:soul_vulture_feather", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220065"
+			type: "item"
+			item: {id: "minecraft:soul_sand", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220066"
+		x: 10.0d
+		y: 4.0d
+		dependencies: ["0000000000220063"]
+		title: "Warped Mosco"
+		icon: {id: "alexsmobs:warped_mosco", Count: 1b}
+		description: ["The Warped Mosco is a large bioluminescent insect native to the Warped Forest. It's passive until attacked — but when struck, it emits a shriek that aggros nearby Moscos. What starts as one encounter becomes a swarm.", "Warped Mosco Wings are the key drop and a crafting ingredient. The Warped Forest's dense fungal canopy makes Moscos easy to miss until you're already aggro'd. Hit one, clear the swarm, then loot."]
+		tasks: [{
+			id: "0000000000220067"
+			type: "item"
+			item: {id: "alexsmobs:warped_mosco_wing", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000220068"
+			type: "item"
+			item: {id: "minecraft:warped_fungus", Count: 8b}
+		}]
+	}, {
+		id: "0000000000220069"
+		x: 12.0d
+		y: 4.0d
+		dependencies: ["0000000000220066"]
+		title: "Skelewag"
+		icon: {id: "alexsmobs:skelewag", Count: 1b}
+		description: ["Skelewags are skeletal nether creatures that spawn in the Nether Wastes and Soul Sand Valley. They're faster than skeletons and move in an irregular pattern that makes them difficult to track for ranged combat.", "Skelewags mixed into Piglin Bastion encounters significantly increase the threat level — their speed makes crowd control difficult. They're not hard one-on-one, but in groups they pressure your flanks while you deal with Piglins. Clear them first."]
+		tasks: [{
+			id: "000000000022006A"
+			type: "checkmark"
+			title: "Kill a Skelewag"
+		}]
+		rewards: [{
+			id: "000000000022006B"
+			type: "item"
+			item: {id: "minecraft:gold_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000022006C"
+		x: 8.0d
+		y: -4.0d
+		dependencies: ["0000000000220039"]
+		title: "Seal"
+		icon: {id: "alexsmobs:seal", Count: 1b}
+		description: ["Seals are peaceful aquatic mammals on cold ocean shores and frozen beaches. They bark when you approach too quickly and flee into water. They don't attack, but they don't trust you either.", "Seal Blubber drops on kill and crafts into insulated armor that resists freeze damage from powder snow and cold biomes. They spawn in the same cold ocean regions as the Laviathan — a convenient overlap if you're already hunting out there."]
+		tasks: [{
+			id: "000000000022006D"
+			type: "checkmark"
+			title: "Obtain Seal Blubber"
+		}]
+		rewards: [{
+			id: "000000000022006E"
+			type: "item"
+			item: {id: "minecraft:experience_bottle", Count: 3b}
+		}]
+	}, {
+		id: "000000000022006F"
+		x: 10.0d
+		y: -4.0d
+		dependencies: ["000000000022006C"]
+		title: "Platypus"
+		icon: {id: "alexsmobs:platypus", Count: 1b}
+		description: ["Platypuses are passive river-dwelling creatures that look completely harmless. They are not. Striking a Platypus triggers a venom spit that inflicts a Poison level significantly stronger than vanilla Poison — enough to kill an unprotected player from a full HP bar.", "Platypus Venom is the key drop and a powerful potion ingredient for brewing high-tier poison potions. They spawn in rivers and jungle waterways. Don't punch one without a Milk Bucket ready, and keep in mind that fall damage into a river can accidentally aggro one."]
+		tasks: [{
+			id: "0000000000220070"
+			type: "checkmark"
+			title: "Collect Platypus Venom"
+		}]
+		rewards: [{
+			id: "0000000000220071"
+			type: "item"
+			item: {id: "minecraft:milk_bucket", Count: 2b}
+		}]
+	}, {
+		id: "0000000000220072"
+		x: 8.0d
+		y: -6.0d
+		dependencies: ["0000000000220039"]
+		title: "Enderiophage"
+		icon: {id: "alexsmobs:enderiophage", Count: 1b}
+		description: ["The Enderiophage is a parasitic creature found in the End. It attaches to Endermen, suppressing their teleport ability and feeding on them. Infected Endermen can still aggro and fight but cannot teleport away — the parasite holds them in place.", "Enderiophage Essence is the key drop and a crafting ingredient. More practically: an Enderman infected with an Enderiophage is much easier to kill for Ender Pearls since it can't teleport. Seek out infected Endermen, kill the parasite first, then fight a grounded Enderman. It turns a frustrating farm into a clean one."]
+		tasks: [{
+			id: "0000000000220073"
+			type: "checkmark"
+			title: "Kill an Enderiophage"
+		}]
+		rewards: [{
+			id: "0000000000220074"
+			type: "item"
+			item: {id: "minecraft:ender_pearl", Count: 8b}
+		}]
+	}]
+	quest_links: []
+}

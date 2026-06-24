@@ -136,6 +136,80 @@
 			type: "item"
 			item: {id: "blue_skies:starlit_gem", Count: 4b}
 		}]
+	}, {
+		id: "000000000000D016"
+		x: 0.0d
+		y: 4.0d
+		dependencies: ["000000000000D00D"]
+		title: "Diopside Gem"
+		icon: {id: "blue_skies:diopside_gem", Count: 1b}
+		description: ["Diopside Gems are the Everdawn's primary crafting material — dropped by Everdawn mobs and found in dimension-specific structures. The Everdawn is warmer and brighter than the Everbright, with its own mob types and combat patterns.", "Gather a working supply. Diopside Gems are used in Blue Skies mid-tier tools and armor, and serve as currency for what comes next in the dimension."]
+		tasks: [{
+			id: "000000000000D017"
+			type: "item"
+			item: {id: "blue_skies:diopside_gem", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000000D018"
+			type: "item"
+			item: {id: "blue_skies:diopside_gem", Count: 8b}
+		}]
+	}, {
+		id: "000000000000D019"
+		x: 2.0d
+		y: 4.0d
+		dependencies: ["000000000000D016"]
+		title: "Everdawn Warden"
+		icon: {id: "kubejs:everdawn_miniboss_trophy", Count: 1b}
+		description: ["The Everdawn's elite mobs guard its dungeon structures. They hit harder than standard spawns and drop the Everdawn Miniboss Trophy — a crafting reagent for the Cipher Engraving Table, one of two Orb Forge Tier 3 ingredients.", "Find an Everdawn dungeon. Clear the rooms. Take down the warden inside. The trophy won't come from regular mob grinding."]
+		tasks: [{
+			id: "000000000000D01A"
+			type: "item"
+			item: {id: "kubejs:everdawn_miniboss_trophy", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000D01B"
+			type: "item"
+			item: {id: "blue_skies:diopside_gem", Count: 16b}
+		}]
+	}, {
+		id: "000000000000D01C"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["000000000000D010"]
+		title: "Lunar Stone"
+		icon: {id: "blue_skies:lunar_stone", Count: 1b}
+		description: ["Lunar Stone is the base terrain of the Everbright — it makes up the dimension's ground, cliffs, and dungeon walls. It mines fast with a pickaxe, stacks high, and shows up as a structural ingredient in Blue Skies crafting.", "Mine in bulk while you're establishing a presence in the dimension. You'll want it for building and for higher-tier recipes."]
+		tasks: [{
+			id: "000000000000D01D"
+			type: "item"
+			item: {id: "blue_skies:lunar_stone", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "000000000000D01E"
+			type: "item"
+			item: {id: "blue_skies:lunar_stone", Count: 16b}
+		}]
+	}, {
+		id: "000000000000D01F"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["000000000000D013", "000000000000D01C"]
+		title: "Everbright Warden"
+		icon: {id: "kubejs:everbright_miniboss_trophy", Count: 1b}
+		description: ["The Everbright's elite mobs are the dimension's named combatants — found in dungeon structures, harder than standard spawns, and the only source of the Everbright Miniboss Trophy.", "The trophy is a Cipher Engraving Table ingredient — Orb Forge Tier 3 requires both this one and the Everdawn version. Find a dungeon. Clear it. Get both trophies."]
+		tasks: [{
+			id: "000000000000D020"
+			type: "item"
+			item: {id: "kubejs:everbright_miniboss_trophy", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000D021"
+			type: "item"
+			item: {id: "blue_skies:starlit_gem", Count: 8b}
+		}]
 	}]
 	quest_links: []
 }
