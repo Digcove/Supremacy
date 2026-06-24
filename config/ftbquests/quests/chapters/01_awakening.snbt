@@ -158,6 +158,42 @@
 			type: "item"
 			item: {id: "minecraft:paper", Count: 1b}
 		}]
+	}, {
+		id: "000000000000301B"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["0000000000003017"]
+		title: "The Stoner Spear"
+		icon: {id: "kubejs:stoner_spear", Count: 1b}
+		description: ["Three chunks of compressed cobblestone, a stone spear, and a compressed stick. The weight alone is enough to knock someone off their horse — and Knockback III is enough to keep it that way. Craft the Stoner Spear."]
+		tasks: [{
+			id: "000000000000301C"
+			type: "item"
+			item: {id: "kubejs:stoner_spear", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000301D"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
+		}]
+	}, {
+		id: "000000000000301E"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["000000000000301B"]
+		title: "The Soul Within"
+		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		description: ["Every weapon is a hollow thing until something lives inside it. Use the Socket Adder on your Stoner Spear to open a socket, then apply this Uncommon Weapon Soul to bind its power to the blade. The spear will never be the same."]
+		tasks: [{
+			id: "000000000000301F"
+			type: "item"
+			item: {id: "kubejs:stoner_spear", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003020"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}]
 	}]
 	quest_links: []
 }
