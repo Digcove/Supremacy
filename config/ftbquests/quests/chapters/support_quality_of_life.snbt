@@ -1,0 +1,189 @@
+{
+	id: "000000000000201C"
+	group: "0000000000001003"
+	order_index: 3
+	filename: "support_quality_of_life"
+	title: "Quality of Life"
+	icon: {id: "jade:jade", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000207001"
+		x: 0.0d
+		y: 0.0d
+		title: "Jade"
+		icon: {id: "jade:jade", Count: 1b}
+		description: ["Jade is always active: it displays an information overlay when you look at any block or entity, showing its name, mod origin, health if it is a mob, and — for machines — current recipe or processing state. This removes the need to open every machine to check its contents. A GT machine running a recipe shows the recipe and progress on the Jade overlay without opening its GUI.", "Configure Jade's overlay position and displayed modules in its settings (default: hold Jade item and right-click any block, or use the config menu). Disable modules you do not want. Enable the GT-specific module to see EU/t consumption and recipe progress at a glance. Jade is passive infrastructure — configure it once and it improves every subsequent hour of play."]
+		tasks: [{
+			id: "0000000000207002"
+			type: "checkmark"
+			title: "Configure the Jade overlay to show GT machine progress and mob health"
+		}]
+		rewards: [{
+			id: "0000000000207003"
+			type: "item"
+			item: {id: "jade:jade", Count: 1b}
+		}]
+	}, {
+		id: "0000000000207005"
+		x: 2.0d
+		y: 0.0d
+		title: "JEI and JER"
+		icon: {id: "jei:jei_creative_tab", Count: 1b}
+		description: ["Just Enough Items (JEI) is the primary recipe lookup tool — every recipe in the pack is searchable by output or ingredient through JEI. Press R over any item to see all recipes that produce it. Press U to see all uses. For GT machines specifically, JEI shows every recipe mapped to that machine type, making it the essential reference for circuit chains, chemical processing, and ore processing routes.", "Just Enough Resources (JER) extends JEI with world generation data: look up any ore in JEI and JER adds a tab showing which dimension it generates in, at which Y levels, and at what frequency. Use JER to plan mining expeditions before leaving base — it tells you exactly where to go for Naquadah, Cooperite, Tungsten, and every other exotic ore the GT tiers require."]
+		tasks: [{
+			id: "0000000000207006"
+			type: "checkmark"
+			title: "Use JER to find the Y-level range of three late-game GT ores"
+		}]
+		rewards: [{
+			id: "0000000000207007"
+			type: "item"
+			item: {id: "minecraft:compass", Count: 1b}
+		}]
+	}, {
+		id: "0000000000207009"
+		x: 4.0d
+		y: 0.0d
+		title: "Backpack Upgrades"
+		icon: {id: "sophisticatedbackpacks:magnet_upgrade", Count: 1b}
+		description: ["Sophisticated Backpack upgrades are the highest-value QoL investment in the early game. The Magnet Upgrade auto-collects drops within a radius — configure it to exclude items you do not want (like gravel and dirt during ore mining). The Pickup Upgrade auto-deposits specific item types from your inventory into the backpack's filtered slots. The Compacting Upgrade auto-crafts 9-unit ingot or storage block conversions on the fly.", "A mining backpack with: Magnet collecting all ores and stones, Pickup depositing ores into sorted compartments, and Compacting converting 9-unit nugget stacks into ingots mid-run is the most efficient possible mining inventory. Configure it before each major mining session. The Magnet's filter list matters — test it on a small run before deploying it in a deep cave."]
+		tasks: [{
+			id: "000000000020700A"
+			type: "item"
+			item: {id: "sophisticatedbackpacks:magnet_upgrade", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020700B"
+			type: "item"
+			item: {id: "sophisticatedbackpacks:pickup_upgrade", Count: 2b}
+		}]
+	}, {
+		id: "000000000020700D"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000207009"]
+		title: "Create Jetpack"
+		icon: {id: "createaddition:portable_energy_interface", Count: 1b}
+		description: ["The Create Jetpack provides vertical thrust by burning FE stored in a Portable Energy Interface equipped in a chest armor slot alongside it. It requires direct power input — bring a charged Portable Energy Interface and keep it topped up from your Flux Network. The thrust allows climbing steep terrain without ladders, recovering from falls mid-air, and reaching elevated build platforms without scaffolding.", "The Jetpack's fuel consumption scales with use intensity. Gentle rises consume little. Sustained vertical ascent at full thrust depletes a charge quickly. Carry a second charged Interface or build a quick-charge station at your base entrance. Combined with the Paraglider for horizontal descent control, the two items together give full three-dimensional movement without the Elytra slot cost."]
+		tasks: [{
+			id: "000000000020700E"
+			type: "item"
+			item: {id: "createaddition:portable_energy_interface", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020700F"
+			type: "item"
+			item: {id: "createaddition:portable_energy_interface", Count: 1b}
+		}]
+	}, {
+		id: "0000000000207011"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000020700D"]
+		title: "Create Enchantment Industry"
+		icon: {id: "create_enchantment_industry:printer", Count: 1b}
+		description: ["Create Enchantment Industry adds a mechanical enchanting system: the Enchantment Printer takes Enchanted Books as input and prints their enchantment onto items in the output slot, consuming Ink and Lapis. The Disenchanter extracts enchantments from items into Books without destroying either. The Extractor drains experience from Xp Fluid collected through Create's Xp harvesting into books directly.", "The workflow this enables: find a Mending book in a dungeon chest, Disenchant it to preserve the book while removing the enchantment, use the Printer to apply Mending to every piece of gear you care about, and auto-refill enchanting from a Create Xp farm. Combined with the Botania Mana Enchanter for specific enchantment selection, Create Enchantment Industry removes the last RNG from the enchanting system entirely."]
+		tasks: [{
+			id: "0000000000207012"
+			type: "checkmark"
+			title: "Enchant a piece of gear using the Create Enchantment Industry Printer"
+		}]
+		rewards: [{
+			id: "0000000000207013"
+			type: "item"
+			item: {id: "minecraft:enchanted_book", Count: 2b}
+		}]
+	}, {
+		id: "0000000000207015"
+		x: 2.0d
+		y: -2.0d
+		title: "Modular Routers Advanced"
+		icon: {id: "modularrouters:router", Count: 1b}
+		description: ["Modular Routers become more powerful with MkII and MkIII Module upgrades: higher Mark modules move items faster, in larger stacks, and with more filtering precision. A Mk3 Sender Module transmitting from a processing output to a storage router across the base moves items as fast as any hopper chain, without physical connections and without the chunk-boundary issues that plague long hopper runs.", "The Regulator Module maintains a specific item count in the adjacent container — useful for ensuring a machine always has exactly 64 of its primary ingredient buffered without overflow. The Activator Module simulates right-click or left-click interactions on adjacent blocks, enabling automation of any machine that requires simulated player interaction rather than standard hopper input."]
+		tasks: [{
+			id: "0000000000207016"
+			type: "item"
+			item: {id: "modularrouters:mk2_module_upgrade", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000207017"
+			type: "item"
+			item: {id: "modularrouters:regulator_module", Count: 2b}
+		}]
+	}, {
+		id: "0000000000207019"
+		x: 0.0d
+		y: -2.0d
+		title: "Patchouli Guidebooks"
+		icon: {id: "patchouli:guide_book", Count: 1b}
+		description: ["Most mods in the pack include a Patchouli guidebook that documents their mechanics, recipes, and progression in-game. The Botania Lexica Botanica, the Occultism Dictionary of Spirits, the Blood Magic Sanguine Scientiem, and others are all obtainable by crafting or receiving one from a starting chest. These books update dynamically as you progress — content locked behind progression becomes readable as you advance.", "Keep your current mod's guidebook in a hotbar slot when first learning that mod's systems. The book contains quest-chain context that the FTB Quest descriptions summarize but do not fully replace. JEI handles recipe lookups; the Patchouli books handle the why — understanding what the system is doing, not just what items go in and come out."]
+		tasks: [{
+			id: "000000000020701A"
+			type: "checkmark"
+			title: "Obtain and read the Patchouli guidebook for any mod you are currently progressing in"
+		}]
+		rewards: [{
+			id: "000000000020701B"
+			type: "item"
+			item: {id: "botania:lexica_botania", Count: 1b}
+		}]
+	}, {
+		id: "000000000020701D"
+		x: 4.0d
+		y: -2.0d
+		title: "AE2 Wireless Terminal"
+		icon: {id: "ae2wtlib:wireless_crafting_terminal", Count: 1b}
+		description: ["The AE2 Wireless Terminals mod adds a Wireless Crafting Terminal that gives full ME network access — browsing, depositing, withdrawing, and submitting autocrafting jobs — from anywhere in range of a Wireless Access Point. Charge the Terminal in the network and add Wireless Booster items to extend the range beyond the default limit.", "This is the single item that most changes how the pack feels in the mid-to-late game. Instead of running back to the base Terminal to submit circuit crafting jobs or check material stocks, you do it from the mine, from the Nether, or from a Twilight Forest dungeon. The factory runs while you play. The Terminal keeps you connected to it without requiring you to stand in front of it."]
+		tasks: [{
+			id: "000000000020701E"
+			type: "item"
+			item: {id: "ae2wtlib:wireless_crafting_terminal", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020701F"
+			type: "item"
+			item: {id: "ae2:wireless_booster", Count: 8b}
+		}]
+	}, {
+		id: "0000000000207021"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000207011", "0000000000207015", "000000000020701D"]
+		dependency_requirement: "one_completed"
+		title: "Thermal Innovation"
+		icon: {id: "thermal:drill", Count: 1b}
+		description: ["Thermal Innovation adds powered tools: the Drill mines a 3x3 area, the Fluxsaw cuts trees instantly, the Wrench functions as a Universal Wrench for multiple mod machines, and the Flux Capacitor provides portable FE storage chargeable from any Flux Point. All Thermal tools use FE from a Flux Capacitor equipped in an appropriate Curios slot — recharge at any Flux Point rather than at a dedicated charging station.", "The Drill is the early-game mining upgrade that bridges hand-mining and the late-game AE2 automated import system. One Flux Capacitor charged from your base Flux Network runs the Drill for a full mining session without depletion. Augment the Drill with the Area Augment for 3x3 excavation mode and the Tilling Augment if you are farming."]
+		tasks: [{
+			id: "0000000000207022"
+			type: "item"
+			item: {id: "thermal:drill", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000207023"
+			type: "item"
+			item: {id: "thermal:flux_capacitor", Count: 1b}
+		}]
+	}, {
+		id: "0000000000207025"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000207021"]
+		title: "Fully Equipped"
+		icon: {id: "minecraft:nether_star", Count: 1b}
+		description: ["A fully equipped player in this pack carries: a Sophisticated Backpack with Magnet and Pickup upgrades for inventory management, a Wireless Crafting Terminal for factory access, a Flux Capacitor keeping tools charged, a Paraglider for aerial movement, the Botania Ring of Thor for 3x3 mining, and Iron's Spells loaded with utility spells for traversal and combat. No single item is optional — each solves a different friction point.", "The QoL layer of this pack is not about making the game easier. It is about removing the friction between what you want to do and what the game lets you do. Mining, crafting, combat, exploration, and factory management all have friction points that the mods in this tab directly address. The better you understand each tool, the faster the actual progression moves."]
+		tasks: [{
+			id: "0000000000207026"
+			type: "checkmark"
+			title: "Carry a Wireless Terminal, a Backpack with Magnet, and a Flux Capacitor simultaneously"
+		}]
+		rewards: [{
+			id: "0000000000207027"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}]
+	quest_links: []
+}

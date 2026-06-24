@@ -1,0 +1,216 @@
+{
+	id: "0000000000002012"
+	group: "0000000000001001"
+	order_index: 13
+	filename: "14_insane_voltage"
+	title: "Insane Voltage"
+	icon: {id: "gtceu:iv_machine_hull", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000030001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Snow Queen"
+		icon: {id: "twilightforest:ice_bomb", Count: 1b}
+		description: ["The Snow Queen rules the Aurora Palace — a crystalline tower of ice and aurora light that rises only from the Snowy Forest of the Twilight Forest. She commands blizzards, spawns armored ice warriors, and fights on a frozen arena floor that slows everything that enters it. Bring fire resistance and enough range to deal with the warriors before engaging her directly.", "Her Ice Crystal drops are not just trophies. The freezing-point resonance locked inside palace ice is the thermal stabilizer for IV machines: tungsten alone cannot hold an IV-tier coil at equilibrium under the voltage load. The crystal's sub-zero field counterbalances the heat, keeping the structure stable where nothing else would."]
+		tasks: [{
+			id: "0000000000030002"
+			type: "item"
+			item: {id: "twilightforest:ice_bomb", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000030003"
+			type: "item"
+			item: {id: "gtceu:tungsten_plate", Count: 8b}
+		}]
+	}, {
+		id: "0000000000030004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000030001"]
+		title: "IV Machine Hull"
+		icon: {id: "gtceu:iv_machine_hull", Count: 1b}
+		description: ["Tungsten has the highest melting point of any element — 3422°C. At IV voltage, that is not enough. The Snow Queen's Ice Crystal locks the hull into a thermal equilibrium tungsten cannot maintain alone: the crystal's sub-zero resonance counterbalances the heat load and holds the structure stable at voltages that would unmake anything built at EV.", "Eight tungsten plates, one Ice Crystal at the center. The IV era opens. The machines it enables are where the factory stops being large and starts being industrial in the precise sense: mass ore refineries, high-throughput chemical chains, multi-stage synthesis running in parallel. EV infrastructure was a prototype. IV is the real system."]
+		tasks: [{
+			id: "0000000000030005"
+			type: "item"
+			item: {id: "gtceu:iv_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000030006"
+			type: "item"
+			item: {id: "gtceu:iv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "0000000000030007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000030004"]
+		title: "The Assembly Line"
+		icon: {id: "gtceu:assembly_line", Count: 1b}
+		description: ["The single-machine era ends here. The Assembly Line is a multi-hatch sequential processing structure: items enter through Input Bus hatches, pass through up to sixteen defined processing stages loaded onto a Data Stick, and emerge from the output as assembled components that no single machine could produce.", "An Assembler combines up to nine inputs. The Assembly Line reads the blueprint of any previously scanned component and builds to it exactly — every run, at scale, without variation. Build the multiblock. Load a data stick. Run the first recipe. The precision of IV-tier manufacturing is structural, not manual."]
+		tasks: [{
+			id: "0000000000030008"
+			type: "checkmark"
+			title: "Assemble the Assembly Line multiblock"
+		}]
+		rewards: [{
+			id: "0000000000030009"
+			type: "item"
+			item: {id: "gtceu:data_stick", Count: 4b}
+		}]
+	}, {
+		id: "000000000003000A"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000030004"]
+		title: "Platinum Group"
+		icon: {id: "gtceu:platinum_dust", Count: 1b}
+		description: ["Cooperite ore — macerated, centrifuged, and refined through a four-step chemical chain — gives up six distinct metals: Platinum, Palladium, Rhodium, Iridium, Osmium, and Ruthenium. None of them are accessible through simpler means. The platinum group is where the ore processing chain pays off most densely: one cooperite ore in, six essential materials out.", "Every LuV-tier recipe touches at least two of them. Rhodium-Plated Palladium is the hull material. Iridium is structural. Osmium goes into coils. Run cooperite through the full centrifuge and electrolyzer chain. The first platinum dust proves the pipeline works."]
+		tasks: [{
+			id: "000000000003000B"
+			type: "item"
+			item: {id: "gtceu:platinum_dust", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000003000C"
+			type: "item"
+			item: {id: "gtceu:palladium_dust", Count: 4b}
+		}]
+	}, {
+		id: "000000000003000D"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000030007"]
+		title: "Data Sticks"
+		icon: {id: "gtceu:data_stick", Count: 1b}
+		description: ["An EV Scanner reads a component placed inside it and writes the structural definition to a Data Stick. The Assembly Line reads that stick and uses it to know what it is building — the recipe exists on the stick, not in a crafting grid. One stick per recipe configuration. The stick tells the line exactly which inputs go in which order.", "Losing a stick doesn't lose the knowledge — you can rescan. But until the stick is in the input hatch, the line sits idle. Keep them organized. Label the chests that hold them. At IV and LuV tier, you will have more Assembly Line recipes running than any previous tier had machines."]
+		tasks: [{
+			id: "000000000003000E"
+			type: "item"
+			item: {id: "gtceu:data_stick", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000003000F"
+			type: "item"
+			item: {id: "gtceu:data_stick", Count: 4b}
+		}]
+	}, {
+		id: "0000000000030010"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000003000D", "000000000003000A"]
+		title: "LuV Machine Hull"
+		icon: {id: "gtceu:luv_machine_hull", Count: 1b}
+		description: ["Rhodium-Plated Palladium — an electroplated alloy only producible through platinum group processing and the Assembly Line — is the LuV hull material. It takes cooperite ore, three processing steps, two centrifuge separations, and a plating chamber before a single plate exists. The Assembly Line builds the hull from a data stick. The EBF must be running at elevated heat capacity to support it.", "The LuV Machine Hull is the first hull that cannot be made without the whole preceding chain converging at once: Assembly Line, platinum group metals, and EBF throughput. It is also the first hull where the machine's internals run circuits too complex for the previous tier to even address. LuV machines are faster and more parallel than anything before them."]
+		tasks: [{
+			id: "0000000000030011"
+			type: "item"
+			item: {id: "gtceu:luv_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000030012"
+			type: "item"
+			item: {id: "gtceu:luv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "0000000000030013"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000030010"]
+		title: "The First Fusion"
+		icon: {id: "gtceu:fusion_reactor_mk1", Count: 1b}
+		description: ["The LuV Fusion Reactor is the first machine in the pack that does not process existing materials — it generates new ones. Plasma streams fuse at temperatures that exceed stellar interiors. The output is not voltage. It is matter: isotopes and plasma-state compounds that could not exist without nuclear-level energy density.", "Build the ring structure. Wind the superconducting coils. Power the reactor from a dedicated EV-tier substation — the fusion reactor draws more than any single machine prior. The first run is a proof of concept. Every run after it is manufacturing at a scale that reframes what the word means."]
+		tasks: [{
+			id: "0000000000030014"
+			type: "checkmark"
+			title: "Assemble and run the LuV Fusion Reactor"
+		}]
+		rewards: [{
+			id: "0000000000030015"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "0000000000030016"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000030013"]
+		title: "ZPM Machine Hull"
+		icon: {id: "gtceu:zpm_machine_hull", Count: 1b}
+		description: ["Naquadah Alloy — naquadah, naquadria, and enriched naquadah fused in the EBF at temperatures the earlier setup couldn't sustain — is the ZPM hull material. Zero-Point Module is a tier name, not a description of what is happening. What it means in practice: more channels, more throughput, more complex synthesis chains than LuV could support.", "The ZPM Machine Hull enables the machines that reduce the late-game factory from a sprawling one-of-everything grid into a compact, deeply parallel industrial array. One ZPM machine replaces several LuV machines at most processing tasks. Build it. The Quantum Exaltation Array is next."]
+		tasks: [{
+			id: "0000000000030017"
+			type: "item"
+			item: {id: "gtceu:zpm_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000030018"
+			type: "item"
+			item: {id: "gtceu:zpm_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "0000000000030019"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["0000000000030016"]
+		title: "Tier 4 — Quantum Exaltation Array"
+		icon: {id: "mmorpg:stone/5", Count: 1b}
+		description: ["The fourth Orb Forge station. The Map Completion Token is the combat gate — evidence that you have pushed gear through an entire Act V map run and survived what waits at the end of it. The Quantum Exaltation Array operates at the precision that ZPM-tier circuits enable: it does not reroll random values or randomly chosen affixes.", "It upgrades one specific affix on a Rare item by exactly one rarity tier — deliberate, targeted, surgical. This is the beginning of deterministic gear crafting. The earlier stations gamble. This one aims.", "The Quantum Exaltation Array and Fusion Forge are the fourth and fifth Orb Forge stations. The lower stations (Tiers 1–3) remain accessible earlier and can produce their orbs throughout your progression, though more slowly. The Orb Forge in the chapter ahead supersedes all of them."]
+		tasks: [{
+			id: "000000000003001A"
+			type: "item"
+			item: {id: "kubejs:map_completion_token", Count: 1b}
+		}, {
+			id: "000000000003001B"
+			type: "checkmark"
+			title: "Assemble the Quantum Exaltation Array"
+		}]
+		rewards: [{
+			id: "000000000003001C"
+			type: "item"
+			item: {id: "mmorpg:stone/5", Count: 2b}
+		}]
+	}, {
+		id: "000000000003001D"
+		x: 16.0d
+		y: -0.5d
+		dependencies: ["0000000000030019"]
+		title: "Exalted Orb"
+		icon: {id: "mmorpg:currency/upgrade_common_affix", Count: 1b}
+		description: ["Forge an Exalted Orb in the Quantum Exaltation Array. Upgrades one Common-tier affix on a Rare item to a higher rarity tier — not a reroll, not a gamble, a targeted upgrade. Gate: Mythic Stone + Map Completion Token + ZPM Circuit."]
+		tasks: [{
+			id: "000000000003001E"
+			type: "item"
+			item: {id: "mmorpg:currency/upgrade_common_affix", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000003001F"
+			type: "item"
+			item: {id: "mmorpg:stone/5", Count: 2b}
+		}]
+	}, {
+		id: "0000000000030020"
+		x: 16.0d
+		y: 0.5d
+		dependencies: ["0000000000030019"]
+		title: "Orb of Introspection"
+		icon: {id: "mmorpg:currency/base_number_reroll", Count: 1b}
+		description: ["Forge an Orb of Introspection in the Quantum Exaltation Array. Rerolls the base stat values on any piece of gear — not the affixes, the underlying base stats the item rolled with. Gate: Mythic Stone + Map Completion Token + ZPM Mainframe."]
+		tasks: [{
+			id: "0000000000030021"
+			type: "item"
+			item: {id: "mmorpg:currency/base_number_reroll", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000030022"
+			type: "item"
+			item: {id: "mmorpg:stone/5", Count: 2b}
+		}]
+	}]
+	quest_links: []
+}

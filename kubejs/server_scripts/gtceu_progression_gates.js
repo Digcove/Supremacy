@@ -78,6 +78,39 @@ ServerEvents.recipes(event => {
         F: 'twilightforest:fiery_ingot'
     }, 8)
 
+    // IV Machine Hull: Tungsten plates + Snow Queen Trophy (Twilight Forest Aurora Palace)
+    event.remove({ output: 'gtceu:iv_machine_hull' })
+    event.shaped('gtceu:iv_machine_hull', [
+        'TTT',
+        'TST',
+        'TTT'
+    ], {
+        T: 'gtceu:tungsten_plate',
+        S: 'twilightforest:ice_bomb'  // Snow Queen drop — TODO: verify exact item ID in-game
+    })
+
+    // UV Machine Hull: Neutronium plates + Dragon Head (End Ship loot, post-dragon kill)
+    event.remove({ output: 'gtceu:uv_machine_hull' })
+    event.shaped('gtceu:uv_machine_hull', [
+        'NNN',
+        'NDN',
+        'NNN'
+    ], {
+        N: 'gtceu:neutronium_plate',
+        D: 'minecraft:dragon_head'
+    })
+
+    // UHV Machine Hull: Osmiridium plates + Echo Shard (Ancient City, Warden territory)
+    event.remove({ output: 'gtceu:uhv_machine_hull' })
+    event.shaped('gtceu:uhv_machine_hull', [
+        'OOO',
+        'OEO',
+        'OOO'
+    ], {
+        O: 'gtceu:osmiridium_plate',
+        E: 'minecraft:echo_shard'
+    })
+
     // Soul Forged Ingot: Stainless Steel (HV tier gate) + Spirit Iron + Qi Crystal
     event.shaped('soulland:soul_forged_ingot', [
         'ISI',

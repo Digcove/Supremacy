@@ -1,0 +1,195 @@
+{
+	id: "0000000000002017"
+	group: "0000000000001002"
+	order_index: 6
+	filename: "side_g_homestead"
+	title: "Homestead"
+	icon: {id: "waystones:waystone", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000202001"
+		x: 0.0d
+		y: 0.0d
+		title: "Waystone Network"
+		icon: {id: "waystones:waystone", Count: 1b}
+		description: ["Waystones are fast-travel anchors: place a Waystone, name it, and it joins a global list of named locations you can teleport to from any other Waystone. In a pack where the overworld spans multiple biomes, the Aether is overhead, the Nether is accessible, and the Twilight Forest is elsewhere, a network of named Waystones eliminates the full traversal time for return trips.", "Place your first Waystone at your main base. Set a second near the Nether portal. Set a third at the Twilight Forest entrance portal. From there, expand as you establish resource outposts — one near a major ore vein, one near the Twilight Forest's deeper biomes, one at the Blue Skies portal. Name them descriptively. The list gets long."]
+		tasks: [{
+			id: "0000000000202002"
+			type: "item"
+			item: {id: "waystones:waystone", Count: 1b}
+			count: 5L
+		}]
+		rewards: [{
+			id: "0000000000202003"
+			type: "item"
+			item: {id: "waystones:warp_scroll", Count: 8b}
+		}]
+	}, {
+		id: "0000000000202005"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000202001"]
+		title: "The Workshop"
+		icon: {id: "minecraft:crafting_table", Count: 1b}
+		description: ["A proper workshop is more than a crafting table in a dirt hut. It is a room where the most-used machines are within two blocks of each other, materials are stored in labeled chests adjacent to the machines that consume them, and lighting ensures no mobs spawn. The design matters: if reaching the furnace requires walking past the storage room, you lose time every crafting session.", "The minimum viable workshop for early progression: a crafting table, a vanilla furnace array (at least 4), an anvil, a Tinkers' smeltery, a Silent Gear crafting station, and a Create Depot. Arrange them in a U or L shape so all surfaces are reachable without moving. Build the floor out of a blast-resistant material if you are near a creeper-active area."]
+		tasks: [{
+			id: "0000000000202006"
+			type: "checkmark"
+			title: "Build a dedicated workshop room with crafting, smelting, and storage in one space"
+		}]
+		rewards: [{
+			id: "0000000000202007"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 32b}
+		}]
+	}, {
+		id: "0000000000202009"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000202005"]
+		title: "The Sorting Room"
+		icon: {id: "sophisticatedstorage:iron_chest", Count: 1b}
+		description: ["A sorted storage room is where the pack's material flow starts making sense. Before AE2, Sophisticated Storage chests with Filter Upgrades do the work: one chest per material category, each filter whitelisted to its category, each chest labeled with a sign. The sort itself is manual — you deposit a mixed bag, and each chest accepts only its category.", "The upgrade path matters. Iron Chests hold more than Wooden. Diamond Chests hold enough that one chest per material category becomes viable even for materials that accumulate fast. Add a Pickup Upgrade to each chest that auto-deposits from your inventory when you return from a run. With proper filters and pickups set, walking into the storage room empties your inventory automatically."]
+		tasks: [{
+			id: "000000000020200A"
+			type: "item"
+			item: {id: "sophisticatedstorage:iron_chest", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000020200B"
+			type: "item"
+			item: {id: "sophisticatedstorage:pickup_upgrade", Count: 4b}
+		}]
+	}, {
+		id: "000000000020200D"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000202009"]
+		title: "Power Infrastructure"
+		icon: {id: "fluxnetworks:flux_controller", Count: 1b}
+		description: ["The power room is the base's core: generators feed into a Flux Network, the network distributes RF to every machine that needs it, and the Flux Controller monitors the grid's balance. Before Flux Networks, direct cable runs from generators to machines work, but cables take space and break the flow of the workshop layout.", "A Flux Plug at the generator, a Flux Network configured with a name and a priority, and a Flux Point at each machine converts the cable problem into a wireless distribution problem. Add more generators to the network as machine demand grows. The Flux Controller dashboard shows total generation versus total consumption — keep generation above consumption at all times, or your GT machines stall mid-recipe."]
+		tasks: [{
+			id: "000000000020200E"
+			type: "item"
+			item: {id: "fluxnetworks:flux_controller", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020200F"
+			type: "item"
+			item: {id: "fluxnetworks:flux_plug", Count: 4b}
+		}]
+	}, {
+		id: "0000000000202011"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000020200D"]
+		title: "The Smelting Array"
+		icon: {id: "create:mechanical_mixer", Count: 1b}
+		description: ["Before GT takes over ore processing, a Create smelting array — a line of furnaces fed by a Deployer carrying fuel, items routed in by a Depot chain, outputs collected by Funnels into a common chest — is the highest-throughput early ore processor. Create's Item Vaults function as bulk buffers between the smelting step and the sorting room, preventing overflow during large ore runs.", "The setup requires Brass-age Create components: Mechanical Arms to route items between stations, or a series of Chutes and Funnels for simpler linear setups. The investment in Create infrastructure here carries forward: the same Mechanical Arm routing logic that runs a furnace array runs a GT ore processing chain later with only destination changes."]
+		tasks: [{
+			id: "0000000000202012"
+			type: "checkmark"
+			title: "Build a Create-automated smelting array processing at least 4 furnaces simultaneously"
+		}]
+		rewards: [{
+			id: "0000000000202013"
+			type: "item"
+			item: {id: "create:chute", Count: 16b}
+		}]
+	}, {
+		id: "0000000000202015"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000202005"]
+		title: "Lighting the Base"
+		icon: {id: "supplementaries:lantern", Count: 1b}
+		description: ["Mob spawning happens at light level 0, and a base with dark corners is a base that spawns creepers in the storage room. The threshold is absolute: one torch every 7-8 blocks on a flat surface covers the spawn-prevention radius. Glowstone and lanterns cover more area per block than torches. Sea Lanterns embedded in floors are invisible until you dig one up.", "The practical rule: if you can see a shadow, you can get a spawn. Walk every room at night with a light meter or Jade's light level display showing. Fill gaps before sleeping and crossing to your base assumes safety it does not have. This is not aesthetics — it is resource security. A creeper in the GT workshop ends a play session."]
+		tasks: [{
+			id: "0000000000202016"
+			type: "checkmark"
+			title: "Achieve light level 8+ in every room of your main base"
+		}]
+		rewards: [{
+			id: "0000000000202017"
+			type: "item"
+			item: {id: "minecraft:lantern", Count: 32b}
+		}]
+	}, {
+		id: "0000000000202019"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000202001"]
+		title: "The First Farm"
+		icon: {id: "minecraft:wheat_seeds", Count: 1b}
+		description: ["A food farm at your main base is one of the few infrastructure pieces that pays back immediately and permanently. Wheat, Carrots, and Potatoes are reliable early crops — four rows of 8 with a water source in the center feeds a small base indefinitely. Farmer's Delight crops expand the cooking options, and the cooking chain pays off in saturation bonuses that reduce food consumption under combat.", "The long-term upgrade path is Botany Pots replacing flat farms: a wall of Pots with Hoppers underneath auto-harvests without player interaction. A 4x4 wall of Botany Pots with the right soil tier produces more food per tick than a flat farm six times its footprint. Build the flat farm first. Convert to Pots when you have the materials."]
+		tasks: [{
+			id: "000000000020201A"
+			type: "stat"
+			stat: "minecraft:crops_harvested"
+			value: 256L
+		}]
+		rewards: [{
+			id: "000000000020201B"
+			type: "item"
+			item: {id: "farmersdelight:straw_bale", Count: 4b}
+		}]
+	}, {
+		id: "000000000020201D"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000202011"]
+		title: "The GT Production Floor"
+		icon: {id: "gtceu:mv_machine_hull", Count: 1b}
+		description: ["When GT machines arrive, the workshop layout from early game stops scaling. A dedicated GT production floor — a room or building separated from the workshop, designed from the start for the machines that will arrive — handles the expansion more gracefully than retrofitting. The standard layout: a central aisle with machines on both sides, power feeds from above, and storage at the far end.", "Plan for machines you do not have yet. The Electric Blast Furnace, Large Electrolyzer, Large Chemical Reactor, Assembly Line, and Fusion Reactor all have different footprints. Leaving two blocks between machines lets you expand without tearing down what already works. The production floor grows as the tech tier grows — design it to expand laterally, not upward."]
+		tasks: [{
+			id: "000000000020201E"
+			type: "checkmark"
+			title: "Establish a dedicated GT machine production floor separate from the early workshop"
+		}]
+		rewards: [{
+			id: "000000000020201F"
+			type: "item"
+			item: {id: "gtceu:mv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "0000000000202021"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["000000000020201D"]
+		title: "Automation Pipeline"
+		icon: {id: "ae2:import_bus", Count: 1b}
+		description: ["Full base automation means no manual material movement. Ore enters from a mining operation, routes through Create ore processors, passes to GT machines via Import Buses and Modular Routers, outputs to the ME network, and the autocrafting queue handles every downstream step. The player's role becomes design and maintenance, not execution.", "The transition from manual to automated is incremental. Automate the step you repeat most first. Then the step after it. Each automation frees attention for the next layer. The goal is a factory that runs at full capacity while you are offline. That factory is built one piece at a time, not all at once."]
+		tasks: [{
+			id: "0000000000202022"
+			type: "checkmark"
+			title: "Fully automate ore input, GT processing, and ME network output without manual steps"
+		}]
+		rewards: [{
+			id: "0000000000202023"
+			type: "item"
+			item: {id: "ae2:import_bus", Count: 4b}
+		}]
+	}, {
+		id: "0000000000202025"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["0000000000202021"]
+		title: "The Fortress"
+		icon: {id: "minecraft:nether_star", Count: 1b}
+		description: ["A fully developed base is not a collection of rooms — it is a system. Power generation, ore processing, automated crafting, sorted storage, a food supply, and fast travel infrastructure all feed into each other. The production floor runs while the player is in the field. The ME network tracks every material. The Waystone network connects every outpost.", "This is the homestead. Not a base you built, but infrastructure you engineered. Every automation loop running in parallel, every storage filter correctly set, every power cable replaced by a Flux Network — the sum of it is a factory that produces the materials for each tech tier faster than any manual process could. Build it deliberately. It gets larger from here."]
+		tasks: [{
+			id: "0000000000202026"
+			type: "checkmark"
+			title: "Have power generation, automated GT processing, sorted ME storage, and a Waystone network all active simultaneously"
+		}]
+		rewards: [{
+			id: "0000000000202027"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 4b}
+		}]
+	}]
+	quest_links: []
+}

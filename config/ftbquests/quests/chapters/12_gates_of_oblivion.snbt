@@ -8,6 +8,184 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000017001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Aurora Palace"
+		icon: {id: "minecraft:packed_ice", Count: 1b}
+		description: ["Deep in the Twilight Forest's glacier biome, past the tundra and beyond the Snowy Forest, the Aurora Palace rises from a plateau of ice. It's the home of the Snow Queen — the final boss of the Twilight Forest progression and the combat gate for Insane Voltage.", "She attacks from altitude with Ice Bolts that slow and damage. She summons ice clouds that fall and explode. The arena is wide and featureless, which means every attack is readable — speed and positioning are your advantages. Range and fire deal additional damage.", "She drops Ice Bombs on death. Collect four. These are the material bound into the IV Machine Hull as the dimensional anchor that stabilizes tungsten-plate construction at Insane Voltage tier."]
+		tasks: [{
+			id: "0000000000017002"
+			type: "item"
+			item: {id: "twilightforest:ice_bomb", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000017003"
+			type: "item"
+			item: {id: "gtceu:tungsten_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000017004"
+		x: 0.0d
+		y: -2.0d
+		title: "Wither Skeleton Hunt"
+		icon: {id: "minecraft:wither_skeleton_skull", Count: 1b}
+		description: ["Wither Skeleton Skulls drop from Wither Skeletons in Nether Fortresses — a rare drop, around 2.5% base chance per kill, improved by Looting. The Fortresses spawn in Soul Sand Valley and Basalt Deltas biomes most commonly. Go in armed and stay near the corridors where the skeletons path.", "Collect three skulls. They are the ingredient for one of the most significant fights in vanilla Minecraft, and the gate for access to the Beacon — which buffs every player in your base from here to the end of the pack."]
+		tasks: [{
+			id: "0000000000017005"
+			type: "item"
+			item: {id: "minecraft:wither_skeleton_skull", Count: 1b}
+			count: 3L
+		}]
+		rewards: [{
+			id: "0000000000017006"
+			type: "item"
+			item: {id: "minecraft:netherite_scrap", Count: 1b}
+		}]
+	}, {
+		id: "0000000000017007"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000017004"]
+		title: "Wither Storm"
+		icon: {id: "minecraft:nether_star", Count: 1b}
+		description: ["Three Wither Skeleton Skulls on top of a T-shape of Soul Sand. The Wither spawns with a shield phase — invulnerable to ranged attacks until its health drops below half. Melee or explosive attacks break the shield.", "At half health it emits a charged skull barrage. Stay mobile. The Wither Star it leaves behind is the most valuable vanilla crafting material in the pack. One Nether Star makes a Beacon. Beacons give persistent status effects to everyone in range — regeneration, haste, or resistance, depending on the pyramid material you build beneath it.", "Build the fight away from your base and underground. The initial explosion is large."]
+		tasks: [{
+			id: "0000000000017008"
+			type: "item"
+			item: {id: "minecraft:nether_star", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000017009"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "000000000001700A"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000017007"]
+		title: "The Beacon"
+		icon: {id: "minecraft:beacon", Count: 1b}
+		description: ["Place the Nether Star in the center of a crafting grid surrounded by three obsidian on the bottom row and five glass across the top two rows. The Beacon is the resulting block.", "Build a pyramid of iron, gold, diamond, or emerald blocks beneath it — one layer for a Tier 1 beacon (Haste or Speed), four layers for Tier 4 (all effects simultaneously). Place the Beacon on top of the highest layer and power it with an ingot or gem matching the pyramid material.", "A Tier 4 iron pyramid with Regeneration II active is one of the most impactful combat upgrades in the pack, and it's permanent. Every player in range gets it for free, forever."]
+		tasks: [{
+			id: "000000000001700B"
+			type: "checkmark"
+			title: "Place and activate a Beacon on a mineral pyramid"
+		}]
+		rewards: [{
+			id: "000000000001700C"
+			type: "item"
+			item: {id: "minecraft:iron_block", Count: 9b}
+		}]
+	}, {
+		id: "000000000001700D"
+		x: 0.0d
+		y: 2.0d
+		title: "The Silver Dungeon"
+		icon: {id: "aether:silver_dungeon_key", Count: 1b}
+		description: ["The Aether's Silver Dungeon is a cube of white aerstone suspended in the sky — inside is a maze of locked doors, puzzle rooms, and patrolling Valkyrie enemies. Valkyries are aggressive and coordinated. They block attacks. Dodge around their guard stance before striking.", "At the dungeon's heart: the Valkyrie Queen. She is the boss that unlocks the Silver Dungeon chest, which holds the best equipment available in the Aether before the Gold Dungeon. The Silver Dungeon Key she drops opens every locked chest in the structure.", "Come prepared with your best armor and Iron's Spells loaded. The dungeon is not optional — Gold Dungeon entrance requires a Silver Dungeon clear."]
+		tasks: [{
+			id: "000000000001700E"
+			type: "item"
+			item: {id: "aether:silver_dungeon_key", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001700F"
+			type: "item"
+			item: {id: "aether:zanite_gemstone", Count: 8b}
+		}]
+	}, {
+		id: "0000000000017010"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000001700D"]
+		title: "Gold Dungeon"
+		icon: {id: "aether:gold_dungeon_key", Count: 1b}
+		description: ["The Gold Dungeon is the Aether's final challenge — a labyrinth larger than the Silver, with stronger Valkyries and tighter corridors. The Sun Spirit boss at its center is invulnerable during its orbit cycles. Attack only during the exposed phase between orbits.", "The Gold Dungeon Key it drops opens the reward chests, which hold the Aether's highest equipment and materials not available anywhere else. More importantly, completing the Gold Dungeon proves your combat readiness for what comes after the Gates of Oblivion — the IV and UV tiers are not forgiving.", "Buy the map from the Valkyrie Cartographer in the dungeon entrance if you find one. The Gold Dungeon's layout is not random but it rewards knowing where you are."]
+		tasks: [{
+			id: "0000000000017011"
+			type: "item"
+			item: {id: "aether:gold_dungeon_key", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000017012"
+			type: "item"
+			item: {id: "aether:gravitite_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000017013"
+		x: 2.0d
+		y: 0.0d
+		title: "Iron's Grand Tome"
+		icon: {id: "irons_spellbooks:gold_spell_book", Count: 1b}
+		description: ["The Gold Spellbook is the penultimate Iron's Spells tier — it holds more spell slots and casts spells at higher base power than the iron or copper books below it. The upgrade path from Iron → Copper → Gold → Netherite doesn't require a prior book, but the Gold book needs gold and enchanted materials that took time to accumulate.", "At this tier, multi-glyph combinations become practical: Root an enemy, call down a lightning strike, shield yourself in the same casting sequence from one book. The Archmage Spellbook above this is endgame. The Gold book is where you commit to the magic build and feel the payoff.", "Slot your highest-level spells. Check JEI under Iron's Spells for the full list of what's available — some of the most powerful utility spells (Time Stop, Void Tentacles) only become learnable with a Gold book or better."]
+		tasks: [{
+			id: "0000000000017014"
+			type: "item"
+			item: {id: "irons_spellbooks:gold_spell_book", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000017015"
+			type: "item"
+			item: {id: "irons_spellbooks:scroll_of_target_health", Count: 1b}
+		}]
+	}, {
+		id: "0000000000017016"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000017013"]
+		title: "Apotheosis Ascendant"
+		icon: {id: "apotheosis:uncommon_gem", Count: 1b}
+		description: ["Apotheosis adds a Boss Altar system — craft the altar, set a target mob spawner nearby, and use Infusion Runes to level up the spawner. At maximum level, that spawner produces an Awakened Champion version of the mob with massively increased stats, special resistances, and augmented drops.", "The reward is proportional to the investment: Awakened Champions drop high-rarity Apotheosis Gems at a much higher rate than standard enemies. Gems that slot into armor and weapons are pure additive power on top of affixes, sockets, and stat souls. A full set of Mythic gems across four armor pieces is one of the most significant power spikes in the late game.", "Find a spawner you want to augment. Build the altar adjacent to it. Run the rune investment chain. Then fight what you made."]
+		tasks: [{
+			id: "0000000000017017"
+			type: "checkmark"
+			title: "Defeat an Apotheosis Awakened Champion from a Boss Altar spawner"
+		}]
+		rewards: [{
+			id: "0000000000017018"
+			type: "item"
+			item: {id: "apotheosis:uncommon_gem", Count: 2b}
+		}]
+	}, {
+		id: "0000000000017019"
+		x: 4.0d
+		y: -2.0d
+		title: "Act III Veteran"
+		icon: {id: "mmorpg:stone/3", Count: 1b}
+		description: ["Act III Atlas maps are where Mine & Slash starts rewarding proper builds. The enemies have enough HP and damage that raw stat investment matters, and the map affixes (Cursed Ground, Boss Empowered, Swarming) require knowing your kit.", "Rare Stone drops become more reliable here. The map bosses begin dropping Legendary Stones occasionally. Run them modified — use the currency from Tier 2 of the Orb Forge to add map affixes before running. More risk, more reward.", "Four Rare Stones in your inventory is the gate for this quest. If you've been salvaging your drops consistently from Chapter 7 onward, you should have this already. If not, the Atlas is the fastest path to Rare Stones from here on."]
+		tasks: [{
+			id: "000000000001701A"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000001701B"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "000000000001701C"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["0000000000017019"]
+		title: "First Legend"
+		icon: {id: "mmorpg:stone/4", Count: 1b}
+		description: ["A Legendary Stone comes from salvaging Legendary-quality gear. Legendary drops are uncommon even in Act III — they fall most reliably from map bosses and the rarer Act IV variants. Your first one will arrive by accident, in a run you weren't planning on, from a boss you weren't ready for.", "When it drops, pick it up. Keep it. It is the Tier 4 Orb Forge gate material — needed in the Quantum Exaltation Array to craft the highest-tier currency in the system below Mythic. These stones accumulate slowly. Don't waste them on testing."]
+		tasks: [{
+			id: "000000000001701D"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001701E"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 1b}
+		}]
+	}]
 	quest_links: []
 }

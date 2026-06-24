@@ -1,0 +1,149 @@
+{
+	id: "0000000000002020"
+	group: "0000000000001004"
+	order_index: 2
+	filename: "reference_line_of_progression"
+	title: "Line of Progression"
+	icon: {id: "gtceu:uv_machine_hull", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "000000000020B001"
+		x: 0.0d
+		y: 0.0d
+		title: "Awakening → Stone Age"
+		icon: {id: "minecraft:dirt", Count: 1b}
+		description: ["The pack opens with a short survival bootstrap: gather wood, craft flint tools via the Banana Pickaxe chain, build a shelter, and craft the Boneanner armor set. The Boneanner armor choice — Plate, Leather, or Cloth — defines your MnS armor stat track. This choice cannot be changed, so pick based on how you intend to fight: Plate for tank, Leather for dodge/agility, Cloth for magic shield/casting.", "Parallel to the initial survival loop: find a Soul Land cultivation altar to begin the Soul Land cultivation path (see Side D), craft your first Tinkers' Smeltery, and start a small Create water wheel to power early Create machines. None of these are blocked; all can be done in the first two hours."]
+		tasks: [{
+			id: "000000000020B002"
+			type: "checkmark"
+			title: "Read the early game overview"
+		}]
+		rewards: [{
+			id: "000000000020B003"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000020B005"
+		x: 2.0d
+		y: 0.0d
+		title: "LV Tier"
+		icon: {id: "gtceu:lv_machine_hull", Count: 1b}
+		description: ["LV (Low Voltage) is the entry tier for GregTech machines. The gate is the first LV Machine Hull — crafted from Iron Plates and a resistor chain. LV machines include the Macerator, Centrifuge, Chemical Reactor, and Electric Blast Furnace. The EBF is the most important LV build: it runs Aluminium, Steel at higher throughput, and early alloys that are otherwise difficult to obtain.", "Circuit gate for LV: produce 8 Basic Electronic Circuits. This requires the Circuit Manufacturing Facility, which itself requires LV machines to build. The LV circuit bootstrap is the first meaningful GT self-reference loop: you need LV to build LV. Start with whatever subset of LV components you can craft manually and expand from there."]
+		tasks: [{
+			id: "000000000020B006"
+			type: "checkmark"
+			title: "Read the LV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B007"
+			type: "item"
+			item: {id: "gtceu:lv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B009"
+		x: 4.0d
+		y: 0.0d
+		title: "MV Tier"
+		icon: {id: "gtceu:mv_machine_hull", Count: 1b}
+		description: ["MV (Medium Voltage) gates behind the Naga boss kill in the Twilight Forest and a Steel production chain. MV machines run at 4x the speed of LV at their rated voltage. Key MV additions: the Electrolyzer for separating compounds into elements, the Chemical Bath for wet processing, and the Ore Washing Plant that converts slurry from Macerating into pure dusts with byproduct outputs.", "At MV, ore processing should reach Tier 2-3 efficiency for Iron, Copper, and Tin. The Cupronickel EBF coil unlocks Aluminium smelting at 1700K. Set up automated charcoal or coke production to keep the EBF running continuously. MV circuits (Good Electronic Circuits) require Gold Wire and Integrated Logic Circuits — start the Gold processing chain immediately."]
+		tasks: [{
+			id: "000000000020B00A"
+			type: "checkmark"
+			title: "Read the MV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B00B"
+			type: "item"
+			item: {id: "gtceu:mv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B00D"
+		x: 6.0d
+		y: 0.0d
+		title: "HV Tier"
+		icon: {id: "gtceu:hv_machine_hull", Count: 1b}
+		description: ["HV (High Voltage) gates behind the Lich boss kill in the Twilight Forest. The HV hull requires Stainless Steel — an EBF alloy of Iron, Chrome, Manganese, and Nickel. Chrome comes from Ruby/Spessartine electrolysis. Manganese comes from pyrolusite maceration. Both require working MV chemistry chains.", "Key HV additions: the Cleanroom multiblock (required for IC chip production and advanced circuits), the Large Chemical Reactor (multiblock that runs chemical recipes at higher throughput), and the Distillation Tower (for oil refining). HV circuits (Advanced Integrated Circuits) require phenolic PCBs, IC chips from the Cleanroom, and PTFE insulated wire. AE2 ME network entry is gated at HV behind Titanium and Terrasteel."]
+		tasks: [{
+			id: "000000000020B00E"
+			type: "checkmark"
+			title: "Read the HV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B00F"
+			type: "item"
+			item: {id: "gtceu:hv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B011"
+		x: 8.0d
+		y: 0.0d
+		title: "EV Tier"
+		icon: {id: "gtceu:ev_machine_hull", Count: 1b}
+		description: ["EV (Extreme Voltage) gates behind the Hydra boss kill in the Twilight Forest. The EV hull requires Titanium — produced via the ilmenite or rutile reduction chain in the Vacuum Freezer. Titanium processing requires HV machines to set up. The EV tier introduces the Vacuum Freezer as a standalone machine, the Large Macerator and Electrolyzer multiblocks, and the capability to run full Tier 3 ore processing on exotic ores.", "Key EV additions: Flux Networks wireless power (which activates at EV with the Ur-Ghast boss kill), PneumaticCraft Pneumatic Armor, and the beginning of the platinum group metal chains that gate LuV. Start the Cooperite ore processing chain at EV — it produces six distinct metals that are all needed at IV-LuV."]
+		tasks: [{
+			id: "0000000020B0012"
+			type: "checkmark"
+			title: "Read the EV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B013"
+			type: "item"
+			item: {id: "gtceu:ev_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B015"
+		x: 10.0d
+		y: 0.0d
+		title: "IV Tier"
+		icon: {id: "gtceu:iv_machine_hull", Count: 1b}
+		description: ["IV (Insane Voltage) gates behind the Snow Queen boss kill in the Twilight Forest. The IV hull requires Tungsten — a multi-step acid reduction chain in the EBF above 3000K temperature. IV introduces the Assembly Line multiblock, which uses Data Sticks scanned from complex components to run sequential production recipes that no single machine could handle.", "Circuit escalation at IV: Nano Processor Mainframes require a working LPiC production chain, clean silicon, and the Cleanroom running at full throughput. At IV, automate the platinum group metal chain completely through the ME autocrafting system — Rhodium-Plated Palladium for the LuV hull requires 4 processing steps and 3 machine types. The first Fusion Reactor (LuV tier) is accessible at the end of IV."]
+		tasks: [{
+			id: "000000000020B016"
+			type: "checkmark"
+			title: "Read the IV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B017"
+			type: "item"
+			item: {id: "gtceu:iv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B019"
+		x: 12.0d
+		y: 0.0d
+		title: "LuV / ZPM Tier"
+		icon: {id: "gtceu:luv_machine_hull", Count: 1b}
+		description: ["LuV (Ludicrous Voltage) requires the Assembly Line for the hull itself — Rhodium-Plated Palladium plates produced through platinum group chemistry. The LuV Fusion Reactor is the first power-generating Fusion Reactor and produces plasma for later turbine chains. ZPM (Zero Point Module) follows immediately: Naquadah Alloy hull, accessible after LuV Fusion outputs Naquadah plasma derivatives.", "At LuV-ZPM, the factory should be running near-fully automated. Every circuit tier from LV to Quantum Processor should have a dedicated autocrafting chain in the ME system. The Assembly Line autocrafting setup is the most complex in the pack — each recipe on a Data Stick is a separate autocrafting pattern, and the 16-input Assembly Line requires precise Subnetwork channel management."]
+		tasks: [{
+			id: "000000000020B01A"
+			type: "checkmark"
+			title: "Read the LuV/ZPM tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B01B"
+			type: "item"
+			item: {id: "gtceu:luv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000020B01D"
+		x: 14.0d
+		y: 0.0d
+		title: "UV / UHV Tier"
+		icon: {id: "gtceu:uv_machine_hull", Count: 1b}
+		description: ["UV (Ultra Voltage) gates behind the Ender Dragon kill. The UV hull requires Neutronium from UV Fusion and a Dragon Head from the End Ship. The UV Fusion Reactor produces Neutronium directly and runs at power densities beyond any previous reactor.", "UHV (Ultra High Voltage) gates behind the Warden kill in an Ancient City. The UHV hull requires Osmiridium — an Osmium-Iridium alloy from the platinum group chain — and an Echo Shard from the Ancient City chests. UHV is the standard hull ceiling. The Orb Forge Master Forge (Tier 7) is accessible at UHV and serves as the Orb Forge endgame. From here, the Mine and Slash gear endgame and the Orb Forge progression converge."]
+		tasks: [{
+			id: "000000000020B01E"
+			type: "checkmark"
+			title: "Read the UV/UHV tier overview"
+		}]
+		rewards: [{
+			id: "000000000020B01F"
+			type: "item"
+			item: {id: "gtceu:uv_machine_hull", Count: 2b}
+		}]
+	}]
+	quest_links: []
+}

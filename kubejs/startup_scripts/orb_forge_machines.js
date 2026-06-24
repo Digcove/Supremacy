@@ -26,7 +26,8 @@ const MACHINE_IDS = [
     ['modpack', 'cipher_engraving_table'],
     ['modpack', 'quantum_exaltation_array'],
     ['modpack', 'fusion_forge'],
-    ['modpack', 'nano_reliquary']
+    ['modpack', 'nano_reliquary'],
+    ['modpack', 'orb_forge']  // Master machine: runs all tier recipes at 4x speed
 ]
 
 // Step 1: Register one MBDRecipeType per machine.

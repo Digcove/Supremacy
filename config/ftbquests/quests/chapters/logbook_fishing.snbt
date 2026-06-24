@@ -1,0 +1,154 @@
+{
+	id: "0000000000002023"
+	group: "0000000000001005"
+	order_index: 2
+	filename: "logbook_fishing"
+	title: "Fishing"
+	icon: {id: "minecraft:fishing_rod", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "000000000020E001"
+		x: 0.0d
+		y: 0.0d
+		title: "First Cast"
+		icon: {id: "minecraft:fishing_rod", Count: 1b}
+		description: ["Fishing in vanilla Minecraft already has depth beyond the surface: the catch pool is divided into Fish (60%), Junk (10%), and Treasure (30% with Luck of the Sea enchantment). Treasure includes enchanted books, Name Tags, Saddles, and Nautilus Shells — not junk at all. The game rolls the catch table at the end of the fishing timer, not at the start, so the rod quality and enchantments matter for every single cast.", "The best fishing enchantments: Luck of the Sea (increases Treasure catch rate, reduce Junk), Lure (reduces wait time between catches), Mending (experience earned from fishing repairs the rod). All three on a single rod, crafted through a Create enchanting chain, is the standard optimal fishing setup. Build this rod before investing seriously in fishing time."]
+		tasks: [{
+			id: "000000000020E002"
+			type: "item"
+			item: {id: "minecraft:cod", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020E003"
+			type: "item"
+			item: {id: "minecraft:fishing_rod", Count: 1b}
+		}]
+	}, {
+		id: "000000000020E005"
+		x: 2.0d
+		y: 0.0d
+		title: "Enchanted Rod"
+		icon: {id: "minecraft:enchanted_book", Count: 1b}
+		description: ["Luck of the Sea III significantly shifts the Treasure catch rate upward — from 5% baseline to around 12% with LotS III. Over the course of a long fishing session, this means considerably more enchanted books, Name Tags, and Saddles per hour. Lure III reduces the wait time between catches to less than half the baseline, effectively doubling the catches per hour relative to an unenchanted rod.", "Obtain the enchantments through the Create Enchantment Industry Printer once you have the books. Mending is the hardest to find in dungeon loot — check trading hall Librarian villagers, who can provide Mending books through reroll trades. Once all three are on the rod, fishing time becomes genuinely productive rather than idle."]
+		tasks: [{
+			id: "000000000020E006"
+			type: "item"
+			item: {id: "minecraft:cod", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "000000000020E007"
+			type: "item"
+			item: {id: "minecraft:enchanted_book", Count: 2b}
+		}]
+	}, {
+		id: "000000000020E009"
+		x: 4.0d
+		y: 0.0d
+		title: "Pam's Fish"
+		icon: {id: "minecraft:salmon", Count: 1b}
+		description: ["Pam's HarvestCraft 2 - Food Core extends the fishing pool with numerous additional fish species — Bass, Catfish, Eel, Herring, Pike, Perch, Trout, and more — each with their own cooking recipes from Farmer's Delight. Different fish species appear in different biome water sources: ocean fish appear in deep ocean biomes, freshwater fish in rivers, warm water fish in tropical biomes.", "The diversity of fish types means fishing near different biome water sources gives genuinely different catches. A fishing session in a river yields different species than one in a taiga ocean. The Pam's fish varieties open a significantly expanded Farmer's Delight cooking tree — see side_a (Farmer's Life) for the full cooking progression."]
+		tasks: [{
+			id: "000000000020E00A"
+			type: "item"
+			item: {id: "minecraft:salmon", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000020E00B"
+			type: "item"
+			item: {id: "minecraft:cooked_salmon", Count: 8b}
+		}]
+	}, {
+		id: "000000000020E00D"
+		x: 2.0d
+		y: -2.0d
+		title: "Treasure Fishing"
+		icon: {id: "minecraft:name_tag", Count: 1b}
+		description: ["The Treasure category in fishing includes three items valuable outside cooking: Name Tags (name any mob permanently), Saddles (required for horse mounting without a saddle recipe), and Nautilus Shells (required for Conduit crafting). None of these have reliable crafting recipes — fishing is the primary obtainment method. With a Luck of the Sea III rod, a multi-hour fishing session produces enough Name Tags to name every important mob in a farm and enough Nautilus Shells for a Conduit.", "Saddles are also available from dungeon loot and village chests, but fishing is more controllable than dungeon-clearing for volume. If you need 10 saddles, a Luck-of-the-Sea session is faster than repeatedly clearing the same dungeon types looking for chest saddles."]
+		tasks: [{
+			id: "000000000020E00E"
+			type: "item"
+			item: {id: "minecraft:name_tag", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020E00F"
+			type: "item"
+			item: {id: "minecraft:name_tag", Count: 2b}
+		}]
+	}, {
+		id: "000000000020E011"
+		x: 6.0d
+		y: 0.0d
+		title: "Fish as Food"
+		icon: {id: "minecraft:cooked_cod", Count: 1b}
+		description: ["Farmer's Delight adds multiple fish-based meals that provide significant combat and exploration bonuses when consumed. Fish meals provide Saturation and Regeneration buffs at higher values than simple cooked fish — investing in cooking fish properly is a direct combat improvement. The Stuffed Pumpkin and Fish Stew recipes in particular give long-duration Saturation that covers a full dungeon run without additional eating.", "Cooked fish also satisfies the Farmer's Delight meal ingredient requirements for several high-tier dishes — the fish input is interchangeable among the common species for most recipes, so your entire fish catch can go directly into cooking. Keep a supply of Cooked Cod, Cooked Salmon, and any Pam's fish you catch as the foundation for a Farmer's Delight cooking session."]
+		tasks: [{
+			id: "000000000020E012"
+			type: "item"
+			item: {id: "farmersdelight:fish_stew", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020E013"
+			type: "item"
+			item: {id: "farmersdelight:fish_stew", Count: 4b}
+		}]
+	}, {
+		id: "000000000020E015"
+		x: 4.0d
+		y: -2.0d
+		title: "Aqua Affinity"
+		icon: {id: "minecraft:prismarine_crystals", Count: 1b}
+		description: ["Aqua Affinity removes the mining speed penalty underwater. Paired with Respiration III (increases breath-holding duration and underwater vision), deep ocean exploration becomes viable without a Conduit or Potion of Water Breathing. The combination — Aqua Affinity + Respiration III on a helmet, swimming with a full suit of enchanted armor — lets you clear Ocean Monuments and loot Shipwrecks without constantly surfacing.", "Conduits, built from the Heart of the Sea and Nautilus Shells you fish up, provide a beacon-like underwater area-of-effect buff: Conduit Power gives Haste, Night Vision, and Water Breathing to all players within range. Build a Conduit at your underwater farming or exploration sites as a quality-of-life infrastructure investment."]
+		tasks: [{
+			id: "000000000020E016"
+			type: "checkmark"
+			title: "Enchant a helmet with Aqua Affinity and Respiration III"
+		}]
+		rewards: [{
+			id: "000000000020E017"
+			type: "item"
+			item: {id: "minecraft:prismarine_crystals", Count: 8b}
+		}]
+	}, {
+		id: "000000000020E019"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000020E005"]
+		title: "AFK Fishing Farm"
+		icon: {id: "minecraft:tripwire_hook", Count: 1b}
+		description: ["An AFK fishing farm uses a tripwire hook, a note block, and a trapdoor to hold the right-click fishing state without requiring manual input: the trapdoor opens and closes on a clock, the bobber drops and catches, and outputs are automatically hopper-fed into a chest. This converts fishing into a fully passive activity that accumulates fish, enchanted books, and treasures while you are doing other things.", "Build one near your base entrance. The farm requires running water, a specific trapdoor placement, and a hopper-and-chest output chain. Tune it with a Luck of the Sea III rod for maximum treasure accumulation. A three-hour AFK fishing session with this setup produces dozens of enchanted books, hundreds of fish, and a significant number of Name Tags and Saddles without any player interaction."]
+		tasks: [{
+			id: "000000000020E01A"
+			type: "checkmark"
+			title: "Build an AFK fishing farm that catches items without manual fishing input"
+		}]
+		rewards: [{
+			id: "000000000020E01B"
+			type: "item"
+			item: {id: "minecraft:nautilus_shell", Count: 4b}
+		}]
+	}, {
+		id: "000000000020E01D"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000020E019"]
+		title: "Master Angler"
+		icon: {id: "minecraft:nether_star", Count: 1b}
+		description: ["The serious angler in this pack does not just fish — they optimize the full pipeline: AFK farm with Lure III running continuously, all treasure hopper-sorted into dedicated chests by item type, fish going into the ME network as Farmer's Delight cooking inputs, and enchanted books flagged for Create Enchantment Industry printing. The fish chest is connected to the base's autocrafting system. Every catch has a designated destination.", "There is something satisfying about this particular optimization: the simplest activity in the game becomes infrastructure. The pond outside your base is not decoration — it is production. The rod is not a hobby item — it is a machine. When the AFK farm has been running for six hours while you build the IV production floor, and you come back to find forty enchanted books and a stack of Name Tags waiting in the chest, the optimization paid off."]
+		tasks: [{
+			id: "000000000020E01E"
+			type: "item"
+			item: {id: "minecraft:nautilus_shell", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000020E01F"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}]
+	quest_links: []
+}

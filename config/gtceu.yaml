@@ -1,0 +1,151 @@
+recipes:
+  generateLowQualityGems: false
+  disableManualCompression: false
+  harderRods: false
+  harderBrickRecipes: false
+  nerfWoodCrafting: false
+  hardWoodRecipes: false
+  hardIronRecipes: true
+  hardRedstoneRecipes: false
+  hardToolArmorRecipes: false
+  hardMiscRecipes: false
+  hardGlassRecipes: true
+  nerfPaperCrafting: false
+  hardAdvancedIronRecipes: false
+  hardDyeRecipes: false
+  harderCharcoalRecipe: false
+  flintAndSteelRequireSteel: false
+  removeVanillaBlockRecipes: false
+  removeVanillaTNTRecipe: true
+  casingsPerCraft: 2
+  harderCircuitRecipes: false
+  ulvComponentsHarderRecipes: true
+  hardMultiRecipes: false
+  enchantedTools: true
+  enableMaceratorRecycling: true
+  maceratorRecyclingYield: 1.0
+  enableArcRecycling: true
+  arcRecyclingYield: 1.0
+  enableExtractorRecycling: true
+  extractorRecyclingYield: 1.0
+  chanceUseRecipeOC: true
+worldgen:
+  rubberTreeSpawnChance: 0.5
+  allUniqueStoneTypes: false
+  sandOresFall: false
+  increaseDungeonLoot: true
+  addLoot: true
+  oreVeins:
+    oreVeinGridSize: 3
+    oreVeinRandomOffset: 12
+    # Kept false — soulland:spirit_iron_ore and soulland:qi_crystal use their own worldgen features
+    # and must not be stripped by GTCEu's vanilla ore removal.
+    removeVanillaOreGen: false
+    removeVanillaLargeOreVeins: false
+    bedrockOreDistance: 16
+    infiniteBedrockOresFluids: false
+    oreIndicators: true
+    oreGenerationChunkCacheSize: 512
+    oreIndicatorChunkCacheSize: 2048
+machines:
+  requireGTToolsForBlocks: false
+  shouldWeatherOrTerrainExplosion: false
+  energyUsageMultiplier: 100
+  prospectorEnergyUseMultiplier: 100
+  doesExplosionDamagesTerrain: false
+  harmlessActiveTransformers: false
+  machineSounds: true
+  batchDuration: 100
+  steelSteamMultiblocks: false
+  enableCleanroom: true
+  cleanMultiblocks: false
+  replaceWithCobbleVersion: true
+  replaceMinedBlocksWith: minecraft:cobblestone
+  enableResearch: true
+  enableMaintenance: true
+  maintenanceCheckInterval: 1000
+  ghostCircuit: true
+  gt6StylePipesCables: true
+  enableTieredCasings: false
+  orderedAssemblyLineFluids: false
+  allowDrumsInputFluidsFromOutputSide: false
+  superTankFluidCellBehavior: false
+  machinesEmissiveTextures: true
+  machinesHaveBERsByDefault: true
+  toolUseSounds: true
+  toolCraftingSounds: true
+  defaultPaintingColor: "#FFFFFF"
+  boilers:
+    bronzeBoilerHeatSpeed: 1
+    steelBoilerHeatSpeed: 1
+    titaniumBoilerHeatSpeed: 1
+    tungstensteelBoilerHeatSpeed: 2
+  hud:
+    hudLocation: 1
+    hudOffsetX: 0
+    hudOffsetY: 0
+  renderer:
+    renderFluids: true
+    renderGrowingPlants: true
+    coloredTieredMachineOutline: true
+    coloredWireOutline: true
+  tankItemFluidPreview:
+    drum: true
+    quantumTank: true
+tools:
+  rngDamageElectricTools: 10
+  sprayCanChainLength: 16
+  treeFellingDelay: 2
+  nanoSaber:
+    nanoSaberDamageBoost: 20.0
+    nanoSaberBaseDamage: 5.0
+    zombieSpawnWithSabers: true
+    energyConsumption: 64
+  voltageTierNightVision: 1
+  voltageTierNanoSuit: 3
+  voltageTierAdvNanoSuit: 3
+  voltageTierQuarkTech: 5
+  voltageTierAdvQuarkTech: 6
+  voltageTierImpeller: 2
+  voltageTierAdvImpeller: 3
+gameplay:
+  hazardsEnabled: false
+  universalHazards: false
+  environmentalHazards: false
+  environmentalHazardDecayRate: 0.001
+compat:
+  energy:
+    nativeEUToFE: true
+    enableFEConverters: true
+    feToEuRatio: 4
+    euToFeRatio: 4
+  ae2:
+    updateIntervals: 40
+    meHatchEnergyUsage: 1.0
+  minimap:
+    toggle:
+      ftbChunksIntegration: false
+      journeyMapIntegration: true
+      xaerosMapIntegration: true
+    surfaceRockProspectRange: 24
+    oreBlockProspectRange: 24
+    oreScaleStop: 1.0
+    oreIconSize: 32
+    oreNamePrefix: -
+    borderColor: "#00000000"
+    buttonAnchor: BOTTOM_LEFT
+    direction: HORIZONTAL
+    xOffset: 20
+    yOffset: 0
+  hideFacadesInRecipeViewer: true
+  hideFilledCellsInRecipeViewer: true
+  hideOreProcessingDiagrams: false
+  removeSmeltingForEBFMetals: true
+  showDimensionTier: false
+  createCompat: true
+dev:
+  debug: false
+  debugWorldgen: false
+  doSuperflatOres: false
+  dumpRecipes: false
+  dumpAssets: false

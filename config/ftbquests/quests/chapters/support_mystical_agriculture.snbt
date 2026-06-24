@@ -1,0 +1,253 @@
+{
+	id: "000000000000201B"
+	group: "0000000000001003"
+	order_index: 2
+	filename: "support_mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: {id: "mysticalagriculture:supremium_seeds", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000206001"
+		x: 0.0d
+		y: 0.0d
+		title: "Inferium"
+		icon: {id: "mysticalagriculture:inferium_seeds", Count: 1b}
+		description: ["Mystical Agriculture introduces a crop-based resource generation system: plant a seed on Mystic Dirt, let it grow, harvest the Essence output, and use those Essences to craft higher-tier seeds or resource-specific crops. Inferium Seeds are the entry point — they produce Inferium Essence, which is the base material for every higher tier.", "The progression is a ladder: 4 Inferium Essence crafts 1 Prudentium Essence, and so on through each tier. The time investment to climb this ladder manually is significant. The answer is scale: plant not one row but an entire Botany Pot wall of Inferium Seeds and let them run passively. With enough Pots running, the Inferium Essence supply becomes fast enough to sustain the upgrade chain without dedicated grinding."]
+		tasks: [{
+			id: "0000000000206002"
+			type: "item"
+			item: {id: "mysticalagriculture:inferium_essence", Count: 1b}
+			count: 64L
+		}]
+		rewards: [{
+			id: "0000000000206003"
+			type: "item"
+			item: {id: "mysticalagriculture:inferium_seeds", Count: 4b}
+		}]
+	}, {
+		id: "0000000000206005"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000206001"]
+		title: "Prudentium"
+		icon: {id: "mysticalagriculture:prudentium_seeds", Count: 1b}
+		description: ["Prudentium is Tier 2 of the essence ladder. Four Inferium Essence converts to one Prudentium Essence in a Crafting Table, and Prudentium Seeds produce it directly once planted. At this tier, the first resource-specific crops become accessible — Iron Seeds, Coal Seeds, and basic vanilla resource crops that passively generate their respective materials instead of requiring mining.", "The standard play is to plant enough Prudentium Seeds to generate a buffer while using the Inferium surplus to craft upward into Tertium. Resource-specific crops from this tier onward remove the dependency on ore mining for common materials — at sufficient scale, a wall of Iron Seeds produces more iron per hour than any ore-processing chain you can build in the first half of the pack."]
+		tasks: [{
+			id: "0000000000206006"
+			type: "item"
+			item: {id: "mysticalagriculture:prudentium_essence", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "0000000000206007"
+			type: "item"
+			item: {id: "mysticalagriculture:prudentium_seeds", Count: 2b}
+		}]
+	}, {
+		id: "0000000000206009"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000206005"]
+		title: "Resource Crops"
+		icon: {id: "mysticalagriculture:iron_seeds", Count: 1b}
+		description: ["Resource-specific Mystical Agriculture seeds produce their material's essence when grown, which converts back to the raw material. An Iron Seed produces Iron Essence; combine four with a Mystic Petal in the correct recipe and craft Iron Ingots directly. Every common resource in the pack — Iron, Gold, Coal, Copper, Lapis, Redstone, Quartz, Obsidian, and more — has a corresponding seed available from Tier 2 onward.", "Prioritize seeds for materials your GT production floor consumes in the highest volume. Iron and Copper are early must-haves. Certus Quartz Seeds matter once AE2 is running. Nether Quartz Seeds save repeated Nether trips. Assign a Botany Pot wall section to each priority material and let the farm run while the machines do the same thing."]
+		tasks: [{
+			id: "000000000020600A"
+			type: "item"
+			item: {id: "mysticalagriculture:iron_seeds", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020600B"
+			type: "item"
+			item: {id: "mysticalagriculture:copper_seeds", Count: 1b}
+		}]
+	}, {
+		id: "000000000020600D"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000206009"]
+		title: "Tertium"
+		icon: {id: "mysticalagriculture:tertium_seeds", Count: 1b}
+		description: ["Tertium is Tier 3. The resource crops available at this tier include Gold, Diamond (low-tier), Emerald, Redstone, Glowstone, and Nether Quartz — all materials with high demand across multiple mod systems. Tertium Essence itself converts upward to Imperium at 4:1, following the same ladder as previous tiers.", "At Tertium, the Tinkering Table becomes relevant: Seed upgrades (Growth Accelerator, Yield Booster, Resistance) slot into seeds to improve their performance. A Yield Boosted Tertium resource seed produces more essence per harvest than an unmodified one. Invest in Tinkering Table upgrades for your highest-demand resource crops before pushing further up the essence ladder."]
+		tasks: [{
+			id: "000000000020600E"
+			type: "item"
+			item: {id: "mysticalagriculture:tertium_essence", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000020600F"
+			type: "item"
+			item: {id: "mysticalagriculture:tertium_seeds", Count: 2b}
+		}]
+	}, {
+		id: "0000000000206011"
+		x: 0.0d
+		y: -2.0d
+		title: "The Tinkering Table"
+		icon: {id: "mysticalagriculture:tinkering_table", Count: 1b}
+		description: ["The Tinkering Table applies upgrades to Mystical Agriculture seeds. Upgrades slot into seeds to improve specific aspects of their behavior: Growth Accelerators reduce the ticks required per growth cycle, Yield Boosters add extra drops per harvest, Resistance upgrades make the crop unable to be trampled. Each upgrade consumes Essence resources to craft and occupies one of the seed's limited upgrade slots.", "Prioritize Yield Booster upgrades on your highest-demand crops — one extra drop per harvest across a 32-Pot wall produces a significant daily surplus. Growth Accelerator upgrades on slow crops like Supremium Seeds cut the ceiling-wait time for high-tier Essence production. Tinkering Table upgrades are permanent and stack per upgrade tier; fully upgraded seeds perform significantly above their defaults."]
+		tasks: [{
+			id: "0000000000206012"
+			type: "item"
+			item: {id: "mysticalagriculture:tinkering_table", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000206013"
+			type: "item"
+			item: {id: "mysticalagriculture:yield_booster", Count: 2b}
+		}]
+	}, {
+		id: "0000000000206015"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000020600D"]
+		title: "Imperium"
+		icon: {id: "mysticalagriculture:imperium_seeds", Count: 1b}
+		description: ["Imperium is Tier 4. At this tier the resource crops become high-value: Diamond, Emerald, Nether Star, Blaze Rod, Ender Pearl, and Wither Skeleton Skull seeds all unlock at Imperium tier or above. These are materials that require dangerous boss fights or dimension travel to acquire through normal means — the seed alternative is slower per unit but safer and automatable.", "Imperium is also where the Essence accumulation rate becomes noticeable as a bottleneck. A fully upgraded Botany Pot wall with Yield Booster seeds running on rich Mystic Dirt is mandatory for sustaining Imperium output at the rate that crafts upward to Supremium. Invest in Tier 4+ Mystic Dirt soil for your Botany Pots before reaching this tier — the difference in growth speed is significant."]
+		tasks: [{
+			id: "0000000000206016"
+			type: "item"
+			item: {id: "mysticalagriculture:imperium_essence", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000206017"
+			type: "item"
+			item: {id: "mysticalagriculture:diamond_seeds", Count: 1b}
+		}]
+	}, {
+		id: "0000000000206019"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000206015"]
+		title: "Supremium"
+		icon: {id: "mysticalagriculture:supremium_seeds", Count: 1b}
+		description: ["Supremium is Tier 5 of the base Mystical Agriculture ladder — the cap of the vanilla MA system. Supremium Essence produces Supremium armor and tools with innate ability perks: the Supremium Sword has a lifesteal effect, the Supremium Chestplate gives flight when worn with the full set. They are pre-Terrasteel equivalents in raw defense, with unique abilities that have no parallel in the standard armor systems.", "Supremium also gates the Mystical Agradditions expansion tier — Insanium — which is covered next. At Supremium, the resource crop list includes every major material in the pack: Netherite, Awakened Dragon Scales, and endgame essences accessible through no other crop tier. Build toward Supremium continuously."]
+		tasks: [{
+			id: "000000000020601A"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_essence", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000020601B"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_seeds", Count: 2b}
+		}]
+	}, {
+		id: "000000000020601D"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000206019"]
+		title: "Mystical Agradditions: Insanium"
+		icon: {id: "mysticalagradditions:insanium_seeds", Count: 1b}
+		description: ["Mystical Agradditions extends the essence ladder above Tier 5 with Insanium — Tier 6 Essence requiring 4 Supremium Essence per craft, and producible directly from Insanium Seeds. At Insanium, the resource crop list extends to cover endgame materials only accessible through the pack's hardest content: Neutronium Seeds, Naquadah Seeds, Awakened Draconium, and Gaia Spirit crops.", "Insanium Essence is also a crafting component for the highest-tier Mystical Agriculture tools and armor. The Insanium Sword and armor set outperform Supremium significantly and represent one of the pack's strongest non-GT gear paths. Build toward Insanium as a parallel track to GT progression — the two systems compound each other."]
+		tasks: [{
+			id: "000000000020601E"
+			type: "item"
+			item: {id: "mysticalagradditions:insanium_essence", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020601F"
+			type: "item"
+			item: {id: "mysticalagradditions:insanium_seeds", Count: 2b}
+		}]
+	}, {
+		id: "0000000000206021"
+		x: 8.0d
+		y: -2.0d
+		dependencies: ["0000000000206015"]
+		title: "Late-Tier Resource Crops"
+		icon: {id: "mysticalagriculture:netherite_seeds", Count: 1b}
+		description: ["At Imperium and Supremium tiers, resource crops become available for materials that are otherwise gated behind significant progression: Netherite Seeds (no Ancient Debris mining required), Nether Star Seeds (no Wither fight required), Wither Skeleton Skull Seeds, and Boss Drop Seeds for materials normally farmed from tough fights. At scale, these replace dangerous progression gates with passive time investment.", "The trade-off is real: mine Ancient Debris now and get Netherite in twenty minutes, or plant Netherite Seeds and wait three hours for the equivalent output. The Seeds are not a shortcut to rapid material acquisition — they are a reliable long-term passive supply that means you never need to go back and grind that content again after the first time you clear it."]
+		tasks: [{
+			id: "0000000000206022"
+			type: "item"
+			item: {id: "mysticalagriculture:netherite_seeds", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000206023"
+			type: "item"
+			item: {id: "mysticalagriculture:netherite_seeds", Count: 1b}
+		}]
+	}, {
+		id: "0000000000206025"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000206009", "0000000000206011"]
+		title: "Botany Pot Integration"
+		icon: {id: "botanypots:botany_pot", Count: 1b}
+		description: ["Mystical Agriculture seeds grow on Mystic Dirt — which is also a valid soil type for Botany Pots. A Botany Pot filled with Tier 4 or 5 Mystic Dirt soil and a resource seed runs continuously without player interaction, auto-harvests into an adjacent Hopper, and deposits into your ME network. This combination is the production backbone for passive resource generation.", "The scaling path: start with a 4x4 Pot wall on each priority resource seed, upgrade the Mystic Dirt soil tier in each Pot as higher-tier soil becomes available, and add Yield Booster upgrades to the seeds. A 16-Pot wall of Supremium-tier Mystic Dirt with fully upgraded Diamond Seeds produces diamonds faster than any dungeon run. The farm runs while you do everything else."]
+		tasks: [{
+			id: "0000000000206026"
+			type: "checkmark"
+			title: "Run at least 16 Botany Pots with Mystical Agriculture resource seeds on Mystic Dirt soil"
+		}]
+		rewards: [{
+			id: "0000000000206027"
+			type: "item"
+			item: {id: "botanypots:botany_pot", Count: 4b}
+		}]
+	}, {
+		id: "0000000000206029"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["000000000020601D", "0000000000206021"]
+		dependency_requirement: "one_completed"
+		title: "Mystical Fertilizer"
+		icon: {id: "mysticalagriculture:mystical_fertilizer", Count: 1b}
+		description: ["Mystical Fertilizer is a bonemeal-equivalent that applies a full growth tick to Mystical Agriculture crops: right-click a crop with it and it skips to the next growth stage instantly. For crops that take multiple growth stages before harvest, a single Fertilizer application shaves significant time. In bulk, it converts an idle wait into an active production burst.", "Craft it from Inferium Essence — which means your passive Inferium farm feeds both the Fertilizer supply and the essence ladder simultaneously. Use Fertilizer on high-value crops under time pressure: if you need a specific Supremium resource crop output before an in-progress GT recipe chain can complete, applying Fertilizer to the relevant crop closes the gap. It is not a replacement for passive farming, but it is a useful manual override when timing matters."]
+		tasks: [{
+			id: "000000000020602A"
+			type: "item"
+			item: {id: "mysticalagriculture:mystical_fertilizer", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000020602B"
+			type: "item"
+			item: {id: "mysticalagriculture:mystical_fertilizer", Count: 8b}
+		}]
+	}, {
+		id: "000000000020602D"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["0000000000206029"]
+		title: "The Greenhouse"
+		icon: {id: "mysticalagriculture:supremium_essence", Count: 1b}
+		description: ["A fully developed Mystical Agriculture operation is a greenhouse: a dedicated building with walls of Botany Pots on every vertical surface, each Pot filled with max-tier Mystic Dirt soil and a Yield-Boosted resource seed, all Hoppers depositing into an ME Import Bus, and Level Emitters on the ME network automatically crafting higher Essences when lower-tier stock exceeds threshold.", "At this scale the greenhouse is a passive income engine. Diamonds accumulate while you sleep. Iron and Copper stock never deplete. Nether Star seeds eliminate Wither fights entirely. The Greenhouse is not the centerpiece of the pack — it is the support structure that removes material scarcity as a limit on everything else."]
+		tasks: [{
+			id: "000000000020602E"
+			type: "checkmark"
+			title: "Build a dedicated greenhouse with 50+ Botany Pots on Mystical Agriculture crops"
+		}]
+		rewards: [{
+			id: "000000000020602F"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_essence", Count: 4b}
+		}]
+	}, {
+		id: "0000000000206031"
+		x: 18.0d
+		y: 0.0d
+		dependencies: ["000000000020602D"]
+		title: "Full Supply Chain"
+		icon: {id: "mysticalagradditions:insanium_essence", Count: 1b}
+		description: ["A complete Mystical Agriculture supply chain feeds every tier of the progression simultaneously: Inferium Pots supply the essence ladder, the essence ladder feeds resource crop seed crafting and Fertilizer production, resource crops supply the ME network's bulk material buffers, and Level Emitters on the ME network automatically upcraft lower Essences into higher tiers when stock thresholds trigger.", "When this loop runs without intervention — Pots growing, ME autocrafting converting Essences, Level Emitters maintaining buffers — the farm is autonomous. You never need to check it. It runs in the background while the GT production floor does the same thing. Two autonomous production systems, one player. That is the farm objective."]
+		tasks: [{
+			id: "0000000000206032"
+			type: "item"
+			item: {id: "mysticalagradditions:insanium_essence", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000206033"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 4b}
+		}]
+	}]
+	quest_links: []
+}

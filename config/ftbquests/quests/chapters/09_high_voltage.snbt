@@ -66,6 +66,102 @@
 			type: "item"
 			item: {id: "mmorpg:stone/2", Count: 2b}
 		}]
+	}, {
+		id: "000000000001600B"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000016007"]
+		title: "The HV Workshop"
+		icon: {id: "gtceu:hv_electrolyzer", Count: 1b}
+		description: ["HV machines run the same operations as their MV counterparts but at double the speed and with lower energy cost per operation. At this tier, the bottleneck shifts from recipe availability to throughput — how fast you can push material through the processing chain.", "The HV Electrolyzer decomposes compounds faster than two MV units running in parallel. The HV Industrial Centrifuge handles multi-component ores in batches. Build at least one of each. Your current MV setup is not slow — but it will be by the end of this chapter, and you will want to replace it before you need EV materials waiting on MV processing."]
+		tasks: [{
+			id: "000000000001600C"
+			type: "item"
+			item: {id: "gtceu:hv_electrolyzer", Count: 1b}
+		}, {
+			id: "000000000001600D"
+			type: "item"
+			item: {id: "gtceu:hv_centrifuge", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001600E"
+			type: "item"
+			item: {id: "gtceu:aluminium_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000001600F"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000001600B"]
+		title: "Chromium"
+		icon: {id: "gtceu:chrome_dust", Count: 1b}
+		description: ["Chromite ore runs through the Macerator to give Chrome Dust, but the EBF needs Cupronickel or Kanthal coils to process it — Cupronickel is sufficient, Kanthal faster. Chrome dust is one of three inputs for Stainless Steel alongside iron and nickel dust.", "Stockpile it. Stainless Steel is the material of this chapter and will be needed in large quantities for the next three. The EBF at HV produces it faster than at MV power input. Feed the furnace and let it run. The Twilight Lich gave you the hull. Chrome gives you everything built inside it."]
+		tasks: [{
+			id: "0000000000016010"
+			type: "item"
+			item: {id: "gtceu:chrome_dust", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000016011"
+			type: "item"
+			item: {id: "gtceu:stainless_steel_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000016012"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["0000000000016004"]
+		title: "The Soul Bridge"
+		icon: {id: "soulland:soul_forged_ingot", Count: 1b}
+		description: ["Soul Forged Ingots combine the two tracks running through this chapter: Spirit Iron and Qi Crystal from the Soul Land material line, fused with Stainless Steel from the GregTech Electric Blast Furnace. The recipe exists here, at HV tier, because Stainless Steel requires HV infrastructure to produce reliably.", "These ingots are the mid-tier armor base for Mine & Slash stat souls — the Gear Crafting Station now accepts Soul Forged gear as the crafting base instead of vanilla iron. Craft the full Soul Forged armor set from the Forging Table and apply stat souls immediately. This is the window between HV and EV where your combat character stops being early-game.", "See Side D for the full Soul Land progression."]
+		tasks: [{
+			id: "0000000000016013"
+			type: "item"
+			item: {id: "soulland:soul_forged_ingot", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000016014"
+			type: "item"
+			item: {id: "soulland:soul_forged_chestplate", Count: 1b}
+		}]
+	}, {
+		id: "0000000000016015"
+		x: 8.0d
+		y: -2.0d
+		title: "Tungsten Depths"
+		icon: {id: "gtceu:tungsten_dust", Count: 1b}
+		description: ["Tungsten ore spawns deep in the world — below y=-40 in GregTech's ore generation, often in veins near the same depth bands as Certus Quartz but rarer. It will not process in a normal furnace. It requires the EBF at Molybdenum or higher coil temperatures, well above anything available at this tier.", "Collect it anyway. Mine it now, stockpile it, and save it for Insane Voltage when you can finally smelt it into the plates the IV Machine Hull needs. If you're seeing Tungsten Ore and passing it by because you can't use it yet, that's a mistake. The vein may not be there when you come back for it.", "Eight Tungsten Dust from Macerated ore is the gate for this quest. The future chapter will ask for plates, which means a lot more Dust than eight. Start now."]
+		tasks: [{
+			id: "0000000000016016"
+			type: "item"
+			item: {id: "gtceu:tungsten_dust", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000016017"
+			type: "item"
+			item: {id: "gtceu:tungsten_dust", Count: 4b}
+		}]
+	}, {
+		id: "0000000000016018"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000001600F"]
+		title: "The Large EBF"
+		icon: {id: "gtceu:electric_blast_furnace", Count: 1b}
+		description: ["A single EBF at LV input is the bottleneck for every Aluminium, Titanium, and Stainless Steel run that feeds the current tier. At HV input, the same EBF runs faster per operation. Multiple EBFs in parallel under HV power handle the material demands of EV preparation.", "The investment is simple: duplicate your EBF structure alongside your existing one and run both under the same HV power bus. Two furnaces at HV power more than quadruples your smelting throughput over one furnace at LV.", "You will need this capacity before the Hydra fight that opens EV. Titanium for the EV Hull plates requires 1941K — Kanthal coils, which you should already have — and a lot of it. Start building parallel EBF infrastructure now, while the Twilight Forest bosses are still upcoming."]
+		tasks: [{
+			id: "0000000000016019"
+			type: "checkmark"
+			title: "Run two or more Electric Blast Furnaces simultaneously under HV power"
+		}]
+		rewards: [{
+			id: "000000000001601A"
+			type: "item"
+			item: {id: "gtceu:hv_machine_hull", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }

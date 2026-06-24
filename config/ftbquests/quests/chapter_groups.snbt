@@ -7,7 +7,27 @@
 	}, {
 		id: "0000000000001002"
 		order_index: 1
-		title: "Side Quests"
+		title: "Development"
 		icon: {id: "minecraft:map", Count: 1b}
+	}, {
+		id: "0000000000001003"
+		order_index: 2
+		title: "Support"
+		icon: {id: "gtceu:mv_machine_hull", Count: 1b}
+	}, {
+		id: "0000000000001004"
+		order_index: 3
+		title: "Reference"
+		icon: {id: "minecraft:written_book", Count: 1b}
+	}, {
+		id: "0000000000001005"
+		order_index: 4
+		title: "Logbook"
+		icon: {id: "minecraft:compass", Count: 1b}
+	}, {
+		id: "0000000000001006"
+		order_index: 5
+		title: "Multiplayer"
+		icon: {id: "minecraft:shield", Count: 1b}
 	}]
 }

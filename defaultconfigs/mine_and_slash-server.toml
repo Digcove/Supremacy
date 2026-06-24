@@ -1,0 +1,647 @@
+#General Configs
+[general]
+	GET_STARTER_ITEMS = false
+	loot_announcements = true
+	require_team_for_dungeons = true
+	dont_sync_ambient_mob_data = true
+	log_errors = true
+	stop_error_spam = true
+	STATION_SUCK_NEARBY_CHESTS = false
+	#Range: > 0
+	min_level_map_drops = 55
+	#Range: > 0
+	MIN_SLIME_SIZE_FOR_LOOT = 3
+	#Range: > 0
+	DEATH_PENALTY_START_LEVEL = 50
+	#Range: > 0
+	LEVEL_DISTANCE_PENALTY_LEEWAY = 3
+	#Range: 0 ~ 100
+	PERC_OFFHAND_WEP_STAT = 25
+	#Range: 0.0 ~ 1000.0
+	regen_hunger_cost = 20.0
+	#Range: 0.0 ~ 1.0
+	death_exp_penalty = 0.05
+	#Range: 0.0 ~ 1.0
+	death_exp_debt = 0.0
+	#Range: 0.0 ~ 100.0
+	max_death_exp_debt_multi = 0.0
+	#Range: 0.0 ~ 1000.0
+	exp_gain_multi = 1.0
+	#Range: 0.0 ~ 1000.0
+	party_radius = 100.0
+	#When you are higher or lower level than mobs by X levels, decreases the loot and exp droprate.
+	#Range: 0.0 ~ 1.0
+	lvl_distance_loot_penalty_per_level = 0.33
+	#Range: 0.0 ~ 1.0
+	min_loot_chance = 0.25
+	#Range: 0.0 ~ 1000.0
+	extra_mob_stats_per_lvl = 0.15
+	#Range: 0.0 ~ 1000.0
+	vanilla_mob_dmg_as_exile_dmg = 1.0
+	#Range: 0.0 ~ 10.0
+	pvp_dmg_multi = 1.0
+	#Range: 0.0 ~ 100000.0
+	max_team_distance = 100.0
+	#Range: 0.0 ~ 10.0
+	in_combat_regen_multi = 1.0
+	#Range: 0.0 ~ 1.0
+	COMBAT_TO_PROFESSION_RESTED_XP_GENERATION = 0.25
+	#Range: 0.0 ~ 1.0
+	PROFESSION_TO_COMBAT_RESTED_XP_GENERATION = 0.05
+	#Range: 0.0 ~ 1.0
+	RESTED_XP_DEATH_PENALTY = 0.75
+	#Additional exp before splitting between players.
+	#Range: 0.0 ~ 1.0
+	PARTY_EXP_BONUS = 1.0
+	#Additional drop before splitting between players.
+	#Range: 0.0 ~ 1.0
+	PARTY_DROP_BONUS = 0.25
+	#Range: 0.0 ~ 10000.0
+	favor_death_loss = 500.0
+	#Range: 0.0 ~ 10000.0
+	favor_chest_gain = 5.0
+	#Range: 0.0 ~ 1000.0
+	gear_drop_rate = 10.0
+	#Soul drops set to 0 — stat souls come exclusively from the Gear Crafting Station recipes
+	#Range: 0.0 ~ 1000.0
+	soul_drop_rate = 0.0
+	#Range: 0.0 ~ 1000.0
+	gem_drop_rate = 1.0
+	#Range: 0.0 ~ 1000.0
+	skill_gem_drop_rate = 2.0
+	#Range: 0.0 ~ 1000.0
+	support_gem_drop_rate = 1.0
+	#Range: 0.0 ~ 1000.0
+	aura_gem_drop_rate = 0.75
+	#Range: 0.0 ~ 1000.0
+	rune_drop_rate = 0.01
+	#Range: 0.0 ~ 1000.0
+	currency_drop_rate = 0.4
+	#Range: 0.0 ~ 1000.0
+	WATCHER_EYE_DROPRATE = 25.0
+	#Range: 0.0 ~ 1000.0
+	PROPHECY_COIN_DROPRATE = 1.5
+	#Range: 0.0 ~ 100.0
+	PROPHECY_GEAR_TYPE_CHANCE = 75.0
+	#Range: 0.0 ~ 100.0
+	PROPHECY_JEWEL_RARITY_CHANCE = 75.0
+	#Range: 0.0 ~ 100.0
+	PROPHECY_SKILL_GEM_RARITY_CHANCE = 75.0
+	#Range: 0.0 ~ 100.0
+	PROPHECY_GEAR_RARITY = 75.0
+	#Range: 0.0 ~ 100.0
+	PROPHECY_SEARCH_RADIUS = 0.0
+	#Range: 0.0 ~ 1000.0
+	jewel_drop_rate = 0.25
+	#Range: 0.0 ~ 1000.0
+	loot_chest_drop_rate = 0.0
+	#Range: 0.0 ~ 1000.0
+	OMEN_DROPRATE = 0.05
+	#Range: 0.0 ~ 1000.0
+	block_cost = 0.5
+	#Range: 0 ~ 6
+	MAP_GEN_MOB_RADIUS = 3
+	#Range: 0 ~ 10
+	MAP_GEN_TERRAIN_RADIUS = 6
+	#Range: 0 ~ 100
+	ITEM_LEVEL_VARIANCE = 1
+	#Range: 0 ~ 100
+	MOB_LEVEL_VARIANCE = 1
+	#Range: 1 ~ 18
+	PROPHECY_OFFERS_PER_REROLL = 18
+	#Range: 0 ~ 1000
+	BONUS_EXP_PERCENT_PER_HIGHER_LVL_CHARACTERS = 10
+	#Range: 1 ~ 7
+	MAX_CHARACTERS = 3
+	#Range: 0.0 ~ 100.0
+	UNARMED_ENERGY_COST = 5.0
+	#This is for modded gear that can't be automatically recognized by the mod.
+	#Format: modid:path:gear_slot_id
+	gear_compatibility = [
+		"minecraft:iron_sword:sword",
+		"minecraft:wooden_axe:axe",
+		"minecraft:stone_axe:axe",
+		"minecraft:iron_axe:axe",
+		"minecraft:golden_axe:axe",
+		"minecraft:diamond_axe:axe",
+		"minecraft:netherite_axe:axe",
+		"minecraft:trident:spear",
+		"minecraft:elytra:elytra",
+		"farmersdelight:flint_knife:dagger",
+		"farmersdelight:iron_knife:dagger",
+		"farmersdelight:golden_knife:dagger",
+		"farmersdelight:diamond_knife:dagger",
+		"farmersdelight:netherite_knife:dagger",
+		"alexsmobs:shield_of_the_deep:shield",
+		"twilightforest:ironwood_axe:axe",
+		"twilightforest:diamond_minotaur_axe:axe",
+		"twilightforest:gold_minotaur_axe:axe",
+		"twilightforest:knightmetal_axe:axe",
+		"twilightforest:steeleaf_axe:axe",
+		"mowziesmobs:spear:spear",
+		"mowziesmobs:naga_fang_dagger:dagger",
+		"mowziesmobs:sculptor_staff:staff",
+		"mowziesmobs:wrought_axe:axe",
+		"botania:ender_dagger:dagger",
+		"botania:manasteel_axe:axe",
+		"botania:elementium_axe:axe",
+		"botania:terra_axe:axe",
+		"botania:flight_tiara:head",
+		"alexsmobs:tarantula_hawk_elytra:elytra",
+		"soulland:spirit_iron_sword:sword",
+		"soulland:spirit_sword:sword",
+		"soulland:spirit_halberd:spear",
+		"soulland:sea_god_trident:spear",
+		"soulland:asura_god_saber:sword",
+		# Spartan Weaponry — swords
+		"spartanweaponry:wooden_longsword:sword",
+		"spartanweaponry:stone_longsword:sword",
+		"spartanweaponry:iron_longsword:sword",
+		"spartanweaponry:golden_longsword:sword",
+		"spartanweaponry:diamond_longsword:sword",
+		"spartanweaponry:netherite_longsword:sword",
+		"spartanweaponry:copper_longsword:sword",
+		"spartanweaponry:aluminum_longsword:sword",
+		"spartanweaponry:bronze_longsword:sword",
+		"spartanweaponry:constantan_longsword:sword",
+		"spartanweaponry:electrum_longsword:sword",
+		"spartanweaponry:invar_longsword:sword",
+		"spartanweaponry:lead_longsword:sword",
+		"spartanweaponry:nickel_longsword:sword",
+		"spartanweaponry:platinum_longsword:sword",
+		"spartanweaponry:silver_longsword:sword",
+		"spartanweaponry:steel_longsword:sword",
+		"spartanweaponry:tin_longsword:sword",
+		"spartanweaponry:wooden_katana:sword",
+		"spartanweaponry:stone_katana:sword",
+		"spartanweaponry:iron_katana:sword",
+		"spartanweaponry:golden_katana:sword",
+		"spartanweaponry:diamond_katana:sword",
+		"spartanweaponry:netherite_katana:sword",
+		"spartanweaponry:copper_katana:sword",
+		"spartanweaponry:aluminum_katana:sword",
+		"spartanweaponry:bronze_katana:sword",
+		"spartanweaponry:constantan_katana:sword",
+		"spartanweaponry:electrum_katana:sword",
+		"spartanweaponry:invar_katana:sword",
+		"spartanweaponry:lead_katana:sword",
+		"spartanweaponry:nickel_katana:sword",
+		"spartanweaponry:platinum_katana:sword",
+		"spartanweaponry:silver_katana:sword",
+		"spartanweaponry:steel_katana:sword",
+		"spartanweaponry:tin_katana:sword",
+		"spartanweaponry:wooden_saber:sword",
+		"spartanweaponry:stone_saber:sword",
+		"spartanweaponry:iron_saber:sword",
+		"spartanweaponry:golden_saber:sword",
+		"spartanweaponry:diamond_saber:sword",
+		"spartanweaponry:netherite_saber:sword",
+		"spartanweaponry:copper_saber:sword",
+		"spartanweaponry:aluminum_saber:sword",
+		"spartanweaponry:bronze_saber:sword",
+		"spartanweaponry:constantan_saber:sword",
+		"spartanweaponry:electrum_saber:sword",
+		"spartanweaponry:invar_saber:sword",
+		"spartanweaponry:lead_saber:sword",
+		"spartanweaponry:nickel_saber:sword",
+		"spartanweaponry:platinum_saber:sword",
+		"spartanweaponry:silver_saber:sword",
+		"spartanweaponry:steel_saber:sword",
+		"spartanweaponry:tin_saber:sword",
+		"spartanweaponry:wooden_rapier:sword",
+		"spartanweaponry:stone_rapier:sword",
+		"spartanweaponry:iron_rapier:sword",
+		"spartanweaponry:golden_rapier:sword",
+		"spartanweaponry:diamond_rapier:sword",
+		"spartanweaponry:netherite_rapier:sword",
+		"spartanweaponry:copper_rapier:sword",
+		"spartanweaponry:aluminum_rapier:sword",
+		"spartanweaponry:bronze_rapier:sword",
+		"spartanweaponry:constantan_rapier:sword",
+		"spartanweaponry:electrum_rapier:sword",
+		"spartanweaponry:invar_rapier:sword",
+		"spartanweaponry:lead_rapier:sword",
+		"spartanweaponry:nickel_rapier:sword",
+		"spartanweaponry:platinum_rapier:sword",
+		"spartanweaponry:silver_rapier:sword",
+		"spartanweaponry:steel_rapier:sword",
+		"spartanweaponry:tin_rapier:sword",
+		"spartanweaponry:wooden_greatsword:sword",
+		"spartanweaponry:stone_greatsword:sword",
+		"spartanweaponry:iron_greatsword:sword",
+		"spartanweaponry:golden_greatsword:sword",
+		"spartanweaponry:diamond_greatsword:sword",
+		"spartanweaponry:netherite_greatsword:sword",
+		"spartanweaponry:copper_greatsword:sword",
+		"spartanweaponry:aluminum_greatsword:sword",
+		"spartanweaponry:bronze_greatsword:sword",
+		"spartanweaponry:constantan_greatsword:sword",
+		"spartanweaponry:electrum_greatsword:sword",
+		"spartanweaponry:invar_greatsword:sword",
+		"spartanweaponry:lead_greatsword:sword",
+		"spartanweaponry:nickel_greatsword:sword",
+		"spartanweaponry:platinum_greatsword:sword",
+		"spartanweaponry:silver_greatsword:sword",
+		"spartanweaponry:steel_greatsword:sword",
+		"spartanweaponry:tin_greatsword:sword",
+		# Spartan Weaponry — daggers
+		"spartanweaponry:wooden_dagger:dagger",
+		"spartanweaponry:stone_dagger:dagger",
+		"spartanweaponry:iron_dagger:dagger",
+		"spartanweaponry:golden_dagger:dagger",
+		"spartanweaponry:diamond_dagger:dagger",
+		"spartanweaponry:netherite_dagger:dagger",
+		"spartanweaponry:copper_dagger:dagger",
+		"spartanweaponry:aluminum_dagger:dagger",
+		"spartanweaponry:bronze_dagger:dagger",
+		"spartanweaponry:constantan_dagger:dagger",
+		"spartanweaponry:electrum_dagger:dagger",
+		"spartanweaponry:invar_dagger:dagger",
+		"spartanweaponry:lead_dagger:dagger",
+		"spartanweaponry:nickel_dagger:dagger",
+		"spartanweaponry:platinum_dagger:dagger",
+		"spartanweaponry:silver_dagger:dagger",
+		"spartanweaponry:steel_dagger:dagger",
+		"spartanweaponry:tin_dagger:dagger",
+		"spartanweaponry:wooden_parrying_dagger:dagger",
+		"spartanweaponry:stone_parrying_dagger:dagger",
+		"spartanweaponry:iron_parrying_dagger:dagger",
+		"spartanweaponry:golden_parrying_dagger:dagger",
+		"spartanweaponry:diamond_parrying_dagger:dagger",
+		"spartanweaponry:netherite_parrying_dagger:dagger",
+		"spartanweaponry:copper_parrying_dagger:dagger",
+		"spartanweaponry:aluminum_parrying_dagger:dagger",
+		"spartanweaponry:bronze_parrying_dagger:dagger",
+		"spartanweaponry:constantan_parrying_dagger:dagger",
+		"spartanweaponry:electrum_parrying_dagger:dagger",
+		"spartanweaponry:invar_parrying_dagger:dagger",
+		"spartanweaponry:lead_parrying_dagger:dagger",
+		"spartanweaponry:nickel_parrying_dagger:dagger",
+		"spartanweaponry:platinum_parrying_dagger:dagger",
+		"spartanweaponry:silver_parrying_dagger:dagger",
+		"spartanweaponry:steel_parrying_dagger:dagger",
+		"spartanweaponry:tin_parrying_dagger:dagger",
+		"spartanweaponry:wooden_throwing_knife:dagger",
+		"spartanweaponry:stone_throwing_knife:dagger",
+		"spartanweaponry:iron_throwing_knife:dagger",
+		"spartanweaponry:golden_throwing_knife:dagger",
+		"spartanweaponry:diamond_throwing_knife:dagger",
+		"spartanweaponry:netherite_throwing_knife:dagger",
+		"spartanweaponry:copper_throwing_knife:dagger",
+		"spartanweaponry:aluminum_throwing_knife:dagger",
+		"spartanweaponry:bronze_throwing_knife:dagger",
+		"spartanweaponry:constantan_throwing_knife:dagger",
+		"spartanweaponry:electrum_throwing_knife:dagger",
+		"spartanweaponry:invar_throwing_knife:dagger",
+		"spartanweaponry:lead_throwing_knife:dagger",
+		"spartanweaponry:nickel_throwing_knife:dagger",
+		"spartanweaponry:platinum_throwing_knife:dagger",
+		"spartanweaponry:silver_throwing_knife:dagger",
+		"spartanweaponry:steel_throwing_knife:dagger",
+		"spartanweaponry:tin_throwing_knife:dagger",
+		# Spartan Weaponry — spears / polearms
+		"spartanweaponry:wooden_spear:spear",
+		"spartanweaponry:stone_spear:spear",
+		"spartanweaponry:iron_spear:spear",
+		"spartanweaponry:golden_spear:spear",
+		"spartanweaponry:diamond_spear:spear",
+		"spartanweaponry:netherite_spear:spear",
+		"spartanweaponry:copper_spear:spear",
+		"spartanweaponry:aluminum_spear:spear",
+		"spartanweaponry:bronze_spear:spear",
+		"spartanweaponry:constantan_spear:spear",
+		"spartanweaponry:electrum_spear:spear",
+		"spartanweaponry:invar_spear:spear",
+		"spartanweaponry:lead_spear:spear",
+		"spartanweaponry:nickel_spear:spear",
+		"spartanweaponry:platinum_spear:spear",
+		"spartanweaponry:silver_spear:spear",
+		"spartanweaponry:steel_spear:spear",
+		"spartanweaponry:tin_spear:spear",
+		"spartanweaponry:wooden_halberd:spear",
+		"spartanweaponry:stone_halberd:spear",
+		"spartanweaponry:iron_halberd:spear",
+		"spartanweaponry:golden_halberd:spear",
+		"spartanweaponry:diamond_halberd:spear",
+		"spartanweaponry:netherite_halberd:spear",
+		"spartanweaponry:copper_halberd:spear",
+		"spartanweaponry:aluminum_halberd:spear",
+		"spartanweaponry:bronze_halberd:spear",
+		"spartanweaponry:constantan_halberd:spear",
+		"spartanweaponry:electrum_halberd:spear",
+		"spartanweaponry:invar_halberd:spear",
+		"spartanweaponry:lead_halberd:spear",
+		"spartanweaponry:nickel_halberd:spear",
+		"spartanweaponry:platinum_halberd:spear",
+		"spartanweaponry:silver_halberd:spear",
+		"spartanweaponry:steel_halberd:spear",
+		"spartanweaponry:tin_halberd:spear",
+		"spartanweaponry:wooden_pike:spear",
+		"spartanweaponry:stone_pike:spear",
+		"spartanweaponry:iron_pike:spear",
+		"spartanweaponry:golden_pike:spear",
+		"spartanweaponry:diamond_pike:spear",
+		"spartanweaponry:netherite_pike:spear",
+		"spartanweaponry:copper_pike:spear",
+		"spartanweaponry:aluminum_pike:spear",
+		"spartanweaponry:bronze_pike:spear",
+		"spartanweaponry:constantan_pike:spear",
+		"spartanweaponry:electrum_pike:spear",
+		"spartanweaponry:invar_pike:spear",
+		"spartanweaponry:lead_pike:spear",
+		"spartanweaponry:nickel_pike:spear",
+		"spartanweaponry:platinum_pike:spear",
+		"spartanweaponry:silver_pike:spear",
+		"spartanweaponry:steel_pike:spear",
+		"spartanweaponry:tin_pike:spear",
+		"spartanweaponry:wooden_lance:spear",
+		"spartanweaponry:stone_lance:spear",
+		"spartanweaponry:iron_lance:spear",
+		"spartanweaponry:golden_lance:spear",
+		"spartanweaponry:diamond_lance:spear",
+		"spartanweaponry:netherite_lance:spear",
+		"spartanweaponry:copper_lance:spear",
+		"spartanweaponry:aluminum_lance:spear",
+		"spartanweaponry:bronze_lance:spear",
+		"spartanweaponry:constantan_lance:spear",
+		"spartanweaponry:electrum_lance:spear",
+		"spartanweaponry:invar_lance:spear",
+		"spartanweaponry:lead_lance:spear",
+		"spartanweaponry:nickel_lance:spear",
+		"spartanweaponry:platinum_lance:spear",
+		"spartanweaponry:silver_lance:spear",
+		"spartanweaponry:steel_lance:spear",
+		"spartanweaponry:tin_lance:spear",
+		"spartanweaponry:wooden_glaive:spear",
+		"spartanweaponry:stone_glaive:spear",
+		"spartanweaponry:iron_glaive:spear",
+		"spartanweaponry:golden_glaive:spear",
+		"spartanweaponry:diamond_glaive:spear",
+		"spartanweaponry:netherite_glaive:spear",
+		"spartanweaponry:copper_glaive:spear",
+		"spartanweaponry:aluminum_glaive:spear",
+		"spartanweaponry:bronze_glaive:spear",
+		"spartanweaponry:constantan_glaive:spear",
+		"spartanweaponry:electrum_glaive:spear",
+		"spartanweaponry:invar_glaive:spear",
+		"spartanweaponry:lead_glaive:spear",
+		"spartanweaponry:nickel_glaive:spear",
+		"spartanweaponry:platinum_glaive:spear",
+		"spartanweaponry:silver_glaive:spear",
+		"spartanweaponry:steel_glaive:spear",
+		"spartanweaponry:tin_glaive:spear",
+		"spartanweaponry:wooden_javelin:spear",
+		"spartanweaponry:stone_javelin:spear",
+		"spartanweaponry:iron_javelin:spear",
+		"spartanweaponry:golden_javelin:spear",
+		"spartanweaponry:diamond_javelin:spear",
+		"spartanweaponry:netherite_javelin:spear",
+		"spartanweaponry:copper_javelin:spear",
+		"spartanweaponry:aluminum_javelin:spear",
+		"spartanweaponry:bronze_javelin:spear",
+		"spartanweaponry:constantan_javelin:spear",
+		"spartanweaponry:electrum_javelin:spear",
+		"spartanweaponry:invar_javelin:spear",
+		"spartanweaponry:lead_javelin:spear",
+		"spartanweaponry:nickel_javelin:spear",
+		"spartanweaponry:platinum_javelin:spear",
+		"spartanweaponry:silver_javelin:spear",
+		"spartanweaponry:steel_javelin:spear",
+		"spartanweaponry:tin_javelin:spear",
+		# Spartan Weaponry — axes / blunt
+		"spartanweaponry:wooden_battleaxe:axe",
+		"spartanweaponry:stone_battleaxe:axe",
+		"spartanweaponry:iron_battleaxe:axe",
+		"spartanweaponry:golden_battleaxe:axe",
+		"spartanweaponry:diamond_battleaxe:axe",
+		"spartanweaponry:netherite_battleaxe:axe",
+		"spartanweaponry:copper_battleaxe:axe",
+		"spartanweaponry:aluminum_battleaxe:axe",
+		"spartanweaponry:bronze_battleaxe:axe",
+		"spartanweaponry:constantan_battleaxe:axe",
+		"spartanweaponry:electrum_battleaxe:axe",
+		"spartanweaponry:invar_battleaxe:axe",
+		"spartanweaponry:lead_battleaxe:axe",
+		"spartanweaponry:nickel_battleaxe:axe",
+		"spartanweaponry:platinum_battleaxe:axe",
+		"spartanweaponry:silver_battleaxe:axe",
+		"spartanweaponry:steel_battleaxe:axe",
+		"spartanweaponry:tin_battleaxe:axe",
+		"spartanweaponry:wooden_tomahawk:axe",
+		"spartanweaponry:stone_tomahawk:axe",
+		"spartanweaponry:iron_tomahawk:axe",
+		"spartanweaponry:golden_tomahawk:axe",
+		"spartanweaponry:diamond_tomahawk:axe",
+		"spartanweaponry:netherite_tomahawk:axe",
+		"spartanweaponry:copper_tomahawk:axe",
+		"spartanweaponry:aluminum_tomahawk:axe",
+		"spartanweaponry:bronze_tomahawk:axe",
+		"spartanweaponry:constantan_tomahawk:axe",
+		"spartanweaponry:electrum_tomahawk:axe",
+		"spartanweaponry:invar_tomahawk:axe",
+		"spartanweaponry:lead_tomahawk:axe",
+		"spartanweaponry:nickel_tomahawk:axe",
+		"spartanweaponry:platinum_tomahawk:axe",
+		"spartanweaponry:silver_tomahawk:axe",
+		"spartanweaponry:steel_tomahawk:axe",
+		"spartanweaponry:tin_tomahawk:axe",
+		"spartanweaponry:wooden_scythe:axe",
+		"spartanweaponry:stone_scythe:axe",
+		"spartanweaponry:iron_scythe:axe",
+		"spartanweaponry:golden_scythe:axe",
+		"spartanweaponry:diamond_scythe:axe",
+		"spartanweaponry:netherite_scythe:axe",
+		"spartanweaponry:copper_scythe:axe",
+		"spartanweaponry:aluminum_scythe:axe",
+		"spartanweaponry:bronze_scythe:axe",
+		"spartanweaponry:constantan_scythe:axe",
+		"spartanweaponry:electrum_scythe:axe",
+		"spartanweaponry:invar_scythe:axe",
+		"spartanweaponry:lead_scythe:axe",
+		"spartanweaponry:nickel_scythe:axe",
+		"spartanweaponry:platinum_scythe:axe",
+		"spartanweaponry:silver_scythe:axe",
+		"spartanweaponry:steel_scythe:axe",
+		"spartanweaponry:tin_scythe:axe",
+		"spartanweaponry:wooden_battle_hammer:axe",
+		"spartanweaponry:stone_battle_hammer:axe",
+		"spartanweaponry:iron_battle_hammer:axe",
+		"spartanweaponry:golden_battle_hammer:axe",
+		"spartanweaponry:diamond_battle_hammer:axe",
+		"spartanweaponry:netherite_battle_hammer:axe",
+		"spartanweaponry:copper_battle_hammer:axe",
+		"spartanweaponry:aluminum_battle_hammer:axe",
+		"spartanweaponry:bronze_battle_hammer:axe",
+		"spartanweaponry:constantan_battle_hammer:axe",
+		"spartanweaponry:electrum_battle_hammer:axe",
+		"spartanweaponry:invar_battle_hammer:axe",
+		"spartanweaponry:lead_battle_hammer:axe",
+		"spartanweaponry:nickel_battle_hammer:axe",
+		"spartanweaponry:platinum_battle_hammer:axe",
+		"spartanweaponry:silver_battle_hammer:axe",
+		"spartanweaponry:steel_battle_hammer:axe",
+		"spartanweaponry:tin_battle_hammer:axe",
+		"spartanweaponry:wooden_warhammer:axe",
+		"spartanweaponry:stone_warhammer:axe",
+		"spartanweaponry:iron_warhammer:axe",
+		"spartanweaponry:golden_warhammer:axe",
+		"spartanweaponry:diamond_warhammer:axe",
+		"spartanweaponry:netherite_warhammer:axe",
+		"spartanweaponry:copper_warhammer:axe",
+		"spartanweaponry:aluminum_warhammer:axe",
+		"spartanweaponry:bronze_warhammer:axe",
+		"spartanweaponry:constantan_warhammer:axe",
+		"spartanweaponry:electrum_warhammer:axe",
+		"spartanweaponry:invar_warhammer:axe",
+		"spartanweaponry:lead_warhammer:axe",
+		"spartanweaponry:nickel_warhammer:axe",
+		"spartanweaponry:platinum_warhammer:axe",
+		"spartanweaponry:silver_warhammer:axe",
+		"spartanweaponry:steel_warhammer:axe",
+		"spartanweaponry:tin_warhammer:axe",
+		"spartanweaponry:wooden_flanged_mace:axe",
+		"spartanweaponry:stone_flanged_mace:axe",
+		"spartanweaponry:iron_flanged_mace:axe",
+		"spartanweaponry:golden_flanged_mace:axe",
+		"spartanweaponry:diamond_flanged_mace:axe",
+		"spartanweaponry:netherite_flanged_mace:axe",
+		"spartanweaponry:copper_flanged_mace:axe",
+		"spartanweaponry:aluminum_flanged_mace:axe",
+		"spartanweaponry:bronze_flanged_mace:axe",
+		"spartanweaponry:constantan_flanged_mace:axe",
+		"spartanweaponry:electrum_flanged_mace:axe",
+		"spartanweaponry:invar_flanged_mace:axe",
+		"spartanweaponry:lead_flanged_mace:axe",
+		"spartanweaponry:nickel_flanged_mace:axe",
+		"spartanweaponry:platinum_flanged_mace:axe",
+		"spartanweaponry:silver_flanged_mace:axe",
+		"spartanweaponry:steel_flanged_mace:axe",
+		"spartanweaponry:tin_flanged_mace:axe",
+		"spartanweaponry:wooden_club:axe",
+		"spartanweaponry:studded_club:axe",
+		# Spartan Weaponry — staves
+		"spartanweaponry:wooden_quarterstaff:staff",
+		"spartanweaponry:stone_quarterstaff:staff",
+		"spartanweaponry:iron_quarterstaff:staff",
+		"spartanweaponry:golden_quarterstaff:staff",
+		"spartanweaponry:diamond_quarterstaff:staff",
+		"spartanweaponry:netherite_quarterstaff:staff",
+		"spartanweaponry:copper_quarterstaff:staff",
+		"spartanweaponry:aluminum_quarterstaff:staff",
+		"spartanweaponry:bronze_quarterstaff:staff",
+		"spartanweaponry:constantan_quarterstaff:staff",
+		"spartanweaponry:electrum_quarterstaff:staff",
+		"spartanweaponry:invar_quarterstaff:staff",
+		"spartanweaponry:lead_quarterstaff:staff",
+		"spartanweaponry:nickel_quarterstaff:staff",
+		"spartanweaponry:platinum_quarterstaff:staff",
+		"spartanweaponry:silver_quarterstaff:staff",
+		"spartanweaponry:steel_quarterstaff:staff",
+		"spartanweaponry:tin_quarterstaff:staff",
+		# Spartan Weaponry — bows / thrown
+		"spartanweaponry:wooden_boomerang:bow",
+		"spartanweaponry:stone_boomerang:bow",
+		"spartanweaponry:iron_boomerang:bow",
+		"spartanweaponry:golden_boomerang:bow",
+		"spartanweaponry:diamond_boomerang:bow",
+		"spartanweaponry:netherite_boomerang:bow",
+		"spartanweaponry:copper_boomerang:bow",
+		"spartanweaponry:aluminum_boomerang:bow",
+		"spartanweaponry:bronze_boomerang:bow",
+		"spartanweaponry:constantan_boomerang:bow",
+		"spartanweaponry:electrum_boomerang:bow",
+		"spartanweaponry:invar_boomerang:bow",
+		"spartanweaponry:lead_boomerang:bow",
+		"spartanweaponry:nickel_boomerang:bow",
+		"spartanweaponry:platinum_boomerang:bow",
+		"spartanweaponry:silver_boomerang:bow",
+		"spartanweaponry:steel_boomerang:bow",
+		"spartanweaponry:tin_boomerang:bow",
+		"spartanweaponry:wooden_longbow:bow",
+		"spartanweaponry:leather_longbow:bow",
+		"spartanweaponry:iron_longbow:bow",
+		"spartanweaponry:golden_longbow:bow",
+		"spartanweaponry:diamond_longbow:bow",
+		"spartanweaponry:netherite_longbow:bow",
+		"spartanweaponry:copper_longbow:bow",
+		"spartanweaponry:aluminum_longbow:bow",
+		"spartanweaponry:bronze_longbow:bow",
+		"spartanweaponry:constantan_longbow:bow",
+		"spartanweaponry:electrum_longbow:bow",
+		"spartanweaponry:invar_longbow:bow",
+		"spartanweaponry:lead_longbow:bow",
+		"spartanweaponry:nickel_longbow:bow",
+		"spartanweaponry:platinum_longbow:bow",
+		"spartanweaponry:silver_longbow:bow",
+		"spartanweaponry:steel_longbow:bow",
+		"spartanweaponry:tin_longbow:bow",
+		# Spartan Weaponry — crossbows
+		"spartanweaponry:wooden_heavy_crossbow:crossbow",
+		"spartanweaponry:leather_heavy_crossbow:crossbow",
+		"spartanweaponry:iron_heavy_crossbow:crossbow",
+		"spartanweaponry:golden_heavy_crossbow:crossbow",
+		"spartanweaponry:diamond_heavy_crossbow:crossbow",
+		"spartanweaponry:netherite_heavy_crossbow:crossbow",
+		"spartanweaponry:copper_heavy_crossbow:crossbow",
+		"spartanweaponry:aluminum_heavy_crossbow:crossbow",
+		"spartanweaponry:bronze_heavy_crossbow:crossbow",
+		"spartanweaponry:constantan_heavy_crossbow:crossbow",
+		"spartanweaponry:electrum_heavy_crossbow:crossbow",
+		"spartanweaponry:invar_heavy_crossbow:crossbow",
+		"spartanweaponry:lead_heavy_crossbow:crossbow",
+		"spartanweaponry:nickel_heavy_crossbow:crossbow",
+		"spartanweaponry:platinum_heavy_crossbow:crossbow",
+		"spartanweaponry:silver_heavy_crossbow:crossbow",
+		"spartanweaponry:steel_heavy_crossbow:crossbow",
+		"spartanweaponry:tin_heavy_crossbow:crossbow"
+	]
+	#Distance needed from player to despawn mobs in maps, lower means more despawning
+	#Range: 5.0 ~ 200.0
+	MOB_DESPAWN_DISTANCE_IN_MAPS = 30.0
+	#Range: 5.0 ~ 99.0
+	MAP_PERCENT_COMPLETE_NEEDED_FOR_BOSS_ARENA = 30.0
+	#Mobs that are much higher level will hide their levels.
+	SKULL_HIDES_LEVEL = true
+	#When mobs are this many levels higher than you, a skull will show, indicating danger.
+	#Range: 1 ~ 1000
+	SHOW_SKULL_ON_MOBS_THAT_ARE_X_LEVELS_HIGHER_THAN_YOU = 10
+	SCALE_MOB_LEVEL_TO_NEAREST_PLAYER = true
+	#Items protected from accidental soul-cleaning. Soul Land milestone armor and divine paths are permanently protected.
+	SOUL_CLEANER_ITEM_BLACKLIST = [
+		"minecraft:elytra",
+		"botania:flight_tiara",
+		"botania:terra_sword",
+		"alexsmobs:tarantula_hawk_elytra",
+		"soulland:soul_forged_helmet",
+		"soulland:soul_forged_chestplate",
+		"soulland:soul_forged_leggings",
+		"soulland:soul_forged_boots",
+		"soulland:sea_god_chestplate",
+		"soulland:seraph_chestplate",
+		"soulland:asura_chestplate"
+	]
+	#Range: 0 ~ 10000000
+	MAX_POSSIBLE_FAVOR = 2500
+	#Mns tries to replicate vanilla atk speed and reduces dmg of basic attacks if hit too often
+	REMOVE_ATK_SPEED_COOLDOWN = true
+	#Range: 0 ~ 10000000
+	MAP_START_COOLDOWN_SECONDS = 120
+	#Range: 0.0 ~ 1000.0
+	MAP_DROPRATE = 0.5
+	#Mns tries to replicate vanilla bow draw and reduces dmg of basic attacks if bow is not fully drawn. Enable for machine gun bows.
+	REMOVE_DRAW_SPEED_COOLDOWN = false
+	#Entities that summons should not attack
+	ENTITY_SUMMON_BLACKLIST = ["minecraft:allay", "minecraft:armor_stand"]
+
+	#These are just default values for the Mine and slash Hub > features
+	[general."Default Feature Configs"]
+		cast_fail_messages = true
+		mob_death_messages = true
+		exp_chat_messages = true
+		damage_messages = true
+		profession_exp_messages = true
+		auto_pve = false
+		aggressive_summons = true
+		stat_order_test = false
+		damage_conflict_check = false
+		everyone_is_ally = false

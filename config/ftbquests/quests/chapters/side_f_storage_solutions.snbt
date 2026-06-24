@@ -1,0 +1,232 @@
+{
+	id: "0000000000002016"
+	group: "0000000000001002"
+	order_index: 5
+	filename: "side_f_storage_solutions"
+	title: "Storage Solutions"
+	icon: {id: "ae2:me_drive", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000201001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Backpack"
+		icon: {id: "sophisticatedbackpacks:backpack", Count: 1b}
+		description: ["Sophisticated Backpacks are the first portable storage upgrade in the pack and the earliest quality-of-life addition that pays dividends across every subsequent chapter. A basic backpack holds 27 slots carried on your back without occupying an inventory slot, and it auto-picks items that match its filter settings so you never fill your inventory with materials mid-gather.", "Upgrades matter more than the backpack tier. The Crafting Upgrade turns the backpack into a portable crafting table. The Magnet Upgrade auto-collects drops in a radius. The Stack Upgrade compresses incoming items automatically. Build a basic backpack immediately and invest in one or two upgrades before going anywhere that generates heavy loot — it will save more inventory management time than almost any other early investment."]
+		tasks: [{
+			id: "0000000000201002"
+			type: "item"
+			item: {id: "sophisticatedbackpacks:backpack", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000201003"
+			type: "item"
+			item: {id: "sophisticatedbackpacks:stack_upgrade", Count: 1b}
+		}]
+	}, {
+		id: "0000000000201005"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000201001"]
+		title: "Sophisticated Storage"
+		icon: {id: "sophisticatedstorage:chest", Count: 1b}
+		description: ["Sophisticated Storage adds block-form chests that accept the same upgrade system as Sophisticated Backpacks — the same Crafting, Filter, Magnet, and Stack upgrades work in both. The base wooden chest holds the same capacity as vanilla, but upgrades to Iron, Gold, Diamond, and Netherite tiers that multiply slot count significantly.", "The real value is sorting infrastructure: a Diamond Sophisticated Chest with a Pickup Upgrade that auto-deposits specific items from your inventory, a Filter Upgrade whitelisting one material category per chest, and a Sort Upgrade to auto-sort contents. A room of six to eight Diamond Chests with properly configured filters is sufficient main storage for most of the pack's early progression."]
+		tasks: [{
+			id: "0000000000201006"
+			type: "item"
+			item: {id: "sophisticatedstorage:diamond_chest", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000201007"
+			type: "item"
+			item: {id: "sophisticatedstorage:filter_upgrade", Count: 4b}
+		}]
+	}, {
+		id: "0000000000201009"
+		x: 0.0d
+		y: -2.0d
+		title: "The Occultism Dimension"
+		icon: {id: "occultism:storage_actuator_base", Count: 1b}
+		description: ["Occultism's Dimensional Storage Actuator creates a compact storage solution that punches above its volume — the Actuator itself occupies one block and provides access to a massive internal void dimension sized by the Dimensional Matrix tier you craft into it. Items are accessed through a Storage Controller block placed adjacent.", "The Occultism storage system bridges the gap between Sophisticated chests and AE2 ME Networks. It does not support autocrafting or complex routing, but for bulk item storage before you have the resources for a full ME setup, a maxed Dimensional Matrix Actuator holds a practical infinity of materials without the infrastructure overhead of AE2."]
+		tasks: [{
+			id: "000000000020100A"
+			type: "item"
+			item: {id: "occultism:storage_actuator_base", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000020100B"
+			type: "item"
+			item: {id: "occultism:storage_actuator_base", Count: 1b}
+		}]
+	}, {
+		id: "000000000020100D"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000201005"]
+		title: "Modular Routing"
+		icon: {id: "modularrouters:router", Count: 1b}
+		description: ["Modular Routers are item-routing blocks that move items between containers, players, and the world using interchangeable Module items slotted into their faces. A Router with a Puller Module extracts from adjacent containers; a Pusher Module deposits into them. A Sender Module launches items to any named Router on the network, regardless of distance or intervening terrain.", "The power is in combination: a Router pulling from a furnace array, sorting outputs through Distributor Modules based on item type into separate Sophisticated Storage chests, with a Sender Module transmitting overflow to a bulk storage Router at the other end of your base — all of that runs from a handful of modules with no cables, no power, and no channel limits. Use Routers for early automation before the ME network exists and as targeted item-routing supplements after it does."]
+		tasks: [{
+			id: "000000000020100E"
+			type: "item"
+			item: {id: "modularrouters:router", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000020100F"
+			type: "item"
+			item: {id: "modularrouters:puller_module_mk1", Count: 2b}
+		}]
+	}, {
+		id: "0000000000201011"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000020100D"]
+		title: "Botany Pots"
+		icon: {id: "botanypots:botany_pot", Count: 1b}
+		description: ["Botany Pots are self-contained crop-growing blocks — plant a seed and soil type in a Pot and the crop grows without the 9 blocks of farmland and water that a standard farm requires. A single Botany Pot with a Hopper underneath auto-harvests drops to any adjacent container. No irrigation, no growth ticks from player proximity, no harvest timing — it just produces.", "The limiting factor is Soil type: higher tiers of Soil grow crops faster. Pots accept Mystical Agriculture seeds and Farmer's Delight crops alongside vanilla plants. Replacing your flat-farm approach to crop production with a wall of Botany Pots reduces resource generation from a space problem to a material one — craft more pots, plant more seeds."]
+		tasks: [{
+			id: "0000000000201012"
+			type: "item"
+			item: {id: "botanypots:botany_pot", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000201013"
+			type: "item"
+			item: {id: "botanypots:botany_pot", Count: 4b}
+		}]
+	}, {
+		id: "0000000000201015"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["0000000000201011"]
+		title: "ME Network Basics"
+		icon: {id: "ae2:me_controller", Count: 1b}
+		description: ["The ME Network is the endgame storage backbone of the pack. A Controller, a Drive loaded with Storage Cells, and a Terminal is the minimal viable network — put items in through the Terminal, retrieve items from the Terminal. Autocrafting requires a Crafting CPU multiblock with encoded Pattern Providers, but the basic network is operational without it.", "The ME system connects to Sophisticated Storage and Modular Router infrastructure through Import and Export Buses — it absorbs what came before rather than replacing it entirely. The Storage Cells that slot into the Drive have tier limits: 1K, 4K, 16K, 64K, and 256K per cell by type count, not item count. Start with 4K cells for general storage and upgrade as needed."]
+		tasks: [{
+			id: "0000000000201016"
+			type: "item"
+			item: {id: "ae2:me_controller", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000201017"
+			type: "item"
+			item: {id: "ae2:item_storage_cell_4k", Count: 2b}
+		}]
+	}, {
+		id: "0000000000201019"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000201015"]
+		title: "Pattern Encoding"
+		icon: {id: "ae2:pattern_provider", Count: 1b}
+		description: ["Autocrafting in AE2 works through encoded patterns: a Pattern Encoding Terminal writes what goes in and what comes out for each recipe, and that encoded pattern is inserted into a Pattern Provider adjacent to a crafting machine. When the network receives a crafting request, it dispatches the required ingredients through the Pattern Provider to the machine and collects the outputs back into the network.", "One Pattern Provider can hold multiple encoded patterns for the same machine. The machines themselves still run — AE2 autocrafting is a logistics wrapper around your existing machine park, not a replacement for it. Start by encoding the recipes you most frequently do by hand: circuits, plates, ingots from ore. Add machines to the autocrafting loop one at a time and test each addition."]
+		tasks: [{
+			id: "000000000020101A"
+			type: "item"
+			item: {id: "ae2:pattern_provider", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000020101B"
+			type: "item"
+			item: {id: "ae2:pattern_encoding_terminal", Count: 1b}
+		}]
+	}, {
+		id: "000000000020101D"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000201019"]
+		title: "The Crafting CPU"
+		icon: {id: "ae2:crafting_unit", Count: 1b}
+		description: ["The Crafting CPU is a multiblock structure that handles pending autocrafting jobs: Crafting Units form the body, Crafting Co-Processors increase simultaneous job throughput, a Crafting Storage stores intermediate ingredients during complex jobs, and exactly one Crafting Monitor displays the queue. A CPU with more Co-Processors and more Storage handles larger and more parallel crafting chains.", "Build at minimum a 3x3x3 CPU with one Co-Processor and 256k of Crafting Storage. For complex GT circuits with 6-8 intermediate steps, bump that to 1MB of Crafting Storage and 4 Co-Processors or the queue will jam mid-chain. The CPU is the performance bottleneck of the autocrafting system — build more than you think you need."]
+		tasks: [{
+			id: "000000000020101E"
+			type: "checkmark"
+			title: "Assemble a Crafting CPU and submit a multi-step autocrafting job"
+		}]
+		rewards: [{
+			id: "000000000020101F"
+			type: "item"
+			item: {id: "ae2:crafting_co_processing_unit", Count: 2b}
+		}]
+	}, {
+		id: "0000000000201021"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["000000000020101D"]
+		title: "Wireless Access"
+		icon: {id: "ae2wtlib:wireless_crafting_terminal", Count: 1b}
+		description: ["AE2 Wireless Terminals allow ME network access without standing at a Terminal block — the Wireless Crafting Terminal connects via a Wireless Access Point placed inside your base and powered by the network. Range is configurable; with enough Wireless Boosters installed in the Terminal itself, the effective range covers a full overworld base.", "The Crafting Terminal variant is worth crafting over the basic Access Terminal: it allows you to submit autocrafting jobs from anywhere in range, not just retrieve and deposit. Mine in the overworld with a full autocrafting pipeline running back at base, dispatch complex jobs by hand, and return to find them complete. It converts the ME network from something you stand at into something ambient."]
+		tasks: [{
+			id: "0000000000201022"
+			type: "item"
+			item: {id: "ae2wtlib:wireless_crafting_terminal", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000201023"
+			type: "item"
+			item: {id: "ae2:wireless_booster", Count: 4b}
+		}]
+	}, {
+		id: "0000000000201025"
+		x: 10.0d
+		y: -2.0d
+		dependencies: ["0000000000201019"]
+		title: "Level Emitters"
+		icon: {id: "ae2:level_emitter", Count: 1b}
+		description: ["Level Emitters are redstone-output devices that monitor a specific item's stock level in the ME network and emit a redstone signal when that level crosses a threshold — either above or below. They are the foundation of supply-chain automation: a Level Emitter watching iron ingot count below 1000 triggers a chain that routes ore to be processed, smelted, and restocked.", "Used with Crafting Cards inserted in Pattern Providers, they trigger autocrafting automatically rather than waiting for a player request. The Emitter watches, the Crafting Card acts. Build one for every base material that gets consumed in large quantities by late-game GT recipes — circuits, plates, cables, wires. Stock management disappears when the network manages it."]
+		tasks: [{
+			id: "0000000000201026"
+			type: "item"
+			item: {id: "ae2:level_emitter", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000201027"
+			type: "item"
+			item: {id: "ae2:crafting_card", Count: 4b}
+		}]
+	}, {
+		id: "0000000000201029"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["0000000000201021", "0000000000201025"]
+		title: "P2P Tunnels"
+		icon: {id: "ae2:me_p2p_tunnel", Count: 1b}
+		description: ["P2P Tunnels are the ME network's cable compression system: a single cable carrying a P2P Tunnel can transmit 32 distinct channel connections through one physical cable run, rather than the 8 channels a Dense Cable normally carries. Two P2P Tunnels linked with an ME tunnel configuration key form an input/output pair — everything routed into the input emerges at the output.", "They also carry Items, Fluids, Redstone, and Light signals depending on which variant you use. For large base layouts where running 32 separate Dense Cables across the map is impractical, P2P replaces the cable mess with a single line. The item-form P2P Tunnel used in ME cable runs is the most common application — lay your spine cable once, attach P2P at each junction."]
+		tasks: [{
+			id: "000000000020102A"
+			type: "item"
+			item: {id: "ae2:me_p2p_tunnel", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000020102B"
+			type: "item"
+			item: {id: "ae2:dense_smart_cable", Count: 8b}
+		}]
+	}, {
+		id: "000000000020102D"
+		x: 18.0d
+		y: 0.0d
+		dependencies: ["0000000000201029"]
+		title: "Full Integration"
+		icon: {id: "ae2:crafting_monitor", Count: 1b}
+		description: ["A fully integrated ME network automates every material flow in the pack: ore goes in through Import Buses from Create ore processing, the autocrafting queue handles every downstream recipe that needs it, Level Emitters maintain stock buffers for all critical materials, and the Wireless Terminal gives access from anywhere on the map. Nothing sits idle waiting for a player to move it.", "This is not a single build — it evolves across the whole pack as new machines enter the factory. Each new GT machine gets a Pattern Provider. Each new material gets a Level Emitter watching its buffer. The ME network is not complete at any single moment; it is always growing to match whatever tier of production you are in. Its job is to make the factory autonomous. Build accordingly."]
+		tasks: [{
+			id: "000000000020102E"
+			type: "checkmark"
+			title: "Fully automate ore processing and GT circuit production through the ME network"
+		}]
+		rewards: [{
+			id: "000000000020102F"
+			type: "item"
+			item: {id: "ae2:item_storage_cell_64k", Count: 2b}
+		}]
+	}]
+	quest_links: []
+}
