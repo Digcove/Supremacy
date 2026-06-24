@@ -87,6 +87,44 @@ StartupEvents.registry('item', event => {
             tier.repairIngredient = 'rcc:cobblestone_one'
         })
 
+    // === BONEANNER ARMOR SYSTEM ===
+
+    event.create('boneanner_chestplate', 'chestplate')
+        .displayName('Boneanner Chestplate')
+        .texture('kubejs:item/boneanner_chestplate')
+        .tier(tier => {
+            tier.durabilityFactor = 15
+            tier.slotProtections = [2, 4, 5, 2]
+            tier.enchantmentValue = 9
+            tier.toughness = 0.0
+            tier.knockbackResistance = 0.0
+            tier.repairIngredient = 'minecraft:bone'
+        })
+
+    event.create('boneanner_leggings', 'leggings')
+        .displayName('Boneanner Leggings')
+        .texture('kubejs:item/boneanner_leggings')
+        .tier(tier => {
+            tier.durabilityFactor = 15
+            tier.slotProtections = [2, 4, 5, 2]
+            tier.enchantmentValue = 9
+            tier.toughness = 0.0
+            tier.knockbackResistance = 0.0
+            tier.repairIngredient = 'minecraft:bone'
+        })
+
+    event.create('boneanner_boots', 'boots')
+        .displayName('Boneanner Boots')
+        .texture('kubejs:item/boneanner_boots')
+        .tier(tier => {
+            tier.durabilityFactor = 15
+            tier.slotProtections = [2, 4, 5, 2]
+            tier.enchantmentValue = 9
+            tier.toughness = 0.0
+            tier.knockbackResistance = 0.0
+            tier.repairIngredient = 'minecraft:bone'
+        })
+
     // === BANANA SYSTEM ===
 
     event.create('orange')

@@ -165,7 +165,7 @@
 		dependencies: ["0000000000003017"]
 		title: "The Stoner Spear"
 		icon: {id: "kubejs:stoner_spear", Count: 1b}
-		description: ["Three chunks of compressed cobblestone, a stone spear, and a compressed stick. The weight alone is enough to knock someone off their horse — and Knockback III is enough to keep it that way. Craft the Stoner Spear."]
+		description: ["Three chunks of compressed cobblestone, a stone spear, and a compressed stick! The weight alone is enough to make even the mightiest bloke look like he's had the biggest toke. Craft the Stoner Spear."]
 		tasks: [{
 			id: "000000000000301C"
 			type: "item"
@@ -183,7 +183,7 @@
 		dependencies: ["000000000000301B"]
 		title: "The Soul Within"
 		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
-		description: ["Every weapon is a hollow thing until something lives inside it. Use the Socket Adder on your Stoner Spear to open a socket, then apply this Uncommon Weapon Soul to bind its power to the blade. The spear will never be the same."]
+		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socketor Orb to unlock its true potential."]
 		tasks: [{
 			id: "000000000000301F"
 			type: "item"
@@ -193,6 +193,90 @@
 			id: "0000000000003020"
 			type: "item"
 			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003021"
+		x: 18.0d
+		y: 0.0d
+		dependencies: ["000000000000301E"]
+		title: "Dressed to the Bone"
+		icon: {id: "kubejs:boneanner_chestplate", Count: 1b}
+		description: ["Bone and banana — an unlikely pair, but Kieransmama has never been conventional. Craft the Boneanner Chestplate, Leggings, and Boots to complete the set. What you lack in style you will more than make up for in Projectile Protection.", "Once the set is complete, three paths will open. Each one defines what kind of warrior you are — Plate for raw defense, Leather for agility, Cloth for arcane power. Choose one path only. Apply the modifiers to all three pieces. There is no going back."]
+		tasks: [{
+			id: "0000000000003022"
+			type: "item"
+			item: {id: "kubejs:boneanner_chestplate", Count: 1b}
+		}, {
+			id: "0000000000003023"
+			type: "item"
+			item: {id: "kubejs:boneanner_leggings", Count: 1b}
+		}, {
+			id: "0000000000003024"
+			type: "item"
+			item: {id: "kubejs:boneanner_boots", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003025"
+			type: "item"
+			item: {id: "kubejs:banana_helmet", Count: 1b}
+		}, {
+			id: "0000000000003026"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 4b}
+		}]
+	}, {
+		id: "0000000000003027"
+		x: 20.0d
+		y: -1.0d
+		dependencies: ["0000000000003021"]
+		title: "The Plate Path"
+		icon: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 1b}
+		description: ["You have chosen the Plate Path. Your Boneanner armor will become heavy plate — built to absorb punishment and hold the line. Use each of the three Force Soul Tag: Armor modifiers on your Chestplate, Leggings, and Boots to lock in the plate archetype across the full set. Do not complete the other paths."]
+		tasks: [{
+			id: "0000000000003028"
+			type: "item"
+			item: {id: "kubejs:boneanner_chestplate", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003029"
+			type: "item"
+			item: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 3b}
+		}]
+	}, {
+		id: "000000000000302A"
+		x: 20.0d
+		y: 0.0d
+		dependencies: ["0000000000003021"]
+		title: "The Leather Path"
+		icon: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 1b}
+		description: ["You have chosen the Leather Path. Your Boneanner armor will become supple leather — built for those who survive by not being where the blade lands. Use each of the three Force Soul Tag: Dodge modifiers on your Chestplate, Leggings, and Boots to lock in the leather archetype across the full set. Do not complete the other paths."]
+		tasks: [{
+			id: "000000000000302B"
+			type: "item"
+			item: {id: "kubejs:boneanner_leggings", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000302C"
+			type: "item"
+			item: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 3b}
+		}]
+	}, {
+		id: "000000000000302D"
+		x: 20.0d
+		y: 1.0d
+		dependencies: ["0000000000003021"]
+		title: "The Cloth Path"
+		icon: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 1b}
+		description: ["You have chosen the Cloth Path. Your Boneanner armor will become woven cloth — built for those who answer steel with something far less forgiving. Use each of the three Force Soul Tag: Magic Shield modifiers on your Chestplate, Leggings, and Boots to lock in the cloth archetype across the full set. Do not complete the other paths."]
+		tasks: [{
+			id: "000000000000302E"
+			type: "item"
+			item: {id: "kubejs:boneanner_boots", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000302F"
+			type: "item"
+			item: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 3b}
 		}]
 	}]
 	quest_links: []

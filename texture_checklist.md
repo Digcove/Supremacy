@@ -37,6 +37,13 @@ Format: 16×16 PNG
 
 ---
 
+## Boneanner Armor System
+- [ ] `boneanner_chestplate.png` — bone + banana chestplate, copper-tier defense, iron durability
+- [ ] `boneanner_leggings.png` — bone + banana leggings, copper-tier defense, iron durability
+- [ ] `boneanner_boots.png` — bone + banana boots, copper-tier defense, iron durability
+
+---
+
 ## Stoner Spear System
 - [ ] `compressed_stick.png` — 9 sticks compressed into 1
 - [ ] `stoner_spear.png` — Stone Spear + compressed cobblestone weapon with Unbreaking V / Knockback III
