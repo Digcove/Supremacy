@@ -1,56 +1,38 @@
 // ORB FORGE — Machine & Recipe Type Registration
-// Registers 6 MBDRecipeType entries and 6 MultiblockMachineDefinition blocks via KubeJS.
+// Registers MBDRecipeType entries and MultiblockMachineDefinition blocks via KubeJS.
 //
-// Event group: MBDRegistryEvents  (from com.lowdragmc.mbd2.integration.kubejs.events.MBDStartupEvents)
-//   MBDRegistryEvents.recipeType(...)  → registers MBDRecipeType per machine
-//   MBDRegistryEvents.machine(...)     → registers MultiblockMachineDefinition block + item
+// Java.type() is unavailable in KubeJS 6.5 startup scripts (JavaWrapper has no .type()).
+// Strings are used for IDs — KubeJS auto-converts them to ResourceLocation.
+// Recipe type ↔ machine linkage must be configured in the MBD2 editor for each machine.
 //
 // RECIPE FORMAT (in server_scripts/orb_forge/tier_X.js):
 //   event.custom({ type: 'modpack:<machine_id>', duration: N, inputs: {...}, outputs: {...} })
-//   No 'machine' field — the type field IS the machine's recipe type.
 //
-// MULTIBLOCK STRUCTURE:
-//   The physical block pattern for each machine must be built in-game using the
-//   MBD2 Machine Editor (use MBD Gadgets → Multiblock Builder).
-//   Recipe logic (which recipe type the machine uses) IS wired here programmatically.
-//
-// TODO: open each machine in the MBD2 editor to define its block structure
-// TODO: set visual model / block texture per machine in the MBD2 editor
-
-const ConfigRecipeLogicSettings = Java.type('com.lowdragmc.mbd2.common.machine.definition.config.ConfigRecipeLogicSettings')
-const ResourceLocation = Java.type('net.minecraft.resources.ResourceLocation')
+// TODO: open each machine in the MBD2 editor to define block structure, recipe type, and model
 
 const MACHINE_IDS = [
-    ['modpack', 'basic_modify_station'],
-    ['modpack', 'hybrid_refinery_bench'],
-    ['modpack', 'cipher_engraving_table'],
-    ['modpack', 'quantum_exaltation_array'],
-    ['modpack', 'fusion_forge'],
-    ['modpack', 'nano_reliquary'],
-    ['modpack', 'orb_forge']  // Master machine: runs all tier recipes at 4x speed
+    'modpack:basic_modify_station',
+    'modpack:hybrid_refinery_bench',
+    'modpack:cipher_engraving_table',
+    'modpack:quantum_exaltation_array',
+    'modpack:fusion_forge',
+    'modpack:nano_reliquary',
+    'modpack:orb_forge'  // Master machine: runs all tier recipes at 4x speed
 ]
 
 // Step 1: Register one MBDRecipeType per machine.
 // KubeJS then exposes each as type: 'modpack:<id>' in event.custom() and JEI.
 MBDRegistryEvents.recipeType(event => {
-    MACHINE_IDS.forEach(([ns, path]) => {
-        event.createRecipeType(new ResourceLocation(ns, path))
+    MACHINE_IDS.forEach(id => {
+        event.createRecipeType(id)
     })
 })
 
 // Step 2: Register MultiblockMachineDefinition blocks.
-// Each machine is linked to its recipe type via ConfigRecipeLogicSettings.
-// Structure pattern is intentionally left default (1-block stub) until defined in the MBD2 editor.
+// KubeJS auto-converts strings to ResourceLocation; recipe type linkage is
+// done via the MBD2 editor for each machine after initial registration.
 MBDRegistryEvents.machine(event => {
-    MACHINE_IDS.forEach(([ns, path]) => {
-        const recipeTypeRL = new ResourceLocation(ns, path)
-        const recipeLogic = ConfigRecipeLogicSettings.builder()
-            .enable(true)
-            .recipeType(recipeTypeRL)
-            .build()
-
-        event.create('multiblock', recipeTypeRL)
-            .recipeLogicSettings(recipeLogic)
-            .build()
+    MACHINE_IDS.forEach(id => {
+        event.create('multiblock', id).build()
     })
 })
