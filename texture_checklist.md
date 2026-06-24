@@ -47,3 +47,32 @@ Format: 16×16 PNG
 ## Stoner Spear System
 - [ ] `compressed_stick.png` — 9 sticks compressed into 1
 - [ ] `stoner_spear.png` — Stone Spear + compressed cobblestone weapon with Unbreaking V / Knockback III
+
+---
+
+## Orb Forge System
+All files go in: `kubejs/assets/kubejs/textures/item/orb_forge/`
+These are custom gate ingredients that don't exist in Mine & Slash, GregTech, Blue Skies, or The Undergarden.
+
+### Tier 2 — Nether Gate Reagent
+- [ ] `orb_forge/blaze_touched_residue.png` — glowing blaze-orange residue, Nether-exclusive combat drop
+
+### Tier 2 — Undergarden Gate Reagents
+- [ ] `orb_forge/undergarden_reagent.png` — murky purple/green reagent, dimension-locked Undergarden drop
+- [ ] `orb_forge/undergarden_boss_drop.png` — named Undergarden miniboss trophy (Grottol / Forgotten)
+
+### Tier 3 — Blue Skies Boss Trophies
+- [ ] `orb_forge/everbright_trophy.png` — bright gold/white trophy from Everbright miniboss
+- [ ] `orb_forge/everdawn_trophy.png` — dark violet/blue trophy from Everdawn miniboss
+
+### Tier 3 — Hidden Relic
+- [ ] `orb_forge/hidden_chest_relic.png` — secretive relic found only in hidden chests (thematic: "revealing implicits")
+
+### Tier 4 — Map Progression Token
+- [ ] `orb_forge/map_completion_token.png` — glowing map seal, dropped on clearing an Act V M&S map
+
+### Tier 5 — Map Boss Drop (Fusion Seed)
+- [ ] `orb_forge/map_boss_drop.png` — charged trophy consumed as Fusion Reactor plasma seed
+
+### Tier 6 — Repeatable Endgame Token
+- [ ] `orb_forge/endgame_boss_token.png` — recurring endgame boss reward token (intentionally repeatable)
