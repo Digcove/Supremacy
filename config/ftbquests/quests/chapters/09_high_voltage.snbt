@@ -4,10 +4,68 @@
 	order_index: 8
 	filename: "09_high_voltage"
 	title: "High Voltage"
-	icon: {id: "minecraft:gold_ingot", Count: 1b}
+	icon: {id: "gtceu:hv_machine_hull", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000016001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Lich"
+		icon: {id: "twilightforest:lich_trophy", Count: 1b}
+		description: ["The Twilight Lich is a skeletal archmage enthroned at the top of a Lich Tower — a jagged spire that generates above the Twilight Forest canopy. The tower floors are guarded by skeleton minions and filled with traps. The Lich waits at the top.", "It moves through three phases: first orbiting skulls you have to destroy to drop its shield, then direct magic attacks, then summoned minions. Kill it. The trophy it drops gets consumed in the HV Machine Hull — the Lich's residual arcane charge conducts heat through stainless steel in a way nothing mundane can replicate.", "The trophy is a one-time resource. Kill the Lich, pocket the head, and bring it to the workbench."]
+		tasks: [{
+			id: "0000000000016002"
+			type: "item"
+			item: {id: "twilightforest:lich_trophy", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000016003"
+			type: "item"
+			item: {id: "gtceu:stainless_steel_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000016004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000016001"]
+		title: "Stainless Steel"
+		icon: {id: "gtceu:stainless_steel_ingot", Count: 1b}
+		description: ["Stainless Steel is the HV tier material — an alloy of iron, chromite, and nickel processed in the Electric Blast Furnace at temperatures above what aluminium requires. Run chromite ore through the Macerator for chrome dust, mix it with iron and nickel dust, and feed the blend into the EBF.", "The output is the hardest steel in the pack before the exotic alloys. It plates cleanly, conducts heat efficiently, and holds its structure under the voltage loads that would degrade softer metals. It is also the base material for Soul Forged Ingots — the bridge between this chapter and the Soul Land mid-tier armor track."]
+		tasks: [{
+			id: "0000000000016005"
+			type: "item"
+			item: {id: "gtceu:stainless_steel_ingot", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000016006"
+			type: "item"
+			item: {id: "gtceu:stainless_steel_plate", Count: 8b}
+		}]
+	}, {
+		id: "0000000000016007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000016004"]
+		title: "High Voltage"
+		icon: {id: "gtceu:hv_machine_hull", Count: 1b}
+		description: ["The HV Machine Hull. Eight stainless steel plates surrounding a Twilight Lich trophy — the arcane core that holds the structure together at voltages MV machines can't sustain. You cannot build it without both.", "HV machines process ore chains that MV can't touch, run at speeds that reduce LV infrastructure to a historical footnote, and unlock the higher alloys and chemical synthesis chains. This is where GregTech stops being mid-game and starts being the factory."]
+		tasks: [{
+			id: "0000000000016008"
+			type: "item"
+			item: {id: "gtceu:hv_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000016009"
+			type: "item"
+			item: {id: "gtceu:hv_machine_hull", Count: 2b}
+		}, {
+			id: "000000000001600A"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}]
 	quest_links: []
 }

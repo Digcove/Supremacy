@@ -17,8 +17,7 @@ ServerEvents.recipes(event => {
     // Combat: Common Salvage Stone | Tech: LV Macerator dust (any base ore)
     // NOTE: mmorpg:currency/orb_of_quality is the closest M&S equivalent; swap if LoE has its own scroll
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:basic_modify_station',
+        type: 'modpack:basic_modify_station',
         duration: 100,
         inputs:  { item: [{ item: 'mmorpg:stone/0', count: 1 }, { item: 'gtceu:iron_dust', count: 2 }] },
         outputs: { item: [{ item: 'mmorpg:currency/orb_of_quality', count: 1 }] }
@@ -28,8 +27,7 @@ ServerEvents.recipes(event => {
     // Combat: Common Salvage Stone | Tech: LV paper/dye byproduct dust
     // NOTE: mmorpg:map_creator is the closest M&S utility item; verify in JEI
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:basic_modify_station',
+        type: 'modpack:basic_modify_station',
         duration: 100,
         inputs:  { item: [{ item: 'mmorpg:stone/0', count: 1 }, { item: 'gtceu:ash_dust', count: 2 }] },
         outputs: { item: [{ item: 'mmorpg:map_creator', count: 1 }] }
@@ -38,8 +36,7 @@ ServerEvents.recipes(event => {
     // Orb of Transmutation (adds/rerolls a common affix)
     // Combat: Common Salvage Stone | Tech: LV Mixer output (basic catalyst — wood pulp as proxy)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:basic_modify_station',
+        type: 'modpack:basic_modify_station',
         duration: 100,
         inputs:  { item: [{ item: 'mmorpg:stone/0', count: 1 }, { item: 'gtceu:wood_pulp', count: 4 }] },
         outputs: { item: [{ item: 'mmorpg:currency/affix_common_reroll', count: 1 }] }

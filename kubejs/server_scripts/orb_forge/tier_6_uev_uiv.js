@@ -28,8 +28,7 @@ ServerEvents.recipes(event => {
     // Combat: Mythic Stone + repeatable Endgame Boss Token (extra token distinguishes Mythic+ tier)
     // Tech:   UIV Nano-component batch
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:nano_reliquary',
+        type: 'modpack:nano_reliquary',
         duration: 600,
         inputs: {
             item: [

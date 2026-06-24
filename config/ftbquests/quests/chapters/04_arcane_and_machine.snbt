@@ -4,10 +4,152 @@
 	order_index: 3
 	filename: "04_arcane_and_machine"
 	title: "The Arcane & The Machine"
-	icon: {id: "minecraft:blaze_powder", Count: 1b}
+	icon: {id: "ars_nouveau:archmage_spellbook", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "000000000000C001"
+		x: 0.0d
+		y: 0.0d
+		title: "Source in Motion"
+		icon: {id: "ars_nouveau:relay", Count: 1b}
+		description: ["A Source Relay pulls from nearby Source Jars and distributes to other Jars or Ars machines across a wider range. Once your base has more than one Ars structure, you need a relay network or you'll be hand-filling jars forever.", "Place one between your Source Berry field and your Scribes Table. Let it run."]
+		tasks: [{
+			id: "000000000000C002"
+			type: "item"
+			item: {id: "ars_nouveau:relay", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C003"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 8b}
+		}]
+	}, {
+		id: "000000000000C004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000C001"]
+		title: "The Enchanting Apparatus"
+		icon: {id: "ars_nouveau:enchanting_apparatus", Count: 1b}
+		description: ["The Enchanting Apparatus is a Source-powered enchanting altar that produces specific enchantments using reagent items instead of levels. You dictate the result. No more fishing for Silk Touch from a vanilla table.", "Surround it with Arcane Pedestals holding reagents, drop the item in the center, and consume Source. Check JEI for what each enchantment requires."]
+		tasks: [{
+			id: "000000000000C005"
+			type: "item"
+			item: {id: "ars_nouveau:enchanting_apparatus", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C006"
+			type: "item"
+			item: {id: "minecraft:enchanted_book", Count: 1b}
+		}]
+	}, {
+		id: "000000000000C007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000C004"]
+		title: "The Drygmy"
+		icon: {id: "ars_nouveau:drygmy_charm", Count: 1b}
+		description: ["A Drygmy is a mob-drop familiar. Summon one near a pen of passive mobs and it will generate their drops over time — wool, leather, feathers, raw meat — without killing anything. It runs on Source.", "Build the Drygmy Charm at the Enchanting Apparatus. Summon it, give it a Whirlisprig Flower to bond it to the area, and put a chest nearby for the output. This is your first passive mob farm."]
+		tasks: [{
+			id: "000000000000C008"
+			type: "item"
+			item: {id: "ars_nouveau:drygmy_charm", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C009"
+			type: "item"
+			item: {id: "minecraft:leather", Count: 8b}
+		}]
+	}, {
+		id: "000000000000C00A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000C007"]
+		title: "The Archmage"
+		icon: {id: "ars_nouveau:archmage_spellbook", Count: 1b}
+		description: ["The Archmage Spellbook is the final tier — more spell slots, longer chains, and access to the most powerful glyphs in the mod. Spells that were three separate keybinds collapse into one.", "Craft it at the Enchanting Apparatus. This is the top of the Ars Nouveau progression. Everything after this is about what you build with it."]
+		tasks: [{
+			id: "000000000000C00B"
+			type: "item"
+			item: {id: "ars_nouveau:archmage_spellbook", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C00C"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 32b}
+		}]
+	}, {
+		id: "000000000000C00D"
+		x: 0.0d
+		y: 2.0d
+		title: "The Crafter"
+		icon: {id: "create:mechanical_crafter", Count: 1b}
+		description: ["The Mechanical Crafter is a grid of rotating blocks that craft recipes under rotational power. Arrange them into the shape of a crafting recipe, supply the ingredients, and they assemble the output automatically.", "This is where Create becomes an automated factory instead of a collection of machines. Every recipe that was a crafting table can now run without you."]
+		tasks: [{
+			id: "000000000000C00E"
+			type: "item"
+			item: {id: "create:mechanical_crafter", Count: 9b}
+		}]
+		rewards: [{
+			id: "000000000000C00F"
+			type: "item"
+			item: {id: "create:brass_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000000C010"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000000C00D"]
+		title: "The Arm"
+		icon: {id: "create:mechanical_arm", Count: 1b}
+		description: ["The Mechanical Arm is Create's automation backbone — it reaches between machines, belts, and chests and moves items between them on a schedule. One Arm can replace a dozen item pipes if you set it up right.", "Assign input and output targets by right-clicking each one while holding the Arm. It reads your configuration and just runs."]
+		tasks: [{
+			id: "000000000000C011"
+			type: "item"
+			item: {id: "create:mechanical_arm", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C012"
+			type: "item"
+			item: {id: "create:brass_casing", Count: 4b}
+		}]
+	}, {
+		id: "000000000000C013"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["000000000000C010"]
+		title: "Steam Power"
+		icon: {id: "create_steam_n_rails:steam_boiler", Count: 1b}
+		description: ["Water Wheels and Windmills have a stress ceiling. The Steam Boiler from Create: Steam & Rails blows past that ceiling — it burns fuel to generate pressurized steam, which drives a Steam Engine that outputs far more SU than any passive source.", "This is the power upgrade that unlocks the faster, heavier Create machines. Build it before you need it."]
+		tasks: [{
+			id: "000000000000C014"
+			type: "item"
+			item: {id: "create_steam_n_rails:steam_boiler", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000C015"
+			type: "item"
+			item: {id: "minecraft:coal", Count: 32b}
+		}]
+	}, {
+		id: "000000000000C016"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["000000000000C013"]
+		title: "All Aboard"
+		icon: {id: "create_steam_n_rails:steam_locomotive", Count: 1b}
+		description: ["Create: Steam & Rails adds functional trains — lay track, place a Station, assemble a locomotive, and it will run a fixed route between stops autonomously. Freight cars haul chests. Passenger cars carry players.", "This is optional, but building a rail line between your base and a distant resource site is one of the better decisions you'll make in the middle game. The train doesn't get tired."]
+		tasks: [{
+			id: "000000000000C017"
+			type: "checkmark"
+			title: "Lay a rail line and run a steam locomotive between two stations"
+		}]
+		rewards: [{
+			id: "000000000000C018"
+			type: "item"
+			item: {id: "create_steam_n_rails:schedule", Count: 1b}
+		}]
+	}]
 	quest_links: []
 }

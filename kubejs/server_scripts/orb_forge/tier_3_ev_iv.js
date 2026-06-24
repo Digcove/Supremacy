@@ -28,8 +28,7 @@ ServerEvents.recipes(event => {
     // Combat: Epic Stone + Everbright miniboss trophy (Blue Skies)
     // Tech:   EV Circuit Assembler output (logic-pattern circuit)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:cipher_engraving_table',
+        type: 'modpack:cipher_engraving_table',
         duration: 300,
         inputs: {
             item: [
@@ -45,8 +44,7 @@ ServerEvents.recipes(event => {
     // Combat: Epic Stone + Everdawn miniboss trophy (Blue Skies)
     // Tech:   EV Circuit Assembler output (mirrored-pattern circuit)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:cipher_engraving_table',
+        type: 'modpack:cipher_engraving_table',
         duration: 300,
         inputs: {
             item: [
@@ -62,8 +60,7 @@ ServerEvents.recipes(event => {
     // Combat: Epic Stone + Hidden Chest Relic
     // Tech:   IV Sensor-grade component
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:cipher_engraving_table',
+        type: 'modpack:cipher_engraving_table',
         duration: 300,
         inputs: {
             item: [

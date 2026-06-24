@@ -4,10 +4,192 @@
 	order_index: 9
 	filename: "10_sky_captains"
 	title: "Sky Captains"
-	icon: {id: "minecraft:elytra", Count: 1b}
+	icon: {id: "eureka:ship_helm", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000014001"
+		x: 0.0d
+		y: 0.0d
+		title: "First Wind"
+		icon: {id: "paragliders:paraglider", Count: 1b}
+		description: ["The paraglider doesn't fly. It falls slowly, and lets you steer. That distinction matters — you have to commit to the drop before you get the glide.", "Craft it from leather and sticks at a crafting table. Hold it in your off-hand. Jump from height and hold jump to deploy. Stamina determines how long you can hold the canopy open. Right now your stamina is thin. That will change.", "This is the first move in a chapter about owning the sky — not just crossing it on foot."]
+		tasks: [{
+			id: "0000000000014002"
+			type: "item"
+			item: {id: "paragliders:paraglider", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000014003"
+			type: "item"
+			item: {id: "minecraft:feather", Count: 16b}
+		}]
+	}, {
+		id: "0000000000014004"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["0000000000014001"]
+		title: "Breath of the Sky"
+		icon: {id: "paragliders:spirit_orb", Count: 1b}
+		description: ["Spirit Orbs accumulate from Goddess Shrines scattered across the world. Each shrine can be prayed at once. Four Spirit Orbs buy one stamina wheel upgrade at a shrine — the canopy stays open longer, the descents get longer, the recoveries get shorter.", "You do not need to min-max this immediately. But every upgrade you skip is a distance you won't reach. Build the habit now."]
+		tasks: [{
+			id: "0000000000014005"
+			type: "item"
+			item: {id: "paragliders:spirit_orb", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000014006"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 2b}
+		}]
+	}, {
+		id: "0000000000014007"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000014001"]
+		title: "The Blue Door"
+		icon: {id: "minecraft:glowstone", Count: 1b}
+		description: ["The Nether portal uses flint and steel and burns with orange fire. The Aether portal uses glowstone and water. Same rectangular frame, same minimum dimensions — but you light it by pouring a water bucket onto the floor inside the frame instead of striking a spark.", "Build the frame from glowstone blocks. Pour water inside. Step through when the blue shimmer fills the opening. The sky above the sky is on the other side."]
+		tasks: [{
+			id: "0000000000014008"
+			type: "checkmark"
+			title: "Build a glowstone portal frame, light it with water, and enter the Aether"
+		}]
+		rewards: [{
+			id: "0000000000014009"
+			type: "item"
+			item: {id: "aether:skyroot_planks", Count: 32b}
+		}]
+	}, {
+		id: "000000000001400A"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000014007"]
+		title: "Above the Clouds"
+		icon: {id: "aether:skyroot_log", Count: 1b}
+		description: ["Everything in the Aether is its own version of something familiar. Skyroot is the wood. Holystone is the stone — softer than granite, mines faster, glows faintly. Ambrosium Shard is the coal, embedded in holystone seams. The Aether Grass is blue.", "None of the Overworld rules apply here. Lava doesn't exist. The floor is open sky. The ceiling is more sky. Mine both materials now — you'll need them for Aether tools before you go deeper."]
+		tasks: [{
+			id: "000000000001400B"
+			type: "item"
+			item: {id: "aether:skyroot_log", Count: 1b}
+			count: 16L
+		}, {
+			id: "000000000001400C"
+			type: "item"
+			item: {id: "aether:holystone", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "000000000001400D"
+			type: "item"
+			item: {id: "aether:ambrosium_shard", Count: 16b}
+		}]
+	}, {
+		id: "000000000001400E"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000001400A"]
+		title: "Zanite"
+		icon: {id: "aether:zanite_gemstone", Count: 1b}
+		description: ["Zanite is the Aether's gem ore — dark blue-purple, embedded in holystone at middle depths. It mines with a Holystone or better pickaxe.", "The material has an unusual property: Zanite tools and weapons get stronger as the user takes damage. A full-health swing is weaker than a bloodied one. For a tank build this is incidental. For a glass cannon it's a design philosophy. Craft a sword or pickaxe from it and keep the observation in mind."]
+		tasks: [{
+			id: "000000000001400F"
+			type: "item"
+			item: {id: "aether:zanite_gemstone", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000014010"
+			type: "item"
+			item: {id: "aether:zanite_pickaxe", Count: 1b}
+		}]
+	}, {
+		id: "0000000000014011"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000001400E"]
+		title: "Gravitite"
+		icon: {id: "aether:gravitite_ore", Count: 1b}
+		description: ["Gravitite Ore spawns deep in the Aether islands, distinguished from regular holystone by the faint upward glow. Mine it fast — when the ore is broken, the raw material will float upward if you don't catch it.", "Smelt the ore into Gravitite Ingots. The material is the basis for the Aether's highest non-dungeon armor set. Gravitite armor can be enchanted with Floating, which lets you slow your ascent and hover. Combined with the paraglider, it makes falling largely voluntary."]
+		tasks: [{
+			id: "0000000000014012"
+			type: "item"
+			item: {id: "aether:gravitite_ingot", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000014013"
+			type: "item"
+			item: {id: "aether:gravitite_ingot", Count: 4b}
+		}]
+	}, {
+		id: "0000000000014014"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000014011"]
+		title: "The Slider"
+		icon: {id: "aether:bronze_dungeon_key", Count: 1b}
+		description: ["Bronze Dungeons are stone cubes half-buried in the Aether islands. The interior is a maze of locked doors and traps. At the center: the Slider. A massive stone cube boss that rolls and charges — no weak points, no trick phase transitions, just momentum and mass.", "It drops the Bronze Dungeon Key. The key unlocks the dungeon's locked chests, which contain the Aether's best non-equipment loot. Fight in the center of a wide room. The Slider cannot be stopped — only avoided until it falls apart."]
+		tasks: [{
+			id: "0000000000014015"
+			type: "item"
+			item: {id: "aether:bronze_dungeon_key", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000014016"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}, {
+			id: "0000000000014017"
+			type: "item"
+			item: {id: "aether:gravitite_chestplate", Count: 1b}
+		}]
+	}, {
+		id: "0000000000014018"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000014001"]
+		title: "Hull and Balloon"
+		icon: {id: "eureka:balloon", Count: 1b}
+		description: ["Eureka Ships runs on Valkyrien Skies — a physics engine that lets built structures become moving entities. Any block structure can become a ship. Place a Ship Helm on it, right-click to assemble it into a physics object, and it detaches from the world.", "Balloons make it fly. Without them, the ship is a boat — surface-bound, physics-correct, useless for what you actually want. Add Balloons to the structure before assembling. Add Engines for horizontal thrust. The Anchor is what brings you back down cleanly. Check JEI for all three recipes.", "This is the craft track. The airship exists in parallel with the Aether — both are sky, approached differently. One dimension you explore on foot. The other you build to carry everything."]
+		tasks: [{
+			id: "0000000000014019"
+			type: "item"
+			item: {id: "eureka:ship_helm", Count: 1b}
+		}, {
+			id: "000000000001401A"
+			type: "item"
+			item: {id: "eureka:balloon", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001401B"
+			type: "item"
+			item: {id: "minecraft:oak_planks", Count: 64b}
+		}]
+	}, {
+		id: "000000000001401C"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000014018"]
+		title: "Sky Captain"
+		icon: {id: "eureka:ship_helm", Count: 1b}
+		description: ["Build any structure you want. It doesn't have to be large. It doesn't have to be symmetrical. It has to have a Helm and at least one Balloon.", "Right-click the Helm to assemble. The physics engine takes over. Use the Helm to ascend and descend. Use Engines for forward movement. Use the Anchor to land cleanly.", "The sky is yours now. Everything that follows — the Aether, the space tier, the endgame dimensions — you reach from up here."]
+		tasks: [{
+			id: "000000000001401D"
+			type: "checkmark"
+			title: "Assemble a ship with Balloons and fly it into the open sky"
+		}]
+		rewards: [{
+			id: "000000000001401E"
+			type: "item"
+			item: {id: "minecraft:elytra", Count: 1b}
+		}, {
+			id: "000000000001401F"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 3b}
+		}]
+	}]
 	quest_links: []
 }

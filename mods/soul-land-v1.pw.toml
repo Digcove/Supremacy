@@ -1,0 +1,13 @@
+name = "Soul Land v1"
+filename = "soulland-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c7b083f0106207613393356b490cb9537448d13"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8238375
+project-id = 1464428

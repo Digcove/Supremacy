@@ -1,0 +1,26 @@
+{
+  "exp": 1000,
+  "id": "sl_armor_mythic_3",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "soulland:soul_forged_ingot",
+      "num": 15
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/5",
+      "num": 30
+    },
+    {
+      "type": "ITEM",
+      "id": "gtceu:titanium_plate",
+      "num": 1
+    }
+  ],
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/armor/mythic",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 3
+}

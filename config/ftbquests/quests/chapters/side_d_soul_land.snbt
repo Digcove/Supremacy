@@ -1,0 +1,425 @@
+{
+	id: "0000000000002011"
+	group: "0000000000001002"
+	order_index: 3
+	filename: "side_d_soul_land"
+	title: "Soul Land"
+	icon: {id: "soulland:cultivation_altar", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "000000000000A001"
+		x: 0.0d
+		y: 0.0d
+		title: "Cultivation Altar"
+		icon: {id: "soulland:cultivation_altar", Count: 1b}
+		description: ["Soul Land adds a second progression axis that runs under everything else in this pack. Cultivation ranks, Soul Rings, Martial Souls, spirit beast hunting — it feeds directly into combat power and sits comfortably alongside Mine & Slash stat building.", "Build the Cultivation Altar. This is where soul power accumulates during meditation. Plant it somewhere permanent — you'll be coming back to it every time you need to rank up.", "Soul Land cultivation runs parallel to M&S stat building. Soul Rings grant active combat skills through absorption. Stat Souls grant passive stat points through application. Both systems feed the same endgame.", "The Gear Crafting Station (M&S block) now accepts Soul Land armor and weapon pieces as crafting bases for stat souls. Spirit Cloth → early souls. Soul Forged → mid souls. Sea God armor → endgame souls. You no longer need vanilla iron gear as the base — Soul Land replaces it tier for tier."]
+		tasks: [{
+			id: "000000000000A002"
+			type: "item"
+			item: {id: "soulland:cultivation_altar", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A003"
+			type: "item"
+			item: {id: "mmorpg:stone/0", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000A001"]
+		title: "A Soul Is Born"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Stand at your Cultivation Altar and press [M] to meditate. The Soul Land HUD will appear: your rank, soul power, ring slots, active skills.", "Your innate talent was assigned the moment you spawned — check it. A 20 is a god that hasn't happened yet. A 1 still gets nine rings eventually and still wins. Talent is a head start, not a ceiling."]
+		tasks: [{
+			id: "000000000000A005"
+			type: "checkmark"
+			title: "Meditate for the first time [M] and check your Innate Talent in the HUD"
+		}]
+		rewards: [{
+			id: "000000000000A006"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 1b}
+		}]
+	}, {
+		id: "000000000000A007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000A004"]
+		title: "First Hunt"
+		icon: {id: "soulland:white_soul_ring", Count: 1b}
+		description: ["Spirit Beasts drop their Soul Ring as a physical item when killed. Pick up the White Soul Ring and right-click to absorb it — it merges into your soul permanently and grants your first active skill.", "Your Spirit Detector (craft one from the Forging Table — see the bottom track) pulses when Spirit Beasts are nearby and shows approximate age. A White ring comes from a ten-year beast. They're everywhere. Go get one."]
+		tasks: [{
+			id: "000000000000A008"
+			type: "item"
+			item: {id: "soulland:white_soul_ring", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A009"
+			type: "item"
+			item: {id: "minecraft:cooked_beef", Count: 4b}
+		}]
+	}, {
+		id: "000000000000A00A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000A007"]
+		title: "The Scholar Earns His Title"
+		icon: {id: "soulland:spirit_condensing_pill", Count: 1b}
+		description: ["Ten points of Soul Power and you graduate from nothing to Spirit Scholar. The first rank. The weakest. The one every legend has to start from.", "There are 14 ranks total. Soul power runs from 1 to 120. Keep meditating at the Cultivation Altar. The Foundation Pill (see the top track) accelerates this. Patience is a build."]
+		tasks: [{
+			id: "000000000000A00B"
+			type: "checkmark"
+			title: "Reach Rank 1: Spirit Scholar (Soul Power 10)"
+		}]
+		rewards: [{
+			id: "000000000000A00C"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}]
+	}, {
+		id: "000000000000A00D"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000A00A"]
+		title: "A Hundred Years in Your Veins"
+		icon: {id: "soulland:yellow_soul_ring", Count: 1b}
+		description: ["White rings are the training wheels. A Yellow Soul Ring comes from a Spirit Beast that lived a full century — its compressed soul power is not trivial.", "A hundred-year beast hits harder than anything White dropped. Bring a Spirit Iron weapon (bottom track) or whatever hits hardest right now. The skill it grants changes how your combat rotation works."]
+		tasks: [{
+			id: "000000000000A00E"
+			type: "item"
+			item: {id: "soulland:yellow_soul_ring", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A00F"
+			type: "item"
+			item: {id: "mmorpg:stone/1", Count: 3b}
+		}]
+	}, {
+		id: "000000000000A010"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000A00D"]
+		title: "True Form"
+		icon: {id: "soulland:blue_silver_emperor_essence", Count: 1b}
+		description: ["At Soul Power 70, the mask comes off. Press [V] to activate your True Martial Soul — the version of yourself that the martial soul was always building toward.", "If you chose the Cloth Path in Chapter 1, the True Martial form amplifies your magic output further. If you chose Plate, the transformation leans physical. It reads your build and scales accordingly. Kieransmama doesn't waste anything."]
+		tasks: [{
+			id: "000000000000A011"
+			type: "checkmark"
+			title: "Activate True Martial Soul Transformation at Soul Power 70+ [V]"
+		}]
+		rewards: [{
+			id: "000000000000A012"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 2b}
+		}, {
+			id: "000000000000A013"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A014"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["000000000000A010"]
+		title: "The Purple Ring"
+		icon: {id: "soulland:purple_soul_ring", Count: 1b}
+		description: ["A thousand years of life compressed into a ring. Purple Soul Rings unlock skills that change how you fight — not just bigger numbers, but new mechanics, new effects, new angles of attack.", "A thousand-year beast is a dungeon boss that spawns in the open world. Bring your best M&S affixes, a socketed weapon, and at least one spell scroll from Iron's Spellbooks. It has had time to get very good at this."]
+		tasks: [{
+			id: "000000000000A015"
+			type: "item"
+			item: {id: "soulland:purple_soul_ring", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A016"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 2b}
+		}, {
+			id: "000000000000A017"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A018"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["000000000000A014"]
+		title: "Dragon Realm"
+		icon: {id: "soulland:dragon_roost_stone", Count: 1b}
+		description: ["A hole was torn in reality. The Dragon Dimension generates its own biomes — Dragon Roost forests, Silver Pine groves, Celestial Dragon Stone formations. Bring it all back. The blocks feed into the Soul Land Forging Table for the highest-tier crafting.", "Beyond the dimension entrance, three divine paths diverge. Sea God, Seraph, or Asura. Each defines the endgame shape of your Soul Land build. Choose after you've explored enough to know what you want."]
+		tasks: [{
+			id: "000000000000A019"
+			type: "item"
+			item: {id: "soulland:dragon_roost_stone", Count: 1b}
+		}, {
+			id: "000000000000A01A"
+			type: "checkmark"
+			title: "Enter the Dragon Dimension and reach its interior"
+		}]
+		rewards: [{
+			id: "000000000000A01B"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 3b}
+		}, {
+			id: "000000000000A01C"
+			type: "item"
+			item: {id: "mmorpg:currency/affix_common_reroll", Count: 3b}
+		}]
+	}, {
+		id: "000000000000A01D"
+		x: 16.0d
+		y: -1.0d
+		dependencies: ["000000000000A018"]
+		title: "Sea God's Grace"
+		icon: {id: "soulland:sea_god_chestplate", Count: 1b}
+		description: ["Tang San's path. The Sea God set is the endurance-and-ocean divine line — best suited for builds that want to outlast everything in a fight. Pairs naturally with high Defense and Resistance stacking from M&S stat souls.", "The Sea God Trident is available on this path as well. Bring it to a fight. The sea doesn't run out of patience."]
+		tasks: [{
+			id: "000000000000A01E"
+			type: "item"
+			item: {id: "soulland:sea_god_chestplate", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A01F"
+			type: "item"
+			item: {id: "soulland:sea_god_trident", Count: 1b}
+		}, {
+			id: "000000000000A020"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A021"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["000000000000A018"]
+		title: "Wings of the Seraph"
+		icon: {id: "soulland:seraph_chestplate", Count: 1b}
+		description: ["Qian Renxue's path. The Seraph set emphasizes soul power output — each piece worn amplifies soul ring skill damage and meditation gains. Built for cultivation-heavy builds that want their active skills to hit harder than their weapon.", "Pairs best with the Cloth Path from Chapter 1 and a high-Intelligence stat allocation from M&S. Magic shield on top, soul skills underneath."]
+		tasks: [{
+			id: "000000000000A022"
+			type: "item"
+			item: {id: "soulland:seraph_chestplate", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A023"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 3b}
+		}, {
+			id: "000000000000A024"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A025"
+		x: 16.0d
+		y: 1.0d
+		dependencies: ["000000000000A018"]
+		title: "The Asura Way"
+		icon: {id: "soulland:asura_chestplate", Count: 1b}
+		description: ["The Asura set leans hard into raw offensive output. Each piece amplifies soul skill damage at the cost of survivability. It expects you to kill fast enough that defense is irrelevant.", "Pairs best with the Plate Path from Chapter 1 and high Strength and Attack Speed from M&S. Bring the Asura God Saber. This build does not negotiate."]
+		tasks: [{
+			id: "000000000000A026"
+			type: "item"
+			item: {id: "soulland:asura_chestplate", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A027"
+			type: "item"
+			item: {id: "soulland:asura_god_saber", Count: 1b}
+		}, {
+			id: "000000000000A028"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A029"
+		x: 2.0d
+		y: -2.0d
+		title: "The Spirit Vein"
+		icon: {id: "soulland:spirit_iron_ore", Count: 1b}
+		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but glows faintly blue-grey. Your Tinkers' pickaxe will mine it. The Create Millstone will crush it for doubled output just like vanilla ore.", "Spirit Iron Ingots are the base material for everything in the Soul Land crafting line — tools, weapons, armor, and the Forging Table itself. Mine it early and often."]
+		tasks: [{
+			id: "000000000000A02A"
+			type: "item"
+			item: {id: "soulland:spirit_iron_ore", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000000A02B"
+			type: "item"
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 1b}
+		}]
+	}, {
+		id: "000000000000A02C"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["000000000000A029"]
+		title: "The Forging Table"
+		icon: {id: "soulland:forging_table", Count: 1b}
+		description: ["The Forging Table is the Soul Land equivalent of the Tinkers' Tool Forge — everything in the mod's crafting system runs through it. Weapons, armor, cultivation items, pills, the Spirit Detector.", "Build it from Spirit Iron and wood planks. Once placed, check JEI under the Forging Table tab for the full recipe list. There are a lot of recipes. Start with the tools."]
+		tasks: [{
+			id: "000000000000A02D"
+			type: "item"
+			item: {id: "soulland:forging_table", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A02E"
+			type: "item"
+			item: {id: "soulland:spirit_iron_ingot", Count: 4b}
+		}]
+	}, {
+		id: "000000000000A02F"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["000000000000A02C"]
+		title: "Spirit Iron Arms"
+		icon: {id: "soulland:spirit_iron_sword", Count: 1b}
+		description: ["Spirit Iron weapons deal bonus damage against spirit beasts specifically — which is most of what you'll be fighting in this chapter. They're stronger than iron but not quite soul forged.", "Craft the sword for hunting and the pickaxe for mining. The sword is what gets you the next ring tier."]
+		tasks: [{
+			id: "000000000000A030"
+			type: "item"
+			item: {id: "soulland:spirit_iron_sword", Count: 1b}
+		}, {
+			id: "000000000000A031"
+			type: "item"
+			item: {id: "soulland:spirit_iron_pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A032"
+			type: "item"
+			item: {id: "soulland:spirit_iron_ingot", Count: 4b}
+		}]
+	}, {
+		id: "000000000000A033"
+		x: 8.0d
+		y: -2.0d
+		dependencies: ["000000000000A02F"]
+		title: "Soul Forged Metal"
+		icon: {id: "soulland:soul_forged_ingot", Count: 1b}
+		description: ["Soul Forged Ingots are the Soul Land equivalent of steel — and now they require actual steel to make. Craft them from Spirit Iron, Qi Crystal, and Stainless Steel Ingots from GregTech. Qi Crystal Ore spawns closer to diamond depth.", "Stainless Steel comes from the Electric Blast Furnace — you need MV infrastructure and chromite or nickel to produce it. This ingot is the bridge between GregTech HV tier and Soul Land mid-tier armor. Get two to prove the process works, then stockpile for the full set."]
+		tasks: [{
+			id: "000000000000A034"
+			type: "item"
+			item: {id: "soulland:soul_forged_ingot", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "000000000000A035"
+			type: "item"
+			item: {id: "soulland:qi_crystal", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A036"
+		x: 10.0d
+		y: -2.0d
+		dependencies: ["000000000000A033"]
+		title: "Soul Forged Armor"
+		icon: {id: "soulland:soul_forged_chestplate", Count: 1b}
+		description: ["The Soul Forged set. Craft all four pieces at the Forging Table. Apply M&S Stat Souls to each piece immediately after crafting.", "Soul Forged Chestplate is now the crafting base for mid-tier M&S armor stat souls at the Gear Crafting Station — replace the vanilla iron_boots requirement entirely. Soul Forged Ingot replaces the mining material. This is the tier 3 window: the souls you craft here will carry you into Act IV.", "This armor is fully compatible with Apotheosis gems socketed via the M&S Socket Orb — four pieces, four potential sockets, four gems stacking on top of your affixes and stat souls. Don't skip the sockets."]
+		tasks: [{
+			id: "000000000000A037"
+			type: "item"
+			item: {id: "soulland:soul_forged_helmet", Count: 1b}
+		}, {
+			id: "000000000000A038"
+			type: "item"
+			item: {id: "soulland:soul_forged_chestplate", Count: 1b}
+		}, {
+			id: "000000000000A039"
+			type: "item"
+			item: {id: "soulland:soul_forged_leggings", Count: 1b}
+		}, {
+			id: "000000000000A03A"
+			type: "item"
+			item: {id: "soulland:soul_forged_boots", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A03B"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 4b}
+		}, {
+			id: "000000000000A03C"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A03D"
+		x: 2.0d
+		y: 2.0d
+		title: "Spirit Detector"
+		icon: {id: "soulland:spirit_detector", Count: 1b}
+		description: ["Craft the Spirit Detector at the Forging Table. It pulses when Spirit Beasts are within range and displays approximate beast age — which tells you what ring color you're walking toward before you commit to the fight.", "A White ring is ten years. Yellow is a century. Purple is a thousand. Know before you swing."]
+		tasks: [{
+			id: "000000000000A03E"
+			type: "item"
+			item: {id: "soulland:spirit_detector", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A03F"
+			type: "item"
+			item: {id: "minecraft:compass", Count: 1b}
+		}]
+	}, {
+		id: "000000000000A040"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["000000000000A03D"]
+		title: "The Herb Garden"
+		icon: {id: "soulland:wild_herb", Count: 1b}
+		description: ["Spirit Herbs grow in patches across the world — Wild Herb, Spirit Grass, Spirit Flower, Cloud Mushroom, Spirit Mushroom. Most feed into the cultivation pill system at the Forging Table.", "Gather everything you see. Some rare pills require herbs that only spawn in specific biomes or in limited patches. Don't pass one without picking it."]
+		tasks: [{
+			id: "000000000000A041"
+			type: "item"
+			item: {id: "soulland:wild_herb", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000000A042"
+			type: "item"
+			item: {id: "minecraft:bread", Count: 4b}
+		}]
+	}, {
+		id: "000000000000A043"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["000000000000A040"]
+		title: "Foundation Pill"
+		icon: {id: "soulland:foundation_pill", Count: 1b}
+		description: ["The Foundation Pill increases Soul Power gain rate for a period after consuming it. Take one before any extended meditation session — it's the difference between ranking up overnight and ranking up in a week.", "Crafted from basic Spirit Herbs at the Forging Table. Keep a stack. Every cultivation push benefits from one."]
+		tasks: [{
+			id: "000000000000A044"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A045"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 2b}
+		}, {
+			id: "000000000000A046"
+			type: "item"
+			item: {id: "soulland:qi_gathering_pill", Count: 2b}
+		}]
+	}, {
+		id: "000000000000A047"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["000000000000A043"]
+		title: "Space Ring"
+		icon: {id: "soulland:space_ring_basic", Count: 1b}
+		description: ["The Space Ring is an inventory expansion item that equips in your Curios ring slot. Stack it with the Artifacts mod rings and your Sophisticated Backpack and the inventory problem stops being a problem.", "There are four tiers: Basic, Enhanced, Superior, Legendary. Start with Basic. Upgrade when you can craft the next tier at the Forging Table. The Legendary tier holds an absurd amount."]
+		tasks: [{
+			id: "000000000000A048"
+			type: "item"
+			item: {id: "soulland:space_ring_basic", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000A049"
+			type: "item"
+			item: {id: "soulland:space_ring_basic", Count: 1b}
+		}]
+	}]
+	quest_links: []
+}

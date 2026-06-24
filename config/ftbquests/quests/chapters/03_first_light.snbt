@@ -4,10 +4,195 @@
 	order_index: 2
 	filename: "03_first_light"
 	title: "First Light"
-	icon: {id: "minecraft:redstone", Count: 1b}
+	icon: {id: "ars_nouveau:novice_spellbook", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "000000000000B001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Living Canopy"
+		icon: {id: "ars_nouveau:archwood_log", Count: 1b}
+		description: ["Archwood trees generate in their own glowing clearings — faintly luminescent, unmistakable once you know what to look for. Every Ars Nouveau recipe in this chapter traces back to this wood.", "If you can't find a clearing, plant Source Berry Bushes near each other in a forest. The environment will do the rest eventually. Or just keep walking — they're out there."]
+		tasks: [{
+			id: "000000000000B002"
+			type: "item"
+			item: {id: "ars_nouveau:archwood_log", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000000B003"
+			type: "item"
+			item: {id: "ars_nouveau:source_berry", Count: 16b}
+		}]
+	}, {
+		id: "000000000000B004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000B001"]
+		title: "The Arcane Compendium"
+		icon: {id: "ars_nouveau:arcane_compendium", Count: 1b}
+		description: ["Hold a Book and Quill near a bookshelf that has Source nearby and right-click. The Arcane Compendium assembles itself — it is the complete field guide to Ars Nouveau.", "Read the Glyphs section. The grammar here is Form → Effect → Augment. Everything you cast is built from that."]
+		tasks: [{
+			id: "000000000000B005"
+			type: "item"
+			item: {id: "ars_nouveau:arcane_compendium", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B006"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000000B007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000B004"]
+		title: "The Source Well"
+		icon: {id: "ars_nouveau:source_jar", Count: 1b}
+		description: ["Source Jars fill passively near Source Berry Bushes, Archwood trees, or other Ars structures. Place one near your Archwood grove and watch the bar climb.", "Source is what everything in this mod costs — spells, glyph crafting, automation. Plant Source Berry Bushes around your base now and keep planting them. They are the cheapest Source there is."]
+		tasks: [{
+			id: "000000000000B008"
+			type: "item"
+			item: {id: "ars_nouveau:source_jar", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B009"
+			type: "item"
+			item: {id: "ars_nouveau:source_berry_bush", Count: 4b}
+		}]
+	}, {
+		id: "000000000000B00A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000B007"]
+		title: "The Scribes Table"
+		icon: {id: "ars_nouveau:scribes_table", Count: 1b}
+		description: ["Spells are assembled at the Scribes Table — glyphs are physical items you craft and drag into slots. Form comes first. Then Effect. Augments modify both.", "Projectile + Ignite is your first viable spell. It fires forward and sets things on fire. Simple, effective, a starting point."]
+		tasks: [{
+			id: "000000000000B00B"
+			type: "item"
+			item: {id: "ars_nouveau:scribes_table", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B00C"
+			type: "item"
+			item: {id: "ars_nouveau:glyph_projectile", Count: 1b}
+		}, {
+			id: "000000000000B00D"
+			type: "item"
+			item: {id: "ars_nouveau:glyph_ignite", Count: 1b}
+		}]
+	}, {
+		id: "000000000000B00E"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000B00A"]
+		title: "First Fire"
+		icon: {id: "ars_nouveau:novice_spellbook", Count: 1b}
+		description: ["Slot Projectile then Ignite into the Scribes Table. Drag it into your Novice Spellbook. Press R. That is a spell. It costs Source, it works, and it's yours.", "The Novice book holds a few spells. Build a rotation now — at least one damage spell, one utility."]
+		tasks: [{
+			id: "000000000000B00F"
+			type: "checkmark"
+			title: "Cast your first Ars Nouveau spell from the Novice Spellbook"
+		}]
+		rewards: [{
+			id: "000000000000B010"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 8b}
+		}]
+	}, {
+		id: "000000000000B011"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000B00E"]
+		title: "The Apprentice"
+		icon: {id: "ars_nouveau:apprentice_spellbook", Count: 1b}
+		description: ["The Apprentice Spellbook holds more spells and allows longer glyph chains — a spell that slows a target, deals cold damage, and pulls it toward you is a single keybind from this book.", "Craft it at the Scribes Table. The glyph slot count opens up. Start building real combinations."]
+		tasks: [{
+			id: "000000000000B012"
+			type: "item"
+			item: {id: "ars_nouveau:apprentice_spellbook", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B013"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 16b}
+		}]
+	}, {
+		id: "000000000000B014"
+		x: 0.0d
+		y: 2.0d
+		title: "The World Breathes"
+		icon: {id: "naturesaura:eye_of_nature", Count: 1b}
+		description: ["Nature's Aura treats the world as a living energy system. Every biome holds a reserve of Aura — invisible, finite, slowly regenerating. Drain it too fast and the land goes quiet.", "The Eye of Nature shows you the local Aura level as a number on screen. Craft one. Don't let it hit zero near your base."]
+		tasks: [{
+			id: "000000000000B015"
+			type: "item"
+			item: {id: "naturesaura:eye_of_nature", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B016"
+			type: "item"
+			item: {id: "naturesaura:ancient_sapling", Count: 2b}
+		}]
+	}, {
+		id: "000000000000B017"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000000B014"]
+		title: "The Natural Altar"
+		icon: {id: "naturesaura:natural_altar", Count: 1b}
+		description: ["The Natural Altar is Nature's Aura's crafting station — no GUI, no fuel slot. Place ingredients on top, throw the catalyst, and it pulls Aura from the environment to complete the recipe.", "Surround it with trees. Trees feed Aura into the area. Clear-cutting near your Altar is how you make it stop working."]
+		tasks: [{
+			id: "000000000000B018"
+			type: "item"
+			item: {id: "naturesaura:natural_altar", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000B019"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 16b}
+		}]
+	}, {
+		id: "000000000000B01A"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["000000000000B017"]
+		title: "Bottled World"
+		icon: {id: "naturesaura:aura_bottle", Count: 1b}
+		description: ["Aura Bottles capture ambient Aura for later — release one in a depleted zone to restore the local level, or use them as crafting ingredients in higher-tier Altar recipes.", "Fill glass bottles in a dense old-growth forest or jungle. Never fill them in your base biome if you're already running low."]
+		tasks: [{
+			id: "000000000000B01B"
+			type: "item"
+			item: {id: "naturesaura:aura_bottle", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000000B01C"
+			type: "item"
+			item: {id: "naturesaura:sky_ingot", Count: 2b}
+		}]
+	}, {
+		id: "000000000000B01D"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["000000000000B01A"]
+		title: "Forged From the Sky"
+		icon: {id: "naturesaura:sky_ingot", Count: 1b}
+		description: ["Sky Ingots are Nature's Aura's primary crafting metal — made at the Natural Altar from gold and lightning-struck materials. They feed into the mod's more powerful tools, structures, and passive Aura generators.", "Place iron blocks outside during a thunderstorm. Lightning strikes them. That's your lightning-touched material. The world does the work."]
+		tasks: [{
+			id: "000000000000B01E"
+			type: "item"
+			item: {id: "naturesaura:sky_ingot", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000000B01F"
+			type: "item"
+			item: {id: "naturesaura:sky_ingot", Count: 2b}
+		}]
+	}]
 	quest_links: []
 }

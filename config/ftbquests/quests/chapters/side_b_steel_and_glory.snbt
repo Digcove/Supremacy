@@ -8,6 +8,239 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000007001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Mark of the Exile"
+		icon: {id: "mmorpg:stone/0", Count: 1b}
+		description: ["Mine & Slash turns every enemy into a loot piñata. Gear drops with a Rarity, a set of Base Stats, and up to four Affixes (Prefixes and Suffixes) that stack on top. This is the ARPG layer running under everything else in the pack.", "Rarity tiers from lowest to highest: Common (white), Uncommon (green), Rare (blue), Epic (purple), Legendary (orange), Mythic (red). Higher rarity means more affixes and stronger base values.", "Salvage Stones come from salvaging gear. Take drops to the Salvage Table — or use the Mine & Slash Backpack's auto-salvage feature — and the gear is consumed in exchange for Salvage Stones. The stone rarity matches the gear rarity: salvage a Rare sword, get a Rare Stone (stone/2). Collect every stone. They are the combat gates for the Orb Forge."]
+		tasks: [{
+			id: "0000000000007002"
+			type: "item"
+			item: {id: "mmorpg:stone/0", Count: 1b}
+			count: 5L
+		}]
+		rewards: [{
+			id: "0000000000007003"
+			type: "item"
+			item: {id: "mmorpg:stone/0", Count: 5b}
+		}]
+	}, {
+		id: "0000000000007004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000007001"]
+		title: "Reading Your Gear"
+		icon: {id: "mmorpg:currency/orb_of_quality", Count: 1b}
+		description: ["Hover over any M&S gear drop. You'll see: the item name (which encodes its rarity), Base Stats (always present, fixed to this item type), and then Affixes separated by a line break.", "Affixes come in two flavors: Prefixes (top half) and Suffixes (bottom half). A Common item has no affixes. A Rare item has up to two of each. A Mythic item has the maximum count, all rolled at their highest possible values.", "The Implicit stat sits separately — it's fixed to the item type and doesn't count as a prefix or suffix. The Orb of Revelation (Tier 3 Orb Forge) can reroll it."]
+		tasks: [{
+			id: "0000000000007005"
+			type: "item"
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007006"
+			type: "item"
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 3b}
+		}]
+	}, {
+		id: "0000000000007007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000007004"]
+		title: "Stat Souls"
+		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		description: ["Stat Souls are the leveling currency for your character build. Apply a Stat Soul to a weapon or armor piece by right-clicking it in your hand onto the item — it unlocks that item's stat tree and grants stat points you allocate toward damage, defense, resistances, crit, and more.", "Each item slot has its own soul family: weapon souls go on weapons, armor souls go on armor. Soul rarity (Common through Mythic) determines how many points it unlocks. Rare and Epic souls from harder enemies are the meaningful upgrades.", "Stat Souls can also be crafted at the Gear Crafting Station — and the recipes now accept Soul Land armor and weapon pieces as the crafting base, replacing vanilla iron gear entirely. Spirit Cloth Chestplate + spirit iron ingots + salvage stones = tier-0 armor souls. Soul Forged Chestplate + soul forged ingots = tier-3. Sea God armor + soul crystals = tier-5. Your cultivation progression and your stat soul progression are the same progression.", "Open the M&S skill screen (default: K) to spend stat points. Points are permanent but respecs exist — don't stress the early allocation."]
+		tasks: [{
+			id: "0000000000007008"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007009"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 2b}
+		}, {
+			id: "000000000000700A"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 2b}
+		}]
+	}, {
+		id: "000000000000700B"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000007007"]
+		title: "Sockets and the Socket Orb"
+		icon: {id: "mmorpg:currency/socket_adder", Count: 1b}
+		description: ["Sockets let you slot gems into gear for bonus stats that stack on top of everything else. Use a Socket Orb (mmorpg:currency/socket_adder) to add a socket to an eligible item by right-clicking the orb while holding the gear.", "Gem items can then be inserted into the socket. The gem bonus stacks with affixes, implicits, and stat souls — it's pure additional power.", "Don't burn Socket Orbs on items you're about to salvage. Wait until you have a piece you've committed to keeping for at least one tier. The Orb Forge can later improve the affixes on that piece without breaking the socket."]
+		tasks: [{
+			id: "000000000000700C"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000700D"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 2b}
+		}]
+	}, {
+		id: "000000000000700E"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000700B"]
+		title: "The Atlas Opens"
+		icon: {id: "mmorpg:map_creator", Count: 1b}
+		description: ["The Atlas is the endgame of Mine & Slash. Maps are consumable items you run through a Map Device to open instanced dungeons at a scaling difficulty tier.", "Maps drop from enemies and can be modified with currency before running — adding affixes to a map increases difficulty but also boosts drop quality and quantity. Map bosses are the best source of high-rarity gear, which means the best source of high-rarity stones when salvaged.", "Acts I through V scale with your character level. Act V map bosses drop Legendary Stones and the boss drop tokens that gate Tier 4 and 5 of the Orb Forge."]
+		tasks: [{
+			id: "000000000000700F"
+			type: "item"
+			item: {id: "mmorpg:map_creator", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007010"
+			type: "item"
+			item: {id: "mmorpg:map_creator", Count: 3b}
+		}]
+	}, {
+		id: "0000000000007011"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000700E"]
+		title: "Currency Is Power"
+		icon: {id: "mmorpg:currency/affix_common_reroll", Count: 1b}
+		description: ["The Library of Exile currency system sits on top of Mine & Slash gear. Every orb does something specific: reroll affix values, change rarity, swap which affixes are present, or corrupt.", "None of these orbs are crafted by hand — they either drop from enemies or are forged in the Orb Forge (Chapter 14). The Orb Forge is where the Salvage Stones you earned through salvaging your combat loot convert into crafting power.", "Use orbs on gear you have committed to. Don't waste a Chaos Orb on a piece with one good affix — save it until you've narrowed down what you actually want."]
+		tasks: [{
+			id: "0000000000007012"
+			type: "item"
+			item: {id: "mmorpg:currency/affix_common_reroll", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007013"
+			type: "item"
+			item: {id: "mmorpg:currency/affix_common_reroll", Count: 3b}
+		}]
+	}, {
+		id: "0000000000007014"
+		x: 0.0d
+		y: -2.0d
+		title: "Tinkers' Metallurgy"
+		icon: {id: "tconstruct:smeltery_controller", Count: 1b}
+		description: ["Tinkers' Construct replaces the crafting table for mining and gathering tools. Every pickaxe, hammer, shovel, and axe is assembled from parts — each crafted from a different material with different passive traits.", "Parts go into a Part Builder (using a pattern), then combine in a Tool Station or Tool Forge. The Smeltery melts metals into liquid for casting head parts from higher-tier materials like bronze or cobalt.", "Material traits stack: iron head (Magnetic — pulls dropped items to you) + cobalt binding (Lightweight — bonus mining speed) + thatch rod (Ecological — self-repairs while not mining). Three iron parts is just the starting point."]
+		tasks: [{
+			id: "0000000000007015"
+			type: "item"
+			item: {id: "tconstruct:smeltery_controller", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007016"
+			type: "item"
+			item: {id: "tconstruct:grout", Count: 16b}
+		}]
+	}, {
+		id: "0000000000007017"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000007014"]
+		title: "A Tool That Remembers"
+		icon: {id: "tconstruct:pickaxe", Count: 1b}
+		description: ["Cast a Pickaxe Head from liquid iron in the Smeltery, bind it to a Tool Rod on the Tool Station, and you have your first Tinkers' pickaxe. It's already faster than vanilla — and it only gets better.", "Tinkers' tools level up through use and gain Modifier Slots at specific thresholds. Fill those slots with Fortune stones, Fortune II stones, Redstone for speed, or Lapis for auto-smelting. The tool never breaks — it only degrades until you repair it with the same material it's made from.", "When you find cobalt in the Nether, come back and recast your heads. Every material tier is a meaningful upgrade."]
+		tasks: [{
+			id: "0000000000007018"
+			type: "item"
+			item: {id: "tconstruct:pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007019"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 2b}
+		}]
+	}, {
+		id: "000000000000701A"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000007014"]
+		title: "Silent Parts"
+		icon: {id: "silentgear:blueprint_package", Count: 1b}
+		description: ["Silent Gear runs on a blueprint + material system. Unpack the Blueprint Package to get starter templates. Each template shows how to craft one tool part from a material shard or component.", "Unlike Tinkers', Silent Gear parts can be crafted from a wider spread of materials including alloys from Silent Gear's own Alloy Maker. Tools can be fully disassembled, parts swapped for upgrades, and reassembled without losing the tool. Use Create's Mechanical Press to press materials into the plate forms that many Silent Gear parts require."]
+		tasks: [{
+			id: "000000000000701B"
+			type: "item"
+			item: {id: "silentgear:blueprint_package", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000701C"
+			type: "item"
+			item: {id: "silentgear:blueprint_package", Count: 2b}
+		}]
+	}, {
+		id: "000000000000701D"
+		x: 6.0d
+		y: -2.0d
+		title: "Reach Beyond"
+		icon: {id: "minecraft:diamond_sword", Count: 1b}
+		description: ["Spartan Weaponry adds weapon types that vanilla skips: halberds with extended reach, lances for mounted combat, javelins you can throw, daggers for fast dual-wielding, katanas, and more.", "Each weapon type has its own attack pattern and synergizes with different M&S stat builds. Halberds and greatswords reward high damage investment. Daggers and katanas reward attack speed builds. Lances pair naturally with the Valkyrien Skies ship combat.", "Spartan weapons are crafted from standard materials (iron through netherite) using their own recipes — check JEI."]
+		tasks: [{
+			id: "000000000000701E"
+			type: "checkmark"
+			title: "Craft any Spartan Weaponry weapon"
+		}]
+		rewards: [{
+			id: "000000000000701F"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 2b}
+		}]
+	}, {
+		id: "0000000000007020"
+		x: 0.0d
+		y: 2.0d
+		title: "Scrolls and Spellbooks"
+		icon: {id: "irons_spellbooks:iron_spell_book", Count: 1b}
+		description: ["Iron's Spells & Spellbooks gives you a second combat dimension: spells cast from a Spellbook held in your off-hand. Each Spellbook holds several spell slots. Spell Scrolls drop from enemies, mage tower chests, and dungeon loot — right-click a scroll to inscribe the spell into your book.", "Spells cost Mana, which regenerates passively. Intelligence and Wisdom from M&S stat souls boost your Mana pool and regeneration rate. A dedicated magic build will run the Cloth armor path (from Chapter 1) and stack magic shield stats.", "Higher-tier books hold more spells and cast them at higher power. Upgrade your book when you find a better tier."]
+		tasks: [{
+			id: "0000000000007021"
+			type: "item"
+			item: {id: "irons_spellbooks:iron_spell_book", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000007022"
+			type: "item"
+			item: {id: "irons_spellbooks:scroll_of_fire_bolt", Count: 2b}
+		}]
+	}, {
+		id: "0000000000007023"
+		x: 2.0d
+		y: 2.0d
+		title: "Worn by the Lucky"
+		icon: {id: "minecraft:golden_helmet", Count: 1b}
+		description: ["Artifacts adds trinket items that go into Curios slots (open the Curios screen via the icon beside your inventory). Each artifact has a unique passive or active ability — the Cross Necklace grants brief invincibility after taking a hit, the Vampire Teeth drain life on kill, the Cloud in a Bottle gives an air dash.", "Artifacts drop from structures, chests, and specific enemies. They have no durability — once found, they're permanent. Some are rare enough that you may go through an entire chapter without seeing them. Equip any you find that match your build."]
+		tasks: [{
+			id: "0000000000007024"
+			type: "checkmark"
+			title: "Find and equip any Artifact item in a Curios slot"
+		}]
+		rewards: [{
+			id: "0000000000007025"
+			type: "item"
+			item: {id: "minecraft:golden_apple", Count: 1b}
+		}]
+	}, {
+		id: "0000000000007026"
+		x: 4.0d
+		y: 2.0d
+		title: "Apotheosis Empowerment"
+		icon: {id: "minecraft:enchanting_table", Count: 1b}
+		description: ["Apotheosis overhauled the enchanting system. Bookshelves matter now based on their arrangement and type — different shelves give different enchantment power bonuses. Stack the right ones to push enchantment levels past vanilla limits.", "Apotheosis also adds Gems: socketed stat bonuses for compatible gear. Gems come in Common through Mythic rarity tiers and roll random stat bonuses when they drop. Insert them into socketed items (sockets added via M&S Socket Orb) for stacking power on top of all your affixes.", "Higher-tier gems come from harder enemies and Apotheosis boss variants. Check JEI under Apotheosis for the gem salvaging and reforging system."]
+		tasks: [{
+			id: "0000000000007027"
+			type: "checkmark"
+			title: "Reach Enchantment Level 30+ with Apotheosis bookshelves"
+		}]
+		rewards: [{
+			id: "0000000000007028"
+			type: "item"
+			item: {id: "minecraft:enchanted_book", Count: 2b}
+		}]
+	}]
 	quest_links: []
 }

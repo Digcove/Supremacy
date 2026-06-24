@@ -29,8 +29,7 @@ ServerEvents.recipes(event => {
     // Combat: Legendary Stone + Map Boss Drop (consumed as fusion seed)
     // Tech:   Fusion Reactor Mk1 plasma batch
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:fusion_forge',
+        type: 'modpack:fusion_forge',
         duration: 500,
         inputs: {
             item: [
@@ -46,8 +45,7 @@ ServerEvents.recipes(event => {
     // Combat: Legendary Stone + Map Boss Drop
     // Tech:   UHV Component Assembly Line output
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:fusion_forge',
+        type: 'modpack:fusion_forge',
         duration: 500,
         inputs: {
             item: [
@@ -63,8 +61,7 @@ ServerEvents.recipes(event => {
     // Combat: Legendary Stone + Map Boss Drop
     // Tech:   UHV Assembly Line output (prefix-filter variant)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:fusion_forge',
+        type: 'modpack:fusion_forge',
         duration: 500,
         inputs: {
             item: [
@@ -80,8 +77,7 @@ ServerEvents.recipes(event => {
     // Combat: Legendary Stone + Map Boss Drop
     // Tech:   UHV Assembly Line output (suffix-filter variant)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:fusion_forge',
+        type: 'modpack:fusion_forge',
         duration: 500,
         inputs: {
             item: [

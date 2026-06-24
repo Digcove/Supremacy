@@ -4,10 +4,234 @@
 	order_index: 5
 	filename: "06_blood_flowers_demons"
 	title: "Blood, Flowers & Demons"
-	icon: {id: "minecraft:red_wool", Count: 1b}
+	icon: {id: "botania:mana_pool", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "000000000000E001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Pure Daisy"
+		icon: {id: "botania:pure_daisy", Count: 1b}
+		description: ["Botania begins with a flower. The Pure Daisy converts stone and wood into Livingrock and Livingwood — the base materials for almost everything in the mod.", "Place it on grass. Surround it with stone blocks. Wait. Check the Lexica Botania (right-click a bookshelf while holding a book) for the full recipe list — Botania explains itself if you read it."]
+		tasks: [{
+			id: "000000000000E002"
+			type: "item"
+			item: {id: "botania:livingrock", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000000E003"
+			type: "item"
+			item: {id: "botania:pure_daisy", Count: 2b}
+		}]
+	}, {
+		id: "000000000000E004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000E001"]
+		title: "The First Flower"
+		icon: {id: "botania:daybloom", Count: 1b}
+		description: ["Mana Generating flowers pull Mana from the environment and store it. The Daybloom generates from sunlight — slow but free. The Endoflame burns fuel — fast when fed, useless when empty.", "Plant several of each. You need a lot of Mana. The flowers make it. The Mana Spreader moves it. Start building both now."]
+		tasks: [{
+			id: "000000000000E005"
+			type: "item"
+			item: {id: "botania:daybloom", Count: 4b}
+		}]
+		rewards: [{
+			id: "000000000000E006"
+			type: "item"
+			item: {id: "botania:endoflame", Count: 2b}
+		}]
+	}, {
+		id: "000000000000E007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000E004"]
+		title: "Mana Flow"
+		icon: {id: "botania:mana_spreader", Count: 1b}
+		description: ["The Mana Spreader is a beam cannon that moves Mana from a flower or pool to another pool. Point the Spreader at a Mana Pool, let it fill.", "Direction matters: a Spreader points where you right-click it. Hold a Wand of the Forest to redirect. Your entire Mana network is Spreaders pointed at Pools pointed at machines."]
+		tasks: [{
+			id: "000000000000E008"
+			type: "item"
+			item: {id: "botania:mana_spreader", Count: 1b}
+		}, {
+			id: "000000000000E009"
+			type: "item"
+			item: {id: "botania:mana_pool", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E00A"
+			type: "item"
+			item: {id: "botania:mana_spreader", Count: 1b}
+		}]
+	}, {
+		id: "000000000000E00B"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000E007"]
+		title: "The Runic Altar"
+		icon: {id: "botania:runic_altar", Count: 1b}
+		description: ["The Runic Altar crafts Runes — the fundamental components that all higher-tier Botania equipment requires. Place ingredients on the Altar, feed it Mana from a Spreader, and right-click with a Wand of the Forest to complete the craft.", "You need Runes for Manasteel tools, armor, and most of the meaningful Botania machines. Start with the elemental runes."]
+		tasks: [{
+			id: "000000000000E00C"
+			type: "item"
+			item: {id: "botania:runic_altar", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E00D"
+			type: "item"
+			item: {id: "botania:rune_fire", Count: 1b}
+		}, {
+			id: "000000000000E00E"
+			type: "item"
+			item: {id: "botania:rune_water", Count: 1b}
+		}]
+	}, {
+		id: "000000000000E00F"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000E00B"]
+		title: "Manasteel"
+		icon: {id: "botania:manasteel_ingot", Count: 1b}
+		description: ["Manasteel is Botania's primary metal. Drop Spirit Steel Ingots into a Mana Pool with enough Mana and they convert. This is the gate — Soul Land progression feeds directly into Botania's material line.", "Eight Manasteel Ingots make Manasteel armor. Manasteel also feeds into Terrasteel and eventually Elementium. Get comfortable with this pool."]
+		tasks: [{
+			id: "000000000000E010"
+			type: "item"
+			item: {id: "botania:manasteel_ingot", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000000E011"
+			type: "item"
+			item: {id: "soulland:spirit_steel_ingot", Count: 4b}
+		}]
+	}, {
+		id: "000000000000E012"
+		x: 0.0d
+		y: 2.0d
+		title: "The Blood Altar"
+		icon: {id: "bloodmagic:blood_altar", Count: 1b}
+		description: ["Blood Magic runs on life. The Blood Altar converts your health into Life Essence — a resource stored in your Soul Network that powers rituals, sigils, and the altar's own crafting.", "Build the Tier 1 Altar from stone bricks and a Blood Rune. Right-click it with a dagger. You'll take damage. That's the cost. Get used to it."]
+		tasks: [{
+			id: "000000000000E013"
+			type: "item"
+			item: {id: "bloodmagic:blood_altar", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E014"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 4b}
+		}]
+	}, {
+		id: "000000000000E015"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000000E012"]
+		title: "Bound by Blood"
+		icon: {id: "bloodmagic:bound_blade", Count: 1b}
+		description: ["The Bound Blade is a weapon that grows stronger as your Soul Network fills. It doesn't consume durability — it consumes Life Essence instead. Keep your health high and your network full and it will always be sharp.", "Craft it at the Blood Altar. This is your first Blood Magic weapon. It won't be your last."]
+		tasks: [{
+			id: "000000000000E016"
+			type: "item"
+			item: {id: "bloodmagic:bound_blade", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E017"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 8b}
+		}]
+	}, {
+		id: "000000000000E018"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["000000000000E015"]
+		title: "Sigil of the Blood Lamp"
+		icon: {id: "bloodmagic:sigil_blood_light", Count: 1b}
+		description: ["Sigils are Blood Magic's utility tools — consumable or persistent effects powered by your Soul Network. The Sigil of the Blood Lamp places a sourceless light wherever you click. Free lighting that doesn't require placing torches.", "There are sigils for water, fire resistance, air, and more. The Sigil of the Green Grove keeps nearby crops watered. Build what you need."]
+		tasks: [{
+			id: "000000000000E019"
+			type: "item"
+			item: {id: "bloodmagic:sigil_blood_light", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E01A"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 4b}
+		}]
+	}, {
+		id: "000000000000E01B"
+		x: 0.0d
+		y: -2.0d
+		title: "Otherworld Tree"
+		icon: {id: "occultism:otherworld_sapling_natural", Count: 1b}
+		description: ["Occultism's crafting material — Otherstone and Otherwood — comes from Otherworld Trees, which generate in specific biomes. Find one or grow one from an Otherworld Sapling. Harvest it for the resources.", "You can see Otherworld Trees by drinking a Potion of Third Eye. Without it, they appear as regular trees — there but invisible in their true form."]
+		tasks: [{
+			id: "000000000000E01C"
+			type: "item"
+			item: {id: "occultism:otherstone", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000000E01D"
+			type: "item"
+			item: {id: "occultism:otherworld_sapling_natural", Count: 2b}
+		}]
+	}, {
+		id: "000000000000E01E"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["000000000000E01B"]
+		title: "Chalk the Circle"
+		icon: {id: "occultism:chalk_white", Count: 1b}
+		description: ["Rituals in Occultism require chalk circles drawn on the ground. White Chalk is the base. Draw the ritual pattern from the Occultism book (the Dictionary of Spirits), place the required items at the focal points, and activate.", "The chalk is consumed. The circle is temporary. The demon it calls is not."]
+		tasks: [{
+			id: "000000000000E01F"
+			type: "item"
+			item: {id: "occultism:chalk_white", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E020"
+			type: "item"
+			item: {id: "occultism:chalk_white", Count: 4b}
+		}]
+	}, {
+		id: "000000000000E021"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["000000000000E01E"]
+		title: "First Summon"
+		icon: {id: "occultism:foliot", Count: 1b}
+		description: ["Perform the Ritual of Summoning: Foliot. A Foliot is the lowest rank of demon — weak but useful. Bind it to a task: hauling items, managing a crusher, operating a storage interface. It will work indefinitely without complaining.", "Occultism's endgame is a network of demons doing your work. Start with one."]
+		tasks: [{
+			id: "000000000000E022"
+			type: "checkmark"
+			title: "Complete the Ritual of Summoning: Foliot and bind it to a task"
+		}]
+		rewards: [{
+			id: "000000000000E023"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 2b}
+		}]
+	}, {
+		id: "000000000000E024"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["000000000000E021"]
+		title: "The Storage Actuator"
+		icon: {id: "occultism:storage_actuator_base", Count: 1b}
+		description: ["Occultism's Storage Actuator is a demon-powered storage system — a djinn bound to a storage matrix that can hold vastly more than any chest and sorts itself. It functions like Applied Energistics but runs on demon labor instead of power.", "It requires a higher-rank demon than the Foliot. Summon a Djinn through the appropriate ritual and bind it to the Actuator. This is mid-tier Occultism and worth the investment before you reach AE2."]
+		tasks: [{
+			id: "000000000000E025"
+			type: "item"
+			item: {id: "occultism:storage_actuator_base", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000E026"
+			type: "item"
+			item: {id: "occultism:spirit_attuned_gem", Count: 4b}
+		}]
+	}]
 	quest_links: []
 }

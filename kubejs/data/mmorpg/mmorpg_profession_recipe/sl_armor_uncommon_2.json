@@ -1,0 +1,26 @@
+{
+  "exp": 100,
+  "id": "sl_armor_uncommon_2",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "soulland:spirit_steel_ingot",
+      "num": 4
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/1",
+      "num": 6
+    },
+    {
+      "type": "ITEM",
+      "id": "gtceu:stainless_steel_plate",
+      "num": 1
+    }
+  ],
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/armor/uncommon",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 2
+}

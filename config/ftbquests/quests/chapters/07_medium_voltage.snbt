@@ -4,10 +4,180 @@
 	order_index: 6
 	filename: "07_medium_voltage"
 	title: "Medium Voltage"
-	icon: {id: "minecraft:comparator", Count: 1b}
+	icon: {id: "gtceu:mv_machine_hull", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "000000000000F001"
+		x: 0.0d
+		y: 0.0d
+		title: "The LV Hull"
+		icon: {id: "gtceu:lv_machine_hull", Count: 1b}
+		description: ["The Low Voltage Machine Hull is GregTech's base building block. Every LV machine is built from one. It now requires Manasteel — the gate you built in Chapter 6 is intentional.", "You are not a factory worker yet. You are a mage who decided to go industrial. The Hull reflects that."]
+		tasks: [{
+			id: "000000000000F002"
+			type: "item"
+			item: {id: "gtceu:lv_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000F003"
+			type: "item"
+			item: {id: "gtceu:lv_machine_hull", Count: 2b}
+		}]
+	}, {
+		id: "000000000000F004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000F001"]
+		title: "First Power"
+		icon: {id: "gtceu:lv_battery_buffer_4a", Count: 1b}
+		description: ["GregTech machines run on EU — Energy Units. A Steam Turbine or LV Dynamo from GregTech generates it. A Battery Buffer stores it and distributes to machines on the same cable network.", "Wire everything together. If a machine isn't getting power, check the cable tier — LV cable carries LV current. MV cable carries more. Don't mix them without a transformer."]
+		tasks: [{
+			id: "000000000000F005"
+			type: "checkmark"
+			title: "Power a GregTech LV machine from a generator via cable"
+		}]
+		rewards: [{
+			id: "000000000000F006"
+			type: "item"
+			item: {id: "gtceu:tin_single_cable", Count: 32b}
+		}]
+	}, {
+		id: "000000000000F007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000F004"]
+		title: "The Macerator"
+		icon: {id: "gtceu:lv_macerator", Count: 1b}
+		description: ["The LV Macerator is your first real ore processor. It doubles ore output by crushing raw ore into two dust piles — smelt the dust for two ingots per ore. This replaces the Create Millstone for GregTech-native ores.", "Run every ore through here. The Macerator also produces useful byproduct dusts that feed into other GregTech recipes."]
+		tasks: [{
+			id: "000000000000F008"
+			type: "item"
+			item: {id: "gtceu:lv_macerator", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000F009"
+			type: "item"
+			item: {id: "gtceu:iron_dust", Count: 16b}
+		}]
+	}, {
+		id: "000000000000F00A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000F007"]
+		title: "The Naga"
+		icon: {id: "twilightforest:naga_scale", Count: 1b}
+		description: ["The Twilight Forest Naga is a serpentine boss that circles its arena endlessly. It has no ranged attack — just speed, mass, and the ability to break through any wall you hide behind. Fight in the open.", "It drops Naga Scales on death. You need four of them. This is the combat gate for the Electric Blast Furnace — you cannot build GregTech's EBF without killing this boss first."]
+		tasks: [{
+			id: "000000000000F00B"
+			type: "item"
+			item: {id: "twilightforest:naga_scale", Count: 4b}
+		}]
+		rewards: [{
+			id: "000000000000F00C"
+			type: "item"
+			item: {id: "twilightforest:naga_scale", Count: 4b}
+		}]
+	}, {
+		id: "000000000000F00D"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000F00A"]
+		title: "The Coil"
+		icon: {id: "gtceu:cupronickel_coil_block", Count: 1b}
+		description: ["The Cupronickel Coil Block is what the Electric Blast Furnace is built from. It generates the heat. Without Naga Scales woven into the coil structure, the recipe doesn't complete — the serpent's material conducts heat in a way nothing else does.", "Craft the Coil Blocks. You need at least two to build the EBF multiblock."]
+		tasks: [{
+			id: "000000000000F00E"
+			type: "item"
+			item: {id: "gtceu:cupronickel_coil_block", Count: 2b}
+		}]
+		rewards: [{
+			id: "000000000000F00F"
+			type: "item"
+			item: {id: "gtceu:cupronickel_coil_block", Count: 1b}
+		}]
+	}, {
+		id: "000000000000F010"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000F00D"]
+		title: "Electric Blast Furnace"
+		icon: {id: "gtceu:electric_blast_furnace", Count: 1b}
+		description: ["The EBF is a 3x3x4 multiblock — a steel casing shell with Cupronickel Coil Blocks on the inner ring. It smelts materials at temperatures that no normal furnace can reach: aluminium, titanium, and every alloy above steel.", "Build it. This is the gate between LV and MV. Nothing past this point is accessible without it."]
+		tasks: [{
+			id: "000000000000F011"
+			type: "checkmark"
+			title: "Assemble the Electric Blast Furnace multiblock"
+		}]
+		rewards: [{
+			id: "000000000000F012"
+			type: "item"
+			item: {id: "gtceu:steel_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000000F013"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["000000000000F010"]
+		title: "Aluminium"
+		icon: {id: "gtceu:aluminium_ingot", Count: 1b}
+		description: ["Aluminium ore is abundant but useless without the EBF — it requires 1700K to smelt, far above what a furnace can provide. Run Bauxite ore through the Macerator for dust, then smelt the dust in the EBF.", "Aluminium Plates are the main material in MV Machine Hulls. You'll need a lot of them. Set up a dedicated EBF line for aluminium and don't stop feeding it."]
+		tasks: [{
+			id: "000000000000F014"
+			type: "item"
+			item: {id: "gtceu:aluminium_ingot", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000000F015"
+			type: "item"
+			item: {id: "gtceu:aluminium_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000000F016"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["000000000000F013"]
+		title: "Medium Voltage"
+		icon: {id: "gtceu:mv_machine_hull", Count: 1b}
+		description: ["The MV Machine Hull. Aluminium plates from the EBF, an Epic M&S stone as the core — combat progression feeds into industrial progression. Eight plates, one stone. Craft it.", "MV machines run faster, process more operations per second, and handle recipe chains that LV machines can't touch. This is where GregTech stops being early game."]
+		tasks: [{
+			id: "000000000000F017"
+			type: "item"
+			item: {id: "gtceu:mv_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000F018"
+			type: "item"
+			item: {id: "gtceu:mv_machine_hull", Count: 2b}
+		}, {
+			id: "000000000000F019"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}, {
+		id: "000000000000F01A"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["000000000000F016"]
+		title: "The MV Workshop"
+		icon: {id: "gtceu:mv_electrolyzer", Count: 1b}
+		description: ["MV unlocks the Electrolyzer, the Chemical Reactor, the Large Boiler, and the Industrial Centrifuge — machines that process materials GregTech couldn't touch at LV. The Electrolyzer decomposes compounds into elements. The Chemical Reactor synthesizes them back.", "Build at least one Electrolyzer and one Chemical Reactor. The recipes they unlock are the backbone of HV prep."]
+		tasks: [{
+			id: "000000000000F01B"
+			type: "item"
+			item: {id: "gtceu:mv_electrolyzer", Count: 1b}
+		}, {
+			id: "000000000000F01C"
+			type: "item"
+			item: {id: "gtceu:mv_chemical_reactor", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000F01D"
+			type: "item"
+			item: {id: "gtceu:aluminium_ingot", Count: 16b}
+		}]
+	}]
 	quest_links: []
 }

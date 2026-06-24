@@ -4,10 +4,150 @@
 	order_index: 10
 	filename: "11_extreme_voltage"
 	title: "Extreme Voltage"
-	icon: {id: "minecraft:diamond", Count: 1b}
+	icon: {id: "gtceu:ev_machine_hull", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000015001"
+		x: 0.0d
+		y: 0.0d
+		title: "The Hydra"
+		icon: {id: "twilightforest:fiery_ingot", Count: 1b}
+		description: ["The Hydra lives in the Fire Swamps of the Twilight Forest — a massive multi-headed creature that breathes fire and regenerates severed stumps until you sever them all fast enough. Each head that dies bleeds Fiery Blood. Smelt it into Fiery Ingots.", "You need four. The ingots run hot enough to stress-test standard pneumatic components — which is exactly why PneumaticCraft's pressure vessels need them woven into the chamber walls to function at EV-tier loads. Kill the Hydra. Collect the blood. The compressed air factory starts here."]
+		tasks: [{
+			id: "0000000000015002"
+			type: "item"
+			item: {id: "twilightforest:fiery_ingot", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000015003"
+			type: "item"
+			item: {id: "gtceu:titanium_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000015004"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000015001"]
+		title: "Under Pressure"
+		icon: {id: "pneumaticcraft:pressure_chamber_wall", Count: 1b}
+		description: ["PneumaticCraft runs on compressed air — not RF, not EU, not Mana. Compressed air. The Pressure Chamber is the first multiblock: a hollow 3x3x3 cube of Pressure Chamber Walls with an Interface on one face and a Valve on another. The wall recipe now requires Fiery Ingots — the Hydra's material reinforces the chamber against burst failure at high pressure.", "Build an Air Compressor, connect it via Pressure Tubes, and let the pressure climb. When it hits threshold, items inside get compressed, combined, or deconstructed into things the crafting table can't make. This is the entry point."]
+		tasks: [{
+			id: "0000000000015005"
+			type: "item"
+			item: {id: "pneumaticcraft:pressure_chamber_wall", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000015006"
+			type: "item"
+			item: {id: "pneumaticcraft:pressure_tube", Count: 16b}
+		}]
+	}, {
+		id: "0000000000015007"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000015004"]
+		title: "Pneumatic Arsenal"
+		icon: {id: "pneumaticcraft:pneumatic_helmet", Count: 1b}
+		description: ["Pneumatic Armor pressurizes on the body — each piece self-seals using compressed air drawn from internal reservoirs. The helmet adds night vision, an entity tracker, and the HUD overlay. Each armor piece takes Upgrades crafted in the Pressure Chamber: Speed, Jump, Security, Volume.", "The full set is one of the strongest in the pack once loaded with upgrades. Build the helmet first. The recipe pulls from the same compressed iron and pressure tubes already flowing through your factory. The rest of the set follows immediately."]
+		tasks: [{
+			id: "0000000000015008"
+			type: "item"
+			item: {id: "pneumaticcraft:pneumatic_helmet", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000015009"
+			type: "item"
+			item: {id: "pneumaticcraft:air_canister", Count: 2b}
+		}]
+	}, {
+		id: "000000000001500A"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000015001"]
+		title: "The Ur-Ghast"
+		icon: {id: "twilightforest:ur_ghast_trophy", Count: 1b}
+		description: ["The Ur-Ghast haunts the Dark Tower — a massive spire rising from the darkest biomes of the Twilight Forest. The boss is a colossal Ghast that spawns Carminite Ghastlings and fires explosive projectiles from altitude. It has no melee hitbox. Every attack is ranged, and every attack can be deflected — a sword swing or a well-timed shield sends the fireball back and deals damage.", "Bring a shield. Deflect. The trophy it leaves behind binds into the EV Machine Hull as the arcane core that holds the structure stable at voltages HV machines couldn't survive."]
+		tasks: [{
+			id: "000000000001500B"
+			type: "item"
+			item: {id: "twilightforest:ur_ghast_trophy", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001500C"
+			type: "item"
+			item: {id: "gtceu:titanium_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000001500D"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000001500A"]
+		title: "Titanium"
+		icon: {id: "gtceu:titanium_ingot", Count: 1b}
+		description: ["Titanium is the EV tier material — processed at 1941K in the EBF, requiring Rutile or Ilmenite ore run through the Macerator first to get the dust blend. The smelting is slow. The yield is worth it.", "Titanium Plates are the outer shell of the EV Machine Hull. You need sixteen for the hull and considerably more for the machines that follow. The bottleneck at this tier is always throughput, not recipe count. Set up a dedicated EBF line and don't stop feeding it."]
+		tasks: [{
+			id: "000000000001500E"
+			type: "item"
+			item: {id: "gtceu:titanium_plate", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000001500F"
+			type: "item"
+			item: {id: "gtceu:titanium_plate", Count: 8b}
+		}]
+	}, {
+		id: "0000000000015010"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000001500D"]
+		title: "Extreme Voltage"
+		icon: {id: "gtceu:ev_machine_hull", Count: 1b}
+		description: ["The EV Machine Hull. Titanium plates, an Ur-Ghast trophy locked into the core — the dimensional resonance of the Dark Tower boss holds the structure stable at voltages that would unmake anything built at HV.", "EV machines are where the factory stops being a collection of individual machines and starts being an industrial system: mass ore refineries, large-scale chemical synthesis, multi-step processing chains running in parallel. The infrastructure you built at HV is a prototype. This is the real one."]
+		tasks: [{
+			id: "0000000000015011"
+			type: "item"
+			item: {id: "gtceu:ev_machine_hull", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000015012"
+			type: "item"
+			item: {id: "gtceu:ev_machine_hull", Count: 2b}
+		}, {
+			id: "0000000000015013"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+	}, {
+		id: "0000000000015014"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["0000000000015010"]
+		title: "No More Cables"
+		icon: {id: "fluxnetworks:flux_plug", Count: 1b}
+		description: ["Flux Networks replaces cable infrastructure with a wireless EU distribution layer. A Flux Plug extracts power from a cable network. A Flux Point injects it — anywhere, any distance, no cable between them. The Flux Controller manages the whole network: priority queues, per-machine power limits, network-wide monitoring from a single interface.", "At EV tier your machines span a base that cable runs can no longer service cleanly. Running cable between buildings and across chunk borders is maintenance work, not factory design. Stop running cable. Start running networks."]
+		tasks: [{
+			id: "0000000000015015"
+			type: "item"
+			item: {id: "fluxnetworks:flux_plug", Count: 1b}
+		}, {
+			id: "0000000000015016"
+			type: "item"
+			item: {id: "fluxnetworks:flux_point", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000015017"
+			type: "item"
+			item: {id: "fluxnetworks:flux_plug", Count: 2b}
+		}, {
+			id: "0000000000015018"
+			type: "item"
+			item: {id: "fluxnetworks:flux_point", Count: 2b}
+		}]
+	}]
 	quest_links: []
 }

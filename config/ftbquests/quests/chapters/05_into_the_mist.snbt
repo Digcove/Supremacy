@@ -4,10 +4,138 @@
 	order_index: 4
 	filename: "05_into_the_mist"
 	title: "Into the Mist"
-	icon: {id: "minecraft:lily_pad", Count: 1b}
+	icon: {id: "forbidden_arcanus:arcane_crystal", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "000000000000D001"
+		x: 0.0d
+		y: 0.0d
+		title: "Arcane Crystal"
+		icon: {id: "forbidden_arcanus:arcane_crystal", Count: 1b}
+		description: ["Forbidden Arcanus runs on Arcane Crystals — a material that spawns underground in small clusters, faintly glowing, easy to miss. They're the entry point to a crafting line that ends in some of the most powerful materials in the early endgame.", "Mine a stack. You'll use more than you think."]
+		tasks: [{
+			id: "000000000000D002"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_crystal", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000000D003"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_crystal", Count: 4b}
+		}]
+	}, {
+		id: "000000000000D004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["000000000000D001"]
+		title: "Arcane Gold"
+		icon: {id: "forbidden_arcanus:arcane_gold_ingot", Count: 1b}
+		description: ["Arcane Gold is Forbidden Arcanus's primary alloy — gold smelted with Arcane Crystal dust in a furnace. It's used in most of the mod's tools, armor, and magical blocks.", "It looks like gold, it works like something better. Don't waste it on decorative blocks."]
+		tasks: [{
+			id: "000000000000D005"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_gold_ingot", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000000D006"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_gold_ingot", Count: 4b}
+		}]
+	}, {
+		id: "000000000000D007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["000000000000D004"]
+		title: "The Clibano"
+		icon: {id: "forbidden_arcanus:clibano_core", Count: 1b}
+		description: ["The Clibano is Forbidden Arcanus's high-temperature furnace — it processes materials that a normal furnace can't touch and produces unique outputs used in the mod's higher-tier recipes.", "Build the multiblock structure: a 3x3x3 of Clibano components surrounding the Core. Check the Modonomicon book (FA's guide) for the exact layout."]
+		tasks: [{
+			id: "000000000000D008"
+			type: "item"
+			item: {id: "forbidden_arcanus:clibano_core", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000D009"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_crystal", Count: 8b}
+		}]
+	}, {
+		id: "000000000000D00A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["000000000000D007"]
+		title: "Stellarite"
+		icon: {id: "forbidden_arcanus:stellarite_piece", Count: 1b}
+		description: ["Stellarite doesn't mine from ore — it arrives. A stellar event will occasionally rain star fragments into the world at night. Walk toward the light, dig where it lands. The fragment is there.", "Stellarite Pieces are used in Forbidden Arcanus's highest-tier gear and the Eternal Stella, which is the mod's ultimate material. Don't let the pieces sit in a chest."]
+		tasks: [{
+			id: "000000000000D00B"
+			type: "item"
+			item: {id: "forbidden_arcanus:stellarite_piece", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000000D00C"
+			type: "item"
+			item: {id: "forbidden_arcanus:arcane_gold_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000000D00D"
+		x: 0.0d
+		y: 2.0d
+		title: "The Everdawn"
+		icon: {id: "blue_skies:everdawn_portal_frame", Count: 1b}
+		description: ["Blue Skies adds two alternate dimensions accessed through dedicated portals. The Everdawn is the day-side — eternal golden light, unique biomes, mobs, and resources that don't exist in the overworld.", "Build the Everdawn portal frame and light it. Go through. Bring a waystone or mark your portal coordinates — the dimension generates fresh chunks with no regard for where you entered."]
+		tasks: [{
+			id: "000000000000D00E"
+			type: "checkmark"
+			title: "Enter the Everdawn dimension through the Blue Skies portal"
+		}]
+		rewards: [{
+			id: "000000000000D00F"
+			type: "item"
+			item: {id: "blue_skies:diopside_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000000D010"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000000D00D"]
+		title: "The Everbright"
+		icon: {id: "blue_skies:everbright_portal_frame", Count: 1b}
+		description: ["The Everbright is the night-side dimension — a sky full of stars, crystalline terrain, and mobs with distinct combat mechanics. Its resources are different from the Everdawn's and neither can be substituted for the other.", "The portal frame recipe is different from the Everdawn. Check JEI. Build both. You will be returning to both."]
+		tasks: [{
+			id: "000000000000D011"
+			type: "checkmark"
+			title: "Enter the Everbright dimension through the Blue Skies portal"
+		}]
+		rewards: [{
+			id: "000000000000D012"
+			type: "item"
+			item: {id: "blue_skies:lunar_stone", Count: 8b}
+		}]
+	}, {
+		id: "000000000000D013"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["000000000000D010"]
+		title: "Starlit Gem"
+		icon: {id: "blue_skies:starlit_gem", Count: 1b}
+		description: ["Starlit Gems are the primary crafting material from the Blue Skies dimensions — dropped by Everbright mobs and found in dimension-specific structures. They're used in the mod's high-tier tools and armor.", "You need them. The dimensions exist to supply them. Run both regularly."]
+		tasks: [{
+			id: "000000000000D014"
+			type: "item"
+			item: {id: "blue_skies:starlit_gem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000000D015"
+			type: "item"
+			item: {id: "blue_skies:starlit_gem", Count: 4b}
+		}]
+	}]
 	quest_links: []
 }

@@ -8,6 +8,1774 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000011001"
+		x: 0.0d
+		y: 0.0d
+		title: "Rich Earth"
+		icon: {id: "farmersdelight:rich_soil", Count: 1b}
+		description: ["Farmer's Delight extends vanilla farming with new crops — tomatoes, cabbage, rice, onions — and a full cooking chain that turns raw ingredients into powerful, long-lasting meals. Start by crafting Organic Compost: throw food scraps, seeds, and plant matter into a Composter or craft four of them in a 2×2. Right-click farmland with compost to convert it into Rich Soil.", "Rich Soil speeds up crop growth significantly compared to standard farmland. The Harvest mod, also in the pack, adds right-click harvesting so mature crops drop their yield without uprooting the plant — Rich Soil and The Harvest together make for a very efficient manual farm."]
+		tasks: [{
+			id: "0000000000011002"
+			type: "item"
+			item: {id: "farmersdelight:rich_soil", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000011003"
+			type: "item"
+			item: {id: "farmersdelight:tomato_seeds", Count: 8b}
+		}, {
+			id: "0000000000011004"
+			type: "item"
+			item: {id: "farmersdelight:onion", Count: 4b}
+		}]
+	}, {
+		id: "0000000000011005"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000011001"]
+		title: "A Proper Knife"
+		icon: {id: "farmersdelight:iron_knife", Count: 1b}
+		description: ["The knife is how Farmer's Delight processes raw ingredients into recipe components. Right-click a Cutting Board with the raw item in hand to place it on the board, then use the knife by right-clicking. Tomatoes become Tomato Slices. Bread becomes Toast. Raw Chicken becomes Raw Chicken Cuts. Most cooked meal recipes call for these processed forms.", "Craft a Flint Knife first if you're early in the pack. Upgrade to an iron knife as soon as possible — higher material knives deal more damage and last longer. Check JEI under the knife icon to see every cutting recipe in the pack."]
+		tasks: [{
+			id: "0000000000011006"
+			type: "item"
+			item: {id: "farmersdelight:iron_knife", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000011007"
+			type: "item"
+			item: {id: "farmersdelight:cutting_board", Count: 1b}
+		}]
+	}, {
+		id: "0000000000011008"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000011005"]
+		title: "The Cutting Board"
+		icon: {id: "farmersdelight:cutting_board", Count: 1b}
+		description: ["Place the Cutting Board on any surface. Right-click it with a raw ingredient to set the item on the board, then right-click with your knife to process it. The output drops onto the board — collect it before adding the next item or the output will be lost.", "What you can cut: Tomatoes into Tomato Slices, Bread into Toast, Raw Chicken into Raw Chicken Cuts, Kelp Blocks into Dried Kelp, Pumpkins into Pumpkin Slices. JEI will show you every valid cutting recipe. Keep a Cutting Board near your cooking area — you'll be using it constantly."]
+		tasks: [{
+			id: "0000000000011009"
+			type: "checkmark"
+			title: "Process any ingredient on a Cutting Board"
+		}]
+		rewards: [{
+			id: "000000000001100A"
+			type: "item"
+			item: {id: "farmersdelight:cabbage", Count: 4b}
+		}]
+	}, {
+		id: "000000000001100B"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000011008"]
+		title: "The Cooking Pot"
+		icon: {id: "farmersdelight:cooking_pot", Count: 1b}
+		description: ["The Cooking Pot is the heart of Farmer's Delight. Place it over a heat source — campfire, fire, or a furnace in the block directly below the pot. Right-click with a water bucket or water bottle to fill it. Then add ingredients one by one, matching a recipe from JEI.", "Once the recipe is complete the pot begins cooking. Right-click with an empty bowl to collect servings. Soups and stews give stacking food buffs: Regeneration, Absorption, Saturation. A bowl of Vegetable Soup on day one already beats cooked steak for sustaining a long mining trip."]
+		tasks: [{
+			id: "000000000001100C"
+			type: "item"
+			item: {id: "farmersdelight:cooking_pot", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001100D"
+			type: "item"
+			item: {id: "farmersdelight:skillet", Count: 1b}
+		}]
+	}, {
+		id: "000000000001100E"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000001100B"]
+		title: "Campfire Feast"
+		icon: {id: "farmersdelight:roast_chicken", Count: 1b}
+		description: ["Roast Chicken is one of the signature dishes of Farmer's Delight. Craft it in the Cooking Pot from Raw Chicken Cuts, Carrots, Potatoes, and Cabbage Leaves. The result restores a large portion of hunger and gives a strong Saturation effect that makes it last twice as long as the numbers suggest.", "As your crop library grows with Pam's Harvestcraft, more meals open up. Farmer's Delight recipes accept Pam's produce wherever crop types overlap — a tomato is a tomato regardless of which mod grew it. More crops means more recipes means better and more varied buffs."]
+		tasks: [{
+			id: "000000000001100F"
+			type: "item"
+			item: {id: "farmersdelight:roast_chicken", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000011010"
+			type: "item"
+			item: {id: "farmersdelight:apple_pie", Count: 2b}
+		}]
+	}, {
+		id: "0000000000011011"
+		x: 0.0d
+		y: -2.0d
+		title: "A World Full of Crops"
+		icon: {id: "pamhc2foodcore:market", Count: 1b}
+		description: ["Pam's Harvestcraft 2 seeds dozens of new crops across every biome — blueberries in forests, corn and peppers on plains, tomatoes in savannahs, tropical fruits in jungles, and more. Walk through biomes and look for wild crop bushes or plants growing naturally. Right-click to harvest; they drop both the food item and seeds.", "The Market block, craftable from Pam's Harvestcraft 2 Food Core recipes, sells seeds in exchange for emeralds. If you'd rather not hunt biomes for every crop, craft the Market and stock it using your villager trade income. It's one of the best emerald sinks in the pack."]
+		tasks: [{
+			id: "0000000000011012"
+			type: "item"
+			item: {id: "pamhc2foodcore:market", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000011013"
+			type: "item"
+			item: {id: "minecraft:emerald", Count: 4b}
+		}]
+	}, {
+		id: "0000000000011014"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000011011"]
+		title: "Botany Pots"
+		icon: {id: "botanypots:botany_pot", Count: 1b}
+		description: ["Botany Pots let you grow crops completely indoors and passively — no sunlight requirements beyond a basic light level, no irrigation, no ticking. Place a pot, add the appropriate soil for what you want to grow (dirt works for most surface crops, soul soil for Nether plants, end stone for End plants), then plant a seed.", "Botany Pots are the indoor automation layer for this pack's farming. A row of pots on a shelf can sustain a constant supply of Pam's crops, Farmer's Delight ingredients, and early Mystical Agriculture essences without any Create or GT machinery. They are quiet, cheap, and surprisingly fast."]
+		tasks: [{
+			id: "0000000000011015"
+			type: "item"
+			item: {id: "botanypots:botany_pot", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000011016"
+			type: "item"
+			item: {id: "minecraft:dirt", Count: 16b}
+		}]
+	}, {
+		id: "0000000000011017"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000011014"]
+		title: "A Spot of Tea"
+		icon: {id: "farmersrespite:tea_kettle", Count: 1b}
+		description: ["Farmer's Respite adds a full tea system alongside Farmer's Delight. Grow tea herbs and wild herbs that spawn in meadows, plains, and forests. Dry the raw herbs using a Drying Rack, then steep the dried leaves in a Tea Kettle filled with hot water over a heat source.", "Teas provide gentle, long-lasting buffs that stack with food effects: Haste from black tea, Saturation from herbal blends, mild Resistance from chamomile. They are not the biggest buffs in the pack but they cost almost nothing — any herb you grow passively in a Botany Pot can become a tea."]
+		tasks: [{
+			id: "0000000000011018"
+			type: "item"
+			item: {id: "farmersrespite:tea_kettle", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000011019"
+			type: "item"
+			item: {id: "farmersrespite:drying_rack", Count: 1b}
+		}]
+	}, {
+		id: "000000000001101A"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["0000000000011017"]
+		title: "Sun-Dried"
+		icon: {id: "farmersrespite:drying_rack", Count: 1b}
+		description: ["The Drying Rack hangs herbs and greens in open air to remove moisture. Right-click the rack with a raw herb to hang it — it dries over time without fuel or machinery. Dried herbs are the inputs for every tea recipe in Farmer's Respite.", "The rack can also dry other Farmer's Delight ingredients: Beef Patties dry into Jerky, Kelp dries into Dried Kelp faster than a furnace. It is one of the few passive-processing blocks in the pack that requires zero power or heat — a good early investment."]
+		tasks: [{
+			id: "000000000001101B"
+			type: "checkmark"
+			title: "Dry any herb or ingredient on a Drying Rack"
+		}]
+		rewards: [{
+			id: "000000000001101C"
+			type: "item"
+			item: {id: "farmersrespite:chamomile", Count: 8b}
+		}]
+	}, {
+		id: "000000000001101D"
+		x: 0.0d
+		y: 2.0d
+		title: "The First Essence"
+		icon: {id: "mysticalagriculture:inferium_essence", Count: 1b}
+		description: ["Mystical Agriculture is the alchemy of farming — it lets you grow any material as a crop. Everything starts with Inferium Essence, the base-tier resource harvested from Inferium Seeds planted in Inferium Soil. Inferium Seeds spawn as wild plants in the world or can be crafted directly.", "Grow Inferium in large quantities. It feeds every higher essence tier, and higher essences unlock Awakened Seeds for specific materials — ores, mob drops, even vanilla crops. Four Inferium Essence crafts into one Prudentium. Automate the collection with Botany Pots or Create to never run dry."]
+		tasks: [{
+			id: "000000000001101E"
+			type: "item"
+			item: {id: "mysticalagriculture:inferium_essence", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000001101F"
+			type: "item"
+			item: {id: "mysticalagriculture:inferium_seeds", Count: 4b}
+		}]
+	}, {
+		id: "0000000000011020"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["000000000001101D"]
+		title: "Climbing the Ladder"
+		icon: {id: "mysticalagriculture:prudentium_essence", Count: 1b}
+		description: ["Craft four Inferium Essence into one Prudentium Essence at a crafting table. Then four Prudentium into one Tertium, Tertium into Imperium, Imperium into Superium, Superium into Supremium. That is the full tier ladder — six tiers total.", "Each tier of Essence Soil (crafted from its corresponding essence) makes crops grown in it grow faster. Plant your Awakened Seeds in the highest-tier soil you can afford — Superium Soil cuts growth time dramatically. The ceiling is Supremium, the rarest and fastest."]
+		tasks: [{
+			id: "0000000000011021"
+			type: "item"
+			item: {id: "mysticalagriculture:prudentium_essence", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000011022"
+			type: "item"
+			item: {id: "mysticalagriculture:inferium_seeds", Count: 4b}
+		}]
+	}, {
+		id: "0000000000011023"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["0000000000011020"]
+		title: "Material Seeds"
+		icon: {id: "mysticalagriculture:iron_seeds", Count: 1b}
+		description: ["Awakened Seeds are the payoff of Mystical Agriculture — each one grows a specific material as a renewable crop. Iron Seeds grow iron. Coal Seeds grow coal. Diamond Seeds grow diamonds. The recipe for each seed is found in JEI and scales with the material's value: Iron Seeds take Prudentium, Diamond Seeds take Imperium, Nether Star Seeds take Supremium.", "Once you have an Awakened Seed running, that resource is no longer gated by mining. Build a full Inferium-to-Supremium pipeline and you can remove most mining from your play loop entirely — everything can eventually be grown."]
+		tasks: [{
+			id: "0000000000011024"
+			type: "item"
+			item: {id: "mysticalagriculture:iron_seeds", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000011025"
+			type: "item"
+			item: {id: "mysticalagriculture:growth_accelerator", Count: 2b}
+		}]
+	}, {
+		id: "0000000000011026"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["0000000000011023"]
+		title: "The Essence of Power"
+		icon: {id: "mysticalagriculture:supremium_essence", Count: 1b}
+		description: ["Supremium Essence is the pinnacle of Mystical Agriculture. Supremium Seeds grow at the maximum speed when planted in Supremium Soil. Supremium material itself is used to craft Supremium tools and armor — the endgame gear set of this farming path.", "You need Supremium Essence for the Tinkering Table, which is how you add Charms to Supremium armor pieces. Charms are passive ability upgrades: Absorption, Regeneration, Speed, Jump, Wither Resistance, and more. Each armor slot has its own charm socket. The Tinkering Table is also where Supremium tools get their attribute upgrades."]
+		tasks: [{
+			id: "0000000000011027"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_essence", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000011028"
+			type: "item"
+			item: {id: "mysticalagriculture:tinkering_table", Count: 1b}
+		}]
+	}, {
+		id: "0000000000011029"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["0000000000011026"]
+		title: "Armored by the Earth"
+		icon: {id: "mysticalagriculture:supremium_chestplate", Count: 1b}
+		description: ["Supremium Armor is the farming path's answer to combat gear. Each piece is fully renewable — crafted entirely from Supremium Essence, a material you grow — and rivals enchanted Netherite for raw defense.", "The differentiator is Charms. Craft specific Charms from the Tinkering Table and slot them into each armor piece. A full Supremium set with Absorption, Regeneration, and Resistance charms active is one of the most survivable configurations in the pack for someone who doesn't want to run Mine & Slash gear. You earned it: you literally grew your own armor from seeds."]
+		tasks: [{
+			id: "000000000001102A"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_chestplate", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001102B"
+			type: "item"
+			item: {id: "mysticalagriculture:toughness_charm", Count: 1b}
+		}, {
+			id: "000000000001102C"
+			type: "item"
+			item: {id: "mysticalagriculture:resistance_charm", Count: 1b}
+		}]
+	}, {
+		id: "0000000000012001"
+		x: 0.0d
+		y: 4.0d
+		title: "Strawberry"
+		icon: {id: "pamhc2crops:strawberryitem", Count: 1b}
+		description: ["Found growing wild in forested biomes as low berry bushes. Right-click to harvest without uprooting the plant."]
+		tasks: [{
+			id: "0000000000012002"
+			type: "item"
+			item: {id: "pamhc2crops:strawberryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012003"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012004"
+		x: 2.0d
+		y: 4.0d
+		title: "Blueberry"
+		icon: {id: "pamhc2crops:blueberryitem", Count: 1b}
+		description: ["Found in forest and taiga biomes. Plant seeds on farmland or Rich Soil for reliable yields."]
+		tasks: [{
+			id: "0000000000012005"
+			type: "item"
+			item: {id: "pamhc2crops:blueberryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012006"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012007"
+		x: 4.0d
+		y: 4.0d
+		title: "Raspberry"
+		icon: {id: "pamhc2crops:raspberryitem", Count: 1b}
+		description: ["A prickly bush found near forest edges. Grows fast on Rich Soil."]
+		tasks: [{
+			id: "0000000000012008"
+			type: "item"
+			item: {id: "pamhc2crops:raspberryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012009"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001200A"
+		x: 6.0d
+		y: 4.0d
+		title: "Cranberry"
+		icon: {id: "pamhc2crops:cranberryitem", Count: 1b}
+		description: ["Grows wild in wet or swampy biomes. Tart flavor, essential for sauces and baked goods."]
+		tasks: [{
+			id: "000000000001200B"
+			type: "item"
+			item: {id: "pamhc2crops:cranberryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001200C"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001200D"
+		x: 8.0d
+		y: 4.0d
+		title: "Blackberry"
+		icon: {id: "pamhc2crops:blackberryitem", Count: 1b}
+		description: ["Found along forest edges and thickets. Darker and sweeter than raspberry."]
+		tasks: [{
+			id: "000000000001200E"
+			type: "item"
+			item: {id: "pamhc2crops:blackberryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001200F"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012010"
+		x: 0.0d
+		y: 6.0d
+		title: "Tomato"
+		icon: {id: "pamhc2crops:tomatoitem", Count: 1b}
+		description: ["A vine crop common in plains and savannah biomes. Also grown by Farmer's Delight — either version works in FD recipes."]
+		tasks: [{
+			id: "0000000000012011"
+			type: "item"
+			item: {id: "pamhc2crops:tomatoitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012012"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012013"
+		x: 2.0d
+		y: 6.0d
+		title: "Cucumber"
+		icon: {id: "pamhc2crops:cucumberitem", Count: 1b}
+		description: ["A trailing vine crop that grows fruit beside the stem, similar to melons."]
+		tasks: [{
+			id: "0000000000012014"
+			type: "item"
+			item: {id: "pamhc2crops:cucumberitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012015"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012016"
+		x: 4.0d
+		y: 6.0d
+		title: "Cantaloupe"
+		icon: {id: "pamhc2crops:cantaloupeitem", Count: 1b}
+		description: ["A large melon-like fruit that grows on a vine beside its stem block."]
+		tasks: [{
+			id: "0000000000012017"
+			type: "item"
+			item: {id: "pamhc2crops:cantaloupeitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012018"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012019"
+		x: 6.0d
+		y: 6.0d
+		title: "Watermelon"
+		icon: {id: "pamhc2crops:watermelonitem", Count: 1b}
+		description: ["Pam's take on the classic melon. Grows as a separate fruit block beside the stem."]
+		tasks: [{
+			id: "000000000001201A"
+			type: "item"
+			item: {id: "pamhc2crops:watermelonitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001201B"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001201C"
+		x: 8.0d
+		y: 6.0d
+		title: "Grape"
+		icon: {id: "pamhc2crops:grapeitem", Count: 1b}
+		description: ["Grows on climbing vines on warm hillsides. Essential for wines, juices, and desserts."]
+		tasks: [{
+			id: "000000000001201D"
+			type: "item"
+			item: {id: "pamhc2crops:grapeitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001201E"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001201F"
+		x: 10.0d
+		y: 6.0d
+		title: "Zucchini"
+		icon: {id: "pamhc2crops:zucchiniitem", Count: 1b}
+		description: ["A summer squash harvested young for the best texture and flavor."]
+		tasks: [{
+			id: "0000000000012020"
+			type: "item"
+			item: {id: "pamhc2crops:zucchiniitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012021"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012022"
+		x: 12.0d
+		y: 6.0d
+		title: "Squash"
+		icon: {id: "pamhc2crops:squashitem", Count: 1b}
+		description: ["A hard autumn squash left to mature longer than zucchini. Stores well and feeds well."]
+		tasks: [{
+			id: "0000000000012023"
+			type: "item"
+			item: {id: "pamhc2crops:squashitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012024"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012025"
+		x: 0.0d
+		y: 8.0d
+		title: "Lettuce"
+		icon: {id: "pamhc2crops:lettuceitem", Count: 1b}
+		description: ["A leafy green that grows quickly in cool soil. A staple of early-game salads."]
+		tasks: [{
+			id: "0000000000012026"
+			type: "item"
+			item: {id: "pamhc2crops:lettuceitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012027"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012028"
+		x: 2.0d
+		y: 8.0d
+		title: "Spinach"
+		icon: {id: "pamhc2crops:spinachitem", Count: 1b}
+		description: ["Nutrient-dense leaves harvested young for salads or cooked down in soups."]
+		tasks: [{
+			id: "0000000000012029"
+			type: "item"
+			item: {id: "pamhc2crops:spinachitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001202A"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001202B"
+		x: 4.0d
+		y: 8.0d
+		title: "Kale"
+		icon: {id: "pamhc2crops:kaleitem", Count: 1b}
+		description: ["A hardy winter green, bitter raw but excellent cooked into soups and stews."]
+		tasks: [{
+			id: "000000000001202C"
+			type: "item"
+			item: {id: "pamhc2crops:kaleitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001202D"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001202E"
+		x: 6.0d
+		y: 8.0d
+		title: "Cabbage"
+		icon: {id: "pamhc2crops:cabbageitem", Count: 1b}
+		description: ["A large head grown on the plains. Used in Farmer's Delight recipes including Roast Chicken and Vegetable Soup."]
+		tasks: [{
+			id: "000000000001202F"
+			type: "item"
+			item: {id: "pamhc2crops:cabbageitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012030"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012031"
+		x: 8.0d
+		y: 8.0d
+		title: "Broccoli"
+		icon: {id: "pamhc2crops:broccoliitem", Count: 1b}
+		description: ["Harvested for its dense green florets. Grows tall in rich, moist soil."]
+		tasks: [{
+			id: "0000000000012032"
+			type: "item"
+			item: {id: "pamhc2crops:broccoliitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012033"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012034"
+		x: 10.0d
+		y: 8.0d
+		title: "Celery"
+		icon: {id: "pamhc2crops:celeryitem", Count: 1b}
+		description: ["Long stalks grown in moist, cool soil. A classic soup and stew base vegetable."]
+		tasks: [{
+			id: "0000000000012035"
+			type: "item"
+			item: {id: "pamhc2crops:celeryitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012036"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012037"
+		x: 12.0d
+		y: 8.0d
+		title: "Asparagus"
+		icon: {id: "pamhc2crops:asparagusitem", Count: 1b}
+		description: ["Tall spears that shoot up in spring. One of the faster-growing Pam's crops."]
+		tasks: [{
+			id: "0000000000012038"
+			type: "item"
+			item: {id: "pamhc2crops:asparagusitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012039"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001203A"
+		x: 14.0d
+		y: 8.0d
+		title: "Artichoke"
+		icon: {id: "pamhc2crops:artichokeitem", Count: 1b}
+		description: ["A thistle-family crop with edible flower buds. Grows on the edges of plains and hills."]
+		tasks: [{
+			id: "000000000001203B"
+			type: "item"
+			item: {id: "pamhc2crops:artichokeitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001203C"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001203D"
+		x: 0.0d
+		y: 10.0d
+		title: "Onion"
+		icon: {id: "pamhc2crops:onionitem", Count: 1b}
+		description: ["A bulb crop found in plains biomes. A core ingredient in dozens of Farmer's Delight recipes."]
+		tasks: [{
+			id: "000000000001203E"
+			type: "item"
+			item: {id: "pamhc2crops:onionitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001203F"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012040"
+		x: 2.0d
+		y: 10.0d
+		title: "Garlic"
+		icon: {id: "pamhc2crops:garlicitem", Count: 1b}
+		description: ["A pungent bulb related to onion. Essential in Mediterranean and Asian dishes."]
+		tasks: [{
+			id: "0000000000012041"
+			type: "item"
+			item: {id: "pamhc2crops:garlicitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012042"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012043"
+		x: 4.0d
+		y: 10.0d
+		title: "Ginger"
+		icon: {id: "pamhc2crops:gingeritem", Count: 1b}
+		description: ["A tropical root grown in warm soil. Used in teas, sauces, and desserts."]
+		tasks: [{
+			id: "0000000000012044"
+			type: "item"
+			item: {id: "pamhc2crops:gingeritem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012045"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012046"
+		x: 6.0d
+		y: 10.0d
+		title: "Chive"
+		icon: {id: "pamhc2crops:chiveitem", Count: 1b}
+		description: ["A thin grass-like allium with a mild onion flavor. Grows fast and makes a good garnish."]
+		tasks: [{
+			id: "0000000000012047"
+			type: "item"
+			item: {id: "pamhc2crops:chiveitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012048"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012049"
+		x: 8.0d
+		y: 10.0d
+		title: "Leek"
+		icon: {id: "pamhc2crops:leekitem", Count: 1b}
+		description: ["A large mild allium planted in rows. The white base is the edible part."]
+		tasks: [{
+			id: "000000000001204A"
+			type: "item"
+			item: {id: "pamhc2crops:leekitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001204B"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001204C"
+		x: 10.0d
+		y: 10.0d
+		title: "Sweet Potato"
+		icon: {id: "pamhc2crops:sweetpotatoitem", Count: 1b}
+		description: ["A starchy root crop grown in warm soil. Roasts beautifully and pairs well with savory dishes."]
+		tasks: [{
+			id: "000000000001204D"
+			type: "item"
+			item: {id: "pamhc2crops:sweetpotatoitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001204E"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001204F"
+		x: 12.0d
+		y: 10.0d
+		title: "Yam"
+		icon: {id: "pamhc2crops:yamitem", Count: 1b}
+		description: ["Similar to sweet potato but with tropical origins. Denser texture and earthier flavor."]
+		tasks: [{
+			id: "0000000000012050"
+			type: "item"
+			item: {id: "pamhc2crops:yamitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012051"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012052"
+		x: 14.0d
+		y: 10.0d
+		title: "Turnip"
+		icon: {id: "pamhc2crops:turnipitem", Count: 1b}
+		description: ["A cold-hardy root crop that thrives where other crops struggle. Both the root and greens are edible."]
+		tasks: [{
+			id: "0000000000012053"
+			type: "item"
+			item: {id: "pamhc2crops:turnipitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012054"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012055"
+		x: 16.0d
+		y: 10.0d
+		title: "Rhubarb"
+		icon: {id: "pamhc2crops:rhubarbitem", Count: 1b}
+		description: ["Only the stalk is edible — the leaves are toxic. Grows in cool soil and tastes best in pies."]
+		tasks: [{
+			id: "0000000000012056"
+			type: "item"
+			item: {id: "pamhc2crops:rhubarbitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012057"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012058"
+		x: 0.0d
+		y: 12.0d
+		title: "Bell Pepper"
+		icon: {id: "pamhc2crops:bellpepperitem", Count: 1b}
+		description: ["A sweet pepper that grows upright in warm soil. No heat — all color and crunch."]
+		tasks: [{
+			id: "0000000000012059"
+			type: "item"
+			item: {id: "pamhc2crops:bellpepperitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001205A"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001205B"
+		x: 2.0d
+		y: 12.0d
+		title: "Pepper"
+		icon: {id: "pamhc2crops:pepperitem", Count: 1b}
+		description: ["A hot chili-style pepper. Used in spiced meals and sauces throughout Farmer's Delight."]
+		tasks: [{
+			id: "000000000001205C"
+			type: "item"
+			item: {id: "pamhc2crops:pepperitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001205D"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001205E"
+		x: 4.0d
+		y: 12.0d
+		title: "Eggplant"
+		icon: {id: "pamhc2crops:eggplantitem", Count: 1b}
+		description: ["A large purple fruit grown on bushes in warm soil. Rich and meaty when cooked."]
+		tasks: [{
+			id: "000000000001205F"
+			type: "item"
+			item: {id: "pamhc2crops:eggplantitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012060"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012061"
+		x: 6.0d
+		y: 12.0d
+		title: "Okra"
+		icon: {id: "pamhc2crops:okraitem", Count: 1b}
+		description: ["A warm-weather pod vegetable. Naturally thickens soups and stews when cooked."]
+		tasks: [{
+			id: "0000000000012062"
+			type: "item"
+			item: {id: "pamhc2crops:okraitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012063"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012064"
+		x: 8.0d
+		y: 12.0d
+		title: "Bean"
+		icon: {id: "pamhc2crops:beanitem", Count: 1b}
+		description: ["Grows as a climbing vine. High in protein and a staple of hearty stews."]
+		tasks: [{
+			id: "0000000000012065"
+			type: "item"
+			item: {id: "pamhc2crops:beanitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012066"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012067"
+		x: 10.0d
+		y: 12.0d
+		title: "Pea"
+		icon: {id: "pamhc2crops:peaitem", Count: 1b}
+		description: ["A cool-weather pod crop. Sweet when young, starchy when left to mature."]
+		tasks: [{
+			id: "0000000000012068"
+			type: "item"
+			item: {id: "pamhc2crops:peaitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012069"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001206A"
+		x: 12.0d
+		y: 12.0d
+		title: "Peanut"
+		icon: {id: "pamhc2crops:peanutitem", Count: 1b}
+		description: ["Technically a legume, not a nut. Grows underground — harvest the whole plant."]
+		tasks: [{
+			id: "000000000001206B"
+			type: "item"
+			item: {id: "pamhc2crops:peanutitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001206C"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001206D"
+		x: 14.0d
+		y: 12.0d
+		title: "Soybean"
+		icon: {id: "pamhc2crops:soybeanitem", Count: 1b}
+		description: ["A versatile legume with many processed forms. High yield per plot."]
+		tasks: [{
+			id: "000000000001206E"
+			type: "item"
+			item: {id: "pamhc2crops:soybeanitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001206F"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012070"
+		x: 16.0d
+		y: 12.0d
+		title: "Mung Bean"
+		icon: {id: "pamhc2crops:mungbeanitem", Count: 1b}
+		description: ["A small green legume central to many Asian dishes. Fast-growing and prolific."]
+		tasks: [{
+			id: "0000000000012071"
+			type: "item"
+			item: {id: "pamhc2crops:mungbeanitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012072"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012073"
+		x: 0.0d
+		y: 14.0d
+		title: "Corn"
+		icon: {id: "pamhc2crops:cornitem", Count: 1b}
+		description: ["A tall stalk crop that produces ears of grain. One of the most filling staple crops."]
+		tasks: [{
+			id: "0000000000012074"
+			type: "item"
+			item: {id: "pamhc2crops:cornitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012075"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012076"
+		x: 2.0d
+		y: 14.0d
+		title: "Barley"
+		icon: {id: "pamhc2crops:barleyitem", Count: 1b}
+		description: ["A cereal grain used in breads and brewing. Grows well in cool, damp conditions."]
+		tasks: [{
+			id: "0000000000012077"
+			type: "item"
+			item: {id: "pamhc2crops:barleyitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012078"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012079"
+		x: 4.0d
+		y: 14.0d
+		title: "Oat"
+		icon: {id: "pamhc2crops:oatitem", Count: 1b}
+		description: ["A hardy grain that grows in cooler climates where wheat struggles."]
+		tasks: [{
+			id: "000000000001207A"
+			type: "item"
+			item: {id: "pamhc2crops:oatitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001207B"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001207C"
+		x: 6.0d
+		y: 14.0d
+		title: "Rye"
+		icon: {id: "pamhc2crops:ryeitem", Count: 1b}
+		description: ["A grain that grows in poor soil better than wheat. A survivor's staple."]
+		tasks: [{
+			id: "000000000001207D"
+			type: "item"
+			item: {id: "pamhc2crops:ryeitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001207E"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001207F"
+		x: 8.0d
+		y: 14.0d
+		title: "Quinoa"
+		icon: {id: "pamhc2crops:quinoaitem", Count: 1b}
+		description: ["A high-protein pseudo-grain from the Andes. Grows in most soil types."]
+		tasks: [{
+			id: "0000000000012080"
+			type: "item"
+			item: {id: "pamhc2crops:quinoaitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012081"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012082"
+		x: 10.0d
+		y: 14.0d
+		title: "Rice"
+		icon: {id: "pamhc2crops:riceitem", Count: 1b}
+		description: ["A grain that grows best in wet or flooded fields. The base of countless cooked dishes."]
+		tasks: [{
+			id: "0000000000012083"
+			type: "item"
+			item: {id: "pamhc2crops:riceitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012084"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012085"
+		x: 12.0d
+		y: 14.0d
+		title: "Sesame"
+		icon: {id: "pamhc2crops:sesameitem", Count: 1b}
+		description: ["Tiny seeds harvested from tall pod plants. Used as a topping and pressed into oil."]
+		tasks: [{
+			id: "0000000000012086"
+			type: "item"
+			item: {id: "pamhc2crops:sesameitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012087"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012088"
+		x: 14.0d
+		y: 14.0d
+		title: "Mustard"
+		icon: {id: "pamhc2crops:mustarditem", Count: 1b}
+		description: ["Yellow seeds used as a spice and condiment. Easy to grow on most farmland."]
+		tasks: [{
+			id: "0000000000012089"
+			type: "item"
+			item: {id: "pamhc2crops:mustarditem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001208A"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001208B"
+		x: 0.0d
+		y: 16.0d
+		title: "Cotton"
+		icon: {id: "pamhc2crops:cottonitem", Count: 1b}
+		description: ["Grows a white boll of soft fiber used in cloth and string recipes."]
+		tasks: [{
+			id: "000000000001208C"
+			type: "item"
+			item: {id: "pamhc2crops:cottonitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001208D"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001208E"
+		x: 2.0d
+		y: 16.0d
+		title: "Hops"
+		icon: {id: "pamhc2crops:hopsitem", Count: 1b}
+		description: ["A climbing vine whose cone-shaped flowers are used in brewing."]
+		tasks: [{
+			id: "000000000001208F"
+			type: "item"
+			item: {id: "pamhc2crops:hopsitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012090"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012091"
+		x: 4.0d
+		y: 16.0d
+		title: "Coffee"
+		icon: {id: "pamhc2crops:coffeeitem", Count: 1b}
+		description: ["Tropical red coffee cherries that become roasted beans when processed. Needs warm soil."]
+		tasks: [{
+			id: "0000000000012092"
+			type: "item"
+			item: {id: "pamhc2crops:coffeeitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012093"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012094"
+		x: 6.0d
+		y: 16.0d
+		title: "Tea Leaf"
+		icon: {id: "pamhc2crops:tealeafitem", Count: 1b}
+		description: ["Fresh leaves dried on a Farmer's Respite Drying Rack and steeped in a Tea Kettle."]
+		tasks: [{
+			id: "0000000000012095"
+			type: "item"
+			item: {id: "pamhc2crops:tealeafitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012096"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000012097"
+		x: 8.0d
+		y: 16.0d
+		title: "Vanilla"
+		icon: {id: "pamhc2crops:vanillaitem", Count: 1b}
+		description: ["A tropical climbing orchid with edible pods. One of the rarest and most flavorful crops."]
+		tasks: [{
+			id: "0000000000012098"
+			type: "item"
+			item: {id: "pamhc2crops:vanillaitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000012099"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001209A"
+		x: 10.0d
+		y: 16.0d
+		title: "Seaweed"
+		icon: {id: "pamhc2crops:seaweeditem", Count: 1b}
+		description: ["Grows underwater — plant it on the ocean or river floor and harvest when fully grown."]
+		tasks: [{
+			id: "000000000001209B"
+			type: "item"
+			item: {id: "pamhc2crops:seaweeditem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001209C"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "000000000001209D"
+		x: 12.0d
+		y: 16.0d
+		title: "White Mushroom"
+		icon: {id: "pamhc2crops:whitemushroomitem", Count: 1b}
+		description: ["A cultivated mushroom that grows in dark, damp spaces. No sunlight needed."]
+		tasks: [{
+			id: "000000000001209E"
+			type: "item"
+			item: {id: "pamhc2crops:whitemushroomitem", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "000000000001209F"
+			type: "item"
+			item: {id: "minecraft:bone_meal", Count: 8b}
+		}]
+	}, {
+		id: "00000000000120A0"
+		x: 0.0d
+		y: 18.0d
+		title: "Orange"
+		icon: {id: "pamhc2trees:orangeitem", Count: 1b}
+		description: ["Plant an orange sapling and wait for the tree to mature. Fruit grows on the leaf blocks and drops when broken."]
+		tasks: [{
+			id: "00000000000120A1"
+			type: "item"
+			item: {id: "pamhc2trees:orangeitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120A2"
+			type: "item"
+			item: {id: "pamhc2trees:orangesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120A3"
+		x: 2.0d
+		y: 18.0d
+		title: "Lemon"
+		icon: {id: "pamhc2trees:lemonitem", Count: 1b}
+		description: ["Tart citrus fruit grown on a small tree. Harvested from leaf blocks as the tree matures."]
+		tasks: [{
+			id: "00000000000120A4"
+			type: "item"
+			item: {id: "pamhc2trees:lemonitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120A5"
+			type: "item"
+			item: {id: "pamhc2trees:lemonsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120A6"
+		x: 4.0d
+		y: 18.0d
+		title: "Lime"
+		icon: {id: "pamhc2trees:limeitem", Count: 1b}
+		description: ["Smaller and more acidic than lemon. A key citrus in tropical recipes."]
+		tasks: [{
+			id: "00000000000120A7"
+			type: "item"
+			item: {id: "pamhc2trees:limeitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120A8"
+			type: "item"
+			item: {id: "pamhc2trees:limesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120A9"
+		x: 6.0d
+		y: 18.0d
+		title: "Grapefruit"
+		icon: {id: "pamhc2trees:grapefruititem", Count: 1b}
+		description: ["A large bitter citrus grown on tall trees. Excellent for juices and preserves."]
+		tasks: [{
+			id: "00000000000120AA"
+			type: "item"
+			item: {id: "pamhc2trees:grapefruititem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120AB"
+			type: "item"
+			item: {id: "pamhc2trees:grapefruitesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120AC"
+		x: 8.0d
+		y: 18.0d
+		title: "Tangerine"
+		icon: {id: "pamhc2trees:tangerineitem", Count: 1b}
+		description: ["A sweet easy-peel citrus that grows on compact trees."]
+		tasks: [{
+			id: "00000000000120AD"
+			type: "item"
+			item: {id: "pamhc2trees:tangerineitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120AE"
+			type: "item"
+			item: {id: "pamhc2trees:tangerinesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120AF"
+		x: 0.0d
+		y: 20.0d
+		title: "Apricot"
+		icon: {id: "pamhc2trees:apricotitem", Count: 1b}
+		description: ["A stone fruit that ripens early in summer. Tart and sweet, excellent for jams."]
+		tasks: [{
+			id: "00000000000120B0"
+			type: "item"
+			item: {id: "pamhc2trees:apricotitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120B1"
+			type: "item"
+			item: {id: "pamhc2trees:apricotsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120B2"
+		x: 2.0d
+		y: 20.0d
+		title: "Peach"
+		icon: {id: "pamhc2trees:peachitem", Count: 1b}
+		description: ["A juicy stone fruit with fuzzy skin. One of the most flavorful summer fruits."]
+		tasks: [{
+			id: "00000000000120B3"
+			type: "item"
+			item: {id: "pamhc2trees:peachitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120B4"
+			type: "item"
+			item: {id: "pamhc2trees:peachsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120B5"
+		x: 4.0d
+		y: 20.0d
+		title: "Plum"
+		icon: {id: "pamhc2trees:plumitem", Count: 1b}
+		description: ["A tart-sweet stone fruit. Dries well into prunes for long storage."]
+		tasks: [{
+			id: "00000000000120B6"
+			type: "item"
+			item: {id: "pamhc2trees:plumitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120B7"
+			type: "item"
+			item: {id: "pamhc2trees:plumsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120B8"
+		x: 6.0d
+		y: 20.0d
+		title: "Cherry"
+		icon: {id: "pamhc2trees:cherryitem", Count: 1b}
+		description: ["Small stone fruits that grow in clusters on ornamental trees."]
+		tasks: [{
+			id: "00000000000120B9"
+			type: "item"
+			item: {id: "pamhc2trees:cherryitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120BA"
+			type: "item"
+			item: {id: "pamhc2trees:cherrysapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120BB"
+		x: 8.0d
+		y: 20.0d
+		title: "Pear"
+		icon: {id: "pamhc2trees:pearitem", Count: 1b}
+		description: ["A mild, sweet stone fruit. Grows on tall trees with dense foliage."]
+		tasks: [{
+			id: "00000000000120BC"
+			type: "item"
+			item: {id: "pamhc2trees:pearitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120BD"
+			type: "item"
+			item: {id: "pamhc2trees:pearsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120BE"
+		x: 10.0d
+		y: 20.0d
+		title: "Persimmon"
+		icon: {id: "pamhc2trees:persimmonitem", Count: 1b}
+		description: ["An orange autumn fruit that grows on tall trees. Astringent until fully ripe."]
+		tasks: [{
+			id: "00000000000120BF"
+			type: "item"
+			item: {id: "pamhc2trees:persimmonitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120C0"
+			type: "item"
+			item: {id: "pamhc2trees:persimmonsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120C1"
+		x: 12.0d
+		y: 20.0d
+		title: "Fig"
+		icon: {id: "pamhc2trees:figitem", Count: 1b}
+		description: ["A sweet interior fruit with a tough exterior skin. Grows on short, wide trees."]
+		tasks: [{
+			id: "00000000000120C2"
+			type: "item"
+			item: {id: "pamhc2trees:figitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120C3"
+			type: "item"
+			item: {id: "pamhc2trees:figsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120C4"
+		x: 14.0d
+		y: 20.0d
+		title: "Date"
+		icon: {id: "pamhc2trees:dateitem", Count: 1b}
+		description: ["A sweet palm fruit that dries naturally. One of the densest natural foods."]
+		tasks: [{
+			id: "00000000000120C5"
+			type: "item"
+			item: {id: "pamhc2trees:dateitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120C6"
+			type: "item"
+			item: {id: "pamhc2trees:datesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120C7"
+		x: 0.0d
+		y: 22.0d
+		title: "Banana"
+		icon: {id: "pamhc2trees:bananaitem", Count: 1b}
+		description: ["A tropical fruit grown on large herbaceous plants rather than true trees."]
+		tasks: [{
+			id: "00000000000120C8"
+			type: "item"
+			item: {id: "pamhc2trees:bananaitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120C9"
+			type: "item"
+			item: {id: "pamhc2trees:bananasapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120CA"
+		x: 2.0d
+		y: 22.0d
+		title: "Mango"
+		icon: {id: "pamhc2trees:mangoitem", Count: 1b}
+		description: ["A large tropical stone fruit with intensely sweet, fibrous flesh."]
+		tasks: [{
+			id: "00000000000120CB"
+			type: "item"
+			item: {id: "pamhc2trees:mangoitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120CC"
+			type: "item"
+			item: {id: "pamhc2trees:mangosapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120CD"
+		x: 4.0d
+		y: 22.0d
+		title: "Papaya"
+		icon: {id: "pamhc2trees:papayaitem", Count: 1b}
+		description: ["A large tropical fruit with bright orange flesh and black seeds."]
+		tasks: [{
+			id: "00000000000120CE"
+			type: "item"
+			item: {id: "pamhc2trees:papayaitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120CF"
+			type: "item"
+			item: {id: "pamhc2trees:papayasapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120D0"
+		x: 6.0d
+		y: 22.0d
+		title: "Coconut"
+		icon: {id: "pamhc2trees:coconutitem", Count: 1b}
+		description: ["A palm fruit with a hard shell, white flesh, and sweet liquid inside."]
+		tasks: [{
+			id: "00000000000120D1"
+			type: "item"
+			item: {id: "pamhc2trees:coconutitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120D2"
+			type: "item"
+			item: {id: "pamhc2trees:coconutsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120D3"
+		x: 8.0d
+		y: 22.0d
+		title: "Pineapple"
+		icon: {id: "pamhc2trees:pineappleitem", Count: 1b}
+		description: ["A tropical bromeliad fruit with a spiky crown. Slow-growing but worth the wait."]
+		tasks: [{
+			id: "00000000000120D4"
+			type: "item"
+			item: {id: "pamhc2trees:pineappleitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120D5"
+			type: "item"
+			item: {id: "pamhc2trees:pineapplesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120D6"
+		x: 10.0d
+		y: 22.0d
+		title: "Avocado"
+		icon: {id: "pamhc2trees:avocadoitem", Count: 1b}
+		description: ["A creamy green fruit grown in warm climates. Rich in healthy fats."]
+		tasks: [{
+			id: "00000000000120D7"
+			type: "item"
+			item: {id: "pamhc2trees:avocadoitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120D8"
+			type: "item"
+			item: {id: "pamhc2trees:avocadosapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120D9"
+		x: 12.0d
+		y: 22.0d
+		title: "Guava"
+		icon: {id: "pamhc2trees:guavaitem", Count: 1b}
+		description: ["A small tropical fruit with sweet pink flesh and hard seeds."]
+		tasks: [{
+			id: "00000000000120DA"
+			type: "item"
+			item: {id: "pamhc2trees:guavaitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120DB"
+			type: "item"
+			item: {id: "pamhc2trees:guavasapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120DC"
+		x: 14.0d
+		y: 22.0d
+		title: "Lychee"
+		icon: {id: "pamhc2trees:lycheeitem", Count: 1b}
+		description: ["A small tropical fruit with translucent white flesh under a rough red skin."]
+		tasks: [{
+			id: "00000000000120DD"
+			type: "item"
+			item: {id: "pamhc2trees:lycheeitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120DE"
+			type: "item"
+			item: {id: "pamhc2trees:lycheesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120DF"
+		x: 16.0d
+		y: 22.0d
+		title: "Starfruit"
+		icon: {id: "pamhc2trees:starfruititem", Count: 1b}
+		description: ["A crisp tropical fruit with a distinctive star cross-section when sliced."]
+		tasks: [{
+			id: "00000000000120E0"
+			type: "item"
+			item: {id: "pamhc2trees:starfruititem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120E1"
+			type: "item"
+			item: {id: "pamhc2trees:starfruitsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120E2"
+		x: 0.0d
+		y: 24.0d
+		title: "Almond"
+		icon: {id: "pamhc2trees:almonditem", Count: 1b}
+		description: ["A tree nut harvested from relatives of stone fruit trees. Delicate blossoms in spring."]
+		tasks: [{
+			id: "00000000000120E3"
+			type: "item"
+			item: {id: "pamhc2trees:almonditem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120E4"
+			type: "item"
+			item: {id: "pamhc2trees:almondsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120E5"
+		x: 2.0d
+		y: 24.0d
+		title: "Chestnut"
+		icon: {id: "pamhc2trees:chestnutitem", Count: 1b}
+		description: ["A starchy nut that falls in autumn, encased in a spiky shell."]
+		tasks: [{
+			id: "00000000000120E6"
+			type: "item"
+			item: {id: "pamhc2trees:chestnutitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120E7"
+			type: "item"
+			item: {id: "pamhc2trees:chestnutsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120E8"
+		x: 4.0d
+		y: 24.0d
+		title: "Nutmeg"
+		icon: {id: "pamhc2trees:nutmegitem", Count: 1b}
+		description: ["A spice seed grown inside a tropical fruit. One of the rarer tree crops."]
+		tasks: [{
+			id: "00000000000120E9"
+			type: "item"
+			item: {id: "pamhc2trees:nutmegitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120EA"
+			type: "item"
+			item: {id: "pamhc2trees:nutmegsapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120EB"
+		x: 6.0d
+		y: 24.0d
+		title: "Olive"
+		icon: {id: "pamhc2trees:oliveitem", Count: 1b}
+		description: ["A small oil-rich Mediterranean fruit. Ancient trees grow slowly but yield abundantly."]
+		tasks: [{
+			id: "00000000000120EC"
+			type: "item"
+			item: {id: "pamhc2trees:oliveitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120ED"
+			type: "item"
+			item: {id: "pamhc2trees:olivesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120EE"
+		x: 8.0d
+		y: 24.0d
+		title: "Mulberry"
+		icon: {id: "pamhc2trees:mulberryitem", Count: 1b}
+		description: ["Small clustered berries on a large, fast-growing tree. Sweet and slightly tart."]
+		tasks: [{
+			id: "00000000000120EF"
+			type: "item"
+			item: {id: "pamhc2trees:mulberryitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120F0"
+			type: "item"
+			item: {id: "pamhc2trees:mulberrysapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120F1"
+		x: 10.0d
+		y: 24.0d
+		title: "Pomegranate"
+		icon: {id: "pamhc2trees:pomegranateitem", Count: 1b}
+		description: ["A hard-skinned fruit filled with hundreds of ruby-red seed arils."]
+		tasks: [{
+			id: "00000000000120F2"
+			type: "item"
+			item: {id: "pamhc2trees:pomegranateitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120F3"
+			type: "item"
+			item: {id: "pamhc2trees:pomegranatesapling", Count: 4b}
+		}]
+	}, {
+		id: "00000000000120F4"
+		x: 12.0d
+		y: 24.0d
+		title: "Kiwi"
+		icon: {id: "pamhc2trees:kiwiitem", Count: 1b}
+		description: ["A fuzzy vine fruit with bright green flesh and tiny black seeds."]
+		tasks: [{
+			id: "00000000000120F5"
+			type: "item"
+			item: {id: "pamhc2trees:kiwiitem", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "00000000000120F6"
+			type: "item"
+			item: {id: "pamhc2trees:kiwisapling", Count: 4b}
+		}]
+	}, {
+		id: "0000000000013001"
+		x: 8.0d
+		y: 28.0d
+		dependencies: ["0000000000012001", "0000000000012004", "0000000000012007", "000000000001200A", "000000000001200D", "0000000000012010", "0000000000012013", "0000000000012016", "0000000000012019", "000000000001201C", "000000000001201F", "0000000000012022", "0000000000012025", "0000000000012028", "000000000001202B", "000000000001202E", "0000000000012031", "0000000000012034", "0000000000012037", "000000000001203A", "000000000001203D", "0000000000012040", "0000000000012043", "0000000000012046", "0000000000012049", "000000000001204C", "000000000001204F", "0000000000012052", "0000000000012055", "0000000000012058", "000000000001205B", "000000000001205E", "0000000000012061", "0000000000012064", "0000000000012067", "000000000001206A", "000000000001206D", "0000000000012070", "0000000000012073", "0000000000012076", "0000000000012079", "000000000001207C", "000000000001207F", "0000000000012082", "0000000000012085", "0000000000012088", "000000000001208B", "000000000001208E", "0000000000012091", "0000000000012094", "0000000000012097", "000000000001209A", "000000000001209D", "00000000000120A0", "00000000000120A3", "00000000000120A6", "00000000000120A9", "00000000000120AC", "00000000000120AF", "00000000000120B2", "00000000000120B5", "00000000000120B8", "00000000000120BB", "00000000000120BE", "00000000000120C1", "00000000000120C4", "00000000000120C7", "00000000000120CA", "00000000000120CD", "00000000000120D0", "00000000000120D3", "00000000000120D6", "00000000000120D9", "00000000000120DC", "00000000000120DF", "00000000000120E2", "00000000000120E5", "00000000000120E8", "00000000000120EB", "00000000000120EE", "00000000000120F1", "00000000000120F4"]
+		title: "The Grand Harvest"
+		icon: {id: "pamhc2foodcore:market", Count: 1b}
+		description: ["Every field tended. Every tree planted. Every seed sown and every fruit gathered. You have grown everything this land has to offer — from the wild strawberry bushes of the forest floor to the ancient olive groves of the Mediterranean, from tropical coconut palms to hardy winter turnips.", "The world is full of life because you put it there. Claim your reward, master farmer."]
+		tasks: [{
+			id: "0000000000013002"
+			type: "checkmark"
+			title: "Every field sown, every tree tended"
+		}]
+		rewards: [{
+			id: "0000000000013003"
+			type: "item"
+			item: {id: "minecraft:diamond_block", Count: 10b}
+		}, {
+			id: "0000000000013004"
+			type: "item"
+			item: {id: "mysticalagriculture:supremium_essence", Count: 32b}
+		}, {
+			id: "0000000000013005"
+			type: "item"
+			item: {id: "farmersdelight:rich_soil", Count: 64b}
+		}, {
+			id: "0000000000013006"
+			type: "item"
+			item: {id: "pamhc2foodcore:market", Count: 4b}
+		}]
+	}]
 	quest_links: []
 }

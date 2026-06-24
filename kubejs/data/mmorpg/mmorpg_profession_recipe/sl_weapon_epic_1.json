@@ -1,0 +1,26 @@
+{
+  "exp": 100,
+  "id": "sl_weapon_epic_1",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "soulland:spirit_iron_ingot",
+      "num": 3
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/3",
+      "num": 15
+    },
+    {
+      "type": "ITEM",
+      "id": "soulland:spirit_iron_sword",
+      "num": 1
+    }
+  ],
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/weapon/epic",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 1
+}

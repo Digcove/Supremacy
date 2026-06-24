@@ -4,10 +4,232 @@
 	order_index: 7
 	filename: "08_digital_frontier"
 	title: "Digital Frontier"
-	icon: {id: "minecraft:hopper", Count: 1b}
+	icon: {id: "ae2:me_controller", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	groups: []
-	quests: []
+	quests: [{
+		id: "0000000000010001"
+		x: 0.0d
+		y: 0.0d
+		title: "Certus Quartz"
+		icon: {id: "ae2:certus_quartz_crystal", Count: 1b}
+		description: ["Applied Energistics 2 runs on Certus Quartz — a mineral that spawns as small clusters underground, slightly different from normal quartz, slightly luminescent. It is the material everything else in this chapter is derived from.", "Mine a full stack now. You will want more later."]
+		tasks: [{
+			id: "0000000000010002"
+			type: "item"
+			item: {id: "ae2:certus_quartz_crystal", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000010003"
+			type: "item"
+			item: {id: "ae2:certus_quartz_crystal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000010004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000010001"]
+		title: "The Charger"
+		icon: {id: "ae2:quartz_charger", Count: 1b}
+		description: ["The Quartz Charger converts Certus Quartz into Charged Certus Quartz — the reactive form used in most AE2 recipes. It runs on AE2's internal power (FE-compatible) or place it near a Vibration Chamber to run it passively.", "Charged Certus is not optional. Nearly every AE2 component needs it."]
+		tasks: [{
+			id: "0000000000010005"
+			type: "item"
+			item: {id: "ae2:quartz_charger", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000010006"
+			type: "item"
+			item: {id: "ae2:charged_certus_quartz_crystal", Count: 8b}
+		}]
+	}, {
+		id: "0000000000010007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000010004"]
+		title: "Fluix Crystal"
+		icon: {id: "ae2:fluix_crystal", Count: 1b}
+		description: ["Drop Charged Certus Quartz, Redstone Dust, and Nether Quartz into a pool of water at the same time. They react. Pull out the Fluix Crystal.", "Fluix is the core AE2 material — everything from cables to the ME Controller uses it. Grow it in bulk. A single setup running in water is fine early; Crystal Growth Accelerators speed up the process later."]
+		tasks: [{
+			id: "0000000000010008"
+			type: "item"
+			item: {id: "ae2:fluix_crystal", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000010009"
+			type: "item"
+			item: {id: "ae2:fluix_crystal", Count: 4b}
+		}]
+	}, {
+		id: "000000000001000A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000010007"]
+		title: "The Inscriber"
+		icon: {id: "ae2:inscriber", Count: 1b}
+		description: ["The Inscriber prints circuit components — Logic Processors, Calculation Processors, Engineering Processors — from silicon wafers and gold/certus/diamond. These processors are what ME Drives, Controllers, and Terminals are built from.", "It runs on FE power. Automate it with hoppers or a Mechanical Arm early on; it handles one operation at a time and you will need many processors."]
+		tasks: [{
+			id: "000000000001000B"
+			type: "item"
+			item: {id: "ae2:inscriber", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001000C"
+			type: "item"
+			item: {id: "ae2:silicon", Count: 16b}
+		}]
+	}, {
+		id: "000000000001000D"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000001000A"]
+		title: "First Contact"
+		icon: {id: "ae2:me_chest", Count: 1b}
+		description: ["The ME Chest is the simplest form of ME storage — one storage cell slotted into a single block, accessible from a terminal on the front. It does not need a Controller or cables. Just place it, slot a 1k Cell, and start throwing items in.", "This is not your final storage solution. It is a proof of concept. The real network comes after the Controller is built."]
+		tasks: [{
+			id: "000000000001000E"
+			type: "item"
+			item: {id: "ae2:me_chest", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001000F"
+			type: "item"
+			item: {id: "ae2:item_storage_cell_1k", Count: 1b}
+		}]
+	}, {
+		id: "0000000000010010"
+		x: 0.0d
+		y: 2.0d
+		title: "Kanthal Coils"
+		icon: {id: "gtceu:kanthal_coil_block", Count: 1b}
+		description: ["Cupronickel coils top out at 1801K. Titanium requires 1941K. You need to upgrade the EBF inner ring to Kanthal Coil Blocks before the furnace can process it.", "Kanthal is a chromium-aluminium-iron alloy — smelt it in the Alloy Smelter or check JEI for the recipe. Craft two coil blocks and swap them into the EBF multiblock. The structure accepts the upgrade without demolition."]
+		tasks: [{
+			id: "0000000000010011"
+			type: "item"
+			item: {id: "gtceu:kanthal_coil_block", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "0000000000010012"
+			type: "item"
+			item: {id: "gtceu:aluminium_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000010013"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["0000000000010010"]
+		title: "Titanium"
+		icon: {id: "gtceu:titanium_ingot", Count: 1b}
+		description: ["With Kanthal coils installed, the EBF reaches 2700K. Run Rutile ore through the Macerator for dust, then process the dust in the EBF. Titanium ingots come out.", "Titanium Plates go into the ME Controller recipe. They are also used in every machine above MV. Set up a continuous EBF line — you will not stop needing them."]
+		tasks: [{
+			id: "0000000000010014"
+			type: "item"
+			item: {id: "gtceu:titanium_ingot", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000010015"
+			type: "item"
+			item: {id: "gtceu:titanium_plate", Count: 4b}
+		}]
+	}, {
+		id: "0000000000010016"
+		x: 0.0d
+		y: -2.0d
+		title: "Terrasteel"
+		icon: {id: "botania:terrasteel", Count: 1b}
+		description: ["Terrasteel is the apex of the Botania material line. Drop Manasteel, a Mana Pearl, and a Mana Diamond onto a Terrestrial Agglomeration Plate simultaneously — the Plate draws from surrounding Mana Pools and converts the trio into a single Terrasteel Ingot. It requires a large Mana reserve.", "Build multiple Mana Pools feeding the Plate. Keep the area clear. If the conversion fails, you recover the materials and try again with more Mana stored."]
+		tasks: [{
+			id: "0000000000010017"
+			type: "item"
+			item: {id: "botania:terrasteel", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000010018"
+			type: "item"
+			item: {id: "botania:manasteel_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000010019"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000001000D", "0000000000010013", "0000000000010016"]
+		title: "The ME Controller"
+		icon: {id: "ae2:me_controller", Count: 1b}
+		description: ["The ME Controller is the heart of the ME network — everything connects to it. Without it, cables carry nothing, drives store nothing, terminals see nothing. With it, the entire network becomes one unified storage and crafting system.", "This recipe requires Terrasteel from your Botania setup and Titanium Plates from the upgraded EBF. Both lines had to finish before this one could start. That was by design."]
+		tasks: [{
+			id: "000000000001001A"
+			type: "item"
+			item: {id: "ae2:me_controller", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001001B"
+			type: "item"
+			item: {id: "ae2:fluix_crystal", Count: 16b}
+		}]
+	}, {
+		id: "000000000001001C"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000010019"]
+		title: "The Network"
+		icon: {id: "ae2:me_drive", Count: 1b}
+		description: ["The ME Drive holds up to ten storage cells and connects to the Controller via cable. One Drive with 64k cells stores more than a double chest wall. Fifteen Drives with 64k cells each stores more than you will ever need at this stage.", "The ME Terminal sees everything in the network at once. Search it. Pull from it. Put items in from anywhere on the cable. This is what replaces your chest room."]
+		tasks: [{
+			id: "000000000001001D"
+			type: "item"
+			item: {id: "ae2:me_drive", Count: 1b}
+		}, {
+			id: "000000000001001E"
+			type: "item"
+			item: {id: "ae2:me_terminal", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000001001F"
+			type: "item"
+			item: {id: "ae2:item_storage_cell_4k", Count: 2b}
+		}]
+	}, {
+		id: "0000000000010020"
+		x: 14.0d
+		y: 0.0d
+		dependencies: ["000000000001001C"]
+		title: "Pattern Provider"
+		icon: {id: "ae2:pattern_provider", Count: 1b}
+		description: ["The Pattern Provider is the autocrafting interface — it holds Encoded Patterns that tell the network how to craft recipes. Connect it to a machine or crafting table, wire up a Crafting CPU, and the ME system will pull ingredients from storage and fulfill craft requests automatically.", "Encode patterns at the Pattern Encoding Terminal. Start with the recipes you run most often. This replaces every manual crafting session you were doing at the table."]
+		tasks: [{
+			id: "0000000000010021"
+			type: "item"
+			item: {id: "ae2:pattern_provider", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000010022"
+			type: "item"
+			item: {id: "ae2:blank_pattern", Count: 16b}
+		}]
+	}, {
+		id: "0000000000010023"
+		x: 16.0d
+		y: 0.0d
+		dependencies: ["0000000000010020"]
+		title: "The Crafting Array"
+		icon: {id: "ae2:crafting_unit", Count: 1b}
+		description: ["The ME Crafting CPU is a multiblock — a rectangular assembly of Crafting Units and at least one Crafting Storage block. It stores the in-progress components of an autocrafting job while the network executes it.", "Larger CPUs handle more complex recursive crafting chains without stalling. A 3x3x3 with four 64k Crafting Storage blocks will handle anything you throw at it through High Voltage. Build it once, build it right."]
+		tasks: [{
+			id: "0000000000010024"
+			type: "checkmark"
+			title: "Assemble a Crafting CPU multiblock and submit an autocrafting request"
+		}]
+		rewards: [{
+			id: "0000000000010025"
+			type: "item"
+			item: {id: "ae2:crafting_storage_64k", Count: 1b}
+		}]
+	}]
 	quest_links: []
 }

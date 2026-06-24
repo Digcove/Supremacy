@@ -1,0 +1,26 @@
+{
+  "exp": 75,
+  "id": "sl_armor_legendary_0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "soulland:spirit_iron_ingot",
+      "num": 2
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/4",
+      "num": 10
+    },
+    {
+      "type": "ITEM",
+      "id": "gtceu:steel_plate",
+      "num": 1
+    }
+  ],
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/armor/legendary",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 0
+}

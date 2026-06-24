@@ -183,7 +183,7 @@
 		dependencies: ["000000000000301B"]
 		title: "The Soul Within"
 		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
-		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socketor Orb to unlock its true potential."]
+		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socketor Orb to unlock its true potential.", "This is the Mine & Slash soul — the stat-building layer. There is also a Soul Land Martial Soul running a parallel cultivation track. Both are worth your time. Both feed the same endgame. See Side D."]
 		tasks: [{
 			id: "000000000000301F"
 			type: "item"

@@ -1,3 +1,7 @@
+# Reference folders (local only, not part of the pack)
+IGNORE FOR GIT!!! - C2E2/
+IGNORE FOR GIT!!! - Star Technology/
+
 # packwiz cache
 .packwiz/
 *.tmp

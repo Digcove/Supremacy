@@ -25,8 +25,7 @@ ServerEvents.recipes(event => {
     // Combat: Mythic Stone + Map Completion Token (any Act V map)
     // Tech:   ZPM Assembly Line output (quantum component batch)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:quantum_exaltation_array',
+        type: 'modpack:quantum_exaltation_array',
         duration: 400,
         inputs: {
             item: [
@@ -42,8 +41,7 @@ ServerEvents.recipes(event => {
     // Combat: Mythic Stone + Map Completion Token
     // Tech:   ZPM Assembly Line output (alternate quantum batch — use different ZPM component if available)
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:quantum_exaltation_array',
+        type: 'modpack:quantum_exaltation_array',
         duration: 400,
         inputs: {
             item: [

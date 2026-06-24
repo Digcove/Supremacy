@@ -25,8 +25,7 @@ ServerEvents.recipes(event => {
     // Combat: Uncommon Stone + Blaze-Touched Residue (Nether-exclusive)
     // Tech:   HV Centrifuge output — gold dust as proxy for "sorted rarity catalyst"
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:hybrid_refinery_bench',
+        type: 'modpack:hybrid_refinery_bench',
         duration: 200,
         inputs: {
             item: [
@@ -42,8 +41,7 @@ ServerEvents.recipes(event => {
     // Combat: Rare Stone + Undergarden-exclusive Reagent
     // Tech:   HV Electrolyzer output — sodium dust as proxy for "refined catalyst"
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:hybrid_refinery_bench',
+        type: 'modpack:hybrid_refinery_bench',
         duration: 200,
         inputs: {
             item: [
@@ -59,8 +57,7 @@ ServerEvents.recipes(event => {
     // Combat: Rare Stone + named Undergarden miniboss drop
     // Tech:   HV Chemical Reactor output — sulfur dust as proxy for "unstable reagent"
     event.custom({
-        type: 'multiblocked2:recipe',
-        machine: 'modpack:hybrid_refinery_bench',
+        type: 'modpack:hybrid_refinery_bench',
         duration: 200,
         inputs: {
             item: [

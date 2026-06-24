@@ -1,0 +1,26 @@
+{
+  "exp": 50,
+  "id": "sl_armor_epic_0",
+  "mats": [
+    {
+      "type": "ITEM",
+      "id": "soulland:spirit_iron_ingot",
+      "num": 2
+    },
+    {
+      "type": "ITEM",
+      "id": "mmorpg:stone/3",
+      "num": 9
+    },
+    {
+      "type": "ITEM",
+      "id": "gtceu:steel_plate",
+      "num": 1
+    }
+  ],
+  "profession": "gear_crafting",
+  "result": "mmorpg:stat_soul/family/armor/epic",
+  "result_num": 1,
+  "set_tier_nbt": true,
+  "tier": 0
+}
