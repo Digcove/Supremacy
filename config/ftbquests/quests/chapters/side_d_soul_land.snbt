@@ -437,6 +437,122 @@
 			type: "item"
 			item: {id: "soulland:space_ring_basic", Count: 1b}
 		}]
+	}, {
+		id: "000000000024A001"
+		x: 0.0d
+		y: 4.0d
+		dependencies: ["000000000000A02C"]
+		title: "The Gear Crafting Station"
+		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		description: ["The Gear Crafting Station is the Mine & Slash block that bridges Soul Land gear with the stat soul crafting system. It accepts Soul Land weapons and armor as crafting bases — Spirit Iron for Uncommon souls, Spirit Steel for Rare, Soul Forged for Epic and beyond. Place it near your Forging Table.", "Open JEI and look under the Gear Crafting Station tab to see all 60 stat soul recipes. Start with a weapon soul. Every soul you apply to a piece of gear stacks — there is no cap. This is the primary character power lever in the pack."]
+		tasks: [{
+			id: "000000000024A002"
+			type: "checkmark"
+			title: "Build the Gear Crafting Station (Mine & Slash block)"
+		}]
+		rewards: [{
+			id: "000000000024A003"
+			type: "item"
+			item: {id: "mmorpg:stone/1", Count: 2b}
+		}]
+	}, {
+		id: "000000000024A004"
+		x: 2.0d
+		y: 4.0d
+		dependencies: ["000000000024A001"]
+		title: "First Stat Soul"
+		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		description: ["Uncommon Stat Souls are the entry point. Use a Spirit Iron Sword as the crafting base at the Gear Crafting Station, combined with a Common Stone (stone/1). The resulting soul grants 2-4 stat points.", "Right-click the soul on any equipped gear piece to apply it. The stats absorb permanently. Stack as many as you have materials for — 8 to 12 on a single weapon is achievable early on and represents a significant combat spike over bare gear."]
+		tasks: [{
+			id: "000000000024A005"
+			type: "checkmark"
+			title: "Craft an Uncommon Stat Soul at the Gear Crafting Station"
+		}]
+		rewards: [{
+			id: "000000000024A006"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 2b}
+		}]
+	}, {
+		id: "000000000024A007"
+		x: 4.0d
+		y: 4.0d
+		dependencies: ["000000000024A004"]
+		title: "Stat Point Allocation"
+		icon: {id: "minecraft:book", Count: 1b}
+		description: ["After applying a Stat Soul, open the Mine & Slash panel [K] to allocate the granted stat points. The options are Attack, Defense, Magic, and Speed. Your armor path from Chapter 1 tells you which column matters most for your build.", "Points from multiple souls stack. They do not expire. There is no redistribution penalty. Build what you need, adjust as your play style develops."]
+		tasks: [{
+			id: "000000000024A008"
+			type: "checkmark"
+			title: "Apply a Stat Soul and spend the points in the M&S panel [K]"
+		}]
+		rewards: [{
+			id: "000000000024A009"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 2b}
+		}]
+	}, {
+		id: "000000000024A00A"
+		x: 6.0d
+		y: 4.0d
+		dependencies: ["000000000024A007", "000000000000A033"]
+		title: "Rare Stat Soul"
+		icon: {id: "mmorpg:stat_soul/family/weapon/rare", Count: 1b}
+		description: ["Rare Stat Souls require a Spirit Steel Sword as the base and a Rare Stone (stone/2) at the Gear Crafting Station. They grant 5-8 stat points each — a meaningful step up that compounds quickly when stacked.", "You need stone/2 to craft them, which comes from Act III-IV Atlas maps. The map grind and the soul grind are the same grind. Running maps generates the stones that fund better souls that let you run harder maps. The loop is intentional."]
+		tasks: [{
+			id: "000000000024A00B"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/rare", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000024A00C"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}, {
+			id: "000000000024A00D"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/rare", Count: 1b}
+		}]
+	}, {
+		id: "000000000024A00E"
+		x: 8.0d
+		y: 4.0d
+		dependencies: ["000000000024A00A", "000000000000A036"]
+		title: "Epic Stat Soul"
+		icon: {id: "mmorpg:stat_soul/family/weapon/epic", Count: 1b}
+		description: ["Epic Stat Souls use Soul Forged gear as the crafting base, an Epic Stone (stone/3), and Soul Forged Ingots at the Gear Crafting Station. Each soul grants 10-15 stat points.", "Six Epic souls on your main weapon is the EV-tier power floor. If you have completed the GT chain and the Soul Land armor track and your gear has no souls on it, you are fighting below your tier. Do this before the Ur-Ghast."]
+		tasks: [{
+			id: "000000000024A00F"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/epic", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000024A010"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}, {
+			id: "000000000024A011"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/epic", Count: 1b}
+		}]
+	}, {
+		id: "000000000024A012"
+		x: 10.0d
+		y: 4.0d
+		dependencies: ["000000000024A00E"]
+		title: "The Legendary Soul"
+		icon: {id: "mmorpg:stat_soul/family/weapon/legendary", Count: 1b}
+		description: ["Legendary Stat Souls use Soul Crystal as the crafting base alongside stone/4 and Iridium at the Gear Crafting Station. Each grants 20 or more stat points.", "A full Legendary soul set takes serious endgame investment. The same Soul Crystal that feeds the Triune Catalyst also feeds the peak of the stat soul system — cultivation, combat, and arcane convergence are drawing from the same well. The result is a character that will not be challenged by anything below the hardest Atlas bosses."]
+		tasks: [{
+			id: "000000000024A013"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/legendary", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000024A014"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }

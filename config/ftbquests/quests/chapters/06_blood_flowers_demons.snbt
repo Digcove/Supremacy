@@ -502,6 +502,96 @@
 			type: "item"
 			item: {id: "occultism:familiar_ring", Count: 1b}
 		}]
+	}, {
+		id: "0000000000250001"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000000E00F"]
+		title: "Charged Qi Crystal"
+		icon: {id: "kubejs:charged_qi_crystal", Count: 1b}
+		description: ["Drop a Qi Crystal from Soul Land into a Mana Pool charged with at least 2000 Mana. It will absorb the floral life force and become a Charged Qi Crystal.", "The Charged Qi Crystal is a component in an alternate Soul Forged Ingot recipe — a pure-magic path to Soul Land mid-tier metal that does not require GregTech Stainless Steel. Botania mana replaces the blast furnace. See the Convergence Recipes tab in JEI for the full recipe."]
+		tasks: [{
+			id: "0000000000250002"
+			type: "item"
+			item: {id: "kubejs:charged_qi_crystal", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000250003"
+			type: "item"
+			item: {id: "soulland:qi_crystal", Count: 4b}
+		}]
+	}, {
+		id: "0000000000250004"
+		x: 8.0d
+		y: 4.0d
+		dependencies: ["0000000000230001"]
+		title: "The Living Circuit Board"
+		icon: {id: "kubejs:living_circuit_board", Count: 1b}
+		description: ["Blood Magic can fund GregTech's early circuit needs. Bring an LV Circuit Board to the Blood Altar (Tier 2, 5000 LP) and it returns a Living Circuit Board — a biological version of the circuit sustained by Life Essence.", "The Living Circuit Board substitutes for the standard LV circuit in several recipes. If your Soul Network is full and your GT supply chain is lagging, blood can fill the gap."]
+		tasks: [{
+			id: "0000000000250005"
+			type: "item"
+			item: {id: "kubejs:living_circuit_board", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000250006"
+			type: "item"
+			item: {id: "bloodmagic:life_essence_vial", Count: 4b}
+		}]
+	}, {
+		id: "0000000000250007"
+		x: 12.0d
+		y: 4.0d
+		dependencies: ["000000000023000A"]
+		title: "Blood-Forged Soul Rune"
+		icon: {id: "kubejs:soul_rune", Count: 1b}
+		description: ["At Tier 3, the Blood Altar can bind Demonic Will into Soul Land materials. Bring a Spirit Steel Ingot to the Altar (Tier 3, 10000 LP) and it comes out a Blood-Forged Soul Rune — Soul Land metal tempered with demonic energy.", "The Soul Rune is a component in an alternate Soul Forged Ingot recipe alongside the Charged Qi Crystal. This gives players who invested in Blood Magic a path to Soul Forged Metal without touching GregTech's blast furnace."]
+		tasks: [{
+			id: "0000000000250008"
+			type: "item"
+			item: {id: "kubejs:soul_rune", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000250009"
+			type: "item"
+			item: {id: "bloodmagic:apprentice_blood_orb", Count: 1b}
+		}]
+	}, {
+		id: "000000000025000A"
+		x: 14.0d
+		y: 4.0d
+		dependencies: ["0000000000250007"]
+		title: "The Triune Catalyst"
+		icon: {id: "kubejs:triune_catalyst", Count: 1b}
+		description: ["Three systems converge into one item. Place a Soul Crystal at the center of an Ars Nouveau Enchanting Apparatus surrounded by four Source Gems and four Blank Slates on the pedestals, with 10000 Mana channeled through the apparatus.", "The Triune Catalyst — Cultivation, Blood, Source — is the physical expression of having built all three magic lines. Drop it into a Mana Pool to multiply the next five mana infusion outputs by three. A luxury item for players who have fully committed to the arcane track."]
+		tasks: [{
+			id: "000000000025000B"
+			type: "item"
+			item: {id: "kubejs:triune_catalyst", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000025000C"
+			type: "item"
+			item: {id: "ars_nouveau:source_gem", Count: 4b}
+		}]
+	}, {
+		id: "000000000025000D"
+		x: 18.0d
+		y: 2.0d
+		dependencies: ["0000000000230016"]
+		title: "Blood-Tempered Coil"
+		icon: {id: "kubejs:blood_tempered_coil", Count: 1b}
+		description: ["At Tier 4, the Blood Altar can do something the EBF cannot do alone: push the temperature ceiling higher than Kanthal normally allows. Bring a Kanthal Coil Block to the Altar (Tier 4, 50000 LP) and receive a Blood-Tempered Coil.", "Use the Blood-Tempered Coil in place of standard Kanthal Coils in your Electric Blast Furnace. The higher temperature ceiling it enables unlocks EBF recipes that standard Kanthal cannot reach, bridging the Blood Magic endgame directly into GT mid-tier alloy production. The Master Blood Orb you carry is what makes this possible."]
+		tasks: [{
+			id: "000000000025000E"
+			type: "item"
+			item: {id: "kubejs:blood_tempered_coil", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000025000F"
+			type: "item"
+			item: {id: "bloodmagic:master_blood_orb", Count: 1b}
+		}]
 	}]
 	quest_links: []
 }

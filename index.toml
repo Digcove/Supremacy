@@ -14,7 +14,7 @@ hash = "6a8570a521f3551ff9d944a97668f7c3fd263fd08bfb761b4ffb649bb5ac0de7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "4c365bbed3c27dfb01df55e08d717ab384b134c38d04d5a8852a17c8fb2d66cd"
+hash = "5f86d55e9b5135eff58ae02920c4fb0284c1f5e7b25951351b0adccecff242a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -26,19 +26,19 @@ hash = "b15abfcab79ea2f7342342b07861004ef4b9ad0efe865b665aa66dc430bb797e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04_arcane_and_machine.snbt"
-hash = "1e47e4eaca75cc931ed89d8472a3ce161ceb2b3b08949245354b42d860c584d3"
+hash = "722ea9f8c95ffa7f1c8377475c80a1269d4b52c7d3a6f9474d5d58731fc72453"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_into_the_mist.snbt"
-hash = "3ddd3c10a575a6ccb46945c2fa44bb1e9dadeaf31d9fb434a85976e81385d13c"
+hash = "a21e0ca0f9cf10070b1b1fa55d402c3700ff94004115f307c75280662a174440"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_blood_flowers_demons.snbt"
-hash = "267ec816c9e4de5008d99e6d06365047d94657cd869e5a5b13c80b7d9d01ad71"
+hash = "e1b1c5ce8ce1b45f64f2fdaedd8169a1714267edf8340288fc4627479691aa8c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_medium_voltage.snbt"
-hash = "e172dc67a8079e74a712332a4438d343524adf043a7b25d94f44ef647bda3202"
+hash = "a82f4cbfab0f0fc89185aaf96164fc86946062792281a75d96b6b1dff9fc0080"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_digital_frontier.snbt"
@@ -54,7 +54,7 @@ hash = "a5926052fd35be825c9bd2c50f2bf55cfc0d46b1bb24511770258d4d35eec026"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/11_extreme_voltage.snbt"
-hash = "f1ed0b868eff02ad3b300f0aa658f3c00015247fd1ba62752982e2c85027b89f"
+hash = "eb3969becbed5f2df09dac5d28fe3ee042c28530453092d6d4a7fa5dfd27e990"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_gates_of_oblivion.snbt"
@@ -78,19 +78,19 @@ hash = "fdc090518b98714e07f597cd3272b0d76184de860ade652fc258b7b78a177e52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logbook_completionist.snbt"
-hash = "38848a33728fd5a135a7eafef366ad1e5a20f329d8d2bd3155b15b7d7d04f7ce"
+hash = "f19d20f4bf6f106b2328a41fbccd6fbdfe94f4323c694142ed552a0d5539bc26"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logbook_exploration.snbt"
-hash = "69dda0b3bd236eacd3a810de9cef4fec5a6a520d855dcf15e754808037570720"
+hash = "3bad06a63dc07d053817d70aad67da4e17a2eda93fa7e9f6da02bc963d2b89a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logbook_fishing.snbt"
-hash = "853e22acf0f5563dba1485c366c9c940e91c91515a9f7f1ef5df6630573138a0"
+hash = "046bcb6d75edde9fdef473030a3a5bf4afeeab9c8a9c39a681abd75345cda257"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/logbook_other_hobbies.snbt"
-hash = "8b4d17e7e13d7b021f380e4493089cf8239fa42507498cde9db5740503d613fd"
+hash = "7f233b5c435bf1a7f282a8891c98c86d0bb452185040946e1ab1c99b4798d7a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/multiplayer_jolly_cooperation.snbt"
@@ -114,19 +114,19 @@ hash = "931b72bf3d661acb9d0178ba544eadb6e3dc35a4f2c92e9f09edd749cd58bafc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_a_farmers_life.snbt"
-hash = "1a300a63a488dd98fe973bad641c59668c0a74c04dc4d1aea2382f8a96a217b7"
+hash = "84388eaa2081f0f18c6b179a74022b796c95b9e8a43dcd6b73a45bb80cf25fa0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_b_steel_and_glory.snbt"
-hash = "a86c866773cee521b21c4988246312907c585cf82c611e8edc3cb3b25b1adc08"
+hash = "a2fdebec68d8b5a627674e62264cc140cca3169ec279db1c846b4e6356f2a308"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_c_community_board.snbt"
-hash = "0dfb49d4c50a2efbea2720c20431fe4b0f81e0e1e2b88058f38b54bf8e176f04"
+hash = "ced51fe522c5285faeee47626f798b0d0dd47b6a557f27b7fd0d08e3f9ae1c00"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_d_soul_land.snbt"
-hash = "50460d6a6851fda14333bec31e4bb59024a59062c4637fc843bb7c2d514bd821"
+hash = "27a4e38bad9a305f4c5b7cbd581db696032e9257fa322ebe63214752d0a33b22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_e_magical_flora.snbt"
@@ -145,6 +145,10 @@ file = "config/ftbquests/quests/chapters/side_h_professions.snbt"
 hash = "07600766e4ed27c0196d505648109342ab6f2ecb314b4dbafbc7e7dd689ce618"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/side_i_alex_mobs.snbt"
+hash = "2a61c2267b4913d7a73d518f186eba11158c7eb2319dd23786417dc1dc8ce478"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/support_applied_energistics.snbt"
 hash = "03d8c25d396290f2d7de1fce6bee904d4c797b253e1548709508af3ed0328ec6"
 
@@ -153,12 +157,16 @@ file = "config/ftbquests/quests/chapters/support_mystical_agriculture.snbt"
 hash = "a40996b7bd608a6fb34ebb33743097f5cb323dd1b78774736ebaef52742543c0"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/support_pneumaticcraft.snbt"
+hash = "4ae02f4d491df90db361594d9078a64d4d45aa4ed32a38607cc86460a3b1f3d6"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/support_power.snbt"
 hash = "947b820c3c538141be187144d92f9ddda99365269e8ffa209bd081b5df5d1256"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/support_quality_of_life.snbt"
-hash = "1bf69c83cf9f621683cbb131fbcec9fe79876c0988e92a2f2393524efea9affa"
+hash = "ab1d201fe8c693eddd086b6e2e84079dd0a0df3b441333ab1eef961863f8d18f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/support_shop.snbt"
@@ -179,6 +187,14 @@ hash = "590e1814b5e80233fa4129615098a3e22690b00f6bf36bebc4fb924964bfd852"
 [[files]]
 file = "defaultconfigs/mine_and_slash_compatibility-server.toml"
 hash = "a2050a089665696fbd40073e04a59caf2593040c008068ab12c40e123cdc0360"
+
+[[files]]
+file = "kubejs/client_scripts/convergence_item_tooltips.js"
+hash = "85d56816ef6ab986202b3332229fb1bf9f3bec62cec4a948b4c264ecea393c99"
+
+[[files]]
+file = "kubejs/server_scripts/blood_magic_recipes.js"
+hash = "5a8a7f84b793d929780df88c9c1487bbad3d16c1f5119dff9e71ad1088ad125e"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_dimension/minecraft_overworld.json"
@@ -505,6 +521,10 @@ file = "kubejs/server_scripts/spawn_eggs.js"
 hash = "29098aa01c89c8cd8ae4e58afb271dae4dff2483a4d82e5b94da509f9c0c134d"
 
 [[files]]
+file = "kubejs/server_scripts/starter_cleanup.js"
+hash = "b9503f117f09d388cd29c1016946fa97f8cbe996ee227af235f754cb4fd44279"
+
+[[files]]
 file = "kubejs/server_scripts/stoner_spear.js"
 hash = "d0a03fcb47a48bafca4ff1fdbd5e5dd0e17f84258b218ef921a8ca88aa565977"
 
@@ -519,6 +539,9 @@ hash = "ed67df243dc36f22018126051a62bdafb43b026ebdf881dfb531908b8a202737"
 [[files]]
 file = "kubejs/startup_scripts/orb_forge_items.js"
 hash = "d34ba6aacb8b473c52eb221080c34e5d96c17dfcea15096c16a8ebc583f0cca2"
+[[files]]
+file = "kubejs/startup_scripts/convergence_items.js"
+hash = "5d11e9bed9ec31651db6d3748823b8d48cccb9939217a0d2c9589fcbc93c1808"
 
 [[files]]
 file = "kubejs/startup_scripts/orb_forge_machines.js"

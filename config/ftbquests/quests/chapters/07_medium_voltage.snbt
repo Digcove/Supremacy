@@ -178,6 +178,60 @@
 			type: "item"
 			item: {id: "gtceu:aluminium_ingot", Count: 16b}
 		}]
+	}, {
+		id: "0000000000260001"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["000000000000F007"]
+		title: "Rotation Meets Electricity"
+		icon: {id: "create:mechanical_arm", Count: 1b}
+		description: ["Create and GregTech share a border at the Macerator. A Create Mechanical Arm can pull from a chest or inventory and deposit directly into the Macerator input slot — no hopper chain, no item duct. Set the Arm to deposit into the machine's input and extract from its output.", "This is the most-missed automation trick in the pack. GregTech players don't know Create can feed it. Create players don't know GT needs it. A single Mechanical Arm on each machine eliminates manual restocking for the entire GT chain. Wire it up once and forget it."]
+		tasks: [{
+			id: "0000000000260002"
+			type: "checkmark"
+			title: "Use a Create Mechanical Arm to automate a GT Macerator input or output"
+		}]
+		rewards: [{
+			id: "0000000000260003"
+			type: "item"
+			item: {id: "create:mechanical_arm", Count: 2b}
+		}]
+	}, {
+		id: "0000000000260004"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["0000000000260001"]
+		title: "Triple Output"
+		icon: {id: "gtceu:lv_ore_washer", Count: 1b}
+		description: ["The Macerator doubles ore output. The Ore Washer takes the crushed ore from the Macerator and produces a third ingot worth of output in the form of purified ore. Run the purified ore back through the Macerator again for dust, smelt the dust for the ingots.", "This chain — Macerator → Ore Washer → Macerator → Furnace — is the full 3x ore processing loop. Set it up with Create Mechanical Arms feeding each step. Once it runs, you will not run low on iron, copper, or tin again."]
+		tasks: [{
+			id: "0000000000260005"
+			type: "item"
+			item: {id: "gtceu:lv_ore_washer", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000260006"
+			type: "item"
+			item: {id: "gtceu:iron_dust", Count: 32b}
+		}]
+	}, {
+		id: "0000000000260007"
+		x: 14.0d
+		y: -2.0d
+		dependencies: ["000000000000F013"]
+		title: "Kanthal Coils"
+		icon: {id: "gtceu:kanthal_coil_block", Count: 1b}
+		description: ["Cupronickel Coils cap out at 1800K. Titanium requires 1941K to smelt — above what Cupronickel can provide. Kanthal Coils are the next coil tier, raising the ceiling to 2700K and covering every EV material you need.", "Craft Kanthal Coil Blocks and swap them into your Electric Blast Furnace before you start Titanium production. This is not optional — Titanium will not smelt on Cupronickel. Upgrade the coils first, then start the Titanium run that prepares your EV Machine Hull."]
+		tasks: [{
+			id: "0000000000260008"
+			type: "item"
+			item: {id: "gtceu:kanthal_coil_block", Count: 2b}
+		}]
+		rewards: [{
+			id: "0000000000260009"
+			type: "item"
+			item: {id: "gtceu:kanthal_coil_block", Count: 1b}
+		}]
 	}]
 	quest_links: []
 }
