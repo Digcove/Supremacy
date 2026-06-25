@@ -36,10 +36,15 @@
 		description: ["Wood comes before everything else. Sixteen logs gets you a crafting table, a full set of wooden tools, and the planks to frame a shelter. Any tree species works.", "Punch until you have enough. An axe will make the next session faster."]
 		tasks: [{
 			id: "4029A3B981DD8620"
-			item: "minecraft:spruce_log"
-			match_nbt: true
-			tags: ["forgelogs"]
 			type: "item"
+			item: {
+				id: "itemfilters:tag"
+				Count: 1b
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			count: 16L
 		}]
 		rewards: [{
 			id: "0000000000003006"
