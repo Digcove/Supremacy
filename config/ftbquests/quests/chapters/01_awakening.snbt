@@ -127,8 +127,13 @@
 		tasks: [{
 			id: "0000000000003013"
 			type: "item"
-			item: {id: "minecraft:red_bed", Count: 1b}
-			tag: "minecraft:beds"
+			item: {
+				Count: 1
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:beds"
+				}
+			}
 			consume: false
 		}]
 		rewards: [{
@@ -146,19 +151,25 @@
 		y: 0.0d
 		dependencies: ["0000000000003012"]
 		title: "Iron in the Earth"
-		icon: {id: "minecraft:raw_iron", Count: 1b}
-		description: ["Iron is the gate between improvised survival and intentional construction. It unlocks the first tier of armor, tools, machines, and every major crafting system introduced in the next chapter.", "Twenty-four raw iron is enough to smelt a full armor set with material left over. Iron veins are most common below y=16 — dig deep, find a cave system, follow the stone. You will be mining iron again soon, so start building the habit now."]
+		icon: {id: "minecraft:iron_ingot", Count: 1b}
+		description: ["Iron is the gate between improvised survival and intentional construction. It unlocks the first tier of armor, tools, machines, and every major crafting system introduced in the next chapter.", "Smelt raw iron ore into ingots, or use GregTech alternatives — magnetite and pyrite both refine into iron and all count toward this quest. Twenty-eight ingots covers a full armor set with material left over. Iron veins are most common below y=16 — dig deep, find a cave system, follow the stone."]
 		tasks: [{
 			id: "0000000000003010"
 			type: "item"
-			item: {id: "minecraft:raw_iron", Count: 1b}
-			count: 24L
+			item: {
+				Count: 1
+				id: "itemfilters:tag"
+				tag: {
+					value: "forge:ingots/iron"
+				}
+			}
+			count: 28L
 			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003011"
 			type: "item"
-			item: {id: "minecraft:blast_furnace", Count: 1b}
+			item: {id: "minecraft:furnace", Count: 1b}
 		}]
 	}, {
 		id: "000000000000301A"
@@ -166,12 +177,12 @@
 		y: 0.0d
 		dependencies: ["000000000000300F"]
 		title: "First Weapon"
-		icon: {id: "spartanweaponry:stone_spear", Count: 1b}
-		description: ["Spartan Weaponry expands the weapon roster beyond swords. Spears reach one block further than melee range. Halberds hit in a wide arc. Daggers strike fast and chain hits together. The stone spear is your entry point — craft one.", "Mine and Slash is an ARPG stat system layered over all your gear. Every weapon and armor piece can receive a Soul, which permanently adds stat bonuses to that item. The rewards here include a Weapon Soul and a Socket Orb — apply them after this quest using the instructions in the next step."]
+		icon: {id: "spartanweaponry:iron_spear", Count: 1b}
+		description: ["Spartan Weaponry expands the weapon roster beyond swords. Spears reach one block further than melee range. Halberds hit in a wide arc. Daggers strike fast and chain hits together. Now that you have iron, craft an iron spear — it is your primary weapon going into the first armor tier.", "Mine and Slash is an ARPG stat system layered over all your gear. Every weapon and armor piece can receive a Soul, which permanently adds stat bonuses to that item. The rewards here include a Weapon Soul and a Socket Orb — apply them after this quest using the instructions in the next step."]
 		tasks: [{
 			id: "000000000000301B"
 			type: "item"
-			item: {id: "spartanweaponry:stone_spear", Count: 1b}
+			item: {id: "spartanweaponry:iron_spear", Count: 1b}
 			consume: false
 		}]
 		rewards: [{
@@ -183,62 +194,94 @@
 			type: "item"
 			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
 		}]
-	}, {
+	},	{
 		id: "0000000000003038"
 		x: 16.0d
 		y: 0.0d
 		dependencies: ["000000000000301A"]
 		title: "Soul Gear"
 		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
-		description: ["Hold the Weapon Soul and right-click your stone spear to apply it. The spear gains permanent stat bonuses scaled to the soul's rarity. Then use the Socket Orb on the spear to open a socket for future gem upgrades.", "This is the Mine and Slash upgrade loop that continues through every tier of gear. As you kill enemies they drop gear and Salvage Stones. Salvage everything you won't equip — the Salvage Table breaks gear into stones, and stones are the currency for the Orb Forge, the pack's custom crafting station for high-tier materials and upgrades.", "Check the Steel and Glory side chapter for the full Orb Forge and salvage system breakdown."]
+		description: ["Hold the Weapon Soul and right-click your iron spear to apply it. The spear gains permanent stat bonuses scaled to the soul's rarity. Then use the Socket Orb on the spear to open a socket for future gem upgrades.", "This is the Mine and Slash upgrade loop that continues through every tier of gear. As you kill enemies they drop gear and Salvage Stones. Salvage everything you won't equip — the Salvage Table breaks gear into stones, and stones are the currency for the Orb Forge, the pack's custom crafting station for high-tier materials and upgrades.", "Check the Steel and Glory side chapter for the full Orb Forge and salvage system breakdown."]
 		tasks: [{
 			id: "0000000000003039"
 			type: "checkmark"
-			title: "Apply the Weapon Soul and add a socket to your stone spear"
+			title: "Apply the Weapon Soul and add a socket to your iron spear"
 		}]
 		rewards: [{
 			id: "000000000000303A"
 			type: "item"
 			item: {id: "mmorpg:currency/orb_of_quality", Count: 2b}
 		}]
-	}, {
+	},	{
 		id: "0000000000003020"
-		x: 18.0d
-		y: 0.0d
-		dependencies: ["0000000000003038"]
-		title: "Iron Guard"
-		icon: {id: "minecraft:iron_chestplate", Count: 1b}
-		description: ["A full iron set closes the survival gap between you and everything that hunts you at night. Smelt your iron and craft all four pieces: helmet, chestplate, leggings, boots.", "Once the set is complete, three combat paths open below. Each one defines your armor archetype through Mine and Slash's Force Soul Tag system. Applying four Force Soul Tags — one to each armor piece — permanently commits that piece to a stat path. Choose one. There is no mixing paths on the same set."]
-		tasks: [{
-			id: "0000000000003021"
-			type: "item"
-			item: {id: "minecraft:iron_helmet", Count: 1b}
-			consume: false
-		}, {
-			id: "0000000000003022"
-			type: "item"
-			item: {id: "minecraft:iron_chestplate", Count: 1b}
-			consume: false
-		}, {
-			id: "0000000000003023"
-			type: "item"
-			item: {id: "minecraft:iron_leggings", Count: 1b}
-			consume: false
-		}, {
-			id: "0000000000003031"
-			type: "item"
-			item: {id: "minecraft:iron_boots", Count: 1b}
-			consume: false
-		}]
-		rewards: [{
-			id: "0000000000003024"
-			type: "item"
-			item: {id: "mmorpg:currency/socket_adder", Count: 2b}
-		}, {
-			id: "0000000000003025"
-			type: "item"
-			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 4b}
-		}]
+		max_completable_dependents: 1
+			rewards: [
+				{
+					count: 2
+					id: "0000000000003024"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0000000000003025"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/armor/uncommon"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0000000000003021"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000003022"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000003023"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000003031"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Guard"
+			x: 18.0d
+			y: 0.0d
 	}, {
 		id: "0000000000003026"
 		x: 20.0d

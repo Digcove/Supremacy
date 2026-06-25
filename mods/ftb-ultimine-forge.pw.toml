@@ -1,0 +1,13 @@
+name = "FTB Ultimine (Forge)"
+filename = "ftbultimine-forge-2001.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0000000000000000000000000000000000000000"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 0
+project-id = 314968

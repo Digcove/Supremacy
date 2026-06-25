@@ -4,8 +4,3 @@
 #OFF - Curios items are dropped on death
 #Allowed Values: ON, DEFAULT, OFF
 keepCurios = "ON"
-
-[slots.master_bag]
-	size = 1
-	operation = "SET"
-	icon = "Curios:back"
