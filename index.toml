@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "6e42dc247eee2f1da66d9a005ea1bd0208b7871aaebbc1c04a63314d63e96c05"
+hash = "79e73a45cdcce177487d93f813c11c75e6f1a105fa1689ec0da75435b26a1e3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
