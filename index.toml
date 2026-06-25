@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "d0037a879acee2f42f029e81acd4b1fe69754982054355616593d0897c5b5806"
+hash = "e1709c56a504ca4d0103875cd61ca05a08a026c2fba1c5e9bf35d80223a70975"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -142,7 +142,7 @@ hash = "5652a501a132c676507168a69a5ae5415a1bea047369837a7adc61cae2ddd57b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_h_professions.snbt"
-hash = "026b9e469bd8066dca8b4e8926e016877291c69c7438d77f96bee2aa7e3680c8"
+hash = "b24cdfa4fa773d31e47132bb74d5e51436fc7de3d36d037696d4d9dad68393bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_i_alex_mobs.snbt"
@@ -547,6 +547,10 @@ hash = "3fc23f01031816f2bcf0a76ab237e5219f6ef7ba693dd7f5c5b87197f347a047"
 [[files]]
 file = "kubejs/server_scripts/orb_forge/tier_7_master_forge.js"
 hash = "42baf8c540412e201b9d9bd96d14fcdeceacaf26a55e0a2a1f285216fa3c69f3"
+
+[[files]]
+file = "kubejs/server_scripts/soulland_recipes.js"
+hash = "8671c897900bed6bccbfa65e5ed869d5b0230aaa6e7cc873fab29a9dbcfb70db"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_eggs.js"
@@ -1043,6 +1047,11 @@ metafile = true
 [[files]]
 file = "mods/item-borders.pw.toml"
 hash = "1be8443ff17db60170347dd46ab54bd809508030e5dc050e230b49c15ec3e850"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
