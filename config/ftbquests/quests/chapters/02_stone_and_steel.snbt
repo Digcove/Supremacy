@@ -27,6 +27,25 @@
 			item: {id: "minecraft:furnace", Count: 1b}
 		}]
 	}, {
+		id: "000000000029007F"
+		x: 2.0d
+		y: 1.0d
+		dependencies: ["0000000000006001"]
+		title: "Andesite Alloy"
+		icon: {id: "create:andesite_alloy", Count: 1b}
+		description: ["Andesite Alloy is the bedrock of Create. Almost every machine, shaft, and casing is built from it.", "Alternate iron nuggets and andesite (or cobblestone) in a crafting grid — two nuggets and two stones makes four alloys. Mine a vein of andesite and stockpile it. You'll need far more than you think."]
+		tasks: [{
+			id: "0000000000290080"
+			type: "item"
+			item: {id: "create:andesite_alloy", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290081"
+			type: "item"
+			item: {id: "minecraft:andesite", Count: 32b}
+		}]
+	}, {
 		id: "0000000000006004"
 		x: 2.0d
 		y: 0.0d
@@ -70,7 +89,7 @@
 		id: "000000000000600B"
 		x: 4.0d
 		y: 1.0d
-		dependencies: ["0000000000006001"]
+		dependencies: ["000000000029007F"]
 		title: "Cogs and Shafts"
 		icon: {id: "create:cogwheel", Count: 1b}
 		description: ["Create doesn't run on electricity or magic — it runs on rotational force. Cogwheels carry that rotation from a source to a machine. Start here.", "Almost everything in Create chains off this. A Shaft carries rotation, a Cogwheel transfers it, and a Gearbox changes direction. Learn this language — you'll be speaking it for a long time."]
@@ -122,31 +141,13 @@
 			item: {id: "minecraft:iron_ingot", Count: 16b}
 		}]
 	}, {
-		id: "0000000000006014"
-		x: 6.0d
-		y: -1.0d
-		dependencies: ["0000000000006004"]
-		title: "Silent Blueprints"
-		icon: {id: "silentgear:blueprint_package", Count: 1b}
-		description: ["Silent Gear takes a different approach from Tinkers': parts are printed from blueprints, then crafted from materials. The Blueprint Package gets you started — right-click to unpack the starter templates.", "Silent Gear tools can be repaired, modified mid-use, and built from dozens of materials. It runs parallel to Tinkers' — try both, use what fits your playstyle."]
-		tasks: [{
-			id: "0000000000006015"
-			type: "item"
-			item: {id: "silentgear:blueprint_package", Count: 1b}
-		}]
-		rewards: [{
-			id: "0000000000006016"
-			type: "item"
-			item: {id: "minecraft:iron_ingot", Count: 4b}
-		}]
-	}, {
 		id: "0000000000006017"
 		x: 8.0d
 		y: -1.0d
-		dependencies: ["0000000000006014"]
+		dependencies: ["0000000000006004"]
 		title: "The Plating Press"
 		icon: {id: "create:mechanical_press", Count: 1b}
-		description: ["The Mechanical Press turns ingots into plates and sheets — outputs that Silent Gear parts need, and that many other recipes require. Mount it above a Rotation Source and drop items onto the Belt below.", "Create and Silent Gear feed each other. This press will see heavy use."]
+		description: ["The Mechanical Press compresses ingots into plates — an output used by many Create and cross-mod recipes. Mount it above a Rotation Source and drop items onto a Belt below it.", "The press is one of Create's most-used machines. Get one running early."]
 		tasks: [{
 			id: "0000000000006018"
 			type: "item"
@@ -162,12 +163,12 @@
 		x: 2.0d
 		y: -3.0d
 		title: "The Spirit Vein"
-		icon: {id: "soulland:raw_spirit_iron", Count: 1b}
+		icon: {id: "soulland:spirit_iron_raw", Count: 1b}
 		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but with a faint blue-grey shimmer. Mine it and it drops Raw Spirit Iron - smelt that into Spirit Iron Ingots. Run the ore through the Create Millstone before smelting for doubled output, exactly like vanilla ore.", "Spirit Iron Ingots are the base material for the entire Soul Land crafting line - Forging Table, tools, weapons, armor, pills. Mine it alongside regular iron and keep a separate chest for it. Check the Soul Land side chapter (Side D) for where it goes next."]
 		tasks: [{
 			id: "000000000000601F"
 			type: "item"
-			item: {id: "soulland:raw_spirit_iron", Count: 1b}
+			item: {id: "soulland:spirit_iron_raw", Count: 1b}
 			count: 8L
 			consume: false
 		}]
@@ -317,42 +318,6 @@
 			item: {id: "minecraft:redstone", Count: 16b}
 		}]
 	}, {
-		id: "0000000000006035"
-		x: 10.0d
-		y: -1.0d
-		dependencies: ["0000000000006017"]
-		title: "The Alloy Maker"
-		icon: {id: "silentgear:alloy_maker", Count: 1b}
-		description: ["Silent Gear's Alloy Maker blends ingots into materials that vanilla crafting can't produce — Crimson Iron, Tyrian Steel, and others. These alloys are the backbone of mid-tier Silent Gear parts. It runs like a furnace: feed in materials, wait for the output, repeat.", "The alloy tier you can make now determines the part tier you can build next."]
-		tasks: [{
-			id: "0000000000006036"
-			type: "item"
-			item: {id: "silentgear:alloy_maker", Count: 1b}
-		}]
-		rewards: [{
-			id: "0000000000006037"
-			type: "item"
-			item: {id: "silentgear:blueprint_package", Count: 1b}
-		}]
-	}, {
-		id: "0000000000006038"
-		x: 12.0d
-		y: -1.0d
-		dependencies: ["0000000000006035"]
-		title: "Harvesting in Silence"
-		icon: {id: "silentgear:pickaxe", Count: 1b}
-		description: ["Craft a Silent Gear pickaxe using alloy-based parts from the Alloy Maker. Silent Gear tools can be fully disassembled and rebuilt at any time — swap a worn tip without losing the grip or rod. They complement Tinkers tools: use Tinkers for the build you've committed to, Silent Gear for the one you're still testing.", "Weapon crafting in this pack is handled by Spartan Weaponry and Iron's Spells. Silent Gear and Tinkers are for harvest tools only."]
-		tasks: [{
-			id: "0000000000006039"
-			type: "item"
-			item: {id: "silentgear:pickaxe", Count: 1b}
-		}]
-		rewards: [{
-			id: "000000000000603A"
-			type: "item"
-			item: {id: "minecraft:iron_ingot", Count: 8b}
-		}]
-	}, {
 		id: "000000000000603B"
 		x: 12.0d
 		y: 0.0d
@@ -411,6 +376,64 @@
 			id: "0000000000006044"
 			type: "item"
 			item: {id: "minecraft:coal", Count: 16b}
+		}]
+	}, {
+		id: "000000000000EE11"
+		x: 4.0d
+		y: -3.0d
+		dependencies: ["000000000000601E"]
+		title: "The Forging Table"
+		icon: {id: "soulland:forging_table", Count: 1b}
+		description: ["The Forging Table is Soul Land's dedicated crafting hub \u2014 every weapon, armor piece, pill, and cultivation tool is made here. Craft it from Spirit Iron Ingots and wood planks.", "Once placed, open JEI and filter by the Forging Table tab for the full recipe list. Start with the Spirit Detector \u2014 you'll need it before your first beast hunt."]
+		tasks: [{
+			id: "000000000000EE12"
+			type: "item"
+			item: {id: "soulland:forging_table", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EE13"
+			type: "item"
+			item: {id: "soulland:spirit_iron_ingot", Count: 4b}
+		}]
+	}, {
+		id: "000000000000EE14"
+		x: 6.0d
+		y: -3.0d
+		dependencies: ["000000000000EE11"]
+		title: "Spirit Detector"
+		icon: {id: "soulland:spirit_detector", Count: 1b}
+		description: ["The Spirit Detector pulses when Spirit Beasts are nearby and shows their approximate age \u2014 which tells you what ring color you're walking toward before you commit to the fight.", "Ten years is a White ring. A century is Yellow. A thousand is Purple. Know before you swing."]
+		tasks: [{
+			id: "000000000000EE15"
+			type: "item"
+			item: {id: "soulland:spirit_detector", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EE16"
+			type: "item"
+			item: {id: "minecraft:compass", Count: 1b}
+		}]
+	}, {
+		id: "000000000000EE17"
+		x: 8.0d
+		y: -3.0d
+		dependencies: ["000000000000EE14"]
+		title: "Ten Years of Patience"
+		icon: {id: "soulland:white_soul_ring", Count: 1b}
+		description: ["Spirit Beasts drop their Soul Ring as a physical item when killed. The White Soul Ring comes from a ten-year beast \u2014 they're everywhere and go down fast with a Spirit Iron weapon.", "Right-click the ring to absorb it permanently. It merges into your soul and grants your first active skill, visible in the HUD. This is the first link in a ring chain that runs through the entire endgame."]
+		tasks: [{
+			id: "000000000000EE18"
+			type: "item"
+			item: {id: "soulland:white_soul_ring", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EE19"
+			type: "item"
+			item: {id: "minecraft:cooked_beef", Count: 4b}
+		}, {
+			id: "000000000000EE1A"
+			type: "item"
+			item: {id: "soulland:spirit_condensing_pill", Count: 1b}
 		}]
 	}]
 	quest_links: []

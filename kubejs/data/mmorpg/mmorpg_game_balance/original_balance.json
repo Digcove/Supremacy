@@ -17,7 +17,6 @@
   "MAX_LEVEL": 100,
   "MIN_CHAIN_DMG": 0.2,
   "MIN_SPELL_COOLDOWN_MULTI": 0.2,
-  "GLOBAL_COOLDOWN_TICKS": 3,
   "MOB_DAMAGE_SCALING": {
     "base_scaling": 1.0,
     "cap_to_max_lvl": false,
@@ -87,26 +86,4 @@
       "points_per_lvl": 1.0
     }
   },
-  "backpack_tabs": {
-    "GEARS": {
-      "rows": 9,
-      "stack_multiplier": 1
-    },
-    "MAPS": {
-      "rows": 9,
-      "stack_multiplier": 1
-    },
-    "CURRENCY": {
-      "rows": 9,
-      "stack_multiplier": 512
-    },
-    "SKILL_GEMS": {
-      "rows": 9,
-      "stack_multiplier": 1
-    },
-    "PROFESSION": {
-      "rows": 6,
-      "stack_multiplier": 512
-    }
-  }
 }

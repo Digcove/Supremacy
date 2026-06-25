@@ -142,7 +142,7 @@
 		rewards: [{
 			id: "000000000020901F"
 			type: "item"
-			item: {id: "kubejs:flint_compass", Count: 1b}
+			item: {id: "minecraft:compass", Count: 1b}
 		}]
 	}]
 	quest_links: []

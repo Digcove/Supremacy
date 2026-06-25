@@ -1,0 +1,7 @@
+{
+  "type": "forge:remove_item",
+  "conditions": [],
+  "items": [
+    {"item": "pneumaticcraft:compressed_iron_ingot"}
+  ]
+}

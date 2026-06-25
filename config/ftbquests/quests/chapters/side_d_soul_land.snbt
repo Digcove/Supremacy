@@ -255,12 +255,12 @@
 		x: 2.0d
 		y: -2.0d
 		title: "The Spirit Vein"
-		icon: {id: "soulland:raw_spirit_iron", Count: 1b}
+		icon: {id: "soulland:spirit_iron_raw", Count: 1b}
 		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but glows faintly blue-grey. Mine it and it drops Raw Spirit Iron - smelt that into ingots. The Create Millstone will process the ore for doubled output just like vanilla ore.", "Spirit Iron Ingots are the base material for everything in the Soul Land crafting line - tools, weapons, armor, and the Forging Table itself. Mine it early and often."]
 		tasks: [{
 			id: "000000000000A02A"
 			type: "item"
-			item: {id: "soulland:raw_spirit_iron", Count: 1b}
+			item: {id: "soulland:spirit_iron_raw", Count: 1b}
 			count: 4L
 			consume: false
 		}]

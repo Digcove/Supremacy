@@ -156,24 +156,6 @@
 			item: {id: "minecraft:diamond", Count: 2b}
 		}]
 	}, {
-		id: "000000000000701A"
-		x: 4.0d
-		y: -2.0d
-		dependencies: ["0000000000007014"]
-		title: "Silent Parts"
-		icon: {id: "silentgear:blueprint_package", Count: 1b}
-		description: ["Silent Gear runs on a blueprint + material system. Unpack the Blueprint Package to get starter templates. Each template shows how to craft one tool part from a material shard or component.", "Unlike Tinkers', Silent Gear parts can be crafted from a wider spread of materials including alloys from Silent Gear's own Alloy Maker. Tools can be fully disassembled, parts swapped for upgrades, and reassembled without losing the tool. Use Create's Mechanical Press to press materials into the plate forms that many Silent Gear parts require."]
-		tasks: [{
-			id: "000000000000701B"
-			type: "item"
-			item: {id: "silentgear:blueprint_package", Count: 1b}
-		}]
-		rewards: [{
-			id: "000000000000701C"
-			type: "item"
-			item: {id: "silentgear:blueprint_package", Count: 2b}
-		}]
-	}, {
 		id: "000000000000701D"
 		x: 6.0d
 		y: -2.0d

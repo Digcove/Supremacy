@@ -53,9 +53,5 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/flint_hoe')
         .tag('forge:tools/hoes')
 
-    // Flint Compass — points toward nearest gravel deposit
-    event.create('flint_compass')
-        .displayName('Flint Compass')
-        .texture('kubejs:item/flint_compass')
 
 })

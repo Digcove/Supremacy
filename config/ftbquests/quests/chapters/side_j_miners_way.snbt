@@ -136,27 +136,9 @@
 			item: {id: "immersiveengineering:fluid_pipe", Count: 16b}
 		}]
 	}, {
-		id: "0000000000290016"
-		x: 0.0d
-		y: -2.0d
-		title: "A Sharper Edge"
-		icon: {id: "silentgear:pickaxe", Count: 1b}
-		description: ["Silent Gear pickaxes are compound - each head, rod, and tip is crafted from a separate material whose traits combine on the finished tool. Mix a Rose Gold head (high harvest speed) with a Crimson Iron rod (durability) and a Diamond tip for a pick that outperforms vanilla iron in every stat before you reach Netherite.", "Silent Gear tools repair with their constituent materials rather than experience, and upgrade materials can be swapped later by breaking down the tool on a Salvager. Check JEI for Silent Gear blueprint recipes and material stat sheets - the Gear parts screen shows stat breakdowns by slot before you commit materials."]
-		tasks: [{
-			id: "0000000000290017"
-			type: "item"
-			item: {id: "silentgear:pickaxe", Count: 1b}
-		}]
-		rewards: [{
-			id: "0000000000290018"
-			type: "item"
-			item: {id: "silentgear:rose_gold_ingot", Count: 4b}
-		}]
-	}, {
 		id: "0000000000290019"
 		x: 2.0d
 		y: -2.0d
-		dependencies: ["0000000000290016"]
 		title: "Fortune's Blessing"
 		icon: {id: "minecraft:enchanted_book", Count: 1b}
 		description: ["Fortune III on a pickaxe triples diamond yield, quadruples lapis and redstone, and doubles coal. Apotheosis unlocks enchanting upgrades well beyond vanilla: shelves can surround the table on multiple sides, raising the maximum enchant level past 30. A fully upgraded Apotheosis table can force Fortune III with much higher consistency than vanilla.", "Fortune doesn't help with GT ore processing - GT raw ore is best mined with Silk Touch and then processed through the maceration chain. Keep a Fortune pick and a Silk Touch pick in your hotbar for different scenarios."]

@@ -9,15 +9,5 @@ ServerEvents.recipes(event => {
         'tconstruct:scythe',
     ].forEach(id => event.remove({ output: id }))
 
-    // Silent Gear weapons
-    [
-        'silentgear:sword',
-        'silentgear:dagger',
-        'silentgear:greatsword',
-        'silentgear:katana',
-        'silentgear:machete',
-        'silentgear:spear',
-        'silentgear:trident',
-    ].forEach(id => event.remove({ output: id }))
 
 })
