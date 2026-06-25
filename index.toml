@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "e1709c56a504ca4d0103875cd61ca05a08a026c2fba1c5e9bf35d80223a70975"
+hash = "6e42dc247eee2f1da66d9a005ea1bd0208b7871aaebbc1c04a63314d63e96c05"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -182,7 +182,7 @@ hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "d975e4052d5fdda43c74427cc275739625009f35e206a36a951961a29596fd9b"
+hash = "8e08ba5d55ca7129dea618e3f0e996bf39633ea2b1bbe16a6397f567ca3111eb"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
@@ -217,16 +217,8 @@ file = "kubejs/client_scripts/convergence_item_tooltips.js"
 hash = "85d56816ef6ab986202b3332229fb1bf9f3bec62cec4a948b4c264ecea393c99"
 
 [[files]]
-file = "kubejs/data/curios/tags/items/bag.json"
-hash = "eefd518a96d543f0bf9aee173491e1eb9a487e0cb5b3d1791bf19b403c978b9a"
-
-[[files]]
 file = "kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
 hash = "17e54a57fef9773eb6709dc4882e81d9c4ffce164648f5bf019771acd1ccc6ab"
-
-[[files]]
-file = "kubejs/data/kubejs/curios/slots/bag.json"
-hash = "0c7616b5e69abf77f04c89a3a2e2126d4a5c82cd56d177183e2eb4d5cf036dc6"
 
 [[files]]
 file = "kubejs/data/kubejs/forge/loot_modifiers/remove_compressed_iron.json"
