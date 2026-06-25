@@ -1,0 +1,33 @@
+chargeAnimation = true
+flowerBindingForceCheck = true
+#Disable Hand of Ender pickpocketing other players' ender chests (multiplayer safety)
+enderPickpocket = false
+manaEnchanter = true
+relics = true
+invertMagnetRing = false
+
+[blockBreakingParticles]
+	enabled = true
+	toolEnabled = true
+
+[manaSpreaders]
+	#Disable mana spreader shooting sound (reduces noise spam)
+	silent = true
+	#Range: > 1
+	traceTime = 400
+
+[harvestLevels]
+	#Range: > 0
+	weightLens = 2
+	#Range: > 0
+	boreLens = 3
+
+[gardenOfGlass]
+	spawnWithLexicon = true
+	#Range: 1 ~ 512
+	islandScaleMultiplier = 8
+
+[rannuncarpus]
+	itemBlacklist = []
+	#Prevents crashes when rannuncarpus tries to place Storage Drawers blocks
+	modBlacklist = ["storagedrawers"]

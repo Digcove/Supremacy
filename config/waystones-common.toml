@@ -1,0 +1,64 @@
+[xpCost]
+	inverseXpCost = false
+	blocksPerXpLevel = 1000
+	minimumBaseXpCost = 0.0
+	maximumBaseXpCost = 0.0
+	xpCostPerLeashed = 0
+	dimensionalWarpXpCost = 3
+	globalWaystoneXpCostMultiplier = 0.0
+	warpStoneXpCostMultiplier = 1.0
+	waystoneXpCostMultiplier = 1.0
+	sharestoneXpCostMultiplier = 0.5
+	portstoneXpCostMultiplier = 0.5
+	warpPlateXpCostMultiplier = 0.5
+	inventoryButtonXpCostMultiplier = 2.0
+
+[restrictions]
+	restrictToCreative = false
+	restrictRenameToOwner = true
+	generatedWaystonesUnbreakable = true
+	transportLeashed = true
+	transportLeashedDimensional = true
+	leashedDenyList = ["minecraft:wither"]
+	#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
+	dimensionalWarp = "GLOBAL_ONLY"
+	dimensionalWarpAllowList = []
+	dimensionalWarpDenyList = []
+	allowWaystoneToWaystoneTeleport = true
+	globalWaystoneSetupRequiresCreativeMode = false
+
+[cooldowns]
+	globalWaystoneCooldownMultiplier = 1.0
+	warpStoneCooldown = 360
+	warpStoneUseTime = 32
+	warpPlateUseTime = 20
+	scrollUseTime = 32
+	inventoryButtonCooldown = 300
+
+[inventoryButton]
+	#Set to 'NONE' for no inventory button.
+	inventoryButton = "NONE"
+	warpButtonX = 58
+	warpButtonY = 60
+	creativeWarpButtonX = 88
+	creativeWarpButtonY = 33
+
+[worldGen]
+	#Allowed Values: DEFAULT, MOSSY, SANDY, BIOME
+	worldGenStyle = "DEFAULT"
+	#Chunk distance between generated waystones. 0 = disabled.
+	frequency = 20
+	dimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+	dimensionDenyList = []
+	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
+	nameGenerationMode = "PRESET_FIRST"
+	customWaystoneNames = []
+	spawnInVillages = true
+	forceSpawnInVillages = true
+
+[client]
+	disableTextGlow = false
+
+[compatibility]
+	displayWaystonesOnJourneyMap = true
+	preferJourneyMapIntegration = true

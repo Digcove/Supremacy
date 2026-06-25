@@ -1,0 +1,32 @@
+ascendingWinds = true
+windSources = ["fire", "soul_fire", "campfire#lit=true", "soul_campfire#lit=true"]
+#Range: 0.2 ~ 10.0
+paraglidingSpeed = 1.5
+#Set to zero to disable durability.
+#Range: > 0
+paragliderDurability = 0
+#Allowed Values: DEFAULT, DISABLE, PARAGLIDER_ONLY, DEKU_LEAF_ONLY
+paragliderInTowersOfTheWild = "DEFAULT"
+
+[spiritOrbs]
+	enderDragonDropsVessel = true
+	raidGivesVessel = false
+	#Range: 0 ~ 64
+	spawnerSpiritOrbDrops = 0
+	spiritOrbLoots = true
+
+[vessels]
+	#Range: 1 ~ 512
+	startingHearts = 10
+	#Range: 0 ~ 512
+	maxHeartContainers = 100
+	#Range: > 0
+	maxStamina = 3000
+	#Range: > 0
+	startingStamina = 1000
+	#Range: > 0
+	maxStaminaVessels = 20
+
+[stamina]
+	paraglidingConsumesStamina = false
+	runningAndSwimmingConsumesStamina = false

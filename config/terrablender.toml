@@ -1,0 +1,13 @@
+#General settings
+general = {}
+
+#Generation settings
+[generation_settings]
+	#Range: 2-6
+	nether_region_size = 2
+	#Range: 2-6
+	overworld_region_size = 3
+	#Range: 0-2147483647
+	vanilla_nether_region_weight = 10
+	#Range: 0-2147483647
+	vanilla_overworld_region_weight = 10

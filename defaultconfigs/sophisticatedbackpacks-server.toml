@@ -1,0 +1,77 @@
+#Server Settings
+[server]
+	disallowedItems = []
+	containerItemsDisallowed = false
+	noInteractionBlocks = []
+	noConnectionBlocks = []
+	itemFluidHandlerEnabled = true
+	allowOpeningOtherPlayerBackpacks = false
+	itemDisplayDisabled = false
+	tickDedupeLogicDisabled = false
+	canBePlacedInContainerItems = false
+	maxUpgradesPerStorage = ["furnace_upgrades|1", "stack_upgrades|3", "jukebox_upgrade|1"]
+
+	#Leather Backpack Settings
+	[server.leatherBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 27
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Iron Backpack Settings
+	[server.ironBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 54
+		#Range: 0 ~ 10
+		upgradeSlotCount = 2
+
+	#Gold Backpack Settings
+	[server.goldBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 81
+		#Range: 0 ~ 10
+		upgradeSlotCount = 3
+
+	#Diamond Backpack Settings
+	[server.diamondBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 108
+		#Range: 0 ~ 10
+		upgradeSlotCount = 5
+
+	#Netherite Backpack Settings
+	[server.netheriteBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 120
+		#Range: 0 ~ 10
+		upgradeSlotCount = 7
+
+	#Copper Backpack Settings
+	[server.copperBackpack]
+		#Range: 1 ~ 144
+		inventorySlotCount = 45
+		#Range: 0 ~ 10
+		upgradeSlotCount = 1
+
+	#Settings for Spawning Entities with Backpack
+	[server.entityBackpackAdditions]
+		chance = 0.01
+		addLoot = true
+		buffWithPotionEffects = true
+		buffHealth = true
+		equipWithArmor = true
+		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
+		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
+		playJukebox = true
+		dropToFakePlayers = false
+		#Mobs don't drop their backpack — loot is inside, not the bag itself
+		backpackDropChance = 0.0
+		lootingChanceIncreasePerLevel = 0.0
+
+	[server.nerfs]
+		tooManyBackpacksSlowness = false
+		#Range: 1 ~ 27
+		maxNumberOfBackpacks = 3
+		#Range: 0.1 ~ 5.0
+		slownessLevelsPerAdditionalBackpack = 1.0
+		onlyWornBackpackTriggersUpgrades = false
