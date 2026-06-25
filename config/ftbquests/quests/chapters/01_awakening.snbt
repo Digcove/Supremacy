@@ -37,8 +37,7 @@
 		tasks: [{
 			id: "0000000000003005"
 			type: "item"
-			item: {id: "minecraft:oak_log", Count: 1b}
-			tag: "forge:logs"
+			item: "#forge:logs"
 			count: 16L
 			consume: false
 		}]
