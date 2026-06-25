@@ -5,7 +5,7 @@
 #Allowed Values: ON, DEFAULT, OFF
 keepCurios = "DEFAULT"
 
-[slots.bag]
+[slots.master_bag]
 	size = 1
 	operation = "SET"
-	icon = "curios:slot/empty_back_slot"
+	icon = "mmorpg:slot/empty_master_bag_slot"

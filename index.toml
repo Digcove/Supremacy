@@ -182,7 +182,7 @@ hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "ad5510d29a2a010413ea326a1d66fc1be19e912538830ac9a318c441e5530341"
+hash = "d975e4052d5fdda43c74427cc275739625009f35e206a36a951961a29596fd9b"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
@@ -226,7 +226,7 @@ hash = "17e54a57fef9773eb6709dc4882e81d9c4ffce164648f5bf019771acd1ccc6ab"
 
 [[files]]
 file = "kubejs/data/kubejs/curios/slots/bag.json"
-hash = "36f62d97756183bf98e93f4a585f66952c3ff39defcddbdeb171625449cca422"
+hash = "0c7616b5e69abf77f04c89a3a2e2126d4a5c82cd56d177183e2eb4d5cf036dc6"
 
 [[files]]
 file = "kubejs/data/kubejs/forge/loot_modifiers/remove_compressed_iron.json"
