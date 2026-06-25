@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "4b565d6e305e91bfbd04e2e7cad137e7691e5d3202d8236f5b6f8a253a1d19dc"
+hash = "ad6fec290f5b42d7b750379f2685fbf9a5e9896214994b4fc69173633f5f58b2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -182,7 +182,7 @@ hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "8e08ba5d55ca7129dea618e3f0e996bf39633ea2b1bbe16a6397f567ca3111eb"
+hash = "850e75dccdf4cfb68b3e56b439f068d3109e058bdd6bc488714eb43bf8121721"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
