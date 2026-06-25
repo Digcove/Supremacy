@@ -32,19 +32,25 @@
 		y: 0.0d
 		dependencies: ["0000000000003001"]
 		title: "Into the Wood"
-		icon: {id: "minecraft:oak_log", Count: 1b}
+		icon: "minecraft:oak_log"
 		description: ["Wood comes before everything else. Sixteen logs gets you a crafting table, a full set of wooden tools, and the planks to frame a shelter. Any tree species works.", "Punch until you have enough. An axe will make the next session faster."]
 		tasks: [{
-			id: "0000000000003005"
+			id: "4029A3B981DD8620"
+			item: "minecraft:spruce_log"
+			match_nbt: true
+			tags: ["forgelogs"]
 			type: "item"
-			item: "#forge:logs"
-			count: 16L
-			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003006"
+			item: {
+				Count: 1
+				id: "minecraft:stone_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			type: "item"
-			item: {id: "minecraft:stone_axe", Count: 1b}
 		}]
 	}, {
 		id: "0000000000003007"
