@@ -37,7 +37,7 @@
 		tasks: [{
 			id: "0000000000003005"
 			type: "item"
-			item: "#forge:logs"
+			tag: "minecraft:logs"
 			count: 16L
 			consume: false
 		}]
@@ -319,7 +319,7 @@
 			item: {id: "minecraft:horse_spawn_egg", Count: 1b}
 		}]
 	}, {
-		id: "000000000000B001"
+		id: "000000000000BD01"
 		x: 14.0d
 		y: -2.0d
 		dependencies: ["000000000000300F"]
@@ -327,13 +327,13 @@
 		icon: {id: "soulland:spirit_iron_ingot", Count: 1b}
 		description: ["While mining iron, you may have noticed ore with a faint blue-grey shimmer. That is Spirit Iron. Mine it the same way as regular iron, then smelt it into Spirit Iron Ingots. Running it through a Create Millstone before smelting doubles the output, exactly like vanilla ore.", "Spirit Iron is the foundational material for the Soul Land cultivation system: a parallel progression track covering cultivation ranks, Soul Ring absorption, Martial Soul forms, and spirit beast hunting. All of it compounds your combat power alongside Mine and Slash. It does not replace the main progression — it runs beside it.", "Open Side D and start with the Cultivation Altar. Set it up now and let it run passively while you continue through the main chapters."]
 		tasks: [{
-			id: "000000000000B002"
+			id: "000000000000BD02"
 			type: "item"
 			item: {id: "soulland:spirit_iron_ingot", Count: 1b}
 			consume: false
 		}]
 		rewards: [{
-			id: "000000000000B003"
+			id: "000000000000BD03"
 			type: "item"
 			item: {id: "soulland:cultivation_manual", Count: 1b}
 		}]
@@ -341,7 +341,7 @@
 		id: "000000000000EE01"
 		x: 16.0d
 		y: -2.0d
-		dependencies: ["000000000000B001"]
+		dependencies: ["000000000000BD01"]
 		title: "The Cultivation Altar"
 		icon: {id: "soulland:cultivation_altar", Count: 1b}
 		description: ["Soul Land runs a second progression axis alongside everything in this pack. Cultivation ranks, Soul Ring absorption, Martial Soul forms — it compounds your combat power without replacing the main line.", "Build the Cultivation Altar from Spirit Iron and place it somewhere permanent. This is where meditation happens. Press [M] while standing near it to begin accumulating soul power. Let it run in the background while you advance through each chapter — cultivation is patient work.", "Open Side D: Soul Land for the full guide. Start there after placing this."]

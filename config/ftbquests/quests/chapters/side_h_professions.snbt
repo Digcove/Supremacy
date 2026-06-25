@@ -76,7 +76,7 @@
 			type: "stat"
 			stat: "minecraft:mine_block"
 			value: 250L
-			tag: "forge:logs"
+			tag: "minecraft:logs"
 		}]
 		rewards: [{
 			id: "000000000020300F"

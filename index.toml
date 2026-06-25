@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "4aefeb48efd24c0790f2160a789585cf47874a35c6838ce59897705416eb14bd"
+hash = "d0037a879acee2f42f029e81acd4b1fe69754982054355616593d0897c5b5806"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -30,15 +30,15 @@ hash = "539d4c21750599d6a91b20e044bf357cc676384a6b7b71d5a5b4271e68fc08c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/05_into_the_mist.snbt"
-hash = "99cf73e88e70b26b4acb141a9ec7ad03bae76330d5ff8670e4f7bd0b1c4c4bf0"
+hash = "b89ae6486d6ddcf303b2cd26ccd7d6c021626fd428ca6630ac851fce5c1b4f7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/06_blood_flowers_demons.snbt"
-hash = "7f8a7834551f7ac47833e3042f51b39c2c713815bd14b180aa6c4256a541222f"
+hash = "495fc60f7ea3fd29d472e23dd745b988f0c92714e2b8833400d29dd073bf2165"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/07_medium_voltage.snbt"
-hash = "aa1fafc9b65e03909147a327e4b7bfb13d97b3d3c44bce86b9341f635b7c6188"
+hash = "14432c3a9d0768dc163891d0e0ce422ec5eb3fe5e73fca6edb6f3fe8d3beb928"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/08_digital_frontier.snbt"
@@ -58,7 +58,7 @@ hash = "d01ab4738b79a28a914770bfbe785b3aacad32546aee4ff303910a71dae25111"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/12_gates_of_oblivion.snbt"
-hash = "431939eebb00e6a2cca46d0703ccd66e316ea7d456d0534bd983b9730611dd09"
+hash = "d80bb89dd05da529a140dc9f92927d0885b47d54005516853a52c3c686dffab3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/13_beyond_the_map.snbt"
@@ -102,11 +102,11 @@ hash = "77e26750b2d89c288c4923c468188dc1213166d052a7a523f7ebb0c1e7f9e451"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/reference_line_of_progression.snbt"
-hash = "5298c3c2aae03b8b982b6996186eb85cb9ee18e9c3c12f4fddf30879c79a0d2a"
+hash = "f65f7db4ec0e1b12f61f5f6769e397ce1e1a70d632dd5ecc50059fce9dd601ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/reference_mechanics.snbt"
-hash = "cfc8d4daf7c44eef2771bf1aa7305dfb23ea8b88fe00dc88f7261488431fc56d"
+hash = "fcc4c2c204583bab8af325fb844e23a9a3cc37300432498e41b4eaf5c54dd107"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/reference_welcome.snbt"
@@ -114,7 +114,7 @@ hash = "bd3e93fc3f133a13f000306b802ebd9ed183b9484ab738edd8eaeb426d6030d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_a_farmers_life.snbt"
-hash = "09b52caffe42333e94d85e0d54eec64eba2977e4635e7253e15531e8f4ef3a13"
+hash = "556a1e5bb8343f0074a354555882f77c425a3c0747790b87abd12b58aae69d50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_b_steel_and_glory.snbt"
@@ -126,7 +126,7 @@ hash = "db1b5be45b501ec46d85fd7c7df1391d8ed4650e3ae2bb5204e1bfb5233d5f1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_d_soul_land.snbt"
-hash = "7fb812ccf29940aa4844d7656097570f0b8b2dd78eff1c71a30f388891b767c9"
+hash = "1ebece06d6819627c33a44ab0e2bc1c10bf01867252775c3a9e6eae012b756f6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_e_magical_flora.snbt"
@@ -514,7 +514,7 @@ hash = "3bc69af61bfcb977a02ef9dd81db656bff98a8adf43d4cf5dda5f4bdb420795f"
 
 [[files]]
 file = "kubejs/server_scripts/flint_knapping.js"
-hash = "4dfbf7c72e3fd466803e11524316906582f3410cbd70e7c104f783879edc2d11"
+hash = "9a093472b488c9eab37d03c39055ff6ad079aec3e517c9c51dac06b7e7c0574e"
 
 [[files]]
 file = "kubejs/server_scripts/gtceu_progression_gates.js"

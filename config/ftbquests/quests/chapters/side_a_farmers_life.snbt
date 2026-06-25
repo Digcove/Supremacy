@@ -276,7 +276,7 @@
 		y: 4.0d
 		title: "Strawberry"
 		icon: {id: "pamhc2crops:strawberryitem", Count: 1b}
-		description: ["Found growing wild in forested biomes as low berry bushes. Right-click to harvest without uprooting the plant."]
+		description: ["Strawberry bushes grow wild in forest biomes as low ground-cover plants; right-click the bush to harvest without uprooting it, then replant seeds on Rich Soil for a permanent bed.", "Strawberries are a core Pam's ingredient across jams, fruit pies, berry mixes, and smoothies — plant a large patch early, as demand across the full recipe library is high."]
 		tasks: [{
 			id: "0000000000012002"
 			type: "item"
@@ -294,7 +294,7 @@
 		y: 4.0d
 		title: "Blueberry"
 		icon: {id: "pamhc2crops:blueberryitem", Count: 1b}
-		description: ["Found in forest and taiga biomes. Plant seeds on farmland or Rich Soil for reliable yields."]
+		description: ["Blueberry bushes grow wild in forest and taiga biomes; right-click to harvest without breaking the plant, same as strawberries, and replant seeds on Rich Soil to establish a cultivated bed.", "Used in Pam's blueberry jam, muffins, pies, and mixed berry recipes — a small automated blueberry bed removes this ingredient from the manual-gathering loop entirely."]
 		tasks: [{
 			id: "0000000000012005"
 			type: "item"
@@ -312,7 +312,7 @@
 		y: 4.0d
 		title: "Raspberry"
 		icon: {id: "pamhc2crops:raspberryitem", Count: 1b}
-		description: ["A prickly bush found near forest edges. Grows fast on Rich Soil."]
+		description: ["Raspberry canes grow along forest edges and open thickets; right-click to harvest without uprooting the bush, then replant seeds on standard farmland or Rich Soil.", "Raspberries appear in Pam's berry jams, mixed fruit pies, and dessert recipes — combining them with Strawberries and Blueberries covers most of the mixed-berry recipe set."]
 		tasks: [{
 			id: "0000000000012008"
 			type: "item"
@@ -330,7 +330,7 @@
 		y: 4.0d
 		title: "Cranberry"
 		icon: {id: "pamhc2crops:cranberryitem", Count: 1b}
-		description: ["Grows wild in wet or swampy biomes. Tart flavor, essential for sauces and baked goods."]
+		description: ["Cranberry plants grow wild near wet and swampy biomes as low ground bushes; right-click to harvest without uprooting, and replant seeds on farmland close to water.", "Essential for cranberry sauce, juice, and tart baked goods in Pam's recipe library — their high sourness makes them a distinct flavor category from other berries and they cannot be substituted."]
 		tasks: [{
 			id: "000000000001200B"
 			type: "item"
@@ -348,7 +348,7 @@
 		y: 4.0d
 		title: "Blackberry"
 		icon: {id: "pamhc2crops:blackberryitem", Count: 1b}
-		description: ["Found along forest edges and thickets. Darker and sweeter than raspberry."]
+		description: ["Blackberry canes grow along forest edges and open thickets; harvest by right-clicking the bush and replant seeds on farmland to establish a permanent crop.", "Used in Pam's blackberry jam, fruit pies, and mixed berry drinks — the darker stone-fruit flavor separates them from red berries and fills out the jam and preserve recipe set."]
 		tasks: [{
 			id: "000000000001200E"
 			type: "item"
@@ -366,7 +366,7 @@
 		y: 6.0d
 		title: "Tomato"
 		icon: {id: "pamhc2crops:tomatoitem", Count: 1b}
-		description: ["A vine crop common in plains and savannah biomes. Also grown by Farmer's Delight — either version works in FD recipes."]
+		description: ["Tomato plants grow wild in plains and savannah biomes as vine crops; Pam's tomatoes and Farmer's Delight tomatoes are interchangeable in recipes, so whichever you grow first covers both mods.", "Appears in an enormous range of dishes: Pasta with Tomato Sauce, Tomato Salad, cooked Farmer's Delight preparations, and as the base for every sauce and stew that needs acidity. Grow in bulk."]
 		tasks: [{
 			id: "0000000000012011"
 			type: "item"
@@ -384,7 +384,7 @@
 		y: 6.0d
 		title: "Cucumber"
 		icon: {id: "pamhc2crops:cucumberitem", Count: 1b}
-		description: ["A trailing vine crop that grows fruit beside the stem, similar to melons."]
+		description: ["Cucumber grows as a trailing vine crop producing fruit beside the main stem block, identical to melon growth mechanics; break the fruit block at maturity, leaving the stem to continue producing.", "Used in Pam's fresh salads, pickled vegetable recipes, and cold appetizers; cucumber's mild watery flesh pairs with onion and dill in cold-preparation dishes."]
 		tasks: [{
 			id: "0000000000012014"
 			type: "item"
@@ -402,7 +402,7 @@
 		y: 6.0d
 		title: "Cantaloupe"
 		icon: {id: "pamhc2crops:cantaloupeitem", Count: 1b}
-		description: ["A large melon-like fruit that grows on a vine beside its stem block."]
+		description: ["Cantaloupe grows as a vine crop with a separate melon-block beside the stem — identical to vanilla melon growth mechanics; break the fruit block only, not the stem.", "Used in Pam's fruit salads, cold drinks, and summer desserts; the sweet orange flesh slots into melon-category recipes and pairs with citrus for smoothies and fresh bowls."]
 		tasks: [{
 			id: "0000000000012017"
 			type: "item"
@@ -420,7 +420,7 @@
 		y: 6.0d
 		title: "Watermelon"
 		icon: {id: "pamhc2crops:watermelonitem", Count: 1b}
-		description: ["Pam's take on the classic melon. Grows as a separate fruit block beside the stem."]
+		description: ["Pam's Watermelon grows identically to vanilla Minecraft melons — a stem block sprouts a separate melon block when mature; break the fruit block to harvest and leave the stem in place.", "Used in Pam's fruit drinks, smoothies, and summer salads; the high water content makes it a simple hunger filler, and it appears in several Pam's cold-preparation and drink recipes."]
 		tasks: [{
 			id: "000000000001201A"
 			type: "item"
@@ -438,7 +438,7 @@
 		y: 6.0d
 		title: "Grape"
 		icon: {id: "pamhc2crops:grapeitem", Count: 1b}
-		description: ["Grows on climbing vines on warm hillsides. Essential for wines, juices, and desserts."]
+		description: ["Grape vines grow on warm hillsides and farmland; plant seeds and the vine produces grape clusters on the plant block when fully mature.", "Used in Pam's jelly, juice, fruit salad, and wine-adjacent recipes — growing a dedicated grape bed is worthwhile because grapes appear across multiple recipe categories."]
 		tasks: [{
 			id: "000000000001201D"
 			type: "item"
@@ -456,7 +456,7 @@
 		y: 6.0d
 		title: "Zucchini"
 		icon: {id: "pamhc2crops:zucchiniitem", Count: 1b}
-		description: ["A summer squash harvested young for the best texture and flavor."]
+		description: ["Zucchini grows as a summer squash plant on standard farmland; the plant produces multiple harvests from a single stem if the fruits are picked promptly at maturity.", "Used in Pam's vegetable stir-fry, grilled vegetable dishes, and savory bread recipes; zucchini can also be processed on the Farmer's Delight Cutting Board for sliced vegetable prep."]
 		tasks: [{
 			id: "0000000000012020"
 			type: "item"
@@ -474,7 +474,7 @@
 		y: 6.0d
 		title: "Squash"
 		icon: {id: "pamhc2crops:squashitem", Count: 1b}
-		description: ["A hard autumn squash left to mature longer than zucchini. Stores well and feeds well."]
+		description: ["Squash is a hard-shelled autumn vine crop left to mature longer than zucchini; the larger fruit block signals maturity, and the dense flesh stores well without spoiling.", "Used in Pam's soups, roasted vegetable dishes, and pie-adjacent recipes; the dense flesh holds up well in slow-cooked Cooking Pot preparations alongside root vegetables."]
 		tasks: [{
 			id: "0000000000012023"
 			type: "item"
@@ -492,7 +492,7 @@
 		y: 8.0d
 		title: "Lettuce"
 		icon: {id: "pamhc2crops:lettuceitem", Count: 1b}
-		description: ["A leafy green that grows quickly in cool soil. A staple of early-game salads."]
+		description: ["Lettuce grows quickly on cool farmland; it does not need direct sky access and can be farmed in sheltered indoor setups with adequate lighting.", "The primary salad base in both Farmer's Delight and Pam's Food Core — used in Caesar Salad, Garden Salad, and most cold assembled dishes. Grow in large quantities; demand does not decrease as the recipe library expands."]
 		tasks: [{
 			id: "0000000000012026"
 			type: "item"
@@ -510,7 +510,7 @@
 		y: 8.0d
 		title: "Spinach"
 		icon: {id: "pamhc2crops:spinachitem", Count: 1b}
-		description: ["Nutrient-dense leaves harvested young for salads or cooked down in soups."]
+		description: ["Spinach grows as a fast leafy crop on standard farmland; it regrows quickly after harvest and can be farmed in tight rows for high density per block.", "Used in Pam's soups, quiche, savory pastries, and cooked vegetable dishes; Farmer's Delight uses spinach in several composite dishes as a cooked green alongside eggs and meat."]
 		tasks: [{
 			id: "0000000000012029"
 			type: "item"
@@ -528,7 +528,7 @@
 		y: 8.0d
 		title: "Kale"
 		icon: {id: "pamhc2crops:kaleitem", Count: 1b}
-		description: ["A hardy winter green, bitter raw but excellent cooked into soups and stews."]
+		description: ["Kale grows in cool to cold farmland as a hardy leafy green that tolerates poor growth conditions better than most other Pam's crops.", "Used in Pam's soups, hearty stews, and as a cooked vegetable side; the bitter raw flavor mellows when slow-cooked in the Cooking Pot, making it a reliable bulk filler crop."]
 		tasks: [{
 			id: "000000000001202C"
 			type: "item"
@@ -546,7 +546,7 @@
 		y: 8.0d
 		title: "Cabbage"
 		icon: {id: "pamhc2crops:cabbageitem", Count: 1b}
-		description: ["A large head grown on the plains. Used in Farmer's Delight recipes including Roast Chicken and Vegetable Soup."]
+		description: ["Cabbage grows as a large round head on standard farmland and can be found wild in plains biomes; it produces one head per plant but grows quickly on Rich Soil.", "A key Farmer's Delight ingredient — used in Vegetable Soup, Roast Chicken stuffing, and several stuffed dishes; it can also be fermented into Sauerkraut through Pam's Food Core recipes."]
 		tasks: [{
 			id: "000000000001202F"
 			type: "item"
@@ -564,7 +564,7 @@
 		y: 8.0d
 		title: "Broccoli"
 		icon: {id: "pamhc2crops:broccoliitem", Count: 1b}
-		description: ["Harvested for its dense green florets. Grows tall in rich, moist soil."]
+		description: ["Broccoli grows tall in rich moist farmland, producing a single large floret head per plant; harvest before the florets begin to yellow for the best yield.", "Used in Pam's vegetable stir-fry, soups, and pasta dishes; the dense green florets hold their texture in cooked applications and appear in several Pam's composite meals."]
 		tasks: [{
 			id: "0000000000012032"
 			type: "item"
@@ -582,7 +582,7 @@
 		y: 8.0d
 		title: "Celery"
 		icon: {id: "pamhc2crops:celeryitem", Count: 1b}
-		description: ["Long stalks grown in moist, cool soil. A classic soup and stew base vegetable."]
+		description: ["Celery grows as long upright stalks in moist farmland; it benefits from proximity to water and can be found wild near river and swamp biomes.", "One of the most-used base vegetables in Pam's and Farmer's Delight — celery forms the aromatic base for soups, stews, and broth-based Cooking Pot recipes. Keep a large stock at all times."]
 		tasks: [{
 			id: "0000000000012035"
 			type: "item"
@@ -600,7 +600,7 @@
 		y: 8.0d
 		title: "Asparagus"
 		icon: {id: "pamhc2crops:asparagusitem", Count: 1b}
-		description: ["Tall spears that shoot up in spring. One of the faster-growing Pam's crops."]
+		description: ["Asparagus spears shoot up as a vertical crop on farmland; they are among the faster-growing Pam's crops and produce multiple harvests per planting once established.", "Used in Pam's roasted vegetable dishes, pasta, and warm salads; asparagus works best as a side component in composite meals and pairs with lemon in cooking."]
 		tasks: [{
 			id: "0000000000012038"
 			type: "item"
@@ -618,7 +618,7 @@
 		y: 8.0d
 		title: "Artichoke"
 		icon: {id: "pamhc2crops:artichokeitem", Count: 1b}
-		description: ["A thistle-family crop with edible flower buds. Grows on the edges of plains and hills."]
+		description: ["Artichoke grows as a thistle-family plant on the edges of plains and hills biomes; the edible flower bud is harvested before fully opening for the best texture.", "Used in Pam's Mediterranean-style dishes, pasta, and savory dips; its distinct flavor unlocks a specific tier of Pam's prepared dishes that no other vegetable can substitute."]
 		tasks: [{
 			id: "000000000001203B"
 			type: "item"
@@ -636,7 +636,7 @@
 		y: 10.0d
 		title: "Onion"
 		icon: {id: "pamhc2crops:onionitem", Count: 1b}
-		description: ["A bulb crop found in plains biomes. A core ingredient in dozens of Farmer's Delight recipes."]
+		description: ["Onion bulbs grow underground in plains biomes; plant seeds on farmland and harvest the full plant when mature — seeds drop automatically for replanting.", "One of the highest-demand ingredients in Farmer's Delight: Fried Eggs, Vegetable Stew, Pasta Salad, and dozens more all call for onion. Run a large dedicated bed; demand does not taper off as the recipe library grows."]
 		tasks: [{
 			id: "000000000001203E"
 			type: "item"
@@ -654,7 +654,7 @@
 		y: 10.0d
 		title: "Garlic"
 		icon: {id: "pamhc2crops:garlicitem", Count: 1b}
-		description: ["A pungent bulb related to onion. Essential in Mediterranean and Asian dishes."]
+		description: ["Garlic grows as a bulb crop in plains and savannah farmland; each plant produces a single bulb per harvest, so volume requires a dedicated growing area.", "Used as a flavor base in Farmer's Delight sauces, pasta, and roasted meat recipes; Pam's also uses garlic in dressings, oils, and Mediterranean-style dishes. After onion, this is the most-demanded allium."]
 		tasks: [{
 			id: "0000000000012041"
 			type: "item"
@@ -672,7 +672,7 @@
 		y: 10.0d
 		title: "Ginger"
 		icon: {id: "pamhc2crops:gingeritem", Count: 1b}
-		description: ["A tropical root grown in warm soil. Used in teas, sauces, and desserts."]
+		description: ["Ginger grows as a tropical root crop in warm farmland or Rich Soil; each plant produces a single rhizome per harvest at full maturity.", "Used in Pam's teas, stir-fry sauces, and dessert spices; ginger unlocks the tea and spiced-drink recipe category when combined with Tea Leaf, and appears in several Asian-inspired Pam's dishes."]
 		tasks: [{
 			id: "0000000000012044"
 			type: "item"
@@ -690,7 +690,7 @@
 		y: 10.0d
 		title: "Chive"
 		icon: {id: "pamhc2crops:chiveitem", Count: 1b}
-		description: ["A thin grass-like allium with a mild onion flavor. Grows fast and makes a good garnish."]
+		description: ["Chive grows as a thin grass-like allium on standard farmland; it regrows after cutting and can be harvested repeatedly from a single planting.", "Used as a fresh garnish in Farmer's Delight dishes and in Pam's sour cream and chive recipes; the mild onion flavor makes it a universal finishing ingredient rather than a cooking base."]
 		tasks: [{
 			id: "0000000000012047"
 			type: "item"
@@ -708,7 +708,7 @@
 		y: 10.0d
 		title: "Leek"
 		icon: {id: "pamhc2crops:leekitem", Count: 1b}
-		description: ["A large mild allium planted in rows. The white base is the edible part."]
+		description: ["Leek grows as a tall upright allium in cool moist farmland; the white base stalk is the edible portion, harvested at full height.", "Used in Pam's Leek Soup, pot pies, and savory tarts — leek is the mild alternative to onion in slow-cooked dishes where a sweeter allium flavor is preferred."]
 		tasks: [{
 			id: "000000000001204A"
 			type: "item"
@@ -726,7 +726,7 @@
 		y: 10.0d
 		title: "Sweet Potato"
 		icon: {id: "pamhc2crops:sweetpotatoitem", Count: 1b}
-		description: ["A starchy root crop grown in warm soil. Roasts beautifully and pairs well with savory dishes."]
+		description: ["Sweet potato grows as a vine crop in warm farmland, producing a starchy root that is harvested from the plant block at full maturity.", "Used in Pam's roasted root vegetable dishes, sweet potato pie, and warming soups; the sweet dense flesh holds well in the Cooking Pot and pairs with savory and spiced ingredients."]
 		tasks: [{
 			id: "000000000001204D"
 			type: "item"
@@ -744,7 +744,7 @@
 		y: 10.0d
 		title: "Yam"
 		icon: {id: "pamhc2crops:yamitem", Count: 1b}
-		description: ["Similar to sweet potato but with tropical origins. Denser texture and earthier flavor."]
+		description: ["Yam is a denser and starchier tropical root than sweet potato; it grows in warm farmland and produces a single large tuber per plant.", "Used in Pam's stews, baked dishes, and hearty side recipes — yam provides more saturation per dish than lighter vegetables and works as a calorie-dense base in tropical-inspired meals."]
 		tasks: [{
 			id: "0000000000012050"
 			type: "item"
@@ -762,7 +762,7 @@
 		y: 10.0d
 		title: "Turnip"
 		icon: {id: "pamhc2crops:turnipitem", Count: 1b}
-		description: ["A cold-hardy root crop that thrives where other crops struggle. Both the root and greens are edible."]
+		description: ["Turnip grows as a cold-hardy root crop in any farmland type; it tolerates poor soil and will produce where other vegetables struggle in tundra-adjacent biomes.", "Used in Pam's peasant soups, roasted root vegetable medleys, and traditional stews; both the root and the leaves are edible, giving this crop dual utility in food preparation."]
 		tasks: [{
 			id: "0000000000012053"
 			type: "item"
@@ -780,7 +780,7 @@
 		y: 10.0d
 		title: "Rhubarb"
 		icon: {id: "pamhc2crops:rhubarbitem", Count: 1b}
-		description: ["Only the stalk is edible — the leaves are toxic. Grows in cool soil and tastes best in pies."]
+		description: ["Rhubarb grows in cool farmland as a large-leafed plant; harvest only the stalks — the leaves are toxic and serve no recipe purpose.", "A pastry and jam specialty crop: Pam's rhubarb pie, strawberry-rhubarb jam, and fruit compotes all require rhubarb for their signature tart flavor. Pairs almost exclusively with sweet ingredients."]
 		tasks: [{
 			id: "0000000000012056"
 			type: "item"
@@ -798,7 +798,7 @@
 		y: 12.0d
 		title: "Bell Pepper"
 		icon: {id: "pamhc2crops:bellpepperitem", Count: 1b}
-		description: ["A sweet pepper that grows upright in warm soil. No heat — all color and crunch."]
+		description: ["Bell pepper grows upright on warm farmland as a multi-harvest plant; the fruit ripens through green to red but can be harvested at any stage.", "Used in Farmer's Delight stuffed pepper dishes, stir-fry, and roasted vegetable medleys; Pam's uses bell pepper in several salads and hot dishes where sweetness and color are needed."]
 		tasks: [{
 			id: "0000000000012059"
 			type: "item"
@@ -816,7 +816,7 @@
 		y: 12.0d
 		title: "Pepper"
 		icon: {id: "pamhc2crops:pepperitem", Count: 1b}
-		description: ["A hot chili-style pepper. Used in spiced meals and sauces throughout Farmer's Delight."]
+		description: ["Hot chili pepper grows in warm farmland as a heat-tolerant plant that produces multiple harvests per stem; growth is faster on Rich Soil.", "Used in Pam's hot sauces, spiced dishes, and chili-adjacent recipes; Farmer's Delight uses pepper in spiced marinades and salsas. Unlocks a distinct tier of spiced meal recipes."]
 		tasks: [{
 			id: "000000000001205C"
 			type: "item"
@@ -834,7 +834,7 @@
 		y: 12.0d
 		title: "Eggplant"
 		icon: {id: "pamhc2crops:eggplantitem", Count: 1b}
-		description: ["A large purple fruit grown on bushes in warm soil. Rich and meaty when cooked."]
+		description: ["Eggplant grows as a large purple fruit on bush-like plants in warm farmland; it produces multiple fruits per plant and prefers sun and Rich Soil.", "Used in Pam's Mediterranean-style dishes, pasta sauces, and grilled preparations; the dense meaty flesh holds its texture when cooked and substitutes for meat in several vegetarian Pam's meals."]
 		tasks: [{
 			id: "000000000001205F"
 			type: "item"
@@ -852,7 +852,7 @@
 		y: 12.0d
 		title: "Okra"
 		icon: {id: "pamhc2crops:okraitem", Count: 1b}
-		description: ["A warm-weather pod vegetable. Naturally thickens soups and stews when cooked."]
+		description: ["Okra grows as a tall warm-weather pod plant in standard farmland; harvest the pods young — overripe pods become fibrous and lose their culinary value.", "The mucilaginous interior naturally thickens soups and stews when cooked, making okra indispensable in Pam's gumbo-style dishes; it also appears in pickled and fried vegetable recipes."]
 		tasks: [{
 			id: "0000000000012062"
 			type: "item"
@@ -870,7 +870,7 @@
 		y: 12.0d
 		title: "Bean"
 		icon: {id: "pamhc2crops:beanitem", Count: 1b}
-		description: ["Grows as a climbing vine. High in protein and a staple of hearty stews."]
+		description: ["Bean grows as a climbing vine on farmland; high yield per plot and fast regrowth make it one of the most efficient protein crops available.", "Farmer's Delight uses beans in Bean Stew, a high-saturation dish, and Pam's uses them in soups, casseroles, and protein-dense composite meals. Keep a large bean bed running continuously."]
 		tasks: [{
 			id: "0000000000012065"
 			type: "item"
@@ -888,7 +888,7 @@
 		y: 12.0d
 		title: "Pea"
 		icon: {id: "pamhc2crops:peaitem", Count: 1b}
-		description: ["A cool-weather pod crop. Sweet when young, starchy when left to mature."]
+		description: ["Pea grows as a cool-weather pod crop on standard farmland; the tender pods are harvested young for snap peas, or left to mature for dried peas used in cooking.", "Used in Farmer's Delight pot pies, pea soup, and spring dishes; Pam's uses peas in salads, purees, and alongside other legumes in hearty composite meals."]
 		tasks: [{
 			id: "0000000000012068"
 			type: "item"
@@ -906,7 +906,7 @@
 		y: 12.0d
 		title: "Peanut"
 		icon: {id: "pamhc2crops:peanutitem", Count: 1b}
-		description: ["Technically a legume, not a nut. Grows underground — harvest the whole plant."]
+		description: ["Peanut grows as a ground-level legume whose pods develop underground; harvest the full plant at maturity rather than individual fruits.", "Processed in Pam's Grinder into peanut butter, which then feeds into sauces, cookies, and confections; also used raw in trail mix and snack recipes. The Grinder is the required processing step."]
 		tasks: [{
 			id: "000000000001206B"
 			type: "item"
@@ -924,7 +924,7 @@
 		y: 12.0d
 		title: "Soybean"
 		icon: {id: "pamhc2crops:soybeanitem", Count: 1b}
-		description: ["A versatile legume with many processed forms. High yield per plot."]
+		description: ["Soybean grows as a compact bush crop on standard farmland; high yield per plot and fast regrowth make it one of the most efficient protein crops in the field.", "A highly versatile processing crop — Pam's converts soybeans into tofu, soy milk, soy sauce, and edamame through the Grinder and Juicer. Multiple distinct end products make a dedicated soybean farm a high-value investment."]
 		tasks: [{
 			id: "000000000001206E"
 			type: "item"
@@ -942,7 +942,7 @@
 		y: 12.0d
 		title: "Mung Bean"
 		icon: {id: "pamhc2crops:mungbeanitem", Count: 1b}
-		description: ["A small green legume central to many Asian dishes. Fast-growing and prolific."]
+		description: ["Mung bean grows as a fast compact legume on standard farmland; it matures quickly and can be rotated frequently between harvests for continuous production.", "Used in Pam's Asian-inspired dishes, sprout recipes, and dhal-style curries; the small green bean is a staple in vegetarian cooking recipes and pairs with rice in multiple Pam's composite dishes."]
 		tasks: [{
 			id: "0000000000012071"
 			type: "item"
@@ -960,7 +960,7 @@
 		y: 14.0d
 		title: "Corn"
 		icon: {id: "pamhc2crops:cornitem", Count: 1b}
-		description: ["A tall stalk crop that produces ears of grain. One of the most filling staple crops."]
+		description: ["Corn grows as a tall multi-block stalk crop on farmland; each stalk produces one ear at the top — break the top block to harvest, leaving the base stalk in place.", "Ground into cornmeal in Pam's Grinder for cornbread, tortillas, and porridge; also eaten directly on the cob. One of the most calorie-dense staple crops in the pack."]
 		tasks: [{
 			id: "0000000000012074"
 			type: "item"
@@ -978,7 +978,7 @@
 		y: 14.0d
 		title: "Barley"
 		icon: {id: "pamhc2crops:barleyitem", Count: 1b}
-		description: ["A cereal grain used in breads and brewing. Grows well in cool, damp conditions."]
+		description: ["Barley grows as a cereal grain crop on cool moist farmland; it matures faster than wheat and tolerates lower-quality soil with good yield.", "Milled into flour in Pam's Grinder for bread and baked goods; also the primary grain for brewing when combined with Hops. Used in Pam's Barley Soup and as a porridge base."]
 		tasks: [{
 			id: "0000000000012077"
 			type: "item"
@@ -996,7 +996,7 @@
 		y: 14.0d
 		title: "Oat"
 		icon: {id: "pamhc2crops:oatitem", Count: 1b}
-		description: ["A hardy grain that grows in cooler climates where wheat struggles."]
+		description: ["Oat grows as a hardy cereal grain in cool farmland where wheat struggles; it tolerates shorter growing seasons and lower-quality soil with reliable output.", "Milled in Pam's Grinder into rolled oats for porridge, granola, and oat-based baked goods; oats also appear in savory dishes and as a thickener for Cooking Pot soups."]
 		tasks: [{
 			id: "000000000001207A"
 			type: "item"
@@ -1014,7 +1014,7 @@
 		y: 14.0d
 		title: "Rye"
 		icon: {id: "pamhc2crops:ryeitem", Count: 1b}
-		description: ["A grain that grows in poor soil better than wheat. A survivor's staple."]
+		description: ["Rye grows in poor soil conditions that would fail other grain crops; it tolerates cold, low-nutrient farmland and is a reliable backup grain when other crops are scarce.", "Ground into dark rye flour in Pam's Grinder for dark bread, crackers, and traditional savory recipes; rye flour lends a hearty flavor not achievable with wheat or corn."]
 		tasks: [{
 			id: "000000000001207D"
 			type: "item"
@@ -1032,7 +1032,7 @@
 		y: 14.0d
 		title: "Quinoa"
 		icon: {id: "pamhc2crops:quinoaitem", Count: 1b}
-		description: ["A high-protein pseudo-grain from the Andes. Grows in most soil types."]
+		description: ["Quinoa grows as a bushy pseudo-grain crop on standard farmland; it is not a true cereal but processes identically and grows in most soil types without special conditions.", "A high-protein grain substitute in Pam's recipes — used in grain bowls, salads, and as a wheat-flour alternative in several baked goods. The complete amino acid profile makes it a top-tier nutrition crop."]
 		tasks: [{
 			id: "0000000000012080"
 			type: "item"
@@ -1050,7 +1050,7 @@
 		y: 14.0d
 		title: "Rice"
 		icon: {id: "pamhc2crops:riceitem", Count: 1b}
-		description: ["A grain that grows best in wet or flooded fields. The base of countless cooked dishes."]
+		description: ["Rice grows best in wet or flooded fields — plant seeds adjacent to water or on naturally moist farmland near rivers and swamps for optimal yield.", "The base starch for dozens of Pam's dishes: rice bowls, congee, risotto, and fried rice; also consumed directly as cooked rice. After wheat, rice is the highest-demand grain in the Pam's recipe library."]
 		tasks: [{
 			id: "0000000000012083"
 			type: "item"
@@ -1068,7 +1068,7 @@
 		y: 14.0d
 		title: "Sesame"
 		icon: {id: "pamhc2crops:sesameitem", Count: 1b}
-		description: ["Tiny seeds harvested from tall pod plants. Used as a topping and pressed into oil."]
+		description: ["Sesame grows as a tall pod plant in warm farmland; the seeds are harvested from dried pods after the plant reaches full maturity.", "Processed in Pam's Grinder or Roller into sesame oil and sesame paste; used whole as a topping for baked goods and incorporated into sauces and Asian-style recipes."]
 		tasks: [{
 			id: "0000000000012086"
 			type: "item"
@@ -1086,7 +1086,7 @@
 		y: 14.0d
 		title: "Mustard"
 		icon: {id: "pamhc2crops:mustarditem", Count: 1b}
-		description: ["Yellow seeds used as a spice and condiment. Easy to grow on most farmland."]
+		description: ["Mustard grows as a fast-maturing seed plant on most farmland types; yellow-flowering and prolific, it seeds easily and requires minimal management.", "Ground in Pam's Grinder into mustard powder for condiments; also used whole in pickling recipes and as a spice in dressings, rubs, and savory dishes. A low-effort, high-utility spice crop."]
 		tasks: [{
 			id: "0000000000012089"
 			type: "item"
@@ -1104,7 +1104,7 @@
 		y: 16.0d
 		title: "Cotton"
 		icon: {id: "pamhc2crops:cottonitem", Count: 1b}
-		description: ["Grows a white boll of soft fiber used in cloth and string recipes."]
+		description: ["Cotton grows as a flowering plant on warm farmland; the white bolls appear when the plant matures and can be harvested without breaking the stem.", "Provides String as a craftable byproduct, substituting for spider silk in cloth and crafting recipes; also used in Pam's textile-adjacent items for rope, cloth, and fabric."]
 		tasks: [{
 			id: "000000000001208C"
 			type: "item"
@@ -1122,7 +1122,7 @@
 		y: 16.0d
 		title: "Hops"
 		icon: {id: "pamhc2crops:hopsitem", Count: 1b}
-		description: ["A climbing vine whose cone-shaped flowers are used in brewing."]
+		description: ["Hops grow as a tall climbing vine on warm farmland; the cone-shaped flowers are the harvestable portion, appearing at the top of the plant when fully mature.", "Combined with Barley in Pam's brewing recipes to produce beer and ale; hops also appear in fermentation-adjacent recipes for mead. Grow in pairs with a Barley bed for a complete brewing operation."]
 		tasks: [{
 			id: "000000000001208F"
 			type: "item"
@@ -1140,7 +1140,7 @@
 		y: 16.0d
 		title: "Coffee"
 		icon: {id: "pamhc2crops:coffeeitem", Count: 1b}
-		description: ["Tropical red coffee cherries that become roasted beans when processed. Needs warm soil."]
+		description: ["Coffee grows as a tropical cherry-producing plant in warm farmland; the red cherries must be processed after harvest — they provide no benefit raw.", "Processed in Pam's Food Core tools into coffee grounds for brewed coffee and caffeinated drinks; also appears in dessert recipes like tiramisu and mocha-flavored confections."]
 		tasks: [{
 			id: "0000000000012092"
 			type: "item"
@@ -1158,7 +1158,7 @@
 		y: 16.0d
 		title: "Tea Leaf"
 		icon: {id: "pamhc2crops:tealeafitem", Count: 1b}
-		description: ["Fresh leaves dried on a Farmer's Respite Drying Rack and steeped in a Tea Kettle."]
+		description: ["Tea Leaf grows as a tropical shrub on warm farmland; harvest the leaves at full plant height for the best yield.", "Dried on a Farmer's Respite Drying Rack first, then steeped in a Tea Kettle for brewed tea; various tea blends are made by combining dried leaves with Ginger, Vanilla, and other crops."]
 		tasks: [{
 			id: "0000000000012095"
 			type: "item"
@@ -1176,7 +1176,7 @@
 		y: 16.0d
 		title: "Vanilla"
 		icon: {id: "pamhc2crops:vanillaitem", Count: 1b}
-		description: ["A tropical climbing orchid with edible pods. One of the rarest and most flavorful crops."]
+		description: ["Vanilla is a tropical climbing orchid grown on warm farmland; it is one of the slower-maturing Pam's crops but produces a flavor ingredient unavailable elsewhere.", "A key dessert crop — used in Pam's cakes, ice cream, custard, and baked goods where no substitute exists; the extract also appears in spiced drink recipes."]
 		tasks: [{
 			id: "0000000000012098"
 			type: "item"
@@ -1194,7 +1194,7 @@
 		y: 16.0d
 		title: "Seaweed"
 		icon: {id: "pamhc2crops:seaweeditem", Count: 1b}
-		description: ["Grows underwater — plant it on the ocean or river floor and harvest when fully grown."]
+		description: ["Seaweed grows on the ocean or river floor — plant it on underwater gravel or sand and harvest when the plant reaches full height; no surface farming required.", "Used in Pam's East Asian-inspired dishes, noodle soups, and food-preservation recipes; seaweed is also used in drying and mineral-ingredient applications in Pam's Food Core."]
 		tasks: [{
 			id: "000000000001209B"
 			type: "item"
@@ -1212,7 +1212,7 @@
 		y: 16.0d
 		title: "White Mushroom"
 		icon: {id: "pamhc2crops:whitemushroomitem", Count: 1b}
-		description: ["A cultivated mushroom that grows in dark, damp spaces. No sunlight needed."]
+		description: ["White Mushroom cultivates in dark damp spaces — plant spores on dirt or mycelium underground or in unlit rooms, no skylight access needed.", "A cooking staple: used in Pam's mushroom soup, quiche, risotto, omelets, and pasta; also usable as a vanilla mushroom substitute. Grow them in your base basement for a perpetual supply."]
 		tasks: [{
 			id: "000000000001209E"
 			type: "item"
@@ -1230,7 +1230,7 @@
 		y: 18.0d
 		title: "Orange"
 		icon: {id: "pamhc2trees:orangeitem", Count: 1b}
-		description: ["Plant an orange sapling and wait for the tree to mature. Fruit grows on the leaf blocks and drops when broken."]
+		description: ["Orange trees are grown from saplings and produce fruit on their leaf blocks when the tree matures; break leaf blocks at harvest time and replant saplings to maintain the grove.", "Used in Pam's fresh juices, marmalade, citrus salads, and dessert glazes; orange zest and juice appear across both savory and sweet recipe categories, making a small orchard a high-value investment."]
 		tasks: [{
 			id: "00000000000120A1"
 			type: "item"
@@ -1248,7 +1248,7 @@
 		y: 18.0d
 		title: "Lemon"
 		icon: {id: "pamhc2trees:lemonitem", Count: 1b}
-		description: ["Tart citrus fruit grown on a small tree. Harvested from leaf blocks as the tree matures."]
+		description: ["Lemon trees grow from saplings into small fruit-bearing trees; harvest from the leaf blocks and replant saplings to maintain the orchard.", "Lemon juice and zest are among the most-used flavor agents in Pam's baking and cooking — used in lemon pie, lemon curd, vinaigrettes, marinades, and as an acid agent in preserves."]
 		tasks: [{
 			id: "00000000000120A4"
 			type: "item"
@@ -1266,7 +1266,7 @@
 		y: 18.0d
 		title: "Lime"
 		icon: {id: "pamhc2trees:limeitem", Count: 1b}
-		description: ["Smaller and more acidic than lemon. A key citrus in tropical recipes."]
+		description: ["Lime trees grow identically to lemon trees; plant the sapling, wait for maturation, and harvest fruit from the leaf blocks when the tree is fully grown.", "Smaller and more acidic than lemon — used in Pam's tropical drinks, dressings, key lime pie, and dishes where lemon would be too mild; a distinct flavor profile that does not substitute well."]
 		tasks: [{
 			id: "00000000000120A7"
 			type: "item"
@@ -1284,7 +1284,7 @@
 		y: 18.0d
 		title: "Grapefruit"
 		icon: {id: "pamhc2trees:grapefruititem", Count: 1b}
-		description: ["A large bitter citrus grown on tall trees. Excellent for juices and preserves."]
+		description: ["Grapefruit trees grow into tall fruit-bearing trees from saplings; the large bitter fruits grow on outer leaf blocks and drop when those blocks are broken at harvest.", "Used in Pam's fresh juices, breakfast dishes, and citrus preserves; the bitter edge of grapefruit is a distinct profile from sweet citrus and appears in specific Pam's recipes."]
 		tasks: [{
 			id: "00000000000120AA"
 			type: "item"
@@ -1302,7 +1302,7 @@
 		y: 18.0d
 		title: "Tangerine"
 		icon: {id: "pamhc2trees:tangerineitem", Count: 1b}
-		description: ["A sweet easy-peel citrus that grows on compact trees."]
+		description: ["Tangerine trees grow as compact fruit-bearing trees from saplings; fruits appear on leaf blocks at maturity, same as all Pam's tree crops.", "The sweetest of the five citrus trees — used in Pam's easy-peel citrus dishes, fruit salads, and desserts; tangerine zest appears in specific baking recipes where lemon would be too tart."]
 		tasks: [{
 			id: "00000000000120AD"
 			type: "item"
@@ -1320,7 +1320,7 @@
 		y: 20.0d
 		title: "Apricot"
 		icon: {id: "pamhc2trees:apricotitem", Count: 1b}
-		description: ["A stone fruit that ripens early in summer. Tart and sweet, excellent for jams."]
+		description: ["Apricot trees grow from saplings into standard fruit trees; fruits appear on leaf blocks when the tree matures and drop on block break.", "Used in Pam's jams, preserves, tarts, and dried fruit recipes; the balance of sweetness and tartness makes apricot one of the most versatile stone fruits in baking and jam production."]
 		tasks: [{
 			id: "00000000000120B0"
 			type: "item"
@@ -1338,7 +1338,7 @@
 		y: 20.0d
 		title: "Peach"
 		icon: {id: "pamhc2trees:peachitem", Count: 1b}
-		description: ["A juicy stone fruit with fuzzy skin. One of the most flavorful summer fruits."]
+		description: ["Peach trees grow identically to other Pam's tree crops; plant the sapling, wait for full tree growth, and harvest fruit from the leaf blocks at maturity.", "Used in Pam's cobblers, jams, ice cream, and grilled fruit dishes; peach is one of the highest-demand stone fruits in the recipe library and pairs with vanilla and cream in most dessert applications."]
 		tasks: [{
 			id: "00000000000120B3"
 			type: "item"
@@ -1356,7 +1356,7 @@
 		y: 20.0d
 		title: "Plum"
 		icon: {id: "pamhc2trees:plumitem", Count: 1b}
-		description: ["A tart-sweet stone fruit. Dries well into prunes for long storage."]
+		description: ["Plum trees grow from saplings into small to medium fruit trees; harvest from leaf blocks and replant saplings to maintain the orchard across multiple harvest cycles.", "Used in Pam's plum jam, compotes, and dried prune recipes; the high sugar content makes plum excellent for preserves, and the dried form stores well in bulk storage."]
 		tasks: [{
 			id: "00000000000120B6"
 			type: "item"
@@ -1374,7 +1374,7 @@
 		y: 20.0d
 		title: "Cherry"
 		icon: {id: "pamhc2trees:cherryitem", Count: 1b}
-		description: ["Small stone fruits that grow in clusters on ornamental trees."]
+		description: ["Cherry trees grow as ornamental fruit-bearing trees from saplings; the small stone fruits cluster on leaf blocks and are harvested in large quantities per mature tree.", "Used in Pam's cherry pie, compote, fruit bowls, and chocolate cherry desserts; cherry also appears in fermented syrup and preserve recipes for drinks and sauces."]
 		tasks: [{
 			id: "00000000000120B9"
 			type: "item"
@@ -1392,7 +1392,7 @@
 		y: 20.0d
 		title: "Pear"
 		icon: {id: "pamhc2trees:pearitem", Count: 1b}
-		description: ["A mild, sweet stone fruit. Grows on tall trees with dense foliage."]
+		description: ["Pear trees grow from saplings into tall dense-foliage trees; the mild sweet fruits appear on leaf blocks at maturity and harvest in bulk from a small grove.", "Used in Pam's pear desserts, poached pear dishes, preserves, and savory pairing recipes; pear's mild flavor makes it versatile across both sweet and savory Pam's categories."]
 		tasks: [{
 			id: "00000000000120BC"
 			type: "item"
@@ -1410,7 +1410,7 @@
 		y: 20.0d
 		title: "Persimmon"
 		icon: {id: "pamhc2trees:persimmonitem", Count: 1b}
-		description: ["An orange autumn fruit that grows on tall trees. Astringent until fully ripe."]
+		description: ["Persimmon trees grow from saplings into tall autumn-fruiting trees; the orange fruits appear on leaf blocks when mature and should be harvested promptly.", "Used in Pam's dried fruit preparations, jams, and autumn-themed baked goods; the unusual sweet-astringent flavor unlocks recipes not accessible with common fruits."]
 		tasks: [{
 			id: "00000000000120BF"
 			type: "item"
@@ -1428,7 +1428,7 @@
 		y: 20.0d
 		title: "Fig"
 		icon: {id: "pamhc2trees:figitem", Count: 1b}
-		description: ["A sweet interior fruit with a tough exterior skin. Grows on short, wide trees."]
+		description: ["Fig trees grow as short wide-crowned trees from saplings; the soft fruit grows on leaf blocks and drops easily when broken — harvest regularly to avoid waste.", "Used in Pam's fig jam, pastry filling, and Mediterranean-style desserts; fig is one of the most calorie-dense fruits in the recipe library and pairs with honey and nuts."]
 		tasks: [{
 			id: "00000000000120C2"
 			type: "item"
@@ -1446,7 +1446,7 @@
 		y: 20.0d
 		title: "Date"
 		icon: {id: "pamhc2trees:dateitem", Count: 1b}
-		description: ["A sweet palm fruit that dries naturally. One of the densest natural foods."]
+		description: ["Date palms grow as tall narrow trees from saplings in warm farmland; the dense fruit clusters appear on the leaf layer at maturity and produce in large quantities.", "One of the most energy-dense natural foods in Pam's recipes — dates are used in energy bars, dessert sweeteners, and North African-inspired dishes; they store well as a preserved dry food."]
 		tasks: [{
 			id: "00000000000120C5"
 			type: "item"
@@ -1464,7 +1464,7 @@
 		y: 22.0d
 		title: "Banana"
 		icon: {id: "pamhc2trees:bananaitem", Count: 1b}
-		description: ["A tropical fruit grown on large herbaceous plants rather than true trees."]
+		description: ["Banana plants grow from saplings as tall multi-leaf structures; the fruit appears at the top of the plant on the leaf layer and harvests in large bunches.", "Used in Pam's smoothies, banana bread, tropical fruit salads, and desserts; the high saturation value makes banana one of the most efficient raw snack fruits in the pack."]
 		tasks: [{
 			id: "00000000000120C8"
 			type: "item"
@@ -1482,7 +1482,7 @@
 		y: 22.0d
 		title: "Mango"
 		icon: {id: "pamhc2trees:mangoitem", Count: 1b}
-		description: ["A large tropical stone fruit with intensely sweet, fibrous flesh."]
+		description: ["Mango trees grow from saplings into large canopy trees; the large stone fruits appear on leaf blocks at maturity.", "Used in Pam's tropical smoothies, chutney, salsa, and desserts; mango chutney and fresh mango slices appear in several Indian and Southeast Asian-inspired composite dishes in Pam's Food Core."]
 		tasks: [{
 			id: "00000000000120CB"
 			type: "item"
@@ -1500,7 +1500,7 @@
 		y: 22.0d
 		title: "Papaya"
 		icon: {id: "pamhc2trees:papayaitem", Count: 1b}
-		description: ["A large tropical fruit with bright orange flesh and black seeds."]
+		description: ["Papaya trees grow from saplings into tall single-trunk plants; the large orange-fleshed fruits cluster on the upper trunk at leaf level.", "Used in Pam's tropical salads, smoothies, and fermented condiment recipes; papaya contains natural enzymes that tenderize meat in certain Pam's marinade recipes, making it functionally useful beyond raw eating."]
 		tasks: [{
 			id: "00000000000120CE"
 			type: "item"
@@ -1518,7 +1518,7 @@
 		y: 22.0d
 		title: "Coconut"
 		icon: {id: "pamhc2trees:coconutitem", Count: 1b}
-		description: ["A palm fruit with a hard shell, white flesh, and sweet liquid inside."]
+		description: ["Coconut palms grow from saplings into tall trees; the large fruits appear on the leaf crown and drop when leaf blocks are broken.", "A multi-product crop — Pam's Juicer extracts coconut milk for curries and desserts, and the Roller produces coconut cream and shredded coconut for baking; coconut appears in more Pam's recipe categories than any other tropical fruit."]
 		tasks: [{
 			id: "00000000000120D1"
 			type: "item"
@@ -1536,7 +1536,7 @@
 		y: 22.0d
 		title: "Pineapple"
 		icon: {id: "pamhc2trees:pineappleitem", Count: 1b}
-		description: ["A tropical bromeliad fruit with a spiky crown. Slow-growing but worth the wait."]
+		description: ["Pineapple grows from saplings as a slow bromeliad plant; the spiky crown fruit appears at the top of the plant at full maturity — slow but high-yield when grown in Rich Soil.", "Used in Pam's tropical drinks, marinades, and upside-down cake; the balance of acidity and sweetness makes pineapple versatile across both savory and dessert recipe categories."]
 		tasks: [{
 			id: "00000000000120D4"
 			type: "item"
@@ -1554,7 +1554,7 @@
 		y: 22.0d
 		title: "Avocado"
 		icon: {id: "pamhc2trees:avocadoitem", Count: 1b}
-		description: ["A creamy green fruit grown in warm climates. Rich in healthy fats."]
+		description: ["Avocado trees grow from saplings into standard-size fruit trees; the dark-skinned fruits appear on leaf blocks and harvest in moderate quantities per tree.", "A rich fat-source crop — used in Pam's guacamole, avocado toast, tropical salads, and as a creamy ingredient in sauces and dips; avocado's high saturation-per-item value makes it a worthwhile orchard crop."]
 		tasks: [{
 			id: "00000000000120D7"
 			type: "item"
@@ -1572,7 +1572,7 @@
 		y: 22.0d
 		title: "Guava"
 		icon: {id: "pamhc2trees:guavaitem", Count: 1b}
-		description: ["A small tropical fruit with sweet pink flesh and hard seeds."]
+		description: ["Guava trees grow from saplings into compact fruit-bearing trees; the small pink-fleshed fruits appear on leaf blocks at maturity in higher quantities than most tree fruits.", "Used in Pam's guava jam, tropical juice, and fruit bowl recipes; the strong floral-sweet flavor unlocks specific tropical dessert and drink recipes in Pam's Food Core."]
 		tasks: [{
 			id: "00000000000120DA"
 			type: "item"
@@ -1590,7 +1590,7 @@
 		y: 22.0d
 		title: "Lychee"
 		icon: {id: "pamhc2trees:lycheeitem", Count: 1b}
-		description: ["A small tropical fruit with translucent white flesh under a rough red skin."]
+		description: ["Lychee trees grow from saplings into small to medium tropical trees; the small rough-skinned red fruits cluster on leaf blocks and harvest in large numbers.", "Used in Pam's tropical drinks, fruit bowls, and sweet lychee desserts; the translucent white flesh has a distinct floral sweetness that separates it from other tropical fruits in recipes."]
 		tasks: [{
 			id: "00000000000120DD"
 			type: "item"
@@ -1608,7 +1608,7 @@
 		y: 22.0d
 		title: "Starfruit"
 		icon: {id: "pamhc2trees:starfruititem", Count: 1b}
-		description: ["A crisp tropical fruit with a distinctive star cross-section when sliced."]
+		description: ["Starfruit trees grow from saplings into medium tropical trees; the distinctive star-cross-section fruits appear on leaf blocks and are easily identified at harvest.", "Used in Pam's tropical fruit salads, drinks, and fresh garnish dishes; the star-shaped slice is the primary garnish fruit in the recipe library, appearing in several tropical drink and dessert presentations."]
 		tasks: [{
 			id: "00000000000120E0"
 			type: "item"
@@ -1626,7 +1626,7 @@
 		y: 24.0d
 		title: "Almond"
 		icon: {id: "pamhc2trees:almonditem", Count: 1b}
-		description: ["A tree nut harvested from relatives of stone fruit trees. Delicate blossoms in spring."]
+		description: ["Almond trees grow from saplings as medium-sized ornamental fruit trees; the nuts develop inside hard drupes on the leaf layer and are harvested when the outer fruit dries.", "Used in Pam's baking as whole almonds and sliced in pastries, and processed in the Grinder into almond flour or blended into almond milk; a high-calorie crop with broad recipe coverage."]
 		tasks: [{
 			id: "00000000000120E3"
 			type: "item"
@@ -1644,7 +1644,7 @@
 		y: 24.0d
 		title: "Chestnut"
 		icon: {id: "pamhc2trees:chestnutitem", Count: 1b}
-		description: ["A starchy nut that falls in autumn, encased in a spiky shell."]
+		description: ["Chestnut trees grow from saplings into large broad-canopy trees; the spiky-shelled nuts fall from leaf blocks in autumn and produce in large quantities per mature tree.", "Roasted chestnuts are a direct food source; in Pam's they appear in stuffing, winter soups, and chestnut flour for baking; the starchy dense nut is one of the most calorie-rich tree crops."]
 		tasks: [{
 			id: "00000000000120E6"
 			type: "item"
@@ -1662,7 +1662,7 @@
 		y: 24.0d
 		title: "Nutmeg"
 		icon: {id: "pamhc2trees:nutmegitem", Count: 1b}
-		description: ["A spice seed grown inside a tropical fruit. One of the rarer tree crops."]
+		description: ["Nutmeg trees grow from saplings in warm farmland as medium tropical trees; the spice is the seed inside the outer fruit, harvested from leaf blocks at maturity.", "Ground in Pam's Grinder into nutmeg spice for baked goods, spiced drinks, sauces, and holiday recipes; nutmeg appears in any Pam's recipe requiring a warm spice, often alongside cinnamon."]
 		tasks: [{
 			id: "00000000000120E9"
 			type: "item"
@@ -1680,7 +1680,7 @@
 		y: 24.0d
 		title: "Olive"
 		icon: {id: "pamhc2trees:oliveitem", Count: 1b}
-		description: ["A small oil-rich Mediterranean fruit. Ancient trees grow slowly but yield abundantly."]
+		description: ["Olive trees grow from saplings as slow-growing Mediterranean trees that are among the longer-maturing Pam's tree crops; the small oil-rich fruits appear on leaf blocks and yield abundantly once mature.", "Processed in Pam's Roller into olive oil used as a cooking fat across a wide range of recipes; whole olives also appear in Mediterranean-style dishes, salads, and preserved olive preparations."]
 		tasks: [{
 			id: "00000000000120EC"
 			type: "item"
@@ -1698,7 +1698,7 @@
 		y: 24.0d
 		title: "Mulberry"
 		icon: {id: "pamhc2trees:mulberryitem", Count: 1b}
-		description: ["Small clustered berries on a large, fast-growing tree. Sweet and slightly tart."]
+		description: ["Mulberry trees grow from saplings as fast-growing fruit trees; the small berry clusters appear across the full canopy on leaf blocks and yield heavily.", "Used in Pam's mulberry jam, berry pies, and dried fruit recipes; the fast growth rate makes mulberry one of the most accessible tree fruits for early automated orchard production."]
 		tasks: [{
 			id: "00000000000120EF"
 			type: "item"
@@ -1716,7 +1716,7 @@
 		y: 24.0d
 		title: "Pomegranate"
 		icon: {id: "pamhc2trees:pomegranateitem", Count: 1b}
-		description: ["A hard-skinned fruit filled with hundreds of ruby-red seed arils."]
+		description: ["Pomegranate trees grow from saplings as medium shrub-like trees; the hard-skinned fruits appear on leaf blocks and are harvested at full maturity.", "The seed arils and juice are used in Pam's fruit syrup, antioxidant-rich beverages, and dessert garnish dishes; pomegranate molasses unlocks a distinct category of sweet-tart Pam's sauces."]
 		tasks: [{
 			id: "00000000000120F2"
 			type: "item"
@@ -1734,7 +1734,7 @@
 		y: 24.0d
 		title: "Kiwi"
 		icon: {id: "pamhc2trees:kiwiitem", Count: 1b}
-		description: ["A fuzzy vine fruit with bright green flesh and tiny black seeds."]
+		description: ["Kiwi grows as a vine-fruiting plant from saplings; the fuzzy brown fruits with bright green interior appear on leaf blocks when the plant matures.", "Used in Pam's tropical fruit tarts, smoothies, and fresh salad dishes; kiwi's natural enzyme tenderizes meat in marinades, giving it a functional role in savory cooking beyond dessert applications."]
 		tasks: [{
 			id: "00000000000120F5"
 			type: "item"

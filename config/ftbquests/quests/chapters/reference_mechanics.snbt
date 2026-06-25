@@ -85,7 +85,7 @@
 		icon: {id: "gtceu:mv_machine_hull", Count: 1b}
 		description: ["GregTech machines are organized by voltage tier: ULV, LV, MV, HV, EV, IV, LuV, ZPM, UV, UHV. Each tier roughly quadruples machine speed and capacity. A machine running at its rated voltage processes one recipe per normal interval. Running a machine at double voltage (overvolting with one tier above) doubles speed but increases power draw by four. Each tier requires a specific machine hull crafted from a tier-appropriate material.", "The hull material is always gated by either a combat kill or a previous machine tier's output. LV uses Iron (gated by passing tutorial). MV uses Steel (requires iron casting). HV uses Stainless Steel (requires EBF). EV uses Titanium (requires Vacuum Freezer). IV uses Tungsten (gated by Snow Queen boss). LuV uses Rhodium-Plated Palladium (requires Platinum group processing and Assembly Line). UV uses Neutronium (requires UV Fusion Reactor)."]
 		tasks: [{
-			id: "0000000020A0012"
+			id: "000000000020A012"
 			type: "checkmark"
 			title: "Read the GT voltage tier overview"
 		}]

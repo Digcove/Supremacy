@@ -84,7 +84,7 @@
 		icon: {id: "gtceu:ev_machine_hull", Count: 1b}
 		description: ["EV (Extreme Voltage) gates behind the Hydra boss kill in the Twilight Forest. The EV hull requires Titanium — produced via the ilmenite or rutile reduction chain in the Vacuum Freezer. Titanium processing requires HV machines to set up. The EV tier introduces the Vacuum Freezer as a standalone machine, the Large Macerator and Electrolyzer multiblocks, and the capability to run full Tier 3 ore processing on exotic ores.", "Key EV additions: Flux Networks wireless power (which activates at EV with the Ur-Ghast boss kill), PneumaticCraft Pneumatic Armor, and the beginning of the platinum group metal chains that gate LuV. Start the Cooperite ore processing chain at EV — it produces six distinct metals that are all needed at IV-LuV."]
 		tasks: [{
-			id: "0000000020B0012"
+			id: "000000000020B012"
 			type: "checkmark"
 			title: "Read the EV tier overview"
 		}]

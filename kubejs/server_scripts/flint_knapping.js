@@ -89,15 +89,4 @@ ServerEvents.recipes(event => {
         'S  '
     ], { H: 'kubejs:flint_hoe_head', S: 'minecraft:stick' })
 
-    // --- Flint Compass ---
-    // Flint ring around a redstone core
-    event.shaped('kubejs:flint_compass', [
-        ' F ',
-        'FRF',
-        ' F '
-    ], {
-        F: 'minecraft:flint',
-        R: 'minecraft:redstone'
-    })
-
 })
