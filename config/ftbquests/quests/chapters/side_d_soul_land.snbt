@@ -12,6 +12,7 @@
 		id: "000000000000A050"
 		x: -2.0d
 		y: 0.0d
+		dependencies: ["000000000000BD01"]
 		title: "The Cultivation Manual"
 		icon: {id: "soulland:cultivation_manual", Count: 1b}
 		description: ["The Cultivation Manual is Soul Land's reference guide — it covers the cultivation rank system, Soul Ring absorption, Martial Soul forms, Spirit Beast hunting, and the Forging Table recipes.", "Craft it at the Forging Table. Read it before your first meditation session. The rank progression (Spirit Scholar → Spirit Master → Soul Master → ...) and the ring color hierarchy (White → Yellow → Purple → Black → Red → Gold) are both explained inside."]
@@ -29,6 +30,7 @@
 		id: "000000000000A001"
 		x: 0.0d
 		y: 0.0d
+		dependencies: ["000000000000BD01"]
 		title: "Cultivation Altar"
 		icon: {id: "soulland:cultivation_altar", Count: 1b}
 		description: ["Soul Land adds a second progression axis that runs under everything else in this pack. Cultivation ranks, Soul Rings, Martial Souls, spirit beast hunting — it feeds directly into combat power and sits comfortably alongside Mine & Slash stat building.", "Build the Cultivation Altar. This is where soul power accumulates during meditation. Plant it somewhere permanent — you'll be coming back to it every time you need to rank up.", "Soul Land cultivation runs parallel to M&S stat building. Soul Rings grant active combat skills through absorption. Stat Souls grant passive stat points through application. Both systems feed the same endgame.", "The Gear Crafting Station (M&S block) now accepts Soul Land armor and weapon pieces as crafting bases for stat souls. Spirit Cloth → early souls. Soul Forged → mid souls. Sea God armor → endgame souls. You no longer need vanilla iron gear as the base — Soul Land replaces it tier for tier."]
@@ -254,6 +256,7 @@
 		id: "000000000000A029"
 		x: 2.0d
 		y: -2.0d
+		dependencies: ["000000000000BD01"]
 		title: "The Spirit Vein"
 		icon: {id: "soulland:spirit_iron_raw", Count: 1b}
 		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but glows faintly blue-grey. Mine it and it drops Raw Spirit Iron - smelt that into ingots. The Create Millstone will process the ore for doubled output just like vanilla ore.", "Spirit Iron Ingots are the base material for everything in the Soul Land crafting line - tools, weapons, armor, and the Forging Table itself. Mine it early and often."]
@@ -366,6 +369,7 @@
 		id: "000000000000A03D"
 		x: 2.0d
 		y: 2.0d
+		dependencies: ["000000000000BD01"]
 		title: "Spirit Detector"
 		icon: {id: "soulland:spirit_detector", Count: 1b}
 		description: ["Craft the Spirit Detector at the Forging Table. It pulses when Spirit Beasts are within range and displays approximate beast age — which tells you what ring color you're walking toward before you commit to the fight.", "A White ring is ten years. Yellow is a century. Purple is a thousand. Know before you swing."]
@@ -560,6 +564,7 @@
 		id: "000000000000EF01"
 		x: 0.0d
 		y: -4.0d
+		dependencies: ["000000000000BD01"]
 		title: "Spirit Awakens"
 		icon: {id: "soulland:cultivation_altar", Count: 1b}
 		description: ["At Soul Power 30 the Martial Soul Transformation system unlocks its first tier. Press [V] while active — your limbs reshape. Arm fur, gauntlet overlays, and element-specific changes appear depending on your martial soul archetype.", "This is Tier 1 of three. It\'s available earlier than most players expect. You don\'t need to be near the endgame to feel the transformation system. Check your HUD after pressing V."]
@@ -659,6 +664,7 @@
 		id: "000000000000EF12"
 		x: 0.0d
 		y: -6.0d
+		dependencies: ["000000000000BD01"]
 		title: "The Hidden Arts"
 		icon: {id: "soulland:forging_table", Count: 1b}
 		description: ["The Tang Sect is the pack\'s hidden weapon and technique tradition. Three signature techniques are activated by hotkeys, trained through use, and progress through tiers that unlock new mechanics at each stage.", "Hidden Weapons are crafted at the Forging Table — 16 weapons from basic Sleeve Darts to the Godly Zhuge Crossbow (48 arrows per volley) and the Peacock Plume (365 needles in a fan pattern). Tier by tier, the Tang Sect arsenal expands into the endgame."]
@@ -772,6 +778,7 @@
 		id: "000000000000EF25"
 		x: 0.0d
 		y: 6.0d
+		dependencies: ["000000000000BD01"]
 		title: "Cities of the Continent"
 		icon: {id: "minecraft:map", Count: 1b}
 		description: ["Five major novel-accurate cities generate across the world: Suotuo City (trade hub, near spawn), Heaven Dou City (imperial capital, 80-block radius with academy and cathedral), Star Luo City (military capital), Spirit City (Spirit Hall HQ), and the merchant city Silvers.", "Additional cities spawn at 12% frequency. Each features merchants, cultivator guards, and faction-themed architecture. Shrek Academy and a Tournament Arena also generate as standalone structures. Explore along with your Waystone network — the cities are the best source of NPC trades, sect recruitment, and alchemy recipe discovery."]
@@ -807,6 +814,7 @@
 		id: "000000000000EF2B"
 		x: 4.0d
 		y: 6.0d
+		dependencies: ["000000000000BD01"]
 		title: "Spirit Hall Standing"
 		icon: {id: "soulland:cultivation_manual", Count: 1b}
 		description: ["The Spirit Hall is the dominant political faction of the continent — and a morally ambiguous one. Its reputation system runs from -100 to +100 across 7 standing levels.", "Positive standing unlocks trades and protection. Negative standing (below -25) triggers escalating consequences: bounty notices at level 1-5, assassination squads above that. The Spirit Hall will actively pursue players who oppose it too openly. Play both sides or commit. Neutrality is also a choice."]
@@ -824,6 +832,7 @@
 		id: "000000000000EF2E"
 		x: 6.0d
 		y: 6.0d
+		dependencies: ["000000000000BD01"]
 		title: "The Beast Contract"
 		icon: {id: "soulland:spirit_detector", Count: 1b}
 		description: ["Spirit Beasts can be contracted as permanent companions. The contract system allows up to 2 bound beasts at a time, and companions persist through server restarts — they\'re not temporary summons.", "To contract a beast: weaken it below 20% health without killing it, then offer a Contract item crafted at the Forging Table. The beast\'s soul power and age determine how useful it becomes as a companion. Bring something you hunted at the Inner Forest or deeper — surface beasts are too weak to contribute to endgame fights."]
@@ -1010,5 +1019,9 @@
 			item: {id: "mmorpg:stone/4", Count: 3b}
 		}]
 	}]
-	quest_links: []
+	quest_links: [{
+		id: "000000000000BD10"
+		quest: "000000000000BD01"
+		quest_chapter: "0000000000002001"
+	}]
 }

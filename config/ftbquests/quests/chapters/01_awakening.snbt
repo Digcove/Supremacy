@@ -214,6 +214,7 @@
 		}]
 	},	{
 		id: "0000000000003020"
+		dependencies: ["0000000000003038"]
 		max_completable_dependents: 1
 			rewards: [
 				{
@@ -390,42 +391,6 @@
 			id: "000000000000BD03"
 			type: "item"
 			item: {id: "soulland:cultivation_manual", Count: 1b}
-		}]
-	}, {
-		id: "000000000000EE01"
-		x: 16.0d
-		y: -2.0d
-		dependencies: ["000000000000BD01"]
-		title: "The Cultivation Altar"
-		icon: {id: "soulland:cultivation_altar", Count: 1b}
-		description: ["Soul Land runs a second progression axis alongside everything in this pack. Cultivation ranks, Soul Ring absorption, Martial Soul forms — it compounds your combat power without replacing the main line.", "Build the Cultivation Altar from Spirit Iron and place it somewhere permanent. This is where meditation happens. Press [M] while standing near it to begin accumulating soul power. Let it run in the background while you advance through each chapter — cultivation is patient work.", "Open Side D: Soul Land for the full guide. Start there after placing this."]
-		tasks: [{
-			id: "000000000000EE02"
-			type: "item"
-			item: {id: "soulland:cultivation_altar", Count: 1b}
-		}]
-		rewards: [{
-			id: "000000000000EE03"
-			type: "item"
-			item: {id: "soulland:spirit_condensing_pill", Count: 2b}
-		}]
-	}, {
-		id: "000000000000EE04"
-		x: 18.0d
-		y: -2.0d
-		dependencies: ["000000000000EE01"]
-		title: "A Soul Is Born"
-		icon: {id: "soulland:cultivation_manual", Count: 1b}
-		description: ["Stand at the altar and press [M] to meditate. The Soul Land HUD appears: your current rank, soul power, active ring slots, and running skill cooldowns.", "Your Innate Talent was assigned the moment you spawned. Check it. A 20 is a god that hasn't happened yet. A 1 still gets nine rings and still wins. Talent is a head start, not a ceiling.", "Meditation runs while you stand still. A Foundation Pill (crafted at the Forging Table) multiplies the gain rate. The first rank is closer than it looks."]
-		tasks: [{
-			id: "000000000000EE05"
-			type: "checkmark"
-			title: "Meditate for the first time [M] and check your Innate Talent in the HUD"
-		}]
-		rewards: [{
-			id: "000000000000EE06"
-			type: "item"
-			item: {id: "minecraft:golden_apple", Count: 1b}
 		}]
 	}]
 	quest_links: []
