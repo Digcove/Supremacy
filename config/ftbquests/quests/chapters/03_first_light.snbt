@@ -193,6 +193,41 @@
 			type: "item"
 			item: {id: "naturesaura:sky_ingot", Count: 2b}
 		}]
+	}, {
+		id: "000000000000EE21"
+		x: 2.0d
+		y: -2.0d
+		title: "Spirit Scholar"
+		icon: {id: "soulland:spirit_condensing_pill", Count: 1b}
+		description: ["Ten points of soul power and you graduate from nothing to Spirit Scholar — the first rank. The one every legend starts from.", "Meditation accumulates passively at the Cultivation Altar. A Foundation Pill (crafted at the Forging Table from basic Spirit Herbs) multiplies the gain rate for its duration. Keep the altar running while you explore."]
+		tasks: [{
+			id: "000000000000EE22"
+			type: "checkmark"
+			title: "Reach Rank 1: Spirit Scholar (Soul Power 10)"
+		}]
+		rewards: [{
+			id: "000000000000EE23"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}]
+	}, {
+		id: "000000000000EE24"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["000000000000EE21"]
+		title: "The Forest of Beasts"
+		icon: {id: "soulland:spirit_detector", Count: 1b}
+		description: ["The Star Dou Great Forest is a rare, massive biome — one guaranteed near spawn, others every ~1600 blocks. Five zones cascade inward from the edge to the lake: Forest Edge → Outer Forest → Inner Forest → Forbidden Zone → Star Dou Lake.", "White rings come from the Edge. Yellow and Purple territory begins deeper. The forest notifies you when you cross a boundary. Use the Spirit Detector to navigate. Don\'t go deeper than your current ring tier can handle."]
+		tasks: [{
+			id: "000000000000EE25"
+			type: "checkmark"
+			title: "Locate and enter the Star Dou Great Forest (Spirit Beast Forest biome)"
+		}]
+		rewards: [{
+			id: "000000000000EE26"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }

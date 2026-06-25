@@ -592,6 +592,25 @@
 			type: "item"
 			item: {id: "bloodmagic:master_blood_orb", Count: 1b}
 		}]
+	}, {
+		id: "000000000000EE41"
+		x: 0.0d
+		y: -2.0d
+		title: "Spirit Steel"
+		icon: {id: "soulland:spirit_steel_ingot", Count: 1b}
+		description: ["Spirit Steel is the Soul Land mid-tier metal, forged at the Forging Table from Spirit Iron and Qi Crystal. It\'s the input to Botania\'s Mana Pool infusion — drop Spirit Steel Ingots into a pool charged with 3000 Mana and they convert into Manasteel, bridging the Soul Land and Botania material lines.", "Get a supply before you set up the Mana Pool conversion. Qi Crystal ore spawns near diamond depth. Spirit Iron comes from iron-depth deposits with a faint blue-grey shimmer. Both are worth mining in bulk at this stage."]
+		tasks: [{
+			id: "000000000000EE42"
+			type: "item"
+			item: {id: "soulland:spirit_steel_ingot", Count: 1b}
+			count: 4L
+			consume: false
+		}]
+		rewards: [{
+			id: "000000000000EE43"
+			type: "item"
+			item: {id: "soulland:qi_crystal", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }

@@ -186,6 +186,23 @@
 			type: "item"
 			item: {id: "mmorpg:stone/4", Count: 1b}
 		}]
+	}, {
+		id: "000000000000EE61"
+		x: 2.0d
+		y: -2.0d
+		title: "Domain: Awakened"
+		icon: {id: "soulland:cultivation_altar", Count: 1b}
+		description: ["At Soul Power 91, cultivation reaches the Domain threshold. Press [J] to deploy your Domain — a persistent battlefield aura mapped to your Martial Soul\'s element: Fire, Ice, Thunder, Shadow, Dragon, Blood, and 10 more.", "44 domains across 16 elements, each projecting self-buffs and enemy debuffs across the area around you. It changes fights from individual skill rotations to full-field presence.", "If you\'ve kept the Cultivation Altar running through the GT chapters, 91 is within reach. If not, this is the reminder to start."]
+		tasks: [{
+			id: "000000000000EE62"
+			type: "checkmark"
+			title: "Activate your Domain [J] at Soul Power 91+"
+		}]
+		rewards: [{
+			id: "000000000000EE63"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }

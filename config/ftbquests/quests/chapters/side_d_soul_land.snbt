@@ -121,7 +121,7 @@
 		dependencies: ["000000000000A00D"]
 		title: "True Form"
 		icon: {id: "soulland:blue_silver_emperor_essence", Count: 1b}
-		description: ["At Soul Power 70, the mask comes off. Press [V] to activate your True Martial Soul — the version of yourself that the martial soul was always building toward.", "If you chose the Cloth Path in Chapter 1, the True Martial form amplifies your magic output further. If you chose Plate, the transformation leans physical. It reads your build and scales accordingly. Kieransmama doesn't waste anything."]
+		description: ["By Soul Power 70 you are deep into T2 transformation territory. Press [V] to see your current form — at this rank the chest and head features are fully manifested. T3 and the full Spirit Avatar require Soul Power 90.", "The Transformation and Evolution systems are separate. The Martial Soul Evolution Track (lower section of this chapter) covers the four evolution stages — Awakened, Evolved, True, Divine — each multiplying base stats up to 4× at Divine. The relics to begin evolution (Blue Silver Emperor Essence) are craftable at this rank."]
 		tasks: [{
 			id: "000000000000A011"
 			type: "checkmark"
@@ -405,7 +405,7 @@
 		dependencies: ["000000000000A040"]
 		title: "Foundation Pill"
 		icon: {id: "soulland:foundation_pill", Count: 1b}
-		description: ["The Foundation Pill increases Soul Power gain rate for a period after consuming it. Take one before any extended meditation session — it's the difference between ranking up overnight and ranking up in a week.", "Crafted from basic Spirit Herbs at the Forging Table. Keep a stack. Every cultivation push benefits from one."]
+		description: ["The Foundation Pill increases Soul Power gain rate for a period after consuming it. Take one before any meditation session — it compounds with the reduced baseline speed after the economy rebalance.", "Alchemy is the engine behind efficient cultivation: 10 tiers from Novice to Legendary Alchemist, starting with 3 recipes you know and expanding through dungeon finds, NPC trades, and boss drops. Base success rate is 25%. Without alchemy supplementing meditation, progression is 43% slower than it used to be. The Herb Refinement Ritual (hold-to-channel on any herb) extracts more Qi per use and reduces foundation instability. See the Alchemy track further along this chapter."]
 		tasks: [{
 			id: "000000000000A044"
 			type: "item"
@@ -553,6 +553,461 @@
 			id: "000000000024A014"
 			type: "item"
 			item: {id: "mmorpg:stone/4", Count: 2b}
+		}]
+
+
+	}, {
+		id: "000000000000EF01"
+		x: 0.0d
+		y: -4.0d
+		title: "Spirit Awakens"
+		icon: {id: "soulland:cultivation_altar", Count: 1b}
+		description: ["At Soul Power 30 the Martial Soul Transformation system unlocks its first tier. Press [V] while active — your limbs reshape. Arm fur, gauntlet overlays, and element-specific changes appear depending on your martial soul archetype.", "This is Tier 1 of three. It\'s available earlier than most players expect. You don\'t need to be near the endgame to feel the transformation system. Check your HUD after pressing V."]
+		tasks: [{
+			id: "000000000000EF02"
+			type: "checkmark"
+			title: "Activate T1 Martial Soul Transformation at Soul Power 30+ [V]"
+		}]
+		rewards: [{
+			id: "000000000000EF03"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 3b}
+		}]
+	}, {
+		id: "000000000000EF04"
+		x: 2.0d
+		y: -4.0d
+		dependencies: ["000000000000EF01"]
+		title: "The Deep Form"
+		icon: {id: "soulland:blue_silver_emperor_essence", Count: 1b}
+		description: ["At Soul Power 60, Tier 2 integration deepens. Chest armor manifests, head features emerge — horns, glowing runes, element-specific overlays that shift the entire silhouette. The form reads your martial soul archetype and scales accordingly.", "25 martial souls are supported with 75 custom textures. Seraph wings expand from 2 at T1 to 4 here. T3 is still ahead."]
+		tasks: [{
+			id: "000000000000EF05"
+			type: "checkmark"
+			title: "Reach Soul Power 60 and observe T2 Martial Soul form [V]"
+		}]
+		rewards: [{
+			id: "000000000000EF06"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF07"
+		x: 4.0d
+		y: -4.0d
+		dependencies: ["000000000000EF04"]
+		title: "Spirit Avatar"
+		icon: {id: "soulland:soul_crystal", Count: 1b}
+		description: ["Soul Power 90. The third tier. The full Spirit Avatar — complete hybrid body transformation, every limb remade, the martial soul and the cultivator occupying the same physical form.", "The 6 Seraph wings are fully extended. For every other archetype, T3 is the form the martial soul was always building toward. It\'s the endgame shape of who you are in this system."]
+		tasks: [{
+			id: "000000000000EF08"
+			type: "checkmark"
+			title: "Reach Soul Power 90 and activate the full Spirit Avatar [V]"
+		}]
+		rewards: [{
+			id: "000000000000EF09"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/armor/uncommon", Count: 3b}
+		}, {
+			id: "000000000000EF0A"
+			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 3b}
+		}]
+	}, {
+		id: "000000000000EF0B"
+		x: 6.0d
+		y: -4.0d
+		dependencies: ["000000000000EF04"]
+		title: "Relic: Blue Silver Emperor Essence"
+		icon: {id: "soulland:blue_silver_emperor_essence", Count: 1b}
+		description: ["Martial Soul Evolution goes beyond transformation tiers. Four stages exist: Awakened, Evolved, True, and Divine — each multiplying your base stats up to 4× at the Divine stage.", "The Blue Silver Emperor Essence is the first evolution relic. Craft it at the Forging Table at Soul Power 70+. It enables the Evolved stage — the first step past your martial soul\'s base form and into something that rewrites your stat ceiling."]
+		tasks: [{
+			id: "000000000000EF0C"
+			type: "item"
+			item: {id: "soulland:blue_silver_emperor_essence", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EF0D"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF0E"
+		x: 8.0d
+		y: -4.0d
+		dependencies: ["000000000000EF0B"]
+		title: "True and Divine"
+		icon: {id: "soulland:soul_crystal", Count: 1b}
+		description: ["The True and Divine evolution stages require two more relics: the Phoenix Feather Crown at Soul Power 80+, and Heaven Dream Silk at 85+. Both are crafted at the Forging Table.", "True stage: 3× stat multiplier. Divine stage: 4×. The multiplier compounds on top of every stat soul, every gem, every M&S affix you\'ve stacked. At Divine, a fully built character in this pack stops being challenged by anything below the hardest Atlas endgame."]
+		tasks: [{
+			id: "000000000000EF0F"
+			type: "item"
+			item: {id: "soulland:phoenix_feather_crown", Count: 1b}
+		}, {
+			id: "000000000000EF10"
+			type: "item"
+			item: {id: "soulland:heaven_dream_silk", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EF11"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+
+
+	}, {
+		id: "000000000000EF12"
+		x: 0.0d
+		y: -6.0d
+		title: "The Hidden Arts"
+		icon: {id: "soulland:forging_table", Count: 1b}
+		description: ["The Tang Sect is the pack\'s hidden weapon and technique tradition. Three signature techniques are activated by hotkeys, trained through use, and progress through tiers that unlock new mechanics at each stage.", "Hidden Weapons are crafted at the Forging Table — 16 weapons from basic Sleeve Darts to the Godly Zhuge Crossbow (48 arrows per volley) and the Peacock Plume (365 needles in a fan pattern). Tier by tier, the Tang Sect arsenal expands into the endgame."]
+		tasks: [{
+			id: "000000000000EF13"
+			type: "checkmark"
+			title: "Read this introduction to the Tang Sect and its three techniques"
+		}]
+		rewards: [{
+			id: "000000000000EF14"
+			type: "item"
+			item: {id: "soulland:spirit_condensing_pill", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF15"
+		x: 2.0d
+		y: -6.0d
+		dependencies: ["000000000000EF12"]
+		title: "Purple Demon Eyes"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Press [P] to activate Purple Demon Eyes — a four-tier mental technique that starts as night vision and escalates through ranged mental damage beams to a full AoE stun domain at Tier 4.", "The technique trains through use: keep using it in combat. Tier 1 is available immediately. Tier 4 is a battlefield-control tool that stops entire groups of enemies in place."]
+		tasks: [{
+			id: "000000000000EF16"
+			type: "checkmark"
+			title: "Activate Purple Demon Eyes [P] and use it in combat"
+		}]
+		rewards: [{
+			id: "000000000000EF17"
+			type: "item"
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF18"
+		x: 4.0d
+		y: -6.0d
+		dependencies: ["000000000000EF15"]
+		title: "Ghost Shadow Track"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Press [N] for Ghost Shadow Track — a three-tier movement technique. Tier 1 is an enhanced dash. Tier 2 becomes a 20-block teleport. Tier 3 adds invisibility on use, grants 35% passive dodge, and makes positioning in any fight trivial.", "Max tier Ghost Shadow Track is a stealth, gap-close, and dodge tool combined into one hotkey. Train it continuously."]
+		tasks: [{
+			id: "000000000000EF19"
+			type: "checkmark"
+			title: "Activate Ghost Shadow Track [N] and dash in combat"
+		}]
+		rewards: [{
+			id: "000000000000EF1A"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
+		}]
+	}, {
+		id: "000000000000EF1B"
+		x: 6.0d
+		y: -6.0d
+		dependencies: ["000000000000EF15"]
+		title: "Controlling Crane, Capturing Dragon"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Press [H] for Controlling Crane Capturing Dragon — a telekinesis technique with three tiers. Tier 1 pushes or pulls single targets. Tier 2 chains multiple targets and deflects arrows. Tier 3 controls 8 targets simultaneously and works on boss-tier enemies.", "At max tier this is a crowd control tool with no parallel elsewhere in the pack. It stacks with Purple Demon Eyes AoE stun for complete battlefield lockdown."]
+		tasks: [{
+			id: "000000000000EF1C"
+			type: "checkmark"
+			title: "Activate Controlling Crane Capturing Dragon [H] and use it on an enemy"
+		}]
+		rewards: [{
+			id: "000000000000EF1D"
+			type: "item"
+			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
+		}]
+	}, {
+		id: "000000000000EF1E"
+		x: 8.0d
+		y: -6.0d
+		dependencies: ["000000000000EF12"]
+		title: "The Tang Sect Arsenal"
+		icon: {id: "soulland:forging_table", Count: 1b}
+		description: ["The Forging Table has 16 hidden weapon recipes: Sleeve Darts and Throwing Needles at the low end, scaling through Flash Bombs, Bone Claws, and Shock Crossbows up to the Godly Zhuge Crossbow (48 arrows per volley) and Peacock Plume (365 needles in a spread fan).", "Two one-use legendary items exist: Yama\'s Invitation and Bodhi Blood. Both are endgame consumables reserved for fights where a guaranteed kill matters more than a reusable tool. Build the Crossbow first."]
+		tasks: [{
+			id: "000000000000EF1F"
+			type: "checkmark"
+			title: "Craft any Tang Sect hidden weapon at the Forging Table"
+		}]
+		rewards: [{
+			id: "000000000000EF20"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF21"
+		x: 10.0d
+		y: -6.0d
+		dependencies: ["000000000000EF12"]
+		title: "The Continental Tournament"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["The Continental Tournament generates naturally in the world — find the Tournament Arena structure (5% spawn rate). Inside: a five-round bracket against eight novel-accurate academy teams, four opponents per round.", "Each team has martial souls, element-specific skills, and three-phase AI that activates Spirit Avatar mode at low health. Completion rewards scale through crystals up to the Godly Zhuge Crossbow and Buddha\'s Fury Tang Lotus. The tournament is the highest-density combat challenge Soul Land offers outside of the Divine Inheritance Trials."]
+		tasks: [{
+			id: "000000000000EF22"
+			type: "checkmark"
+			title: "Find the Tournament Arena and complete the Continental Tournament"
+		}]
+		rewards: [{
+			id: "000000000000EF23"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}, {
+			id: "000000000000EF24"
+			type: "item"
+			item: {id: "mmorpg:currency/affix_common_reroll", Count: 3b}
+		}]
+
+
+	}, {
+		id: "000000000000EF25"
+		x: 0.0d
+		y: 6.0d
+		title: "Cities of the Continent"
+		icon: {id: "minecraft:map", Count: 1b}
+		description: ["Five major novel-accurate cities generate across the world: Suotuo City (trade hub, near spawn), Heaven Dou City (imperial capital, 80-block radius with academy and cathedral), Star Luo City (military capital), Spirit City (Spirit Hall HQ), and the merchant city Silvers.", "Additional cities spawn at 12% frequency. Each features merchants, cultivator guards, and faction-themed architecture. Shrek Academy and a Tournament Arena also generate as standalone structures. Explore along with your Waystone network — the cities are the best source of NPC trades, sect recruitment, and alchemy recipe discovery."]
+		tasks: [{
+			id: "000000000000EF26"
+			type: "checkmark"
+			title: "Locate any major Soul Land city and visit its market district"
+		}]
+		rewards: [{
+			id: "000000000000EF27"
+			type: "item"
+			item: {id: "waystones:waystone", Count: 1b}
+		}]
+	}, {
+		id: "000000000000EF28"
+		x: 2.0d
+		y: 6.0d
+		dependencies: ["000000000000EF25"]
+		title: "Join a Sect"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Six sects operate across the continent, each offering unique percentage bonuses, four internal ranks, a mission board, and a contribution point economy. The sect you join is a permanent affiliation that gates certain item trades and passive buffs.", "Find a sect headquarters in a city (each city has its own affiliated sect). Speak to the Sect Elder to join. Rank up through missions and contribution points. The bonuses at high rank are not trivial — a maxed-out sect affiliation provides flat combat boosts that compound with everything else."]
+		tasks: [{
+			id: "000000000000EF29"
+			type: "checkmark"
+			title: "Join a sect and reach at least Rank 2 within it"
+		}]
+		rewards: [{
+			id: "000000000000EF2A"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF2B"
+		x: 4.0d
+		y: 6.0d
+		title: "Spirit Hall Standing"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["The Spirit Hall is the dominant political faction of the continent — and a morally ambiguous one. Its reputation system runs from -100 to +100 across 7 standing levels.", "Positive standing unlocks trades and protection. Negative standing (below -25) triggers escalating consequences: bounty notices at level 1-5, assassination squads above that. The Spirit Hall will actively pursue players who oppose it too openly. Play both sides or commit. Neutrality is also a choice."]
+		tasks: [{
+			id: "000000000000EF2C"
+			type: "checkmark"
+			title: "Interact with the Spirit Hall faction and check your standing"
+		}]
+		rewards: [{
+			id: "000000000000EF2D"
+			type: "item"
+			item: {id: "soulland:spirit_condensing_pill", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF2E"
+		x: 6.0d
+		y: 6.0d
+		title: "The Beast Contract"
+		icon: {id: "soulland:spirit_detector", Count: 1b}
+		description: ["Spirit Beasts can be contracted as permanent companions. The contract system allows up to 2 bound beasts at a time, and companions persist through server restarts — they\'re not temporary summons.", "To contract a beast: weaken it below 20% health without killing it, then offer a Contract item crafted at the Forging Table. The beast\'s soul power and age determine how useful it becomes as a companion. Bring something you hunted at the Inner Forest or deeper — surface beasts are too weak to contribute to endgame fights."]
+		tasks: [{
+			id: "000000000000EF2F"
+			type: "checkmark"
+			title: "Contract a Spirit Beast companion (max 2 active)"
+		}]
+		rewards: [{
+			id: "000000000000EF30"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 3b}
+		}]
+	}, {
+		id: "000000000000EF31"
+		x: 8.0d
+		y: 6.0d
+		dependencies: ["000000000000EF2E"]
+		title: "Spirit Bone"
+		icon: {id: "soulland:soul_crystal", Count: 1b}
+		description: ["Spirit Bones drop from boss-variant spirit beasts — the same tier that the Ancient Spirit Incense (found on the support track) summons. Bones have five evolution stages, with stat scaling at each.", "At stage 3, a per-slot passive ability unlocks — unique to the slot the bone occupies (head, body, limb, etc.). Stage 5 is endgame-level stat contribution. Collect and evolve a full set over time. Each slot\'s passive stacks with your M&S stats, Apotheosis gems, and soul ring skills simultaneously."]
+		tasks: [{
+			id: "000000000000EF32"
+			type: "checkmark"
+			title: "Obtain and evolve a Spirit Bone to at least Stage 2"
+		}]
+		rewards: [{
+			id: "000000000000EF33"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+
+
+	}, {
+		id: "000000000000EF34"
+		x: 10.0d
+		y: 2.0d
+		dependencies: ["000000000000A043"]
+		title: "Herb Refinement Ritual"
+		icon: {id: "soulland:wild_herb", Count: 1b}
+		description: ["Hold-to-channel on any Spirit Herb to begin the Herb Refinement Ritual. A visual progress bar appears. Common herbs channel in 0.4 seconds; Legendary variants take up to 8 seconds.", "Refined consumption extracts more of the herb\'s Qi content and reduces foundation instability gain compared to quick-consuming. For any herb rarer than Uncommon, always use the ritual. The difference in soul power gain is measurable."]
+		tasks: [{
+			id: "000000000000EF35"
+			type: "checkmark"
+			title: "Use the Herb Refinement Ritual on a Spirit Herb (hold to channel)"
+		}]
+		rewards: [{
+			id: "000000000000EF36"
+			type: "item"
+			item: {id: "soulland:wild_herb", Count: 4b}
+		}]
+	}, {
+		id: "000000000000EF37"
+		x: 12.0d
+		y: 2.0d
+		dependencies: ["000000000000EF34"]
+		title: "Alchemy: The Full Art"
+		icon: {id: "soulland:foundation_pill", Count: 1b}
+		description: ["Alchemy runs on a 10-tier progression from Novice to Legendary Alchemist. You begin with only 3 starter recipes. Every additional formula must be discovered — through dungeon chests, NPC rewards, beast drops, and boss kills.", "Base success rate is 25% (higher than it sounds once skill improves). Herb XP is capped: diminishing returns after 3 uses of the same herb, and meditation speed is 43% slower without alchemy supplementing your cultivation. Alchemy is not optional for fast progression — it\'s the engine."]
+		tasks: [{
+			id: "000000000000EF38"
+			type: "checkmark"
+			title: "Discover a new alchemy recipe (dungeon, NPC trade, or boss drop)"
+		}]
+		rewards: [{
+			id: "000000000000EF39"
+			type: "item"
+			item: {id: "soulland:foundation_pill", Count: 3b}
+		}, {
+			id: "000000000000EF3A"
+			type: "item"
+			item: {id: "soulland:qi_gathering_pill", Count: 3b}
+		}]
+	}, {
+		id: "000000000000EF3B"
+		x: 14.0d
+		y: 2.0d
+		dependencies: ["000000000000EF37"]
+		title: "The Poison Path"
+		icon: {id: "soulland:cultivation_manual", Count: 1b}
+		description: ["Tang Sect Poison is a ten-tier system running from Numbing Powder (level 1) to Yama\'s Essence (level 90). Each poison scales its effectiveness against enemies relative to your soul power — underpowered poisons do little to strong beasts, but ranked poisons cripple them.", "Craft poisons at the Forging Table. Early tiers slow and weaken. High tiers apply stacking DOT that ignores physical resistance. Yama\'s Essence at the top has no counter in the base game."]
+		tasks: [{
+			id: "000000000000EF3C"
+			type: "checkmark"
+			title: "Craft any Tang Sect Poison at the Forging Table"
+		}]
+		rewards: [{
+			id: "000000000000EF3D"
+			type: "item"
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 2b}
+		}]
+
+
+	}, {
+		id: "000000000000EF3E"
+		x: 12.0d
+		y: -2.0d
+		dependencies: ["000000000000A036"]
+		title: "Ancient Spirit Incense"
+		icon: {id: "soulland:cultivation_altar", Count: 1b}
+		description: ["Ancient Spirit Incense is a consumable available at Soul Power 60+ that summons 8-12 boss-variant spirit beasts eligible for Spirit Bone drops. It\'s the primary farming tool for the Spirit Bone system.", "Craft it at the Forging Table from Soul Forged materials and rare herbs. Activate it in the Inner Forest or deeper — the summoned beasts scale to zone depth. Run it with the Beast Contract system active so you can immediately evaluate bone quality from the drops."]
+		tasks: [{
+			id: "000000000000EF3F"
+			type: "checkmark"
+			title: "Use Ancient Spirit Incense and defeat the summoned boss-variant beasts"
+		}]
+		rewards: [{
+			id: "000000000000EF40"
+			type: "item"
+			item: {id: "mmorpg:stone/3", Count: 2b}
+		}]
+
+
+	}, {
+		id: "000000000000EF41"
+		x: 18.0d
+		y: -1.0d
+		dependencies: ["000000000000A01D"]
+		title: "Sea God\'s Trial"
+		icon: {id: "soulland:sea_god_trident", Count: 1b}
+		description: ["At Soul Power 99, the Sea God path opens a Divine Inheritance Trial — a path-specific gauntlet designed for the endurance archetype. The trial tests sustained survival rather than burst damage output.", "Completing it unlocks the full Sea God Inheritance. The Sea God Trident\'s abilities scale beyond base stats when the Inheritance is active. Bring your highest-tier armor souls and a full set of Apotheosis gems in the resistance slots."]
+		tasks: [{
+			id: "000000000000EF42"
+			type: "checkmark"
+			title: "Complete the Sea God\'s Divine Inheritance Trial at Soul Power 99"
+		}]
+		rewards: [{
+			id: "000000000000EF43"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF44"
+		x: 18.0d
+		y: 0.0d
+		dependencies: ["000000000000A021"]
+		title: "Seraph\'s Trial"
+		icon: {id: "soulland:seraph_chestplate", Count: 1b}
+		description: ["The Life Goddess path trial at Soul Power 99. The Seraph trial evaluates soul power output — how much damage your ring skills can sustain over a prolonged engagement.", "Completing it fully activates the Seraph Inheritance, amplifying soul ring skill damage and meditation gains beyond their base values. Pairs with a high-Intelligence M&S build and the Arcanist path from Chapter 1. Six Seraph wings at T3 Spirit Avatar, full Soul Power output, Inheritance active — this is the magic-offensive endgame ceiling."]
+		tasks: [{
+			id: "000000000000EF45"
+			type: "checkmark"
+			title: "Complete the Seraph\'s Divine Inheritance Trial at Soul Power 99"
+		}]
+		rewards: [{
+			id: "000000000000EF46"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF47"
+		x: 18.0d
+		y: 1.0d
+		dependencies: ["000000000000A025"]
+		title: "Asura\'s Trial"
+		icon: {id: "soulland:asura_god_saber", Count: 1b}
+		description: ["The Asura God path trial at Soul Power 99. The trial is a pure offensive gauntlet — time-limited, high-density, no healing allowed. Asura builds that kill fast enough don\'t need defense to survive it.", "Completing it activates the Asura Inheritance, pushing the Asura God Saber\'s damage multiplier beyond its base ceiling. Full Strength allocation from M&S, Soul Forged or better armor, Plate Path from Chapter 1. This build does not negotiate."]
+		tasks: [{
+			id: "000000000000EF48"
+			type: "checkmark"
+			title: "Complete the Asura God\'s Divine Inheritance Trial at Soul Power 99"
+		}]
+		rewards: [{
+			id: "000000000000EF49"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 2b}
+		}]
+	}, {
+		id: "000000000000EF4A"
+		x: 18.0d
+		y: 2.0d
+		dependencies: ["000000000000A018"]
+		title: "Bloodline Reincarnation"
+		icon: {id: "soulland:dragon_roost_stone", Count: 1b}
+		description: ["Deep within the Dragon Dimension, past the Dragon Roost forests and Silver Pine groves, the Bloodline Reincarnation system activates. It allows an advanced cultivator to compress lifetime cultivation into a hereditary bloodline — accelerating future playthroughs or boosting an existing character through the reincarnation cycle.", "This is the deepest mechanic in the mod and the hardest to access. Bring Dragon Roost Stone, full Soul Forged or divine armor, and a completed divine path before attempting the reincarnation sequence."]
+		tasks: [{
+			id: "000000000000EF4B"
+			type: "checkmark"
+			title: "Activate the Bloodline Reincarnation sequence in the Dragon Dimension"
+		}]
+		rewards: [{
+			id: "000000000000EF4C"
+			type: "item"
+			item: {id: "mmorpg:stone/4", Count: 3b}
 		}]
 	}]
 	quest_links: []

@@ -210,6 +210,23 @@
 			type: "item"
 			item: {id: "blue_skies:starlit_gem", Count: 8b}
 		}]
+	}, {
+		id: "000000000000EE31"
+		x: 2.0d
+		y: -2.0d
+		title: "A Hundred Years"
+		icon: {id: "soulland:yellow_soul_ring", Count: 1b}
+		description: ["A century of life compressed into a soul ring. Yellow Soul Rings come from hundred-year beasts in the Outer Forest zone of the Star Dou Great Forest — they hit harder than anything in the Edge and carry enhanced active skills.", "Bring a Spirit Iron weapon or better, and rotate whatever White ring skills you have. The skill granted by the Yellow ring will change your combat rotation. It\'s worth the fight."]
+		tasks: [{
+			id: "000000000000EE32"
+			type: "item"
+			item: {id: "soulland:yellow_soul_ring", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000EE33"
+			type: "item"
+			item: {id: "mmorpg:stone/1", Count: 3b}
+		}]
 	}]
 	quest_links: []
 }

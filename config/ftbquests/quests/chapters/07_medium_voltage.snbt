@@ -232,6 +232,23 @@
 			type: "item"
 			item: {id: "gtceu:kanthal_coil_block", Count: 1b}
 		}]
+	}, {
+		id: "000000000000EE51"
+		x: 0.0d
+		y: 2.0d
+		title: "Soul Master"
+		icon: {id: "soulland:foundation_pill", Count: 1b}
+		description: ["Between EBF runs and ore processing, the Cultivation Altar has been accumulating soul power quietly. Soul Power 40 is Soul Master — the fourth rank.", "At Soul Power 30 your Martial Soul Transformation unlocks its first tier: press [V] to see limb overlays that reflect your martial soul\'s nature. At 60, a second deeper form. At 90, a full Spirit Avatar. The transformation system runs from this tier all the way to the endgame. See Side D: Soul Land for the full progression guide."]
+		tasks: [{
+			id: "000000000000EE52"
+			type: "checkmark"
+			title: "Reach Soul Power 40 (Soul Master rank)"
+		}]
+		rewards: [{
+			id: "000000000000EE53"
+			type: "item"
+			item: {id: "mmorpg:stone/2", Count: 2b}
+		}]
 	}]
 	quest_links: []
 }
