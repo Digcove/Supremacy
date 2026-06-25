@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "44585283594ae13593822508de0a8d7b454f64842cb6109188feba74d6cc9bb2"
+hash = "0fb3572ed3ec8110b25e27eceedbd8c9bb038a1e5f3d36642b1a138de46d0f01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -929,6 +929,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat-forge.pw.toml"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]
