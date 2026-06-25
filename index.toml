@@ -9,12 +9,28 @@ file = "StarTechnology"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/bettercombat/client.json5"
+hash = "0465e24927788c2735edcb33ce1ad1a8ab2633b6aaf3f2ae97b678c81e025344"
+
+[[files]]
+file = "config/bettercombat/server.json5"
+hash = "4e45a9e9f17c53b142bf5436ba0253a3bfe65b99cf89fad51a9e08bd2eaf7af9"
+
+[[files]]
+file = "config/botania-common.toml"
+hash = "a9c49457acdb516d0e4463957a6c7c720365f2e31e0db13ad1a4cc2b6f3b47f2"
+
+[[files]]
+file = "config/combatroll/server.json5"
+hash = "51c39e1ea277838365b95f768ea9bae9189bc19dfff5155e7fdc4ebbcb74ee01"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "b4d2f2c8aa36dcc2f2169aef231156e284f56c9caed7e4ab32e82166ac83bbc5"
+hash = "2acf7ca267ffcadf8ec9fa4d9f5365d3eef02a68c3e7a843d2fe55db84b9c1c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -126,7 +142,7 @@ hash = "db1b5be45b501ec46d85fd7c7df1391d8ed4650e3ae2bb5204e1bfb5233d5f1d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_d_soul_land.snbt"
-hash = "1ebece06d6819627c33a44ab0e2bc1c10bf01867252775c3a9e6eae012b756f6"
+hash = "de0cee8e9c3957daf92b42a4816bc1e8b6599b4e7583bfc83056c85186622500"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_e_magical_flora.snbt"
@@ -181,16 +197,44 @@ file = "config/gtceu.yaml"
 hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
 
 [[files]]
+file = "config/mutantmonsters-common.toml"
+hash = "15c9ed9dfb5192de7ae845425aad5705048203b90f6fd2544334a823d66a4f53"
+
+[[files]]
+file = "config/mutantmonsters-server.toml"
+hash = "75488541366d48c12c8909ffb4a055d8e863d3a9f6c48f9b6d2942801d49f6a4"
+
+[[files]]
+file = "config/paraglider-common.toml"
+hash = "1106488a725735ac9fa77a97b2b243d8cfd403f178a6910c22ea4b011d03cc37"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "5e3efe0fa8378a24b9164cbc5f1c8915a5a41556bf95ede73c6e56c827dbb5e7"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "6b8f4c72c6bb567fa736d20bee20356a71fe49aea86f0f0af84341a9114b1a23"
+
+[[files]]
 file = "defaultconfigs/curios-server.toml"
 hash = "393a257cf8a3bb9125c1c3892cb56bd8be1b21bdbcb6ccd0f8fbec6cc6b05cbc"
 
 [[files]]
+file = "defaultconfigs/ftbultimine-server.snbt"
+hash = "a1213c187a80450aba1d32b57eda51f4abff5d23df52490f338fbe7db0e56824"
+
+[[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
-hash = "c47975898dcda0a1c0441688b7e406d470d7150f55bdc04f66ca18f1a2f8c48a"
+hash = "52786bd9d68f30296ca1b6ce131e438dd78f43569fe9628ac9b5e9e945fa3338"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash_compatibility-server.toml"
 hash = "a2050a089665696fbd40073e04a59caf2593040c008068ab12c40e123cdc0360"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/charged_qi_crystal.png"
@@ -213,8 +257,16 @@ file = "kubejs/assets/kubejs/textures/item/triune_catalyst.png"
 hash = "96fe986135d855afeb8d19323b7506b58cda34295999f449624684d6fb16df35"
 
 [[files]]
+file = "kubejs/assets/mmorpg/textures/slot/empty_master_bag_slot.png"
+hash = "abb430242014740af25753ddd693ff7710de83d39dcc08ae2efe8dda26fcb19c"
+
+[[files]]
 file = "kubejs/client_scripts/convergence_item_tooltips.js"
 hash = "85d56816ef6ab986202b3332229fb1bf9f3bec62cec4a948b4c264ecea393c99"
+
+[[files]]
+file = "kubejs/data/curios/tags/items/master_bag.json"
+hash = "87610f1c25e58c1f2a905b16890a911eed02b47da9f46748078d3bf7c1c3edb8"
 
 [[files]]
 file = "kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
@@ -223,6 +275,10 @@ hash = "17e54a57fef9773eb6709dc4882e81d9c4ffce164648f5bf019771acd1ccc6ab"
 [[files]]
 file = "kubejs/data/kubejs/forge/loot_modifiers/remove_compressed_iron.json"
 hash = "9d160ccfd33ad9cfce18c4439018f55d5562426afad8da2f997b9ec62460157d"
+
+[[files]]
+file = "kubejs/data/mmorpg/curios/slots/master_bag.json"
+hash = "cab08b36d97b4043fa9a0f32d75dc910b4c436499f8121d92bffac204ed022ce"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_dimension/minecraft_overworld.json"
@@ -255,6 +311,10 @@ hash = "54bc5b89edd67980bcd284bbe71ad8a0c028acd3458cfe7914ff235d160defb1"
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_gear_slot/dagger.json"
 hash = "051e495b61c6514c0424632475aa6d90f4f814be6532fc4a35e55b3f85c4a02c"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/gauntlet.json"
+hash = "4d4e10a589bb098101cbf159c959717bcc002310bb5ad6f4e265503ef7ead1a6"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_gear_slot/hammer.json"
@@ -907,6 +967,11 @@ hash = "fbd9436bbb5853fd2834b1c0649ce6b262b2d4cae05b5a784c22c3a77091091b"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "0db85b53cd32bb1d23c33273deaef58bd0f0429a180d171e3f02fe0ab86b0fe2"
+metafile = true
+
+[[files]]
 file = "mods/explorify.pw.toml"
 hash = "7cd4c2565a55c1903820a8c2e6e6bff5c29bf7623dd18aa03d8ba39c2b6d5025"
 metafile = true
@@ -1177,13 +1242,13 @@ hash = "19821414a26c40c40f4584102cbc73df7282ef1aadf8f948b37f97c6f44a91a3"
 metafile = true
 
 [[files]]
-file = "mods/mcdw.pw.toml"
-hash = "f7fc427ef6e8e1552e4f80b0d2870878593df026"
+file = "mods/mantle.pw.toml"
+hash = "6164ce697ea02e49911afd5666dcb1d5f83ed0fff9b290def0a7a7c440c1c39b"
 metafile = true
 
 [[files]]
-file = "mods/mantle.pw.toml"
-hash = "6164ce697ea02e49911afd5666dcb1d5f83ed0fff9b290def0a7a7c440c1c39b"
+file = "mods/mcdw.pw.toml"
+hash = "0e3ba214541f37a2a7b79cc2e3d89783b7aa2ebd704c9a38e58a0b606cb71141"
 metafile = true
 
 [[files]]
@@ -1194,16 +1259,6 @@ metafile = true
 [[files]]
 file = "mods/mine-and-slash.pw.toml"
 hash = "97f77a252b2151f317c71feef1fe5370ea452a51365b6d431497bd3929d39284"
-metafile = true
-
-[[files]]
-file = "mods/roe-weapons.pw.toml"
-hash = "4d4bc9d1b792c3a485833e89f6fbe7133107d4b2"
-metafile = true
-
-[[files]]
-file = "mods/roe-sfx.pw.toml"
-hash = "64c9bbac505aecb4235ec00fa8868ec6ce36dcff"
 metafile = true
 
 [[files]]
@@ -1409,6 +1464,16 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
+metafile = true
+
+[[files]]
+file = "mods/roe-sfx.pw.toml"
+hash = "6e300f414f0932eeb2b735c60ecba21d488fad0ea0d5f6fa4324d05c687a5ab1"
+metafile = true
+
+[[files]]
+file = "mods/roe-weapons.pw.toml"
+hash = "3fda10f7f60bcb9462cb921a6f4249b5c7cae194121cde01966a7f4408f9a6f1"
 metafile = true
 
 [[files]]

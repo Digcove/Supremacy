@@ -1019,9 +1019,5 @@
 			item: {id: "mmorpg:stone/4", Count: 3b}
 		}]
 	}]
-	quest_links: [{
-		id: "000000000000BD10"
-		quest: "000000000000BD01"
-		quest_chapter: "0000000000002001"
-	}]
+	quest_links: []
 }
