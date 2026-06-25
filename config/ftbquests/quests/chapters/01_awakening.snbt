@@ -38,8 +38,8 @@
 			id: "4029A3B981DD8620"
 			type: "item"
 			item: {
+				Count: 1
 				id: "itemfilters:tag"
-				Count: 1b
 				tag: {
 					value: "minecraft:logs"
 				}
