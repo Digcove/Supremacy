@@ -14,7 +14,7 @@ hash = "bc0297d7271595c96d4144746ecb82964528a019016b3adb8c48a3bc1992a6db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/01_awakening.snbt"
-hash = "0fb3572ed3ec8110b25e27eceedbd8c9bb038a1e5f3d36642b1a138de46d0f01"
+hash = "b4d2f2c8aa36dcc2f2169aef231156e284f56c9caed7e4ab32e82166ac83bbc5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
@@ -182,11 +182,11 @@ hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "850e75dccdf4cfb68b3e56b439f068d3109e058bdd6bc488714eb43bf8121721"
+hash = "393a257cf8a3bb9125c1c3892cb56bd8be1b21bdbcb6ccd0f8fbec6cc6b05cbc"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
-hash = "590e1814b5e80233fa4129615098a3e22690b00f6bf36bebc4fb924964bfd852"
+hash = "c47975898dcda0a1c0441688b7e406d470d7150f55bdc04f66ca18f1a2f8c48a"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash_compatibility-server.toml"
@@ -247,6 +247,26 @@ hash = "aa1dada0d37c6dbaf55cefc156abf95f21629c6da41917abb547a7824e63bdd6"
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_game_balance/original_balance.json"
 hash = "6c13cbf97bdbe1e757f16ba689870e16be0bbd9f8fbbc891a0003ce6ad663b74"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/axe.json"
+hash = "54bc5b89edd67980bcd284bbe71ad8a0c028acd3458cfe7914ff235d160defb1"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/dagger.json"
+hash = "051e495b61c6514c0424632475aa6d90f4f814be6532fc4a35e55b3f85c4a02c"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/hammer.json"
+hash = "bb7294c71a921d37bb4d0e9f186be962f941a2f9a8551c6f34f5f6adac126b53"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/scythe.json"
+hash = "c045e8accc40c9f897bb3134705ecf0f418cac1a065ab49cd2a07163f6b98d66"
+
+[[files]]
+file = "kubejs/data/mmorpg/mmorpg_gear_slot/spear.json"
+hash = "a94d1e4b5f4ddd622ffd7b364ffbfe4525d49687b1782c8ed55e15216be60cce"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_0.json"
@@ -550,7 +570,7 @@ hash = "29098aa01c89c8cd8ae4e58afb271dae4dff2483a4d82e5b94da509f9c0c134d"
 
 [[files]]
 file = "kubejs/server_scripts/starter_cleanup.js"
-hash = "8df90a0871b9938f58cf81fe218e544d9e95831873cc6ec20d9017c3b0a8192c"
+hash = "b6709cb97bb496ba1d26c14565788c45cbef3f13216454ae72c797028dc3173e"
 
 [[files]]
 file = "kubejs/server_scripts/weapon_disable.js"
@@ -932,11 +952,6 @@ hash = "efa75ee4aae90dea11316b6e61aecaf9433eeb3d0821f78b4eca41acbbd73e8f"
 metafile = true
 
 [[files]]
-file = "mods/ftb-xmod-compat-forge.pw.toml"
-hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
-metafile = true
-
-[[files]]
 file = "mods/ftb-quests-forge.pw.toml"
 hash = "7b2cc450f553b82439ae9422b8c2b4406dae1af3c48f7ce791a3576acff1d122"
 metafile = true
@@ -944,6 +959,16 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "efda76423b21f9bfab4ad8d0411f0b06a199ab7e3e12ca16dc0586c1828b8f07"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "de02d77464356b7328f81b143cc0e1bfef99868b558fdcea407d6b5f82cb9dc0"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat-forge.pw.toml"
+hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
 metafile = true
 
 [[files]]

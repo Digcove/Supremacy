@@ -3,7 +3,7 @@
 const SPAWN_WHITELIST = []
 
 // Ticks to wait after login before clearing — gives mods time to finish distributing starter items
-const CLEANUP_DELAY_TICKS = 100
+const CLEANUP_DELAY_TICKS = 20
 
 let pendingFirstJoin = {}  // uuid -> ticks remaining
 
