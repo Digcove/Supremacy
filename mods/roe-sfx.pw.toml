@@ -1,0 +1,13 @@
+name = "Recreation of Exile - SFX"
+filename = "RoE_SFX 0.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3410396a9d11b8b42fc96469bf747ced909f15af"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6240763
+project-id = 1207903

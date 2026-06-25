@@ -963,7 +963,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "de02d77464356b7328f81b143cc0e1bfef99868b558fdcea407d6b5f82cb9dc0"
+hash = "95b3a27eadc2854462de996ddce5ff2468771e13ac97c46ed96d41a6edaa056e"
 metafile = true
 
 [[files]]
@@ -1177,6 +1177,11 @@ hash = "19821414a26c40c40f4584102cbc73df7282ef1aadf8f948b37f97c6f44a91a3"
 metafile = true
 
 [[files]]
+file = "mods/mcdw.pw.toml"
+hash = "f7fc427ef6e8e1552e4f80b0d2870878593df026"
+metafile = true
+
+[[files]]
 file = "mods/mantle.pw.toml"
 hash = "6164ce697ea02e49911afd5666dcb1d5f83ed0fff9b290def0a7a7c440c1c39b"
 metafile = true
@@ -1189,6 +1194,16 @@ metafile = true
 [[files]]
 file = "mods/mine-and-slash.pw.toml"
 hash = "97f77a252b2151f317c71feef1fe5370ea452a51365b6d431497bd3929d39284"
+metafile = true
+
+[[files]]
+file = "mods/roe-weapons.pw.toml"
+hash = "4d4bc9d1b792c3a485833e89f6fbe7133107d4b2"
+metafile = true
+
+[[files]]
+file = "mods/roe-sfx.pw.toml"
+hash = "64c9bbac505aecb4235ec00fa8868ec6ce36dcff"
 metafile = true
 
 [[files]]
