@@ -1,7 +1,7 @@
 {
 	id: "000000000000201A"
 	group: "0000000000001003"
-	order_index: 1
+	order_index: 27
 	filename: "support_applied_energistics"
 	title: "Applied Energistics 2"
 	icon: {id: "ae2:me_controller", Count: 1b}

@@ -1,7 +1,7 @@
 {
 	id: "0000000000002018"
 	group: "0000000000001002"
-	order_index: 7
+	order_index: 23
 	filename: "side_h_professions"
 	title: "Professions"
 	icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}

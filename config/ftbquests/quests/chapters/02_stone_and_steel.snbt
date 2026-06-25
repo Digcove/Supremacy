@@ -3,7 +3,7 @@
 	group: "0000000000001001"
 	order_index: 1
 	filename: "02_stone_and_steel"
-	title: "Stone & Steel"
+	title: "Stone and Steel"
 	icon: {id: "minecraft:iron_sword", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -162,13 +162,14 @@
 		x: 2.0d
 		y: -3.0d
 		title: "The Spirit Vein"
-		icon: {id: "soulland:spirit_iron_ore", Count: 1b}
-		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but with a faint blue-grey shimmer. Your Tinkers' pickaxe will mine it fine. Run it through the Create Millstone for doubled output exactly like vanilla ore.", "Spirit Iron Ingots are the base material for the entire Soul Land crafting line — Forging Table, tools, weapons, armor, pills. Mine it alongside regular iron and keep a separate chest for it. Check the Soul Land side chapter (Side D) for where it goes next."]
+		icon: {id: "soulland:raw_spirit_iron", Count: 1b}
+		description: ["Spirit Iron Ore spawns in the same depth bands as regular iron but with a faint blue-grey shimmer. Mine it and it drops Raw Spirit Iron - smelt that into Spirit Iron Ingots. Run the ore through the Create Millstone before smelting for doubled output, exactly like vanilla ore.", "Spirit Iron Ingots are the base material for the entire Soul Land crafting line - Forging Table, tools, weapons, armor, pills. Mine it alongside regular iron and keep a separate chest for it. Check the Soul Land side chapter (Side D) for where it goes next."]
 		tasks: [{
 			id: "000000000000601F"
 			type: "item"
-			item: {id: "soulland:spirit_iron_ore", Count: 1b}
+			item: {id: "soulland:raw_spirit_iron", Count: 1b}
 			count: 8L
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000006020"

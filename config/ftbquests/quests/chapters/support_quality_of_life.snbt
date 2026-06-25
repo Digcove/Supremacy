@@ -1,7 +1,7 @@
 {
 	id: "000000000000201C"
 	group: "0000000000001003"
-	order_index: 3
+	order_index: 30
 	filename: "support_quality_of_life"
 	title: "Quality of Life"
 	icon: {id: "jade:jade", Count: 1b}

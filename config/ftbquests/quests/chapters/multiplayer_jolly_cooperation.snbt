@@ -1,7 +1,7 @@
 {
 	id: "0000000000002026"
 	group: "0000000000001006"
-	order_index: 0
+	order_index: 40
 	filename: "multiplayer_jolly_cooperation"
 	title: "Jolly Cooperation"
 	icon: {id: "minecraft:shield", Count: 1b}

@@ -1,7 +1,7 @@
 {
 	id: "0000000000002019"
 	group: "0000000000001003"
-	order_index: 0
+	order_index: 26
 	filename: "support_power"
 	title: "Power Generation"
 	icon: {id: "fluxnetworks:flux_controller", Count: 1b}

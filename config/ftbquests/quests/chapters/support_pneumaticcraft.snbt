@@ -1,7 +1,7 @@
 {
 	id: "0000000000002027"
 	group: "0000000000001003"
-	order_index: 5
+	order_index: 29
 	filename: "support_pneumaticcraft"
 	title: "PneumaticCraft"
 	icon: {id: "pneumaticcraft:pressure_chamber_wall", Count: 1b}

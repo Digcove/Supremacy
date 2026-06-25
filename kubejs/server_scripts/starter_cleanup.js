@@ -1,15 +1,6 @@
-// Items removed from player inventory on first world join.
-// Item IDs marked with (?) may need correction if the in-game ID differs.
-const SPAWN_BLACKLIST = [
-    'advancedperipherals:computer_book',   // Advanced Peripherals guide (?)
-    'alexsmobs:animal_dictionary',          // Alex's Mobs animal dictionary
-    'ars_nouveau:worn_notebook',            // Ars Nouveau worn notebook
-    'soulland:cultivation_manual',          // Soul Land cultivation manual
-    'tconstruct:materials_and_you',         // Tinkers' Construct guide (?)
-    'ars_creo:book',                        // Ars Creo: On the Dynamics of Integration (?)
-    'apotheosis:chronicle_of_shadows',      // Apotheosis guide (?)
-    'apotheosis:ring_of_seven_curses',      // Apotheosis ring (?)
-]
+// Items to keep on first join. Everything else is wiped.
+// Add item IDs here if a specific item should survive the cleanup.
+const SPAWN_WHITELIST = []
 
 // Blueprint types to strip after a blueprint package is opened
 const BLUEPRINT_BLACKLIST = [
@@ -46,7 +37,7 @@ PlayerEvents.tick(event => {
         const inv = player.getInventory()
         for (let i = 0; i < inv.containerSize; i++) {
             const stack = inv.getItem(i)
-            if (!stack.isEmpty() && SPAWN_BLACKLIST.includes(stack.id)) {
+            if (!stack.isEmpty() && !SPAWN_WHITELIST.includes(stack.id)) {
                 stack.shrink(stack.count)
             }
         }

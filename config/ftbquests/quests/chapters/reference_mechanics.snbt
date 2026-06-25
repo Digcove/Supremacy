@@ -1,7 +1,7 @@
 {
 	id: "000000000000201F"
 	group: "0000000000001004"
-	order_index: 1
+	order_index: 33
 	filename: "reference_mechanics"
 	title: "Mechanics"
 	icon: {id: "gtceu:lv_machine_hull", Count: 1b}

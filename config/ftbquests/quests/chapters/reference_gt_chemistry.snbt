@@ -1,7 +1,7 @@
 {
 	id: "0000000000002021"
 	group: "0000000000001004"
-	order_index: 3
+	order_index: 35
 	filename: "reference_gt_chemistry"
 	title: "GT Chemistry"
 	icon: {id: "gtceu:chemical_reactor", Count: 1b}

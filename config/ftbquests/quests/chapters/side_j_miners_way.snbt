@@ -1,0 +1,771 @@
+{
+	id: "0000000000002029"
+	group: "0000000000001002"
+	order_index: 25
+	filename: "side_j_miners_way"
+	title: "The Miner's Way"
+	icon: {id: "minecraft:iron_pickaxe", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000290001"
+		x: 0.0d
+		y: 0.0d
+		title: "Down the Shaft"
+		icon: {id: "minecraft:iron_ore", Count: 1b}
+		description: ["The Larger Ore Veins mod makes individual deposits run much deeper and wider than vanilla - when you find iron, mine along the vein rather than punching straight down. Spelunkery adds geological detail to caves: rich stone variants (iron-rich stone, gold-rich stone) cluster near their respective ore types and are an early signal to dig.", "Y=-20 reliably has iron and coal; Y=-50 concentrates copper and lapis; Y=-60 and below is diamond country. Bring torches, food, and a bucket for lava."]
+		tasks: [{
+			id: "0000000000290002"
+			type: "item"
+			item: {id: "minecraft:iron_ore", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290003"
+			type: "item"
+			item: {id: "minecraft:torch", Count: 32b}
+		}]
+	}, {
+		id: "0000000000290004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000290001"]
+		title: "The Prospector's Eye"
+		icon: {id: "spelunkery:geologist_hammer", Count: 1b}
+		description: ["Spelunkery's Geologist's Hammer lets you survey the stone around you for ore density. Right-click a stone face to scan the area - it returns a readout of nearby mineral concentrations without requiring you to expose the ore. Use it at cave walls rather than tunneling blind.", "Spelunkery also adds a Depth Meter that displays your exact Y-level on screen - more useful than F3 for quick checks while caving, since it shows in the HUD."]
+		tasks: [{
+			id: "0000000000290005"
+			type: "item"
+			item: {id: "spelunkery:geologist_hammer", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000290006"
+			type: "item"
+			item: {id: "spelunkery:depth_meter", Count: 1b}
+		}]
+	}, {
+		id: "0000000000290007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000290004"]
+		title: "Smelt and Double"
+		icon: {id: "tconstruct:smeltery_controller", Count: 1b}
+		description: ["The Tinkers' Construct Smeltery is your first ore doubling. Raw ore placed into the Smeltery produces two ingots - a 2x yield over vanilla smelting. The Smeltery is a multiblock: Smeltery Controller on one face, Smeltery Drain on another, surrounded by Seared Bricks, with a Smeltery Tank and a Casting Basin or Table below the Drain.", "The Smeltery also alloys: combine copper and tin for Bronze, copper and zinc for Brass, iron and sand for Pig Iron. These alloys are how you access many Tinkers' tool materials."]
+		tasks: [{
+			id: "0000000000290008"
+			type: "checkmark"
+			title: "Build and activate the Tinkers' Smeltery"
+		}]
+		rewards: [{
+			id: "0000000000290009"
+			type: "item"
+			item: {id: "minecraft:copper_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000029000A"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000290007"]
+		title: "Crushing Wheels"
+		icon: {id: "create:crushing_wheel", Count: 1b}
+		description: ["Create's Crushing Wheels grind raw ore into Crushed Ore - a dust-like intermediate that smelts into two ingots, matching Smeltery output but usable in any furnace. Pair two Crushing Wheels counter-rotating (one powered, one free) with a chute above and a belt or chute below.", "To get 3x yield: take the Crushed Ore to a Fan blowing through a water source. This washes the crushed ore and produces a full ingot's worth of material plus bonus nuggets and rare byproducts. Run the fan setup before smelting and you're tripling your ore output from Create alone."]
+		tasks: [{
+			id: "000000000029000B"
+			type: "item"
+			item: {id: "create:crushing_wheel", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "000000000029000C"
+			type: "item"
+			item: {id: "create:crushed_raw_iron", Count: 8b}
+		}]
+	}, {
+		id: "000000000029000D"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000029000A"]
+		title: "The Pulverizer"
+		icon: {id: "thermal:pulverizer", Count: 1b}
+		description: ["Thermal Expansion's Pulverizer is the RF-powered alternative to the Crushing Wheels. It turns raw ore into dust at a 2x ratio and adds a chance for a secondary output - pulverizing iron ore has a chance to drop Nickel Dust, copper has a chance for Gold Dust. Secondary outputs stack over many operations and add up quickly.", "The Pulverizer upgrades via Augments. Slot in a Secondary Output augment to increase the secondary drop chance, or a Processing Speed augment to reduce operation time. Thermal machines are some of the most augment-dense blocks in the pack - always check what augments a machine accepts before leaving it at base stats."]
+		tasks: [{
+			id: "000000000029000E"
+			type: "item"
+			item: {id: "thermal:pulverizer", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000029000F"
+			type: "item"
+			item: {id: "thermal:rf_coil", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290010"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["000000000029000D"]
+		title: "The Macerator"
+		icon: {id: "gtceu:lv_macerator", Count: 1b}
+		description: ["The GTCEu Macerator is the industrial-grade ore doubler and the gateway to GT ore processing. Macerating raw ore produces two Crushed Ore. Macerating Crushed Ore produces Purified Crushed Ore. Macerating Purified Crushed Ore produces Dust. Each step is a potential yield increase, and Centrifuging Dust often splits it into multiple material dusts.", "The full GT chain: Raw Ore -> Macerator -> Crushed Ore (2x) -> Ore Washer -> Purified Ore -> Macerator -> Dust -> Centrifuge -> 3x+ yield with byproducts. This is where GT's complexity earns its name - the chain takes machines, but the output ratio is unmatched."]
+		tasks: [{
+			id: "0000000000290011"
+			type: "item"
+			item: {id: "gtceu:lv_macerator", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000290012"
+			type: "item"
+			item: {id: "gtceu:tin_dust", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290013"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000290010"]
+		title: "The Excavator"
+		icon: {id: "immersiveengineering:excavator", Count: 1b}
+		description: ["Immersive Engineering's Excavator is a massive multiblock that mines an entire chunk automatically. It scans for mineral deposits in chunk-sized veins defined by the worldgen config and extracts them over time - literally pumping out ore. Place it over a known ore chunk and let it run.", "The Excavator requires significant RF to operate and a dedicated chunk to drain, but it produces consistent ore volume without you ever entering a cave again. It's the end-state of this chapter: from hand-swinging a pickaxe to running a machine that mines mountains while you sleep."]
+		tasks: [{
+			id: "0000000000290014"
+			type: "checkmark"
+			title: "Build the IE Excavator multiblock"
+		}]
+		rewards: [{
+			id: "0000000000290015"
+			type: "item"
+			item: {id: "immersiveengineering:fluid_pipe", Count: 16b}
+		}]
+	}, {
+		id: "0000000000290016"
+		x: 0.0d
+		y: -2.0d
+		title: "A Sharper Edge"
+		icon: {id: "silentgear:pickaxe", Count: 1b}
+		description: ["Silent Gear pickaxes are compound - each head, rod, and tip is crafted from a separate material whose traits combine on the finished tool. Mix a Rose Gold head (high harvest speed) with a Crimson Iron rod (durability) and a Diamond tip for a pick that outperforms vanilla iron in every stat before you reach Netherite.", "Silent Gear tools repair with their constituent materials rather than experience, and upgrade materials can be swapped later by breaking down the tool on a Salvager. Check JEI for Silent Gear blueprint recipes and material stat sheets - the Gear parts screen shows stat breakdowns by slot before you commit materials."]
+		tasks: [{
+			id: "0000000000290017"
+			type: "item"
+			item: {id: "silentgear:pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000290018"
+			type: "item"
+			item: {id: "silentgear:rose_gold_ingot", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290019"
+		x: 2.0d
+		y: -2.0d
+		dependencies: ["0000000000290016"]
+		title: "Fortune's Blessing"
+		icon: {id: "minecraft:enchanted_book", Count: 1b}
+		description: ["Fortune III on a pickaxe triples diamond yield, quadruples lapis and redstone, and doubles coal. Apotheosis unlocks enchanting upgrades well beyond vanilla: shelves can surround the table on multiple sides, raising the maximum enchant level past 30. A fully upgraded Apotheosis table can force Fortune III with much higher consistency than vanilla.", "Fortune doesn't help with GT ore processing - GT raw ore is best mined with Silk Touch and then processed through the maceration chain. Keep a Fortune pick and a Silk Touch pick in your hotbar for different scenarios."]
+		tasks: [{
+			id: "000000000029001A"
+			type: "checkmark"
+			title: "Apply Fortune III to a pickaxe"
+		}]
+		rewards: [{
+			id: "000000000029001B"
+			type: "item"
+			item: {id: "apotheosis:tome_of_striking", Count: 1b}
+		}]
+	}, {
+		id: "000000000029001C"
+		x: 4.0d
+		y: -2.0d
+		dependencies: ["0000000000290019"]
+		title: "The Silk Touch Standard"
+		icon: {id: "minecraft:amethyst_cluster", Count: 1b}
+		description: ["Silk Touch mines the ore block itself rather than dropping raw ore. This matters for three things: Amethyst Clusters (which only drop shards when broken normally - Silk Touch keeps the whole cluster for display or replanting), Sculk blocks, and feeding GT ore processing where a Silk Touch block fed to the Macerator can yield better results depending on config.", "It also lets you collect Nether Quartz Ore blocks for smelting or AE2 certus clusters without consuming them on pickup. Build one Silk Touch pick and leave it in your enderchest for these use cases."]
+		tasks: [{
+			id: "000000000029001D"
+			type: "item"
+			item: {id: "minecraft:amethyst_cluster", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000029001E"
+			type: "item"
+			item: {id: "minecraft:amethyst_shard", Count: 16b}
+		}]
+	}, {
+		id: "000000000029001F"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["000000000029001C"]
+		title: "Enchantment Industry"
+		icon: {id: "create_enchantment_industry:experience_rotor", Count: 1b}
+		description: ["Create Enchantment Industry automates the enchanting process entirely. Liquid Experience (produced by running mob farms through a Spout and XP drain, or by smelting Lapis in a Mixing vessel) feeds into an Enchanting Apparatus powered by a Rotation source. Configure the target enchant via the GUI and apply Fortune III on demand, no RNG.", "It also adds the Disenchanter - a Create-compatible machine that strips enchantments from gear back into books, which can then be liquid-XP-deposited and re-spent. This loops with a mob farm: farm XP, convert to liquid, bottle it into enchants, strip and rebottle anything you don't want."]
+		tasks: [{
+			id: "0000000000290020"
+			type: "item"
+			item: {id: "create_enchantment_industry:experience_rotor", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000290021"
+			type: "item"
+			item: {id: "minecraft:experience_bottle", Count: 16b}
+		}]
+	}, {
+		id: "0000000000290022"
+		x: 0.0d
+		y: 2.0d
+		title: "The Undergarden"
+		icon: {id: "undergarden:depthrock", Count: 1b}
+		description: ["The Undergarden is a subterranean dimension below the Overworld, accessed by throwing a Catalyst into a 3x3 pool of water surrounded by Deepslate. It's a world of fungal growths, bioluminescent flora, and two unique stone types: Depthrock and Gloomslate. Both have unique ore variants - Cloggrum Ore and Froststeel Ore spawn in Depthrock and smelt into alloys used in mid-game tools.", "The Undergarden has no natural light and aggressive mobs from the start. Bring a lantern, Silent Gear diamond-tier tools, and food buffs. The biome is large and rewarding once you get past the initial darkness."]
+		tasks: [{
+			id: "0000000000290023"
+			type: "item"
+			item: {id: "undergarden:depthrock", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290024"
+			type: "item"
+			item: {id: "undergarden:catalyst", Count: 2b}
+		}]
+	}, {
+		id: "0000000000290025"
+		x: 2.0d
+		y: 2.0d
+		dependencies: ["0000000000290022"]
+		title: "Nether Veins"
+		icon: {id: "minecraft:nether_quartz_ore", Count: 1b}
+		description: ["The Nether has three priority mining targets: Nether Quartz (found everywhere, fast to mine - Fortune pays off here), Nether Gold Ore (rare but drops multiple nuggets with Fortune), and Ancient Debris (blast-proof, found at Y=8-22, never exposed to air, always surrounded by Netherrack - requires Diamond-tier tools).", "GTCEu adds Nether-specific ore veins - Ardite and Cobalt, Sulfur, and Phosphate - in the Nether's stone layers. Check JEI under World Generation to see where GT places Nether ore veins. The Nether's lack of water means no Fan Washing - process Nether ores in the Overworld."]
+		tasks: [{
+			id: "0000000000290026"
+			type: "item"
+			item: {id: "minecraft:ancient_debris", Count: 1b}
+			count: 2L
+		}]
+		rewards: [{
+			id: "0000000000290027"
+			type: "item"
+			item: {id: "minecraft:netherite_scrap", Count: 2b}
+		}]
+	}, {
+		id: "0000000000290028"
+		x: 4.0d
+		y: 2.0d
+		dependencies: ["0000000000290025"]
+		title: "Netherite"
+		icon: {id: "minecraft:netherite_ingot", Count: 1b}
+		description: ["Four Ancient Debris smelt into four Netherite Scraps. Four Scraps plus four Gold Ingots craft one Netherite Ingot on a Smithing Table. Netherite upgrades any Diamond gear piece - the result is fire-immune, floats in lava, and has higher durability than diamond.", "Netherite tools outclass most early Silent Gear builds but are eclipsed by end-game Silent Gear compound tools. Worth making at least one Netherite pickaxe when you first reach the Nether - the fire immunity alone pays for itself."]
+		tasks: [{
+			id: "0000000000290029"
+			type: "item"
+			item: {id: "minecraft:netherite_ingot", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000029002A"
+			type: "item"
+			item: {id: "minecraft:netherite_scrap", Count: 2b}
+		}]
+	}, {
+		id: "000000000029002B"
+		x: 6.0d
+		y: 2.0d
+		dependencies: ["0000000000290028"]
+		title: "The Orechid"
+		icon: {id: "botania:orechid", Count: 1b}
+		description: ["The Botania Orechid converts surrounding stone blocks into random ore blocks by consuming Mana from a nearby Mana Spreader. It picks from a weighted pool matching natural worldgen rates. Place it near a Mana pool, surround it with stone, and let it run. Slow, but completely passive and renewable - good for filling ore gaps when you've exhausted local deposits.", "The Orechid Ignem (the Nether variant) works the same way in Netherrack and produces Nether ore types. Pair one in your Nether base with an automated Mana Spreader for background quartz and gold generation while you're away."]
+		tasks: [{
+			id: "000000000029002C"
+			type: "item"
+			item: {id: "botania:orechid", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000029002D"
+			type: "item"
+			item: {id: "botania:mana_tablet", Count: 1b}
+		}]
+	}, {
+		id: "000000000029002E"
+		x: 8.0d
+		y: 2.0d
+		dependencies: ["000000000029002B"]
+		title: "The Laser Drill"
+		icon: {id: "industrialforegoing:laser_drill", Count: 1b}
+		description: ["Industrial Foregoing's Laser Drill fires a laser beam down through the ground and extracts ore probabilistically - no physical mining, no chunks depleted, just energy in and ore out. The ore output pool is configurable via Focus items that bias the laser toward specific ore types.", "The Laser Drill does not deplete chunks like the IE Excavator - it's a true passive generator. Set it up, feed it a large RF buffer, and forget it. A good set-and-forget layer for ores that are hard to mine efficiently by other means (Amethyst, Emerald, Nether Quartz)."]
+		tasks: [{
+			id: "000000000029002F"
+			type: "item"
+			item: {id: "industrialforegoing:laser_drill", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000290030"
+			type: "item"
+			item: {id: "industrialforegoing:iron_laser_drill_focus", Count: 2b}
+		}]
+	}, {
+		id: "0000000000290031"
+		x: 0.0d
+		y: 4.0d
+		title: "Coal"
+		icon: {id: "minecraft:coal_ore", Count: 1b}
+		description: ["The most abundant underground resource, found throughout Y=0 to Y=256 with peak density around Y=96. Mine large coalstone seams for bulk collection."]
+		tasks: [{
+			id: "0000000000290032"
+			type: "item"
+			item: {id: "minecraft:coal", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "0000000000290033"
+			type: "item"
+			item: {id: "minecraft:torch", Count: 64b}
+		}]
+	}, {
+		id: "0000000000290034"
+		x: 2.0d
+		y: 4.0d
+		title: "Iron"
+		icon: {id: "minecraft:iron_ore", Count: 1b}
+		description: ["Found from Y=-64 to Y=72, most reliably around Y=16. The backbone of early processing - never stop collecting it."]
+		tasks: [{
+			id: "0000000000290035"
+			type: "item"
+			item: {id: "minecraft:raw_iron", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290036"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 16b}
+		}]
+	}, {
+		id: "0000000000290037"
+		x: 4.0d
+		y: 4.0d
+		title: "Copper"
+		icon: {id: "minecraft:copper_ore", Count: 1b}
+		description: ["Clusters between Y=-16 and Y=112, most common around Y=48. Essential for circuits, pipes, and bronze alloys."]
+		tasks: [{
+			id: "0000000000290038"
+			type: "item"
+			item: {id: "minecraft:raw_copper", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290039"
+			type: "item"
+			item: {id: "minecraft:copper_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000029003A"
+		x: 6.0d
+		y: 4.0d
+		title: "Gold"
+		icon: {id: "minecraft:gold_ore", Count: 1b}
+		description: ["Found Y=-64 to Y=32 in the Overworld, and abundantly in badlands biomes at any elevation. Also drops from Nether Gold Ore with Fortune."]
+		tasks: [{
+			id: "000000000029003B"
+			type: "item"
+			item: {id: "minecraft:raw_gold", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029003C"
+			type: "item"
+			item: {id: "minecraft:gold_ingot", Count: 8b}
+		}]
+	}, {
+		id: "000000000029003D"
+		x: 8.0d
+		y: 4.0d
+		title: "Lapis Lazuli"
+		icon: {id: "minecraft:lapis_ore", Count: 1b}
+		description: ["Found Y=-64 to Y=64, peaking around Y=0. Essential for enchanting - keep a surplus stock so you're never dry at the enchanting table."]
+		tasks: [{
+			id: "000000000029003E"
+			type: "item"
+			item: {id: "minecraft:lapis_lazuli", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "000000000029003F"
+			type: "item"
+			item: {id: "minecraft:lapis_block", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290040"
+		x: 10.0d
+		y: 4.0d
+		title: "Redstone"
+		icon: {id: "minecraft:redstone_ore", Count: 1b}
+		description: ["Found Y=-64 to Y=16, concentrated near bedrock. Required in quantity for circuits, comparators, and GT machine components."]
+		tasks: [{
+			id: "0000000000290041"
+			type: "item"
+			item: {id: "minecraft:redstone", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "0000000000290042"
+			type: "item"
+			item: {id: "minecraft:redstone", Count: 32b}
+		}]
+	}, {
+		id: "0000000000290043"
+		x: 12.0d
+		y: 4.0d
+		title: "Diamond"
+		icon: {id: "minecraft:diamond_ore", Count: 1b}
+		description: ["Found Y=-64 to Y=16 with the highest density near Y=-59. Use Fortune III for maximum yield, or Silk Touch and the Macerator chain for processing bonuses."]
+		tasks: [{
+			id: "0000000000290044"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000290045"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290046"
+		x: 14.0d
+		y: 4.0d
+		title: "Emerald"
+		icon: {id: "minecraft:emerald_ore", Count: 1b}
+		description: ["Found exclusively in mountain biomes (Y=-16 to Y=320), usually as single-block deposits. Trade with villagers or use the Mystical Agriculture Emerald Seed for a steady supply."]
+		tasks: [{
+			id: "0000000000290047"
+			type: "item"
+			item: {id: "minecraft:emerald", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000290048"
+			type: "item"
+			item: {id: "minecraft:emerald", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290049"
+		x: 0.0d
+		y: 6.0d
+		title: "Tin"
+		icon: {id: "gtceu:tin_ore", Count: 1b}
+		description: ["GTCEu ore vein, typically found between Y=40 and Y=100. Critical for Bronze, Tin Cans, and early GTCEu circuits. Check JEI under World Generation for vein locations."]
+		tasks: [{
+			id: "000000000029004A"
+			type: "item"
+			item: {id: "gtceu:tin_ore", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029004B"
+			type: "item"
+			item: {id: "gtceu:tin_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000029004C"
+		x: 2.0d
+		y: 6.0d
+		title: "Zinc"
+		icon: {id: "gtceu:zinc_ore", Count: 1b}
+		description: ["Found in mixed veins alongside copper. Used in Brass alloys and galvanized components. Check GT ore vein maps in JEI for exact spawn locations."]
+		tasks: [{
+			id: "000000000029004D"
+			type: "item"
+			item: {id: "gtceu:zinc_ore", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029004E"
+			type: "item"
+			item: {id: "gtceu:zinc_ingot", Count: 16b}
+		}]
+	}, {
+		id: "000000000029004F"
+		x: 4.0d
+		y: 6.0d
+		title: "Lead"
+		icon: {id: "gtceu:galena_ore", Count: 1b}
+		description: ["Galena ore yields both Lead and Silver when processed. The Macerator's secondary output on galena is silver dust, making each vein doubly valuable."]
+		tasks: [{
+			id: "0000000000290050"
+			type: "item"
+			item: {id: "gtceu:galena_ore", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290051"
+			type: "item"
+			item: {id: "gtceu:lead_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290052"
+		x: 6.0d
+		y: 6.0d
+		title: "Silver"
+		icon: {id: "gtceu:silver_ore", Count: 1b}
+		description: ["GTCEu silver veins spawn underground, often alongside lead. Used in circuits and conductive components. Also a byproduct of Galena maceration."]
+		tasks: [{
+			id: "0000000000290053"
+			type: "item"
+			item: {id: "gtceu:silver_ore", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000290054"
+			type: "item"
+			item: {id: "gtceu:silver_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290055"
+		x: 8.0d
+		y: 6.0d
+		title: "Nickel"
+		icon: {id: "gtceu:nickel_ore", Count: 1b}
+		description: ["Found in GTCEu pentlandite veins. Nickel dust is also a secondary output when macerating iron ore. Used in Invar and Kanthal alloys."]
+		tasks: [{
+			id: "0000000000290056"
+			type: "item"
+			item: {id: "gtceu:nickel_ore", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000290057"
+			type: "item"
+			item: {id: "gtceu:nickel_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290058"
+		x: 10.0d
+		y: 6.0d
+		title: "Scheelite"
+		icon: {id: "gtceu:scheelite_ore", Count: 1b}
+		description: ["A tungsten ore found in deep GTCEu veins below Y=-20. Macerating Scheelite produces Tungsten Dust, a key high-tier GT material for EV-tier and beyond."]
+		tasks: [{
+			id: "0000000000290059"
+			type: "item"
+			item: {id: "gtceu:scheelite_ore", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000029005A"
+			type: "item"
+			item: {id: "gtceu:tungsten_dust", Count: 2b}
+		}]
+	}, {
+		id: "000000000029005B"
+		x: 12.0d
+		y: 6.0d
+		title: "Chromite"
+		icon: {id: "gtceu:chromite_ore", Count: 1b}
+		description: ["Chrome ore for GTCEu stainless steel and chromium processing. Found in underground chromite veins. Used in Chrome Steel and EV-tier alloys."]
+		tasks: [{
+			id: "000000000029005C"
+			type: "item"
+			item: {id: "gtceu:chromite_ore", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000029005D"
+			type: "item"
+			item: {id: "gtceu:chrome_dust", Count: 4b}
+		}]
+	}, {
+		id: "000000000029005E"
+		x: 0.0d
+		y: 8.0d
+		title: "Nether Quartz"
+		icon: {id: "minecraft:nether_quartz_ore", Count: 1b}
+		description: ["Found throughout the Nether at all Y levels. Fortune III can yield 4-6 quartz per ore block. Required for AE2 components, Comparators, and Daylight Sensors."]
+		tasks: [{
+			id: "000000000029005F"
+			type: "item"
+			item: {id: "minecraft:quartz", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "0000000000290060"
+			type: "item"
+			item: {id: "minecraft:quartz_block", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290061"
+		x: 2.0d
+		y: 8.0d
+		title: "Nether Gold"
+		icon: {id: "minecraft:nether_gold_ore", Count: 1b}
+		description: ["Scattered through the Nether's Netherrack layer. Drops 2-6 gold nuggets with Fortune III. A useful early gold supplement before your Overworld gold mining is established."]
+		tasks: [{
+			id: "0000000000290062"
+			type: "item"
+			item: {id: "minecraft:gold_nugget", Count: 1b}
+			count: 64L
+		}]
+		rewards: [{
+			id: "0000000000290063"
+			type: "item"
+			item: {id: "minecraft:gold_ingot", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290064"
+		x: 4.0d
+		y: 8.0d
+		title: "Ancient Debris"
+		icon: {id: "minecraft:ancient_debris", Count: 1b}
+		description: ["Found Y=8-22 in the Nether, always surrounded by Netherrack - never air-exposed. Requires Diamond-tier tools. Smelt four debris into four Netherite Scraps, then combine with gold for Netherite Ingots."]
+		tasks: [{
+			id: "0000000000290065"
+			type: "item"
+			item: {id: "minecraft:ancient_debris", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "0000000000290066"
+			type: "item"
+			item: {id: "minecraft:netherite_scrap", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290067"
+		x: 6.0d
+		y: 8.0d
+		title: "Glowstone"
+		icon: {id: "minecraft:glowstone", Count: 1b}
+		description: ["Glowstone clusters hang from the ceiling in the Nether's upper layers. Fortune III maximizes dust drops per block (up to 4). Used in potions, redstone lamps, and powered lanterns."]
+		tasks: [{
+			id: "0000000000290068"
+			type: "item"
+			item: {id: "minecraft:glowstone_dust", Count: 1b}
+			count: 32L
+		}]
+		rewards: [{
+			id: "0000000000290069"
+			type: "item"
+			item: {id: "minecraft:glowstone", Count: 8b}
+		}]
+	}, {
+		id: "000000000029006A"
+		x: 8.0d
+		y: 8.0d
+		title: "Soul Sand"
+		icon: {id: "minecraft:soul_sand", Count: 1b}
+		description: ["Found in the Soul Sand Valley biome. Slows movement on contact but required for Wither summoning and Nether Wart farms. Collect a stockpile early for automated mob spawners."]
+		tasks: [{
+			id: "000000000029006B"
+			type: "item"
+			item: {id: "minecraft:soul_sand", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029006C"
+			type: "item"
+			item: {id: "minecraft:wither_skeleton_skull", Count: 1b}
+		}]
+	}, {
+		id: "000000000029006D"
+		x: 0.0d
+		y: 10.0d
+		title: "Amethyst"
+		icon: {id: "minecraft:amethyst_cluster", Count: 1b}
+		description: ["Grows inside Amethyst Geodes found at any depth in the Overworld. Only fully grown clusters drop 4 shards. Use Silk Touch to harvest the cluster block itself for decoration or replanting."]
+		tasks: [{
+			id: "000000000029006E"
+			type: "item"
+			item: {id: "minecraft:amethyst_shard", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029006F"
+			type: "item"
+			item: {id: "minecraft:amethyst_block", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290070"
+		x: 2.0d
+		y: 10.0d
+		title: "Certus Quartz"
+		icon: {id: "ae2:certus_quartz_ore", Count: 1b}
+		description: ["Applied Energistics 2's core material. Found underground in quartz veins with a distinctive blue tint. Certus Quartz Crystals are the input for Fluix processing and all AE2 inscriber recipes."]
+		tasks: [{
+			id: "0000000000290071"
+			type: "item"
+			item: {id: "ae2:certus_quartz_crystal", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000290072"
+			type: "item"
+			item: {id: "ae2:certus_quartz_block", Count: 4b}
+		}]
+	}, {
+		id: "0000000000290073"
+		x: 4.0d
+		y: 10.0d
+		title: "Froststeel"
+		icon: {id: "undergarden:froststeel_ore", Count: 1b}
+		description: ["Unique to the Undergarden dimension, found in Depthrock at mid-depth layers. Smelts into Froststeel Ingots used in Undergarden mid-game tools and decorative blocks."]
+		tasks: [{
+			id: "0000000000290074"
+			type: "item"
+			item: {id: "undergarden:froststeel_ore", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000290075"
+			type: "item"
+			item: {id: "undergarden:froststeel_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290076"
+		x: 6.0d
+		y: 10.0d
+		title: "Cloggrum"
+		icon: {id: "undergarden:cloggrum_ore", Count: 1b}
+		description: ["Found alongside Froststeel in the Undergarden's Depthrock layer. Cloggrum Ingots are used in Undergarden alloy crafting and are an exclusive material for certain tools."]
+		tasks: [{
+			id: "0000000000290077"
+			type: "item"
+			item: {id: "undergarden:cloggrum_ore", Count: 1b}
+			count: 8L
+		}]
+		rewards: [{
+			id: "0000000000290078"
+			type: "item"
+			item: {id: "undergarden:cloggrum_ingot", Count: 8b}
+		}]
+	}, {
+		id: "0000000000290079"
+		x: 8.0d
+		y: 10.0d
+		title: "Deepslate Coal"
+		icon: {id: "minecraft:deepslate_coal_ore", Count: 1b}
+		description: ["The deepslate variant of coal ore, found below Y=0 where stone transitions to deepslate. Harder to mine but just as common - bring Efficiency V and collect in bulk."]
+		tasks: [{
+			id: "000000000029007A"
+			type: "item"
+			item: {id: "minecraft:deepslate_coal_ore", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "000000000029007B"
+			type: "item"
+			item: {id: "minecraft:coal", Count: 32b}
+		}]
+	}, {
+		id: "000000000029007C"
+		x: 10.0d
+		y: 10.0d
+		title: "Deepslate Diamond"
+		icon: {id: "minecraft:deepslate_diamond_ore", Count: 1b}
+		description: ["Below Y=-8, diamond ore generates in deepslate form. Same rarity as regular diamond ore. Use Fortune III for maximum drops, or Silk Touch and the Macerator chain for processing bonuses."]
+		tasks: [{
+			id: "000000000029007D"
+			type: "item"
+			item: {id: "minecraft:deepslate_diamond_ore", Count: 1b}
+			count: 4L
+		}]
+		rewards: [{
+			id: "000000000029007E"
+			type: "item"
+			item: {id: "minecraft:diamond", Count: 4b}
+		}]
+	}]
+	quest_links: []
+}

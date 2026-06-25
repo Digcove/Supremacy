@@ -1,9 +1,9 @@
 {
 	id: "0000000000002006"
-	group: "0000000000001001"
+	group: "0000000000001007"
 	order_index: 5
 	filename: "06_blood_flowers_demons"
-	title: "Blood, Flowers & Demons"
+	title: "Blood, Flowers and Demons"
 	icon: {id: "botania:mana_pool", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

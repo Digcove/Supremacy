@@ -1,7 +1,7 @@
 {
-	id: "0000000000002019"
+	id: "0000000000002028"
 	group: "0000000000001002"
-	order_index: 8
+	order_index: 24
 	filename: "side_i_alex_mobs"
 	title: "Wild Kingdom"
 	icon: {id: "alexsmobs:animal_dictionary", Count: 1b}

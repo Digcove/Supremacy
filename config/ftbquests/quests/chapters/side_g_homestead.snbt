@@ -1,7 +1,7 @@
 {
 	id: "0000000000002017"
 	group: "0000000000001002"
-	order_index: 6
+	order_index: 22
 	filename: "side_g_homestead"
 	title: "Homestead"
 	icon: {id: "waystones:waystone", Count: 1b}

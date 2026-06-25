@@ -1,7 +1,7 @@
 {
 	id: "0000000000002023"
 	group: "0000000000001005"
-	order_index: 1
+	order_index: 37
 	filename: "logbook_fishing"
 	title: "Fishing"
 	icon: {id: "minecraft:fishing_rod", Count: 1b}

@@ -1,7 +1,7 @@
 {
 	id: "0000000000002024"
 	group: "0000000000001005"
-	order_index: 2
+	order_index: 38
 	filename: "logbook_other_hobbies"
 	title: "Other Hobbies"
 	icon: {id: "railways:locomotive", Count: 1b}

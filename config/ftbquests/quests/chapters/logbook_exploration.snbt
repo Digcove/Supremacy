@@ -1,7 +1,7 @@
 {
 	id: "0000000000002022"
 	group: "0000000000001005"
-	order_index: 0
+	order_index: 36
 	filename: "logbook_exploration"
 	title: "Exploration"
 	icon: {id: "minecraft:filled_map", Count: 1b}

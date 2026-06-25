@@ -12,33 +12,35 @@
 		id: "0000000000003001"
 		x: 0.0d
 		y: 0.0d
-		title: "The Ground Beneath Your Feet"
+		title: "A New World"
 		icon: {id: "minecraft:dirt", Count: 1b}
-		description: ["Suddenly, both known and unknown, rough on your hands. The soil of this land is the same as my old world. Ripe land for you the great grandson of the pig god to conquer."]
+		description: ["You have arrived. The land is unfamiliar, full of resources, and quietly dangerous.", "This questbook is your guide through the entire modpack. It will tell you what to build, why it matters, and where your choices lead. Follow the chain. Read the descriptions. The answers to most questions are written here.", "Pick up a handful of dirt. Then get to work."]
 		tasks: [{
 			id: "0000000000003002"
 			type: "item"
 			item: {id: "minecraft:dirt", Count: 1b}
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003003"
 			type: "item"
-			item: {id: "minecraft:golden_helmet", Count: 1b}
+			item: {id: "mmorpg:master_bag", Count: 1b}
 		}]
 	}, {
 		id: "0000000000003004"
 		x: 2.0d
 		y: 0.0d
 		dependencies: ["0000000000003001"]
-		title: "I've Got a Woody"
+		title: "Into the Wood"
 		icon: {id: "minecraft:oak_log", Count: 1b}
-		description: ["Wasn't that hard on your fists."]
+		description: ["Wood comes before everything else. Sixteen logs gets you a crafting table, a full set of wooden tools, and the planks to frame a shelter. Any tree species works.", "Punch until you have enough. An axe will make the next session faster."]
 		tasks: [{
 			id: "0000000000003005"
 			type: "item"
 			item: {id: "minecraft:oak_log", Count: 1b}
 			count: 16L
 			tag: "forge:logs"
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003006"
@@ -50,79 +52,74 @@
 		x: 4.0d
 		y: 0.0d
 		dependencies: ["0000000000003004"]
-		title: "Stone Cold"
+		title: "Stone Foundation"
 		icon: {id: "minecraft:stone_pickaxe", Count: 1b}
-		description: ["Those wooden twigs won't last the hour. Get yourself a proper pickaxe — cobblestone is right beneath your feet."]
+		description: ["Wooden tools are a stepping stone, nothing more. Cobblestone is directly beneath the surface. Craft a stone pickaxe — it mines ore veins that a wooden pick cannot touch and lasts long enough to get you through the next several milestones.", "You will also want a crafting table placed somewhere accessible. Most of the early game runs through it."]
 		tasks: [{
 			id: "0000000000003008"
 			type: "item"
 			item: {id: "minecraft:stone_pickaxe", Count: 1b}
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003009"
 			type: "item"
-			item: {id: "minecraft:cobblestone", Count: 16b}
+			item: {id: "minecraft:coal", Count: 8b}
 		}]
 	}, {
-		id: "000000000000300A"
+		id: "0000000000003032"
 		x: 6.0d
 		y: 0.0d
 		dependencies: ["0000000000003007"]
-		title: "A Man's Best Friend"
-		icon: {id: "minecraft:saddle", Count: 1b}
-		description: ["Every great warrior needs a mount. You're not getting one for free — gather five wheat and an apple. The saddle's yours."]
+		title: "Light Against the Dark"
+		icon: {id: "minecraft:torch", Count: 1b}
+		description: ["Mining without light is a short career. Coal veins appear at every depth and are common in cave systems just below the surface. Find one before you go underground and convert it into torches before the dark fills with whatever lives there.", "Torches suppress hostile spawning. Light your tunnel as you advance, not as you retreat. A wall of torches behind you means a clear path back."]
 		tasks: [{
-			id: "000000000000300B"
+			id: "0000000000003033"
 			type: "item"
-			item: {id: "minecraft:wheat", Count: 1b}
-			count: 5L
-		}, {
-			id: "000000000000300C"
-			type: "item"
-			item: {id: "minecraft:apple", Count: 1b}
+			item: {id: "minecraft:torch", Count: 1b}
+			count: 32L
+			consume: false
 		}]
 		rewards: [{
-			id: "000000000000300D"
+			id: "0000000000003034"
 			type: "item"
-			item: {id: "minecraft:saddle", Count: 1b}
-		}, {
-			id: "000000000000300E"
-			type: "item"
-			item: {id: "minecraft:iron_horse_armor", Count: 1b}
+			item: {id: "minecraft:coal", Count: 16b}
 		}]
 	}, {
-		id: "000000000000300F"
+		id: "0000000000003035"
 		x: 8.0d
 		y: 0.0d
-		dependencies: ["000000000000300A"]
-		title: "Blood from Stone"
-		icon: {id: "minecraft:iron_ingot", Count: 1b}
-		description: ["The surface yields only so much. Go underground — sixteen iron ingots is the price of admission into anything worth doing in this world."]
+		dependencies: ["0000000000003032"]
+		title: "Enough to Eat"
+		icon: {id: "minecraft:bread", Count: 1b}
+		description: ["Hunger is a slow kill. Mine and Slash scales enemy difficulty as you progress, and saturation directly affects how long your health regenerates between fights. A half-starved fighter loses fights they should win.", "Wheat grows quickly from seeds dropped by tall grass. Three wheat in a row crafts a loaf. Grow a small field near your base — it is the simplest food system available and it keeps you functional during the long underground sessions ahead.", "Proper cooking through Farmer's Delight comes later and gives meaningful combat buffs. Bread is just enough to stay alive until then."]
 		tasks: [{
-			id: "0000000000003010"
+			id: "0000000000003036"
 			type: "item"
-			item: {id: "minecraft:iron_ingot", Count: 1b}
-			count: 16L
-			tag: "forge:ingots/iron"
+			item: {id: "minecraft:bread", Count: 1b}
+			count: 5L
+			consume: false
 		}]
 		rewards: [{
-			id: "0000000000003011"
+			id: "0000000000003037"
 			type: "item"
-			item: {id: "minecraft:blast_furnace", Count: 1b}
+			item: {id: "minecraft:apple", Count: 8b}
 		}]
 	}, {
 		id: "0000000000003012"
 		x: 10.0d
 		y: 0.0d
-		dependencies: ["000000000000300F"]
-		title: "Four Walls and a Roof"
-		icon: {id: "minecraft:oak_planks", Count: 1b}
-		description: ["Put those tools to work. This land is wild and unforgiving — you need four walls and a roof before nightfall claims you. Spend 30 minutes building your first home. The wilderness can wait."]
+		dependencies: ["0000000000003035"]
+		title: "A Roof and a Bed"
+		icon: {id: "minecraft:red_bed", Count: 1b}
+		description: ["Shelter is infrastructure. Four walls and a ceiling block hostile spawning inside your base. A bed resets the night cycle and locks your respawn point — a death underground does not have to cost you the run.", "Place the Waystone outside your front door. It anchors a return point you can teleport back to from anywhere you find another waystone. This becomes more valuable as the world gets larger."]
 		tasks: [{
 			id: "0000000000003013"
-			type: "stat"
-			stat: "minecraft:play_time"
-			value: 36000L
+			type: "item"
+			item: {id: "minecraft:red_bed", Count: 1b}
+			tag: "minecraft:beds"
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003014"
@@ -132,91 +129,101 @@
 			id: "0000000000003015"
 			type: "item"
 			item: {id: "sophisticatedbackpacks:backpack", Count: 1b}
-		}, {
-			id: "0000000000003016"
-			type: "item"
-			item: {id: "supplementaries:sleeping_bag", Count: 1b}
 		}]
 	}, {
-		id: "0000000000003017"
+		id: "000000000000300F"
 		x: 12.0d
 		y: 0.0d
 		dependencies: ["0000000000003012"]
-		title: "Sleep Tight"
-		icon: {id: "minecraft:red_bed", Count: 1b}
-		description: ["A roof overhead means nothing if you're sleeping on the floor. Craft a bed — you know what goes in it."]
+		title: "Iron in the Earth"
+		icon: {id: "minecraft:raw_iron", Count: 1b}
+		description: ["Iron is the gate between improvised survival and intentional construction. It unlocks the first tier of armor, tools, machines, and every major crafting system introduced in the next chapter.", "Twenty-four raw iron is enough to smelt a full armor set with material left over. Iron veins are most common below y=16 — dig deep, find a cave system, follow the stone. You will be mining iron again soon, so start building the habit now."]
 		tasks: [{
-			id: "0000000000003018"
+			id: "0000000000003010"
 			type: "item"
-			item: {id: "minecraft:red_bed", Count: 1b}
-			tag: "minecraft:beds"
+			item: {id: "minecraft:raw_iron", Count: 1b}
+			count: 24L
+			consume: false
 		}]
 		rewards: [{
-			id: "0000000000003019"
+			id: "0000000000003011"
 			type: "item"
-			item: {id: "minecraft:bread", Count: 4b}
+			item: {id: "minecraft:blast_furnace", Count: 1b}
 		}]
 	}, {
 		id: "000000000000301A"
 		x: 14.0d
 		y: 0.0d
-		dependencies: ["0000000000003017"]
-		title: "The Stoner Spear"
+		dependencies: ["000000000000300F"]
+		title: "First Weapon"
 		icon: {id: "spartanweaponry:stone_spear", Count: 1b}
-		description: ["The night has teeth. A stone spear won't win you any wars, but it'll buy you enough mornings to get somewhere worth going. Craft one and introduce the local wildlife to what happens when you stop running."]
+		description: ["Spartan Weaponry expands the weapon roster beyond swords. Spears reach one block further than melee range. Halberds hit in a wide arc. Daggers strike fast and chain hits together. The stone spear is your entry point — craft one.", "Mine and Slash is an ARPG stat system layered over all your gear. Every weapon and armor piece can receive a Soul, which permanently adds stat bonuses to that item. The rewards here include a Weapon Soul and a Socket Orb — apply them after this quest using the instructions in the next step."]
 		tasks: [{
 			id: "000000000000301B"
 			type: "item"
 			item: {id: "spartanweaponry:stone_spear", Count: 1b}
+			consume: false
 		}]
 		rewards: [{
 			id: "000000000000301C"
 			type: "item"
+			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+		}, {
+			id: "000000000000301F"
+			type: "item"
 			item: {id: "mmorpg:currency/socket_adder", Count: 1b}
 		}]
 	}, {
-		id: "000000000000301D"
+		id: "0000000000003038"
 		x: 16.0d
 		y: 0.0d
 		dependencies: ["000000000000301A"]
-		title: "The Soul Within"
+		title: "Soul Gear"
 		icon: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
-		description: ["Every weapon is a hollow thing until the godess Kieransmama breathes life into it. Use the scroll on the spear. Then apply the Socket Orb to unlock its true potential.", "This is the Mine & Slash soul — the stat-building layer. There is also a Soul Land Martial Soul running a parallel cultivation track. Both are worth your time. Both feed the same endgame. See Side D."]
+		description: ["Hold the Weapon Soul and right-click your stone spear to apply it. The spear gains permanent stat bonuses scaled to the soul's rarity. Then use the Socket Orb on the spear to open a socket for future gem upgrades.", "This is the Mine and Slash upgrade loop that continues through every tier of gear. As you kill enemies they drop gear and Salvage Stones. Salvage everything you won't equip — the Salvage Table breaks gear into stones, and stones are the currency for the Orb Forge, the pack's custom crafting station for high-tier materials and upgrades.", "Check the Steel and Glory side chapter for the full Orb Forge and salvage system breakdown."]
 		tasks: [{
-			id: "000000000000301E"
-			type: "item"
-			item: {id: "spartanweaponry:stone_spear", Count: 1b}
+			id: "0000000000003039"
+			type: "checkmark"
+			title: "Apply the Weapon Soul and add a socket to your stone spear"
 		}]
 		rewards: [{
-			id: "000000000000301F"
+			id: "000000000000303A"
 			type: "item"
-			item: {id: "mmorpg:stat_soul/family/weapon/uncommon", Count: 1b}
+			item: {id: "mmorpg:currency/orb_of_quality", Count: 2b}
 		}]
 	}, {
 		id: "0000000000003020"
 		x: 18.0d
 		y: 0.0d
-		dependencies: ["000000000000301D"]
-		title: "Dressed for Battle"
+		dependencies: ["0000000000003038"]
+		title: "Iron Guard"
 		icon: {id: "minecraft:iron_chestplate", Count: 1b}
-		description: ["Iron across the chest, down the legs, and on the feet. Complete the set. Then choose your path — Plate for those who stand firm, Leather for those who move fast, Cloth for those who command the unseen.", "Once the set is complete, three paths will open. Each one defines what kind of warrior you are. Choose one path only. Apply the Force Soul Tags to all three pieces. There is no going back."]
+		description: ["A full iron set closes the survival gap between you and everything that hunts you at night. Smelt your iron and craft all four pieces: helmet, chestplate, leggings, boots.", "Once the set is complete, three combat paths open below. Each one defines your armor archetype through Mine and Slash's Force Soul Tag system. Applying four Force Soul Tags — one to each armor piece — permanently commits that piece to a stat path. Choose one. There is no mixing paths on the same set."]
 		tasks: [{
 			id: "0000000000003021"
 			type: "item"
-			item: {id: "minecraft:iron_chestplate", Count: 1b}
+			item: {id: "minecraft:iron_helmet", Count: 1b}
+			consume: false
 		}, {
 			id: "0000000000003022"
 			type: "item"
-			item: {id: "minecraft:iron_leggings", Count: 1b}
+			item: {id: "minecraft:iron_chestplate", Count: 1b}
+			consume: false
 		}, {
 			id: "0000000000003023"
 			type: "item"
+			item: {id: "minecraft:iron_leggings", Count: 1b}
+			consume: false
+		}, {
+			id: "0000000000003031"
+			type: "item"
 			item: {id: "minecraft:iron_boots", Count: 1b}
+			consume: false
 		}]
 		rewards: [{
 			id: "0000000000003024"
 			type: "item"
-			item: {id: "minecraft:iron_helmet", Count: 1b}
+			item: {id: "mmorpg:currency/socket_adder", Count: 2b}
 		}, {
 			id: "0000000000003025"
 			type: "item"
@@ -227,54 +234,109 @@
 		x: 20.0d
 		y: -1.0d
 		dependencies: ["0000000000003020"]
-		title: "The Plate Path"
+		exclusive_to: ["0000000000003029", "000000000000302C"]
+		title: "Path of the Sentinel"
 		icon: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 1b}
-		description: ["You have chosen the Plate Path. Your iron armor will become heavy plate — built to absorb punishment and hold the line. Use each of the three Force Soul Tag: Armor modifiers on your Chestplate, Leggings, and Boots to lock in the plate archetype across the full set. Do not complete the other paths."]
+		description: ["The Sentinel path converts your armor into heavy plate — the highest physical defense archetype available. Sentinels absorb punishment, hold ground, and scale into tanking, boss fights, and front-line engagements where staying alive longer is the primary objective.", "Apply one Force Soul Tag: Armor to each of your four armor pieces. The tag permanently marks each slot for plate-class stat rolls on future upgrade tiers. This choice cannot be undone on the current set."]
 		tasks: [{
 			id: "0000000000003027"
-			type: "item"
-			item: {id: "minecraft:iron_chestplate", Count: 1b}
+			type: "checkmark"
+			title: "Choose the Sentinel Path — commit to plate defense"
 		}]
 		rewards: [{
 			id: "0000000000003028"
 			type: "item"
-			item: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 3b}
+			item: {id: "mmorpg:currency/force_soul_tag_armor_stat", Count: 4b}
 		}]
 	}, {
 		id: "0000000000003029"
 		x: 20.0d
 		y: 0.0d
 		dependencies: ["0000000000003020"]
-		title: "The Leather Path"
+		exclusive_to: ["0000000000003026", "000000000000302C"]
+		title: "Path of the Shade"
 		icon: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 1b}
-		description: ["You have chosen the Leather Path. Your iron armor will become supple leather — built for those who survive by not being where the blade lands. Use each of the three Force Soul Tag: Dodge modifiers on your Chestplate, Leggings, and Boots to lock in the leather archetype across the full set. Do not complete the other paths."]
+		description: ["The Shade path builds your defense around evasion rather than absorption. Shades survive because hits miss, not because hits are reduced. This path rewards mobile playstyles, positioning, and weapon types from Spartan Weaponry that favor quick strikes over sustained trading.", "Apply one Force Soul Tag: Dodge to each of your four armor pieces to commit. This path scales best in the mid-game when dodge stacking becomes meaningful and enemies have predictable attack patterns."]
 		tasks: [{
 			id: "000000000000302A"
-			type: "item"
-			item: {id: "minecraft:iron_leggings", Count: 1b}
+			type: "checkmark"
+			title: "Choose the Shade Path — commit to evasion and mobility"
 		}]
 		rewards: [{
 			id: "000000000000302B"
 			type: "item"
-			item: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 3b}
+			item: {id: "mmorpg:currency/force_soul_tag_dodge_stat", Count: 4b}
 		}]
 	}, {
 		id: "000000000000302C"
 		x: 20.0d
 		y: 1.0d
 		dependencies: ["0000000000003020"]
-		title: "The Cloth Path"
+		exclusive_to: ["0000000000003026", "0000000000003029"]
+		title: "Path of the Arcanist"
 		icon: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 1b}
-		description: ["You have chosen the Cloth Path. Your iron armor will become woven cloth — built for those who answer steel with something far less forgiving. Use each of the three Force Soul Tag: Magic Shield modifiers on your Chestplate, Leggings, and Boots to lock in the cloth archetype across the full set. Do not complete the other paths."]
+		description: ["The Arcanist path replaces physical defense with a regenerating Magic Shield — a secondary health pool that absorbs damage before your health bar takes a hit. Arcanists deal damage through spells, Iron's Spells abilities, and Ars Nouveau magic, and their defense scales with the same magical investment.", "Apply one Force Soul Tag: Magic Shield to each of your four armor pieces to commit. This path becomes significantly more powerful once you have access to a proper spellbook in Act II."]
 		tasks: [{
 			id: "000000000000302D"
-			type: "item"
-			item: {id: "minecraft:iron_boots", Count: 1b}
+			type: "checkmark"
+			title: "Choose the Arcanist Path — commit to magic shield and spellcasting"
 		}]
 		rewards: [{
 			id: "000000000000302E"
 			type: "item"
-			item: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 3b}
+			item: {id: "mmorpg:currency/force_soul_tag_magic_shield_stat", Count: 4b}
+		}]
+	}, {
+		id: "000000000000300A"
+		x: 6.0d
+		y: -2.0d
+		dependencies: ["0000000000003007"]
+		title: "Four Legs, More Ground"
+		icon: {id: "minecraft:saddle", Count: 1b}
+		description: ["A horse is the fastest way to cover ground before you have trains, waystones, or flight. They can also wear armor and carry you over terrain that slows foot travel considerably.", "Wheat grows from seeds dropped by tall grass — plant a small farm early. Apples drop from oak leaf blocks when you break them. Both items are obtainable without any special equipment."]
+		tasks: [{
+			id: "000000000000300B"
+			type: "item"
+			item: {id: "minecraft:wheat", Count: 1b}
+			count: 5L
+			consume: false
+		}, {
+			id: "000000000000300C"
+			type: "item"
+			item: {id: "minecraft:apple", Count: 1b}
+			consume: false
+		}]
+		rewards: [{
+			id: "000000000000300D"
+			type: "item"
+			item: {id: "minecraft:saddle", Count: 1b}
+		}, {
+			id: "000000000000300E"
+			type: "item"
+			item: {id: "minecraft:iron_horse_armor", Count: 1b}
+		}, {
+			id: "0000000000003030"
+			type: "item"
+			item: {id: "minecraft:horse_spawn_egg", Count: 1b}
+		}]
+	}, {
+		id: "000000000000B001"
+		x: 14.0d
+		y: -2.0d
+		dependencies: ["000000000000300F"]
+		title: "A Different Metal"
+		icon: {id: "soulland:spirit_iron_ingot", Count: 1b}
+		description: ["While mining iron, you may have noticed ore with a faint blue-grey shimmer. That is Spirit Iron. Mine it the same way as regular iron, then smelt it into Spirit Iron Ingots. Running it through a Create Millstone before smelting doubles the output, exactly like vanilla ore.", "Spirit Iron is the foundational material for the Soul Land cultivation system: a parallel progression track covering cultivation ranks, Soul Ring absorption, Martial Soul forms, and spirit beast hunting. All of it compounds your combat power alongside Mine and Slash. It does not replace the main progression — it runs beside it.", "Open Side D and start with the Cultivation Altar. Set it up now and let it run passively while you continue through the main chapters."]
+		tasks: [{
+			id: "000000000000B002"
+			type: "item"
+			item: {id: "soulland:spirit_iron_ingot", Count: 1b}
+			consume: false
+		}]
+		rewards: [{
+			id: "000000000000B003"
+			type: "item"
+			item: {id: "soulland:cultivation_manual", Count: 1b}
 		}]
 	}]
 	quest_links: []

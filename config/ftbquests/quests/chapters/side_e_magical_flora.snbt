@@ -1,7 +1,7 @@
 {
 	id: "0000000000002015"
 	group: "0000000000001002"
-	order_index: 4
+	order_index: 20
 	filename: "side_e_magical_flora"
 	title: "Magical Flora"
 	icon: {id: "botania:terrasteel", Count: 1b}

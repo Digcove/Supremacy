@@ -1,9 +1,9 @@
 {
 	id: "000000000000200F"
 	group: "0000000000001002"
-	order_index: 1
+	order_index: 17
 	filename: "side_b_steel_and_glory"
-	title: "Steel & Glory"
+	title: "Steel and Glory"
 	icon: {id: "minecraft:diamond_sword", Count: 1b}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

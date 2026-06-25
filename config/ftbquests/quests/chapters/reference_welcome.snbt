@@ -1,7 +1,7 @@
 {
 	id: "000000000000201E"
 	group: "0000000000001004"
-	order_index: 0
+	order_index: 32
 	filename: "reference_welcome"
 	title: "Welcome"
 	icon: {id: "minecraft:book", Count: 1b}

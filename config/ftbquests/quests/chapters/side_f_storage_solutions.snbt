@@ -1,7 +1,7 @@
 {
 	id: "0000000000002016"
 	group: "0000000000001002"
-	order_index: 5
+	order_index: 21
 	filename: "side_f_storage_solutions"
 	title: "Storage Solutions"
 	icon: {id: "ae2:me_drive", Count: 1b}

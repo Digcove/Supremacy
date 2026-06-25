@@ -1,7 +1,7 @@
 {
 	id: "000000000000200E"
 	group: "0000000000001002"
-	order_index: 0
+	order_index: 16
 	filename: "side_a_farmers_life"
 	title: "A Farmer's Life"
 	icon: {id: "minecraft:wheat", Count: 1b}
