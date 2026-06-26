@@ -26,15 +26,31 @@ hash = "51c39e1ea277838365b95f768ea9bae9189bc19dfff5155e7fdc4ebbcb74ee01"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "cdb3a3f157369a1e12c76e848d6e632946c9cbd3157d31c36bbb6b0ba21518e4"
+hash = "211530c4da6fe8aa98413cb77853abda4722e64140bed139b5297be3ececba6c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/a_portal_of_lost_worlds.snbt"
+hash = "700813b9fc750f34e560199942db4584aff64fde3a7416dae3c4a633cb3b13a9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventures_in_abydos.snbt"
+hash = "d2088feb874322e2b7a06a54b06069bc4821bc45c17307a82b3724c068e6925c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alchemy.snbt"
 hash = "025fd17edc3a187ef5bdc21cfb17bfc9ade3034b2f45c04c9b3d4bae49a4e2ad"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
+hash = "2aafe3de42945bf24038322e08e47fffd36c7b29a3e9a7e6056a48efc1e8d494"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
 hash = "1b783fa382e3a3484ce7819687597935aa0523996c94a8fef9aac7a68d8c835f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/automation_age.snbt"
+hash = "03f13b7adbb314ecf4b242f60ed86bf3c85c3cd4e300e176d85337d5d0975c2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/biome_hopper.snbt"
@@ -45,20 +61,96 @@ file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "9446dab0002bdc91a293613570650004b82bc60de78249ee7aba899e28812ab0"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/draconic_age_part_1.snbt"
+hash = "49ead41751e6b15aa9ff247afcf6ef7d7ef0f81d7101652d0b44cc365e6e234c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/early_game.snbt"
+hash = "f42b20be5d03683591128f91d40e8cdc9a13d9bb9e9f8d817befaf6c8df8f35a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "4aaa7c6136367701a7182d8122b60be4493a6565d6e617ccf2b322ad5d4d505a"
+hash = "1c2fef7e9bcf67b92399d7dcdaf59973e44852938d3967e84e2dfbc0949e2f29"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/futuristic_mechanisms.snbt"
+hash = "7bf33967426cc0ff38487b6ab4e633489cb8f9ea6eca12e0a058b76ce114c303"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/greg.snbt"
-hash = "437ec4f74800e4e0d710eac708a7360290df82403d244ae99a2ac6ce8a40676e"
+hash = "49416a85afcfcc24aec0af8c288e2740517ccc3bb6a1d02af70024be8f128fc1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
+hash = "99603a916371191e28a59d62d044cf45ecfea17862cee077e760bee3e2a96643"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
 hash = "16439426dd19f4527f03364d6dbbb1fc186579cae4295304ef2254f16de34a16"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/line_of_progression.snbt"
+hash = "f07d4e9a783d88fd51eea7ff63cf831a12f244c92e67b17a1222c669ecf8fa85"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/lv_machines.snbt"
+hash = "00f19d75eb1f7a3fa0a0c26987ef5e439b84fdbd3531cb35fea3a0547013c8d3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mechanics.snbt"
+hash = "f0b506e2b2f82dc3754184ef9e8fdab178e0565c9a0ea05679de69418984dbc1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mystical_agriculture_gregified.snbt"
+hash = "e86a3cebc377ffbd27e3de593e11c43e7725566e76f8ba12c631836fce0e1745"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nuclear_fission.snbt"
+hash = "63ba4486832cbf7f1039b04cb4cbc44bfc40a1c244af6a643d1b619a4c72af0d"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "07418e75804e55bdfd169c746f74f7f262ecd23ee5c34f32ab035244582d7776"
+hash = "c0fc0f3fa52b4353d57842d148671c324149540b431c8856520ce8bda9ca70f4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pl1.snbt"
+hash = "708f6817d8a6ea859f9738f3644f92975f5ff72694c7364f7235c09cbb73f7f1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pl2.snbt"
+hash = "8f387561fc0a4b76135544b54c2b0f541b0777c4a069e90ceedf815509f3e35b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pl3.snbt"
+hash = "f19dde53a55fea84ae44b310ab2bd79ad8bddc922d70d71be4436ebe072d18fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pl4.snbt"
+hash = "be970c7221116c7f6369b2225298fd53a6ae16b0fd7e26349d089016c1b937ee"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pl5.snbt"
+hash = "646c53253945183e53a8e5013b3e59f2c331459feb8be573f21f43cf13576d0a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/power.snbt"
+hash = "909d5b53b3eb242ea76692b626599002d540b4436abae494e962c5c32682e53d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/preparing_for_dimensional_travel.snbt"
+hash = "58ba88c4f6ebf55aae3dce69de5d95773832d6dd28457420b3dde483f482498b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/quality_of_life.snbt"
+hash = "47989f6a8f843d430a8283efa03f98b98c4f0838ae73d1af4af8ef922ca38a91"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/resource_production.snbt"
+hash = "a4819355dee712049ae266d66edbdfb4180d4fbf00e9b23124261bb8ed1609a7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/shop.snbt"
+hash = "192d5940bb31344d597545e26a8fee72ce7478cd6c28442ce7d79cf0d8327ba7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_awakening.snbt"
@@ -70,11 +162,19 @@ hash = "58c75603d908bea2a5a6eda1b250cb36ef0bcbaad5d79af1318361eddcbf1ca0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_weapons.snbt"
-hash = "2e18fc67fab515a9af9b9f8c352aaa24f878d6c64e1d7494815f3a8f44dbee00"
+hash = "18007defc649854e5c22fb29e2069cd9d363dfc972b69d7e6997cffa0cd0d9ba"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/structures.snbt"
 hash = "8e6d2fadb8366cd10fbf94666bbee9903f786d67e84a780cd148333fb562caad"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_stars_await_greatness.snbt"
+hash = "d8c5eacb71ab40c14d1b890768cb467a4a937d76c4deb768070fc62b10c1068d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "9ca160197f0a2476fe32cb63ded0754cd726150227ca8fcfa169d07adbdbf4df"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"

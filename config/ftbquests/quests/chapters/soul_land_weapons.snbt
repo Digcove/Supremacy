@@ -11,6 +11,12 @@
 			dependencies: ["3BAA6E1DEABA9E59"]
 			description: ["The Tang Sect's hidden weapons are forged at the Forging Table using Spirit Iron and specialized components. Unlike conventional combat, hidden weapons strike from concealment — each one has unique trigger mechanics, effective ranges, and soul power cost. Mastery of the Forging Table is the first step into Tang Sect doctrine."]
 			id: "0194FAB6E9EFFA13"
+			rewards: [{
+				count: 2
+				id: "A1B2C3D4E5F60123"
+				item: "kubejs:coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BE2B02418E90B87"
 				item: "soulland:forging_table"
@@ -25,7 +31,7 @@
 				"0194FAB6E9EFFA13"
 				"792CE5342E2F27E8"
 			]
-			description: ["The Dragon Beard Needle is a core Tang Sect hidden weapon — thin as a hair, fired silently in clusters. It requires Spirit Scholar cultivation to use effectively. As your soul power rank rises, higher-tier Tang Sect weapons become available, culminating in weapons capable of felling beasts a hundred ranks your senior."]
+			description: ["The Dragon Beard Needle is a core Tang Sect hidden weapon — thin as hair, fired silently in clusters. It demands precise soul power channeling to aim; Spirit Scholar cultivation provides the baseline control required. As your rank rises, higher-tier hidden weapons become accessible, each with escalating range, trigger complexity, and raw output."]
 			id: "0CB6D79172FC5B93"
 			rewards: [{
 				id: "26120D42975AFFEF"
@@ -40,6 +46,270 @@
 			title: "Dragon Beard Needle"
 			x: 0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["0194FAB6E9EFFA13"]
+			description: ["Sleeve Darts are the Tang Sect's most compact weapon — spring-loaded into the sleeve, triggered by wrist snap. Silent, concealable, and deadly at short range. They're the foundation of hidden weapon fighting style: deny the enemy the chance to react before the weapon has already landed. Craft them at the Forging Table from Spirit Iron and compressed steel."]
+			id: "4A7C9E2F5B8D1A3C"
+			rewards: [{
+				count: 2
+				id: "B5C6D7E8F9A01234"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "F59B1D3CA7E0FC1E"
+				item: "soulland:sleeve_dart"
+				type: "item"
+			}]
+			title: "Sleeve Darts"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0CB6D79172FC5B93"]
+			description: ["The Tang Sect's three core techniques define its identity as much as the hidden weapons do. Purple Demon Eyes (P key) — four tiers from night vision to ranged mental damage to full AoE stun domain. Ghost Shadow Track (N key) — three tiers from enhanced dash to 20-block teleport with 35% dodge. Controlling Crane Capturing Dragon (H key) — telekinesis scaled to eight simultaneous targets by mastery. Each technique trains through repeated use. They stack with soul ring active skills."]
+			id: "5B8D1F3A6C9E2B4D"
+			rewards: [{
+				count: 3
+				id: "C6D7E8F9A0B12345"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "A6AC2E4DB8F1AD2F"
+				title: "Tang Sect Techniques"
+				type: "checkmark"
+			}]
+			title: "Tang Sect Techniques"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A7C9E2F5B8D1A3C"]
+			description: ["The Tang Sect's poisons are a parallel doctrine to the hidden weapons — ranked on the same ten-tier scale. Numbing Powder at level one causes temporary muscle paralysis; higher-tier poisons cause organ failure, soul power suppression, and effects that standard healing cannot counter. Poisons are applied to darts and needles or deployed as area powders. The combination of a paralyzed target and a volley of Dragon Beard Needles ends most encounters before they begin."]
+			id: "6C9E2A4F7D1B3C5E"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "D7E8F9A0B1C23456"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B7BD3F5EC9A2BE30"
+				item: "soulland:numbing_powder"
+				type: "item"
+			}]
+			title: "Poisons of the Tang Sect"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B8D1F3A6C9E2B4D"]
+			description: ["The Godly Zhuge Crossbow fires 48 bolts in a single volley — the defining area-denial weapon of the Tang Sect. It requires precision construction at the Forging Table using advanced Spirit Iron components and a calibrated mechanism that few cultivators below Spirit Ancestor can fully control. Against clustered enemies or large beasts, a single volley clears the engagement. Combine with Numbing Powder for maximum effect."]
+			id: "7D1F3B5A8E2C4D6F"
+			rewards: [{
+				count: 5
+				id: "E8F9A0B1C2D34567"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "C8CE4A6FDB3CF041"
+				item: "soulland:godly_zhuge_crossbow"
+				type: "item"
+			}]
+			title: "Godly Zhuge Crossbow"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D1F3B5A8E2C4D6F"]
+			description: ["The Peacock Plume fires 365 spirit energy needles in a fan arc — one for every day of the year, Tang San once claimed. It requires materials beyond what standard Forging Table work produces alone; the resonance needed in the projectile tips demands Spirit Scholar-grade cultivation to impart. Against multiple enemies or a single powerful beast, the Peacock Plume turns a cultivator into a one-volley artillery piece."]
+			id: "8E2A4C6B9F3D5E7A"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "F9A0B1C2D3E45678"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "D9DF5B7AEC4DA152"
+				item: "soulland:peacock_plume"
+				type: "item"
+			}]
+			title: "Peacock Plume"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D1F3B5A8E2C4D6F"]
+			description: ["The Continental Tournament pits five-person academy teams against eight novel-accurate opponents across five rounds. Four opponents per round, each with a unique martial soul, element-specific skills, and Spirit Avatar mode when cornered. Rewards scale from crystals to legendary Tang Sect weapons for bracket completion. It is the first structured test of whether your cultivation, hidden weapons, and technique mastery function together under pressure — and the last milestone before the endgame weapons become accessible."]
+			id: "9F3B5D7CA1E4F6B8"
+			rewards: [
+				{
+					count: 5
+					id: "A0B1C2D3E4F56789"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "B1C2D3E4F5A6789A"
+					item: "soulland:qi_crystal"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "EAE06C8BFD5EB263"
+				title: "Continental Tournament"
+				type: "checkmark"
+			}]
+			title: "Continental Tournament"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["9F3B5D7CA1E4F6B8"]
+			description: ["Buddha's Fury Tang Lotus is the apex of Tang Sect hidden weapon design — a nine-petal lotus that seals in explosive spirit energy, detonating on impact in a pattern that covers every escape vector. It requires Level 90 cultivation to deploy and demands mastery of every preceding Tang Sect technique. The two legendary weapons — Yama's Invitation and Bodhi Blood — are single-use and drop only from the most powerful sources. This lotus is the weapon you build toward."]
+			id: "A04C6E8DB2F5A7C9"
+			rewards: [{
+				count: 6
+				id: "C2D3E4F5A6B789AB"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "FBF17D9CEE6FC374"
+				item: "soulland:buddha_fury_tang_lotus"
+				type: "item"
+			}]
+			title: "Buddha's Fury Tang Lotus"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BAA6E1DEABA9E59"]
+			description: ["Spartan Weaponry expands physical combat beyond vanilla swords into dedicated fighting disciplines. The Halberd has extended reach and excels against clustered groups. The Greatsword swings in a wide arc. The Katana and Dagger reward attack speed builds. The Lance shines during mounted combat on horseback or Valkyrien Skies vessels. The Javelin is the only throwable. Every weapon type synergizes differently with Mine & Slash's stat soul system — choose your first based on your intended combat style, not material tier. Tinkers and Silent Gear weapons are disabled in this pack; Spartan Weaponry is your physical combat system."]
+			id: "B15D7F9EC3A6B8DA"
+			rewards: [{
+				count: 3
+				id: "D3E4F5A6B7C89ABC"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF28EADF7B0D485"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{ Count: 1b, id: "spartanweaponry:iron_halberd" }
+							{ Count: 1b, id: "spartanweaponry:iron_greatsword" }
+							{ Count: 1b, id: "spartanweaponry:iron_katana" }
+							{ Count: 1b, id: "spartanweaponry:iron_dagger" }
+							{ Count: 1b, id: "spartanweaponry:iron_lance" }
+							{ Count: 1b, id: "spartanweaponry:iron_javelin" }
+							{ Count: 1b, id: "spartanweaponry:iron_saber" }
+						]
+					}
+				}
+				title: "Iron Spartan Weapon"
+				type: "item"
+			}]
+			title: "A Weapon of Your Own"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"B15D7F9EC3A6B8DA"
+				"6DACE8982D9E9FA0"
+			]
+			description: ["Spirit Steel is harder than any standard ore — forged through the convergence of Botania mana and Soul Land spirit_iron at the mana infusion pool. At the Forging Table, the same ingots that produce Spirit Steel Armor can produce spirit_steel weapons: the spirit_steel_sword scales favorably against beast-type enemies due to its resonance with soul power. Spirit Steel weapons also accept Mine & Slash stat souls — apply an Uncommon or Rare stat soul to unlock the stat tree for your weapon and begin allocating damage, crit, and speed points."]
+			id: "C26E8A0FD4B7C9EB"
+			rewards: [{
+				count: 3
+				id: "E4F5A6B7C8D9ABCD"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "1D0F3B5E7A2C4D6F"
+					item: { Count: 4, id: "soulland:spirit_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "2E1A4C6F8B3D5E70"
+					title: "Spirit Steel Weapon Forged"
+					type: "checkmark"
+				}
+			]
+			title: "Spirit Steel Arms"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["B15D7F9EC3A6B8DA"]
+			description: ["Iron's Spells & Spellbooks puts spellcasting in the off-hand for the Cloth armor path. The Iron Spellbook starts with several spell slots; higher-tier books hold more and cast at greater power. Spell Scrolls drop from enemies, mage towers, and dungeon chests — right-click a scroll while holding your Spellbook to inscribe it permanently. Spells cost Mana, which regenerates passively and scales with Intelligence and Wisdom stat soul investment. For cultivators on the Cloth path, this is your primary damage system alongside soul ring active skills and Tang Sect techniques."]
+			id: "D37F9B1AE5C8DAFC"
+			rewards: [{
+				count: 3
+				id: "F5A6B7C8D9E0BCDE"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F2B5D7A9C1E3F81"
+					item: "irons_spellbooks:iron_spell_book"
+					type: "item"
+				}
+				{
+					id: "4A3C6E8B0D2F4A92"
+					title: "Inscribe Your First Spell"
+					type: "checkmark"
+				}
+			]
+			title: "Iron's Spellbook"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["C26E8A0FD4B7C9EB"]
+			description: ["Apotheosis overhauls the enchanting table entirely — bookshelves matter by type, not just count. Different shelf types push enchantment power past vanilla's Level 30 cap and gate higher enchantment tier availability. Build your setup with varied shelf types to reach Level 30+ power. A Halberd with Sweeping Edge III + Sharpness V clears rooms; a Katana with Attack Speed + Looting III becomes a stat soul farming machine. Gems from Apotheosis socket into M&S socket slots and stack with your stat soul allocations."]
+			id: "E48A0C2BF6D9EB0D"
+			rewards: [{
+				count: 4
+				id: "A6B7C8D9E0F1CDEF"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B4D7F9A2E1B5CA3"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "6C5E8A0B3F2C6DB4"
+					item: "apotheosis:arcane_bookshelf"
+					type: "item"
+				}
+			]
+			title: "Enchant Your Blade"
+			x: 4.5d
+			y: -3.0d
 		}
 	]
 	title: "Soul Land Weapons"

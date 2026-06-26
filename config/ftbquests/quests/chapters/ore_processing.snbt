@@ -12,8 +12,14 @@
 				"3B495C6068F785CD"
 				"41BDD2ED2D884E3C"
 			]
-			description: ["Crushing Wheels double your ore yield by processing raw ore into two crushed chunks. Place two counter-rotating wheels face to face and drop ore between them. A shaft connection to any rotational source is required. This is your first step toward efficient resource processing."]
+			description: ["Create's Crushing Wheels process raw ores into crushed ore chunks, guaranteeing two outputs per ore — a full 2x yield with no RNG. Place two counter-rotating wheels with a single-block gap between them and drop ore into the gap. Both wheels require rotational input; connect them via shaft to any power source. Speed determines throughput, not yield — even a slow Water Wheel is sufficient to begin."]
 			id: "682F366436809BCC"
+			rewards: [{
+				count: 3
+				id: "0A8F2B4C6D1E3F50"
+				item: "kubejs:coin"
+				type: "item"
+			}]
 			tasks: [{
 				count: 2L
 				id: "5F3F998A44F465FB"
@@ -21,24 +27,125 @@
 				type: "item"
 			}]
 			title: "Crushing Wheels"
-			x: -1.0d
-			y: -0.5d
+			x: -7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
-				"1360F2689830BE48"
 				"682F366436809BCC"
+				"1360F2689830BE48"
 			]
-			description: ["An Encased Fan blowing through water washes crushed ore chunks into purified ore, adding a third output on top of your crush yield. Point the fan horizontally through a column of water source blocks. Every ore type that passes through yields more than crushing alone — a significant long-term gain."]
+			description: ["Fan Ore Washing adds a secondary output on top of your Crushing Wheels yield. Build a column of water source blocks, then drive an Encased Fan to push air horizontally through them. Crushed ore passing through exits as Washed Crushed Ore, yielding a bonus purified ore item on top of the base crush output. The fan requires rotational input; any Water Wheel connection is sufficient."]
 			id: "4CCA4B2A9DAE30AE"
+			rewards: [{
+				count: 3
+				id: "1B9A3C5D7E2F4A61"
+				item: "kubejs:coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6527E6ADFC09EC3B"
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			title: "Ore Washing"
-			x: 1.0d
-			y: -0.5d
+			title: "Fan Ore Washing"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["682F366436809BCC"]
+			description: ["Create's crushing recipes yield more than just ore. Gravel produces Flint. Blaze Rods give Blaze Powder with a chance at Blaze Mesh. Many ores have secondary dust outputs — Iron has a chance at Manganese, Gold yields a chance at Copper Dust. Route your output belt through a Brass Funnel set to filter so crushed ore and byproducts sort into separate chests automatically. At scale, these compounds into real value."]
+			id: "2E5F7A9B1C3D6E82"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "6A8C1E3F5B7D9A24"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F2A6B8C1D3E5F73"
+				title: "Crushing Byproducts"
+				type: "checkmark"
+			}]
+			title: "Crushing Byproducts"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"682F366436809BCC"
+				"0FCDD275FC93F23B"
+				"6CD3FDD027906C44"
+			]
+			description: ["The Orechid is a Botania generating flower that transmutes adjacent Stone blocks into random ores over time, consuming 17,500 mana per conversion. It is crafted at the Petal Apothecary using Polished Rose Quartz — a material that only exists because of Create's sandpaper mechanic. This is the first hard convergence point between mechanical and magical systems. Plant it underground near dense Stone, fed by a dedicated Mana Spreader and Pool. A bank of four Orechids provides meaningful passive ore supplementation without ever lifting a pickaxe."]
+			id: "5A3B7C9D1E2F4A65"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "2F4A6B8C1D3E5F78"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3C1D5E7F9A2B4C86"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "7E9F2B4D6A1C3E87"
+					item: "botania:orechid"
+					type: "item"
+				}
+			]
+			title: "The Orechid"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4CCA4B2A9DAE30AE"]
+			description: ["A manually-fed Crushing Wheel setup is a permanent bottleneck. An Andesite Funnel mounted on a Chest pulls items onto a Mechanical Belt, which carries them to a Chute that drops ore directly into the input gap above your wheels. On the output side, add a Brass Funnel with a filter to sort crushed ore from byproducts into separate inventories. Once this line runs unattended, your metal throughput becomes limited only by your belt speed and available power."]
+			id: "1C4D7E9F2A3B5C69"
+			rewards: [{
+				count: 4
+				id: "4C6E8A2B1D3F5A85"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "8E2F4A6B3C5D7E93"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2B4D6F8A1C3E5D74"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			title: "Automated Ore Line"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C4D7E9F2A3B5C69"]
+			description: ["Create's ore processing reaches its ceiling here — Crushing Wheels with Fan Washing deliver reliable 2x to 2.5x ore yield. GregTech's electric processing begins where Create ends: the Macerator guarantees 2x yield plus bonus byproduct dusts, and a cascade of chemical refinement steps extracts rare metals unavailable through any other method. The Greg chapter covers the path from Primitive Blast Furnace through your first LV electric machines and the ore processing chain that follows."]
+			id: "7D2E4F6A8B1C3D56"
+			rewards: [{
+				id: "1F2A3B4C5D6E7F87"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "9F1A3B5C7D2E4F67"
+				title: "Into the Machine Age"
+				type: "checkmark"
+			}]
+			title: "Into the Machine Age"
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	title: "Ore Processing"

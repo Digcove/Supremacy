@@ -5,11 +5,11 @@
 	group: "1E24DF067925061D"
 	id: "49F3543207F05E3C"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: []
 	quests: [
 		{
 			dependencies: ["3ABDA0A1EA25EB8F"]
-			description: ["Pam's HarvestCraft adds over 80 unique crops to the world, each with its own seed, harvest, and food item. Agave is among the earliest. Farmer's Delight then combines these crops into full meals that provide lasting buffs. A well-stocked farm is the foundation of every long expedition."]
+			description: ["Pam's HarvestCraft adds over 80 crops across every biome — each biome holds seeds you cannot find elsewhere. The agave crop grows in warm and arid regions; its juice is a Farmer's Delight cooking ingredient. Beyond food, Pam's crops provide raw inputs for Mine & Slash alchemy, Soul Land pill crafting, and every advanced Cooking Pot recipe. Many Pam's crops self-seed if left to mature, so a diverse farm propagates itself without seed repurchasing. Your farm is your supply chain — diversify it before you need it."]
 			id: "22C4FB700C4C7B5F"
 			rewards: [
 				{
@@ -29,12 +29,186 @@
 				type: "item"
 			}]
 			title: "Pam's Harvest"
-			x: -1.0d
-			y: 1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["22C4FB700C4C7B5F"]
-			description: ["You have expanded your farm beyond the basics. Diversifying your crop selection unlocks new cooking recipes in Farmer's Delight and provides the raw materials for Mine & Slash's alchemy system. A cultivator who tends their garden tends their power."]
+			description: ["Farmer's Delight cooking recipes require specific crop combinations — Vegetable Soup needs carrots, potatoes, and greens. Tomato appears in more FD recipes than any other single Pam's crop. Rice unlocks grain-based dishes and several stew variants. Each unique crop type you grow expands the pool of available Cooking Pot recipes. Prioritize crops that yield both a food item and a replantable seed — the highest-volume staples sustain themselves given enough space and beds."]
+			id: "F1A2B3C4D5E60000"
+			rewards: [{
+				count: 3
+				id: "FA4B000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "DA1C000000000001"
+					item: "pamhc2crops:tomatoitem"
+					type: "item"
+				}
+				{
+					id: "DA1C000000000002"
+					item: "pamhc2crops:riceitem"
+					type: "item"
+				}
+				{
+					id: "DA1C000000000003"
+					item: "pamhc2crops:onionitem"
+					type: "item"
+				}
+			]
+			title: "Crop Diversity"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60000"]
+			description: ["The Cooking Pot accepts up to four ingredients plus water and produces multiple servings in one operation — no crafting table required. Place it over any heat source (campfire, fire, magma block) and right-click the output slot with an empty bowl to collect each serving. A single craft typically produces four to six servings. Higher-complexity recipes provide lasting food buffs and higher saturation than anything vanilla Minecraft can produce. The Cooking Pot is the reason food stops being a maintenance task and starts being a force multiplier for combat."]
+			id: "F1A2B3C4D5E60001"
+			rewards: [{
+				count: 3
+				id: "FA4B000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C000000000004"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Cooking Pot"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60001"]
+			description: ["Vegetable Soup requires carrots, potatoes, Pam's cabbage, and water in the Cooking Pot. It provides six hunger bars and a short Regeneration effect — enough to replace cooked pork chops as your expedition food. Cook it in batches of six servings and stock your inventory before heading into Mine & Slash combat. At higher cultivation ranks, food buff stacking with Soul Land cultivation bonuses and M&S stat soul investments creates a meaningful composite effect that individual hunger values obscure. Feed yourself properly before every serious encounter."]
+			id: "F1A2B3C4D5E60002"
+			rewards: [{
+				count: 3
+				id: "FA4B000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C000000000005"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			title: "Vegetable Soup"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"F1A2B3C4D5E60002"
+				"0976ED57329E13EB"
+			]
+			description: ["With a diverse crop rotation, an active Cooking Pot, and real food in your inventory, the farm is established. A self-sustaining food loop removes hunger as a constraint on your playtime. The Mystical Agriculture path below extends this into passive resource generation — every ore, every essence material grown and harvested without a pickaxe. This is the base from which every expedition launches and to which it returns."]
+			id: "F1A2B3C4D5E60003"
+			rewards: [{
+				count: 5
+				id: "FA4B000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "DA1C000000000006"
+				title: "The Farm Is Established"
+				type: "checkmark"
+			}]
+			title: "The Market Garden"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60001"]
+			description: ["The Farmer's Delight Skillet handles single-ingredient or two-ingredient recipes directly on any heat source without water input. Bacon, fried eggs, and grilled vegetables cook individually in seconds. The Skillet is required for prep steps in multi-stage FD recipes — several Cooking Pot inputs must first be processed through a Skillet before they become valid cooking ingredients. Keep one beside the Cooking Pot; they are complementary, not redundant."]
+			id: "F1A2B3C4D5E60004"
+			rewards: [{
+				count: 2
+				id: "FA4B000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C000000000007"
+				item: "farmersdelight:skillet"
+				type: "item"
+			}]
+			title: "Skillet"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60004"]
+			description: ["Chicken Soup requires chicken, carrot, cabbage, and water — a multi-crop recipe with one of the highest saturation-to-ingredient ratios in Farmer's Delight. For extended dungeon runs or Mine & Slash map clears, stock twelve servings before departure. The combination of Regeneration from Vegetable Soup and full saturation from Chicken Soup keeps your health loop passive across most combat encounters. Food buff effects stack additively with Mine & Slash stat soul investments."]
+			id: "F1A2B3C4D5E60005"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "FA4B000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C000000000008"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			title: "A Full Larder"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["453608F7110E1D8E"]
+			description: ["GregTech tools till farmland at standard speed for their material tier. An iron hoe is sufficient for a moderate-scale farm — tilling range, not growth speed, is the only thing that scales with material. What matters most is crop placement: a 9x9 centered on a single water source maximizes yield density per water block. Invest in a Botany Pot setup for crops that do not scale with field area, and reserve field plots for high-volume staples like wheat, tomato, and rice."]
+			id: "0487B5BA7036BFC5"
+			rewards: [{
+				count: 2
+				id: "FA4B000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F8D35D313A13577"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: { Damage: 0 }
+				}
+				type: "item"
+			}]
+			title: "Hoes and Hoegression"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0487B5BA7036BFC5"]
+			description: ["Farmer's Delight Rich Soil turns any farmland into enhanced-yield soil — crops grown on it have a chance to drop double seeds on harvest, enabling a self-seeding loop without repurchasing. Rich Soil is produced by composting organic matter in a FD Organic Compost block over time. Feed it with excess crop outputs and harvest scraps. Replant your core crop plots on Rich Soil farmland to eliminate seed supply as a long-term concern — once the loop is seeded, it runs without input."]
+			id: "F1A2B3C4D5E60006"
+			rewards: [{
+				count: 2
+				id: "FA4B000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C000000000009"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Rich Soil"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22C4FB700C4C7B5F"]
+			description: ["Your crop selection now extends beyond the starter agave — multiple food types, diverse saturation profiles, and the raw material base for cooking chains are established. This is the inflection point: the farm feeds you without constant attention. The Mystical Agriculture lane below extends the farm from food production into passive resource generation — ore essence, growth accelerators, and T2 essence that covers every basic material the pack demands without ever breaking a rock."]
 			id: "0976ED57329E13EB"
 			rewards: [{
 				id: "3CF937A765724FC4"
@@ -48,26 +222,125 @@
 			}]
 			title: "All Growed Up"
 			x: -1.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["453608F7110E1D8E"]
-			description: ["Farming in this pack follows a dedicated progression path. Hoes unlock crop tilling, but the tier of hoe matters — higher material tiers till faster and over wider areas. Invest in your farming tools as you would your combat gear; the returns scale accordingly."]
-			id: "0487B5BA7036BFC5"
-			tasks: [{
-				id: "5F8D35D313A13577"
-				item: {
-					Count: 1
-					id: "minecraft:iron_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
+			dependencies: ["0976ED57329E13EB"]
+			description: ["Mystical Agriculture adds crop-form resource generation — seeds that grow essence, which converts to any base material in the game. Inferium Essence is the foundation tier: harvest it from Inferium Crops planted on any farmland type. Four Inferium Essence craft into one Prudentium (T2). Ten Inferium Essence make one T1 resource seed for a target material. Build an Inferium crop row as your base passive resource loop — it replaces mining for common materials given sufficient time and Growth Accelerators."]
+			id: "F1A2B3C4D5E60007"
+			rewards: [{
+				count: 3
+				id: "FA4B000000000009"
+				item: "kubejs:coin"
 				type: "item"
 			}]
-			title: "Hoes and Hoegression in this pack"
-			x: -4.0d
-			y: -0.5d
+			tasks: [{
+				count: 10L
+				id: "DA1C00000000000A"
+				item: { Count: 10, id: "mysticalagriculture:inferium_essence" }
+				type: "item"
+			}]
+			title: "Inferium Essence"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60007"]
+			description: ["Mystical Agriculture resource seeds grow specific material essence in crop form. Iron Seeds produce Iron Essence. Stone Seeds produce Stone Essence. Each seed requires Inferium Essence plus the target material in crafting, and must be grown on Mystical Soil — crafted from Inferium Essence and Soul Sand. Essence converts to the target material in the crafting table at 1:1 ratio. This is how you produce unlimited iron and stone without a mining trip. T1 seeds cover basic materials; higher tiers unlock rare ores once Prudentium Essence is available."]
+			id: "F1A2B3C4D5E60008"
+			rewards: [{
+				count: 3
+				id: "FA4B00000000000A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C00000000000B"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			title: "Resource Seeds"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60008"]
+			description: ["The Growth Accelerator is placed directly under Mystical Soil and adds a growth tick probability to the crop above. Multiple Accelerators stack — up to 64 in a column beneath a single plot, each adding another layer of probability. At ten Accelerators per plot, harvest intervals drop to seconds. Automate the harvest with a Create Mechanical Harvester or a Farmer's Delight Farming Station to complete the cycle without player input. Build Accelerators before planting your main resource seed rows; the speed difference is immediate."]
+			id: "F1A2B3C4D5E60009"
+			rewards: [{
+				count: 3
+				id: "FA4B00000000000B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C00000000000C"
+				item: "mysticalagriculture:growth_accelerator"
+				type: "item"
+			}]
+			title: "Growth Accelerator"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60009"]
+			description: ["Prudentium Essence is Mystical Agriculture's T2 tier — crafted from four Inferium Essence, it gates Iron, Gold, Diamond, and Redstone resource seeds. It also converts to Mystical Fertilizer, which instantly matures any Mystical Agri crop to harvestable state. Reaching T2 means your farm can passively produce every standard ore type in the game. GregTech's ore processing chain exists to multiply that output — the Macerator's byproduct dusts apply to farm-grown ore essence just as to mined ore. Feed your Macerators with Mystical Agriculture output."]
+			id: "F1A2B3C4D5E6000A"
+			rewards: [{
+				count: 5
+				id: "FA4B00000000000C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "DA1C00000000000D"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			title: "Prudentium Essence"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E60008"]
+			description: ["Botany Pots grow any plantable item in a compact single-block footprint — Pam's HarvestCraft seeds, vanilla crops, saplings, vines, mushrooms, and most modded plants. They require no sunlight, no farmland, and no irrigation. Soul Land spirit herbs can be grown in Botany Pots using the appropriate soil type, making them the passive indoor source for cultivation-speed alchemicals. A shelf of Botany Pots in your base runs continuously regardless of chunk loading state, producing steady output with zero player attention."]
+			id: "F1A2B3C4D5E6000B"
+			rewards: [{
+				count: 3
+				id: "FA4B00000000000D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C00000000000E"
+				item: "botanypots:botany_pot"
+				type: "item"
+			}]
+			title: "Botany Pot"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["F1A2B3C4D5E6000B"]
+			description: ["The Hopper Botany Pot adds an auto-output slot that connects to hoppers and item pipes below the block. Link it to a sorted chest network via Create conveyors or GT item pipes and the pot outputs its harvest automatically on maturity — no player interaction required. A wall of Hopper Botany Pots growing Soul Land spirit herbs, each sorted by herb type into labeled chests, provides the passive cultivation alchemy supply that supports higher cultivation ranks without regular Spirit Beast Forest expeditions."]
+			id: "F1A2B3C4D5E6000C"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "FA4B00000000000E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DA1C00000000000F"
+				item: "botanypots:hopper_botany_pot"
+				type: "item"
+			}]
+			title: "Hopper Botany Pot"
+			x: 1.5d
+			y: -7.5d
 		}
 	]
 	title: "Farming"
