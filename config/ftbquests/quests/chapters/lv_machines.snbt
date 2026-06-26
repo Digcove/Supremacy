@@ -385,7 +385,7 @@
 				"F9A7B8C9DAEBFD46"
 				"C2D0EBFC0D1E2A79"
 			]
-			description: ["Cupronickel is alloyed from Copper and Nickel in a 1:1 ratio in the Alloy Smelter. Draw the ingots through the Wiremill to produce Cupronickel Double Wire, then assemble four wire units into Cupronickel Coil Blocks — the heating element of the Electric Blast Furnace. At 1800K maximum temperature, Cupronickel coils smelt Aluminum, Silicon, and Magnesium: the materials that unlock the MV Machine Hull and the entire MV tier. Every LV machine you have built was preparation for this coil."]
+			description: ["Cupronickel is alloyed from Copper and Nickel in a 1:1 ratio in the Alloy Smelter. Draw the ingots through the Wiremill to produce Cupronickel Double Wire, then assemble four wire units into Cupronickel Coil Blocks — the heating element of the Electric Blast Furnace. In this pack, the Cupronickel Coil Block recipe requires Naga Scales from the Twilight Forest Naga; open the Medium Voltage chapter and begin the Naga hunt before attempting to craft coil blocks. At 1800K maximum temperature, Cupronickel coils smelt Aluminum, Silicon, and Magnesium: the materials that unlock the MV Machine Hull and the entire MV tier. Every LV machine you have built was preparation for this coil."]
 			id: "CCA08F9AABBC1CE1"
 			rewards: [{
 				count: 5

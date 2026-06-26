@@ -1,0 +1,390 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "08CD3A7ECA412D42"
+	id: "3C4D5E6F7A8B9C0D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["E8F6A7B8C9DAEC35"]
+			description: ["The Twilight Forest is entered by constructing a 2×2 pool of water, surrounding it with flowers on all sides, and dropping a Diamond into the center. The portal ignites when the conditions are met. The realm beyond is a permanent overcast dimension — no natural sky light, dense tree cover, and escalating boss guardians that enforce a strict progression order. The Naga is the first guardian. Its Scales are required in this pack to craft Cupronickel Coil Blocks; without them, the Electric Blast Furnace cannot be assembled. Enter the forest and begin the hunt before you attempt to finish your coil winding."]
+			id: "5A5B0001CCDD0001"
+			rewards: [{
+				count: 2
+				id: "7A7B0001CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "6A6B0001CCDD0001"
+				type: "dimension"
+			}]
+			title: "The Twilight Forest"
+			x: -12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A5B0001CCDD0001"]
+			description: ["The Naga is a massive serpent that circles its clearing in aggressive territorial sweeps. Its primary attack is a rapid lateral lunge — clear the clearing of obstacles before engaging. When killed, it drops Naga Scales and the Naga Head. The Scales are woven into the Cupronickel Coil Block recipe in this pack; collect four then return to your factory to finish winding your EBF coils. The Naga is the first Twilight Forest gate; every subsequent boss requires you to have cleared all prior guardians."]
+			id: "5A5B0002CCDD0002"
+			rewards: [
+				{
+					count: 5
+					id: "7A7B0002CCDD0001"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A7B0002CCDD0002"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6A6B0002CCDD0001"
+				item: { Count: 4, id: "twilightforest:naga_scale" }
+				type: "item"
+			}]
+			title: "The Naga"
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["DCB19AABBC2DCF14"]
+			description: ["The Electric Blast Furnace requires a shell of Steel Machine Casings — Hammered Steel Plates bent and assembled into structural heat-resistant frames. You need 32 for the outer wall of the 3×3×4 structure. The interior ring of Cupronickel Coil Blocks sits inside these casings and is replaced independently when upgrading to higher-temperature coils. Build the casing stockpile while you complete the Naga hunt — both must be ready simultaneously before the multiblock can be placed."]
+			id: "5A5B0003CCDD0003"
+			rewards: [{
+				count: 3
+				id: "7A7B0003CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "6A6B0003CCDD0001"
+				item: { Count: 32, id: "gtceu:steel_machine_casing" }
+				type: "item"
+			}]
+			title: "EBF Casings"
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A5B0003CCDD0003"
+				"5A5B0002CCDD0002"
+			]
+			description: ["The Electric Blast Furnace is a 3×3×4 hollow multiblock: outer walls of Steel Machine Casings, inner ring of Coil Blocks, the EBF Controller on the front face, and Output and Input Hatches for solid and fluid I/O. A Muffler Hatch on one side vents waste heat. Connect EU to the Energy Input Hatch at LV or MV voltage. The EBF does not run on steam — it requires electric current. The first batch of Aluminium at 1700K proves the machine is correctly assembled and the coil ring is complete."]
+			id: "5A5B0004CCDD0004"
+			rewards: [{
+				count: 6
+				id: "7A7B0004CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6A6B0004CCDD0001"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			title: "Electric Blast Furnace"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B0004CCDD0004"]
+			description: ["Aluminium is smelted from Bauxite ore — process raw Bauxite through the Macerator to obtain Bauxite Dust, then feed it to the EBF at 1700K. Cupronickel coils reach 1801K, comfortably clearing this threshold. Aluminium Ingots are the primary material for the MV Machine Hull, the MV Circuit substrate, and several machine components. Smelt at least 64 before proceeding — demand accelerates rapidly once the MV machine floor comes online and alloy production begins."]
+			id: "5A5B0005CCDD0005"
+			rewards: [
+				{
+					count: 3
+					id: "7A7B0005CCDD0001"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A7B0005CCDD0002"
+					item: "gtceu:aluminium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6A6B0005CCDD0001"
+				item: { Count: 8, id: "gtceu:aluminium_ingot" }
+				type: "item"
+			}]
+			title: "Aluminium"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B0005CCDD0005"]
+			description: ["Aluminium Plates are produced by running Aluminium Ingots through the LV Bender — the plate yield from hammer shaping is half the Bender's output at the cost of twice the tool durability. Build nine for the MV Machine Hull and a surplus stockpile for casing and component demand beyond. Plates, not ingots, are the structural raw material of MV construction — convert your entire Aluminium ingot output to plates at the Bender before downstream processes consume it."]
+			id: "5A5B0006CCDD0006"
+			rewards: [{
+				count: 3
+				id: "7A7B0006CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 9L
+				id: "6A6B0006CCDD0001"
+				item: { Count: 9, id: "gtceu:aluminium_plate" }
+				type: "item"
+			}]
+			title: "Aluminium Plates"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B0004CCDD0004"]
+			description: ["Silicon is produced by processing Quartzite Dust or Silicon Dioxide in the EBF at approximately 1700K — within Cupronickel coil range. Silicon Ingots are then cut by the Wiremill into Silicon Wafers, which are etched and layered into NAND Chips. Silicon is the foundation of every circuit tier above LV and must be produced in continuous quantity; the combined circuit demand from MV machines and the EBF upgrade chain is substantial and begins immediately."]
+			id: "5A5B0007CCDD0007"
+			rewards: [{
+				count: 3
+				id: "7A7B0007CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6A6B0007CCDD0001"
+				item: { Count: 4, id: "gtceu:silicon_ingot" }
+				type: "item"
+			}]
+			title: "Silicon"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A5B0007CCDD0007"]
+			description: ["NAND Chips are integrated circuits produced from Silicon Wafers etched in acid solution. Run a Silicon Ingot through the Wiremill to produce Silicon Wafers; etch each wafer in the Chemical Bath with Sulfuric Acid to yield a NAND Chip. They are the primary logic element of Good Electronic Circuits — the MV circuit tier. Produce at least 16 before beginning circuit assembly; the batch size per circuit is non-trivial and automated Chemical Bath throughput determines your total circuit production speed."]
+			id: "5A5B0008CCDD0008"
+			rewards: [{
+				count: 3
+				id: "7A7B0008CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6A6B0008CCDD0001"
+				item: { Count: 8, id: "gtceu:nand_chip" }
+				type: "item"
+			}]
+			title: "NAND Chip"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A5B0008CCDD0008"]
+			description: ["The Good Electronic Circuit is the MV circuit tier. It combines NAND Chips, Resistors, Capacitors, and Transistors on an Integrated Logic Circuit Board — a substrate produced by chemically treating a Phenolic Circuit Board blank. The Assembler is the only practical way to produce these at volume; set up a dedicated circuit line with the Assembler before beginning MV machine construction. You will consume dozens before the end of this chapter and hundreds before MV machines are fully operational."]
+			id: "5A5B0009CCDD0009"
+			rewards: [
+				{
+					count: 4
+					id: "7A7B0009CCDD0001"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7A7B0009CCDD0002"
+					item: "gtceu:good_electronic_circuit"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6A6B0009CCDD0001"
+				item: { Count: 4, id: "gtceu:good_electronic_circuit" }
+				type: "item"
+			}]
+			title: "Good Electronic Circuit"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5A5B0006CCDD0006"
+				"5A5B0009CCDD0009"
+			]
+			description: ["The MV Machine Hull requires Aluminium Plates, Aluminium Machine Casings, and an Epic-quality Mine & Slash Power Stone — a gemstone of sufficient soul resonance to stabilize medium-voltage current through the hull's internal bus. Epic Power Stones drop from Elite and Champion M&S enemies in zones scaled to your current rank; they are not found at low-tier encounter difficulty. Secure one, then assemble the hull. Every MV machine depends on this component as its chassis."]
+			id: "5A5B000ACCDD000A"
+			rewards: [{
+				count: 5
+				id: "7A7B000ACCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6A6B000ACCDD0001"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			title: "MV Machine Hull"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B000ACCDD000A"]
+			description: ["The MV Electric Motor is wound with finer copper wire than its LV counterpart, providing higher rotation frequency at medium voltage. It is a prerequisite for the MV Piston, MV Robot Arm, MV Conveyor, and all MV machines that follow. Craft several before beginning the MV machine floor — the component demand for a full MV suite exceeds LV by a significant margin, and every delay in motor production cascades into delays in every downstream machine."]
+			id: "5A5B000BCCDD000B"
+			rewards: [{
+				count: 3
+				id: "7A7B000BCCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6B000BCCDD0001"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			title: "MV Motor"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B000BCCDD000B"]
+			description: ["The MV Electrolyzer decomposes chemical compounds into their constituent elements using electrical current. At MV tier it handles Alumina into Aluminium and Oxygen, Chromite into Chrome and Iron Oxide, Water into Hydrogen and Oxygen, and dozens of other industrial reactions. Chrome — required for both Kanthal Alloy and Stainless Steel — is most efficiently produced through Chromite ore electrolysis. The MV Electrolyzer is the gateway to GTCEu's chemical processing tree, which runs in parallel with ore processing from this tier onward and scales with every tier above."]
+			id: "5A5B000CCCDD000C"
+			rewards: [{
+				count: 3
+				id: "7A7B000CCCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6B000CCCDD0001"
+				item: "gtceu:mv_electrolyzer"
+				type: "item"
+			}]
+			title: "MV Electrolyzer"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A5B000BCCDD000B"]
+			description: ["The MV Chemical Reactor handles fluid-reagent chemistry at medium voltage — Sulfuric Acid from Sulfur and Water, Hydrochloric Acid, Sodium Persulfate for PCB etching, and the Chromite leaching chain. Unlike the LV reactor it accepts simultaneous fluid and solid inputs with wider throughput limits. Set it producing Sulfuric Acid continuously from the start — it is consumed by Aluminium processing, Platinum group chemistry, and nearly every industrial leaching reaction that follows in HV and beyond."]
+			id: "5A5B000DCCDD000D"
+			rewards: [{
+				count: 3
+				id: "7A7B000DCCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A6B000DCCDD0001"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			title: "MV Chemical Reactor"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5A5B000CCCDD000C"
+				"5A5B000BCCDD000B"
+			]
+			description: ["Kanthal is an iron-chromium-aluminium alloy that forms the heating element of high-temperature EBF coil blocks. Process Chromite Ore through the Macerator to obtain Chromite Dust, then electrolyze it to Chrome Ingot. Alloy Iron, Chrome, and Aluminium in the Alloy Smelter to form Kanthal Ingots — draw through the Wiremill to produce Kanthal Double Wire, then assemble four wire units into Kanthal Coil Blocks. Four blocks replace the Cupronickel ring of your EBF and raise its operating temperature to 2700K."]
+			id: "5A5B000ECCDD000E"
+			rewards: [{
+				count: 4
+				id: "7A7B000ECCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "6A6B000ECCDD0001"
+					item: { Count: 4, id: "gtceu:kanthal_ingot" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6A6B000ECCDD0002"
+					item: { Count: 4, id: "gtceu:kanthal_double_wire" }
+					type: "item"
+				}
+			]
+			title: "Kanthal Alloy"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A5B000ECCDD000E"]
+			description: ["Kanthal Coil Blocks replace the Cupronickel inner ring of the EBF without dismantling the outer shell. Break only the inner coil layer, place Kanthal Coil Blocks in every inner-ring position, and the EBF controller automatically detects the upgrade. At 2700K the EBF reaches Titanium's smelting threshold (1941K) with 759K of thermal headroom — sufficient for every HV-tier alloy including Stainless Steel. Both production chains can begin as soon as the coil swap is complete."]
+			id: "5A5B000FCCDD000F"
+			rewards: [
+				{
+					count: 6
+					id: "7A7B000FCCDD0001"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7A7B000FCCDD0002"
+					item: "gtceu:kanthal_coil_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "6A6B000FCCDD0001"
+				item: { Count: 4, id: "gtceu:kanthal_coil_block" }
+				type: "item"
+			}]
+			title: "Kanthal Coil Block"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5A5B000FCCDD000F"
+				"5A5B000CCCDD000C"
+				"5A5B000DCCDD000D"
+			]
+			description: ["The EBF operates at 2700K. Titanium melts at 1941K; Stainless Steel and all Chrome alloys fall within this temperature range. The MV machine floor is assembled — Electrolyzer, Chemical Reactor, upgraded ore processing, full alloy and circuit production. What remains requires one more boss gate: the Twilight Lich commands the second major Twilight Forest structure and carries the Lich Trophy, which is woven into the HV Machine Hull recipe. Prepare your equipment and return to the forest."]
+			id: "5A5B0010CCDD0010"
+			rewards: [{
+				count: 8
+				id: "7A7B0010CCDD0001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6A6B0010CCDD0001"
+				title: "The 2700K Threshold"
+				type: "checkmark"
+			}]
+			title: "The 2700K Threshold"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "Medium Voltage"
+}
