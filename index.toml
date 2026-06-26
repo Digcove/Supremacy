@@ -25,63 +25,63 @@ file = "config/combatroll/server.json5"
 hash = "51c39e1ea277838365b95f768ea9bae9189bc19dfff5155e7fdc4ebbcb74ee01"
 
 [[files]]
-file = "config/ftbquests/chapter_groups.snbt"
+file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "cdb3a3f157369a1e12c76e848d6e632946c9cbd3157d31c36bbb6b0ba21518e4"
 
 [[files]]
-file = "config/ftbquests/chapters/alchemy.snbt"
+file = "config/ftbquests/quests/chapters/alchemy.snbt"
 hash = "025fd17edc3a187ef5bdc21cfb17bfc9ade3034b2f45c04c9b3d4bae49a4e2ad"
 
 [[files]]
-file = "config/ftbquests/chapters/armor.snbt"
+file = "config/ftbquests/quests/chapters/armor.snbt"
 hash = "1b783fa382e3a3484ce7819687597935aa0523996c94a8fef9aac7a68d8c835f"
 
 [[files]]
-file = "config/ftbquests/chapters/biome_hopper.snbt"
+file = "config/ftbquests/quests/chapters/biome_hopper.snbt"
 hash = "283d5b94a89d8a69e4c6147c6bf54e8fee659afc88f2ce1dad1a4eb6c1d140ef"
 
 [[files]]
-file = "config/ftbquests/chapters/create.snbt"
+file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "9446dab0002bdc91a293613570650004b82bc60de78249ee7aba899e28812ab0"
 
 [[files]]
-file = "config/ftbquests/chapters/farming.snbt"
+file = "config/ftbquests/quests/chapters/farming.snbt"
 hash = "4aaa7c6136367701a7182d8122b60be4493a6565d6e617ccf2b322ad5d4d505a"
 
 [[files]]
-file = "config/ftbquests/chapters/greg.snbt"
+file = "config/ftbquests/quests/chapters/greg.snbt"
 hash = "437ec4f74800e4e0d710eac708a7360290df82403d244ae99a2ac6ce8a40676e"
 
 [[files]]
-file = "config/ftbquests/chapters/jewlery.snbt"
+file = "config/ftbquests/quests/chapters/jewlery.snbt"
 hash = "16439426dd19f4527f03364d6dbbb1fc186579cae4295304ef2254f16de34a16"
 
 [[files]]
-file = "config/ftbquests/chapters/ore_processing.snbt"
+file = "config/ftbquests/quests/chapters/ore_processing.snbt"
 hash = "07418e75804e55bdfd169c746f74f7f262ecd23ee5c34f32ab035244582d7776"
 
 [[files]]
-file = "config/ftbquests/chapters/soul_land_awakening.snbt"
-hash = "e59ea7512413cfc137eca2a6e64d3d90eb51fcf6391482862ffb6b5fd6881b45"
+file = "config/ftbquests/quests/chapters/soul_land_awakening.snbt"
+hash = "c6a3ace51f362d879cadf702bd20891dedde0271f14d7b4780511676b6975a8f"
 
 [[files]]
-file = "config/ftbquests/chapters/soul_land_cultivation.snbt"
+file = "config/ftbquests/quests/chapters/soul_land_cultivation.snbt"
 hash = "58c75603d908bea2a5a6eda1b250cb36ef0bcbaad5d79af1318361eddcbf1ca0"
 
 [[files]]
-file = "config/ftbquests/chapters/soul_land_weapons.snbt"
+file = "config/ftbquests/quests/chapters/soul_land_weapons.snbt"
 hash = "2e18fc67fab515a9af9b9f8c352aaa24f878d6c64e1d7494815f3a8f44dbee00"
 
 [[files]]
-file = "config/ftbquests/chapters/structures.snbt"
+file = "config/ftbquests/quests/chapters/structures.snbt"
 hash = "8e6d2fadb8366cd10fbf94666bbee9903f786d67e84a780cd148333fb562caad"
 
 [[files]]
-file = "config/ftbquests/data.snbt"
+file = "config/ftbquests/quests/data.snbt"
 hash = "04c088f8c37c753a0676adbdb18540f8f7134a0d37430440849795cd49118b08"
 
 [[files]]
-file = "config/ftbquests/reward_tables/legendary.snbt"
+file = "config/ftbquests/quests/reward_tables/legendary.snbt"
 hash = "0e976f4e5f94a88a7f218622121e416e4e8ea41802c5da25294a272be47112d5"
 
 [[files]]
