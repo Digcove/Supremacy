@@ -3,6 +3,13 @@
 	default_quest_shape: ""
 	filename: "soul_land_cultivation"
 	group: "66B93D134A8EFA8F"
+	icon: {
+		Count: 1
+		id: "botania:terrasteel_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "0C88FB090F807D60"
 	order_index: 1
 	quest_links: [ ]
@@ -96,8 +103,8 @@
 		}
 		{
 			dependencies: ["5497889D31975BB4"]
-			icon: "botania:apothecary_default"
 			description: ["The Petal Apothecary converts flower petals into Botania's functional flowers. Fill it with water, then throw in the crafting ingredients listed in the Lexica Botania. Endoflames — which burn fuel to generate mana — are your first priority. Craft four and point a Mana Spreader at a Mana Pool to establish your first mana supply."]
+			icon: "botania:apothecary_default"
 			id: "75C157B691AC5AFE"
 			rewards: [{
 				count: 4
@@ -141,7 +148,7 @@
 			tasks: [{
 				count: 2L
 				id: "143A437A17FAD1CC"
-				item: { Count: 2, id: "botania:pure_daisy" }
+				item: "botania:pure_daisy"
 				type: "item"
 			}]
 			title: "Pure Daisy"
@@ -181,7 +188,7 @@
 			tasks: [{
 				count: 4L
 				id: "39E51FDE01B10F0A"
-				item: { Count: 4, id: "botania:endoflame" }
+				item: "botania:endoflame"
 				type: "item"
 			}]
 			title: "Endoflame"
@@ -237,7 +244,7 @@
 			tasks: [{
 				count: 4L
 				id: "6AB03783F6ED9643"
-				item: { Count: 4, id: "soulland:spirit_ore_raw" }
+				item: "soulland:spirit_ore_raw"
 				type: "item"
 			}]
 			title: "Qi Crystal Ore"
@@ -303,7 +310,7 @@
 			tasks: [{
 				count: 2L
 				id: "44779A68A9F3E37C"
-				item: { Count: 2, id: "botania:rune_water" }
+				item: "botania:rune_water"
 				type: "item"
 			}]
 			title: "Rune of Water"
@@ -320,7 +327,7 @@
 			tasks: [{
 				count: 2L
 				id: "2506B682351C710A"
-				item: { Count: 2, id: "botania:rune_fire" }
+				item: "botania:rune_fire"
 				type: "item"
 			}]
 			title: "Rune of Fire"
@@ -587,7 +594,7 @@
 			tasks: [{
 				count: 16L
 				id: "23561829A55F55A2"
-				item: { Count: 4, id: "bloodmagic:blankslate" }
+				item: "bloodmagic:blankslate"
 				type: "item"
 			}]
 			title: "Blank Slates"
@@ -618,13 +625,13 @@
 				{
 					count: 5L
 					id: "04D9AE717B3B3C67"
-					item: { Count: 5, id: "botania:livingrock" }
+					item: "botania:livingrock"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1100E3F4DFE067B6"
-					item: { Count: 4, id: "minecraft:lapis_block" }
+					item: "minecraft:lapis_block"
 					type: "item"
 				}
 			]
@@ -645,7 +652,7 @@
 			tasks: [{
 				count: 2L
 				id: "5D98F36C11257BBD"
-				item: { Count: 2, id: "botania:spark" }
+				item: "botania:spark"
 				type: "item"
 			}]
 			title: "Mana Sparks"
@@ -702,68 +709,68 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["503C916FBA9B26FD"]
+			dependencies: ["792CE5342E2F27E8"]
 			description: ["The Yellow Ring is absorbed from a 100-year spirit beast — far older than the creatures found at the Star Dou Forest Edge. You must venture into the Outer Forest, where soul power density rises and the predators grow proportionally more dangerous. Each ring permanently adds an active skill to your martial soul; choose the beast that complements your fighting style. The Spirit Detector reveals the age of nearby beasts — use it to find a 100-year target before committing to the hunt."]
-			id: "A1B2334455667788"
+			id: "5815ABC064A26E99"
 			rewards: [{
 				count: 2
-				id: "A1B2334455667789"
+				id: "08746265B71C5046"
 				item: "soulland:spirit_condensing_pill"
 				type: "item"
 			}]
 			tasks: [{
-				id: "A1B2334455667780"
+				id: "321C2666A2C1609C"
 				item: "soulland:yellow_soul_ring"
 				type: "item"
 			}]
 			title: "Yellow Ring"
-			x: 7.0d
-			y: 0.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["A1B2334455667788"]
+			dependencies: ["5815ABC064A26E99"]
 			description: ["Spirit Elder marks your recognition as a second-tier cultivator — ranks 11 through 20. Your Yellow Ring slot is now active, and your soul power has stabilized enough to begin absorbing century-aged beast skills. Maintain steady breakthrough cycles and manage your Foundation Stability carefully. Overuse of herbs generates instability; meditation and pills are the remedy. The gap between an undisciplined scholar and a disciplined elder widens fast at this stage."]
-			id: "B2C3445566778899"
+			id: "17C5B665758D7130"
 			rewards: [{
-				id: "B2C3445566778890"
+				id: "0B6B04B93CD2C84D"
 				item: "soulland:breakthrough_pill"
 				type: "item"
 			}]
 			tasks: [{
 				advancement: "soulland:cultivation/spirit_elder"
 				criterion: ""
-				id: "B2C3445566778891"
+				id: "560C210B9F5D4867"
 				type: "advancement"
 			}]
 			title: "Spirit Elder"
-			x: 8.5d
-			y: 0.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["B2C3445566778899"]
+			dependencies: ["792CE5342E2F27E8"]
 			description: ["Press [B] to attempt a Breakthrough when your soul power reaches the next rank threshold. Press [Shift+B] to consume a Foundation Pill and boost success rate. Foundation Stability is a hidden stat: herb overuse, death, and failed breakthroughs each add instability points, which lower success probability and slow meditation speed. Stability recovers through meditation and resets faster with pills. Stock Breakthrough Pills before every major threshold — they drop from dungeon chests and high-tier beast kills."]
-			id: "C3D4556677889901"
+			id: "7DAE3A2B358785F6"
 			rewards: [{
 				count: 3
-				id: "C3D4556677889902"
+				id: "2BFE900939FA418D"
 				item: "soulland:breakthrough_pill"
 				type: "item"
 			}]
 			tasks: [{
-				id: "C3D4556677889903"
+				id: "74182429EE20697F"
 				title: "Breakthrough Mechanics"
 				type: "checkmark"
 			}]
 			title: "The Breakthrough Cycle"
-			x: 10.0d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["B2C3445566778899"]
+			dependencies: ["17C5B665758D7130"]
 			description: ["The Purple Ring comes from a 1000-year spirit beast — creatures that have survived long enough to develop genuine domain auras and active combat skills. Defeating one at Spirit Elder tier is a serious fight; approach it fully prepared. The power gap between a Yellow and Purple Ring is substantial — a single Purple Ring can define an entire build direction. Use the Spirit Detector to identify a 1000-year target in the Inner Forest without accidentally aggroing older, more lethal beasts in the vicinity."]
-			id: "D4E5667788990A12"
+			id: "10A7D1DB2655CBDF"
 			rewards: [{
-				id: "D4E5667788990A13"
+				id: "332E563B23E92F6C"
 				item: {
 					Count: 1
 					id: "mmorpg:stat_soul/family/weapon/rare"
@@ -774,27 +781,27 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "D4E5667788990A14"
+				id: "5CB36F5C397A5556"
 				item: "soulland:purple_soul_ring"
 				type: "item"
 			}]
 			title: "Purple Ring"
-			x: 10.0d
-			y: 0.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["D4E5667788990A12"]
+			dependencies: ["10A7D1DB2655CBDF"]
 			description: ["Spirit King — ranks 21 through 30 — is the tier where your martial soul's power begins to consolidate into something the continent recognizes as formidable. Three ring slots are active, your soul power output enables sustained combat, and your foundation in both Botania mana and Blood Magic LP is now established. At rank 30, the Martial Soul Transformation first manifests — press [V] to activate T1, overlaying your body with the physical traits of your martial soul."]
-			id: "E5F677889901B223"
+			id: "4BCFBD1E3F78FB52"
 			rewards: [
 				{
 					count: 2
-					id: "E5F677889901B224"
+					id: "0AB2EACC64171F7E"
 					item: "soulland:breakthrough_pill"
 					type: "item"
 				}
 				{
-					id: "E5F677889901B225"
+					id: "37FBFAE3769F322A"
 					item: {
 						Count: 1
 						id: "mmorpg:stat_soul/family/weapon/epic"
@@ -808,19 +815,19 @@
 			tasks: [{
 				advancement: "soulland:cultivation/spirit_king"
 				criterion: ""
-				id: "E5F677889901B226"
+				id: "4470A64D131B98EF"
 				type: "advancement"
 			}]
 			title: "Spirit King"
-			x: 11.5d
-			y: 0.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["E5F677889901B223"]
+			dependencies: ["4BCFBD1E3F78FB52"]
 			description: ["At rank 30, your Martial Soul Transformation first manifests. Press [V] to activate T1 — the physical traits of your martial soul overlay your form: limb augmentations, elemental traces, and a temporary amplification of attack power and sensory range. Two further tiers follow: T2 at rank 60 integrates chest, head, and glowing runic overlays. T3 at rank 90 triggers full Spirit Avatar mode — a complete hybrid body transformation representing the peak expression of your martial soul's original form. Each tier is a permanent threshold, not a cooldown."]
-			id: "F6A788990A1C3344"
+			id: "737BC9163766D4DF"
 			rewards: [{
-				id: "F6A788990A1C3345"
+				id: "7C67C7D7947C9E0F"
 				item: {
 					Count: 1
 					id: "mmorpg:stat_soul/family/weapon/legendary"
@@ -831,16 +838,16 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "F6A788990A1C3346"
+				id: "61AFBB34FE579D8D"
 				title: "First Transformation"
 				type: "checkmark"
 			}]
 			title: "First Transformation"
-			x: 13.0d
-			y: 1.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["E5F677889901B223"]
+			dependencies: ["737BC9163766D4DF"]
 			description: ["Spirit Ancestor — ranks 31 through 40 — marks your transition to genuine continental power. Four ring slots are active, your transformation capabilities have deepened, and your soul power output is sufficient to begin pursuing the Soul Forged equipment tier. Soul Forged Ingots — Spirit Iron fused with GTCEu-grade Stainless Steel and Qi Crystals — require industrial-scale Electric Blast Furnace production. The Greg chapter's factory infrastructure becomes necessary here; cultivation alone cannot sustain your equipment requirements."]
 			id: "07B89901B2D44556"
 			rewards: [
@@ -869,8 +876,8 @@
 				type: "advancement"
 			}]
 			title: "Spirit Ancestor"
-			x: 13.5d
-			y: 0.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6DF58A9163227678"]
@@ -885,7 +892,7 @@
 			tasks: [{
 				count: 4L
 				id: "18C9A012C3E55669"
-				item: { Count: 4, id: "botania:dreamwood_log" }
+				item: "botania:dreamwood_log"
 				type: "item"
 			}]
 			title: "Elven Trade"
@@ -905,7 +912,7 @@
 			tasks: [{
 				count: 4L
 				id: "29DAB123D4F66770"
-				item: { Count: 4, id: "botania:elementium_ingot" }
+				item: "botania:elementium_ingot"
 				type: "item"
 			}]
 			title: "Elementium Ingot"
@@ -928,13 +935,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3AEBC234E5A77881"
-				item: "botania:gaia_mana_spreader"
+				id: "7F3110DDBEF0F486"
+				item: "botania:gaia_spreader"
 				type: "item"
 			}]
 			title: "Gaia Spreader"
 			x: 9.0d
-			y: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["29DAB123D4F66778"]
@@ -942,10 +949,10 @@
 			id: "4BFCD345F6B88901"
 			rewards: [{
 				count: 4
-				id: "4BFCD345F6B88906"
+				id: "676C777602CF78A9"
 				item: {
 					Count: 1
-					id: "mmorpg:stat_soul/family/armor/rare"
+					id: "mmorpg:stat_soul/family/armor/epic"
 					tag: {
 						tier: 0
 					}
@@ -1005,8 +1012,8 @@
 		{
 			dependencies: ["4BFCD345F6B88901"]
 			description: ["The Gaia Guardian is Botania's hardest boss — summoned by constructing a ritual platform of Mana Pylons arranged in a ring, then throwing a Runic Catalyst at the center while the pylons are charged with mana. The Runic Catalyst is crafted at the Runic Altar from all four elemental runes combined with Mana Pearl and Mana Diamond. During the fight, the Guardian summons Pixie waves, scales its defense by draining nearby Mana Pools, and targets the arena's pylons. Carry a charged Mana Tablet for emergency mana sustain. Defeat it to claim Gaia Ingots — Botania's endgame currency."]
-			id: "5C0DE456A7C99012"
 			icon: "botania:gaia_ingot"
+			id: "5C0DE456A7C99012"
 			rewards: [
 				{
 					count: 3
@@ -1032,8 +1039,8 @@
 				type: "item"
 			}]
 			title: "Gaia Guardian"
-			x: 12.0d
-			y: 5.0d
+			x: 10.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1051,12 +1058,12 @@
 			tasks: [{
 				count: 4L
 				id: "6D1EF567B8DAA125"
-				item: { Count: 4, id: "bloodmagic:reinforcedslate" }
+				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
 			title: "Reinforced Slate"
-			x: 5.5d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6D1EF567B8DAA123"]
@@ -1074,84 +1081,83 @@
 				type: "item"
 			}]
 			title: "Apprentice Blood Orb"
-			x: 7.0d
-			y: 3.5d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7E2FA678C9EBB234"]
 			description: ["The Master Ritual Stone is the anchor for Blood Magic's ritual system — permanent multiblock structures that perform passive LP operations at scale. Each ritual consists of a Master Ritual Stone surrounded by rings of Ritual Stones in a unique elemental pattern. The Well of Suffering, your most important early ritual, places hostile mobs near the altar and sacrifices them continuously to feed your LP reserves — eliminating the need for repeated self-sacrifice at scale."]
-			id: "8F30B789DAFCC345"
+			id: "1D473E5008CA161A"
 			rewards: [{
 				count: 2
-				id: "8F30B789DAFCC346"
+				id: "3C9B405566061433"
 				item: "soulland:blood_coagulation_herb"
 				type: "item"
 			}]
 			tasks: [{
-				id: "8F30B789DAFCC347"
+				id: "4B000679E54854FC"
 				item: "bloodmagic:masterritualstone"
 				type: "item"
 			}]
 			title: "Master Ritual Stone"
-			x: 8.5d
-			y: 3.5d
+			x: 3.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["8F30B789DAFCC345"]
+			dependencies: ["1D473E5008CA161A"]
 			description: ["The Well of Suffering ritual requires a Master Ritual Stone at center with rings of Ritual Stones in the correct pattern. Once active, it damages all living entities within its radius and converts their health loss directly into LP in the altar. Place a mob spawner above the ritual inside a contained room — a constant sacrificial supply means your altar is always filled and never bottlenecked by your own health pool. This ritual is the backbone of automated LP generation for the rest of your Blood Magic progression."]
-			id: "90410C8AEBADD456"
+			id: "20AB5DDC69A3EC92"
 			rewards: [{
 				count: 4
-				id: "90410C8AEBADD458"
+				id: "32D1164AFF9FC3DC"
 				item: "bloodmagic:reinforcedslate"
 				type: "item"
 			}]
 			tasks: [{
-				id: "90410C8AEBADD457"
+				id: "308C99461520ABC2"
 				title: "Well of Suffering"
 				type: "checkmark"
 			}]
 			title: "Well of Suffering"
-			x: 10.0d
-			y: 3.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["90410C8AEBADD456"]
+			dependencies: ["7E2FA678C9EBB234"]
 			description: ["The Magician's Blood Orb stores 40,000 LP — the Tier 3 orb and the gateway to Blood Magic's most powerful rituals and sigil crafting. Constructing it requires Imbued Slates in addition to the standard LP sacrifice at a T3 Blood Altar. With the Magician Orb equipped, advanced sigils become available — including passive flight assistance, environmental immunity, and life-drain combat effects that pair directly with Soul Land's cultivation mechanics."]
-			id: "A1521D9BFCBEE567"
+			id: "6CE87A114AFD77FE"
 			rewards: [{
 				count: 2
-				id: "A1521D9BFCBEE568"
+				id: "7CD27175FEA58844"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "A1521D9BFCBEE569"
+				id: "10C749BDA0B09618"
 				item: "bloodmagic:magicianbloodorb"
 				type: "item"
 			}]
 			title: "Magician's Blood Orb"
-			x: 11.5d
-			y: 3.5d
+			x: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
 				"07B89901B2D44556"
 				"5C0DE456A7C99012"
-				"A1521D9BFCBEE567"
 			]
 			description: ["You have achieved Spirit Ancestor in cultivation, claimed victory over Botania's guardian of the living world, and built the infrastructure of blood ritual sacrifice. Three power systems — soul cultivation, mana, and life force — now run concurrently. Each amplifies the others in ways no single system can match alone. Spirit Steel alone is no longer sufficient for your equipment demands. Soul Forged alloy — requiring GTCEu-grade Stainless Steel smelted only in an Electric Blast Furnace — is the next material gate. Build your factory."]
 			icon: "soulland:soul_crystal"
-			id: "B2632EACADCFF678"
+			id: "388C72C20F961A3A"
 			rewards: [
 				{
 					count: 5
-					id: "B2632EACADCFF679"
+					id: "5359AB66A6F343AD"
 					item: "kubejs:coin"
 					type: "item"
 				}
 				{
-					id: "B2632EACADCFF670"
+					id: "6F08891FBA0841A2"
 					item: {
 						Count: 1
 						id: "mmorpg:stat_soul/family/weapon/legendary"
@@ -1162,19 +1168,19 @@
 					type: "item"
 				}
 				{
-					id: "B2632EACADCFF671"
+					id: "2027F68DDA2AD39A"
 					item: "soulland:soul_crystal"
 					type: "item"
 				}
 			]
 			tasks: [{
-				id: "B2632EACADCFF672"
+				id: "3B9795F5A4F8E586"
 				title: "The Way of the Soul"
 				type: "checkmark"
 			}]
 			title: "The Way of the Soul"
-			x: 14.5d
-			y: 2.0d
+			x: 5.0d
+			y: 8.0d
 		}
 	]
 	title: "Soul Land Cultivation"

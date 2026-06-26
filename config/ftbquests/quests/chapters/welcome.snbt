@@ -10,81 +10,44 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["{ftbquests.welcome.intro.description}"]
+			description: [
+				"DEV NOTE:"
+				""
+				"ADD welcome and info here"
+			]
 			icon: "gtceu:creative_energy"
 			id: "7168A2D5D4EE14E9"
 			size: 5.0d
-			tasks: [{
-				id: "40AC940F2E8BD9BD"
-				title: "{ftbquests.welcome.intro.title}"
-				type: "checkmark"
-			}]
+			subtitle: "WhaleCum"
+			title: "Welcome"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
-			description: ["{ftbquests.welcome.lore.description}"]
+			description: [
+				"DEV NOTE:"
+				""
+				"Add Lore Here"
+			]
 			icon: "effortlessbuilding:building_techniques_book"
 			id: "0873486517E58FE4"
 			size: 3.0d
-			tasks: [{
-				id: "5C150CA08542BEFA"
-				title: "{ftbquests.welcome.lore.title}"
-				type: "checkmark"
-			}]
+			subtitle: "A tale older than time."
+			title: "Lore"
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			description: [
-				"{ftbquests.welcome.changelog.description.1}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.2}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.3}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.4}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.5}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.6}"
-				"{@pagebreak}"
-				"{ftbquests.welcome.changelog.description.7}"
+				"DEV NOTE:"
+				""
+				"IDK if we need anything for this???"
 			]
-			icon: "minecraft:writable_book"
-			id: "7389DA5CB69998BC"
-			size: 3.0d
-			tasks: [{
-				id: "44A22BC4153F3FD6"
-				title: "{ftbquests.welcome.changelog.title}"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			description: ["{ftbquests.welcome.discord.description}"]
-			icon: "kubejs:coin"
-			id: "0B677BF5FCD2884F"
-			size: 2.0d
-			tasks: [{
-				id: "7CDB90799C05C11A"
-				title: "{ftbquests.welcome.discord.title}"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			description: ["{ftbquests.welcome.server_files.description}"]
 			icon: "kubejs:draconic_processor_mainframe"
 			id: "00C537F19FBE1A6E"
 			size: 2.0d
-			tasks: [{
-				id: "657AC8F72A9732C5"
-				title: "{ftbquests.welcome.server_files.title}"
-				type: "checkmark"
-			}]
+			subtitle: "Files for the server"
+			title: "Server Files"
 			x: 1.0d
 			y: 4.0d
 		}

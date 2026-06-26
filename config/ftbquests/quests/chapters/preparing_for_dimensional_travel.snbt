@@ -96,13 +96,19 @@
 				{
 					count: 9L
 					id: "58D3B6419E467588"
-					item: { Count: 9, id: "sgjourney:classic_stargate_chevron_block" }
+					item: {
+						Count: 9
+						id: "sgjourney:classic_stargate_chevron_block"
+					}
 					type: "item"
 				}
 				{
 					count: 14L
 					id: "60C5306F8C21EE23"
-					item: { Count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					item: {
+						Count: 14
+						id: "sgjourney:classic_stargate_ring_block"
+					}
 					type: "item"
 				}
 			]

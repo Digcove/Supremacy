@@ -81,6 +81,10 @@ file = "config/ftbquests/quests/chapters/greg.snbt"
 hash = "49416a85afcfcc24aec0af8c288e2740517ccc3bb6a1d02af70024be8f128fc1"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/high_voltage.snbt"
+hash = "96dd9a0bf3e62f1ff063961986ff610a5dd2bcaa6e1f7d429693e0a598ad381b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
 hash = "99603a916371191e28a59d62d044cf45ecfea17862cee077e760bee3e2a96643"
 
@@ -94,11 +98,15 @@ hash = "f07d4e9a783d88fd51eea7ff63cf831a12f244c92e67b17a1222c669ecf8fa85"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv_machines.snbt"
-hash = "00f19d75eb1f7a3fa0a0c26987ef5e439b84fdbd3531cb35fea3a0547013c8d3"
+hash = "b53c217f71d4f2937f93fd47928bdf20f96048d9780c5d3366b290fe1c2232d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanics.snbt"
 hash = "f0b506e2b2f82dc3754184ef9e8fdab178e0565c9a0ea05679de69418984dbc1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/medium_voltage.snbt"
+hash = "f6e5cd01a6f76fa1eb154734858ae3fea6256b81351db70a7952369f0d1c9a41"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mystical_agriculture_gregified.snbt"
@@ -158,7 +166,7 @@ hash = "c6a3ace51f362d879cadf702bd20891dedde0271f14d7b4780511676b6975a8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_cultivation.snbt"
-hash = "58c75603d908bea2a5a6eda1b250cb36ef0bcbaad5d79af1318361eddcbf1ca0"
+hash = "8c3b1fca91357fd824c98646635c027ebb5de706f3c462ac7069b3bba2312d29"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_weapons.snbt"

@@ -13,7 +13,7 @@
 			id: "0194FAB6E9EFFA13"
 			rewards: [{
 				count: 2
-				id: "A1B2C3D4E5F60123"
+				id: "2869E4BD2E5A310E"
 				item: "kubejs:coin"
 				type: "item"
 			}]
@@ -53,12 +53,12 @@
 			id: "4A7C9E2F5B8D1A3C"
 			rewards: [{
 				count: 2
-				id: "B5C6D7E8F9A01234"
+				id: "34DB4B4BCD0AB3CF"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "F59B1D3CA7E0FC1E"
+				id: "754BE6456ADB77C8"
 				item: "soulland:sleeve_dart"
 				type: "item"
 			}]
@@ -72,12 +72,12 @@
 			id: "5B8D1F3A6C9E2B4D"
 			rewards: [{
 				count: 3
-				id: "C6D7E8F9A0B12345"
+				id: "53EE868392DC0B64"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "A6AC2E4DB8F1AD2F"
+				id: "403BCACFE07264ED"
 				title: "Tang Sect Techniques"
 				type: "checkmark"
 			}]
@@ -92,12 +92,12 @@
 			optional: true
 			rewards: [{
 				count: 2
-				id: "D7E8F9A0B1C23456"
+				id: "7C38284291EF1D04"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "B7BD3F5EC9A2BE30"
+				id: "004B91E559E7EB52"
 				item: "soulland:numbing_powder"
 				type: "item"
 			}]
@@ -111,14 +111,14 @@
 			id: "7D1F3B5A8E2C4D6F"
 			rewards: [{
 				count: 5
-				id: "E8F9A0B1C2D34567"
+				id: "314691A7D69D946E"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "C8CE4A6FDB3CF041"
+				id: "74CE8398398FD3A0"
 				item: "soulland:godly_zhuge_crossbow"
 				type: "item"
 			}]
@@ -129,16 +129,16 @@
 		{
 			dependencies: ["7D1F3B5A8E2C4D6F"]
 			description: ["The Peacock Plume fires 365 spirit energy needles in a fan arc — one for every day of the year, Tang San once claimed. It requires materials beyond what standard Forging Table work produces alone; the resonance needed in the projectile tips demands Spirit Scholar-grade cultivation to impart. Against multiple enemies or a single powerful beast, the Peacock Plume turns a cultivator into a one-volley artillery piece."]
-			id: "8E2A4C6B9F3D5E7A"
+			id: "1F0FA86017D45303"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "F9A0B1C2D3E45678"
+				id: "7DFB6B25EF61D040"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "D9DF5B7AEC4DA152"
+				id: "1420005E99D64E39"
 				item: "soulland:peacock_plume"
 				type: "item"
 			}]
@@ -149,16 +149,16 @@
 		{
 			dependencies: ["7D1F3B5A8E2C4D6F"]
 			description: ["The Continental Tournament pits five-person academy teams against eight novel-accurate opponents across five rounds. Four opponents per round, each with a unique martial soul, element-specific skills, and Spirit Avatar mode when cornered. Rewards scale from crystals to legendary Tang Sect weapons for bracket completion. It is the first structured test of whether your cultivation, hidden weapons, and technique mastery function together under pressure — and the last milestone before the endgame weapons become accessible."]
-			id: "9F3B5D7CA1E4F6B8"
+			id: "4B84D5A3ED42C784"
 			rewards: [
 				{
 					count: 5
-					id: "A0B1C2D3E4F56789"
+					id: "602DE082CFE09419"
 					item: "kubejs:coin"
 					type: "item"
 				}
 				{
-					id: "B1C2D3E4F5A6789A"
+					id: "356ADFCA025C1E28"
 					item: "soulland:qi_crystal"
 					type: "item"
 				}
@@ -166,7 +166,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "EAE06C8BFD5EB263"
+				id: "2DA4B953200B2F7D"
 				title: "Continental Tournament"
 				type: "checkmark"
 			}]
@@ -175,19 +175,18 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["9F3B5D7CA1E4F6B8"]
 			description: ["Buddha's Fury Tang Lotus is the apex of Tang Sect hidden weapon design — a nine-petal lotus that seals in explosive spirit energy, detonating on impact in a pattern that covers every escape vector. It requires Level 90 cultivation to deploy and demands mastery of every preceding Tang Sect technique. The two legendary weapons — Yama's Invitation and Bodhi Blood — are single-use and drop only from the most powerful sources. This lotus is the weapon you build toward."]
-			id: "A04C6E8DB2F5A7C9"
+			id: "23D5469DF20A7E80"
 			rewards: [{
 				count: 6
-				id: "C2D3E4F5A6B789AB"
+				id: "44BD9ABBE6343C0A"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "FBF17D9CEE6FC374"
+				id: "54943CE6FA5646E8"
 				item: "soulland:buddha_fury_tang_lotus"
 				type: "item"
 			}]
@@ -198,10 +197,10 @@
 		{
 			dependencies: ["3BAA6E1DEABA9E59"]
 			description: ["Spartan Weaponry expands physical combat beyond vanilla swords into dedicated fighting disciplines. The Halberd has extended reach and excels against clustered groups. The Greatsword swings in a wide arc. The Katana and Dagger reward attack speed builds. The Lance shines during mounted combat on horseback or Valkyrien Skies vessels. The Javelin is the only throwable. Every weapon type synergizes differently with Mine & Slash's stat soul system — choose your first based on your intended combat style, not material tier. Tinkers and Silent Gear weapons are disabled in this pack; Spartan Weaponry is your physical combat system."]
-			id: "B15D7F9EC3A6B8DA"
+			id: "391B1915D8FB0F0F"
 			rewards: [{
 				count: 3
-				id: "D3E4F5A6B7C89ABC"
+				id: "6EB46166D150DD07"
 				item: "kubejs:coin"
 				type: "item"
 			}]
@@ -212,13 +211,34 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{ Count: 1b, id: "spartanweaponry:iron_halberd" }
-							{ Count: 1b, id: "spartanweaponry:iron_greatsword" }
-							{ Count: 1b, id: "spartanweaponry:iron_katana" }
-							{ Count: 1b, id: "spartanweaponry:iron_dagger" }
-							{ Count: 1b, id: "spartanweaponry:iron_lance" }
-							{ Count: 1b, id: "spartanweaponry:iron_javelin" }
-							{ Count: 1b, id: "spartanweaponry:iron_saber" }
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_halberd"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_greatsword"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_katana"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_dagger"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_lance"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_javelin"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_saber"
+							}
 						]
 					}
 				}
@@ -230,15 +250,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"B15D7F9EC3A6B8DA"
-				"6DACE8982D9E9FA0"
-			]
+			dependencies: ["6DACE8982D9E9FA0"]
 			description: ["Spirit Steel is harder than any standard ore — forged through the convergence of Botania mana and Soul Land spirit_iron at the mana infusion pool. At the Forging Table, the same ingots that produce Spirit Steel Armor can produce spirit_steel weapons: the spirit_steel_sword scales favorably against beast-type enemies due to its resonance with soul power. Spirit Steel weapons also accept Mine & Slash stat souls — apply an Uncommon or Rare stat soul to unlock the stat tree for your weapon and begin allocating damage, crit, and speed points."]
-			id: "C26E8A0FD4B7C9EB"
+			id: "4E58F8BE87C450CB"
 			rewards: [{
 				count: 3
-				id: "E4F5A6B7C8D9ABCD"
+				id: "28ABABCC755FBA34"
 				item: "kubejs:coin"
 				type: "item"
 			}]
@@ -246,7 +263,7 @@
 				{
 					count: 4L
 					id: "1D0F3B5E7A2C4D6F"
-					item: { Count: 4, id: "soulland:spirit_steel_ingot" }
+					item: "soulland:spirit_steel_ingot"
 					type: "item"
 				}
 				{
@@ -260,12 +277,11 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["B15D7F9EC3A6B8DA"]
 			description: ["Iron's Spells & Spellbooks puts spellcasting in the off-hand for the Cloth armor path. The Iron Spellbook starts with several spell slots; higher-tier books hold more and cast at greater power. Spell Scrolls drop from enemies, mage towers, and dungeon chests — right-click a scroll while holding your Spellbook to inscribe it permanently. Spells cost Mana, which regenerates passively and scales with Intelligence and Wisdom stat soul investment. For cultivators on the Cloth path, this is your primary damage system alongside soul ring active skills and Tang Sect techniques."]
-			id: "D37F9B1AE5C8DAFC"
+			id: "5976D1DDED910B15"
 			rewards: [{
 				count: 3
-				id: "F5A6B7C8D9E0BCDE"
+				id: "5E81A14CA19D7841"
 				item: "kubejs:coin"
 				type: "item"
 			}]
@@ -286,12 +302,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["C26E8A0FD4B7C9EB"]
 			description: ["Apotheosis overhauls the enchanting table entirely — bookshelves matter by type, not just count. Different shelf types push enchantment power past vanilla's Level 30 cap and gate higher enchantment tier availability. Build your setup with varied shelf types to reach Level 30+ power. A Halberd with Sweeping Edge III + Sharpness V clears rooms; a Katana with Attack Speed + Looting III becomes a stat soul farming machine. Gems from Apotheosis socket into M&S socket slots and stack with your stat soul allocations."]
-			id: "E48A0C2BF6D9EB0D"
+			id: "52E5DB76B1C28F49"
 			rewards: [{
 				count: 4
-				id: "A6B7C8D9E0F1CDEF"
+				id: "3CB27BE231123504"
 				item: "kubejs:coin"
 				type: "item"
 			}]

@@ -234,7 +234,10 @@
 				{
 					count: 4L
 					id: "18540F033A0DC299"
-					item: { Count: 4, id: "exnihilosequentia:stone_pebble" }
+					item: {
+						Count: 4
+						id: "exnihilosequentia:stone_pebble"
+					}
 					type: "item"
 				}
 				{
@@ -515,19 +518,19 @@
 				{
 					count: 9L
 					id: "1F6C5CA74ADE45BA"
-					item: { Count: 9, id: "gtceu:steel_plate" }
+					item: "gtceu:steel_plate"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "2A2DBB3AADBF5EAC"
-					item: { Count: 2, id: "gtceu:wrought_iron_plate" }
+					item: "gtceu:wrought_iron_plate"
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "4566987CE710801F"
-					item: { Count: 2, id: "gtceu:tin_single_cable" }
+					item: "gtceu:tin_single_cable"
 					type: "item"
 				}
 				{
@@ -882,7 +885,7 @@
 			tasks: [{
 				count: 4L
 				id: "487F5EEEFEFBB7A8"
-				item: { Count: 4, id: "gtceu:rubber_plate" }
+				item: "gtceu:rubber_plate"
 				type: "item"
 			}]
 			title: "{ftbquests.early_game.rubber.title}"
@@ -929,7 +932,7 @@
 				{
 					count: 32L
 					id: "0B97B97EE13093E6"
-					item: { Count: 32, id: "gtceu:firebricks" }
+					item: "gtceu:firebricks"
 					type: "item"
 				}
 				{
@@ -957,19 +960,19 @@
 				{
 					count: 22L
 					id: "697EEC6859129B99"
-					item: { Count: 20, id: "gtceu:wrought_iron_ingot" }
+					item: "gtceu:wrought_iron_ingot"
 					type: "item"
 				}
 				{
 					count: 44L
 					id: "325DA7DCD1E1FCEA"
-					item: { Count: 40, id: "minecraft:charcoal" }
+					item: "minecraft:charcoal"
 					type: "item"
 				}
 				{
 					count: 22L
 					id: "176A1398B4F73436"
-					item: { Count: 20, id: "gtceu:steel_ingot" }
+					item: "gtceu:steel_ingot"
 					type: "item"
 				}
 			]
@@ -995,7 +998,7 @@
 			tasks: [{
 				count: 6L
 				id: "3DB231EC8321A1DC"
-				item: { Count: 6, id: "gtceu:red_alloy_ingot" }
+				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
 			title: "{ftbquests.early_game.red_alloy.title}"
@@ -1068,7 +1071,7 @@
 			tasks: [{
 				count: 2L
 				id: "60968B2E9D9BC417"
-				item: { Count: 2, id: "gtceu:resistor" }
+				item: "gtceu:resistor"
 				type: "item"
 			}]
 			title: "{ftbquests.early_game.resistors.title}"
@@ -1130,7 +1133,7 @@
 			tasks: [{
 				count: 2L
 				id: "59773D9C80E9ECD2"
-				item: { Count: 2, id: "gtceu:vacuum_tube" }
+				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
 			title: "{ftbquests.early_game.vacuum_tubes.title}"
@@ -1243,13 +1246,13 @@
 				{
 					count: 4L
 					id: "2C8B1591CF3EF710"
-					item: { Count: 4, id: "gtceu:bronze_machine_casing" }
+					item: "gtceu:bronze_machine_casing"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0A9249930F0600BD"
-					item: { Count: 4, id: "gtceu:bronze_pipe_casing" }
+					item: "gtceu:bronze_pipe_casing"
 					type: "item"
 				}
 			]
@@ -1363,7 +1366,7 @@
 				{
 					count: 25L
 					id: "543AC15CDC0E1B9D"
-					item: { Count: 25, id: "gtceu:coke_oven_bricks" }
+					item: "gtceu:coke_oven_bricks"
 					type: "item"
 				}
 			]
@@ -1396,7 +1399,7 @@
 				{
 					count: 20L
 					id: "0349E8D36AD8E429"
-					item: { Count: 20, id: "gtceu:treated_wood_frame" }
+					item: "gtceu:treated_wood_frame"
 					type: "item"
 				}
 			]
@@ -1462,7 +1465,7 @@
 				{
 					count: 9L
 					id: "462896992207F077"
-					item: { Count: 9, id: "minecraft:stone_bricks" }
+					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 			]
@@ -1772,7 +1775,7 @@
 			tasks: [{
 				count: 2L
 				id: "3E1B548747A6F526"
-				item: { Count: 2, id: "create:crushing_wheel" }
+				item: "create:crushing_wheel"
 				type: "item"
 			}]
 			title: "{ftbquests.early_game.crushing_wheels.title}"

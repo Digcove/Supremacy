@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "soul_land_awakening"
 	group: "66B93D134A8EFA8F"
+	icon: "soulland:white_soul_ring"
 	id: "1FA3DF418E17E2FC"
 	order_index: 0
 	quest_links: [ ]
@@ -169,14 +170,14 @@
 			description: ["Copper is found at mid-depths in quantity. Smelt it into ingots for early crafting and as a component in Create's Andesite Alloy. The Blast Furnace reward gives you a head start on smelting efficiency — place it early and use it to process copper, iron, and gold faster than a standard furnace."]
 			id: "7F3D68FF64242454"
 			rewards: [{
-				id: "30ABCAC7D205EE14"
+				id: "0C147A95EE364262"
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
 			tasks: [{
 				count: 10L
 				id: "34F786B8AC1564DC"
-				item: { Count: 10, id: "minecraft:copper_ingot" }
+				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
 			title: "Copper Veins"
@@ -196,7 +197,7 @@
 			tasks: [{
 				count: 32L
 				id: "6A57DDF3188D28BD"
-				item: { Count: 32, id: "minecraft:iron_ingot" }
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
 			title: "Iron Foundation"
@@ -216,7 +217,7 @@
 			tasks: [{
 				count: 4L
 				id: "1F730152CA6F2A84"
-				item: { Count: 4, id: "soulland:spirit_iron_ingot" }
+				item: "soulland:spirit_iron_ingot"
 				type: "item"
 			}]
 			title: "Spirit Iron"
@@ -446,7 +447,7 @@
 			tasks: [{
 				count: 4L
 				id: "0CDFDE1FB085177A"
-				item: { Count: 4, id: "mmorpg:currency/force_soul_tag_armor_stat" }
+				item: "mmorpg:currency/force_soul_tag_armor_stat"
 				type: "item"
 			}]
 			title: "Fortified Path"
@@ -460,7 +461,7 @@
 			tasks: [{
 				count: 4L
 				id: "42F9682B477E7BFC"
-				item: { Count: 4, id: "mmorpg:currency/force_soul_tag_dodge_stat" }
+				item: "mmorpg:currency/force_soul_tag_dodge_stat"
 				type: "item"
 			}]
 			title: "Evasion Path"
@@ -532,7 +533,7 @@
 				{
 					count: 2L
 					id: "341196D2202066B8"
-					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					item: "tconstruct:seared_faucet"
 					type: "item"
 				}
 			]
@@ -644,7 +645,7 @@
 			tasks: [{
 				count: 4L
 				id: "45852FC80CAAF8B1"
-				item: { Count: 4, id: "create:andesite_alloy" }
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			title: "Andesite Alloy"
@@ -715,7 +716,7 @@
 			tasks: [{
 				count: 10L
 				id: "6E794FCA92B42C93"
-				item: { Count: 10, id: "soulland:spirit_herb" }
+				item: "soulland:spirit_herb"
 				type: "item"
 			}]
 			title: "Spirit Herbs"
@@ -734,7 +735,7 @@
 			tasks: [{
 				count: 4L
 				id: "46AA6FEE7F04B329"
-				item: { Count: 4, id: "minecraft:gold_ingot" }
+				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
 			title: "A Touch of Gold"
@@ -789,8 +790,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["3D2D38E41E9F7301"
-			]
+			dependencies: ["3D2D38E41E9F7301"]
 			description: ["Spirit Cloth is woven from spirit herb fibers at the Forging Table. It is the primary material for the Spirit Cloth armor set — a magic-focused early armor path suited to spellcasters and cultivators. Gather a substantial supply before crafting; a full set requires significant cloth to produce."]
 			id: "2F79165FD4DEF64F"
 			rewards: [
@@ -810,7 +810,7 @@
 			tasks: [{
 				count: 20L
 				id: "1E6A50855A1D1CC8"
-				item: { Count: 20, id: "soulland:spirit_cloth" }
+				item: "soulland:spirit_cloth"
 				type: "item"
 			}]
 			title: "Spirit Weaving"
@@ -890,7 +890,7 @@
 			tasks: [{
 				count: 4L
 				id: "7FF3AF584420EEFA"
-				item: { Count: 4, id: "soulland:qi_crystal" }
+				item: "soulland:qi_crystal"
 				type: "item"
 			}]
 			title: "Qi Crystals"
@@ -967,7 +967,7 @@
 			tasks: [{
 				count: 4L
 				id: "2EC8EEAA8CD52248"
-				item: { Count: 4, id: "mmorpg:material/farming/0" }
+				item: "mmorpg:material/farming/0"
 				type: "item"
 			}]
 			title: "Alchemical Harvest"

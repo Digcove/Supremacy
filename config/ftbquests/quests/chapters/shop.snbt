@@ -32,7 +32,10 @@
 				consume_items: true
 				count: 4L
 				id: "73CC5DA13DC8B3F3"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.bronze.title}"
@@ -130,7 +133,10 @@
 				consume_items: true
 				count: 8L
 				id: "7D8A1A51390919EE"
-				item: { Count: 8, id: "kubejs:coin" }
+				item: {
+					Count: 8
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.hatch_pack.title}"
@@ -176,7 +182,10 @@
 				consume_items: true
 				count: 64L
 				id: "2A1B6AC84DAE5E37"
-				item: { Count: 64, id: "kubejs:coin" }
+				item: {
+					Count: 64
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.jet_boots.title}"
@@ -225,7 +234,10 @@
 				consume_items: true
 				count: 12L
 				id: "08147B13F7E6C19C"
-				item: { Count: 12, id: "kubejs:coin" }
+				item: {
+					Count: 12
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.basic_components.title}"
@@ -282,7 +294,10 @@
 				consume_items: true
 				count: 32L
 				id: "074300E20DAD117A"
-				item: { Count: 32, id: "kubejs:coin" }
+				item: {
+					Count: 32
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.magnet.title}"
@@ -317,7 +332,10 @@
 				consume_items: true
 				count: 16L
 				id: "67D7FD4B8098C4BF"
-				item: { Count: 16, id: "kubejs:coin" }
+				item: {
+					Count: 16
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.flux_net_pack.title}"
@@ -547,7 +565,10 @@
 				consume_items: true
 				count: 8L
 				id: "7DBE71CFE8B5DF07"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.lv_circuit.title}"
@@ -570,7 +591,10 @@
 				consume_items: true
 				count: 12L
 				id: "486BB3DB925F76F0"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.mv_circuit.title}"
@@ -593,7 +617,10 @@
 				consume_items: true
 				count: 16L
 				id: "756E576AEF96F988"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.hv_circuit.title}"
@@ -616,7 +643,10 @@
 				consume_items: true
 				count: 20L
 				id: "0FEAA700102AE6A5"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.ev_circuit.title}"
@@ -639,7 +669,10 @@
 				consume_items: true
 				count: 24L
 				id: "45494F776677EA22"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.iv_circuit.title}"
@@ -662,7 +695,10 @@
 				consume_items: true
 				count: 32L
 				id: "4F152473A1DAA5BE"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.luv_circuit.title}"
@@ -685,7 +721,10 @@
 				consume_items: true
 				count: 40L
 				id: "1BBF875311735C4A"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.zpm_circuit.title}"
@@ -708,7 +747,10 @@
 				consume_items: true
 				count: 48L
 				id: "3CB4EA4116243F88"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.uv_circuit.title}"
@@ -730,7 +772,10 @@
 				consume_items: true
 				count: 64L
 				id: "2D4CBDE33F3E41CD"
-				item: { Count: 4, id: "kubejs:coin" }
+				item: {
+					Count: 4
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.uhv_circuit.title}"
@@ -778,7 +823,10 @@
 					consume_items: true
 					count: 4L
 					id: "26D94ED65BEE0DDC"
-					item: { Count: 4, id: "kubejs:coin" }
+					item: {
+						Count: 4
+						id: "kubejs:coin"
+					}
 					type: "item"
 				}
 			]
@@ -827,7 +875,10 @@
 					consume_items: true
 					count: 4L
 					id: "302D831DF6F17340"
-					item: { Count: 4, id: "kubejs:coin" }
+					item: {
+						Count: 4
+						id: "kubejs:coin"
+					}
 					type: "item"
 				}
 			]
@@ -895,7 +946,10 @@
 					consume_items: true
 					count: 4L
 					id: "7DF8B866499D3C50"
-					item: { Count: 4, id: "kubejs:coin" }
+					item: {
+						Count: 4
+						id: "kubejs:coin"
+					}
 					type: "item"
 				}
 			]
@@ -963,7 +1017,10 @@
 					consume_items: true
 					count: 4L
 					id: "1A903A23CF63F4A7"
-					item: { Count: 4, id: "kubejs:coin" }
+					item: {
+						Count: 4
+						id: "kubejs:coin"
+					}
 					type: "item"
 				}
 			]
@@ -1009,7 +1066,10 @@
 					consume_items: true
 					count: 8L
 					id: "585509399B85AEA1"
-					item: { Count: 4, id: "kubejs:coin" }
+					item: {
+						Count: 4
+						id: "kubejs:coin"
+					}
 					type: "item"
 				}
 			]
@@ -1032,7 +1092,10 @@
 				consume_items: true
 				count: 2L
 				id: "18A4595ECE276AA6"
-				item: { Count: 2, id: "kubejs:coin" }
+				item: {
+					Count: 2
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.charcoal.title}"
@@ -1152,7 +1215,10 @@
 				consume_items: true
 				count: 4L
 				id: "3BC5D6314FEEC217"
-				item: { Count: 2, id: "kubejs:coin" }
+				item: {
+					Count: 2
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.starter_gear.title}"
@@ -1334,7 +1400,10 @@
 				consume_items: true
 				count: 16L
 				id: "21A92EBBA28330FE"
-				item: { Count: 2, id: "kubejs:coin" }
+				item: {
+					Count: 2
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.tool_pack.title}"
@@ -1469,7 +1538,10 @@
 				consume_items: true
 				count: 16L
 				id: "5058DE66DDBCE1F6"
-				item: { Count: 16, id: "kubejs:coin" }
+				item: {
+					Count: 16
+					id: "kubejs:coin"
+				}
 				type: "item"
 			}]
 			title: "{ftbquests.shop.change_daylight_cycle.title}"
