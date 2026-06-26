@@ -13,18 +13,17 @@
 		x: 0.0d
 		y: 0.0d
 		title: "Out of the Stone Age"
-		icon: {id: "minecraft:iron_ingot", Count: 1b}
-		description: ["Flint and bone got you here. Iron will take you further. Smelt your first iron ingots — dig deep, find a cave, find the ore. The surface veins go fast.", "You'll need a lot of iron. Start now."]
+		icon: {id: "tconstruct:melter", Count: 1b}
+		description: ["Tinkers' Construct starts with Grout — a slurry of equal parts gravel, sand, and clay. Craft it in any ratio, then smelt it into Seared Bricks. Every Tinkers structure is built from these bricks.", "The Melter is your first stop: a single block placed above a heat source that liquefies metals for casting. Build one before you build anything else in this system."]
 		tasks: [{
 			id: "0000000000006002"
 			type: "item"
-			item: {id: "minecraft:iron_ingot", Count: 1b}
-			count: 8L
+			item: {id: "tconstruct:melter", Count: 1b}
 		}]
 		rewards: [{
 			id: "0000000000006003"
 			type: "item"
-			item: {id: "minecraft:furnace", Count: 1b}
+			item: {id: "tconstruct:grout", Count: 16b}
 		}]
 	}, {
 		id: "000000000029007F"
@@ -52,7 +51,7 @@
 		dependencies: ["0000000000006001"]
 		title: "The Tinker's Workshop"
 		icon: {id: "tconstruct:smeltery_controller", Count: 1b}
-		description: ["Tinkers' Construct throws out the crafting table for making tools. Instead: a Smeltery, Casting Tables, and Part Builders. Every material has different traits. Iron tools are just the beginning — bronze, cobalt, and stranger things wait.", "Build the Smeltery Controller and surround it with Seared Bricks to form the Smeltery structure. It needs at least one Drain and a Tank to hold liquid metal."]
+		description: ["The Melter liquefies metals and lets you pour them into casts. Set a Casting Table below it, pour liquid iron into a Pickaxe Head Cast, and you have a tool head ready for assembly at the Part Builder. This is how all Tinkers tools are made.", "The Smeltery is the Melter's bigger sibling — a hollow multiblock that can hold multiple metals at once and alloy them together. Build the Smeltery Controller, encase it in Seared Bricks, and add a Seared Tank and a Drain. Once formed, it can smelt, mix, and pour at scale."]
 		tasks: [{
 			id: "0000000000006005"
 			type: "item"
