@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "66B93D134A8EFA8F", title: "Main Story" }
+		{ id: "4FE047BB6D602D58", title: "Godlike Power" }
+		{ id: "1E24DF067925061D", title: "Home Sweet Home" }
+		{ id: "274C28999D7BBD26", title: "Adventure" }
+		{ id: "1E0FC4EA21F735F7", title: "Star Tech: Main" }
+		{ id: "03EF8417F6D21A2E", title: "Star Tech: Chemistry" }
+		{ id: "28726466D987C725", title: "Star Tech: Extra" }
+	]
+}

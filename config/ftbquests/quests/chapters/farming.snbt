@@ -5,7 +5,7 @@
 	group: "1E24DF067925061D"
 	id: "49F3543207F05E3C"
 	order_index: 0
-	quest_links: []
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3ABDA0A1EA25EB8F"]
@@ -35,26 +35,26 @@
 		{
 			dependencies: ["22C4FB700C4C7B5F"]
 			description: ["Farmer's Delight cooking recipes require specific crop combinations — Vegetable Soup needs carrots, potatoes, and greens. Tomato appears in more FD recipes than any other single Pam's crop. Rice unlocks grain-based dishes and several stew variants. Each unique crop type you grow expands the pool of available Cooking Pot recipes. Prioritize crops that yield both a food item and a replantable seed — the highest-volume staples sustain themselves given enough space and beds."]
-			id: "F1A2B3C4D5E60000"
+			id: "53BCE39A0FECC080"
 			rewards: [{
 				count: 3
-				id: "FA4B000000000001"
+				id: "1A1975DE6E9A04C5"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [
 				{
-					id: "DA1C000000000001"
+					id: "271711AEDC81E0D8"
 					item: "pamhc2crops:tomatoitem"
 					type: "item"
 				}
 				{
-					id: "DA1C000000000002"
+					id: "18B5D5F1B38DB6ED"
 					item: "pamhc2crops:riceitem"
 					type: "item"
 				}
 				{
-					id: "DA1C000000000003"
+					id: "449A23E6F1F34192"
 					item: "pamhc2crops:onionitem"
 					type: "item"
 				}
@@ -64,17 +64,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60000"]
 			description: ["The Cooking Pot accepts up to four ingredients plus water and produces multiple servings in one operation — no crafting table required. Place it over any heat source (campfire, fire, magma block) and right-click the output slot with an empty bowl to collect each serving. A single craft typically produces four to six servings. Higher-complexity recipes provide lasting food buffs and higher saturation than anything vanilla Minecraft can produce. The Cooking Pot is the reason food stops being a maintenance task and starts being a force multiplier for combat."]
-			id: "F1A2B3C4D5E60001"
+			id: "6F671427EEE910E5"
 			rewards: [{
 				count: 3
-				id: "FA4B000000000002"
+				id: "0E503D19B9DFAEEE"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C000000000004"
+				id: "407A6E1B01A7DC6C"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
@@ -83,17 +82,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60001"]
 			description: ["Vegetable Soup requires carrots, potatoes, Pam's cabbage, and water in the Cooking Pot. It provides six hunger bars and a short Regeneration effect — enough to replace cooked pork chops as your expedition food. Cook it in batches of six servings and stock your inventory before heading into Mine & Slash combat. At higher cultivation ranks, food buff stacking with Soul Land cultivation bonuses and M&S stat soul investments creates a meaningful composite effect that individual hunger values obscure. Feed yourself properly before every serious encounter."]
-			id: "F1A2B3C4D5E60002"
+			id: "1F736DBC0CBACE22"
 			rewards: [{
 				count: 3
-				id: "FA4B000000000003"
+				id: "04C90741D644311F"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C000000000005"
+				id: "3E0754F01CC8368B"
 				item: "farmersdelight:vegetable_soup"
 				type: "item"
 			}]
@@ -102,22 +100,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"F1A2B3C4D5E60002"
-				"0976ED57329E13EB"
-			]
+			dependencies: ["0976ED57329E13EB"]
 			description: ["With a diverse crop rotation, an active Cooking Pot, and real food in your inventory, the farm is established. A self-sustaining food loop removes hunger as a constraint on your playtime. The Mystical Agriculture path below extends this into passive resource generation — every ore, every essence material grown and harvested without a pickaxe. This is the base from which every expedition launches and to which it returns."]
-			id: "F1A2B3C4D5E60003"
+			id: "55B11B56BC0C546D"
 			rewards: [{
 				count: 5
-				id: "FA4B000000000004"
+				id: "271D93F2098FD7E1"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "DA1C000000000006"
+				id: "30D1452384CADF3F"
 				title: "The Farm Is Established"
 				type: "checkmark"
 			}]
@@ -126,18 +121,23 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60001"]
 			description: ["The Farmer's Delight Skillet handles single-ingredient or two-ingredient recipes directly on any heat source without water input. Bacon, fried eggs, and grilled vegetables cook individually in seconds. The Skillet is required for prep steps in multi-stage FD recipes — several Cooking Pot inputs must first be processed through a Skillet before they become valid cooking ingredients. Keep one beside the Cooking Pot; they are complementary, not redundant."]
-			id: "F1A2B3C4D5E60004"
+			id: "5BB7359037AA2B78"
 			rewards: [{
 				count: 2
-				id: "FA4B000000000005"
+				id: "4657DF2123CCD9B4"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C000000000007"
-				item: "farmersdelight:skillet"
+				id: "70C366BC1E42B146"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			title: "Skillet"
@@ -145,18 +145,17 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60004"]
 			description: ["Chicken Soup requires chicken, carrot, cabbage, and water — a multi-crop recipe with one of the highest saturation-to-ingredient ratios in Farmer's Delight. For extended dungeon runs or Mine & Slash map clears, stock twelve servings before departure. The combination of Regeneration from Vegetable Soup and full saturation from Chicken Soup keeps your health loop passive across most combat encounters. Food buff effects stack additively with Mine & Slash stat soul investments."]
-			id: "F1A2B3C4D5E60005"
+			id: "186340035E2EB2D7"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "FA4B000000000006"
+				id: "763F70437AA8F78D"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C000000000008"
+				id: "3F847FC9096E9923"
 				item: "farmersdelight:chicken_soup"
 				type: "item"
 			}]
@@ -170,7 +169,7 @@
 			id: "0487B5BA7036BFC5"
 			rewards: [{
 				count: 2
-				id: "FA4B000000000007"
+				id: "5837980653677542"
 				item: "kubejs:coin"
 				type: "item"
 			}]
@@ -179,7 +178,9 @@
 				item: {
 					Count: 1
 					id: "minecraft:iron_hoe"
-					tag: { Damage: 0 }
+					tag: {
+						Damage: 0
+					}
 				}
 				type: "item"
 			}]
@@ -190,15 +191,15 @@
 		{
 			dependencies: ["0487B5BA7036BFC5"]
 			description: ["Farmer's Delight Rich Soil turns any farmland into enhanced-yield soil — crops grown on it have a chance to drop double seeds on harvest, enabling a self-seeding loop without repurchasing. Rich Soil is produced by composting organic matter in a FD Organic Compost block over time. Feed it with excess crop outputs and harvest scraps. Replant your core crop plots on Rich Soil farmland to eliminate seed supply as a long-term concern — once the loop is seeded, it runs without input."]
-			id: "F1A2B3C4D5E60006"
+			id: "7C0130C974E8C937"
 			rewards: [{
 				count: 2
-				id: "FA4B000000000008"
+				id: "3001FA5D52946ACB"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C000000000009"
+				id: "56F16ADCAECE68ED"
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
@@ -227,17 +228,17 @@
 		{
 			dependencies: ["0976ED57329E13EB"]
 			description: ["Mystical Agriculture adds crop-form resource generation — seeds that grow essence, which converts to any base material in the game. Inferium Essence is the foundation tier: harvest it from Inferium Crops planted on any farmland type. Four Inferium Essence craft into one Prudentium (T2). Ten Inferium Essence make one T1 resource seed for a target material. Build an Inferium crop row as your base passive resource loop — it replaces mining for common materials given sufficient time and Growth Accelerators."]
-			id: "F1A2B3C4D5E60007"
+			id: "714F00CC06EC123C"
 			rewards: [{
 				count: 3
-				id: "FA4B000000000009"
+				id: "2564A0894670BC9E"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
 				count: 10L
-				id: "DA1C00000000000A"
-				item: { Count: 10, id: "mysticalagriculture:inferium_essence" }
+				id: "4548C96B774D87A5"
+				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
 			title: "Inferium Essence"
@@ -245,17 +246,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60007"]
 			description: ["Mystical Agriculture resource seeds grow specific material essence in crop form. Iron Seeds produce Iron Essence. Stone Seeds produce Stone Essence. Each seed requires Inferium Essence plus the target material in crafting, and must be grown on Mystical Soil — crafted from Inferium Essence and Soul Sand. Essence converts to the target material in the crafting table at 1:1 ratio. This is how you produce unlimited iron and stone without a mining trip. T1 seeds cover basic materials; higher tiers unlock rare ores once Prudentium Essence is available."]
-			id: "F1A2B3C4D5E60008"
+			id: "00A942F8214A3072"
 			rewards: [{
 				count: 3
-				id: "FA4B00000000000A"
+				id: "5FD1AFEB0B520457"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C00000000000B"
+				id: "288BAC952C87EAB2"
 				item: "mysticalagriculture:inferium_seeds"
 				type: "item"
 			}]
@@ -264,17 +264,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60008"]
 			description: ["The Growth Accelerator is placed directly under Mystical Soil and adds a growth tick probability to the crop above. Multiple Accelerators stack — up to 64 in a column beneath a single plot, each adding another layer of probability. At ten Accelerators per plot, harvest intervals drop to seconds. Automate the harvest with a Create Mechanical Harvester or a Farmer's Delight Farming Station to complete the cycle without player input. Build Accelerators before planting your main resource seed rows; the speed difference is immediate."]
-			id: "F1A2B3C4D5E60009"
+			id: "2E2F4D4734C41151"
 			rewards: [{
 				count: 3
-				id: "FA4B00000000000B"
+				id: "5A82462077A4D6A1"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C00000000000C"
+				id: "4FCF065BE6F7C0C5"
 				item: "mysticalagriculture:growth_accelerator"
 				type: "item"
 			}]
@@ -283,19 +282,18 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60009"]
 			description: ["Prudentium Essence is Mystical Agriculture's T2 tier — crafted from four Inferium Essence, it gates Iron, Gold, Diamond, and Redstone resource seeds. It also converts to Mystical Fertilizer, which instantly matures any Mystical Agri crop to harvestable state. Reaching T2 means your farm can passively produce every standard ore type in the game. GregTech's ore processing chain exists to multiply that output — the Macerator's byproduct dusts apply to farm-grown ore essence just as to mined ore. Feed your Macerators with Mystical Agriculture output."]
-			id: "F1A2B3C4D5E6000A"
+			id: "1518C1146C48D5BB"
 			rewards: [{
 				count: 5
-				id: "FA4B00000000000C"
+				id: "63934B9BABE0981A"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "DA1C00000000000D"
+				id: "463279A76283B953"
 				item: "mysticalagriculture:prudentium_essence"
 				type: "item"
 			}]
@@ -304,17 +302,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E60008"]
 			description: ["Botany Pots grow any plantable item in a compact single-block footprint — Pam's HarvestCraft seeds, vanilla crops, saplings, vines, mushrooms, and most modded plants. They require no sunlight, no farmland, and no irrigation. Soul Land spirit herbs can be grown in Botany Pots using the appropriate soil type, making them the passive indoor source for cultivation-speed alchemicals. A shelf of Botany Pots in your base runs continuously regardless of chunk loading state, producing steady output with zero player attention."]
-			id: "F1A2B3C4D5E6000B"
+			id: "7F19B559E12AA6C0"
 			rewards: [{
 				count: 3
-				id: "FA4B00000000000D"
+				id: "2725CD07A7CE6FC4"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C00000000000E"
+				id: "28F05F0FF04068D3"
 				item: "botanypots:botany_pot"
 				type: "item"
 			}]
@@ -323,24 +320,844 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["F1A2B3C4D5E6000B"]
 			description: ["The Hopper Botany Pot adds an auto-output slot that connects to hoppers and item pipes below the block. Link it to a sorted chest network via Create conveyors or GT item pipes and the pot outputs its harvest automatically on maturity — no player interaction required. A wall of Hopper Botany Pots growing Soul Land spirit herbs, each sorted by herb type into labeled chests, provides the passive cultivation alchemy supply that supports higher cultivation ranks without regular Spirit Beast Forest expeditions."]
-			id: "F1A2B3C4D5E6000C"
+			id: "4A826D4AF741D1C0"
 			optional: true
 			rewards: [{
 				count: 3
-				id: "FA4B00000000000E"
+				id: "0CC5C6E6DDB7E4E0"
 				item: "kubejs:coin"
 				type: "item"
 			}]
 			tasks: [{
-				id: "DA1C00000000000F"
+				id: "27198CD0AD2C125B"
 				item: "botanypots:hopper_botany_pot"
 				type: "item"
 			}]
 			title: "Hopper Botany Pot"
 			x: 1.5d
 			y: -7.5d
+		}
+		{
+			dependencies: ["1518C1146C48D5BB"]
+			description: ["Mystical Agriculture extends crop farming beyond food — every ore, gem, and rare material in the game can be grown in soil given the right seed and the right essence tier. Inferium and Prudentium gave you a foothold. The tiers above — Tertium, Imperium, Supremium, Awakened Supremium, and Insanium — each unlock a new class of resource seeds, each guarded by a deeper magical requirement. The farm does not advance on its own. Your soul cultivation and magical mastery set the ceiling. Grow deeper."]
+			id: "1A2B3C4D00000001"
+			tasks: [{
+				id: "2A2B3C4D00000001"
+				title: "The Essence of All Things"
+				type: "checkmark"
+			}]
+			title: "The Essence of All Things"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000001"
+				"5FC6C2D842B38AD2"
+				"6CD3FDD027906C44"
+			]
+			description: ["Tertium Essence is not merely a crafting upgrade — it requires the ambient magical field of an active soul ring bond and a functional mana generation system. The soul ring creates a spiritual resonance field around your cultivation base; the Botania mana pool grounds that field into physical mana flux. Together they stabilize the essence matrix required for Tier 3 crop growth. A single Endoflame or Hydroangeas setup is sufficient — what matters is that the mana loop is active and your first soul ring is bound."]
+			id: "1A2B3C4D00000002"
+			tasks: [{
+				id: "2A2B3C4D00000002"
+				title: "Soul and Mana Converge"
+				type: "checkmark"
+			}]
+			title: "Soul and Mana Converge"
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000002"]
+			description: ["Tertium Essence is crafted from 2x Prudentium Essence. It gates Tier 3 resource seeds — iron, gold, diamond, and coal in the first class, with nature and elemental essences following. Each T3 seed requires 4x Tertium Essence plus the corresponding material. Once planted on Mystical Soil with Growth Accelerators beneath, a T3 crop produces 1–2 essence per harvest cycle. A row of eight iron seed plots with ten Accelerators each will outpace a Macerator's input throughput within a few hours of unattended operation."]
+			id: "1A2B3C4D00000003"
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D00000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "2A2B3C4D00000003"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			title: "Tertium Essence"
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000003"
+				"72158F0D783153BE"
+				"27B707D2E3E3ED14"
+			]
+			description: ["Imperium Essence carries a resonance that reacts to living alloys and sacrificial altar power. Terrasteel, born from the convergence of Manasteel, Livingrock, and Elven dust via the Terrestrial Agglomeration Plate, carries a spiritual signature that stabilizes higher-tier essence growth. Pair it with a functional Blood Altar and the Imperium growth band unlocks. Botania and Blood Magic share overlapping resonance profiles in the essence matrix — reaching T4 requires you to have mastered both."]
+			id: "1A2B3C4D00000004"
+			tasks: [{
+				id: "2A2B3C4D00000004"
+				title: "Terrasteel and Blood"
+				type: "checkmark"
+			}]
+			title: "Terrasteel and Blood"
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000004"]
+			description: ["Imperium Essence opens access to rare ore seeds — copper, tin, lead, silver, and nickel in the first wave, with redstone and rarer materials following. Craft it from 2x Tertium Essence. For passive automation, pair a Create Mechanical Harvester over Imperium-seeded rows with a Drawer Controller and overflow filtering into GTCEu item pipes. The output curve at this point begins to exceed casual mining returns — this is where the farm becomes an industry, not a supplement."]
+			id: "1A2B3C4D00000005"
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D00000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "2A2B3C4D00000005"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			title: "Imperium Essence"
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000005"
+				"5C0DE456A7C99013"
+				"4470A64D131B98EF"
+			]
+			description: ["The Gaia Guardian is Botania's ultimate test — a magical boss summoned on a Natural Altar that demands mastery of the mana system and serious combat preparation. Defeating it proves your magical development has reached a level sufficient to stabilize Tier 5 growth matrices. The Spirit King cultivation rank represents a parallel spiritual attainment; together, the two milestones produce the combined resonance that permits Supremium growth. Prepare a large flat area, Mana Tablets, and Pixie Dust supplies before summoning."]
+			id: "1A2B3C4D00000006"
+			tasks: [{
+				id: "2A2B3C4D00000006"
+				title: "Gaia's Trial"
+				type: "checkmark"
+			}]
+			title: "Gaia's Trial"
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000006"]
+			description: ["Supremium Essence is the pinnacle of standard Mystical Agriculture. From it, seeds for titanium, platinum, tungsten, chromium, and uranium become craftable — materials that would otherwise require deep GTCEu ore processing chains or dangerous dimensional mining. Each Supremium seed requires 8x Supremium Essence plus the target material. Supremium also converts into Mystical Fertilizer, which instantly matures any MA crop — build a stockpile before planting your endgame rows."]
+			id: "1A2B3C4D00000007"
+			rewards: [
+				{
+					count: 4
+					id: "3A2B3C4D00000007"
+					item: "mysticalagriculture:growth_accelerator"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3A2B3C4D00000708"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 5L
+				id: "2A2B3C4D00000007"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			title: "Supremium Essence"
+			x: 25.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000007"
+				"10C749BDA0B09618"
+			]
+			description: ["Awakened Supremium requires a blood altar bond with the essence matrix. The Magician's Blood Orb carries an LP imprint that creates a sustained spiritual link between your cultivation practice and the growth medium. When the Orb's LP signature resonates with the Supremium growth field, the Awakened band opens — and Awakened Supremium armor becomes craftable, the first complete magical endgame defensive set in the pack, with charm slots that customize passive effects across the full armor set."]
+			id: "1A2B3C4D00000008"
+			tasks: [{
+				id: "2A2B3C4D00000008"
+				title: "Blood Pact"
+				type: "checkmark"
+			}]
+			title: "Blood Pact"
+			x: 28.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000008"]
+			description: ["Awakened Supremium Essence completes the Mystical Agriculture base set. Seeds at this tier cover nearly all high-tier materials, and the Awakened Supremium armor set provides strong defense with charm slot customization for flight, fire immunity, water breathing, and regeneration. Beyond raw essence, Awakened Supremium fed into the GTCEu Essence Replicator generates targeted resources on demand — an inline infinite resource generator given sufficient EU input."]
+			id: "1A2B3C4D00000009"
+			rewards: [{
+				count: 15
+				id: "3A2B3C4D00000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "2A2B3C4D00000009"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			title: "Awakened Supremium Essence"
+			x: 31.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000009"
+				"BC01000000000004"
+				"07B89901B2D44559"
+			]
+			description: ["Insanium Essence from Mystical Agriculture Additions is an engineered essence — it requires the LP reservoir of an Archmage's Blood Orb and Spirit Ancestor cultivation rank to stabilize. The Archmage's Orb provides the stored life energy needed for the growth ritual; Spirit Ancestor attainment signals that your soul has entered a resonance tier capable of sustaining the unstable Insanium matrix. Once both thresholds clear, Insanium seeds become craftable — covering the final tier of exotic materials."]
+			id: "1A2B3C4D0000000A"
+			tasks: [{
+				id: "2A2B3C4D0000000A"
+				title: "Arcane Supremacy"
+				type: "checkmark"
+			}]
+			title: "Arcane Supremacy"
+			x: 34.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D0000000A"]
+			description: ["Insanium Essence is the endgame tier of Mystical Agriculture, available through Mystical Agriculture Additions. Seeds at this tier cover the most exotic and hardest-to-obtain materials in the pack. Insanium also serves as the input for the GTCEu Essence Enhancer's highest processing tier, enabling bulk material conversion at rates that dwarf standard farm output. A single row of Insanium crop plots with maximum Growth Accelerators each produces more raw material per hour than most GTCEu ore processing lines. The farm wins, eventually."]
+			id: "1A2B3C4D0000000B"
+			rewards: [
+				{
+					id: "3A2B3C4D0000000B"
+					item: "mysticalagradditions:insanium_essence"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3A2B3C4D00000B02"
+					item: "kubejs:coin"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 5L
+				id: "2A2B3C4D0000000B"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			title: "Insanium Essence"
+			x: 37.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000003"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000000C"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D0000000C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000000C"
+				item: "mysticalagriculture:iron_essence"
+				type: "item"
+			}]
+			title: "Iron Essence"
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000003"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000000D"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D0000000D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000000D"
+				item: "mysticalagriculture:gold_essence"
+				type: "item"
+			}]
+			title: "Gold Essence"
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000003"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000000E"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D0000000E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000000E"
+				item: "mysticalagriculture:diamond_essence"
+				type: "item"
+			}]
+			title: "Diamond Essence"
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D0000000C"
+				"1A2B3C4D0000000D"
+			]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000000F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D0000000F"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000000F"
+				item: "mysticalagriculture:coal_essence"
+				type: "item"
+			}]
+			title: "Coal Essence"
+			x: 12.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D0000000D"
+				"1A2B3C4D0000000E"
+			]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000010"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000010"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000010"
+				item: "mysticalagriculture:nature_essence"
+				type: "item"
+			}]
+			title: "Nature Essence"
+			x: 13.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000005"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000011"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000011"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000011"
+				item: "mysticalagriculture:copper_essence"
+				type: "item"
+			}]
+			title: "Copper Essence"
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000005"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000012"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000012"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000012"
+				item: "mysticalagriculture:silver_essence"
+				type: "item"
+			}]
+			title: "Silver Essence"
+			x: 19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000005"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000013"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000013"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000013"
+				item: "mysticalagriculture:tin_essence"
+				type: "item"
+			}]
+			title: "Tin Essence"
+			x: 20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000011"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000014"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000014"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000014"
+				item: "mysticalagriculture:lead_essence"
+				type: "item"
+			}]
+			title: "Lead Essence"
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000012"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000015"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000015"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000015"
+				item: "mysticalagriculture:nickel_essence"
+				type: "item"
+			}]
+			title: "Nickel Essence"
+			x: 19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000013"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000016"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000016"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000016"
+				item: "mysticalagriculture:redstone_essence"
+				type: "item"
+			}]
+			title: "Redstone Essence"
+			x: 20.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000014"
+				"1A2B3C4D00000016"
+			]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000017"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3A2B3C4D00000017"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000017"
+				item: "mysticalagriculture:lapis_lazuli_essence"
+				type: "item"
+			}]
+			title: "Lapis Lazuli Essence"
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000007"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000018"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000018"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000018"
+				item: "mysticalagriculture:titanium_essence"
+				type: "item"
+			}]
+			title: "Titanium Essence"
+			x: 23.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000007"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D00000019"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000019"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D00000019"
+				item: "mysticalagriculture:platinum_essence"
+				type: "item"
+			}]
+			title: "Platinum Essence"
+			x: 25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000007"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000001A"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D0000001A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000001A"
+				item: "mysticalagriculture:tungsten_essence"
+				type: "item"
+			}]
+			title: "Tungsten Essence"
+			x: 26.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000018"
+				"1A2B3C4D00000019"
+			]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000001B"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D0000001B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000001B"
+				item: "mysticalagriculture:uranium_essence"
+				type: "item"
+			}]
+			title: "Uranium Essence"
+			x: 24.25d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000019"
+				"1A2B3C4D0000001A"
+			]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000001C"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D0000001C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000001C"
+				item: "mysticalagriculture:chrome_essence"
+				type: "item"
+			}]
+			title: "Chrome Essence"
+			x: 25.75d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000009"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000001D"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D0000001D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000001D"
+				item: "mysticalagriculture:naquadah_essence"
+				type: "item"
+			}]
+			title: "Naquadah Essence"
+			x: 30.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000009"]
+			hide_dependent_lines: true
+			id: "1A2B3C4D0000001E"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D0000001E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2A2B3C4D0000001E"
+				item: "mysticalagriculture:manganese_essence"
+				type: "item"
+			}]
+			title: "Manganese Essence"
+			x: 32.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000004"]
+			description: ["The GTCEu Mystical Greenhouse accelerates MA crop growth through voltage-based tick injection — more EU/t in, faster crop cycles. Unlike stacked Growth Accelerators, the Greenhouse effect scales with EU tier rather than block count, so a single HV Greenhouse replaces dozens of Accelerators. Build it adjacent to your crop rows and connect it to your power network. This is the first industrial integration between GTCEu and the farm, and the cheapest throughput multiplier available at LV."]
+			id: "1A2B3C4D0000001F"
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D0000001F"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A2B3C4D0000001F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{ Count: 1b id: "gtceu:lv_mystical_greenhouse" }
+							{ Count: 1b id: "gtceu:mv_mystical_greenhouse" }
+							{ Count: 1b id: "gtceu:hv_mystical_greenhouse" }
+							{ Count: 1b id: "gtceu:ev_mystical_greenhouse" }
+							{ Count: 1b id: "gtceu:iv_mystical_greenhouse" }
+						]
+					}
+				}
+				title: "Any Mystical Greenhouse"
+				type: "item"
+			}]
+			title: "Mystical Greenhouse"
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2B3C4D0000001F"]
+			description: ["The GTCEu Essence Burner consumes MA essence to generate EU — turning surplus crop output into power. Lower-tier essences generate modest EU; higher tiers burn with significantly greater efficiency. At Supremium burn rates it competes with mid-tier GTCEu generators. Pair with the Greenhouse: excess output generates power, power feeds Greenhouses, Greenhouses produce more excess. The loop runs itself once established and gives your farm a reason to overproduce."]
+			id: "1A2B3C4D00000020"
+			rewards: [{
+				count: 5
+				id: "3A2B3C4D00000020"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A2B3C4D00000020"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{ Count: 1b id: "gtceu:lv_essence_burner" }
+							{ Count: 1b id: "gtceu:mv_essence_burner" }
+							{ Count: 1b id: "gtceu:hv_essence_burner" }
+							{ Count: 1b id: "gtceu:ev_essence_burner" }
+							{ Count: 1b id: "gtceu:iv_essence_burner" }
+						]
+					}
+				}
+				title: "Any Essence Burner"
+				type: "item"
+			}]
+			title: "Essence Burner"
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1A2B3C4D00000020"
+				"1A2B3C4D00000008"
+			]
+			description: ["The Essence Replicator converts higher-tier essence downward — or replicates specific essence types into bulk output given sufficient EU input. At HV power, a single Replicator fed Supremium can produce targeted material essences at rates that replace multiple specialized crop rows. This is the inflection point where the MA farm transitions from gardening to manufacturing — input one tier, output another in bulk, with power as the only variable cost."]
+			id: "1A2B3C4D00000021"
+			rewards: [{
+				count: 8
+				id: "3A2B3C4D00000021"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A2B3C4D00000021"
+				item: "gtceu:essence_replicator"
+				type: "item"
+			}]
+			title: "Essence Replicator"
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000021"]
+			description: ["The Essence Enhancer upgrades essence tiers using chemical reagents — crown ethers and cryptand complexes produced through GTCEu's organic chemistry chain. At maximum tier, the Enhancer accepts Awakened Supremium and reagents to produce Insanium at rates not achievable through standard crop farming. The chemistry for the reagents (ethylene oxide → glycol → triglycol → crown ether synthesis) is deep GTCEu work, but the output — a reliable Insanium tap — is worth the process."]
+			id: "1A2B3C4D00000022"
+			rewards: [{
+				count: 10
+				id: "3A2B3C4D00000022"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2A2B3C4D00000022"
+				item: "gtceu:essence_enchancer"
+				type: "item"
+			}]
+			title: "Essence Enhancer"
+			x: 28.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000009"]
+			description: ["The Awakened Supremium Helmet provides strong defense and MA charm slots — insert charms for passive effects like Night Vision, Step Assist, or Fire Immunity. Assembled directly from Awakened Supremium Essence and Dragon's Breath at a standard crafting table; no Smeltery or special workbench required."]
+			id: "1A2B3C4D00000023"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000023"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2B3C4D00000023"
+				item: "mysticalagriculture:awakened_supremium_helmet"
+				type: "item"
+			}]
+			title: "Awakened Supremium Helmet"
+			x: 30.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000009"]
+			description: ["The Awakened Supremium Chestplate carries the highest defense value in the MA armor set and the largest charm capacity. Available charms include Flight, Water Breathing, and Absorption — each a passive effect while worn. A Flight charm-equipped chestplate makes this armor competitive for dimensional exploration well before Elytra access."]
+			id: "1A2B3C4D00000024"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000024"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2B3C4D00000024"
+				item: "mysticalagriculture:awakened_supremium_chestplate"
+				type: "item"
+			}]
+			title: "Awakened Supremium Chestplate"
+			x: 31.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A2B3C4D00000023"]
+			description: ["The Awakened Supremium Leggings provide movement augmentation via charms — Sprint Charm gives permanent Speed I; Wither Resistance prevents the Wither effect from reducing max health during Mine & Slash dungeon runs. A full Awakened Supremium set with Absorption and Sprint charms creates a mobile tank build that works across most combat encounters without Soul Land cultivation stat investments."]
+			id: "1A2B3C4D00000025"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000025"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2B3C4D00000025"
+				item: "mysticalagriculture:awakened_supremium_leggings"
+				type: "item"
+			}]
+			title: "Awakened Supremium Leggings"
+			x: 30.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A2B3C4D00000024"]
+			description: ["The Awakened Supremium Boots carry Jump Boost and Fall Damage immunity charms. With the full armor set assembled, you have a complete magical-tier defense suite that predates the need for GTCEu Hazmat suits or Blood Magic Living Armor. Both remain competitive for specialized use cases, but the full Awakened set is a strong baseline for EV-tier GTCEu content and dimensional exploration requiring sustained survivability."]
+			id: "1A2B3C4D00000026"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "3A2B3C4D00000026"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2B3C4D00000026"
+				item: "mysticalagriculture:awakened_supremium_boots"
+				type: "item"
+			}]
+			title: "Awakened Supremium Boots"
+			x: 31.5d
+			y: -4.5d
 		}
 	]
 	title: "Farming"

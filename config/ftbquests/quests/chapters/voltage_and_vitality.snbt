@@ -1,0 +1,688 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "voltage_and_vitality"
+	group: "66B93D134A8EFA8F"
+	id: "C0D1E2F3A4B5C6D7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+
+		{
+			dependencies: ["5F36072A0F88C16F"]
+			description: ["Three convergences. The Ur-Ghast Trophy from the Dark Tower and the Titanium Plates from the Electric Blast Furnace meet in the EV Machine Hull — the first machine chassis that operates at a voltage your earlier infrastructure couldn't sustain. In parallel, Certus Quartz grows in your world's caves, waiting to become the nervous system of a digital storage network. And the Blood Altar in your base, fed by your own life, is ready to ascend beyond the primitive structure you first built. Each thread runs at its own pace. All three must close before the next horizon opens."]
+			id: "EE01000000000001"
+			tasks: [{
+				id: "EC01000000000001"
+				title: "Enter Extreme Voltage"
+				type: "checkmark"
+			}]
+			title: "Voltage and Vitality"
+			x: 0.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000001"]
+			description: ["The EV Machine Hull integrates a Twilight Forest Ur-Ghast Trophy into the bus structure — its resonant frequency stabilizes the high-voltage differential across the casing under continuous load. Nine Titanium Plates form the outer skin; the Trophy and Tungstensteel internal framing handle the EV current. Unlike LV and MV hulls, this chassis is expensive to produce in quantity — plan your Titanium output before committing to a full EV machine floor."]
+			id: "EE01000000000002"
+			rewards: [{
+				count: 6
+				id: "EA01000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "EC01000000000002"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			title: "EV Machine Hull"
+			x: 3.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000002"]
+			description: ["The EV Electric Motor operates at higher current density than its MV counterpart — the coil windings are finer, the core is denser, and the heat tolerance demands Tungstensteel components. It is the base prerequisite for every EV machine. Build several before beginning the EV machine floor; the EV Piston, EV Robot Arm, EV Conveyor, and EV Pump all require one each, and they are all required before any EV machine can be assembled."]
+			id: "EE01000000000003"
+			rewards: [{
+				count: 4
+				id: "EA01000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EC01000000000003"
+				item: "gtceu:ev_electric_motor"
+				type: "item"
+			}]
+			title: "EV Electric Motor"
+			x: 6.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000001"]
+			description: ["Nichrome is an iron-nickel-chromium alloy that sustains higher operating temperatures than Kanthal. Alloy Nickel and Chrome in the Alloy Smelter to produce Nichrome Ingots — the Chrome pipeline from your MV Electrolyzer already feeds this step. Draw the ingots through the Wiremill to produce Nichrome Double Wire. The EBF's Kanthal coil ring has taken you as far as 2700K. Nichrome raises that ceiling to 3300K — the threshold required to process Tungsten and begin the alloy chains beyond it."]
+			id: "EE01000000000004"
+			rewards: [{
+				count: 3
+				id: "EA01000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "EC01000000000004"
+					item: "gtceu:nichrome_ingot"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "EC01000000000005"
+					item: "gtceu:nichrome_double_wire"
+					type: "item"
+				}
+			]
+			title: "Nichrome Alloy"
+			x: 3.0d
+			y: -3.0d
+		}
+
+		{
+			dependencies: ["EE01000000000004"]
+			description: ["Assemble four Nichrome Double Wire units into Nichrome Coil Blocks and replace the Kanthal inner ring of the Electric Blast Furnace. The EBF controller detects the upgrade automatically — no structural rebuild required, only the inner coil layer. At 3300K the EBF clears the processing threshold for Tungsten, Molybdenum, and several rare-earth elements that will appear in the IV tier. The coil swap is the cheapest high-impact upgrade in the GT machine tree: a few hours of wire production buys access to an entirely new material tier."]
+			id: "EE01000000000005"
+			rewards: [
+				{
+					count: 6
+					id: "EA01000000000004"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "EA01000000000005"
+					item: "gtceu:nichrome_coil_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 4L
+				id: "EC01000000000006"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			title: "Nichrome Coil Block"
+			x: 6.0d
+			y: -3.0d
+		}
+
+		{
+			dependencies: [
+				"EE01000000000003"
+				"EE01000000000005"
+			]
+			description: ["Tungsten is extracted from Scheelite or Wolframite ore — process either through the Macerator to obtain the dust, then feed to the Electric Blast Furnace at approximately 3000K. Your Nichrome Coils operate at 3300K, providing 300 degrees of thermal headroom. Tungsten Ingots are the primary structural metal of the EV tier and the raw material for Tungstensteel, Tungsten Carbide, and the high-temperature alloys that compose IV machine casings. Begin converting Scheelite output to Tungsten Ingots immediately; the demand from EV machines alone is substantial."]
+			id: "EE01000000000006"
+			rewards: [
+				{
+					count: 4
+					id: "EA01000000000006"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "EA01000000000007"
+					item: "gtceu:tungsten_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "EC01000000000007"
+				item: "gtceu:tungsten_ingot"
+				type: "item"
+			}]
+			title: "Tungsten"
+			x: 9.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000006"]
+			description: ["Tungstensteel is the primary structural metal of EV and early IV construction. Alloy Tungsten Ingots with Steel in the EBF to produce it — the process runs comfortably within Nichrome coil range. Tungstensteel Plates, Rods, and Pipes form the internal framing of every EV machine and appear throughout the IV machine hull recipe. Begin producing it in continuous quantity now; Tungstensteel demand never decreases from this tier forward."]
+			id: "EE01000000000007"
+			rewards: [
+				{
+					count: 5
+					id: "EA01000000000008"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "EA01000000000009"
+					item: "gtceu:tungstensteel_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "EC01000000000008"
+				item: "gtceu:tungstensteel_ingot"
+				type: "item"
+			}]
+			title: "Tungstensteel"
+			x: 12.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000007"]
+			description: ["The EV Energy Converter bridges GT's EV voltage bus with the RF/FE power network at the scale EV machines demand. EV machines draw power at a rate that overloads LV and MV converter infrastructure — build a dedicated EV converter bank near your machine floor and run EV-rated cables directly from your generator substation. All downstream machines, from the large-format GT multiblocks to the AE2 network you are about to assemble, draw from this bus. Size it generously; power deficit at EV is the most common factory stall."]
+			id: "EE01000000000008"
+			rewards: [{
+				count: 8
+				id: "EA01000000000010"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "EC01000000000009"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:ev_1a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_4a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_8a_energy_converter"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ev_16a_energy_converter"
+							}
+						]
+					}
+				}
+				title: "EV Energy Converter"
+				type: "item"
+			}]
+			title: "EV Power Infrastructure"
+			x: 15.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["EE01000000000008"]
+			description: ["Certus Quartz grows in crystalline clusters underground, most commonly in drier biomes and exposed stone. It is the base material of Applied Energistics 2 — every component from cable to controller derives from it. To charge raw Certus Quartz into its active form, build a Quartz Charger and run it on RF or FE power. Charged Certus Quartz grows slowly in water when placed adjacent to Crystal Growth Accelerators; automate this production line early, as demand for it is immediate and sustained throughout the AE2 build-out."]
+			id: "AE01000000000001"
+			rewards: [{
+				count: 3
+				id: "AB01000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "AC01000000000001"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "AC01000000000002"
+					item: "ae2:quartz_charger"
+					type: "item"
+				}
+			]
+			title: "Certus Quartz"
+			x: 20.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000001"]
+			description: ["Fluix Crystal is produced by simultaneously throwing Charged Certus Quartz, Redstone, and Nether Quartz into a body of water. All three must be thrown within a short window — the reaction is triggered by the combination, not by any one ingredient alone. Fluix is the core AE2 material: every cable type, formation core, annihilation core, and network component requires it. Grow Fluix in bulk using Crystal Growth Accelerators placed around a water source; the passive growth rate is too slow to meet the demand of a full network build."]
+			id: "AE01000000000002"
+			rewards: [{
+				count: 4
+				id: "AB01000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "AC01000000000003"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "Fluix Crystal"
+			x: 23.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000002"]
+			description: ["The Inscriber is a powered machine that prints processor circuits onto silicon wafers and assembles them into finished processors. It accepts a press in the top slot, a blank silicon wafer in the middle, and the metal foil in the bottom. Three presses exist: Logic, Calculation, and Engineering — each found rarely in Mysterious Cube loot or craftable through GTCEu's silicon processing chain. Set up at least three Inscribers running in parallel before attempting processor production at volume; each machine handles only one print at a time, and processors are consumed in stacks during network construction."]
+			id: "AE01000000000003"
+			rewards: [{
+				count: 4
+				id: "AB01000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AC01000000000004"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+				{
+					id: "AC01000000000005"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "AC01000000000006"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "AC01000000000007"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+			]
+			title: "The Inscriber"
+			x: 26.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000003"]
+			description: ["Assembled processors are the logic cores of the ME network. Logic Processors (gold foil + printed circuit) handle routing. Calculation Processors (Certus foil + printed circuit) handle storage indexing and autocrafting job resolution. Engineering Processors (diamond foil + printed circuit) handle high-throughput operations and are consumed in the most demanding network components. Produce at least 16 of each before beginning ME Controller assembly — the controller alone consumes several, and each Drive, Terminal, and Autocrafting CPU component adds to the count."]
+			id: "AE01000000000004"
+			rewards: [{
+				count: 5
+				id: "AB01000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "AC01000000000008"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "AC01000000000009"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "AC010000000000A"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Processors"
+			x: 29.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000004"]
+			description: ["The ME Controller is the brain of the Applied Energistics 2 network — every cable, drive, bus, and terminal operates by being topologically connected to one. It requires Terrasteel Plates from Botania's endgame and Titanium Plates from GTCEu in addition to processors and Fluix Steel; this is the hard convergence point that gates AE2 behind two separate progression threads. If you haven't completed Terrasteel production, do that now. Once the Controller is placed and powered, the entire network comes online simultaneously — drives, terminals, and buses all activate the moment they trace a path back to it."]
+			id: "AE01000000000005"
+			rewards: [{
+				count: 8
+				id: "AB01000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "AC010000000000B"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "ME Controller"
+			x: 32.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000005"]
+			description: ["The ME Drive holds up to ten storage cells. Each cell stores thousands of items by type — a 1k Cell holds 1,024 item types in any quantity; a 64k Cell holds up to 65,536. Cells are inserted into the Drive, which connects to the network via AE2 cable and routes all stored items through the Controller to every connected Terminal. The ME Terminal provides a unified search interface over every item in the entire network — once active, it replaces every chest in your base. Build four or more Drives before moving storage in; running out of cell slots mid-migration interrupts network access."]
+			id: "AE01000000000006"
+			rewards: [{
+				count: 5
+				id: "AB01000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AC010000000000C"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "AC010000000000D"
+					item: "ae2:item_storage_cell_1k"
+					type: "item"
+				}
+				{
+					id: "AC010000000000E"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
+			title: "The ME Network"
+			x: 35.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000006"]
+			description: ["Autocrafting delegates on-demand crafting to the network itself. Encode a recipe into a Blank Pattern at the Pattern Encoding Terminal, insert it into a Pattern Provider connected to the target machine or crafting table, then request the output from any ME Terminal. The network pulls ingredients from storage, routes them to the machine, and deposits the output automatically. Construct a Crafting CPU multiblock — at minimum one Crafting Unit and one Crafting Storage block — to handle job execution. Larger CPUs with more Crafting Storage handle longer, more recursive chains without stalling. Once autocrafting is online, you will never open a crafting table for a bulk recipe again."]
+			id: "AE01000000000007"
+			rewards: [{
+				count: 8
+				id: "AB01000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "AC010000000000F"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "AC01000000000010"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "AC01000000000011"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+			]
+			title: "Autocrafting Online"
+			x: 38.0d
+			y: 0.0d
+		}
+
+		{
+			dependencies: ["AE01000000000007"]
+			description: ["GTCEu's ME Hatches and Buses integrate the ME network directly into GT multiblock machines. The ME Input Bus reads encoded patterns from the network and supplies ingredient items directly to the machine's input face without manual inventory management. The ME Output Bus deposits finished products back into the ME network. The ME Input Hatch and ME Output Hatch do the same for fluids. With these installed on your Macerator array, EBF, and Assembler, the autocrafting system can drive GT production lines end-to-end without intermediate chests. This is the point where your factory becomes fully autonomous."]
+			id: "AE01000000000008"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "AB01000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AC01000000000012"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "AC01000000000013"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "AC01000000000014"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "AC01000000000015"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			title: "GTCEu ME Integration"
+			x: 41.0d
+			y: -2.0d
+		}
+
+		{
+			dependencies: ["AE01000000000007"]
+			description: ["The ME Energy Cell stores AE2 network power, buffering the network against brief power interruptions and reducing draw from your main generator during low-demand periods. Place several near the Controller to prevent network dropout under heavy autocrafting load. The Dense Energy Cell holds 8x more energy per block than the standard cell — build these once your autocrafting queues grow deep and demand spikes become frequent. An empty Energy Cell is the most common cause of unexpected network shutdowns in complex factories."]
+			id: "AE01000000000009"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "AB01000000000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "AC01000000000016"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "ME Energy Cell"
+			x: 41.0d
+			y: 2.0d
+		}
+
+		{
+			dependencies: ["41E155533627CFD4"]
+			description: ["The Blood Altar's tier determines the complexity and cost of the recipes it can execute. Tier 1 handles basic orb infusion and low-LP sigils. Tier 3 is the first major escalation — it requires 24 Blood Runes of specific types arranged around the base structure and unlocks the Magician's Blood Orb, the Sigil of the Phantom Bridge, and ritual stones. The transition from a survival tool into a true magical system begins here. Expand the rune ring methodically: each rune type placed affects a specific throughput or efficiency modifier, and running the wrong configuration for the recipe wastes Life Essence at scale."]
+			id: "BC01000000000001"
+			rewards: [{
+				count: 4
+				id: "DB01000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DC01000000000001"
+				title: "Tier 3 Blood Altar"
+				type: "checkmark"
+			}]
+			title: "The Tier 3 Altar"
+			x: 0.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000001"]
+			description: ["The Magician's Blood Orb stores 40,000 LP — twenty times the capacity of the Apprentice Orb — and unlocks the upper sigil tier and the ritual system. It is crafted at the Tier 3 Altar by infusing a regular orb with Life Essence at high cost; the altar must have sufficient rune configuration to process the LP demand without stalling mid-craft. The Magician's Orb is the inflection point of Blood Magic: below this threshold you are casting cantrips, above it you are running a soul-powered industrial support system."]
+			id: "BC01000000000002"
+			rewards: [{
+				count: 4
+				id: "DB01000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DC01000000000002"
+				item: "bloodmagic:magicians_blood_orb"
+				type: "item"
+			}]
+			title: "Magician's Blood Orb"
+			x: 3.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000002"]
+			description: ["The Tier 5 Blood Altar requires 48 runes — including Dusk Runes that can only be crafted with significant LP expenditure — and reaches the highest operating state the altar can achieve. Tier 4 is an intermediate step: expand to 36 runes and craft the Master's Blood Orb before attempting the final expansion. At Tier 5 the altar can process the Archmage's Blood Orb, summon Demons for the Hellfire Forge, and produce the Living Armor components. The Tier 5 expansion is a significant resource investment; complete your Tier 4 rune ring first and let it accumulate LP before beginning the Dusk Rune phase."]
+			id: "BC01000000000003"
+			rewards: [{
+				count: 5
+				id: "DB01000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "DC01000000000003"
+				title: "Tier 5 Blood Altar"
+				type: "checkmark"
+			}]
+			title: "The Tier 5 Altar"
+			x: 6.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000003"]
+			description: ["The Archmage's Blood Orb stores one million LP — the maximum capacity in the system — and is required to execute the most demanding rituals and all Living Armor infusion recipes. Crafting it demands the Tier 5 Altar running at full efficiency; a poorly configured rune ring will stall the process partway. The Archmage's Orb represents the culmination of the altar upgrade chain: with it, your Soul Network functions as an inexhaustible reservoir. Cultivation disciplines lend themselves to this kind of patience. Fill it before attempting Living Armor infusion — the armor set draws deeply on every craft."]
+			id: "BC01000000000004"
+			rewards: [{
+				count: 8
+				id: "DB01000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "DC01000000000004"
+				item: "bloodmagic:archmage_blood_orb"
+				type: "item"
+			}]
+			title: "Archmage's Blood Orb"
+			x: 9.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000004"]
+			description: ["Living Armor is crafted piece by piece at the Tier 5 Blood Altar, each component consuming several thousand LP from the Archmage's Blood Orb. The set is unique: it draws a passive trickle of Life Essence from the Soul Network rather than using durability, and it can be upgraded with Living Upgrade nodes that grant persistent bonuses — knockback resistance, fall damage reduction, swimming speed, or regeneration — depending on which upgrades are installed. A fully upgraded Living Chestplate provides more effective protection than any standard armor at this tier. The armor does not break; it grows with continued use."]
+			id: "BC01000000000005"
+			rewards: [{
+				count: 8
+				id: "DB01000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "DC01000000000005"
+					item: "bloodmagic:living_helmet"
+					type: "item"
+				}
+				{
+					id: "DC01000000000006"
+					item: "bloodmagic:living_chestplate"
+					type: "item"
+				}
+				{
+					id: "DC01000000000007"
+					item: "bloodmagic:living_leggings"
+					type: "item"
+				}
+				{
+					id: "DC01000000000008"
+					item: "bloodmagic:living_boots"
+					type: "item"
+				}
+			]
+			title: "Living Armor"
+			x: 12.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000004"]
+			description: ["Rituals are large-scale Blood Magic effects that require a permanent structure of Ritual Stones and a significant LP expenditure to activate. Build the Ritual Diviner to auto-place the correct stone arrangement for any ritual you choose — the in-game Blood Magic guide specifies which ritual requires which layout. The Ritual of the Green Grove keeps crops watered in a large radius. The Ritual of Binding enables demon capture. The Omega Rituals at the top of the ritual tree produce world-altering effects and consume LP at a rate that demands the full Archmage's Orb reserve. Build one ritual structure now and familiarize yourself with activation; the system becomes essential in the chapters ahead."]
+			id: "BC01000000000006"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "DB01000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "DC01000000000009"
+					item: "bloodmagic:ritual_diviner"
+					type: "item"
+				}
+				{
+					id: "DC0100000000000A"
+					item: "bloodmagic:ritual_stone"
+					type: "item"
+				}
+			]
+			title: "Ritual Mastery"
+			x: 15.0d
+			y: 6.0d
+		}
+
+		{
+			dependencies: ["BC01000000000004"]
+			description: ["The Hellfire Forge operates on Demon Will — a spiritual residue collected from killed demons using a Tartaric Gem. Demons spawn naturally in the Nether and in overworld locations where Demon Will concentration is high. Fill a Petty Tartaric Gem by killing demons until it reaches capacity, then pour its contents into a higher-tier gem. Feed Demon Will into the Hellfire Forge alongside materials to produce Will-infused crafting components and the Sentient Armor set. The Hellfire Forge represents the point where Blood Magic ceases to be about your own life and begins drawing on the will of other beings entirely — a shift that the soul land tradition would recognize as dangerous, and powerful for exactly that reason."]
+			id: "BC01000000000007"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "DB01000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "DC0100000000000B"
+					item: "bloodmagic:tartaric_gem"
+					type: "item"
+				}
+				{
+					id: "DC0100000000000C"
+					item: "bloodmagic:hellfire_forge"
+					type: "item"
+				}
+			]
+			title: "The Hellfire Forge"
+			x: 12.0d
+			y: 8.0d
+		}
+
+	]
+	title: "Voltage and Vitality"
+}
