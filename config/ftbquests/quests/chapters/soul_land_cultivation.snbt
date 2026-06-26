@@ -701,6 +701,481 @@
 			x: 1.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["503C916FBA9B26FD"]
+			description: ["The Yellow Ring is absorbed from a 100-year spirit beast — far older than the creatures found at the Star Dou Forest Edge. You must venture into the Outer Forest, where soul power density rises and the predators grow proportionally more dangerous. Each ring permanently adds an active skill to your martial soul; choose the beast that complements your fighting style. The Spirit Detector reveals the age of nearby beasts — use it to find a 100-year target before committing to the hunt."]
+			id: "A1B2334455667788"
+			rewards: [{
+				count: 2
+				id: "A1B2334455667789"
+				item: "soulland:spirit_condensing_pill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "A1B2334455667780"
+				item: "soulland:yellow_soul_ring"
+				type: "item"
+			}]
+			title: "Yellow Ring"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1B2334455667788"]
+			description: ["Spirit Elder marks your recognition as a second-tier cultivator — ranks 11 through 20. Your Yellow Ring slot is now active, and your soul power has stabilized enough to begin absorbing century-aged beast skills. Maintain steady breakthrough cycles and manage your Foundation Stability carefully. Overuse of herbs generates instability; meditation and pills are the remedy. The gap between an undisciplined scholar and a disciplined elder widens fast at this stage."]
+			id: "B2C3445566778899"
+			rewards: [{
+				id: "B2C3445566778890"
+				item: "soulland:breakthrough_pill"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "soulland:cultivation/spirit_elder"
+				criterion: ""
+				id: "B2C3445566778891"
+				type: "advancement"
+			}]
+			title: "Spirit Elder"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B2C3445566778899"]
+			description: ["Press [B] to attempt a Breakthrough when your soul power reaches the next rank threshold. Press [Shift+B] to consume a Foundation Pill and boost success rate. Foundation Stability is a hidden stat: herb overuse, death, and failed breakthroughs each add instability points, which lower success probability and slow meditation speed. Stability recovers through meditation and resets faster with pills. Stock Breakthrough Pills before every major threshold — they drop from dungeon chests and high-tier beast kills."]
+			id: "C3D4556677889901"
+			rewards: [{
+				count: 3
+				id: "C3D4556677889902"
+				item: "soulland:breakthrough_pill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "C3D4556677889903"
+				title: "Breakthrough Mechanics"
+				type: "checkmark"
+			}]
+			title: "The Breakthrough Cycle"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["B2C3445566778899"]
+			description: ["The Purple Ring comes from a 1000-year spirit beast — creatures that have survived long enough to develop genuine domain auras and active combat skills. Defeating one at Spirit Elder tier is a serious fight; approach it fully prepared. The power gap between a Yellow and Purple Ring is substantial — a single Purple Ring can define an entire build direction. Use the Spirit Detector to identify a 1000-year target in the Inner Forest without accidentally aggroing older, more lethal beasts in the vicinity."]
+			id: "D4E5667788990A12"
+			rewards: [{
+				id: "D4E5667788990A13"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "D4E5667788990A14"
+				item: "soulland:purple_soul_ring"
+				type: "item"
+			}]
+			title: "Purple Ring"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D4E5667788990A12"]
+			description: ["Spirit King — ranks 21 through 30 — is the tier where your martial soul's power begins to consolidate into something the continent recognizes as formidable. Three ring slots are active, your soul power output enables sustained combat, and your foundation in both Botania mana and Blood Magic LP is now established. At rank 30, the Martial Soul Transformation first manifests — press [V] to activate T1, overlaying your body with the physical traits of your martial soul."]
+			id: "E5F677889901B223"
+			rewards: [
+				{
+					count: 2
+					id: "E5F677889901B224"
+					item: "soulland:breakthrough_pill"
+					type: "item"
+				}
+				{
+					id: "E5F677889901B225"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/epic"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "soulland:cultivation/spirit_king"
+				criterion: ""
+				id: "E5F677889901B226"
+				type: "advancement"
+			}]
+			title: "Spirit King"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E5F677889901B223"]
+			description: ["At rank 30, your Martial Soul Transformation first manifests. Press [V] to activate T1 — the physical traits of your martial soul overlay your form: limb augmentations, elemental traces, and a temporary amplification of attack power and sensory range. Two further tiers follow: T2 at rank 60 integrates chest, head, and glowing runic overlays. T3 at rank 90 triggers full Spirit Avatar mode — a complete hybrid body transformation representing the peak expression of your martial soul's original form. Each tier is a permanent threshold, not a cooldown."]
+			id: "F6A788990A1C3344"
+			rewards: [{
+				id: "F6A788990A1C3345"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/legendary"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "F6A788990A1C3346"
+				title: "First Transformation"
+				type: "checkmark"
+			}]
+			title: "First Transformation"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["E5F677889901B223"]
+			description: ["Spirit Ancestor — ranks 31 through 40 — marks your transition to genuine continental power. Four ring slots are active, your transformation capabilities have deepened, and your soul power output is sufficient to begin pursuing the Soul Forged equipment tier. Soul Forged Ingots — Spirit Iron fused with GTCEu-grade Stainless Steel and Qi Crystals — require industrial-scale Electric Blast Furnace production. The Greg chapter's factory infrastructure becomes necessary here; cultivation alone cannot sustain your equipment requirements."]
+			id: "07B89901B2D44556"
+			rewards: [
+				{
+					count: 3
+					id: "07B89901B2D44557"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "07B89901B2D44558"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/armor/epic"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "soulland:cultivation/spirit_ancestor"
+				criterion: ""
+				id: "07B89901B2D44559"
+				type: "advancement"
+			}]
+			title: "Spirit Ancestor"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DF58A9163227678"]
+			description: ["The Alfheim Portal trades materials from our dimension for rare Elven resources. Throw Livingwood Logs into the active portal to receive Dreamwood in return — the structural timber of Elven Botania builds. To obtain Elementium Ingots, throw Manasteel Ingots through the portal. Each trade has a specific ratio documented in the Lexica Botania. Maintain continuous mana flow to the portal during all trades; if the portal closes mid-trade, the materials are lost. Establish Open Crate automation above the portal for reliable bulk trading."]
+			id: "18C9A012C3E55667"
+			rewards: [{
+				count: 8
+				id: "18C9A012C3E55668"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "18C9A012C3E55669"
+				item: { Count: 4, id: "botania:dreamwood_log" }
+				type: "item"
+			}]
+			title: "Elven Trade"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18C9A012C3E55667"]
+			description: ["Elementium Ingots are obtained by trading Manasteel Ingots through the active Alfheim Portal. They are lighter than Manasteel but resonate more strongly with life energy and fairy affinity — the core material for Botania's endgame armor and the Gaia Spreader. Begin stockpiling immediately: the Gaia Guardian ritual and a full armor set together require a significant quantity, and portal trading is not instantaneous."]
+			id: "29DAB123D4F66778"
+			rewards: [{
+				count: 4
+				id: "29DAB123D4F66779"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "29DAB123D4F66770"
+				item: { Count: 4, id: "botania:elementium_ingot" }
+				type: "item"
+			}]
+			title: "Elementium Ingot"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29DAB123D4F66778"]
+			description: ["The Gaia Spreader is crafted from Elementium and an Eye of Ender. It transmits mana at twice the speed of a standard Mana Spreader and supports augment Lenses unavailable to its predecessors. Replace your primary mana distribution spreaders once Elementium production is established — the throughput increase sustains larger Botania setups with fewer units and dramatically reduces fill time for the large Mana Pools required by endgame crafting."]
+			id: "3AEBC234E5A77889"
+			rewards: [{
+				id: "3AEBC234E5A77880"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AEBC234E5A77881"
+				item: "botania:gaia_mana_spreader"
+				type: "item"
+			}]
+			title: "Gaia Spreader"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29DAB123D4F66778"]
+			description: ["Elementium Armor provides defenses comparable to Terrasteel with a unique Pixie affinity — each piece occasionally summons a Pixie companion when you take damage. Pixies attack your aggressors and draw aggro. A full set significantly increases proc frequency. Apply Epic or Legendary armor stat souls before entering the Gaia Guardian ritual: the fight's escalating damage waves demand sustained mitigation, and the Pixie procs alone will not carry an under-prepared kit."]
+			id: "4BFCD345F6B88901"
+			rewards: [{
+				count: 4
+				id: "4BFCD345F6B88906"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BFCD345F6B88902"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BFCD345F6B88903"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BFCD345F6B88904"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BFCD345F6B88905"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elementium Armor"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BFCD345F6B88901"]
+			description: ["The Gaia Guardian is Botania's hardest boss — summoned by constructing a ritual platform of Mana Pylons arranged in a ring, then throwing a Runic Catalyst at the center while the pylons are charged with mana. The Runic Catalyst is crafted at the Runic Altar from all four elemental runes combined with Mana Pearl and Mana Diamond. During the fight, the Guardian summons Pixie waves, scales its defense by draining nearby Mana Pools, and targets the arena's pylons. Carry a charged Mana Tablet for emergency mana sustain. Defeat it to claim Gaia Ingots — Botania's endgame currency."]
+			id: "5C0DE456A7C99012"
+			icon: "botania:gaia_ingot"
+			rewards: [
+				{
+					count: 3
+					id: "5C0DE456A7C99014"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "5C0DE456A7C99015"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/legendary"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0DE456A7C99013"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "Gaia Guardian"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"09A01ED1974A1836"
+				"38C29C6628EE73D9"
+			]
+			description: ["The Reinforced Slate is created by infusing a Blank Slate with 5,000 LP at the Blood Altar — your first Tier 2 crafting operation. With Reinforced Slates in hand, the altar can be upgraded to Tier 2, granting access to the Apprentice Blood Orb and mid-tier recipes. Build at least four before proceeding; the upgrade path ahead demands them in multiples. The Blood Coagulation Herb significantly offsets the health cost of large LP expenditures — keep a supply on hand during heavy sacrifice sessions."]
+			id: "6D1EF567B8DAA123"
+			rewards: [{
+				count: 3
+				id: "6D1EF567B8DAA124"
+				item: "soulland:blood_coagulation_herb"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6D1EF567B8DAA125"
+				item: { Count: 4, id: "bloodmagic:reinforcedslate" }
+				type: "item"
+			}]
+			title: "Reinforced Slate"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D1EF567B8DAA123"]
+			description: ["The Apprentice Blood Orb stores 10,000 LP — five times the capacity of the Weak Blood Orb. Its construction requires a Reinforced Slate and 10,000 LP consumed at the T2 altar. Equipping it in your off-hand makes stored LP available for sigil casting in the field, removing your dependency on returning to the altar for every expenditure. With the Apprentice Orb active, Tier 2 sigils become craftable — each providing a different passive or active LP utility unavailable through any other system in the pack."]
+			id: "7E2FA678C9EBB234"
+			rewards: [{
+				count: 3
+				id: "7E2FA678C9EBB235"
+				item: "soulland:blood_coagulation_herb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E2FA678C9EBB236"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			title: "Apprentice Blood Orb"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E2FA678C9EBB234"]
+			description: ["The Master Ritual Stone is the anchor for Blood Magic's ritual system — permanent multiblock structures that perform passive LP operations at scale. Each ritual consists of a Master Ritual Stone surrounded by rings of Ritual Stones in a unique elemental pattern. The Well of Suffering, your most important early ritual, places hostile mobs near the altar and sacrifices them continuously to feed your LP reserves — eliminating the need for repeated self-sacrifice at scale."]
+			id: "8F30B789DAFCC345"
+			rewards: [{
+				count: 2
+				id: "8F30B789DAFCC346"
+				item: "soulland:blood_coagulation_herb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "8F30B789DAFCC347"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			title: "Master Ritual Stone"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["8F30B789DAFCC345"]
+			description: ["The Well of Suffering ritual requires a Master Ritual Stone at center with rings of Ritual Stones in the correct pattern. Once active, it damages all living entities within its radius and converts their health loss directly into LP in the altar. Place a mob spawner above the ritual inside a contained room — a constant sacrificial supply means your altar is always filled and never bottlenecked by your own health pool. This ritual is the backbone of automated LP generation for the rest of your Blood Magic progression."]
+			id: "90410C8AEBADD456"
+			rewards: [{
+				count: 4
+				id: "90410C8AEBADD458"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "90410C8AEBADD457"
+				title: "Well of Suffering"
+				type: "checkmark"
+			}]
+			title: "Well of Suffering"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["90410C8AEBADD456"]
+			description: ["The Magician's Blood Orb stores 40,000 LP — the Tier 3 orb and the gateway to Blood Magic's most powerful rituals and sigil crafting. Constructing it requires Imbued Slates in addition to the standard LP sacrifice at a T3 Blood Altar. With the Magician Orb equipped, advanced sigils become available — including passive flight assistance, environmental immunity, and life-drain combat effects that pair directly with Soul Land's cultivation mechanics."]
+			id: "A1521D9BFCBEE567"
+			rewards: [{
+				count: 2
+				id: "A1521D9BFCBEE568"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "A1521D9BFCBEE569"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			title: "Magician's Blood Orb"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"07B89901B2D44556"
+				"5C0DE456A7C99012"
+				"A1521D9BFCBEE567"
+			]
+			description: ["You have achieved Spirit Ancestor in cultivation, claimed victory over Botania's guardian of the living world, and built the infrastructure of blood ritual sacrifice. Three power systems — soul cultivation, mana, and life force — now run concurrently. Each amplifies the others in ways no single system can match alone. Spirit Steel alone is no longer sufficient for your equipment demands. Soul Forged alloy — requiring GTCEu-grade Stainless Steel smelted only in an Electric Blast Furnace — is the next material gate. Build your factory."]
+			icon: "soulland:soul_crystal"
+			id: "B2632EACADCFF678"
+			rewards: [
+				{
+					count: 5
+					id: "B2632EACADCFF679"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "B2632EACADCFF670"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/legendary"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "B2632EACADCFF671"
+					item: "soulland:soul_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "B2632EACADCFF672"
+				title: "The Way of the Soul"
+				type: "checkmark"
+			}]
+			title: "The Way of the Soul"
+			x: 14.5d
+			y: 2.0d
+		}
 	]
 	title: "Soul Land Cultivation"
 }
