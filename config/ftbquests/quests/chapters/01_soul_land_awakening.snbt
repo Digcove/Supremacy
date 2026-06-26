@@ -1,0 +1,203 @@
+{
+	id: "0000000000002001"
+	group: "0000000000001001"
+	order_index: 0
+	filename: "01_soul_land_awakening"
+	title: "Soul Land Awakening"
+	icon: {id: "soulland:cultivation_altar", Count: 1b}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	groups: []
+	quests: [{
+		id: "0000000000003001"
+		x: 0.0d
+		y: 0.0d
+		can_repeat: true
+		title: "A Soul Awakens"
+		icon: {id: "minecraft:dirt", Count: 1b}
+		description: ["You have arrived. The continent of Douluo spreads before you — strange, dangerous, and alive with a power you don't yet understand.", "This questbook is your guide through Soul Land. It will walk you through cultivation, spirit rings, martial souls, the Tinkers' workshop, and the Mine & Slash combat system that ties everything together. Read each description before completing the task. The answers to most early questions are written here.", "Pick up a handful of dirt. Then begin."]
+		tasks: [{
+			id: "0000000000003002"
+			type: "item"
+			item: {id: "minecraft:dirt", Count: 1b}
+			consume: true
+		}]
+		rewards: [{
+			id: "0000000000003003"
+			type: "item"
+			item: {id: "mmorpg:master_bag", Count: 1b}
+		}]
+	}, {
+		id: "0000000000003004"
+		x: 2.0d
+		y: 0.0d
+		dependencies: ["0000000000003001"]
+		title: "Into the Wood"
+		icon: {id: "minecraft:oak_log", Count: 1b}
+		description: ["Wood comes before tools. Sixteen logs gets you a crafting table, the planks for a shelter, and enough material to start the Tinkers' early recipes. Any tree works — oak, birch, spruce, whatever's nearest.", "The Tinkers' Construct system replaces standard tools in this pack. A wooden axe will never be more than a stepping stone. Get the logs and move on."]
+		tasks: [{
+			id: "0000000000003005"
+			type: "item"
+			item: {
+				Count: 1
+				id: "itemfilters:tag"
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000003006"
+			type: "item"
+			item: {id: "tconstruct:blank_pattern", Count: 4b}
+		}]
+	}, {
+		id: "0000000000003007"
+		x: 4.0d
+		y: 0.0d
+		dependencies: ["0000000000003004"]
+		title: "The Tinker's Workshop"
+		icon: {id: "tconstruct:tool_station", Count: 1b}
+		description: ["Tinkers' Construct builds tools in parts rather than patterns. The Tool Station assembles parts into finished tools. The Part Builder carves raw materials into parts. The Stencil Table stamps blank patterns into shapes. The Pattern Chest stores them all.", "Build all four and place them together — you'll use them as a set. This cluster is the workshop that replaces the vanilla crafting table for anything tool-related from here forward.", "The reward parts have different properties. Copper is easy to work and easy to repair. Cactus carries the Jagged trait — damage scales with your missing health. Paper has more modifier slots than any other material but low durability. Pick what fits your first tool design."]
+		tasks: [{
+			id: "0000000000003008"
+			type: "item"
+			item: {id: "tconstruct:tool_station", Count: 1b}
+		}, {
+			id: "0000000000003009"
+			type: "item"
+			item: {id: "tconstruct:part_builder", Count: 1b}
+		}, {
+			id: "000000000000300A"
+			type: "item"
+			item: {id: "tconstruct:stencil_table", Count: 1b}
+		}, {
+			id: "000000000000300B"
+			type: "item"
+			item: {id: "tconstruct:pattern_chest", Count: 1b}
+		}]
+		rewards: [{
+			id: "000000000000300C"
+			type: "item"
+			item: {id: "tconstruct:axe_head", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:copper"]}}
+		}, {
+			id: "000000000000300D"
+			type: "item"
+			item: {id: "tconstruct:tool_rod", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:cactus"]}}
+		}, {
+			id: "000000000000300E"
+			type: "item"
+			item: {id: "tconstruct:binding", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:paper"]}}
+		}]
+	}, {
+		id: "000000000000300F"
+		x: 6.0d
+		y: 0.0d
+		dependencies: ["0000000000003007"]
+		title: "First Cast"
+		icon: {id: "tconstruct:pickaxe", Count: 1b}
+		description: ["Take a pickaxe head, a tool rod, and a binding to the Tool Station. Slot them in the correct positions and pull out the result. That is a Tinkers' pickaxe.", "It won't outperform iron immediately. It will within a few upgrades. Tinkers' tools gain experience from use, accumulate modifier slots, and can be repaired with the same material they were built from. The ceiling is far above anything vanilla offers.", "The reward parts are components for your next build. Obsidian tool rods carry Reinforced — reduced durability loss per swing. Cactus bindings add Jagged. The copper shovel head is the start of a complete digging set."]
+		tasks: [{
+			id: "0000000000003010"
+			type: "item"
+			item: {id: "tconstruct:pickaxe", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003011"
+			type: "item"
+			item: {id: "tconstruct:tool_rod", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:obsidian"]}}
+		}, {
+			id: "0000000000003012"
+			type: "item"
+			item: {id: "tconstruct:binding", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:cactus"]}}
+		}, {
+			id: "0000000000003013"
+			type: "item"
+			item: {id: "tconstruct:shovel_head", Count: 1b, tag: {"tconstruct:materials": ["tconstruct:copper"]}}
+		}]
+	}, {
+		id: "0000000000003014"
+		x: 8.0d
+		y: 0.0d
+		dependencies: ["000000000000300F"]
+		title: "The First Vein"
+		icon: {id: "minecraft:iron_ingot", Count: 1b}
+		description: ["Go underground. Iron and copper both sit in the upper ore layers — copper near the surface, iron slightly deeper. They share the same mine trip.", "Thirty-two iron ingots covers the material cost for the Tinkers' Smeltery build. Sixteen copper opens your full set of copper parts at the Part Builder. Bring torches and don't surface until you have both.", "The continent above is patient. It will wait."]
+		tasks: [{
+			id: "0000000000003015"
+			type: "item"
+			item: {id: "minecraft:iron_ingot", Count: 1b}
+			count: 32L
+		}, {
+			id: "0000000000003016"
+			type: "item"
+			item: {id: "minecraft:copper_ingot", Count: 1b}
+			count: 16L
+		}]
+		rewards: [{
+			id: "0000000000003017"
+			type: "item"
+			item: {id: "minecraft:torch", Count: 32b}
+		}, {
+			id: "0000000000003018"
+			type: "item"
+			item: {id: "minecraft:bread", Count: 16b}
+		}, {
+			id: "0000000000003019"
+			type: "xp"
+			xp: 200
+		}]
+	}]
+	, {
+		id: "0000000000003020"
+		x: 10.0d
+		y: 0.0d
+		dependencies: ["0000000000003014"]
+		title: "The Melter"
+		icon: {id: "tconstruct:melter", Count: 1b}
+		description: ["The Melter is your first Tinkers' casting station — a single block that liquefies metals when placed above a heat source. It is smaller than the Smeltery and faster to set up.", "To build one you need Seared Bricks, which come from Grout. Grout is crafted in equal parts sand, gravel, and clay — any ratio works as long as the proportions match. Smelt the Grout in a furnace to get Seared Bricks. Stack enough bricks to build the Melter block itself.", "Place the Melter one block above a flame or Seared Heater. Set a Casting Table directly beneath the drain on its side. Pour molten metal from the Melter into a Cast on the table to produce tool parts. This is the full casting workflow — learn it here before building the Smeltery."]
+		tasks: [{
+			id: "0000000000003021"
+			type: "item"
+			item: {id: "tconstruct:melter", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003022"
+			type: "item"
+			item: {id: "tconstruct:grout", Count: 16b}
+		}, {
+			id: "0000000000003023"
+			type: "item"
+			item: {id: "tconstruct:casting_table", Count: 1b}
+		}]
+	}]
+	, {
+		id: "0000000000003024"
+		x: 12.0d
+		y: 0.0d
+		dependencies: ["0000000000003020"]
+		title: "The Smeltery"
+		icon: {id: "tconstruct:smeltery_controller", Count: 1b}
+		description: ["The Smeltery is the Melter's bigger sibling — a hollow multiblock that holds multiple metals at once, alloys them together, and processes ore at double output. Where the Melter handles one metal at a time, the Smeltery handles everything simultaneously.", "Build it as a hollow box of Seared Bricks: at minimum a 3×2×3 interior with the Smeltery Controller on one wall, a Seared Tank for fuel on another, and a Seared Drain to pour from. The structure must be fully enclosed — no gaps. Right-click the Controller when built and it will confirm formation.", "The ore doubling is the reason to build this. Raw ore into the Smeltery produces two ingots per ore. Run everything through it. The Casting Basin below the drain lets you pour large quantities at once into ingot molds or full block casts."]
+		tasks: [{
+			id: "0000000000003025"
+			type: "item"
+			item: {id: "tconstruct:smeltery_controller", Count: 1b}
+		}]
+		rewards: [{
+			id: "0000000000003026"
+			type: "item"
+			item: {id: "tconstruct:seared_brick", Count: 32b}
+		}, {
+			id: "0000000000003027"
+			type: "item"
+			item: {id: "tconstruct:seared_tank", Count: 1b}
+		}, {
+			id: "0000000000003028"
+			type: "item"
+			item: {id: "tconstruct:seared_drain", Count: 1b}
+		}]
+	}]
+	quest_links: []
+}
