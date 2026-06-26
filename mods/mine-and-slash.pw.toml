@@ -1,13 +1,13 @@
 name = "Mine and Slash"
-filename = "Mine_and_Slash-1.20.1-6.3.7.jar"
+filename = "Mine_and_Slash-1.20.1-6.3.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oifKCkhG/versions/j3vF0dAA/Mine_and_Slash-1.20.1-6.3.7.jar"
-hash-format = "sha512"
-hash = "494ec0fad9e899b9f6d6db1627ab5ad8378975a741c29daf94db0f1cfe299fff25a3c454d1289dabc3e41dfc7ac5baa41e68c09f2b2d0a3b9201b973bd97bd7b"
+hash-format = "sha1"
+hash = "8007e4c6e963e2c4e3510f9c82ce1a199930c109"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "oifKCkhG"
-version = "j3vF0dAA"
+[update.curseforge]
+file-id = 7190361
+project-id = 306575

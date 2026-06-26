@@ -34,7 +34,7 @@ hash = "2acf7ca267ffcadf8ec9fa4d9f5365d3eef02a68c3e7a843d2fe55db84b9c1c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/02_stone_and_steel.snbt"
-hash = "16651afc4fddea825a9559e0d8a033b5d4e858321ab3d7f6fe7a65b64a6e599c"
+hash = "f301972d8888e5084b4b36486723158f3dbf8ee4ca4db8a181f8d0a30bccfad6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03_first_light.snbt"
@@ -85,111 +85,111 @@ file = "config/ftbquests/quests/chapters/14_insane_voltage.snbt"
 hash = "7ec4938ef0711204172cab1201e0d64756a3e632aa3ade16006e48e4c5300438"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/15_ultra_voltage.snbt"
-hash = "e9406cdf159a62c2f096dbaa382e0f034a29861890856fad7aaa4977f3f8b36c"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/16_orb_forge.snbt"
-hash = "1a10f3bd9ec5ca5738909ef8590c1ab6e20f4758c08731ffb95b2a41cc9c0dac"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/logbook_completionist.snbt"
 hash = "c35b35e5df91648c96d02d2f38bd779d50c1fb4a6c83f0dd4cbd8f1e0cd32927"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/logbook_exploration.snbt"
-hash = "78eedcdd0bdf13bdd82b6e25c9aed561b30ae2d3872bbb25e7cd05a11b6a7db4"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/logbook_fishing.snbt"
-hash = "5bd0a6ab6e5cc782dbcf13e10e341fa93ca78dc6e7979127df82f0d81076d17b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/logbook_other_hobbies.snbt"
-hash = "2f4c06534d1b238c569be3485324b6645dd1f36cb3410416198942aab4ddfacc"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/multiplayer_jolly_cooperation.snbt"
-hash = "dc6242dca42a8733e52be600d70f2bcce346a9032eb2286311d677472da70460"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/reference_gt_chemistry.snbt"
-hash = "77e26750b2d89c288c4923c468188dc1213166d052a7a523f7ebb0c1e7f9e451"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/reference_line_of_progression.snbt"
-hash = "f65f7db4ec0e1b12f61f5f6769e397ce1e1a70d632dd5ecc50059fce9dd601ee"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/reference_mechanics.snbt"
-hash = "fcc4c2c204583bab8af325fb844e23a9a3cc37300432498e41b4eaf5c54dd107"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/reference_welcome.snbt"
 hash = "bd3e93fc3f133a13f000306b802ebd9ed183b9484ab738edd8eaeb426d6030d8"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/side_a_farmers_life.snbt"
-hash = "556a1e5bb8343f0074a354555882f77c425a3c0747790b87abd12b58aae69d50"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/side_b_steel_and_glory.snbt"
 hash = "ce9d80d8d53c1c52338b06791bcaaf872ab69d8fa91caf56fb64549f29afd527"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/side_c_community_board.snbt"
-hash = "db1b5be45b501ec46d85fd7c7df1391d8ed4650e3ae2bb5204e1bfb5233d5f1d"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/side_d_soul_land.snbt"
-hash = "de0cee8e9c3957daf92b42a4816bc1e8b6599b4e7583bfc83056c85186622500"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/side_e_magical_flora.snbt"
-hash = "093136951d2540bc13818d3905d519518f4dede4568b7ead3fcea2ffe0858312"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/side_f_storage_solutions.snbt"
-hash = "1e2014d5c2198888a8326f94bbd6fdaee73d407c1389b640747c25e176a8a7f1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/side_g_homestead.snbt"
-hash = "5652a501a132c676507168a69a5ae5415a1bea047369837a7adc61cae2ddd57b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/side_h_professions.snbt"
-hash = "b24cdfa4fa773d31e47132bb74d5e51436fc7de3d36d037696d4d9dad68393bd"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/side_i_alex_mobs.snbt"
-hash = "07e69160c0910fc5aee29594eb7dfea0e88752fca67242e578af8ae2a794693e"
+hash = "15641f9fe72323551c808ea26c6de9b7836f925f16e30e6ad96db628d8366a41"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/side_j_miners_way.snbt"
 hash = "036126b8087d2a41ddd5d30357d85d4d60f3f7cf8fb3598665351d666278a3bf"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/support_applied_energistics.snbt"
-hash = "16a4a58c6cfa062c4d6c8d906aa583501875625bc78ba3ea5676e1fcb9812313"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/support_mystical_agriculture.snbt"
-hash = "1daf4c7988a16f424aaeec58410930641a5ff61b53b5047e8b367a6caa2f66c7"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/support_pneumaticcraft.snbt"
 hash = "c92222a0e40a1d22a2e1e39a59fdeb3b7df1001d772c07a0e942541eae742422"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/support_power.snbt"
+file = "config/ftbquests/quests/chapters_staging/15_ultra_voltage.snbt"
+hash = "e9406cdf159a62c2f096dbaa382e0f034a29861890856fad7aaa4977f3f8b36c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/16_orb_forge.snbt"
+hash = "1a10f3bd9ec5ca5738909ef8590c1ab6e20f4758c08731ffb95b2a41cc9c0dac"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/logbook_exploration.snbt"
+hash = "78eedcdd0bdf13bdd82b6e25c9aed561b30ae2d3872bbb25e7cd05a11b6a7db4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/logbook_fishing.snbt"
+hash = "5bd0a6ab6e5cc782dbcf13e10e341fa93ca78dc6e7979127df82f0d81076d17b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/logbook_other_hobbies.snbt"
+hash = "2f4c06534d1b238c569be3485324b6645dd1f36cb3410416198942aab4ddfacc"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/multiplayer_jolly_cooperation.snbt"
+hash = "dc6242dca42a8733e52be600d70f2bcce346a9032eb2286311d677472da70460"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/reference_gt_chemistry.snbt"
+hash = "77e26750b2d89c288c4923c468188dc1213166d052a7a523f7ebb0c1e7f9e451"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/reference_line_of_progression.snbt"
+hash = "f65f7db4ec0e1b12f61f5f6769e397ce1e1a70d632dd5ecc50059fce9dd601ee"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/reference_mechanics.snbt"
+hash = "fcc4c2c204583bab8af325fb844e23a9a3cc37300432498e41b4eaf5c54dd107"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_a_farmers_life.snbt"
+hash = "556a1e5bb8343f0074a354555882f77c425a3c0747790b87abd12b58aae69d50"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_c_community_board.snbt"
+hash = "db1b5be45b501ec46d85fd7c7df1391d8ed4650e3ae2bb5204e1bfb5233d5f1d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_e_magical_flora.snbt"
+hash = "093136951d2540bc13818d3905d519518f4dede4568b7ead3fcea2ffe0858312"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_f_storage_solutions.snbt"
+hash = "1e2014d5c2198888a8326f94bbd6fdaee73d407c1389b640747c25e176a8a7f1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_g_homestead.snbt"
+hash = "5652a501a132c676507168a69a5ae5415a1bea047369837a7adc61cae2ddd57b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_h_professions.snbt"
+hash = "b24cdfa4fa773d31e47132bb74d5e51436fc7de3d36d037696d4d9dad68393bd"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/side_i_alex_mobs.snbt"
+hash = "07e69160c0910fc5aee29594eb7dfea0e88752fca67242e578af8ae2a794693e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/support_applied_energistics.snbt"
+hash = "16a4a58c6cfa062c4d6c8d906aa583501875625bc78ba3ea5676e1fcb9812313"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/support_mystical_agriculture.snbt"
+hash = "1daf4c7988a16f424aaeec58410930641a5ff61b53b5047e8b367a6caa2f66c7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters_staging/support_power.snbt"
 hash = "7a0db2ed7ccfc7bdfc44a9a903893d8a0deaea759c4d72cbb33aeb23a4c0d93c"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/support_quality_of_life.snbt"
+file = "config/ftbquests/quests/chapters_staging/support_quality_of_life.snbt"
 hash = "af4a9d842c53333e1678ad559b8af36b9d932717d849dc17c81816c4c3039b5c"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/support_shop.snbt"
+file = "config/ftbquests/quests/chapters_staging/support_shop.snbt"
 hash = "0b6ce4132c6f965ad7def4c26e166dacc501f9609dfcc8172ab661d1bd330066"
 
 [[files]]
@@ -257,16 +257,8 @@ file = "kubejs/assets/kubejs/textures/item/triune_catalyst.png"
 hash = "96fe986135d855afeb8d19323b7506b58cda34295999f449624684d6fb16df35"
 
 [[files]]
-file = "kubejs/assets/mmorpg/textures/slot/empty_master_bag_slot.png"
-hash = "abb430242014740af25753ddd693ff7710de83d39dcc08ae2efe8dda26fcb19c"
-
-[[files]]
 file = "kubejs/client_scripts/convergence_item_tooltips.js"
 hash = "85d56816ef6ab986202b3332229fb1bf9f3bec62cec4a948b4c264ecea393c99"
-
-[[files]]
-file = "kubejs/data/curios/tags/items/master_bag.json"
-hash = "87610f1c25e58c1f2a905b16890a911eed02b47da9f46748078d3bf7c1c3edb8"
 
 [[files]]
 file = "kubejs/data/forge/loot_modifiers/global_loot_modifiers.json"
@@ -275,10 +267,6 @@ hash = "17e54a57fef9773eb6709dc4882e81d9c4ffce164648f5bf019771acd1ccc6ab"
 [[files]]
 file = "kubejs/data/kubejs/forge/loot_modifiers/remove_compressed_iron.json"
 hash = "9d160ccfd33ad9cfce18c4439018f55d5562426afad8da2f997b9ec62460157d"
-
-[[files]]
-file = "kubejs/data/mmorpg/curios/slots/master_bag.json"
-hash = "cab08b36d97b4043fa9a0f32d75dc910b4c436499f8121d92bffac204ed022ce"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_dimension/minecraft_overworld.json"
@@ -678,6 +666,11 @@ hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
 
 [[files]]
+file = "mods/ancient-obelisks.pw.toml"
+hash = "064598e6486b8d843e1637f6f063f47f46f9b289ce84924b5f490265f0d19a28"
+metafile = true
+
+[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "c281ef574be46e4df3f7ed04b0a4b5f6d1b2a836b7d1d94c4a30be9c85d3adcb"
 metafile = true
@@ -943,7 +936,7 @@ metafile = true
 
 [[files]]
 file = "mods/dungeon-realm.pw.toml"
-hash = "de01e07ec1fda45f293b65f69fa9c7f6b9b8077bc1a18b1ea788c187b1ee9998"
+hash = "8ae0d42dcc1173aa7b521ef513d1055ada3df32fc630b82046d8e0609cd0e7b3"
 metafile = true
 
 [[files]]
@@ -1187,13 +1180,18 @@ hash = "afd880e9028403834211fb8e19a77bed5e546da72570fb62086e46de83a530ef"
 metafile = true
 
 [[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
+metafile = true
+
+[[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "fbf967b492d575d65f066941652400dc32b998a16ac477a4b8f0efc2f681296a"
 metafile = true
 
 [[files]]
 file = "mods/library-of-exile.pw.toml"
-hash = "d70f5c7777551605a32de6225c48c73727185e3b2d146b2e0779bc907988efa2"
+hash = "3840f713f1714c78f83af31826af2e8db5df3eddf23ba6ef589d8d8edee2ca78"
 metafile = true
 
 [[files]]
@@ -1258,7 +1256,7 @@ metafile = true
 
 [[files]]
 file = "mods/mine-and-slash.pw.toml"
-hash = "97f77a252b2151f317c71feef1fe5370ea452a51365b6d431497bd3929d39284"
+hash = "0912b2ede15bab6aeb13b51f77e3113ae5c13fa4572d450ec99611148135d39c"
 metafile = true
 
 [[files]]
@@ -1573,7 +1571,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-harvest.pw.toml"
-hash = "3a623778e123036da9a2c2aa1cc4aad9c4fba087c9c0a0935c31ff6c87e00527"
+hash = "7960e5d0755aa093379cf9a2b43a013f28672461dc1bd7ec37eddcab8a048c4c"
 metafile = true
 
 [[files]]

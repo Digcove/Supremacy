@@ -1,0 +1,8 @@
+name = "Ancient Obelisks"
+filename = "Ancient-Obelisks-1.20.1-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/7186/996/Ancient-Obelisks-1.20.1-1.2.3.jar"
+hash-format = "sha512"
+hash = "89cd0035ea12f8cfd0837b6c50652e9eaab76c63ef060095573cbe0a67e59c78cd395acdd4fb90e12c300d00b5fcf80bfa308fe877c34c0e55caabae1b0c47cc"

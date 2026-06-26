@@ -1,13 +1,8 @@
 name = "Dungeon Realm"
-filename = "Dungeon-Realm-1.20.1-1.1.3.jar"
+filename = "Dungeon-Realm-1.20.1-1.1.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/l7vS9yHb/versions/W5lE08ga/Dungeon-Realm-1.20.1-1.1.3.jar"
+url = "https://mediafilez.forgecdn.net/files/7190/357/Dungeon-Realm-1.20.1-1.1.7.jar"
 hash-format = "sha512"
-hash = "1f2c4f7f86d79de60554e6db0bbed5d21c598b5854a9889d88fa62f5b52b89f61319f1a00cf071f83d8e65360b667b99b622cecd2569ac66feb364f1bd6d3dfe"
-
-[update]
-[update.modrinth]
-mod-id = "l7vS9yHb"
-version = "W5lE08ga"
+hash = "33ce587fef105cfd241ea911fb472526a04bb75d52b502a01535ba16545df22e64b33c71cca9141d159531f4a948146dcc0546ef6b34e54f504083741a315de2"
