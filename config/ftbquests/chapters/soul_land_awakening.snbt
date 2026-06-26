@@ -317,7 +317,7 @@
 			description: ["Gear souls come in six rarities: Common, Uncommon, Rare, Epic, Legendary, and Mythic. Higher rarities provide stronger primary stats and more affix slots. Apply souls using the Mine & Slash gear crafting system — always apply to a freshly identified piece for maximum value. Orbs of Quality can raise a piece's base quality before soul application."]
 			id: "278B22017E0AF827"
 			rewards: [{
-				id: "5274FD0BEC631175"
+				id: "41BC10A45A3BF85F"
 				item: "mmorpg:currency/orb_of_quality"
 				type: "item"
 			}]
