@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "66B93D134A8EFA8F", title: "Main Story" }
+		{ id: "08CD3A7ECA412D42", title: "Industry" }
+		{ id: "4FE047BB6D602D58", title: "Godlike Power" }
+		{ id: "1E24DF067925061D", title: "Home Sweet Home" }
+		{ id: "274C28999D7BBD26", title: "Adventure" }
+	]
+}

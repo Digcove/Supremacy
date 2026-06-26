@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soul_land_weapons"
+	group: "4FE047BB6D602D58"
+	id: "44D24E52A8ACD264"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3BAA6E1DEABA9E59"]
+			description: ["The Tang Sect's hidden weapons are forged at the Forging Table using Spirit Iron and specialized components. Unlike conventional combat, hidden weapons strike from concealment — each one has unique trigger mechanics, effective ranges, and soul power cost. Mastery of the Forging Table is the first step into Tang Sect doctrine."]
+			id: "0194FAB6E9EFFA13"
+			tasks: [{
+				id: "6BE2B02418E90B87"
+				item: "soulland:forging_table"
+				type: "item"
+			}]
+			title: "Tang Sect Forging"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0194FAB6E9EFFA13"
+				"792CE5342E2F27E8"
+			]
+			description: ["The Dragon Beard Needle is a core Tang Sect hidden weapon — thin as a hair, fired silently in clusters. It requires Spirit Scholar cultivation to use effectively. As your soul power rank rises, higher-tier Tang Sect weapons become available, culminating in weapons capable of felling beasts a hundred ranks your senior."]
+			id: "0CB6D79172FC5B93"
+			rewards: [{
+				id: "26120D42975AFFEF"
+				item: "soulland:breakthrough_pill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "608F5C3F46361F87"
+				item: "soulland:dragon_beard_needle"
+				type: "item"
+			}]
+			title: "Dragon Beard Needle"
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "Soul Land Weapons"
+}

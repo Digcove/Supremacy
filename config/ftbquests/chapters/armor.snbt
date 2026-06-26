@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armor"
+	group: "4FE047BB6D602D58"
+	id: "53C5C056BAEB91FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["060FDDC6B781BC29"]
+			description: ["Diamond marks the last milestone of the vanilla armor track before magical and technological paths diverge. A full diamond set is strong enough to carry you through the Nether and early exploration, but the Soul Land and GregTech armor tiers that follow will eventually render it obsolete."]
+			id: "5E18F03C7637CC27"
+			rewards: [{
+				count: 4
+				id: "667B482AA865594A"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66CA916A7A67E8AB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FF4728866E653A1"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AFCE7C037490D17"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "460660AC17C0FB00"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Standard"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5570A9272D0E0755"]
+			description: ["Jade Silk Armor is woven from spirit cloth and imbued with Qi, making it ideal for cultivators who prioritize mana regeneration and soul power throughput over raw physical defense. It is the preferred armor of dedicated meditation-path characters and spellcasters."]
+			id: "36285B3BA9B195F6"
+			rewards: [{
+				id: "77337EA4FC186694"
+				item: "soulland:cultivation_manual"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6294827B5E2A3E11"
+					item: {
+						Count: 1
+						id: "soulland:jade_silk_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BB38500A3C06373"
+					item: {
+						Count: 1
+						id: "soulland:jade_silk_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490BD7AE41E8B0F7"
+					item: {
+						Count: 1
+						id: "soulland:jade_silk_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46E0624C4030FC2F"
+					item: {
+						Count: 1
+						id: "soulland:jade_silk_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A set for cultivating"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["Common armor stat souls are the baseline M&S armor enhancement. Apply one to each armor piece to lock in a primary stat — armor rating, dodge, or magic shield. Every piece of armor should have a soul applied before you enter dangerous territory."]
+			id: "37962AD08C44254C"
+			tasks: [{
+				id: "7291CBDE1BFCCB5F"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/common"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Common Defense"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["Uncommon armor souls carry a second affix alongside the primary stat, offering small bonuses to elemental resistance or health. Found in standard dungeon loot and M&S mob drops from moderate-difficulty zones."]
+			id: "3912749E1F6993A8"
+			tasks: [{
+				id: "46A5C4D3953C886E"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/uncommon"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Uncommon Defense"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["Rare armor souls open three affix slots, allowing a meaningful combination of defense, resistance, and utility. This tier represents the first point where a fully-souled armor set begins to feel purpose-built rather than opportunistic."]
+			id: "759A526428245CDA"
+			tasks: [{
+				id: "6AE18362D066AA38"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Rare Defense"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: ["Epic armor souls carry four affixes and begin to appear in late-game loot pools. At this tier, the gap between a carefully selected soul and a random drop is significant — use Orbs of Alteration to reroll until the affix combination matches your build."]
+			id: "5321D66E124CFD37"
+			tasks: [{
+				id: "16B41C8A90D6EDE3"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/epic"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Epic Defense"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Legendary armor souls are five-affix pinnacle gear, exclusive to the highest-tier dungeon bosses and Atlas map completion rewards. A full set of Legendary-souled armor transforms your character from capable to formidable."]
+			id: "484E4A14F94A2FA8"
+			tasks: [{
+				id: "3DAC0CEBFF42F232"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/legendary"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Legendary Defense"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			description: ["Mythic armor souls are the absolute ceiling of Mine & Slash's gear system. Six affixes at maximum value ranges. Obtaining even one is a milestone achievement. Apply it to the highest-quality armor base you can find and protect it accordingly."]
+			id: "7ED5179B901C4287"
+			tasks: [{
+				id: "1929DACE1C6AF92E"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/mythic"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Mythic Defense"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5E18F03C7637CC27"]
+			description: ["Netherite is obtained by smithing Diamond armor with Netherite Ingots — themselves smelted from Ancient Debris mined in the lower Nether. The resulting set is the strongest vanilla armor in the game: knockback resistant, fire immune, and it floats in lava. It will carry you comfortably through the mid-game until dedicated magical and GT armor paths take over."]
+			id: "309C1EFF44D1F770"
+			tasks: [
+				{
+					id: "21C8F6942937AE01"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EB486C0165CD3DF"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06A23CBA7F159C89"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "783B665E2EAE5080"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "From the Nether"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	title: "Armor"
+}

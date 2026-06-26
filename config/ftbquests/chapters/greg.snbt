@@ -1,0 +1,56 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "greg"
+	group: "08CD3A7ECA412D42"
+	id: "7C603CA61D4A5F3F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["GregTech Community Edition (Unofficial) is the industrial backbone of the late game. What begins with primitive hand-crafting escalates into vast automated factories processing every ore and alloy on the periodic table. Start here — and learn to love the grind."]
+			id: "1727551BEC3E69D1"
+			tasks: [{
+				id: "5AABDD49B6BB5D21"
+				title: "The beginning"
+				type: "checkmark"
+			}]
+			title: "The Way of Steel"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["The Primitive Blast Furnace converts Iron and Charcoal into Steel without electricity — a crucial material for building the steam-powered machines that follow. Construct the structure from Firebricks, then feed it charcoal and iron. Steel unlocks the first generation of GregTech machinery."]
+			id: "65F2399D1833ECC6"
+			tasks: [
+				{
+					id: "143272581A9D7FA4"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "68F7A75081483C17"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			title: "Primitive Blast Furnace"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: ["The Low-Pressure Steam Boiler converts water and solid fuel into Steam — the power medium for GregTech's first generation of machines. Connect it to a Steam Machine Hull with pipes and feed it water continuously. Without steam, no early GregTech machine will run."]
+			id: "1DB0BF33EA67FB8D"
+			tasks: [{
+				id: "4775F1F6A486F36E"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "Steam Boiler"
+			x: -1.5d
+			y: -3.0d
+		}
+	]
+	title: "Greg"
+}

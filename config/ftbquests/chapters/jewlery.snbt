@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jewlery"
+	group: "4FE047BB6D602D58"
+	id: "098F1CB21FC45B72"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5FB4DAA4F0C4C446"]
+			description: ["Mine & Slash jewelry is equipped in Curios ring and necklace slots, providing powerful passive stat bonuses separate from armor. Each piece rolls random affixes from a family pool — offensive, defensive, or utility. Jewelry does not decay; invest in salvaging and rerolling for the best affixes."]
+			id: "3FCAD570336A0E9A"
+			tasks: [{
+				id: "2F50A81197C0DA51"
+				title: "Bling Bling Boyyyy"
+				type: "checkmark"
+			}]
+			title: "The Jeweler's Trade"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Tier 1 jewelry stat souls are your first step into Mine & Slash's jewelry system. Apply them to rings and necklaces to lock in a primary stat. Low tier souls carry modest bonuses but scale with your gear level — any jewelry is better than bare Curios slots."]
+			id: "517204C9779F061E"
+			tasks: [{
+				id: "51323D7C57D33E00"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 1 Jewelry Soul"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tier 2 jewelry souls carry stronger base values and unlock a second affix slot on the piece. Obtained from mid-level M&S loot or salvaged from rare drops. A consistent tier 2 jewelry set provides a noticeable improvement to your effective stats."]
+			id: "389BD109FCF61EE0"
+			tasks: [{
+				id: "6E6ACDCA3AF8CA02"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 2 Jewelry Soul"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tier 3 jewelry souls mark the transition into the mid-game gear tier. They roll more affixes at higher value ranges, making careful selection and socket use meaningful. Combine with Orb of Quality to improve the base item before applying the soul."]
+			id: "7602EB39C0BC4A5F"
+			tasks: [{
+				id: "15EE115E371E0CA8"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 3 Jewelry Soul"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tier 4 jewelry souls push your stat ceiling into territory that changes how you build. High rolls at this tier can replace entire armor enchant strategies. Rare drop from elite mobs and dungeon chests in high-difficulty zones."]
+			id: "64FAA9ECC4029B54"
+			tasks: [{
+				id: "373E8E966471B68D"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 4 Jewelry Soul"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tier 5 jewelry souls are late-game pinnacle gear. Their affix pools include combinations unavailable at lower tiers. Acquiring and correctly slotting a full tier 5 jewelry set is a major milestone in optimizing your build."]
+			id: "0E8097B5BBAA5F2F"
+			tasks: [{
+				id: "7C41B991310192BC"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 4
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 5 Jewelry Soul"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tier 6 jewelry souls represent the apex of Mine & Slash's jewelry system. Reserved for the highest-difficulty Atlas maps and endgame boss drops, these souls can define a character build entirely around a single piece. Do not waste them on unenchanted bases."]
+			id: "0C4B077882D15DC3"
+			tasks: [{
+				id: "792794F14DC3EF1C"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 5
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 6 Jewelry Soul"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "Jewlery"
+}

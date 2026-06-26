@@ -1,0 +1,134 @@
+{
+	id: "5E5180B7B8806587"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:sword_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:axe_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:bow_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:dagger_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:kunai_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:spear_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:rapier_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:hammer_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:mace_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:staff_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:gauntlet_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:crossbow_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:greatsword_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:scythe_4"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "legendary"
+}

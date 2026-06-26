@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_processing"
+	group: "08CD3A7ECA412D42"
+	id: "228F124F074E71BC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3B495C6068F785CD"
+				"41BDD2ED2D884E3C"
+			]
+			description: ["Crushing Wheels double your ore yield by processing raw ore into two crushed chunks. Place two counter-rotating wheels face to face and drop ore between them. A shaft connection to any rotational source is required. This is your first step toward efficient resource processing."]
+			id: "682F366436809BCC"
+			tasks: [{
+				count: 2L
+				id: "5F3F998A44F465FB"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1360F2689830BE48"
+				"682F366436809BCC"
+			]
+			description: ["An Encased Fan blowing through water washes crushed ore chunks into purified ore, adding a third output on top of your crush yield. Point the fan horizontally through a column of water source blocks. Every ore type that passes through yields more than crushing alone — a significant long-term gain."]
+			id: "4CCA4B2A9DAE30AE"
+			tasks: [{
+				id: "6527E6ADFC09EC3B"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "Ore Washing"
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+	title: "Ore Processing"
+}

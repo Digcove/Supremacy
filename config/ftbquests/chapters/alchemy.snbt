@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemy"
+	group: "4FE047BB6D602D58"
+	id: "5F2FE7671C0891D5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Mine & Slash includes a dedicated Alchemy profession. Gather herbs from the world, combine them at the Alchemy Station to brew potions, and level your alchemy skill to unlock stronger recipes. Potions provide temporary combat, stat, and utility buffs — a serious advantage in hard encounters."]
+			id: "6AF61DE43B13E826"
+			tasks: [{
+				id: "7B94FEAA23870FA6"
+				title: "Mine and Slash Alchemy"
+				type: "checkmark"
+			}]
+			title: "Mine & Slash Alchemy"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: ["Soul Land's alchemy system uses herbs gathered from the Spirit Beast Forest. Herbs are consumed by holding them, with diminishing returns after three uses. Pills crafted at the Cultivation Altar amplify cultivation speed, heal Foundation Instability, and boost breakthrough success rates — indispensable for serious cultivators."]
+			id: "645C17C6B1EF54F1"
+			tasks: [{
+				id: "52C6E4709C7F64EB"
+				title: "Spiritual Alchemy"
+				type: "checkmark"
+			}]
+			title: "Spiritual Alchemy"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Blood Magic uses Life Points (LP) as its crafting medium. Rather than brewing potions, it binds rituals and sigils through sacrificial chemistry — transmuting blood into permanent power. Many Blood Magic crafting recipes require LP-infused components, making altar management a discipline in itself."]
+			id: "099035739255D6E7"
+			tasks: [{
+				id: "7DD29638A4CE30B8"
+				title: "Blood Magic Alchemy"
+				type: "checkmark"
+			}]
+			title: "Blood Magic Alchemy"
+			x: 3.0d
+			y: -5.0d
+		}
+	]
+	title: "Alchemy"
+}

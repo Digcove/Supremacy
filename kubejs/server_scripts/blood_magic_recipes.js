@@ -1,5 +1,12 @@
 ServerEvents.recipes(event => {
 
+    // Blood Altar crafting recipe — Manasteel gate instead of gold
+    event.replaceInput(
+        { output: 'bloodmagic:blood_altar' },
+        'minecraft:gold_ingot',
+        'botania:manasteel_ingot'
+    )
+
     event.recipes.bloodmagic.altar(
         'kubejs:soul_rune',
         'soulland:spirit_steel_ingot',

@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biome_hopper"
+	group: "274C28999D7BBD26"
+	id: "124ADAB4435007D1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Every biome in this pack holds unique resources, crops, mobs, and structures. The Plains is a safe starting point — open terrain, easy navigation, common crops. Use Nature's Compass to locate specific biomes by name as your needs grow more specialized."]
+			id: "6724AAFC3D535090"
+			rewards: [{
+				id: "59300C583E04EFB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				biome: "minecraft:plains"
+				id: "1436E19206657360"
+				type: "biome"
+			}]
+			title: "Plains"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["You have walked the length and breadth of this world, from frozen tundra to scorching desert. Each biome visited adds to your understanding of where rare herbs, hidden structures, and exclusive mobs reside. A cultivator who knows the land is never unprepared."]
+			hide_until_deps_complete: true
+			id: "47031F18136D2A2F"
+			rewards: [{
+				id: "5CBB0C0236CEB37E"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE36DECDFF142DF"
+				title: "Visit Every Biome"
+				type: "checkmark"
+			}]
+			title: "World Traveler"
+			x: -0.5d
+			y: -7.5d
+		}
+	]
+	title: "Biome Hopper"
+}

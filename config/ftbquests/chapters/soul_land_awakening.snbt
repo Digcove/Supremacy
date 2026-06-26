@@ -1,0 +1,1017 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soul_land_awakening"
+	group: "66B93D134A8EFA8F"
+	id: "1FA3DF418E17E2FC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["Welcome to Craft to Exile: Soul Land. Open your Master Bag and take stock of what you carry. This world is governed by three intertwined forces — soul cultivation, industrial machinery, and magical power. Your journey begins here, on the ground, with nothing but your talent and your will. Press M at a Cultivation Altar when you are ready."]
+			id: "73CE4DB9AE29B81C"
+			rewards: [{
+				id: "1C05F8B03519C8D5"
+				item: "mmorpg:master_bag"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3376E7EF782D2E1E"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			title: "A World Awaits"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73CE4DB9AE29B81C"]
+			description: ["Wood is the universal starting material. Collect enough logs to begin crafting Tinkers' Construct pattern blanks — the templates used to shape tool parts. Your first tools will be made from wood and stone, but the materials system that follows will take you far beyond vanilla crafting."]
+			id: "630F7B4B08640585"
+			rewards: [{
+				count: 4
+				id: "50005F7839CFF23A"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3E42271F1BCD864D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "First Timber"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["630F7B4B08640585"]
+			description: ["The Tinker's Workshop is your crafting foundation. The Tinker Station assembles tools from individually crafted parts; the Part Builder shapes raw materials into heads, handles, and bindings using pattern blanks; the Crafting Station connects to adjacent inventories for streamlined crafting. Build all three and keep them together — they work best as a set."]
+			id: "1319819B00FEA874"
+			rewards: [{
+				id: "034C0FACB91219E3"
+				item: "tconstruct:tinkers_chest"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "152F5036A23955EE"
+					item: {
+						Count: 1
+						id: "tconstruct:tinker_station"
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44365C1F9198671F"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "357B5CE4CB8BA7A3"
+					item: "tconstruct:crafting_station"
+					type: "item"
+				}
+			]
+			title: "Tinker's Workshop"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1319819B00FEA874"]
+			description: ["Your first Tinkers' tool should be a stone pickaxe head on a wood handle — functional but temporary. Upgrade to iron parts as soon as possible. Each material carries unique traits: iron is durable and straightforward, while exotic materials found later offer passive abilities that fundamentally change how tools perform. Read 'Materials and You' for the full breakdown."]
+			id: "78CD039E8C931F77"
+			rewards: [
+				{
+					id: "30ABCAC7D205EE14"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "563CDBD6B5D1C74A"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "405A556FAB2F4351"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tconstruct:modifiable/harvest/stone"
+					}
+				}
+				title: "Any #tconstruct:modifiable/harvest/stone"
+				type: "item"
+			}]
+			title: "Stone to Iron"
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["630F7B4B08640585"]
+			description: ["A bed sets your respawn point and skips the night, but in this world it also enables placing a Waystone. Waystones are teleportation anchors — place one at your base and activate others found in villages and structures across the continent. Fast travel becomes essential once your operations span multiple biomes."]
+			id: "019B7853C67C2A80"
+			rewards: [{
+				id: "0323180557DB4507"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25878AAF354882D2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any #minecraft:beds"
+				type: "item"
+			}]
+			title: "Claim Your Rest"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["019B7853C67C2A80"]
+			description: ["Your base is established and your spawn is set. This is where long-term operations begin — keep your base close to resources, rivers for water power, and open terrain for future factory expansion. Everything built from this point branches outward from here."]
+			id: "686C035EB5949EBA"
+			tasks: [{
+				id: "1ED8697BD4DB0AD0"
+				title: "Home Sweet Home"
+				type: "checkmark"
+			}]
+			title: "Home Sweet Home"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78CD039E8C931F77"]
+			description: ["Copper is found at mid-depths in quantity. Smelt it into ingots for early crafting and as a component in Create's Andesite Alloy. The Blast Furnace reward gives you a head start on smelting efficiency — place it early and use it to process copper, iron, and gold faster than a standard furnace."]
+			id: "7F3D68FF64242454"
+			rewards: [{
+				id: "30ABCAC7D205EE14"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "34F786B8AC1564DC"
+				item: { Count: 10, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			title: "Copper Veins"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["78CD039E8C931F77"]
+			description: ["Iron is the backbone of early production. Accumulate a substantial supply before committing to any large build — you will consume iron faster than expected once machines, armor, and crafting chains begin demanding it simultaneously. The Grout reward is your first step toward building a Tinkers' Smeltery."]
+			id: "6E317C68C5F44D16"
+			rewards: [{
+				count: 16
+				id: "5DC2B42B807A54B4"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "6A57DDF3188D28BD"
+				item: { Count: 32, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Iron Foundation"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["78CD039E8C931F77"]
+			description: ["Spirit Iron Ore generates at iron depth and glows faintly blue-grey. Smelt it into Spirit Iron Ingots — the base material for all early Soul Land crafting, including the Forging Table and Spirit Iron armor. It also gates access to this pack's custom Nature's Compass recipe, modified to require Spirit Iron."]
+			id: "3C869BA745F7E08E"
+			rewards: [{
+				count: 2
+				id: "2800EA26EB76E110"
+				item: "soulland:spirit_dew_root"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1F730152CA6F2A84"
+				item: { Count: 4, id: "soulland:spirit_iron_ingot" }
+				type: "item"
+			}]
+			title: "Spirit Iron"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["The Forging Table is the crafting station for all Soul Land items — hidden weapons, armor sets, herbs into pills, and spirit tools. Unlike a standard crafting table, it handles recipes unique to Soul Land's cultivation system. Keep it accessible; you will return to it throughout the entire modpack progression."]
+			id: "5E33BC8AED91B4B9"
+			rewards: [
+				{
+					count: 8
+					id: "6F3102D3DC09B7EF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E6D50C8AEB7BB33"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6640878A46668A43"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15211D813F21A381"
+				item: "soulland:forging_table"
+				type: "item"
+			}]
+			title: "The Forging Table"
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5E33BC8AED91B4B9"]
+			description: ["The Silent Sleeve Dart is the entry point of the Tang Sect's hidden weapon system — compact needles fired in rapid bursts from concealed wrist-mounted launchers. It requires minimal soul power to operate and can be used effectively from rank 1. Upgrade to higher-tier Tang Sect weapons as your cultivation advances."]
+			id: "203FAF595F10C378"
+			tasks: [{
+				id: "2F94F60874EA36D3"
+				item: "soulland:silent_sleeve_dart"
+				type: "item"
+			}]
+			title: "Silent Sleeve Dart"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5E33BC8AED91B4B9"]
+			description: ["The Flying God Claw is a mid-tier Tang Sect hidden weapon — a retractable steel claw launched on a wire, capable of grappling targets, pulling items, and striking at range. It demands more soul power than the Sleeve Dart but delivers far greater versatility in combat."]
+			id: "3FF2BD148A95264A"
+			tasks: [{
+				id: "6B325CCC9BCDA426"
+				item: "soulland:flying_god_claw"
+				type: "item"
+			}]
+			title: "Flying God Claw"
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["Mine & Slash uses a gear soul system to modify your equipment. Weapon stat souls are applied to weapons to set a primary damage stat — physical, elemental, or soul power scaling. Your first Common soul is the baseline; upgrade to higher rarity souls as you find them to dramatically increase your damage output."]
+			id: "1DDEDD7CE556B85B"
+			rewards: [{
+				id: "5274FD0BEC631175"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/common"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "543380D6574BC8A5"
+				item: {
+					Count: 1
+					id: "spartanweaponry:iron_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "First Blood"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1DDEDD7CE556B85B"]
+			description: ["Gear souls come in six rarities: Common, Uncommon, Rare, Epic, Legendary, and Mythic. Higher rarities provide stronger primary stats and more affix slots. Apply souls using the Mine & Slash gear crafting system — always apply to a freshly identified piece for maximum value. Orbs of Quality can raise a piece's base quality before soul application."]
+			id: "278B22017E0AF827"
+			rewards: [{
+				id: "5274FD0BEC631175"
+				item: "mmorpg:currency/orb_of_quality"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5891A12D4938EE"
+				title: "Gear Soul Explaination"
+				type: "checkmark"
+			}]
+			title: "Forging Your Destiny"
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["The Seared Melter and Seared Heater are the compact pre-smeltery alternative to the full Tinkers' Smeltery. The Heater provides heat; the Melter liquefies metals. Together they allow small-scale metal casting for tool parts without committing to the full smeltery multiblock. Build the full smeltery next."]
+			id: "44B79949D33B2037"
+			rewards: [{
+				count: 32
+				id: "53E065CC7C802FE7"
+				item: "tconstruct:grout"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36DE3D506804F384"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "0A9708E7F06F1551"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+			]
+			title: "The Melter"
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"203FAF595F10C378"
+				"3FF2BD148A95264A"
+			]
+			description: ["The Tang Sect's hidden weapons span 16 items across a full progression arc — from Sleeve Darts and Godly Zhuge Crossbows to legendary single-use weapons capable of killing beasts a hundred ranks above your own. Each weapon requires specific soul power thresholds. The full catalog is documented in the cultivation manual."]
+			id: "3BAA6E1DEABA9E59"
+			tasks: [{
+				id: "34547304255D421D"
+				title: "Hidden Weapons"
+				type: "checkmark"
+			}]
+			title: "Art of the Hidden Weapon"
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["Iron armor is your baseline protection. It is not glamorous, but it keeps you alive while you build toward better options. In Mine & Slash, each armor piece should have a stat soul applied immediately — even a Common soul dramatically improves its defensive value. Choose a soul family based on your intended playstyle."]
+			id: "156AB72EA5D22CE1"
+			max_completable_dependents: 1
+			rewards: [{
+				count: 4
+				id: "38C664934970C600"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/common"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5CD4A99C19F2A864"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05E2A38481C1C16E"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F820EF949D1EC4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A3F5ADB1392251"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Shell"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["156AB72EA5D22CE1"]
+			description: ["The Armor stat soul family specializes in raw physical defense — increased armor rating, damage reduction, and physical resistance. This is the path for frontline fighters who intend to stand toe-to-toe with spirit beasts. Stack armor souls across all four pieces for maximum protection before entering the Star Dou Forest."]
+			id: "5EA6CE3CAF012805"
+			tasks: [{
+				count: 4L
+				id: "0CDFDE1FB085177A"
+				item: { Count: 4, id: "mmorpg:currency/force_soul_tag_armor_stat" }
+				type: "item"
+			}]
+			title: "Fortified Path"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["156AB72EA5D22CE1"]
+			description: ["The Dodge stat soul family prioritizes evasion — increasing dodge chance and movement-based defense. Effective for builds that rely on avoiding hits entirely rather than absorbing them. Pairs well with Iron's Spells teleportation skills and Ghost Shadow Track technique from the Tang Sect."]
+			id: "0D3E53AB3D57B33D"
+			tasks: [{
+				count: 4L
+				id: "42F9682B477E7BFC"
+				item: { Count: 4, id: "mmorpg:currency/force_soul_tag_dodge_stat" }
+				type: "item"
+			}]
+			title: "Evasion Path"
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["156AB72EA5D22CE1"]
+			description: ["The Magic Shield stat soul family converts defense into a mana-regenerating barrier that absorbs damage before your health pool is touched. Ideal for spellcasters and cultivators who maintain high mana reserves. Synergizes strongly with Botania Manasteel armor and Iron's Spells spellbooks."]
+			id: "5A145E90DB0BCF86"
+			tasks: [{
+				count: 4L
+				id: "22D03A989A4E3392"
+				item: "mmorpg:currency/force_soul_tag_magic_shield_stat"
+				type: "item"
+			}]
+			title: "Barrier Path"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["44B79949D33B2037"]
+			description: ["The Smeltery is Tinkers' Construct's core multiblock — a hollow structure of Seared Bricks with a Controller, Drain, Basin, and Faucet. It liquefies metals by heat from a Seared Fuel Tank below, casting them into tools and parts via the Drain and Faucet system. Unlike the Melter, the Smeltery can alloy multiple metals simultaneously."]
+			id: "1743DDFA6AFDF584"
+			rewards: [
+				{
+					id: "4DB97DBC7BE791AE"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "2FBA2A273A3E3CAE"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "43AAF999EE453930"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:slimewood"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "516B683F1DE48C31"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "4DE9F60C2C2CB438"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "4295CB763EF483BC"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "4DB2F369DF496257"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "341196D2202066B8"
+					item: { Count: 2, id: "tconstruct:seared_faucet" }
+					type: "item"
+				}
+			]
+			title: "The Smeltery"
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1743DDFA6AFDF584"]
+			description: ["The Smeltery enables your first real ore processing chain. Ores placed inside melt directly into liquid metal, and most ore types yield 1.5x the metal output compared to direct smelting. This is the foundation of the ore processing chapter — the next step is Create's Crushing Wheels for full doubling."]
+			id: "3B495C6068F785CD"
+			tasks: [{
+				id: "405B7B139AEC398C"
+				title: "Ore Processing"
+				type: "checkmark"
+			}]
+			title: "Into the Smeltery"
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5EA6CE3CAF012805"
+				"0D3E53AB3D57B33D"
+				"5A145E90DB0BCF86"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Mine & Slash's armor system gives you three defensive identity paths — raw mitigation, evasion, and magic barrier. Each piece of armor can be specialized independently, but a consistent path across all four slots is more effective than mixing. Revisit this choice when you reach Manasteel and Spirit Steel armor tiers; the path that works now may not be optimal later."]
+			id: "060FDDC6B781BC29"
+			tasks: [{
+				id: "232B0365AF511ECE"
+				title: "Armor in a Nutshell"
+				type: "checkmark"
+			}]
+			title: "A Soul's Defense"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3C869BA745F7E08E"]
+			description: ["Nature's Compass lets you search for any biome by name and points you toward the nearest one. Essential for locating rare biomes containing unique crops, Spirit Beasts, and Soul Land herbs. In this pack the recipe has been modified to require Spirit Iron Ingots — the continent's natural order rewards those who cultivate."]
+			id: "05350BD6B36C9089"
+			tasks: [{
+				id: "64E5B40ADC34A0DA"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Nature's Compass"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["05350BD6B36C9089"]
+			description: ["The continent holds dozens of distinct biomes — from scorching deserts to ancient mushroom islands. Each hosts unique herbs, mobs, and environmental resources. A cultivator who knows where to look is never short of ingredients. Use Nature's Compass to systematically visit every biome type as your needs evolve."]
+			id: "508CC7BBF4E68A41"
+			tasks: [{
+				id: "66EDB7501BE74E3F"
+				title: "Oh the Biomes You'll See"
+				type: "checkmark"
+			}]
+			title: "Continent of Wonders"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7F3D68FF64242454"]
+			description: ["The Explorer's Compass points toward the nearest structure of any type you select. Use it to locate AE2 Meteorites for Inscriber Presses, dungeons for M&S loot, and Soul Land locations including the Shrek Academy. In this pack the recipe has been modified to use Copper Ingots instead of Cracked Stone Bricks."]
+			id: "14D59603427FE034"
+			tasks: [{
+				id: "6ED340F9B6A316ED"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Explorer's Compass"
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14D59603427FE034"]
+			description: ["The continent is scattered with ancient ruins, academies, shrines, and dungeons — each with unique loot tables and hidden crafting materials. Many Mine & Slash gear pieces are dungeon-exclusive. Develop a habit of clearing structures you encounter; the rewards compound significantly over time."]
+			id: "3D0C96F7C0A0214F"
+			tasks: [{
+				id: "54778716AF99C964"
+				title: "Structures"
+				type: "checkmark"
+			}]
+			title: "Lost to Time"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["Andesite Alloy is Create's foundational component — crafted from Andesite and Iron Nuggets or Copper Nuggets. It is required for virtually every Create machine casing and structural part. Start producing it in bulk now; the Create chapter ahead demands it in quantity."]
+			id: "65567C3B9E419E59"
+			rewards: [{
+				count: 16
+				id: "71C87C3EBA47A6D5"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "45852FC80CAAF8B1"
+				item: { Count: 4, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Andesite Alloy"
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["65567C3B9E419E59"]
+			description: ["Create's kinetic power system is now open to you. Rotational force generated by Water Wheels and other sources is transmitted through Shafts and Cogwheels, then consumed by machines. See the Create chapter to build your first automated processing lines — starting with ore doubling via Crushing Wheels."]
+			id: "409F8A64CB4B184A"
+			tasks: [{
+				id: "245FAF7B589D06C1"
+				title: "Create"
+				type: "checkmark"
+			}]
+			title: "The Age of Rotation"
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["73CE4DB9AE29B81C"]
+			description: ["Seeds from any plant are the start of a self-sustaining food supply. In this pack, Pam's HarvestCraft and Farmer's Delight expand the farming system dramatically — over 80 unique crops, dozens of cooking recipes, and food that provides lasting stat buffs. A reliable farm is a force multiplier for everything else you do."]
+			id: "3ABDA0A1EA25EB8F"
+			rewards: [{
+				count: 16
+				id: "5C777912ABADC84C"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17A3B4962A861A07"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "Seeds of the Continent"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3ABDA0A1EA25EB8F"]
+			description: ["Expanding your crop variety unlocks new Farmer's Delight cooking recipes and Mine & Slash alchemy ingredients. Prioritize crops that provide multiple outputs — many Pam's crops yield both a food item and a seed, enabling compact automated farms. See the Farming chapter for the full crop and cooking system breakdown."]
+			id: "453608F7110E1D8E"
+			tasks: [{
+				id: "585EE65C5B5CD726"
+				title: "I'm Growing Off"
+				type: "checkmark"
+			}]
+			title: "Growing Season"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["73CE4DB9AE29B81C"]
+			description: ["Spirit Herbs grow in the Star Dou Great Forest and surrounding spirit-dense biomes. They are consumed by holding — each herb provides a pulse of cultivation experience, but diminishing returns kick in after three uses per herb type. Alchemy is required for efficient late-game cultivation speed; raw herb consumption alone will not carry you to the higher ranks."]
+			id: "3D2D38E41E9F7301"
+			rewards: [{
+				id: "6D78E71EF3665D24"
+				item: "soulland:soul_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6E794FCA92B42C93"
+				item: { Count: 10, id: "soulland:spirit_herb" }
+				type: "item"
+			}]
+			title: "Spirit Herbs"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78CD039E8C931F77"]
+			description: ["Mine & Slash jewelry occupies dedicated Curios ring and necklace slots, adding powerful passive bonuses entirely separate from your armor. Gold is an early crafting component for basic jewelry pieces. The Emerald Stoneplate Ring reward gives you a functional piece immediately — equip it and note how the stat contribution changes your effective power."]
+			id: "3160A49FB7E8CE2A"
+			rewards: [{
+				id: "52CF16B4BC54BF61"
+				item: "irons_spellbooks:emerald_stoneplate_ring"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "46AA6FEE7F04B329"
+				item: { Count: 4, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			title: "A Touch of Gold"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3160A49FB7E8CE2A"]
+			description: ["Jewelry is the most flexible stat system in Mine & Slash — rings and necklaces roll entirely separate affix pools from armor, allowing you to patch gaps in your build without replacing major gear pieces. Invest in salvaging unwanted pieces and rerolling for the affixes your build actually needs. See the Jewelry chapter for the full tier progression."]
+			id: "5FB4DAA4F0C4C446"
+			tasks: [{
+				id: "1D403C3F2ABF9E2A"
+				title: "Professional Jewler"
+				type: "checkmark"
+			}]
+			title: "Jeweler's Eye"
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3D2D38E41E9F7301"
+				"3160A49FB7E8CE2A"
+			]
+			description: ["The Cultivation Altar is your meditation hub. Press M while standing at it to begin passive soul power accumulation. Meditation speed is influenced by your talent, local Qi density, and Foundation Stability. Herbs and pills improve these values. Place your altar in a high-Qi location — the Star Dou Forest edges have naturally elevated density — and return to it between expeditions."]
+			id: "022A0AD9DA7A55DE"
+			rewards: [{
+				id: "4D0746FE80531982"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "069DA918FCB98AA7"
+				item: "soulland:cultivation_altar"
+				type: "item"
+			}]
+			title: "Meditation Begins"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["022A0AD9DA7A55DE"]
+			description: ["Your cultivation practice is established. The Soul Land Cultivation chapter continues from here — tracking your ring absorption, Botania mana infusion for Spirit Steel, and the full path through Spirit Scholar toward higher stages. The continent's power is vast; begin the climb."]
+			id: "33EAD812978BAB9C"
+			tasks: [{
+				id: "776D383466B88799"
+				title: "Soul Land Cultivation"
+				type: "checkmark"
+			}]
+			title: "The Cultivator's Path"
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3D2D38E41E9F7301"
+			]
+			description: ["Spirit Cloth is woven from spirit herb fibers at the Forging Table. It is the primary material for the Spirit Cloth armor set — a magic-focused early armor path suited to spellcasters and cultivators. Gather a substantial supply before crafting; a full set requires significant cloth to produce."]
+			id: "2F79165FD4DEF64F"
+			rewards: [
+				{
+					count: 4
+					id: "3E47B45EA03D9D43"
+					item: "soulland:spirit_cloth"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1B62CC830442D154"
+					item: "minecraft:string"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 20L
+				id: "1E6A50855A1D1CC8"
+				item: { Count: 20, id: "soulland:spirit_cloth" }
+				type: "item"
+			}]
+			title: "Spirit Weaving"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F79165FD4DEF64F"]
+			description: ["Spirit Cloth Armor provides moderate physical defense with a significant bonus to magic damage and mana regeneration. It is the preferred early armor for Iron's Spells casters, Botania mana users, and any build that relies on soul power throughput rather than raw physical durability. Apply Magic Shield stat souls to maximize the synergy."]
+			id: "4BCB50F8C52E2AFA"
+			rewards: [{
+				count: 4
+				id: "04CF97A61CAEBF3C"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "181EA8CFD71A954E"
+					item: {
+						Count: 1
+						id: "soulland:spirit_cloth_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12A84DEF3C56A6E3"
+					item: {
+						Count: 1
+						id: "soulland:spirit_cloth_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "151B6FF7A88DA44D"
+					item: {
+						Count: 1
+						id: "soulland:spirit_cloth_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "242160FED1DAE82F"
+					item: {
+						Count: 1
+						id: "soulland:spirit_cloth_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Robes of the Scholar"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3C869BA745F7E08E"]
+			description: ["Qi Crystals are found as ore at diamond depth and are required across multiple Soul Land crafting chains. They also serve as catalyst components for Botania's mana infusion gate. Mine a substantial supply when you first reach diamond depth — demand only increases as your Soul Land progression advances."]
+			id: "4DED53395D239509"
+			rewards: [{
+				count: 3
+				id: "3052A0ADD1DCBBBD"
+				item: "soulland:soul_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7FF3AF584420EEFA"
+				item: { Count: 4, id: "soulland:qi_crystal" }
+				type: "item"
+			}]
+			title: "Qi Crystals"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4BCB50F8C52E2AFA"
+				"4DED53395D239509"
+			]
+			description: ["Shrek Academy is the most prestigious soul master institution on the continent — and the hardest armor set to earn at this stage. The full Shrek Academy set is reserved for those who have proven themselves through both spirit cultivation and material mastery. Wear it with the weight it deserves."]
+			hide_until_deps_complete: true
+			id: "5570A9272D0E0755"
+			rewards: [{
+				id: "15F0FA252067AF65"
+				item: "soulland:spirit_detector"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "497C2ED22F56D47F"
+					item: {
+						Count: 1
+						id: "soulland:shrek_academy_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FAC2627E0AEC21A"
+					item: {
+						Count: 1
+						id: "soulland:shrek_academy_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "745A43F20C5FE1FC"
+					item: {
+						Count: 1
+						id: "soulland:shrek_academy_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47AFFCDEFB5E5C0B"
+					item: {
+						Count: 1
+						id: "soulland:shrek_academy_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shrek Academy"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3ABDA0A1EA25EB8F"]
+			description: ["Mine & Slash's farming materials are gathered from crops and used in the Alchemy Station to brew potions. Tier 0 farming materials drop from common crops and are the entry point into M&S alchemy. Establish a diverse farm early — the alchemy system rewards variety in your crop selection."]
+			id: "3FD855E06C3AFFAC"
+			tasks: [{
+				count: 4L
+				id: "2EC8EEAA8CD52248"
+				item: { Count: 4, id: "mmorpg:material/farming/0" }
+				type: "item"
+			}]
+			title: "Alchemical Harvest"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3FD855E06C3AFFAC"]
+			description: ["The Mine & Slash Alchemy Station brews potions from farming materials, herbs, and reagents. Potions provide temporary combat buffs — health regeneration, stat boosts, elemental resistance — that compound significantly in difficult encounters. Leveling your Alchemy profession unlocks stronger recipes and improves brew success rates."]
+			id: "7F53568BFBE6E6A5"
+			rewards: [{
+				count: 4
+				id: "651065F811BAA7EF"
+				item: {
+					Count: 1
+					id: "mmorpg:potion/health/1"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C9001ED3CCC8141"
+				item: "mmorpg:alchemy_station"
+				type: "item"
+			}]
+			title: "Alchemy Station"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F53568BFBE6E6A5"]
+			description: ["Three distinct alchemy systems exist in this pack — Mine & Slash potions, Soul Land pill crafting, and Blood Magic transmutation. Each serves a different role: M&S potions for combat buffs, Soul Land pills for cultivation acceleration, and Blood Magic for permanent power upgrades. See the Alchemy chapter for an overview of all three."]
+			id: "034EBAE02D0EEB63"
+			tasks: [{
+				id: "5DDD7139B4418FED"
+				title: "Alchemy"
+				type: "checkmark"
+			}]
+			title: "The Path of Alchemy"
+			x: 4.5d
+			y: 3.5d
+		}
+	]
+	title: "Soul Land Awakening"
+}

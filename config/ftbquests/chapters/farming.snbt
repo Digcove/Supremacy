@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming"
+	group: "1E24DF067925061D"
+	id: "49F3543207F05E3C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ABDA0A1EA25EB8F"]
+			description: ["Pam's HarvestCraft adds over 80 unique crops to the world, each with its own seed, harvest, and food item. Agave is among the earliest. Farmer's Delight then combines these crops into full meals that provide lasting buffs. A well-stocked farm is the foundation of every long expedition."]
+			id: "22C4FB700C4C7B5F"
+			rewards: [
+				{
+					id: "6AD368353317632A"
+					item: "pamhc2crops:agaveseeditem"
+					type: "item"
+				}
+				{
+					id: "52AC52C174D0C90F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "724E658249BDE3CF"
+				item: "pamhc2crops:agaveitem"
+				type: "item"
+			}]
+			title: "Pam's Harvest"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22C4FB700C4C7B5F"]
+			description: ["You have expanded your farm beyond the basics. Diversifying your crop selection unlocks new cooking recipes in Farmer's Delight and provides the raw materials for Mine & Slash's alchemy system. A cultivator who tends their garden tends their power."]
+			id: "0976ED57329E13EB"
+			rewards: [{
+				id: "3CF937A765724FC4"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDF1A8C3FF22BCE"
+				title: "All Growed Up"
+				type: "checkmark"
+			}]
+			title: "All Growed Up"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["453608F7110E1D8E"]
+			description: ["Farming in this pack follows a dedicated progression path. Hoes unlock crop tilling, but the tier of hoe matters — higher material tiers till faster and over wider areas. Invest in your farming tools as you would your combat gear; the returns scale accordingly."]
+			id: "0487B5BA7036BFC5"
+			tasks: [{
+				id: "5F8D35D313A13577"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hoes and Hoegression in this pack"
+			x: -4.0d
+			y: -0.5d
+		}
+	]
+	title: "Farming"
+}

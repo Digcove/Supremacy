@@ -1,0 +1,706 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soul_land_cultivation"
+	group: "66B93D134A8EFA8F"
+	id: "0C88FB090F807D60"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33EAD812978BAB9C"]
+			description: ["Your martial soul has awakened. The Soul Land mod tracks your cultivation rank from 1 to 120 across 14 stages — from Spirit Scholar to God. Your Talent score, assigned at birth, determines your starting pace but not your ceiling. Meditate regularly at your Cultivation Altar, use herbs wisely, and always complete your breakthrough cycles."]
+			id: "330FEE9467B9D8A6"
+			rewards: [{
+				id: "5C6DA795C4125F36"
+				item: "soulland:spirit_condensing_pill"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "soulland:story/awakening"
+				criterion: ""
+				icon: "forbidden_arcanus:enchanted_soul"
+				id: "50BC48737A980C71"
+				type: "advancement"
+			}]
+			title: "The First Awakening"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["330FEE9467B9D8A6"]
+			description: ["A Soul Ring is absorbed from a defeated spirit beast. The White Ring comes from a 10-year beast — found in the Star Dou Forest Edge. Each ring permanently enhances one of your martial soul's skills; rings cannot be removed once absorbed. The age and species of the beast determines the ring's power. Choose carefully — you only get nine rings across your entire lifetime."]
+			id: "5FC6C2D842B38AD2"
+			rewards: [{
+				count: 2
+				id: "6A1B1D2DEBDF475A"
+				item: "soulland:spirit_condensing_pill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32EB55AE42EEA5BF"
+				item: "soulland:white_soul_ring"
+				type: "item"
+			}]
+			title: "First Soul Ring"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["330FEE9467B9D8A6"]
+			description: ["Botania's mystical flowers bloom across every biome, each with a distinct color and function. Gathering four unique types and reading the Lexica Botania is your introduction to a mana-based magic system that runs in parallel with your soul cultivation. Botania and Soul Land share material gates — you will need both."]
+			id: "5497889D31975BB4"
+			rewards: [
+				{
+					count: 4
+					id: "38E588CF03832611"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					id: "7D6596784F61D11C"
+					item: "botania:lexicon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2FE21A9D8185B849"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Mystical Flowers"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FC6C2D842B38AD2"]
+			description: ["The soul ring is now bound to your martial soul. Your spirit beast hunting should continue — Yellow Rings (100-year beasts) await in the Outer Forest, and Purple Rings (1000-year) in the Inner Forest. Each ring slot unlocks at a specific cultivation rank, so prioritize rank advancement alongside ring collection."]
+			id: "503C916FBA9B26FD"
+			tasks: [{
+				advancement: "soulland:story/first_ring"
+				criterion: ""
+				id: "2653006433AF9847"
+				type: "advancement"
+			}]
+			title: "Bound in Soul"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5497889D31975BB4"]
+			icon: "botania:apothecary_default"
+			description: ["The Petal Apothecary converts flower petals into Botania's functional flowers. Fill it with water, then throw in the crafting ingredients listed in the Lexica Botania. Endoflames — which burn fuel to generate mana — are your first priority. Craft four and point a Mana Spreader at a Mana Pool to establish your first mana supply."]
+			id: "75C157B691AC5AFE"
+			rewards: [{
+				count: 4
+				id: "6F8D8F2D3CA2F7B1"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FA7A6EA7010DB96"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			title: "Petal Apothecary"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75C157B691AC5AFE"]
+			description: ["The Pure Daisy is placed in the world and converts adjacent Stone into Livingrock and Wood into Livingwood over time — the foundational materials for all Botania infrastructure. Craft two and let them work passively while you tend to other progression. You will need substantial Livingrock quantities before long."]
+			id: "39E3B53123CFECC7"
+			rewards: [
+				{
+					count: 5
+					id: "49AC328CE1199457"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "17B526C51FA0C9E4"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "143A437A17FAD1CC"
+				item: { Count: 2, id: "botania:pure_daisy" }
+				type: "item"
+			}]
+			title: "Pure Daisy"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39E3B53123CFECC7"]
+			description: ["Mana is Botania's energy currency. Generating flowers produce it; Mana Spreaders beam it into Mana Pools. The Mana Pool stores it for use in crafting and mana infusion. Keep your pool topped up — Manasteel production alone requires thousands of mana per ingot, and the Terra Plate demands an uninterrupted sustained supply."]
+			id: "6CD3FDD027906C44"
+			rewards: [{
+				id: "0166507C7DDB6897"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "3577A57E4B4E34F5"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "697EAC3A577794BF"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			title: "First Mana Pool"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75C157B691AC5AFE"]
+			description: ["The Endoflame is Botania's entry-level generating flower. It burns solid fuels — coal, charcoal, and coal blocks — to produce mana. Coal blocks are the most efficient fuel per slot. A bank of four Endoflames feeding a single Spreader provides a reliable baseline mana supply while you build toward more efficient flowers."]
+			id: "5B7F342A6DC75143"
+			tasks: [{
+				count: 4L
+				id: "39E51FDE01B10F0A"
+				item: { Count: 4, id: "botania:endoflame" }
+				type: "item"
+			}]
+			title: "Endoflame"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5B7F342A6DC75143"
+				"6CD3FDD027906C44"
+			]
+			description: ["The Open Crate drops items directly below it when a Redstone signal is applied. Place one above your Endoflames with a pressure plate trigger to automate fuel delivery. This eliminates the single largest maintenance burden in early Botania and frees you to focus on building the rest of your mana infrastructure."]
+			id: "73045CEAB13DB4AD"
+			rewards: [{
+				count: 8
+				id: "7761DD0FFDE0DDDB"
+				item: "quark:charcoal_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "19D3D2FC40E10124"
+					item: "botania:open_crate"
+					type: "item"
+				}
+				{
+					id: "4BD5563F9903B39A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wooden_pressure_plates"
+						}
+					}
+					title: "Any #minecraft:wooden_pressure_plates"
+					type: "item"
+				}
+			]
+			title: "Open Crate Automation"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["503C916FBA9B26FD"]
+			description: ["Qi Crystal Ore generates at diamond depth and emits a faint luminescence. Mine it raw and smelt it to obtain Qi Crystals — a key reagent in Soul Land forging recipes and a catalyst used in Botania's mana infusion gate for Spirit Steel. Keep a stockpile; demand increases significantly as you advance."]
+			id: "10ED7158063F7663"
+			rewards: [{
+				count: 8
+				id: "5F7BD71A8643EE9A"
+				item: "soulland:qi_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6AB03783F6ED9643"
+				item: { Count: 4, id: "soulland:spirit_ore_raw" }
+				type: "item"
+			}]
+			title: "Qi Crystal Ore"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6CD3FDD027906C44"
+				"5B7F342A6DC75143"
+				"73045CEAB13DB4AD"
+				"10ED7158063F7663"
+			]
+			description: ["Manasteel is produced by infusing Iron Ingots with 3,000 mana in Botania's mana infusion process — drop the ingot into a Mana Pool. In this pack, the infusion recipe has been modified to also yield Spirit Steel Ingots, gating mid-tier Soul Land crafting behind your Botania progress. This is the first major convergence of the two systems."]
+			id: "6DACE8982D9E9FA0"
+			rewards: [{
+				count: 4
+				id: "6E0A6DA357311FF2"
+				item: "soulland:spirit_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01A110C3DE5BDAB4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			title: "Manasteel & Spirit Steel"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CD3FDD027906C44"]
+			description: ["The Runic Altar uses mana and materials to craft Runes — the building blocks of Botania's highest-tier recipes. Each rune represents one of the classical elements. To craft a rune, place the ingredients on the altar, then right-click with your Wand of the Forest while it holds sufficient mana."]
+			id: "26F5385A961388DF"
+			rewards: [
+				{
+					id: "4ADAF2DFEC1CFBC2"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "640CA2289FEC4A9E"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46A77C8AF9F88A83"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "Runic Altar"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"26F5385A961388DF"
+				"6DACE8982D9E9FA0"
+			]
+			description: ["The Rune of Water is forged at the Runic Altar using Mana Pearls and water-related materials. It is required for the Water Rod and is one of four elemental runes needed to unlock Terrasteel — the apex of Botania's material progression."]
+			id: "738DA05E474241BB"
+			tasks: [{
+				count: 2L
+				id: "44779A68A9F3E37C"
+				item: { Count: 2, id: "botania:rune_water" }
+				type: "item"
+			}]
+			title: "Rune of Water"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"26F5385A961388DF"
+				"6DACE8982D9E9FA0"
+			]
+			description: ["The Rune of Fire is forged at the Runic Altar using Mana Pearls and Blaze Powder. It is required for the Fire Rod and is one of four elemental runes that gate Terrasteel production."]
+			id: "1CE280BE9D6AB1F4"
+			tasks: [{
+				count: 2L
+				id: "2506B682351C710A"
+				item: { Count: 2, id: "botania:rune_fire" }
+				type: "item"
+			}]
+			title: "Rune of Fire"
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"26F5385A961388DF"
+				"6DACE8982D9E9FA0"
+			]
+			description: ["The Rune of Earth is forged from Livingrock and natural materials at the Runic Altar. It enables the Dirt Rod and contributes to the Terrasteel crafting chain. All four runes are required before the Terrestrial Agglomeration Plate can be activated."]
+			id: "1D2F06656F6C6EC8"
+			tasks: [{
+				count: 2L
+				id: "03A5D7B1052C3332"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			title: "Rune of Earth"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6DACE8982D9E9FA0"
+				"26F5385A961388DF"
+			]
+			description: ["The Rune of Air completes the four classical element runes. Together with Water, Fire, and Earth, it is required for Terrasteel production and several advanced Botania tools. Craft two — one for the Terra Plate pattern and one to keep on hand for future recipes."]
+			id: "46D9C86A05048965"
+			tasks: [{
+				count: 2L
+				id: "65973E6DA01EC078"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			title: "Rune of Air"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["738DA05E474241BB"]
+			description: ["The Water Rod conjures a temporary water source at the target location. A practical exploration and farming tool at modest mana cost. Useful for creating waterfalls, filling tanks, or placing water sources in the Nether where conventional water placement is blocked."]
+			id: "583E232A3327ABD7"
+			tasks: [{
+				id: "07D422B44E52472D"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			title: "Water Rod"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["46D9C86A05048965"]
+			description: ["The Tornado Rod launches you into the air and grants a brief upward burst of momentum. Combined with Paragliders, this effectively gives you controlled aerial traversal without a full elytra setup. Keep it charged — it can save your life in difficult terrain."]
+			id: "3A255D1A5833FF71"
+			tasks: [{
+				id: "6073C9C178091B4F"
+				item: {
+					Count: 1
+					id: "botania:tornado_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Tornado Rod"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D2F06656F6C6EC8"]
+			description: ["The Dirt Rod summons a column of dirt from below the target location, up to a fixed height. Useful for bridging gaps, scaling cliffs, or rapidly placing terrain without consuming inventory materials. A practical utility tool at very low mana cost."]
+			id: "49B4340624D575EB"
+			tasks: [{
+				id: "528F546222FBD697"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			title: "Dirt Rod"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1CE280BE9D6AB1F4"]
+			description: ["The Fire Rod conjures a burst of Botania's natural fire at the target location, igniting blocks and entities in a small radius. Effective against groups of enemies, particularly in open areas. The mana cost scales with use, making it a situational combat tool rather than a primary weapon."]
+			id: "1913B5390F037B5E"
+			tasks: [{
+				id: "12AA1B33D6F81528"
+				item: "botania:fire_rod"
+				type: "item"
+			}]
+			title: "Fire Rod"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1913B5390F037B5E"
+				"49B4340624D575EB"
+				"583E232A3327ABD7"
+				"3A255D1A5833FF71"
+			]
+			description: ["You command all four elemental rods. Like the ancient spirit masters of the continent, you bend wind, water, fire, and earth to your will. The Runic Altar is now fully accessible and the path to Terrasteel lies open before you."]
+			icon: {
+				Count: 1
+				id: "roe_weapons:staff_4"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E97DD1D2B3B2C27"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "295DEDA7E9C42946"
+					table_id: 6796354839241581959L
+					type: "choice"
+				}
+				{
+					id: "6C8B437A04378DB0"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/legendary"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04AE5DA47104E4B0"
+				title: "Avatar"
+				type: "checkmark"
+			}]
+			title: "Avatar of the Elements"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6DACE8982D9E9FA0"]
+			description: ["Blood Magic draws power from Life Points — your own vitality. The Blood Altar is the heart of the system; sacrifice your health into it using the Sacrificial Dagger, or sacrifice mobs via a Well of Suffering ritual. As your altar tier rises, access to sigils, orbs, and rituals expands. Blood Magic power scales far beyond what early-game alternatives can match."]
+			id: "5D935273D1D08BAC"
+			rewards: [
+				{
+					id: "5C239C03464EF339"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "009A712D0C85A7EE"
+					item: "soulland:blood_coagulation_herb"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27B707D2E3E3ED14"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			title: "Blood Altar"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DACE8982D9E9FA0"]
+			description: ["Manasteel Armor offers solid defense with a passive mana resonance bonus that reduces spell costs. A full set marks your transition from iron-era survivalism to cultivator-class protection. Apply Rare armor stat souls to each piece before entering serious combat zones."]
+			id: "7C266B6B79B327B0"
+			rewards: [{
+				count: 4
+				id: "6096F1B45B9E8A60"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "067EDE0FB372D360"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0883C08046483A53"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D1973788D014D7"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "711E6AF9DECFDF86"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Armor"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5D935273D1D08BAC"]
+			description: ["The Weak Blood Orb stores Life Points outside the altar, allowing portable LP management and access to low-tier sigils in the field. Creating it requires 2,000 LP — a substantial but necessary investment. The Blood Coagulation Herb found in Soul Land helps offset the health cost of large sacrifices."]
+			id: "38C29C6628EE73D9"
+			rewards: [{
+				id: "13AB7F23DBC527E5"
+				item: "soulland:blood_coagulation_herb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6217A9B44934FD3F"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			title: "Weak Blood Orb"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5D935273D1D08BAC"]
+			description: ["Blank Slates are crafted by infusing Smooth Stone with LP at the Blood Altar. They are required for nearly every Blood Magic upgrade path — sigil crafting, orb tiers, and ritual stones all demand them in quantity. Establish a steady production line early; you will consume hundreds over a full Blood Magic progression."]
+			id: "09A01ED1974A1836"
+			rewards: [{
+				count: 3
+				id: "52A32474753AEFD6"
+				item: "soulland:blood_coagulation_herb"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "23561829A55F55A2"
+				item: { Count: 4, id: "bloodmagic:blankslate" }
+				type: "item"
+			}]
+			title: "Blank Slates"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DACE8982D9E9FA0"]
+			description: ["The Terrestrial Agglomeration Plate forges Terrasteel from Manasteel, Mana Pearl, and Mana Diamond. Build a precise multiblock with two Mana Pools feeding the plate, place the four elemental runes in the correct pattern, then throw the ingredients on top. The plate consumes mana continuously until the process completes — do not interrupt it."]
+			id: "7C1B9CFE0B916B83"
+			rewards: [{
+				id: "6EFBFF69710682DB"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "096D0312B4F0561D"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "04D9AE717B3B3C67"
+					item: { Count: 5, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1100E3F4DFE067B6"
+					item: { Count: 4, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+			]
+			title: "Terrestrial Agglomeration Plate"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7C1B9CFE0B916B83"]
+			description: ["Mana Sparks attach to Mana Pools and automatically transfer mana between adjacent pools. They remove the need for Spreader micromanagement and dramatically improve mana logistics once your Botania infrastructure grows beyond a single pool. Craft two and use them to equalize your primary production pools."]
+			id: "21FA03803B15AD7C"
+			rewards: [{
+				count: 2
+				id: "62EB9F2695BD57B9"
+				item: "botania:spark"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5D98F36C11257BBD"
+				item: { Count: 2, id: "botania:spark" }
+				type: "item"
+			}]
+			title: "Mana Sparks"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"21FA03803B15AD7C"
+				"7C1B9CFE0B916B83"
+			]
+			description: ["Terrasteel is Botania's apex crafting material — dense with mana and resonant with life energy. It unlocks the Alfheim Portal, the Elementium production chain, and several endgame tools and armor pieces. Every Terrasteel ingot you produce represents a meaningful commitment of mana infrastructure."]
+			id: "59FC1DC92898EE5E"
+			tasks: [{
+				id: "72158F0D783153BE"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["59FC1DC92898EE5E"]
+			description: ["The Alfheim Portal opens trade with the fairy dimension. Throw Livingwood and Livingrock through the portal to receive Elven materials in return — including the Elven Gateway Core required for endgame Botania crafting. The portal consumes mana continuously while open; keep your pools supplied before activating it."]
+			id: "6DF58A9163227678"
+			rewards: [{
+				count: 8
+				id: "16551CE76EC2FEDC"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4382DE8C81912A55"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "The Alfheim Portal"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5FC6C2D842B38AD2"]
+			description: ["Spirit Scholar is the first formal cultivation rank — the point where your soul power stabilizes and your martial soul begins to express its unique traits. Continue your breakthrough cycles every 10 ranks, absorb more soul rings as higher-age beasts become accessible, and deepen your Alchemy practice to accelerate your ascent."]
+			id: "792CE5342E2F27E8"
+			tasks: [{
+				advancement: "soulland:cultivation/spirit_scholar"
+				criterion: ""
+				id: "0A4D1EF6DEE78401"
+				type: "advancement"
+			}]
+			title: "Spirit Scholar"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Soul Land Cultivation"
+}
