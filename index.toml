@@ -25,8 +25,12 @@ file = "config/combatroll/server.json5"
 hash = "51c39e1ea277838365b95f768ea9bae9189bc19dfff5155e7fdc4ebbcb74ee01"
 
 [[files]]
-file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "211530c4da6fe8aa98413cb77853abda4722e64140bed139b5297be3ececba6c"
+file = "config/ftbquests/chapter_groups.snbt"
+hash = "ae4e6f98712c10f20427b616080763864bb737af937cdf06b3e07aa73a6379ef"
+
+[[files]]
+file = "config/ftbquests/data.snbt"
+hash = "04c088f8c37c753a0676adbdb18540f8f7134a0d37430440849795cd49118b08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/a_portal_of_lost_worlds.snbt"
@@ -41,10 +45,6 @@ file = "config/ftbquests/quests/chapters/alchemy.snbt"
 hash = "025fd17edc3a187ef5bdc21cfb17bfc9ade3034b2f45c04c9b3d4bae49a4e2ad"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "2aafe3de42945bf24038322e08e47fffd36c7b29a3e9a7e6056a48efc1e8d494"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
 hash = "1b783fa382e3a3484ce7819687597935aa0523996c94a8fef9aac7a68d8c835f"
 
@@ -57,36 +57,24 @@ file = "config/ftbquests/quests/chapters/biome_hopper.snbt"
 hash = "283d5b94a89d8a69e4c6147c6bf54e8fee659afc88f2ce1dad1a4eb6c1d140ef"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "9446dab0002bdc91a293613570650004b82bc60de78249ee7aba899e28812ab0"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/draconic_age_part_1.snbt"
 hash = "49ead41751e6b15aa9ff247afcf6ef7d7ef0f81d7101652d0b44cc365e6e234c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/early_game.snbt"
-hash = "f42b20be5d03683591128f91d40e8cdc9a13d9bb9e9f8d817befaf6c8df8f35a"
+hash = "2dfc075054a51038e86bdfa4c102f40c461e610c99334ab7988f11f139c9588b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "1c2fef7e9bcf67b92399d7dcdaf59973e44852938d3967e84e2dfbc0949e2f29"
+hash = "f6bc7bb06eaec8e80df7ccaf767c0ab9b996721496c8bfc13c1baf07bc34ad28"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/futuristic_mechanisms.snbt"
 hash = "7bf33967426cc0ff38487b6ab4e633489cb8f9ea6eca12e0a058b76ce114c303"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/greg.snbt"
-hash = "49416a85afcfcc24aec0af8c288e2740517ccc3bb6a1d02af70024be8f128fc1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/high_voltage.snbt"
-hash = "96dd9a0bf3e62f1ff063961986ff610a5dd2bcaa6e1f7d429693e0a598ad381b"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
-hash = "99603a916371191e28a59d62d044cf45ecfea17862cee077e760bee3e2a96643"
+file = "config/ftbquests/quests/chapters/industrial_soul_refinement.snbt"
+hash = "6e922809c9c5ee2a2836d37b544ef6487a52dec910204e42b5a23a7140b1d3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
@@ -97,16 +85,8 @@ file = "config/ftbquests/quests/chapters/line_of_progression.snbt"
 hash = "f07d4e9a783d88fd51eea7ff63cf831a12f244c92e67b17a1222c669ecf8fa85"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/lv_machines.snbt"
-hash = "b53c217f71d4f2937f93fd47928bdf20f96048d9780c5d3366b290fe1c2232d9"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/mechanics.snbt"
 hash = "f0b506e2b2f82dc3754184ef9e8fdab178e0565c9a0ea05679de69418984dbc1"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/medium_voltage.snbt"
-hash = "f6e5cd01a6f76fa1eb154734858ae3fea6256b81351db70a7952369f0d1c9a41"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mystical_agriculture_gregified.snbt"
@@ -115,10 +95,6 @@ hash = "e86a3cebc377ffbd27e3de593e11c43e7725566e76f8ba12c631836fce0e1745"
 [[files]]
 file = "config/ftbquests/quests/chapters/nuclear_fission.snbt"
 hash = "63ba4486832cbf7f1039b04cb4cbc44bfc40a1c244af6a643d1b619a4c72af0d"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/ore_processing.snbt"
-hash = "c0fc0f3fa52b4353d57842d148671c324149540b431c8856520ce8bda9ca70f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pl1.snbt"
@@ -146,7 +122,7 @@ hash = "909d5b53b3eb242ea76692b626599002d540b4436abae494e962c5c32682e53d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/preparing_for_dimensional_travel.snbt"
-hash = "58ba88c4f6ebf55aae3dce69de5d95773832d6dd28457420b3dde483f482498b"
+hash = "1b6922e2ccbdc96f6560591b86a2cb8898cc3fac86627a7cdc34441586ca8f7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quality_of_life.snbt"
@@ -158,19 +134,19 @@ hash = "a4819355dee712049ae266d66edbdfb4180d4fbf00e9b23124261bb8ed1609a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
-hash = "192d5940bb31344d597545e26a8fee72ce7478cd6c28442ce7d79cf0d8327ba7"
+hash = "7a6c2e52a74329aed6154ecc344c58371c94ab3396779ed74c63363056c7926e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_awakening.snbt"
-hash = "c6a3ace51f362d879cadf702bd20891dedde0271f14d7b4780511676b6975a8f"
+hash = "a823d2b5306c0bdecb95017150d31d7a92531daf77a6520699120eb4d5020d8a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_cultivation.snbt"
-hash = "8c3b1fca91357fd824c98646635c027ebb5de706f3c462ac7069b3bba2312d29"
+hash = "161875153faa2d8981160fd477195adba6f04e9baf425914518c0ba0aaa87c4c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_weapons.snbt"
-hash = "18007defc649854e5c22fb29e2069cd9d363dfc972b69d7e6997cffa0cd0d9ba"
+hash = "5048d0d5bacbb37588447f8c7481f41cbbb4ad7692d34b596232d59cb457edb0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/structures.snbt"
@@ -181,16 +157,12 @@ file = "config/ftbquests/quests/chapters/the_stars_await_greatness.snbt"
 hash = "d8c5eacb71ab40c14d1b890768cb467a4a937d76c4deb768070fc62b10c1068d"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/voltage_and_vitality.snbt"
+hash = "b833a4d72a5bd3ee6d0ca2dcc67eaf82ba3edb763939171162f3598140c67b7b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "9ca160197f0a2476fe32cb63ded0754cd726150227ca8fcfa169d07adbdbf4df"
-
-[[files]]
-file = "config/ftbquests/quests/data.snbt"
-hash = "04c088f8c37c753a0676adbdb18540f8f7134a0d37430440849795cd49118b08"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/legendary.snbt"
-hash = "0e976f4e5f94a88a7f218622121e416e4e8ea41802c5da25294a272be47112d5"
+hash = "77941753b9f41db0ca5400552a7885cdbb88b71f22c9d9b1826eb1dc5dcdfeac"
 
 [[files]]
 file = "config/gtceu.yaml"
