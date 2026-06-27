@@ -1,0 +1,352 @@
+{
+	autofocus_id: "VL01000000000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "through_the_veil"
+	group: "66B93D134A8EFA8F"
+	icon: "sgjourney:classic_stargate"
+	id: "BBAACC0000000001"
+	order_index: 5
+	progression_mode: "linear"
+	quests: [
+		{
+			id: "VL0000000000000F"
+			invisible: true
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "VL0F0000000000FF"
+				title: "{ftbquests.positioner.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["IV0100000000001A"]
+			description: ["Naquadah is not mined so much as refined. The raw ore must be crushed, washed, and centrifuged before the EBF will accept it. Pull the first ingots from the dust before you think about stargates."]
+			id: "VL01000000000001"
+			rewards: [{
+				id: "VL03000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000001"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			title: "Naquadah Dust"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["VL01000000000001"]
+			description: ["Enriching raw naquadah in the EBF amplifies its dimensional resonance coefficient. Every alloy in the stargate structural matrix requires this intermediate form—there is no shortcut through the smelting step."]
+			id: "VL01000000000002"
+			rewards: [{
+				id: "VL03000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000002"
+				item: "gtceu:enriched_naquadah_ingot"
+				type: "item"
+			}]
+			title: "Enriched Naquadah"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["VL01000000000002"]
+			description: ["Naquadah Alloy combines enriched naquadah with Osmiridium under extreme heat. The resulting material is self-resonant—it sustains an Einstein-Rosen bridge without continuous energy input, which is the only reason stargates are practical at all."]
+			id: "VL01000000000003"
+			rewards: [{
+				count: 2
+				id: "VL03000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "VL02000000000003"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			title: "Naquadah Alloy"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"VL01000000000003"
+				"07B89901B2D44559"
+			]
+			description: ["Your soul has expanded beyond the limits of a single world. The Spirit Ancestor confirms what the dimensional resonance has been whispering: the walls between planes are thin, and yours is a form capable of passing through them."]
+			id: "VL01000000000004"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "VL02000000000004"
+				title: "Become a Spirit Ancestor"
+				type: "checkmark"
+			}]
+			title: "Spirit Sovereign"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["VL01000000000004"]
+			description: ["Naquadah crystal lattices are the only medium that can decode a DHD signal burst and translate it into a stable wormhole formation sequence in time. Grow the interface crystal and set it into its housing."]
+			id: "VL01000000000005"
+			rewards: [{
+				id: "VL03000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000005"
+				item: "sgjourney:crystal_interface"
+				type: "item"
+			}]
+			title: "Crystal Interface"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["VL01000000000001"]
+			description: ["14 ring segments form the rotating aperture of a Classic Stargate. Each is precision-cast from naquadah alloy plate and etched with a portion of the address encoding geometry. Incomplete rings produce unstable wormholes."]
+			id: "VL01000000000006"
+			rewards: [{
+				id: "VL03000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000006"
+				item: "sgjourney:classic_stargate_ring_block"
+				type: "item"
+			}]
+			title: "Ring Segment"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["VL01000000000006"]
+			description: ["9 chevrons lock each glyph into the gate's seven-symbol address matrix. Their geometry requires sub-millimeter manufacturing tolerance—loose chevrons let the kawoosh destabilize mid-formation."]
+			id: "VL01000000000007"
+			rewards: [{
+				id: "VL03000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000007"
+				item: "sgjourney:classic_stargate_chevron_block"
+				type: "item"
+			}]
+			title: "Chevron Block"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["VL01000000000007"]
+			description: ["The base block anchors the full ring assembly and houses the primary inter-dimensional power conduit. Without a stable foundation the gate would physically translate across the floor when the wormhole activates."]
+			id: "VL01000000000008"
+			rewards: [{
+				id: "VL03000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL02000000000008"
+				item: "sgjourney:classic_stargate_base_block"
+				type: "item"
+			}]
+			title: "Gate Foundation"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"VL01000000000008"
+				"VL01000000000005"
+			]
+			description: ["14 ring blocks. 9 chevrons. 1 base block. Place the crystal interface and align the assembly. When the seventh chevron locks and the kawoosh erupts, you will understand why the Ancients considered this their greatest work."]
+			icon: "sgjourney:classic_stargate"
+			id: "VL01000000000009"
+			rewards: [{
+				count: 5
+				id: "VL03000000000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Chevron Seven... Locked."
+			tasks: [
+				{
+					id: "VL02000000000009"
+					item: "sgjourney:classic_stargate_base_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "VL0200000000000A"
+					item: "sgjourney:classic_stargate_chevron_block"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "VL0200000000000B"
+					item: "sgjourney:classic_stargate_ring_block"
+					type: "item"
+				}
+			]
+			title: "The Gate Is Open"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["VL01000000000009"]
+			description: ["The Dial Home Device converts symbol presses into encoded gate addresses and transmits them to the stargate's event horizon controller. Without one you will be manually entering seven-glyph sequences via the DHD bypass interface—one excruciatingly slow symbol at a time."]
+			hide_dependency_lines: true
+			id: "VL0100000000000A"
+			optional: true
+			rewards: [{
+				id: "VL0300000000000A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "VL0200000000000C"
+				item: "sgjourney:classic_dhd"
+				type: "item"
+			}]
+			title: "Dial Home Device"
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["VL01000000000009"]
+			description: ["Step through the active stargate into Abydos—a harsh desert planet orbiting a binary star. The locals call it a gift from the gods. You call it the first confirmed proof that the universe extends far beyond the Overworld."]
+			id: "VL0100000000000B"
+			rewards: [{
+				id: "VL0300000000000B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				icon: "minecraft:suspicious_sand"
+				id: "VL0200000000000D"
+				title: "Enter Abydos"
+				type: "dimension"
+			}]
+			title: "Through the Veil"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["VL0100000000000B"]
+			description: ["Abydos naquadah ore is the richest in the local gate network. Mine it on-world and smelt it into armor. Naquadah plate is heavier than titanium and shrugs off energy discharges that vaporize conventional alloys."]
+			hide_dependency_lines: true
+			id: "VL0100000000000C"
+			optional: true
+			rewards: [{
+				id: "VL0300000000000C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "VL0200000000000E"
+					item: {
+						Count: 1
+						id: "sgjourney:naquadah_helmet"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "VL0200000000000F"
+					item: {
+						Count: 1
+						id: "sgjourney:naquadah_chestplate"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "VL02000000000010"
+					item: {
+						Count: 1
+						id: "sgjourney:naquadah_leggings"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+				{
+					id: "VL02000000000011"
+					item: {
+						Count: 1
+						id: "sgjourney:naquadah_boots"
+						tag: { Damage: 0 }
+					}
+					type: "item"
+				}
+			]
+			title: "Naquadah Armor"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["VL0100000000000B"]
+			description: ["The Goa'uld built their temples to intimidate, to worship Ra, and to guard naquadah deposits. Inside you will find the golden idol that marks a sanctioned traveler—and relics the System Lords never intended to leave this world."]
+			id: "VL0100000000000D"
+			rewards: [{
+				count: 2
+				id: "VL0300000000000D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "sgjourney:golden_idol"
+				id: "VL02000000000012"
+				structure: "sgjourney:goauld_temple/desert_pyramid/desert_pyramid"
+				title: "Locate a Goa'uld Temple"
+				type: "structure"
+			}]
+			title: "Children of the Gods"
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["VL0100000000000D"]
+			description: ["The cartouche is an encrypted gate address carved in sandstone. This one marks a destination no Classic Stargate can dial—it requires nine chevrons and a gate built to Milky Way specification. The next stargate will need to be far more sophisticated."]
+			hide_dependency_lines: true
+			id: "VL0100000000000E"
+			optional: true
+			rewards: [{
+				id: "VL0300000000000E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "sgjourney:sandstone_cartouche"
+				id: "VL02000000000013"
+				structure: "sgjourney:cartouche/abydos_cartouche"
+				title: "Read the Cartouche"
+				type: "structure"
+			}]
+			title: "The Nine-Chevron Address"
+			x: 15.0d
+			y: 5.0d
+		}
+	]
+	title: "Through the Veil"
+}
