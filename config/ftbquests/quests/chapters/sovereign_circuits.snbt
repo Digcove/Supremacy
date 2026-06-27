@@ -1,0 +1,648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sovereign_circuits"
+	group: "66B93D134A8EFA8F"
+	icon: "start_core:luv_fusion_reactor"
+	id: "C1D2E3F4A5B6C7D8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["AE01000000000007"]
+			description: ["Extreme Voltage was just the beginning. The IV tier represents the first rung of GTCEu's high-voltage endgame — a domain where raw circuit density begins to outpace human-scale assembly. The Micro Processor chip architecture introduces a new wafer fabrication loop, and the Assembly Line replaces the crafting table as your production method for everything that follows. Nothing at this tier opens without proving your magical progression has matched your industrial ambition first. The Elven realm has something to say about that."]
+			id: "IV01000000000001"
+			tasks: [{
+				id: "IV02000000000001"
+				title: "Sovereign Circuits"
+				type: "checkmark"
+			}]
+			title: "Sovereign Circuits"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000001"]
+			description: ["The CPU Wafer is produced in the Chemical Vapor Deposition unit from Silicon Boule sliced to wafers, then etched and cleaned in subsequent GTCEu chemistry steps. The CPU Chip is the first silicon component that cannot be hand-crafted — it requires your integrated GTCEu chemistry pipeline at HV tier, running continuously. Establish wafer fabrication before attempting any IV-tier circuit production. The entire chip ladder above depends on this loop being stable."]
+			id: "IV01000000000002"
+			rewards: [{
+				count: 3
+				id: "IV03000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "IV02000000000002"
+					item: "gtceu:cpu_wafer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "IV02000000000003"
+					item: "gtceu:cpu_chip"
+					type: "item"
+				}
+			]
+			title: "CPU Chip"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000002"]
+			description: ["The Microchip Processor is the entry-level IV circuit, assembled from CPU Chips and support components in the MV Circuit Assembler. At this scale, circuit fabrication begins to dominate recipe throughput — a single IV machine may require dozens of Microchip Processors before construction can begin. Automate your Circuit Assembler now and keep it running between projects; the demand only increases from here."]
+			id: "IV01000000000003"
+			rewards: [{
+				count: 3
+				id: "IV03000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000004"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			title: "Microchip Processor"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000003"]
+			description: ["The Micro Processor is the standard IV-tier circuit, assembled from Microchip Processor and RAM components. It unlocks most standard IV machines. For now, produce it in the HV Circuit Assembler using the available recipe path — the IV Circuit Assembler, which runs it faster and cheaper, requires the Nano Processor Mainframe to build first, and that milestone is a few steps ahead. Stockpile Micro Processors before starting any IV machine builds."]
+			id: "IV01000000000004"
+			rewards: [{
+				count: 3
+				id: "IV03000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000005"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			title: "Micro Processor"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000004"]
+			description: ["The Micro Processor Assembly bundles four Micro Processors into a single component board, used in the Micro Processor Computer and in high-tier machine recipes. At the scale required for IV production lines, automated circuit production via the Circuit Assembler multiblock is no longer optional — batch producing Assemblies manually will consume more time than it saves. Wire your Circuit Assembler into your AE2 autocrafting network and request on demand."]
+			id: "IV01000000000005"
+			rewards: [{
+				count: 3
+				id: "IV03000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000006"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			title: "Micro Processor Assembly"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000005"]
+			description: ["The Micro Processor Computer represents full mastery of the IV circuit tier. It is the direct recipe input for the most demanding IV machine components and a gate into the Nano Processor tier above. But the circuit ladder alone is not enough to open the next stage — your magical progression must also have reached Elven attainment. The Alfheim Portal and its trade system stand between you and the Nano Processor Mainframe."]
+			id: "IV01000000000006"
+			rewards: [{
+				count: 5
+				id: "IV03000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "IV02000000000007"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			title: "Micro Processor Computer"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"IV01000000000006"
+				"4BFCD345F6B88901"
+			]
+			description: ["Elementium Ingots are smelted from Dragonstone returned through the Alfheim Portal trade system, after Elves accept your mana contributions and send back elemental materials. Elementium Armor's Pixie affinity — each piece procs a Guardian Pixie on damage taken — provides meaningful damage mitigation in sustained combat. Assembling the full set signals that your magical progression has matched your industrial ambition, and the Nano Processor tier opens. The Elves are satisfied. Press on."]
+			id: "IV01000000000007"
+			tasks: [{
+				id: "IV02000000000008"
+				title: "Elementium Resonance"
+				type: "checkmark"
+			}]
+			title: "Elementium Resonance"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000007"]
+			description: ["The Nano Processor Mainframe is the culmination of the IV circuit tier — a bus-sized computational array that serves as both the IV multiblock controller and the input for LuV machine assembly. A fully automated Circuit Assembler running your Nano Processor line is required for practical throughput. Manual crafting produces bottlenecks within minutes of beginning IV machine construction. This milestone marks the transition from EV-scale industry into GTCEu's high-voltage endgame."]
+			id: "IV01000000000008"
+			rewards: [{
+				count: 8
+				id: "IV03000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "IV02000000000009"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "Nano Processor Mainframe"
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000008"]
+			description: ["The IV Circuit Assembler doubles the throughput of the MV version and is required for automated Nano Processor production. It is the machine that makes future machines — without it, IV circuit production is manual and slow. Wire it directly into your AE2 autocrafting network with pattern providers for each circuit tier, then let the network fulfill requests on demand. From this point forward, no circuit is crafted by hand."]
+			id: "IV01000000000009"
+			rewards: [{
+				count: 5
+				id: "IV03000000000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV0200000000000A"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			title: "IV Circuit Assembler"
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["IV01000000000009"]
+			description: ["The IV Parallel Hatch allows multiblock machines to process multiple recipes simultaneously — up to 4 recipe slots per hatch at IV power. Installing it in your Electric Blast Furnace doubles or quadruples throughput with no change to recipe times. Parallel processing is the first true throughput multiplier operating at the multiblock level rather than the component level. Build at least two and install one in your EBF before beginning LuV material production."]
+			id: "IV0100000000000A"
+			rewards: [{
+				count: 5
+				id: "IV0300000000000A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV0200000000000B"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			title: "IV Parallel Hatch"
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["IV01000000000008"]
+			description: ["QuarkTech Armor is GTCEu's IV-tier powered suit — constructed from Nano Circuits, Naquadah alloy, and field generation components. Each piece provides solid base defense plus charge slots for EU-powered abilities. The Advanced QuarkTech Chestplate adds flight capability at the cost of continuous EU draw. At IV power, the suit is fully sustainable on a mid-tier battery. This is competitive with Awakened Supremium and replaces the need for Hazmat suits in most non-radioactive environments."]
+			id: "IV0100000000000B"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "IV0300000000000B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "IV0200000000000C"
+					item: {
+						Count: 1
+						id: "gtceu:quarktech_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "IV0200000000000D"
+					item: "gtceu:quarktech_chestplate"
+					type: "item"
+				}
+				{
+					id: "IV0200000000000E"
+					item: "gtceu:quarktech_leggings"
+					type: "item"
+				}
+				{
+					id: "IV0200000000000F"
+					item: "gtceu:quarktech_boots"
+					type: "item"
+				}
+			]
+			title: "QuarkTech Armor"
+			x: 21.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["IV01000000000008"]
+			description: ["Rhodium-Plated Palladium is the signature LuV material — an exceptionally dense alloy of Palladium with a surface coat of Rhodium applied in the Chemical Reactor. Palladium is extracted from Platinum Group Metal concentrations; Rhodium comes from Palladium ore byproducts. Both require full wet chemistry separation chains in the EBF and Chemical Reactor. This is the material where GTCEu's chemistry tree and its machine tree intersect most tightly — you process one to build the other."]
+			id: "IV0100000000000C"
+			rewards: [{
+				count: 5
+				id: "IV0300000000000C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "IV0200000000000G"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			title: "Rhodium-Plated Palladium"
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV0100000000000C"]
+			description: ["Ruridit is an alloy of Iridium and Osmium, processed in the Alloy Smelter at LuV temperature. Osmium is a radioactive heavy metal requiring Hazmat protection during processing. Ruridit provides the structural component for LuV machine frames and the Assembly Line's core construction. It also appears in LuV Scanner and high-tier wiring recipes. Build your Ruridit stock alongside your Rhodium-Plated Palladium run — they are consumed together in LuV Hull and Assembly Line construction."]
+			id: "IV0100000000000D"
+			rewards: [{
+				count: 5
+				id: "IV0300000000000D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "IV0200000000000H"
+				item: "gtceu:ruridit_ingot"
+				type: "item"
+			}]
+			title: "Ruridit Ingot"
+			x: 24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"IV0100000000000C"
+				"IV0100000000000D"
+			]
+			description: ["The LuV Machine Hull marks the start of GTCEu's post-IV tier — a region where voltage requirements outpace conventional power generation and research-locked recipes become the norm. The Hull is assembled from Rhodium-Plated Palladium, Ruridit, and LuV circuit boards. From this point, every major machine requires the Assembly Line as its production method. If you have not yet built an Assembly Line, the LuV Hull is the gate — nothing significant advances past this point without one."]
+			id: "IV0100000000000E"
+			rewards: [{
+				count: 8
+				id: "IV0300000000000E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "IV0200000000000I"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			title: "LuV Machine Hull"
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"IV0100000000000E"
+				"IV01000000000008"
+			]
+			description: ["The Power Substation is GTCEu's largest energy buffer — a multiblock structure capable of storing hundreds of billions of EU across tiered Laser Hatch connections. It acts as the central battery for your IV and LuV power network, smoothing out the demand spikes of EBF alloy runs, Assembly Line production cycles, and Fusion Reactor startup draws. Build it before the LuV Fusion Reactor — the Reactor's startup sequence draws a massive EU pulse, and you need the buffer to absorb it."]
+			id: "IV0100000000000F"
+			rewards: [{
+				count: 8
+				id: "IV0300000000000F"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "IV0200000000000J"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			title: "Power Substation"
+			x: 27.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"IV0100000000000E"
+				"IV0100000000000D"
+			]
+			description: ["The Assembly Line is GTCEu's most important multiblock. It accepts multi-ingredient sequential recipes that no other machine can perform and is the sole production method for all LuV+ machines, sensors, emitters, and circuit assemblies. Research Items are submitted via a Research Station and stored in the Data Bank, then inserted via the data input hatch. Plan your first Assembly Line build carefully — the space requirement, maintenance inputs, and research infrastructure demand significant preparation."]
+			id: "IV01000000000010"
+			rewards: [{
+				count: 10
+				id: "IV03000000000010"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "IV02000000000011"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					id: "IV02000000000012"
+					item: {
+						Count: 1
+						id: "gtceu:data_stick"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "IV02000000000013"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{ Count: 1b id: "gtceu:ev_scanner" }
+								{ Count: 1b id: "gtceu:iv_scanner" }
+							]
+						}
+					}
+					title: "Any EV/IV Scanner"
+					type: "item"
+				}
+			]
+			title: "Assembly Line"
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000010"]
+			description: ["The LuV Sensor is used in Assembly Line recipes for higher machines and as a component in Quantum circuit assemblies. Sensors at the LuV tier contain Ruridit and Quantum CPU elements — expensive but consumed infrequently. Build a buffer of 16–32 units before beginning any sustained LuV production run. The Sensor also enables the LuV Scanner, which is your gateway into the Research Station loop."]
+			id: "IV01000000000011"
+			rewards: [{
+				count: 3
+				id: "IV03000000000011"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000014"
+				item: "gtceu:luv_sensor"
+				type: "item"
+			}]
+			title: "LuV Sensor"
+			x: 30.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["IV01000000000011"]
+			description: ["The LuV Scanner is a consumable tool used to produce Research Items for submission to the Research Station. Each unique Assembly Line recipe requires a corresponding Research Item to unlock — scanning new items adds them to your recipe database. Keep a powered Scanner adjacent to your Research Station at all times; the research loop blocks Assembly Line output if the Data Bank is missing a required recipe."]
+			id: "IV01000000000012"
+			rewards: [{
+				count: 3
+				id: "IV03000000000012"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000015"
+				item: "gtceu:luv_scanner"
+				type: "item"
+			}]
+			title: "LuV Scanner"
+			x: 32.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["IV01000000000010"]
+			description: ["The Data Bank stores Research Items produced by the Research Station and makes them accessible to the Assembly Line's data input hatch network. A single Data Bank can hold a large number of recipe entries. Keep it under passive power at all times — losing power to the Data Bank mid-run pauses Assembly Line production until the data connection is restored. Install it in your multiblock room's power grid, not on a separate circuit."]
+			id: "IV01000000000013"
+			rewards: [{
+				count: 3
+				id: "IV03000000000013"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000016"
+				item: "gtceu:data_bank"
+				type: "item"
+			}]
+			title: "Data Bank"
+			x: 30.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"IV01000000000013"
+				"IV01000000000012"
+			]
+			description: ["The Research Station processes LuV Scanners against recipe input items to produce the Research Items stored by the Data Bank. Submit a Scanner and a target item to receive the corresponding Research Item. The Research Station requires the LuV Scanner as a consumable tool and LuV-tier power. It is the critical gatekeeper for all post-LuV Hull Assembly Line recipes — every new machine requires you to run the research loop before construction begins."]
+			id: "IV01000000000014"
+			rewards: [{
+				count: 3
+				id: "IV03000000000014"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000017"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			title: "Research Station"
+			x: 32.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["IV01000000000014"]
+			description: ["The High Performance Computation Array is a compute cluster for GTCEu automation — a multiblock of Computation Components, Heat Sink Components, and optionally Active Cooler Components for sustained high-load operation. The HPCA accelerates certain data-processing machine operations and is required for Optical Computer functions at ZPM tier. Build it now while the components are accessible at LuV scale; the ZPM tier will assume it exists."]
+			id: "IV01000000000015"
+			rewards: [{
+				count: 5
+				id: "IV03000000000015"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "IV02000000000018"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "IV02000000000019"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "IV0200000000001A"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "IV0200000000001B"
+					item: "gtceu:hpca_active_cooler_component"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "HPCA"
+			x: 34.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["IV01000000000010"]
+			description: ["The QBit CPU Wafer is produced via quantum etching in the CVD unit at LuV-tier chemical conditions, then singulated into QBit CPU Chips. These chips form the core logic element of the Quantum Processor tier — GTCEu's LuV circuit — and cannot be produced below LuV temperatures. Establishing a QBit fabrication line requires your EBF running at 6000K+ and your Assembly Line supplying the wafer blanks on demand."]
+			id: "IV01000000000016"
+			rewards: [{
+				count: 5
+				id: "IV03000000000016"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "IV0200000000001C"
+					item: "gtceu:qbit_cpu_wafer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "IV0200000000001D"
+					item: "gtceu:qbit_cpu_chip"
+					type: "item"
+				}
+			]
+			title: "QBit CPU Chip"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"IV01000000000016"
+				"IV01000000000014"
+			]
+			description: ["The Quantum Processor chain — Quantum Processor, Assembly, Computer — represents the LuV circuit tier. Each step doubles processing density and halves recipe times in compatible machines. The Quantum Processor Computer is the endgame circuit for all standard LuV machines and a crafting ingredient in ZPM machine construction. Production via Assembly Line is mandatory; manual crafting recipes are unavailable above this tier. Automate the full chain before starting ZPM machine builds."]
+			id: "IV01000000000017"
+			rewards: [{
+				count: 10
+				id: "IV03000000000017"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "IV0200000000001E"
+					item: "gtceu:quantum_processor"
+					type: "item"
+				}
+				{
+					id: "IV0200000000001F"
+					item: "gtceu:quantum_processor_assembly"
+					type: "item"
+				}
+				{
+					id: "IV02000000000020"
+					item: "gtceu:quantum_processor_computer"
+					type: "item"
+				}
+			]
+			title: "Quantum Processor Computer"
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV01000000000017"]
+			description: ["The ZPM Machine Hull marks GTCEu's penultimate tier — Zero Point Module voltage, where energy requirements approach theoretical limits of conventional conductor physics. ZPM Hull components include Europium alloys and Crystal Matrix materials. Every ZPM machine requires research-locked Assembly Line recipes. This is the tier where the Fusion Reactor shifts from supplemental to primary power source — without it running, ZPM construction will stall your power budget."]
+			id: "IV01000000000018"
+			rewards: [{
+				count: 5
+				id: "IV03000000000018"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000021"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			title: "ZPM Machine Hull"
+			x: 36.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["IV01000000000018"]
+			description: ["The ZPM Energy Input Hatch accepts power at ZPM amperage and is required for all ZPM multiblock machines including the LuV Fusion Reactor's upgrade path. Pair it with your Power Substation's Laser Hatch output to ensure the ZPM-tier power draw is sustained. ZPM-tier demand exceeds any individual generator — the Fusion Reactor is your primary source, and the Substation is your buffer. Both must be operational before installing ZPM Hatches on production machines."]
+			id: "IV01000000000019"
+			rewards: [{
+				count: 5
+				id: "IV03000000000019"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV02000000000022"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			title: "ZPM Energy Hatch"
+			x: 38.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"IV01000000000017"
+				"IV0100000000000F"
+			]
+			description: ["The LuV Fusion Reactor is the culmination of the Sovereign Circuits chapter. A massive multiblock structure that initiates nuclear fusion between injected plasma inputs, it produces millions of EU/t at sustained operation — enough to power every machine in your current production network simultaneously with headroom for ZPM construction. The starter fuel is Helium Plasma combined with Deuterium injection. Light it for the first time as a milestone — then keep it running. The rest of the endgame depends on it."]
+			id: "IV0100000000001A"
+			rewards: [{
+				count: 20
+				id: "IV0300000000001A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "IV0200000000001A"
+				item: "start_core:luv_fusion_reactor"
+				type: "item"
+			}]
+			title: "LuV Fusion Reactor"
+			x: 39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["IV0100000000001A"]
+			description: ["Europium is extracted from the Fusion Reactor's plasma output side — one of the primary fusion byproducts at LuV conditions. In ingot form it is used in ZPM Machine Hull construction and several ZPM-tier circuit recipes. If you are running the Fusion Reactor as a primary power source, Europium production is automatic. It represents the material bridge between LuV fusion-tier output and ZPM construction inputs — the loop feeds itself once the Reactor is online."]
+			id: "IV0100000000001B"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "IV0300000000001B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "IV0200000000001G"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			title: "Europium"
+			x: 39.0d
+			y: 2.5d
+		}
+	]
+	title: "Sovereign Circuits"
+}
