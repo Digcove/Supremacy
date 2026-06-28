@@ -1,0 +1,377 @@
+{
+	autofocus_id: "EH01000000000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "event_horizon"
+	group: "66B93D134A8EFA8F"
+	icon: "sgjourney:milky_way_stargate"
+	id: "CCBBAA0000000002"
+	order_index: 6
+	progression_mode: "linear"
+	quests: [
+		{
+			id: "EH00000000000001"
+			invisible: true
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "EH0F0000000000FF"
+				title: "{ftbquests.positioner.title}"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["VL01000000000009"]
+			description: ["Stem cells are the biological foundation of wetware circuit boards. Grow them in a cell incubator at tightly controlled atmospheric conditions—they die if temperature deviates by more than half a degree. The colony takes time to establish. Start it now, before you need it."]
+			id: "EH01000000000001"
+			rewards: [{
+				id: "EH03000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH02000000000001"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			title: "Stem Cells"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH01000000000001"]
+			description: ["The wetware circuit board is a hybrid substrate: a standard PCB printed with bio-conductive pathways, then seeded with living stem cell culture. The cells grow into the pathways and form synaptic connections that no silicon circuit can replicate. Handle carefully—the culture is still alive."]
+			id: "EH01000000000002"
+			rewards: [{
+				id: "EH03000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "EH02000000000002"
+					item: "gtceu:wetware_printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "EH02000000000003"
+					item: {
+						Count: 1
+						id: "gtceu:wetware_circuit_board"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wetware Board"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH01000000000002"]
+			description: ["The Neuro Processing Unit interleaves biological and silicon compute pathways at the nanoscale. The organic component handles pattern recognition; the silicon handles deterministic logic. Neither achieves ZPM-grade throughput alone."]
+			id: "EH01000000000003"
+			rewards: [{
+				id: "EH03000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH02000000000004"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "Neuro Processing Unit"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH01000000000003"]
+			description: ["A fully functional ZPM-grade processor. The biological lattice inside regulates its own thermal dissipation, sustaining compute densities that would destroy conventional silicon within milliseconds of operation."]
+			id: "EH01000000000004"
+			rewards: [{
+				id: "EH03000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH02000000000005"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			title: "Wetware Processor"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"EH01000000000004"
+				"EH0100000000000B"
+			]
+			description: ["Wetware processors slotted into a multi-nodal computing architecture. The interconnect bus must be grown, not soldered—the bio-conductive pathways between processors self-organize under the correct electromagnetic field conditions."]
+			id: "EH01000000000005"
+			rewards: [{
+				count: 2
+				id: "EH03000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "EH02000000000006"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			title: "Wetware Computer"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"EH01000000000005"
+				"388C72C20F961A3A"
+			]
+			description: ["Soul cultivation, Botania mana, Blood Magic life points, and GTCEu electrical engineering—four independent systems with nothing in common except that your hands built them all. The Way of the Soul recognizes this as mastery, not coincidence. Something shifts in the fabric between worlds."]
+			id: "EH01000000000006"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "EH02000000000007"
+				title: "Complete the Way of the Soul"
+				type: "checkmark"
+			}]
+			title: "Convergence"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH01000000000006"]
+			description: ["The largest stable wetware circuit that can be grown in a single incubation run. Its compute density approaches biological limits. Beyond this threshold, circuit scaling requires materials that should not exist—and in the standard universe, do not."]
+			id: "EH01000000000007"
+			rewards: [{
+				count: 3
+				id: "EH03000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "EH02000000000008"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			title: "Wetware Mainframe"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH01000000000001"]
+			description: ["Element 110. Synthesizing darmstadtium requires temperatures the EBF cannot sustain without Naquadah coils at minimum. The resulting alloy has a self-reinforcing crystalline structure that becomes more rigid under thermal stress—exactly what ZPM-tier machinery demands."]
+			id: "EH01000000000008"
+			rewards: [{
+				id: "EH03000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "EH02000000000009"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			title: "Darmstadtium"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["EH01000000000008"]
+			description: ["Tritanium is not found in nature—it must be smelted from exotic rare earth precursors at extreme EBF temperatures. Its properties justify the mythology: harder than osmium at temperature, lighter than iron at room conditions."]
+			id: "EH01000000000009"
+			rewards: [{
+				id: "EH03000000000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH0200000000000A"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			title: "Tritanium"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["EH01000000000009"]
+			description: ["Tritanium coil blocks push the EBF to its maximum sustainable operating temperature. At this range, elements that exist only transiently in particle accelerators can be stabilized long enough to ingot. Neutronium production is impossible without them."]
+			id: "EH0100000000000A"
+			rewards: [{
+				count: 2
+				id: "EH0300000000000A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "EH0200000000000B"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			title: "Tritanium Coil"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"EH0100000000000A"
+				"EH01000000000004"
+			]
+			description: ["The UV Machine Hull houses machinery operating at Ultra Voltage—power levels measured in millions of volts. Fabricated from tritanium alloy sheet with an electroplated dielectric barrier compound. Conventional welding destroys both materials; the assembly must be bonded by induction."]
+			id: "EH0100000000000B"
+			rewards: [{
+				count: 2
+				id: "EH0300000000000B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "EH0200000000000C"
+				item: "gtceu:uv_machine_hull"
+				type: "item"
+			}]
+			title: "UV Machine Hull"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"EH0100000000000B"
+				"EH01000000000006"
+			]
+			description: ["Neutronium is what remains when a stellar core's electron degeneracy pressure collapses. Your EBF achieves this in miniature through extreme fusion conditions. The resulting material is the hardest substance that can exist in this universe—and the last material gate before the physics stops cooperating."]
+			id: "EH0100000000000C"
+			rewards: [{
+				count: 4
+				id: "EH0300000000000C"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "EH0200000000000D"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			title: "Neutronium"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"EH0100000000000C"
+				"EH01000000000007"
+			]
+			description: ["The Milky Way Stargate operates on a nine-chevron address space—two extra symbols encode intergalactic coordinates. When the ninth chevron locks, the event horizon extends to another galaxy. This is not a connection. It is a bridge across the void."]
+			icon: {
+				Count: 1
+				id: "sgjourney:milky_way_stargate"
+				tag: {
+					BlockEntityTag: {
+						AddToNetwork: 0b
+					}
+				}
+			}
+			id: "EH0100000000000D"
+			rewards: [{
+				count: 8
+				id: "EH0300000000000D"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Chevron Nine... Locked."
+			tasks: [{
+				id: "EH0200000000000E"
+				item: {
+					Count: 1
+					id: "sgjourney:milky_way_stargate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Nine Chevron Gate"
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["EH0100000000000D"]
+			description: ["The Milky Way DHD includes a large control crystal for the extended address space, energy crystals calibrated for longer gate intervals, and a communication crystal for iris control. All three must be installed before the DHD can dial beyond the Local Group."]
+			hide_dependency_lines: true
+			id: "EH0100000000000E"
+			optional: true
+			rewards: [{
+				id: "EH0300000000000E"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH0200000000000F"
+				item: "sgjourney:milky_way_dhd"
+				type: "item"
+			}]
+			title: "Milky Way DHD"
+			x: 18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["EH0100000000000B"]
+			description: ["UV energy hatches handle the staggering power demands of UV-tier machinery. A single hatch accepts input at scales that would vaporize MV cabling instantly. Run them in parallel banks; run the cabling heavy."]
+			hide_dependency_lines: true
+			id: "EH0100000000000F"
+			optional: true
+			rewards: [{
+				id: "EH0300000000000F"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH02000000000010"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "UV Energy Hatch"
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["EH0100000000000C"]
+			description: ["A Gravi-Star is a compressed gravitational singularity stabilized by a naquadah alloy casing. Its gravitational gradient powers systems no conventional energy source can sustain—including several UV-tier multiblocks that otherwise have no viable power solution."]
+			hide_dependency_lines: true
+			id: "EH01000000000010"
+			optional: true
+			rewards: [{
+				id: "EH03000000000010"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "EH02000000000011"
+				item: "gtceu:gravi_star"
+				type: "item"
+			}]
+			title: "Gravi-Star"
+			x: 15.0d
+			y: 2.5d
+		}
+	]
+	title: "Event Horizon"
+}
