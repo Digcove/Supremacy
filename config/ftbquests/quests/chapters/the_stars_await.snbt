@@ -1,0 +1,299 @@
+{
+	autofocus_id: "TS01000000000001"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "the_stars_await"
+	group: "66B93D134A8EFA8F"
+	icon: "minecraft:dragon_egg"
+	id: "AABB000000000003"
+	order_index: 7
+	progression_mode: "linear"
+	quests: [
+		{
+			id: "TS00000000000001"
+			invisible: true
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "TS0F0000000000FF"
+				title: "{ftbquests.positioner.title}"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EH0100000000000D"]
+			description: ["The End is not an end—it is a beginning mistranslated by cartographers. The Ender Dragon holds this dimension in stasis, maintaining the torpor of the Endermen who built its infrastructure long before the Overworld had a name. Break the stasis."]
+			id: "TS01000000000001"
+			rewards: [{
+				id: "TS03000000000001"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "TS02000000000001"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			title: "Beyond the Stargate"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["TS01000000000001"]
+			description: ["The Dragon does not guard treasure. It maintains the dimensional seal between the End and the Void—a seal that, once broken, allows passage to the outer islands where End Cities drift in permanent exile. It was never going to end any other way."]
+			icon: "minecraft:dragon_egg"
+			id: "TS01000000000002"
+			rewards: [{
+				count: 3
+				id: "TS03000000000002"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "The seal is broken."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "TS02000000000002"
+				title: "Slay the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Ender Dragon"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["TS01000000000002"]
+			description: ["The Elytra are found in End Ships docked at the outer island city towers. They are the wings of something that no longer exists—the remnants of a civilization that predated even the Overworld. They were made to be worn. Wear them."]
+			id: "TS01000000000003"
+			rewards: [{
+				count: 2
+				id: "TS03000000000003"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "TS02000000000003"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: { Damage: 0 }
+				}
+				type: "item"
+			}]
+			title: "Elytra"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["TS01000000000002"]
+			description: ["The Dragon Egg is not an egg. It is a dimensional anchor—the compressed residue of the Dragon's connection to the End. When the Dragon dies, this forms at the exit portal's apex. It serves no mechanical purpose. It is a trophy. Take it anyway."]
+			hide_dependency_lines: true
+			id: "TS01000000000004"
+			optional: true
+			rewards: [{
+				id: "TS03000000000004"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS02000000000004"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "Dragon's Egg"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["TS01000000000001"]
+			description: ["The End Cities float in the Void on chains of Purpur and End Stone. Each hosts a Ship docked at its highest tower. The Ship holds the Elytra and a Dragon's Breath stockpile. Navigate to the outer islands via the exit portal gateway—the Cities are worth the travel."]
+			id: "TS01000000000005"
+			rewards: [{
+				id: "TS03000000000005"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:purpur_pillar"
+				id: "TS02000000000005"
+				structure: "minecraft:end_city"
+				title: "Discover an End City"
+				type: "structure"
+			}]
+			title: "End City"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["TS01000000000005"]
+			description: ["Shulker Boxes are portable inventory containers—the End's one practical contribution to logistics. Two Shulker shells form a chest that retains its contents when broken. Bring as many back as you can carry. You will use every one."]
+			id: "TS01000000000006"
+			rewards: [{
+				id: "TS03000000000006"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS02000000000006"
+				item: "minecraft:shulker_box"
+				type: "item"
+			}]
+			title: "Shulker Box"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"TS01000000000003"
+				"TS01000000000006"
+			]
+			description: ["Ultra Extreme Voltage. The UEV Machine Hull operates at power levels that dwarf anything built before the Milky Way Stargate. The alloys required do not occur naturally at any temperature this planet can produce—but you have a stargate now, and the universe is larger than this planet."]
+			id: "TS01000000000007"
+			rewards: [{
+				count: 3
+				id: "TS03000000000007"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "TS02000000000007"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			title: "UEV Machine Hull"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["TS01000000000007"]
+			description: ["A UEV energy hatch draws from power sources that make the LuV Fusion Reactor look like a campfire. Feed them from the Power Substation. Feed the Substation from everything you have. The machines at this tier are hungry in ways that recalibrate your understanding of the word."]
+			hide_dependency_lines: true
+			id: "TS01000000000008"
+			optional: true
+			rewards: [{
+				id: "TS03000000000008"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS02000000000008"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			title: "UEV Energy Hatch"
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["TS01000000000002"]
+			description: ["Apotheosis-modified bosses at this progression level drop gems trending toward Celestial quality. Seek out spawner-based encounters or Mine & Slash Atlas maps for the densest modifier pools. These are the gems that matter—the ones with two or three socket interactions."]
+			hide_dependency_lines: true
+			id: "TS01000000000009"
+			optional: true
+			rewards: [{
+				id: "TS03000000000009"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS02000000000009"
+				title: "Farm Apotheosis Boss Gems"
+				type: "checkmark"
+			}]
+			title: "Gemstone Endgame"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["TS01000000000002"]
+			description: ["Mine & Slash's Atlas map system generates isolated combat arenas with scaling enemy tiers and loot tables. At this point in progression you are farming for the highest rarity affix combinations—the ones that interact with Soul cultivation in ways the tooltip does not fully explain."]
+			hide_dependency_lines: true
+			id: "TS0100000000000A"
+			optional: true
+			rewards: [{
+				id: "TS0300000000000A"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS0200000000000A"
+				title: "Run High-Tier Atlas Maps"
+				type: "checkmark"
+			}]
+			title: "Atlas Endgame"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["TS01000000000002"]
+			description: ["The Archmage's Spellbook is the peak of Ars Nouveau's spellcrafting system. With it, glyph complexity, spell cost, and Source efficiency reach their architectural limits. The spells you could write make most combat encounters irrelevant. That is the point."]
+			hide_dependency_lines: true
+			id: "TS0100000000000B"
+			optional: true
+			rewards: [{
+				id: "TS0300000000000B"
+				item: "kubejs:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "TS0200000000000B"
+				item: "ars_nouveau:archmage_spellbook"
+				type: "item"
+			}]
+			title: "Archmage's Spellbook"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"TS01000000000007"
+				"TS01000000000003"
+			]
+			description: [
+				"You built a factory from flint. You tamed the soul of a Douluo. You opened a stargate to another galaxy. The Wetware Mainframe runs on living tissue. The Milky Way Stargate has nine locks. None of it was guaranteed when you started."
+				""
+				"The universe is still larger than this. The stars await greatness."
+			]
+			icon: "sgjourney:pegasus_stargate"
+			id: "TS0100000000000C"
+			rewards: [
+				{
+					count: 20
+					id: "TS0300000000000C"
+					item: "kubejs:coin"
+					type: "item"
+				}
+				{
+					id: "TS0300000000000D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Pack is Complete."
+			tasks: [{
+				id: "TS0200000000000C"
+				title: "The Stars Await"
+				type: "checkmark"
+			}]
+			title: "The Stars Await"
+			x: 10.5d
+			y: -5.0d
+		}
+	]
+	title: "The Stars Await"
+}
