@@ -26,7 +26,455 @@
 		}
 		{
 			dependencies: ["6724AAFC3D535090"]
-			description: ["You have walked the length and breadth of this world, from frozen tundra to scorching desert. Each biome visited adds to your understanding of where rare herbs, hidden structures, and exclusive mobs reside. A cultivator who knows the land is never unprepared."]
+			description: ["Forests supply the bulk of your early wood. Oak provides the widest material compatibility for vanilla and modded recipes alike. Canopy density means forest mobs are more dangerous at night — build or seek shelter before dark."]
+			id: "A001000000000001"
+			rewards: [{
+				id: "A003000000000001"
+				item: "minecraft:oak_sapling"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:forest"
+				id: "A002000000000001"
+				type: "biome"
+			}]
+			title: "Forest"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A001000000000001"]
+			description: ["Dark Forests are dense enough to block direct sunlight — monsters spawn even at midday beneath the canopy. The Woodland Mansion, home to the Evoker and its Vex minions, generates only in this biome. The Totem of Undying the Evoker drops is one of the most valuable items in the early-to-mid game."]
+			id: "A001000000000002"
+			rewards: [{
+				id: "A003000000000002"
+				item: "minecraft:dark_oak_sapling"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:dark_forest"
+				id: "A002000000000002"
+				type: "biome"
+			}]
+			title: "Dark Forest"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Jungles are the densest biome in the game — cocoa beans, melons, and parrots are found here exclusively. Jungle temples contain loot behind tripwire puzzles; disarm them before looting. Ocelots spawn naturally and can be tamed with raw fish. The density of foliage makes navigation difficult but rewarding."]
+			id: "A001000000000003"
+			rewards: [{
+				id: "A003000000000003"
+				item: "minecraft:jungle_sapling"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:jungle"
+				id: "A002000000000003"
+				type: "biome"
+			}]
+			title: "Jungle"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Birch Forests are distinguished by their pale, paper-white trunks. The wood produces a clean, light aesthetic useful in builds. In YUNG's Better Mineshafts, birch-type mineshafts generate beneath birch forest biomes with unique structural details compared to the standard variant."]
+			id: "A001000000000004"
+			rewards: [{
+				id: "A003000000000004"
+				item: "minecraft:birch_sapling"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:birch_forest"
+				id: "A002000000000004"
+				type: "biome"
+			}]
+			title: "Birch Forest"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Deserts provide abundant sand for glass and concrete, as well as Dead Bushes, cacti, and exclusive passive mobs such as rabbits. Desert villages, desert pyramids, and YUNG's Better Desert Temples generate here. Fossils can be found underground beneath desert sands."]
+			id: "A001000000000005"
+			rewards: [{
+				id: "A003000000000005"
+				item: "minecraft:sand"
+				count: 32
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:desert"
+				id: "A002000000000005"
+				type: "biome"
+			}]
+			title: "Desert"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Savannas are marked by acacia trees, whose orange wood is visually distinctive in builds. Llamas and horses spawn here. Villages and pillager outposts generate frequently in savanna biomes — outposts are a reliable early source of crossbows and raid triggers for hero-of-the-village discounts."]
+			id: "A001000000000006"
+			rewards: [{
+				id: "A003000000000006"
+				item: "minecraft:acacia_sapling"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:savanna"
+				id: "A002000000000006"
+				type: "biome"
+			}]
+			title: "Savanna"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A001000000000005"]
+			description: ["Badlands (Mesa) are one of the rarest overworld biomes — gold ore generates at all Y levels here, far above its normal range. Mineshafts expose at the surface as oxidized wood structures cutting through the red and orange terracotta layers. A reliable early gold source with spectacular visual character."]
+			id: "A001000000000007"
+			rewards: [{
+				id: "A003000000000007"
+				item: "minecraft:gold_ingot"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:badlands"
+				id: "A002000000000007"
+				type: "biome"
+			}]
+			title: "Badlands"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Taiga biomes host spruce trees and wolves. Wolves are tameable with bones and become loyal companions with full health tracking. Berry bushes damage without protection. Pillager outposts and villages generate here. The snow variant houses Strays — undead archers that fire slowness-tipped arrows. Sweet Berries are an early food source here."]
+			id: "A001000000000008"
+			rewards: [{
+				id: "A003000000000008"
+				item: "minecraft:spruce_sapling"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:taiga"
+				id: "A002000000000008"
+				type: "biome"
+			}]
+			title: "Taiga"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A001000000000008"]
+			description: ["Ice Spikes are one of the most visually striking biomes — massive packed ice columns erupt from a snow-covered landscape. Polar bears and Strays spawn here. The packed ice can be harvested with Silk Touch for use in ice roads or decorative builds. One of the rarer cold biome variants."]
+			id: "A001000000000009"
+			rewards: [{
+				id: "A003000000000009"
+				item: "minecraft:packed_ice"
+				count: 16
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:ice_spikes"
+				id: "A002000000000009"
+				type: "biome"
+			}]
+			title: "Ice Spikes"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A001000000000008"]
+			description: ["The Frozen Peaks are among the highest-elevation biomes — jagged, snow-covered mountain summits where only Goats and the occasional powder snow trap await. Goats ram players and mobs off ledges; a Screaming Goat's horn is a rare drop with utility uses. The peak elevation makes them natural landmarks."]
+			id: "A001000000000010"
+			rewards: [{
+				id: "A003000000000010"
+				item: "minecraft:goat_horn"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:frozen_peaks"
+				id: "A002000000000010"
+				type: "biome"
+			}]
+			title: "Frozen Peaks"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Ocean spans vast distances between landmasses. Ocean Monuments — overhauled by YUNG's Better Ocean Monuments — hide Guardians, Elder Guardians, and sponge rooms. Shipwrecks contain supply chests with treasure maps and equipment. The ocean floor holds clay, gravel, and occasional buried treasure. Cod and Salmon farms can supply early food."]
+			id: "A001000000000011"
+			rewards: [{
+				id: "A003000000000011"
+				item: "minecraft:prismarine_shard"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:ocean"
+				id: "A002000000000011"
+				type: "biome"
+			}]
+			title: "Ocean"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["A001000000000011"]
+			description: ["The Mushroom Fields biome is one of the safest in the game — hostile mobs do not spawn here naturally. Giant Mycelium mushrooms and Mooshrooms define the landscape. Mooshrooms can be milked for Mushroom Stew, a renewable infinite food source. The biome is rare and typically generates on isolated ocean islands."]
+			id: "A001000000000012"
+			rewards: [{
+				id: "A003000000000012"
+				item: "minecraft:brown_mushroom_block"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:mushroom_fields"
+				id: "A002000000000012"
+				type: "biome"
+			}]
+			title: "Mushroom Fields"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Soul Sand Valley is a distinctive Nether biome — blue fire burns on soul sand, Ghasts float through open caverns, and skeletons congregate in dense numbers. Soul Sand slows movement; Soul Soil does not. Soul Speed enchantment grants movement bonus. The aesthetic is used heavily in Soul Land cultivation themes."]
+			id: "A001000000000013"
+			rewards: [{
+				id: "A003000000000013"
+				item: "minecraft:soul_lantern"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				id: "A002000000000013"
+				type: "biome"
+			}]
+			title: "Soul Sand Valley"
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Crimson Forest is a fungal Nether biome — Crimson Stems, Crimson Fungi, and Hoglins make it both dangerous and resourceful. Striders spawn only in lava lakes adjacent to this biome. Hoglins are the only source of cooked meat in the Nether, farming them with fire provides a sustainable food source."]
+			id: "A001000000000014"
+			rewards: [{
+				id: "A003000000000014"
+				item: "minecraft:crimson_stem"
+				count: 16
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				id: "A002000000000014"
+				type: "biome"
+			}]
+			title: "Crimson Forest"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Warped Forest is the only Nether biome where Endermen spawn naturally. It is otherwise peaceful — no hostile Nether mobs spawn here. Warped Fungi drives away Hoglins. The blue-cyan palette contrasts the rest of the Nether sharply. Endermen from this biome carry ender pearls useful for early teleportation and Ender Chest crafting."]
+			id: "A001000000000015"
+			rewards: [{
+				id: "A003000000000015"
+				item: "minecraft:warped_stem"
+				count: 16
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "A002000000000015"
+				type: "biome"
+			}]
+			title: "Warped Forest"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Basalt Deltas are harsh even by Nether standards — Magma Cubes spawn in swarms, the terrain is uneven black basalt and magma blocks, and visibility is low. Basalt itself is a useful stone-type building material with a distinctive volcanic look. Ghasts float above the delta valleys."]
+			id: "A001000000000016"
+			rewards: [{
+				id: "A003000000000016"
+				item: "minecraft:basalt"
+				count: 32
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				id: "A002000000000016"
+				type: "biome"
+			}]
+			title: "Basalt Deltas"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Undergarden is an underground dimension of permanent twilight — bioluminescent fungi and crystal formations fill caverns beneath the surface. Stalactite clusters drip with exotic fluids. Unique ores (Cloggrum, Froststeel, Utherium) are found only here. Use a portal frame with Warpstone to enter. The Undergarden connects naturally to the cave system below your world."]
+			id: "A001000000000017"
+			rewards: [{
+				id: "A003000000000017"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "undergarden:fungal_bog"
+				id: "A002000000000017"
+				type: "biome"
+			}]
+			title: "The Undergarden"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["The Aether is a sky dimension of floating islands, eternal daylight, and dangerous dungeons filled with unique bosses. Enter through a water-activated portal. The Aether contains materials unavailable elsewhere — Zanite for tools, Gravitite for armor that falls upward, and the Aether dungeons for rare accessories. The Slider, Valkyrie Queen, and Sun Spirit guard the tier-locked loot."]
+			id: "A001000000000018"
+			rewards: [{
+				id: "A003000000000018"
+				item: "aether:zanite_gemstone"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				biome: "aether:the_aether"
+				id: "A002000000000018"
+				type: "biome"
+			}]
+			title: "The Aether"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Blue Skies adds two sky dimensions — the Everbright and the Everdawn — each with distinct biomes, mobs, and materials. Enter each through dedicated portal structures. The Everbright is cool and crystalline; the Everdawn is warm and volcanic. Both dimensions contain unique boss encounters and progression items that don't exist in the Overworld."]
+			id: "A001000000000019"
+			rewards: [{
+				id: "A003000000000019"
+				item: "blue_skies:turquoise_gem"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "blue_skies:everbright/crystal_highlands"
+				id: "A002000000000019"
+				type: "biome"
+			}]
+			title: "Blue Skies: Everbright"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Alex's Caves are not a separate dimension — they are underground biome variants that replace standard caves at deep elevations. Magnetic Caves contain floating ore deposits and unique magnetic mobs. Toxic Caves are filled with poisonous gas. Crystal Caves grow enormous gemstone formations. Each variant requires preparation before entry; do not descend unprepared."]
+			id: "A001000000000020"
+			rewards: [{
+				id: "A003000000000020"
+				item: "alexscaves:magnet"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "A002000000000020"
+				type: "biome"
+			}]
+			title: "Magnetic Caves"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6724AAFC3D535090"]
+			description: ["Blue Skies: Everdawn is the warmer of the two sky dimensions — volcanic terrain, ember-lit skies, and aggressive mob variants distinguish it from the Everbright. Unique foraging resources and crafting materials are exclusive to this dimension. The Everdawn boss rewards are separate from the Everbright track; both must be explored for full progression."]
+			id: "A001000000000021"
+			rewards: [{
+				id: "A003000000000021"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "blue_skies:everdawn/ember_frontier"
+				id: "A002000000000021"
+				type: "biome"
+			}]
+			title: "Blue Skies: Everdawn"
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"A001000000000013"
+				"A001000000000014"
+				"A001000000000015"
+				"A001000000000016"
+			]
+			description: ["The five Nether biomes each contain unique materials and mobs. A cultivator who has navigated all four non-Wastes biomes has the complete range of Nether materials at their disposal: Netherite from Bastions, Wither skeletons from Fortresses, Hoglin leather from Crimson Forests, and Endermen from Warped Forests."]
+			id: "A001000000000022"
+			rewards: [{
+				id: "A003000000000022"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "A002000000000022"
+				title: "All Nether Biomes Visited"
+				type: "checkmark"
+			}]
+			title: "Nether Cartographer"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			description: ["The vanilla adventuring_time advancement requires visiting every one of the 53 overworld biomes. With Terralith and Regions Unexplored installed, the biome count is significantly larger — but the vanilla advancement only tracks the original 53. Complete it by deliberately using Nature's Compass to seek out lesser-visited variants."]
+			id: "A001000000000023"
+			rewards: [
+				{
+					id: "A003000000000023"
+					item: "naturescompass:naturescompass"
+					type: "item"
+				}
+				{
+					id: "A003000000000024"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "A002000000000023"
+				type: "advancement"
+			}]
+			title: "Adventuring Time"
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"A001000000000023"
+				"A001000000000017"
+				"A001000000000018"
+				"A001000000000019"
+				"A001000000000021"
+			]
+			description: ["You have walked the length and breadth of this world and beyond — from frozen tundra to scorching basalt, from sky islands to fungal underground caverns. Each biome visited adds to your understanding of where rare herbs, hidden structures, and exclusive mobs reside. A cultivator who knows the land is never unprepared."]
 			hide_until_deps_complete: true
 			id: "47031F18136D2A2F"
 			rewards: [{
@@ -41,7 +489,7 @@
 			}]
 			title: "World Traveler"
 			x: -0.5d
-			y: -7.5d
+			y: -13.0d
 		}
 	]
 	title: "Biome Hopper"

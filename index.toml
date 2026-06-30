@@ -1346,7 +1346,7 @@ hash = "03f13b7adbb314ecf4b242f60ed86bf3c85c3cd4e300e176d85337d5d0975c2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/biome_hopper.snbt"
-hash = "283d5b94a89d8a69e4c6147c6bf54e8fee659afc88f2ce1dad1a4eb6c1d140ef"
+hash = "95b77cfbd0ba768436c9ef19abb267a07c6e652cf60b6016dcd4c2dd42824f3b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/campaign_talent_rewards.snbt"
@@ -1375,6 +1375,10 @@ hash = "38c30bda27a48f3956a0375af840db3c1a029fdd6507e35fa0fcf59ba2e07c95"
 [[files]]
 file = "config/ftbquests/quests/chapters/futuristic_mechanisms.snbt"
 hash = "7bf33967426cc0ff38487b6ab4e633489cb8f9ea6eca12e0a058b76ce114c303"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/homestead.snbt"
+hash = "b6f0a17580f14c5d06ba06cab992833a476d309224482bc3dfb68b8f0d89d10a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
@@ -1474,7 +1478,7 @@ hash = "7288c7c8be34d53f0bf13a107d5b4e8921fddaddd35936aa3ce089fa6f1f349f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/structures.snbt"
-hash = "8e6d2fadb8366cd10fbf94666bbee9903f786d67e84a780cd148333fb562caad"
+hash = "54371a17fa37c6960cf4eecfa2c48310fe9b33d5bf5fd1674ab64c0398939785"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_stars_await.snbt"

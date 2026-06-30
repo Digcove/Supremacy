@@ -8,11 +8,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3D0C96F7C0A0214F"]
-			description: ["Applied Energistics 2 Meteorites crash-land across the world, containing Certus Quartz Ore and a Mysterious Cube at their center. The Cube holds the Inscriber Press blueprints required for AE2's processor crafting chain. Use an Explorer's Compass to locate the nearest meteorite."]
+			description: ["An AE2 Meteorite crash-lands somewhere in every world — the crater contains Certus Quartz Ore and, at the center, a Mysterious Cube holding the Inscriber Press blueprints needed to advance into Applied Energistics 2 automation. Use an Explorer's Compass to locate the nearest meteorite before spending hours searching manually."]
 			id: "3292CA5DF4982006"
-			tasks: [{
+			rewards: [{
 				id: "6CDF2DD0CE64D833"
+				item: "ae2:certus_quartz_crystal"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000001"
 				structure: "ae2:meteorite"
 				type: "structure"
 			}]
@@ -21,14 +26,330 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3292CA5DF4982006"]
-			description: ["The continent is riddled with ancient ruins, dungeons, and faction strongholds — each holding loot, lore, and risk. Visiting every major structure type expands your map knowledge and uncovers unique items that cannot be crafted. Exploration is not optional; it is the other half of progression."]
+			description: ["YUNG's Better Mineshafts replaces vanilla mineshafts with biome-specific variants — dripstone, lush, desert, and jungle variants each have unique visual themes and loot configurations. Planks support the tunnel ceilings; cave-ins and rail bridges connect cavern floors. Minecart chests inside contain ores, rails, and occasionally Name Tags."]
+			id: "B001000000000001"
+			rewards: [{
+				id: "B003000000000001"
+				item: "minecraft:minecart"
+				count: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000002"
+				structure: "#bettermineshafts:better_mineshafts"
+				type: "structure"
+			}]
+			title: "Better Mineshaft"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: ["YUNG's Better Strongholds vastly expands the vanilla stronghold with additional rooms, decorative halls, prison corridors, and a fully-realized End Portal chamber. The library within holds some of the best enchanted book loot in the early game. Silverfish spawn aggressively when you approach the portal room — come prepared with AoE capability."]
+			id: "B001000000000002"
+			rewards: [{
+				id: "B003000000000002"
+				item: "minecraft:ender_eye"
+				count: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000003"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Better Stronghold"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: ["YUNG's Better Dungeons replaces vanilla dungeon spawners with elaborated multi-room structures. Spider dens, undead crypts, and standard dungeons each have themed layouts, traps, and loot configurations that go well beyond the vanilla chest-and-spawner design. The spawner itself can be deactivated or repurposed as an XP farm."]
+			id: "B001000000000003"
+			rewards: [{
+				id: "B003000000000003"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000004"
+				structure: "betterdungeons:dungeon"
+				type: "structure"
+			}]
+			title: "Better Dungeon"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["YUNG's Better Desert Temples replace the vanilla pyramid with a multi-floor structure of booby-trapped corridors, hidden vaults, and TNT-laden floors. Disarm rather than detonate — the TNT room contains valuable loot below the pressure plate puzzle. Sand-colored floors hide the drop into the main chamber."]
+			id: "B001000000000004"
+			rewards: [{
+				id: "B003000000000004"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000005"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			title: "Better Desert Temple"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: ["YUNG's Better Jungle Temples are expanded into multi-room structures with elaborate puzzles using dispensers, pistons, and tripwires. The original temple had two chests; the upgraded version has multiple treasure vaults behind escalating puzzle complexity. Bring a pickaxe — some shortcuts cut through the puzzle walls entirely."]
+			id: "B001000000000005"
+			rewards: [{
+				id: "B003000000000005"
+				item: "minecraft:bow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000006"
+				structure: "betterjungletemples:jungle_temple"
+				type: "structure"
+			}]
+			title: "Better Jungle Temple"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: ["YUNG's Better Ocean Monuments transform the vanilla prismarine fortress into a genuine multi-wing dungeon. An Elder Guardian guards the treasure vault; three more patrol the wings. Mining fatigue blocks digging — come with either Milk Buckets to cure it, or enough combat power to clear it fast. Sponge rooms are now multiple layers deep."]
+			id: "B001000000000006"
+			rewards: [{
+				id: "B003000000000006"
+				item: "minecraft:sponge"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000007"
+				structure: "betteroceanmonuments:ocean_monument"
+				type: "structure"
+			}]
+			title: "Better Ocean Monument"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: ["YUNG's Better Nether Fortresses expand the vanilla fortress into a multi-section structure with proper entrance gates, throne rooms, and dedicated Blaze spawner chambers. Wither Skeletons remain the primary dangerous occupant. The fortress connects to attached Nether pathways and occasionally has secondary towers visible from a distance."]
+			id: "B001000000000007"
+			rewards: [{
+				id: "B003000000000007"
+				item: "minecraft:blaze_rod"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000008"
+				structure: "betternetherfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Better Nether Fortress"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			description: ["When Dungeons Arise scatters large, heavily decorated structures across the overworld — abandoned temples, fortified mansions, pirate ships, and coliseums. The Abandoned Temple features multi-floor layouts with mob spawners, traps, and high-value loot chests. Many WDA structures contain unique loot tables that include weapons and armor above what vanilla structures offer."]
+			id: "B001000000000008"
+			rewards: [{
+				id: "B003000000000008"
+				item: "minecraft:enchanted_book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000009"
+				structure: "dungeons_arise:abandoned_temple"
+				type: "structure"
+			}]
+			title: "Abandoned Temple (WDA)"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["B001000000000008"]
+			description: ["The WDA Coliseum is one of the largest surface structures in the pack — a full arena with tiered stone seating surrounding a combat floor populated by hostile mobs. Clearing the central spawners rewards the high-value loot cache in the underground vault. It is a landmark visible from a significant distance."]
+			id: "B001000000000009"
+			rewards: [{
+				id: "B003000000000009"
+				item: "minecraft:diamond"
+				count: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000010"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			title: "WDA Coliseum"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["B001000000000008"]
+			description: ["The WDA Infested Temple is smaller than the Abandoned Temple but more densely packed with spawners. Spider-themed interior layout with web-covered corridors and hidden passages. Useful for locating early silk and string in bulk; the central chamber holds a trapped treasure cache worth the combat encounter."]
+			id: "B001000000000010"
+			rewards: [{
+				id: "B003000000000010"
+				item: "minecraft:string"
+				count: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000011"
+				structure: "dungeons_arise:infested_temple"
+				type: "structure"
+			}]
+			title: "Infested Temple (WDA)"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["B001000000000008"]
+			description: ["The WDA Undead Pirate Ship is a spectral galleon beached or floating on water, crewed by skeleton pirates. The ship holds nautical-themed loot including maps, compasses, and naval equipment. Multiple decks provide unique combat encounters; the captain's quarters on the upper deck contain the primary loot cache."]
+			id: "B001000000000011"
+			rewards: [{
+				id: "B003000000000011"
+				item: "minecraft:map"
+				count: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000012"
+				structure: "dungeons_arise:undead_pirate_ship"
+				type: "structure"
+			}]
+			title: "Undead Pirate Ship"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["Terralith adds spires — natural rock pillars that rise dramatically above the landscape, decorated with vegetation and mineral deposits. The Frosted Dungeon generates underground in cold biomes and contains unique ice-themed loot. Terralith's fortified villages are larger than vanilla, with stone walls and multiple professions clustered inside."]
+			id: "B001000000000012"
+			rewards: [{
+				id: "B003000000000012"
+				item: "terralith:smooth_basalt_bricks"
+				count: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000013"
+				structure: "terralith:spire"
+				type: "structure"
+			}]
+			title: "Terralith Spire"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["B001000000000012"]
+			description: ["Terralith Fortified Villages are enclosed settlements with stone walls, watchtowers, and more villager professions than vanilla. The fortification makes them naturally defensible against raids. Trade with the enclosed villagers for unusual profession-specific trades not available in open villages."]
+			id: "B001000000000013"
+			rewards: [{
+				id: "B003000000000013"
+				item: "minecraft:emerald"
+				count: 5
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000014"
+				structure: "terralith:fortified_village"
+				type: "structure"
+			}]
+			title: "Terralith Fortified Village"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: ["Towns & Towers overhauls vanilla villages and adds entirely new settlement types. Watchtowers, outpost variants, and regional architectural styles distinguish it from the standard village. Unique trade items appear within; some settlement types house non-standard professions not found in vanilla villages."]
+			id: "B001000000000014"
+			rewards: [{
+				id: "B003000000000014"
+				item: "minecraft:emerald"
+				count: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000015"
+				structure: "townandtower:village/abandoned/plains"
+				type: "structure"
+			}]
+			title: "Towns & Towers Village"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			description: ["Structory adds hand-crafted small structures scattered across biomes — ruins, shrines, tents, and watchtowers. They rarely have spawners but often contain buried loot caches or unique small chests. Structory Towers are more combat-focused vertical structures with mob-occupied floors and a rooftop reward."]
+			id: "B001000000000015"
+			rewards: [{
+				id: "B003000000000015"
+				item: "minecraft:lantern"
+				count: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000016"
+				structure: "structory:campfire_shrine"
+				type: "structure"
+			}]
+			title: "Structory Shrine"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: ["Buried Treasure spawns beneath beaches and underwater near shipwrecks. A Treasure Map from a shipwreck chest or cartographer villager marks the X precisely. The cache always contains a Heart of the Sea, which is required to craft the Conduit — a powerful underwater breathing and combat structure."]
+			id: "B001000000000016"
+			rewards: [{
+				id: "B003000000000016"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000017"
+				structure: "minecraft:buried_treasure"
+				type: "structure"
+			}]
+			title: "Buried Treasure"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			description: ["Shipwrecks wash up on beaches and sink to ocean floors across the world. Three hold chests — supply chest (food and tools), treasure chest (gold, iron, emeralds), and map chest (treasure map, compass). Drowned spawn near or inside submerged wrecks. A full wreck loot run provides a significant early-game resource boost."]
+			id: "B001000000000017"
+			rewards: [{
+				id: "B003000000000017"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "B002000000000018"
+				structure: "#minecraft:shipwreck"
+				type: "structure"
+			}]
+			title: "Shipwreck"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3292CA5DF4982006"
+				"B001000000000002"
+				"B001000000000009"
+				"B001000000000006"
+				"B001000000000007"
+				"B001000000000013"
+				"B001000000000014"
+				"B001000000000016"
+				"B001000000000017"
+			]
+			description: ["The continent is riddled with ancient ruins, dungeons, and faction strongholds — each holding loot, lore, and risk. Having visited this breadth of structures expands your map knowledge and uncovers items that cannot be crafted. Exploration is not optional; it is the other half of progression."]
 			id: "55E25F89DA6FCF5D"
 			rewards: [{
 				id: "4711977826F63AFD"
 				item: "mmorpg:currency/mirror"
 				type: "item"
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "73CB2B9BD62131B9"
 				title: "Visit Every Structure"
@@ -36,7 +357,7 @@
 			}]
 			title: "Architecture Fanatic"
 			x: -0.5d
-			y: -6.0d
+			y: -8.5d
 		}
 	]
 	title: "Structures"
