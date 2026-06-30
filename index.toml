@@ -1465,6 +1465,10 @@ file = "config/ftbquests/quests/chapters/professions.snbt"
 hash = "dfdf9e4307f44d286737f39f2911c79276176d22970107a3e646884063069d97"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/qol.snbt"
+hash = "0901f877977e1fe2d8e571ff0fabb14f46333d58882c8302d39af97de13364c9"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/quality_of_life.snbt"
 hash = "47989f6a8f843d430a8283efa03f98b98c4f0838ae73d1af4af8ef922ca38a91"
 

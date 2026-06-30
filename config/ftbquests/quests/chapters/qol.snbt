@@ -1,0 +1,415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol"
+	group: "1E24DF067925061D"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "QL00QL00QL00QL00"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This pack includes a wide set of utility mods that reduce friction across every play session. They do not gate content or require progression — each is available from day one. The earlier you learn them, the less time you spend on logistics. JEI answers every recipe question. JourneyMap and Waystones eliminate backtracking. Sophisticated Backpacks extend your carry capacity. Drawers and Storage absorb bulk. Pipez move items without cable routing. Paragliders and the Create Jetpack handle vertical and open-air travel. None of these require mana, soul power, or voltage — just materials and early-game time."]
+			id: "QL01000000000001"
+			rewards: [{
+				count: 2
+				id: "QL03000000000001"
+				item: "mmorpg:stone/1"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "QL02000000000001"
+				title: "Read the QoL Guide"
+				type: "checkmark"
+			}]
+			title: "Home Essentials"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["JEI (Just Enough Items) is the recipe reference for the entire pack. Press R while hovering any item to view all recipes that produce it. Press U to view all uses — every recipe that consumes it. Press F to search the item list and jump to a result. Left-click a recipe to show it in the crafting grid. Bookmark items with the Bookmark key (default: A) to build a personal watch list. JEI covers every mod in the pack — GTCEu machines, Botania, Ars Nouveau, Soul Land, Mine & Slash, and all others. Learn R and U by reflex; they replace wiki lookups entirely."]
+			id: "QL01000000000002"
+			rewards: [{
+				count: 2
+				id: "QL03000000000002"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000002"
+				title: "Learn R and U in JEI"
+				type: "checkmark"
+			}]
+			title: "JEI"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["QL01000000000002"]
+			description: ["JADE displays a tooltip on the top of the screen showing the block or entity your cursor is pointing at — its name, mod source, and configurable details like fluid level, machine progress, and energy stored. Right-click a block with an empty hand while JADE is active to pin its overlay. JADE reads GTCEu machine states, Botania mana pool fill levels, ME Network Controller status, and Mine & Slash mob stats. Press the JADE key (default: I) to toggle it. Configure the display through Options → JADE Settings to add or remove overlays you want visible during normal play."]
+			id: "QL01000000000003"
+			rewards: [{
+				count: 2
+				id: "QL03000000000003"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000003"
+				title: "Enable JADE HUD"
+				type: "checkmark"
+			}]
+			title: "JADE"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["JourneyMap runs a persistent world map in the background while you play. Press J to open the full-screen map; the minimap appears in the corner by default. Right-click the full map to place a waypoint at any location. Waypoints display as beacons visible in the world from distance — use them to mark your base, dungeon entrances, ore veins, Soul Beast spawn areas, and Mine & Slash dungeon portals. Press the waypoint manager button on the map to toggle individual beacons on and off. JourneyMap does not show underground by default; press O on the map to open Options and enable cave mapping."]
+			id: "QL01000000000004"
+			rewards: [{
+				count: 2
+				id: "QL03000000000004"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000004"
+				title: "Place a JourneyMap Waypoint"
+				type: "checkmark"
+			}]
+			title: "JourneyMap"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["QL01000000000004"]
+			description: ["Waystones are fast-travel anchor points you craft and place anywhere in the world. Right-click a Waystone to name it; named Waystones appear in a list accessible from any other Waystone. Open the Waystone GUI and click any destination name to teleport instantly — no cooldown on the first teleport, moderate cooldown on repeated jumps. Build a Waystone at your base before any long expedition, then place a second one when you find a Mine & Slash dungeon portal, Twilight Forest entry point, or Nether hub. The spawn Waystone is free and already active."]
+			id: "QL01000000000005"
+			rewards: [{
+				count: 2
+				id: "QL03000000000005"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000005"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["QL01000000000005"]
+			description: ["FTB Chunks lets you claim chunks so other players cannot build or break blocks inside them, and lets you force-load claimed chunks so they continue processing while you are offline. Open the chunk map with the FTB Chunks key (default: M), then click to claim the chunk under your cursor. Toggle force-load mode (the lightning bolt icon) on individual chunks to keep machines running. Force-loaded chunks have a per-player limit — use them only on machine rooms and active farms, not your entire base footprint. Claimed but not force-loaded chunks still prevent grief but pause machine processing when you log off."]
+			id: "QL01000000000006"
+			rewards: [{
+				count: 2
+				id: "QL03000000000006"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000006"
+				title: "Claim and Force-Load a Chunk"
+				type: "checkmark"
+			}]
+			title: "FTB Chunks"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["Storage Drawers are the primary bulk item storage solution for ore, ingots, and high-volume commodities. Each Drawer block holds a configurable number of item types — Full 4-Drawer holds four distinct items; Full 2-Drawer holds two in larger stacks; Compacting Drawer automatically converts between nuggets, ingots, and blocks. Right-click to insert; Shift+Right-click to extract. Connect drawers to a Drawer Controller block and all connected drawers behave as a single searchable inventory accessible via Pipez or ME Storage Buses. Build a full wall of Full 4-Drawers before your GTCEu ore processing line goes live."]
+			id: "QL01000000000007"
+			rewards: [{
+				count: 2
+				id: "QL03000000000007"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "QL02000000000007"
+					item: "storagedrawers:oak_full_drawers_4"
+					type: "item"
+				}
+				{
+					id: "QL02000000000008"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+			]
+			title: "Storage Drawers"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["QL01000000000007"]
+			description: ["Functional Storage upgrades the Drawer concept with higher-tier materials and configurable capacity. Drawers tier from Oak through Netherite; higher tiers hold exponentially more items per slot. The Functional Storage Controller links all Functional Storage drawers in the same network as a single unified inventory — connect via Drawer Link Cable. The Ender Drawer provides a cross-dimensional shared inventory that syncs with any other Ender Drawer using the same frequency color code, making it the primary method for transferring items between your base and Nether or dimensional outposts."]
+			id: "QL01000000000008"
+			rewards: [{
+				count: 2
+				id: "QL03000000000008"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "QL02000000000009"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "QL02000000000010"
+					item: "functionalstorage:ender_drawer"
+					type: "item"
+				}
+			]
+			title: "Functional Storage"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["QL01000000000008"]
+			description: ["Sophisticated Storage provides tiered chests with upgrade slots. Each chest tier — Wood, Iron, Gold, Diamond, Netherite — adds inventory slots, and upgrade cards further customize behavior: the Pickup Upgrade auto-collects nearby items of a filter-matching type; the Sort Upgrade keeps contents alphabetically organized; the Compacting Upgrade converts raw materials to compressed blocks automatically. Sophisticated Storage barrels function like single-item Storage Drawers but with the upgrade card system. Use Sophisticated Storage chests for miscellaneous multi-item storage where Drawers are too specific, and barrels for single-material bulk."]
+			id: "QL01000000000009"
+			rewards: [{
+				count: 2
+				id: "QL03000000000009"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "QL02000000000011"
+					item: "sophisticatedstorage:wooden_chest"
+					type: "item"
+				}
+				{
+					id: "QL02000000000012"
+					item: "sophisticatedstorage:barrel"
+					type: "item"
+				}
+			]
+			title: "Sophisticated Storage"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["QL01000000000009"]
+			description: ["Sophisticated Backpacks equip in the chest slot or Curios back slot and provide portable inventory expansion. Tier ladder: Basic → Iron → Gold → Diamond → Netherite, each adding more slots and upgrade card capacity. Upgrade cards include: Filter Upgrade (auto-picks up only specified items), Magnet Upgrade (pulls items from the ground into the pack), Smelting Upgrade (auto-smelts incoming raw ores), Compacting Upgrade (converts nuggets to ingots in real time), and Tank Upgrade (stores fluids). Equip a Diamond Backpack with Filter and Magnet before long Mine & Slash map runs — it cleans up the floor automatically and separates loot from junk without manual sorting."]
+			id: "QL01000000000010"
+			rewards: [{
+				count: 2
+				id: "QL03000000000010"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000013"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Sophisticated Backpacks"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["Inventory Sorter and Mouse Tweaks work together to reduce inventory management time. Inventory Sorter: middle-click any inventory slot to sort the entire container alphabetically; Shift+middle-click to sort by stack size. Mouse Tweaks: hold left-click and drag across empty slots to distribute the held stack evenly; hold right-click and drag to place one item per slot across a range; scroll the mouse wheel while hovering a slot to move items one at a time between the container and your inventory. These bindings work in every inventory in the pack — chest, furnace, GTCEu machine, backpack, and Drawer Controller. Learn them once and they apply everywhere."]
+			id: "QL01000000000011"
+			rewards: [{
+				count: 2
+				id: "QL03000000000011"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000014"
+				title: "Learn Middle-Click Sort"
+				type: "checkmark"
+			}]
+			title: "Inventory Management"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["Pipez provides the simplest item, fluid, and energy pipe network in the pack. Place any pipe type adjacent to a container or machine — it connects automatically to any other Pipez pipe of the same type within range. Filter each pipe end by right-clicking it with an item to restrict what enters or exits that connection. Upgrade cards inserted into the pipe increase extraction speed and filter capacity. The Universal Pipe combines item, fluid, and energy transfer in one pipe block, which reduces wire and tube clutter significantly. Use Pipez as the primary routing layer between GTCEu machines and Drawer Controllers in your base."]
+			id: "QL01000000000012"
+			rewards: [{
+				count: 2
+				id: "QL03000000000012"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "QL02000000000015"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "QL02000000000016"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "QL02000000000017"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			title: "Pipez"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["QL01000000000012"]
+			description: ["Modular Routers handle routing logic that Pipez cannot: conditional dispatch, distance transfer, and player-side item delivery. A Router inspects each item passing through it and applies Module cards to determine where it goes. The Distributer Module round-robins items across multiple outputs. The Vacuum Module pulls items from the world around it. The Sender Module transmits items to a linked destination across any distance. The Player Module deposits items directly into a specific player's inventory. Use Modular Routers when simple pipe filters are insufficient — GTCEu multi-output centrifuge byproducts going to different drawers are a common case where routers pay for themselves immediately."]
+			id: "QL01000000000013"
+			rewards: [{
+				count: 2
+				id: "QL03000000000013"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000018"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			title: "Modular Routers"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["The Corpse mod creates a physical body at your death location that holds all your items and experience. The corpse persists in the world until you interact with it — right-click to retrieve everything at once. Corpses have a configurable despawn timer; by default they last long enough to return from any death point if you moved directly. The corpse key (default: none — open inventory while dead) shows a preview of what the corpse holds. Corpses do not lock or protect items from other players on multiplayer. Memorize your last coordinates on death or set a JourneyMap waypoint at your corpse before it disappears."]
+			id: "QL01000000000014"
+			rewards: [{
+				count: 2
+				id: "QL03000000000014"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000019"
+				title: "Die and Recover Your Corpse"
+				type: "checkmark"
+			}]
+			title: "Corpse"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["QL01000000000014"]
+			description: ["Carry On lets you pick up any block that has an inventory or any non-boss mob by Shift+Right-clicking with an empty hand. The carried entity follows you and can be placed anywhere. Use this to relocate chests with contents intact, move passive mobs into farms without leads, reposition GTCEu machines without breaking and rebuilding them, or carry workbenches and crafting stations between locations. Blocks with active processes (machines mid-recipe, furnaces burning) will pause when picked up and resume when placed. The carry limit is one block or mob at a time; you cannot sprint or attack while carrying."]
+			id: "QL01000000000015"
+			rewards: [{
+				count: 2
+				id: "QL03000000000015"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000020"
+				title: "Carry a Mob or Block"
+				type: "checkmark"
+			}]
+			title: "Carry On"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["QL01000000000015"]
+			description: ["Paragliders provide gliding from any elevated position. Craft a Paraglider and bind it to a Curios slot or hotbar. While airborne, hold Jump to deploy — the glider extends and slows your descent. You can glide indefinitely as long as you maintain forward momentum and altitude. Paragliders do not require fuel and do not break. They are the earliest free-flight analog in the pack before the Create Jetpack or Soul Land movement cultivation bonuses. Use them to safely descend from tall structures, cross canyons, and scout terrain from ridge lines before you have verticality from other systems."]
+			id: "QL01000000000016"
+			rewards: [{
+				count: 2
+				id: "QL03000000000016"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000021"
+				item: "paragliders:paraglider"
+				type: "item"
+			}]
+			title: "Paragliders"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["QL01000000000016"]
+			description: ["The Create Jetpack provides powered vertical and directional flight using compressed air stored in the jetpack's internal tank. Fuel it by connecting to a Compressed Air Tank or by crafting with a charged tank directly. Press Space while airborne to ascend; the jetpack fires downward thrusters and maintains altitude. Higher-tier jetpacks use better materials and hold more air, extending flight time significantly. The Create Jetpack occupies the chest Curios slot, which competes with Sophisticated Backpacks — decide based on whether you need carry capacity or flight for a given session. Both cannot be equipped simultaneously."]
+			id: "QL01000000000017"
+			rewards: [{
+				count: 3
+				id: "QL03000000000017"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000022"
+				item: "create_jetpack:copper_jetpack"
+				type: "item"
+			}]
+			title: "Create Jetpack"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["QL01000000000001"]
+			description: ["Quark adds dozens of small improvements that activate silently in the background. Notable features: double-click any chest slot to sort the container contents; trowel-right-click with a stack to randomly place one of several block variants for natural-looking builds; shift-right-click a stack of arrows onto a bow to quick-load it; Variant Chests and Barrels carry the wood type of their material; Matrix Enchanting replaces the vanilla enchanting table with a table that shows all available enchantments and lets you select specific ones at higher material cost. All Quark features can be toggled individually in the Quark config. If something feels wrong, check if Quark changed it."]
+			id: "QL01000000000018"
+			rewards: [{
+				count: 2
+				id: "QL03000000000018"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "QL02000000000023"
+				title: "Try Matrix Enchanting"
+				type: "checkmark"
+			}]
+			title: "Quark"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["QL01000000000018"]
+			description: ["Supplementaries adds functional decorative blocks that serve real utility roles. Rope (place on any surface, extend down by placing more) lets you create climbable vertical descents without ladders — essential for deep mine shafts and cliff faces. Sign Posts display multiple directional labels at an intersection. Jars store single item types for display and easy retrieval. The Flute calls passive mobs to you. Rope Arrows attach rope to walls at range for remote installations. Supplementaries blocks blend into vanilla aesthetics and fill the gap between pure decorative mods and pure utility mods — they are practical objects that also look right in a built base."]
+			id: "QL01000000000019"
+			rewards: [{
+				count: 2
+				id: "QL03000000000019"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "QL02000000000024"
+					item: "supplementaries:rope"
+					type: "item"
+				}
+				{
+					id: "QL02000000000025"
+					item: "supplementaries:sign_post"
+					type: "item"
+				}
+			]
+			title: "Supplementaries"
+			x: 0.0d
+			y: -10.5d
+		}
+	]
+	title: "Home Essentials"
+}
