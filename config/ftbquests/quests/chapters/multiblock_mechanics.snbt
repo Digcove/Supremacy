@@ -1,0 +1,366 @@
+{
+	id: "MB00MB00MB00MB00"
+	group: "5F2CCE8075FCC994"
+	order_index: 5
+	filename: "multiblock_mechanics"
+	title: "Multiblock Mechanics"
+	icon: "gtceu:electric_blast_furnace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "How Multiblocks Work"
+			icon: "gtceu:electric_blast_furnace"
+			x: 0d
+			y: 0d
+			description: ["GTCEu's multiblock machines are assembled from multiple blocks — a controller, structure casings, and hatches — arranged in a specific pattern. Unlike single-block machines, multiblocks share one energy input across the entire structure and can handle throughput no single machine achieves. Every GTCEu multiblock follows the same construction logic: build the required casing shape, place hatches in valid casing positions, then right-click the controller to attempt formation. The controller prints a success or failure message explaining what is missing. Learn this once and apply it to every machine in the mod."]
+			dependencies: []
+			id: "MB01000000000001"
+			tasks: [{
+				id: "MB02000000000001"
+				type: "checkmark"
+				title: "Understand the multiblock system"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000001"
+					type: "item"
+					item: "mmorpg:stone/1"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The Controller"
+			icon: "gtceu:multi_smelter"
+			x: -3d
+			y: -2d
+			description: ["The controller block is the brain of the multiblock. It determines which recipe set the machine accesses, accepts right-click to toggle power and view the current recipe, and reports formation success or failure. Every valid GTCEu multiblock has exactly one controller placed at a specific position in the casing structure — usually the center of the front face. The controller draws all EU for each recipe and routes outputs to the output hatches. Without a formed controller, the assembled blocks do nothing. Right-click to form; right-click again to see current status. Always check the controller first when a machine misbehaves."]
+			dependencies: ["MB01000000000001"]
+			id: "MB01000000000002"
+			tasks: [{
+				id: "MB02000000000002"
+				type: "checkmark"
+				title: "Right-click a controller to form a multiblock"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000002"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Structure Casings"
+			icon: "gtceu:steel_machine_casing"
+			x: -3d
+			y: -1d
+			description: ["Structure casings form the walls, floor, and ceiling of a GTCEu multiblock. Each machine specifies which casing type is valid — an Electric Blast Furnace uses Heat-Proof Machine Casings; the Large Chemical Reactor uses Invar Machine Casings; the Multi Smelter uses Steel Machine Casings. Check the machine's tooltip or JEI's multiblock preview to see the required casing type and pattern before placing anything. Hatches replace casing blocks in valid wall positions. Placing the wrong hatch type, or a hatch where the machine expects solid casing, causes formation to fail with a specific error message indicating which block was wrong."]
+			dependencies: ["MB01000000000002"]
+			id: "MB01000000000003"
+			tasks: [{
+				id: "MB02000000000003"
+				type: "checkmark"
+				title: "Place casings matching the machine specification"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000003"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "The Maintenance Hatch"
+			icon: "gtceu:maintenance_hatch"
+			x: -3d
+			y: 0d
+			description: ["Every GTCEu multiblock requires exactly one Maintenance Hatch placed somewhere in its valid casing positions. Without it, the controller reports formation failure and the machine will not run — no exceptions. The Maintenance Hatch tracks machine wear: over time, random internal components require servicing. While a component is broken, the machine runs at reduced efficiency. Right-click the Maintenance Hatch with a hammer, wire cutter, or screwdriver to service the listed problems and restore full efficiency. This is the most common build mistake for new players: always include a Maintenance Hatch or the machine simply will not work."]
+			dependencies: ["MB01000000000003"]
+			id: "MB01000000000004"
+			tasks: [{
+				id: "MB02000000000004"
+				type: "item"
+				item: "gtceu:maintenance_hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000004"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Auto Maintenance"
+			icon: "gtceu:auto_maintenance_hatch"
+			x: -3d
+			y: 1d
+			description: ["The Auto Maintenance Hatch replaces the standard Maintenance Hatch and services the machine automatically, requiring no player interaction. The Configurable Maintenance Hatch goes further, letting you control which maintenance events are handled automatically and which are ignored. Once you have access to either, swap out your manual Maintenance Hatch immediately — the machine runs continuously without you periodically opening it to service broken components. This is one of the earliest quality-of-life upgrades worth making for any machine you intend to run unattended for extended periods."]
+			dependencies: ["MB01000000000004"]
+			id: "MB01000000000005"
+			tasks: [{
+				id: "MB02000000000005"
+				type: "item"
+				item: "gtceu:auto_maintenance_hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000005"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Item Input and Output"
+			icon: "gtceu:mv_input_bus"
+			x: 0d
+			y: 2d
+			description: ["Item Input Buses and Output Buses are the multiblock's item I/O ports. Each Input Bus holds up to 9 item stacks of recipe inputs; each Output Bus holds up to 9 item stacks of outputs. You can place multiple buses in valid casing positions — the machine treats all installed Input Buses as one combined inventory. This means splitting recipe inputs across multiple buses is fine and lets you pre-stage large batches. Output Buses stack the same way. Size your bus count to match throughput: a fast-overclocked machine producing stacks every few ticks needs more Output Bus slots than a slow one. Bus I/O faces can push and pull via adjacent pipes automatically."]
+			dependencies: ["MB01000000000001"]
+			id: "MB01000000000006"
+			tasks: [{
+				id: "MB02000000000006"
+				type: "item"
+				item: "gtceu:mv_input_bus"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000006"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Fluid Hatches"
+			icon: "gtceu:mv_input_hatch"
+			x: 0d
+			y: 3d
+			description: ["Input Hatches accept fluid inputs; Output Hatches collect fluid outputs. Each hatch holds one fluid type by default. If a recipe requires two different fluid inputs, you need two Input Hatches — one per fluid. The machine automatically pulls from all installed Input Hatches to match the recipe's fluid requirements. Pipe fluids in with standard pipes or GTCEu fluid covers directly into the hatch face. For machines that produce multiple distinct fluid outputs — such as the Distillation Tower, which outputs multiple fractions from different output hatch heights — you need one Output Hatch per distinct fluid. Undersizing hatches is the second most common cause of a machine running at fraction of capacity."]
+			dependencies: ["MB01000000000006"]
+			id: "MB01000000000007"
+			tasks: [{
+				id: "MB02000000000007"
+				type: "item"
+				item: "gtceu:mv_input_hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000007"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Energy Input Hatch"
+			icon: "gtceu:lv_energy_input_hatch"
+			x: 0d
+			y: 4d
+			description: ["The Energy Input Hatch delivers EU to the multiblock and must match or exceed the machine's voltage tier. An LV machine requires an LV Energy Input Hatch at minimum; using an MV hatch on an LV machine is valid and enables overclocking. Using an LV hatch on a machine that expects MV undervolts it and it will not run. Multiple energy input hatches can be installed to increase available amperage — necessary when the machine is overclocked to draw high EU/t that a single hatch cannot supply. The hatch connects to your cable network on one external face; the other five faces integrate into the casing structure."]
+			dependencies: ["MB01000000000007"]
+			id: "MB01000000000008"
+			tasks: [{
+				id: "MB02000000000008"
+				type: "item"
+				item: "gtceu:lv_energy_input_hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000008"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Locking Fluid Hatches"
+			icon: "gtceu:lv_input_hatch"
+			x: 0d
+			y: 5d
+			description: ["By default, a fluid Input Hatch accepts whichever fluid is piped into it first. In a machine with multiple hatches and multiple fluid inputs, fluids can compete for the same hatch slot, breaking the recipe. Right-clicking a fluid Input Hatch with an empty bucket lets you lock it to a specific fluid type — it will reject any other fluid and only fill with the locked type. Use this when your machine has two or three fluid inputs running from separate pipes, so each hatch reliably serves the correct input without cross-contamination. This is especially critical in the Large Chemical Reactor, which often processes three fluid reagents simultaneously in one reaction."]
+			dependencies: ["MB01000000000008"]
+			id: "MB01000000000009"
+			tasks: [{
+				id: "MB02000000000009"
+				type: "checkmark"
+				title: "Lock a fluid Input Hatch to a specific fluid"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000009"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Overclocking"
+			icon: "gtceu:hv_energy_input_hatch"
+			x: 3d
+			y: -2d
+			description: ["Overclocking is supplying a machine with more EU/t than its base recipe tier to make it run faster. Each voltage tier above the recipe's tier: the EU cost multiplies by 4× and the recipe time halves. Example — a recipe at LV costs 32 EU/t for 100 ticks (3,200 EU total). Overclock it to HV (two tiers up): costs 512 EU/t, finishes in 25 ticks, total EU spent is 12,800. Speed quadrupled, but energy efficiency dropped to 25% of base. The trade-off is always speed for total energy cost — generally worth it because faster throughput reduces bottlenecks more than power generation costs. For single-block machines, upgrade the hull; for multiblocks, install a higher-tier Energy Input Hatch."]
+			dependencies: ["MB01000000000001"]
+			id: "MB01000000000010"
+			tasks: [{
+				id: "MB02000000000010"
+				type: "checkmark"
+				title: "Overclock a multiblock with a higher-tier energy hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000010"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Perfect Overclocking"
+			icon: "gtceu:ev_energy_input_hatch"
+			x: 3d
+			y: -1d
+			description: ["Most GTCEu machines overclock at 4× EU for 2× speed per tier — you pay double the energy per recipe. A handful of multiblocks support Perfect Overclocking: 4× EU for 4× speed, with no efficiency loss. The Large Chemical Reactor, Large Centrifuge, and Large Electrolyzer are the primary examples. These machines are designed to run overclocked; their recipes are tuned assuming you will supply higher voltage to scale throughput. Identify which multiblocks support perfect overclocking in the machine tooltip. These are the machines that most reward aggressive energy investment — pour EU into them and get proportional output gains with no waste."]
+			dependencies: ["MB01000000000010"]
+			id: "MB01000000000011"
+			tasks: [{
+				id: "MB02000000000011"
+				type: "checkmark"
+				title: "Run a machine that supports perfect overclocking"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000011"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Circuit Configurations"
+			icon: "kubejs:lv_universal_circuit"
+			x: 3d
+			y: 0d
+			description: ["Many GTCEu machines have multiple recipes for the same input — different output ratios, different byproducts, different products — disambiguated by which integrated circuit number is also in the input. Instead of consuming a physical circuit every cycle, machines support Circuit Configuration mode: right-click the controller with a circuit to set the configuration number as a ghost input. The machine then only runs recipes matching that circuit number without consuming the item. This is how you direct a single-block Chemical Reactor to produce one specific chemical instead of running an ambiguous recipe. The circuit number persists through power cycles and is set per-machine."]
+			dependencies: ["MB01000000000011"]
+			id: "MB01000000000012"
+			tasks: [{
+				id: "MB02000000000012"
+				type: "checkmark"
+				title: "Set a circuit configuration on a GTCEu machine"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000012"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "I/O Export Modes"
+			icon: "gtceu:lv_robot_arm"
+			x: 3d
+			y: 1d
+			description: ["GTCEu machines and hatches support configurable I/O behavior on each face. Right-click a face with a screwdriver to cycle through export modes: Output (pushes items or fluids out that face), Input (pulls items or fluids in), and None. Setting a face to Output on an Output Bus lets it push finished products into an adjacent chest or pipe automatically without a separate export mechanism. The Robot Arm cover, when placed on a machine face, provides programmable import/export logic with slot filtering and comparator-controlled transfer rates. Correct I/O mode setup is what makes the difference between a machine you check manually and one that runs indefinitely without attention."]
+			dependencies: ["MB01000000000012"]
+			id: "MB01000000000013"
+			tasks: [{
+				id: "MB02000000000013"
+				type: "checkmark"
+				title: "Configure a machine face for automatic I/O"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000013"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Wall Sharing"
+			icon: "gtceu:multi_smelter"
+			x: 3d
+			y: 2d
+			description: ["Two GTCEu multiblocks of the same casing type can share a wall of casing blocks between them. Both controllers must form successfully, with the shared wall counting toward each machine's valid structure independently. This saves a significant number of blocks in dense factory builds — two Electric Blast Furnaces placed side by side share their adjacent casing wall and require fewer blocks total per machine than two isolated builds. The rule is simple: a casing block is valid for a multiblock if it is the correct type and in a valid position, regardless of whether another formed multiblock also claims it. Plan your factory floor with wall-sharing in mind from the start to avoid costly rebuilds later."]
+			dependencies: ["MB01000000000003"]
+			id: "MB01000000000014"
+			tasks: [{
+				id: "MB02000000000014"
+				type: "checkmark"
+				title: "Build two multiblocks sharing a casing wall"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000014"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Parallel Processing"
+			icon: "gtceu:zpm_parallel_hatch"
+			x: 3d
+			y: 3d
+			description: ["Parallel Hatches allow a multiblock to process multiple recipe instances simultaneously in a single operation cycle. A ZPM Parallel Hatch runs up to 4 copies; UV runs up to 16. The machine consumes N× the inputs and EU and produces N× the outputs in the same number of ticks as one recipe. This is the primary throughput-scaling mechanism in late GTCEu: instead of building eight Large Chemical Reactors for eight times the production, one LCR with a UV Parallel Hatch achieves equivalent output in the same footprint. Parallel Hatches require ZPM-tier to craft and represent a significant investment, but the space and logistics savings make them mandatory for endgame production targets."]
+			dependencies: ["MB01000000000013", "MB01000000000014"]
+			id: "MB01000000000015"
+			tasks: [{
+				id: "MB02000000000015"
+				type: "item"
+				item: "gtceu:zpm_parallel_hatch"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000015"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Master Builder"
+			icon: "gtceu:electric_blast_furnace"
+			shape: "diamond"
+			x: 0d
+			y: 7d
+			description: ["You understand how GTCEu multiblocks are structured, how their I/O hatches connect to base logistics, and how to scale throughput with overclocking and parallelism. Every multiblock in GTCEu — from the Multi Smelter to the Nuclear Reactor to the Distillation Tower — follows these same rules. The controller, casings, maintenance hatch, and I/O hatches are always present. Overclocking always follows the same energy-to-speed ratio. Circuit configurations always select recipes the same way. Apply this knowledge universally and no new machine's construction requirements will ever be confusing — you already know what to look for and where to put it."]
+			dependencies: ["MB01000000000005", "MB01000000000009", "MB01000000000015"]
+			id: "MB01000000000016"
+			tasks: [{
+				id: "MB02000000000016"
+				type: "checkmark"
+				title: "Master the multiblock system"
+			}]
+			rewards: [
+				{
+					id: "MB03000000000016"
+					type: "item"
+					item: "mmorpg:currency/mirror"
+					count: 4
+				}
+			]
+		}
+	]
+	quest_links: []
+}
