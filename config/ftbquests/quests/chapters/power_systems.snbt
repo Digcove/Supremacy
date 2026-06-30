@@ -1,0 +1,620 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_systems"
+	group: "5F2CCE8075FCC994"
+	icon: "fluxnetworks:flux_controller"
+	id: "PS00PS00PS00PS00"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["This pack runs three distinct power systems that do not share units. Create uses Stress Units (SU): a mechanical rotational resource carried by shafts and cogwheels. GTCEu uses EU (Energy Units): a voltage-gated electrical system where cable type must match machine tier. Thermal Expansion, Powah, and most other mods use RF (Redstone Flux / FE): a universal battery-style energy unit. These systems can be bridged — CreateAddition converts SU to RF and back; GTCEu cables can accept RF through adapter machines — but each system must first be understood on its own terms. Build a stable source in each system before trying to bridge them."]
+			id: "PS01000000000001"
+			rewards: [{
+				count: 2
+				id: "PS03000000000001"
+				item: "mmorpg:stone/1"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "PS02000000000001"
+				title: "Read the Power Guide"
+				type: "checkmark"
+			}]
+			title: "Power Systems"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["PS01000000000001"]
+			description: ["The Water Wheel provides the first reliable Create SU. Place it adjacent to flowing water on at least one side — the wheel generates SU proportional to how many of its paddles are exposed to water flow. A single 3-wide canal with two water wheels provides enough SU to run a Millstone and a Mechanical Press simultaneously. The Water Wheel outputs rotation on its flat face; connect a Shaft directly to that face to begin routing SU to machines. Build two wheels before adding machines — one wheel will stall under load."]
+			id: "PS01000000000002"
+			rewards: [{
+				count: 2
+				id: "PS03000000000002"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000002"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Water Wheel"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["PS01000000000002"]
+			description: ["The Windmill Bearing converts Sail blocks placed on its face into rotational SU output proportional to the number of sails. Place the Bearing on a solid surface, then place Sail or Sail Frame blocks around it in any cross shape up to 8 blocks from the axle. More sails means more SU but lower rotation speed. Right-click the Bearing with an empty hand to start rotation. Windmills require clear sky above — no blocks within the rotor radius. They outperform a single water wheel easily; a fully-loaded windmill runs mid-tier Create machines without strain."]
+			id: "PS01000000000003"
+			rewards: [{
+				count: 2
+				id: "PS03000000000003"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000003"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "Windmill"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["PS01000000000003"]
+			description: ["The Steam & Rails Steam Boiler is the heaviest SU source available from Create. It burns solid or liquid fuel to produce steam, which feeds a Steam Engine attached to the same boiler. SU output scales directly with the burn rate of the fuel — coke coal and blaze cakes burn the longest per unit. A single Steam Boiler with coke coal runs heavier Create machines: Mechanical Saws, Deployers, and full Sequenced Assembly lines that would starve a windmill array. Build the Boiler before entering the brass automation phase."]
+			id: "PS01000000000004"
+			rewards: [{
+				count: 2
+				id: "PS03000000000004"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000004"
+					item: "create_steam_n_rails:steam_boiler"
+					type: "item"
+				}
+				{
+					id: "PS02000000000005"
+					item: "create_steam_n_rails:steam_engine"
+					type: "item"
+				}
+			]
+			title: "Steam Boiler"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["PS01000000000004"]
+			description: ["CreateAddition bridges the SU and RF systems. The Alternator converts rotational SU into RF — connect it to any shaft network and it outputs FE into adjacent cables. The Electric Motor does the reverse: it draws RF from a cable and outputs SU rotation. Use the Alternator to export excess windmill or boiler SU into your Thermal/Powah distribution network. Use the Electric Motor to drive Create machines from GTCEu or Powah power when mechanical sources are unavailable. These two blocks make the three power systems genuinely interchangeable at the cost of some conversion efficiency."]
+			id: "PS01000000000005"
+			rewards: [{
+				count: 2
+				id: "PS03000000000005"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000006"
+					item: "createaddition:alternator"
+					type: "item"
+				}
+				{
+					id: "PS02000000000007"
+					item: "createaddition:electric_motor"
+					type: "item"
+				}
+			]
+			title: "SU ↔ RF Conversion"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["PS01000000000005"]
+			description: ["Create: New Age converts SU into EU and RF using electromagnetic induction. The Generator Coil spins inside a ring of Magnets placed in a 3×3 frame — the coil is driven by a shaft and produces power proportional to rotation speed and magnet tier. Magnet tiers: Magnetite → Redstone → Layered → Fluxuated → Netherite; each tier multiplies output. Copper Wire, Overcharged Iron Wire, and Overcharged Diamond Wire carry the generated current to storage or machines. Create: New Age is the primary path for generating EU from mechanical power before GTCEu generators are available, and remains competitive at moderate tier."]
+			id: "PS01000000000006"
+			rewards: [{
+				count: 2
+				id: "PS03000000000006"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000008"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "PS02000000000009"
+					item: "create_new_age:layered_magnet"
+					type: "item"
+				}
+				{
+					id: "PS02000000000010"
+					item: "create_new_age:overcharged_iron_wire"
+					type: "item"
+				}
+			]
+			title: "Create: New Age"
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["PS01000000000001"]
+			description: ["The Stirling Dynamo burns solid fuel to generate RF. It runs on any item accepted by a furnace — charcoal, coal, coke coal, and biomass are the primary fuels in roughly ascending efficiency order. Output rate is modest at base tier; augments improve efficiency. The Stirling is the first RF generator players can build and requires no fluid setup. Build two and keep them fueled with charcoal from a tree farm or coke coal surplus while the rest of your power infrastructure catches up. Upgrades at the Thermalpedia increase base output by tier."]
+			id: "PS01000000000007"
+			rewards: [{
+				count: 2
+				id: "PS03000000000007"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000011"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			title: "Stirling Dynamo"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["PS01000000000007"]
+			description: ["The Compression Dynamo burns fluid fuels for significantly higher RF output than the Stirling. Fuel tiers by output rate: Bio-Diesel → Diesel → Cetane-Boosted Diesel → Gasoline → High-Octane Gasoline. Bio-Diesel is processable from plant oils early in the GTCEu chemical chain. Standard Diesel requires the Chemical Reactor. Cetane-Boosted Diesel and above require HV-tier chemistry. The Compression Dynamo with high-octane fuel is the highest single-block RF output in the pack — two Compression Dynamos on High-Octane produce more RF than most early GTCEu machine setups demand."]
+			id: "PS01000000000008"
+			rewards: [{
+				count: 2
+				id: "PS03000000000008"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000012"
+					item: "thermal:dynamo_compression"
+					type: "item"
+				}
+				{
+					id: "PS02000000000013"
+					item: "gtceu:bio_diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "Compression Dynamo"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["PS01000000000008"]
+			description: ["The Lapidary Dynamo burns gem-grade materials for burst RF generation. Diamonds, Emeralds, and Diatrons each produce a fixed amount of RF per item consumed. The Lapidary is not a continuous generator — it functions as an on-demand RF dump for systems that need a spike of power rather than a sustained feed. Mine & Slash gem drops and Mystical Agriculture gem essence make this a renewable burst source. Use it to charge RF batteries during high-demand periods rather than as your primary RF baseline."]
+			id: "PS01000000000009"
+			rewards: [{
+				count: 2
+				id: "PS03000000000009"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000014"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			title: "Lapidary Dynamo"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["PS01000000000001"]
+			description: ["Powah provides a complete RF generation tier ladder independent of GTCEu chemistry. The Furnator burns solid fuel at higher efficiency than the Stirling Dynamo. Each Powah generator type comes in seven tiers — Starter, Basic, Hardened, Blazing, Niotic, Spirited, and Nitro — with each tier providing substantially more RF/t. Powah generators are crafted with Forge Energy Cell components and Powah-specific materials (Blazing Crystal, Niotic Crystal, Spirited Crystal, Nitro Crystal). Build a Blazing Furnator as your primary base RF supply before the GTCEu combustion chain is established."]
+			id: "PS01000000000010"
+			rewards: [{
+				count: 2
+				id: "PS03000000000010"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000015"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			title: "Powah: Furnator"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["PS01000000000010"]
+			description: ["The Powah Magmator burns Lava for RF generation. Place it adjacent to or above a Lava source block — it consumes lava at a rate proportional to tier. Lava is renewable through several paths: Create Encased Fan into Cobblestone over Lava produces more Lava via the generator mechanic, or pump from Nether lava lakes. At Blazing or higher tier, a Magmator fed from an infinite lava source replaces the Stirling and Compression Dynamos as the primary passive base RF supply — no solid fuel or chemical chain required."]
+			id: "PS01000000000011"
+			rewards: [{
+				count: 2
+				id: "PS03000000000011"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000016"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			title: "Powah: Magmator"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["PS01000000000011"]
+			description: ["The Powah Thermo Generator produces RF from temperature differentials — it must be placed between a hot block (Lava, Magma, Blazing Crystal Block) and a cold block (Ice, Packed Ice, Blue Ice, Cryo Crystal Block) with the Thermo Generator itself in the middle. Higher temperature contrast between hot and cold sides yields more RF. The Thermo Generator requires no ongoing fuel consumption beyond the blocks it contacts, making it a near-passive source. Stack them vertically with alternating hot and cold columns for compact, scalable passive generation."]
+			id: "PS01000000000012"
+			rewards: [{
+				count: 2
+				id: "PS03000000000012"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000017"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			title: "Powah: Thermo Generator"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["PS01000000000012"]
+			description: ["The Powah Spirited Generator burns Spirited Fire — a renewable fuel produced by throwing Blaze Rods into Soul Fire. Spirited Crystals serve as the crafting material for higher-tier Powah devices and also function as the consumable fuel for the Spirited Generator. Establish a Spirited Crystal farm from a Mystical Agriculture Spirited seed or through Blaze farm byproducts before relying on this generator for continuous output. At Spirited and Nitro tier, the Spirited Generator produces RF at rates that cover HV-tier GTCEu machine clusters without additional sources."]
+			id: "PS01000000000013"
+			rewards: [{
+				count: 2
+				id: "PS03000000000013"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000018"
+				item: "powah:spirited_generator_starter"
+				type: "item"
+			}]
+			title: "Powah: Spirited"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["PS01000000000013"]
+			description: ["The Powah Reactor is the endgame Powah generation method. It requires a Reactor Core surrounded by six Reactor Cell blocks — one on each face. Each Cell consumes Uraninite and Dry Ice as fuel, with Nitro Crystal moderators inserted to boost output multipliers. At full tier with Nitro Crystal moderators, the Powah Reactor produces hundreds of thousands of RF/t passively. It is the primary RF source for Flux Networks distribution at late game. Build it at IV-equivalent Powah tier when Nitro Crystals and the Uraninite supply are both sustainable from Mystical Agriculture or mining routes."]
+			id: "PS01000000000014"
+			rewards: [{
+				count: 3
+				id: "PS03000000000014"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000019"
+					item: "powah:reactor_core"
+					type: "item"
+				}
+				{
+					id: "PS02000000000020"
+					item: "powah:reactor_cell"
+					type: "item"
+				}
+			]
+			title: "Powah: Reactor"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["PS01000000000001"]
+			description: ["GTCEu generates EU using single-block generators and large multiblock turbines. EU is not RF — cables must match voltage tier to avoid explosion, and machines require the correct input voltage. Single-block generators cover LV through EV tiers. The multiblock turbines and engines scale to IV and beyond. GTCEu generators are the primary EU source for GTCEu machines; the Create: New Age coil system is the secondary source for bridging before GT generators are built. Choose your generator type based on what fuel is available: steam if you have boilers, gas if you have Hydrogen or Natural Gas, combustion if the chemical chain is established."]
+			id: "PS01000000000015"
+			rewards: [{
+				count: 2
+				id: "PS03000000000015"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "PS02000000000021"
+				title: "Read the GTCEu Generator Guide"
+				type: "checkmark"
+			}]
+			title: "GTCEu Generators"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["PS01000000000015"]
+			description: ["GTCEu Steam Turbines convert steam directly into EU. The LV Steam Turbine requires only a boiler source — a Create Steam & Rails Boiler piped through fluid tanks feeds it adequately. Steam throughput determines EU/t output; a higher-rate steam supply fills turbines faster. Upgrade from LV to MV to HV Steam Turbine as your boiler capacity grows. Steam Turbines cannot overclock: their EU output is fixed by steam input rate, not voltage tier alone. Use them as a cheap baseline EU source early in GTCEu progression before the Chemical Reactor enables gas and combustion fuels."]
+			id: "PS01000000000016"
+			rewards: [{
+				count: 2
+				id: "PS03000000000016"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000022"
+					item: "gtceu:lv_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000023"
+					item: "gtceu:mv_steam_turbine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000024"
+					item: "gtceu:hv_steam_turbine"
+					type: "item"
+				}
+			]
+			title: "Steam Turbines"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["PS01000000000016"]
+			description: ["GTCEu Gas Turbines burn Hydrogen, Natural Gas, and similar gaseous fuels. Hydrogen is the easiest early gas fuel — produced via Electrolyzer from water using any EU input. Natural Gas is extracted from oil wells or chemical synthesis. At LV, a single Gas Turbine on Hydrogen produces EU at a higher EU/t ratio than the equivalent Steam Turbine, making it the preferred single-block generator once electrolysis is running. Upgrade through MV and HV Gas Turbines as your electrolysis array scales; HV Gas Turbines on high-density gas fuels are competitive with mid-tier multiblock output."]
+			id: "PS01000000000017"
+			rewards: [{
+				count: 2
+				id: "PS03000000000017"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000025"
+					item: "gtceu:lv_gas_turbine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000026"
+					item: "gtceu:mv_gas_turbine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000027"
+					item: "gtceu:hv_gas_turbine"
+					type: "item"
+				}
+			]
+			title: "Gas Turbines"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["PS01000000000017"]
+			description: ["GTCEu Combustion Engines burn liquid fuels: Bio-Diesel, Diesel, Cetane-Boosted Diesel, Gasoline, and High-Octane Gasoline in ascending output order. Bio-Diesel is the earliest accessible fuel — produced from plant oils (Pam's Harvestcraft sunflower or Mystical Agriculture oil seeds) in the Chemical Reactor. Standard Diesel requires the Oil Refinery chain. The LV Combustion Engine on Bio-Diesel provides a significant EU/t bump over steam sources. Scale to MV and HV Combustion Engines as the refinery chain matures; High-Octane Gasoline in HV Combustion Engines is the primary single-block EU source before multiblock machines are viable."]
+			id: "PS01000000000018"
+			rewards: [{
+				count: 2
+				id: "PS03000000000018"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000028"
+					item: "gtceu:lv_combustion"
+					type: "item"
+				}
+				{
+					id: "PS02000000000029"
+					item: "gtceu:mv_combustion"
+					type: "item"
+				}
+				{
+					id: "PS02000000000030"
+					item: "gtceu:hv_combustion"
+					type: "item"
+				}
+			]
+			title: "Combustion Engines"
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["PS01000000000018"]
+			description: ["The Large Steam Turbine is a 3×3×4 multiblock structure that multiplies steam-to-EU conversion efficiency substantially over single-block turbines. It requires Turbine Blades made from Steel or higher alloys; blade material determines efficiency tier. The structure consumes more steam but produces EU at a far higher rate per unit of steam than individual turbines. The Large Combustion Engine and Large Gas Turbine follow the same multiblock pattern but burn liquid fuels and gas respectively. Build at least one Large multiblock generator before HV-tier GTCEu machines become the primary power drain — they are the step that makes an EU surplus feel achievable."]
+			id: "PS01000000000019"
+			rewards: [{
+				count: 3
+				id: "PS03000000000019"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000031"
+					item: "gtceu:steam_large_turbine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000032"
+					item: "gtceu:large_combustion_engine"
+					type: "item"
+				}
+				{
+					id: "PS02000000000033"
+					item: "gtceu:gas_large_turbine"
+					type: "item"
+				}
+			]
+			title: "Large Turbines"
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["PS01000000000019"]
+			description: ["The GTCEu Nuclear Reactor burns enriched uranium fuel cells to produce EU — the highest single-structure EU output available before ZPM-tier machines. Fuel production requires uranium ore processing to oxide, reduction to metal, and enrichment in the Centrifuge. Spent fuel cells can be reprocessed for additional byproduct materials. The Nuclear Reactor operates at EV voltage; running it below EV capability wastes output. Build it when your uranium mine or Mystical Agriculture uranium seed supply is sufficient to sustain continuous fuel cell production. It is the natural capstone of the single-block generator progression."]
+			id: "PS01000000000020"
+			rewards: [{
+				count: 3
+				id: "PS03000000000020"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000034"
+				item: "gtceu:nuclear_reactor"
+				type: "item"
+			}]
+			title: "Nuclear Reactor"
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["PS01000000000015"]
+			description: ["GTCEu cables carry EU between generators and machines. Each cable tier carries a maximum voltage and a maximum amperage; mismatch above the cable's voltage rating causes explosion, so always match cable tier to machine tier. Rubber (LV), Tin (LV), Copper (LV-MV), Aluminium (MV-HV), and Tungsten (HV-EV) are the primary cable materials. Long cable runs lose EU per block — use Energy Hatches or Transformers to boost signals over distance. The Transformer block steps voltage up or down between tiers, allowing a single HV generator to feed both HV machines and a lower-voltage secondary network."]
+			id: "PS01000000000021"
+			rewards: [{
+				count: 2
+				id: "PS03000000000021"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000035"
+					item: "gtceu:rubber_cable_1x"
+					type: "item"
+				}
+				{
+					id: "PS02000000000036"
+					item: "gtceu:copper_cable_1x"
+					type: "item"
+				}
+				{
+					id: "PS02000000000037"
+					item: "gtceu:lv_transformer"
+					type: "item"
+				}
+			]
+			title: "Cables and Transformers"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["PS01000000000021"]
+			description: ["Battery Buffers store EU on the cable network and redistribute it to connected machines. Each Buffer holds a configurable number of batteries and charges or discharges them based on network demand. Use a 4A Battery Buffer as the minimum per machine cluster — it absorbs surge demand during machine startup and prevents the generator from spiking. Place the Buffer between the generator output and the machine input cluster; the generator charges the buffer, the buffer feeds the machines. Always build a Battery Buffer before the machine it serves or power spikes will damage lower-tier machines at startup."]
+			id: "PS01000000000022"
+			rewards: [{
+				count: 2
+				id: "PS03000000000022"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000038"
+				item: "gtceu:lv_battery_buffer_4a"
+				type: "item"
+			}]
+			title: "Battery Buffers"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["PS01000000000022"]
+			description: ["GTCEu Energy Converters bridge the EU and RF systems bidirectionally. Place an Energy Converter on a GTCEu cable and connect RF cables to its sides — it continuously converts EU to RF or RF to EU based on configuration. This is the primary method for powering Thermal Expansion machines from GTCEu generators, or for feeding EU into a GTCEu network from a Powah reactor or Compression Dynamo bank. The conversion rate is fixed per tier; use an HV Converter or higher for high-volume cross-system transfers. Flux Networks (see below) eliminates the need for long cable runs entirely once established."]
+			id: "PS01000000000023"
+			rewards: [{
+				count: 2
+				id: "PS03000000000023"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "PS02000000000039"
+				title: "Bridge EU and RF"
+				type: "checkmark"
+			}]
+			title: "EU ↔ RF Conversion"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["PS01000000000023"]
+			description: ["Flux Networks replaces all RF cable infrastructure with a wireless distribution system. Flux Dust is the crafting base — smelt it from materials at the Flux Anvil or via the recipe in JEI. The Flux Controller manages the network; each network requires exactly one. The Flux Plug draws RF from any RF-producing block, cable, or battery adjacent to it. The Flux Point injects RF into any RF-consuming block anywhere in the world, regardless of distance. There is no cable length limit and no transmission loss. Build Flux Networks as soon as you have HV-tier materials and Flux Dust production — it eliminates the cable complexity of large multi-building power setups permanently."]
+			id: "PS01000000000024"
+			rewards: [{
+				count: 3
+				id: "PS03000000000024"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000040"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "PS02000000000041"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+				{
+					id: "PS02000000000042"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "PS02000000000043"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			title: "Flux Networks"
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["PS01000000000024"]
+			description: ["Flux Network storage blocks act as wireless RF batteries on the network — they absorb surplus from Flux Plugs and release it on demand to Flux Points. Basic Flux Storage provides a modest buffer. Herculean Flux Storage holds ten times more. Gargantuan Flux Storage holds one hundred times the base capacity and is the practical cap for most setups. Add Flux Storage to your network before the Powah Reactor or Large Combustion Engine — the burst charging on startup will otherwise saturate Flux Points before storage can buffer it. A Gargantuan array ensures even large power spikes are absorbed cleanly."]
+			id: "PS01000000000025"
+			rewards: [{
+				count: 3
+				id: "PS03000000000025"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "PS02000000000044"
+					item: "fluxnetworks:basic_flux_storage"
+					type: "item"
+				}
+				{
+					id: "PS02000000000045"
+					item: "fluxnetworks:herculean_flux_storage"
+					type: "item"
+				}
+				{
+					id: "PS02000000000046"
+					item: "fluxnetworks:gargantuan_flux_storage"
+					type: "item"
+				}
+			]
+			title: "Flux Storage"
+			x: 8.0d
+			y: -10.0d
+		}
+	]
+	title: "Power Systems"
+}

@@ -1453,6 +1453,10 @@ file = "config/ftbquests/quests/chapters/power.snbt"
 hash = "909d5b53b3eb242ea76692b626599002d540b4436abae494e962c5c32682e53d"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/power_systems.snbt"
+hash = "e71f33c367d848af2d811f93a79bd291f41238a0aaf77ba285def2bde1e75d8c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/preparing_for_dimensional_travel.snbt"
 hash = "1b6922e2ccbdc96f6560591b86a2cb8898cc3fac86627a7cdc34441586ca8f7a"
 
