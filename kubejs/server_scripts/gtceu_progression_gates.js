@@ -1,5 +1,12 @@
 ServerEvents.recipes(event => {
 
+    // Primitive Blast Furnace: swap Firebricks for Precision Mechanism to gate behind Create
+    event.replaceInput(
+        { output: 'gtceu:primitive_blast_furnace' },
+        'gtceu:firebricks',
+        'create:precision_mechanism'
+    )
+
     // LV Machine Hull: manasteel gate (requires completing Chapter 6 Botania)
     event.remove({ output: 'gtceu:lv_machine_hull' })
     event.shaped('gtceu:lv_machine_hull', [

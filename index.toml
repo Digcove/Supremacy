@@ -1361,6 +1361,10 @@ file = "config/ftbquests/quests/chapters/draconic_age_part_1.snbt"
 hash = "49ead41751e6b15aa9ff247afcf6ef7d7ef0f81d7101652d0b44cc365e6e234c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/dungeons.snbt"
+hash = "0aa25fd10191d25c9f08f3d50ca448eddfba66d5762abf4bd7788ffc7ae3e7c9"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/early_game.snbt"
 hash = "2dfc075054a51038e86bdfa4c102f40c461e610c99334ab7988f11f139c9588b"
 
@@ -1410,7 +1414,7 @@ hash = "f4f870ebedf10b97845708a02a9b0732ecebb1bb009d73889c690a820c341b7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanics.snbt"
-hash = "f0b506e2b2f82dc3754184ef9e8fdab178e0565c9a0ea05679de69418984dbc1"
+hash = "72485068425b2b98503c56284588f0b5e16092d5a891e16d88b1749139ec2baf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mystical_agriculture_gregified.snbt"
@@ -2278,7 +2282,7 @@ hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "dev_notes.md"
-hash = "ebafe0125d781eecb92f1641a5a425226bdb885778f127d29e0e50915932096a"
+hash = "7614006b478aad92c9519bdc2449a17da1eb0b91ae1bc4676864d4d6d8ed03f9"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/charged_qi_crystal.png"

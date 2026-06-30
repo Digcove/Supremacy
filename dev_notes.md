@@ -10,7 +10,7 @@ _Last updated: 2026-06-29. This file is the canonical pending-work tracker for f
 - **Campaign tab** — act_0–act_v, ascendancy, campaign_talent_rewards, epilogue, repeatables — all ported from C2E2 (identical)
 - **Logbook tab** — magical_flora and storage_solutions — ported from C2E2 (identical)
 - **Adventure tab** — biome_hopper (24 quests) and structures (19 quests) written
-- **Home Sweet Home tab** — farming (C2E2 port) + homestead (19 quests, written this session)
+- **Home Sweet Home tab** — farming (C2E2 port) + homestead (19 quests) + culinary_arts (13 quests) + professions (15 quests) + fishing (20 quests, Aquaculture 2 integration)
 - **MnS data** — full C2E2 talent tree, perks, spells, gems, gear types, affixes, runewords, stat compat (~3,100 files in kubejs/data/mmorpg/)
 - **KubeJS attribute registration** — 12 custom MnS attributes in startup_scripts/mns_custom_stats.js (EntityJS required and added)
 - **Dimension return system** — server_scripts/dimension_return.js (dungeon_realm, the_harvest, ancient_obelisks)
@@ -61,15 +61,8 @@ Shapeless recipe (spirit_iron × 2 + amethyst_shard → qi_crystal) may conflict
 
 ### Godlike Power Tab (4FE047BB6D602D58)
 
-#### `alchemy.snbt` — THIN (3 checkmark quests only)
-Currently: three informational checkmarks for MnS Alchemy, Spiritual Alchemy, Blood Magic Alchemy.
-**Needs:** Item-based quests for:
-- MnS Alchemy Station + first potion (item detection: mmorpg:alchemy/station or similar)
-- Blood Magic sigil chain (sigil_of_holding, sigil_of_air, sigil_of_augmented_holding)
-- Blood Magic ritual progression (ritual_of_regeneration, ritual_of_feather_fall, etc.)
-- Soul Land pill crafting at Cultivation Altar (breakthrough_pill, foundation_pill)
-- Ars Nouveau elixir brewing
-- Target: 15–20 quests with linear dependency chain
+#### `alchemy.snbt` — COMPLETE (18 quests)
+Four branches: Soul Land (qi_crystal → soul_crystal → soul_forged_ingot), Blood Magic (altar → blank_slate → sigils → ritual_diviner → living_armor), Ars Nouveau (source_gem → enchanting_apparatus → alchemist's_crown), MnS Alchemy (station → first batch → apprentice). Grand Alchemist diamond completion.
 
 #### `jewlery.snbt` — FUNCTIONAL BUT THIN (7 quests, tier 1–6 jewelry souls)
 Missing:
@@ -86,24 +79,17 @@ Missing:
 
 ### Home Sweet Home Tab (1E24DF067925061D)
 
-Three chapters should be added (C2E2 references available to adapt):
-
-1. **Cooking/Culinary chapter** — Farmer's Delight recipes, Pam's HC crops, Mystical Agriculture food crops, Farmer's Respite drinks. C2E2 reference: `culinary_delights.snbt` (1459 lines). Port and adapt — remove C2E2-only items (anything not in our mod list).
-
-2. **Professions chapter** — Mine & Slash profession system (Mining, Farming, Fishing, Woodcutting, Alchemy, Enchanting, Forging). C2E2 reference: `professions.snbt` (1196 lines). High compatibility — M&S professions are the same.
-
-3. **Fishing chapter** — Fishing mechanics, Alex's Mobs aquatic content, Farmer's Delight fish cooking. C2E2 reference: `fishing.snbt` (1521 lines). Port and adapt — remove mods we don't have (Aquaculture 2 is not in our pack).
+All five chapters complete: farming, homestead, culinary_arts, professions, fishing. Aquaculture 2 (v2.5.7) added as mod; Excalibur + Aquaculture 2 Excalibur Support resource packs added.
 
 ### Adventure Tab (274C28999D7BBD26)
 
 Both existing chapters now have content but consider adding:
 
-4. **ARPG/Dungeon chapter** — Mine & Slash dungeon map system, Library of Exile atlas maps, map affixes, map device usage, home pearls, dimension_return system. No C2E2 reference maps cleanly (their exploration.snbt references ~10 mods we don't have). Write fresh using our pack's systems. Key items: dungeon_realm:dungeon_map, dungeon_realm:home_pearl, library_of_exile:portal_frame.
+4. **Dungeons chapter** — COMPLETE. 12 quests: Map Creator → Map Setup → Enter Map → Boss Room; Library Portal → Map Affixes; Ancient Obelisk → Wave Encounters; The Harvest (checkmark); Uber Fragment; Master Delver diamond. IDs: DG01000000000001–DG01000000000012.
 
-### Ungrouped Chapters (need group assignment)
-`mechanics.snbt` (group: "") and `welcome.snbt` (group: "") are ungrouped — they float without a tab.
-- `mechanics.snbt` = Star Tech GT multiblock tutorials — assign to `"1E0FC4EA21F735F7"` (Star Tech: Main)
-- `welcome.snbt` = Server welcome screen — either assign to a tab or confirm it's intentionally ungrouped (welcome screens can work without a group)
+### Ungrouped Chapters
+- `mechanics.snbt` — assigned to Star Tech: Main group `1E0FC4EA21F735F7` ✅
+- `welcome.snbt` — intentionally ungrouped (welcome screens work without a tab in FTB Quests)
 
 ---
 
@@ -204,8 +190,8 @@ config/ftbquests/quests/chapters/
                         voltage_and_vitality, sovereign_circuits, through_the_veil,
                         event_horizon, the_stars_await
   Adventure (274C28):  biome_hopper, structures
-  Home Sweet (1E24DF): farming, homestead
-  Godlike (4FE047):    alchemy (THIN), armor, jewlery, soul_land_weapons
+  Home Sweet (1E24DF): farming, homestead, culinary_arts, professions, fishing
+  Godlike (4FE047):    alchemy, armor, jewlery, soul_land_weapons
   Campaign (1E3C4B):   act_0-v, ascendancy, campaign_talent_rewards, epilogue, repeatables
   Logbook (5F2CCE):    magical_flora, storage_solutions
   Star Tech tabs:      READ-ONLY — never edit

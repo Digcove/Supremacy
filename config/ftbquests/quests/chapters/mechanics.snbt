@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "mechanics"
-	group: ""
+	group: "1E0FC4EA21F735F7"
 	icon: "farmersdelight:purple_hanging_canvas_sign"
 	id: "39DD95CA65C51B2C"
 	order_index: 1
