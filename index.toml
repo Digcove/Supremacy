@@ -15096,6 +15096,11 @@ hash = "0f4c2198603cd84a14dc6741729d0b0dcf509574776e620c36c3e7180082db32"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture.pw.toml"
+hash = "50ef20cead6c51577f6698e6d2e63cdb11fb460d08a56517bdd99520a756a28a"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
@@ -16106,6 +16111,16 @@ metafile = true
 [[files]]
 file = "playtest_notes_2.md"
 hash = "7a7cd10dbda57f574c957ae451aa4709800ca76acbc3a7eb4de64096a67485ef"
+
+[[files]]
+file = "resourcepacks/aquaculture-2-excalibur-support.pw.toml"
+hash = "bbd3d190b0dcad89b2d2ee90453b93fd42a0b637ee923696c4bb9bf1c1560cb1"
+metafile = true
+
+[[files]]
+file = "resourcepacks/excal.pw.toml"
+hash = "ab7a672c24f5914c71dbc6931ed5190763d12e1d617d6359de4e85607bb1568e"
+metafile = true
 
 [[files]]
 file = "texture_checklist.md"
