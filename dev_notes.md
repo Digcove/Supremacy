@@ -1,6 +1,6 @@
 # Dev Notes — Supremacy Modpack
 
-_Last updated: 2026-06-29. This file is the canonical pending-work tracker for future sessions._
+_Last updated: 2026-06-30. This file is the canonical pending-work tracker for future sessions._
 
 ---
 
@@ -21,6 +21,9 @@ _Last updated: 2026-06-29. This file is the canonical pending-work tracker for f
 - **Configs synced** — 204 configs from MYPACK to git, defaultconfigs synced
 - **EntityJS + Amendments mods** — both added to mods/
 - **KubeJS recipe fixes** — botania spirit_steel→spirit_iron ingot, explorer's compass copper gate, nature's compass spirit iron gate
+- **Star Technology config diff** — All 46 overlapping configs evaluated. Three gtceu.yaml fixes applied (`highTierContent: true`, `ulvComponentsEnabled: true`, `enableWorldAccelerators: false`). All other differences were either intentional (fluxnetworks GTCEu integration, MA inferium drops/ore gen) or mod-version formatting changes with no gameplay effect.
+- **KubeJS compat scripts** — ae2_gtceu_compat, thermal_compat, functional_storage_recipes, flux_networks_recipes, general_compat (adapted from Star Tech THETA-1; Star Tech custom materials excluded)
+- **AE2 channels** — set to `infinite` in config/ae2/common.json
 
 ---
 
@@ -154,16 +157,6 @@ All these items render as purple missing-texture until PNGs are provided. All mu
 | `gtceu_progression_gates.js:96` | `twilightforest:ice_bomb` | `twilightforest:snow_queen_trophy` |
 
 ---
-
-## 🟡 STAR TECHNOLOGY CONFIGS NOT EVALUATED
-
-Star Tech has 143 config files at:
-`/Users/evancyrulik/Downloads/IGNORE FOR GIT!!! - Star Technology/Star Technology-1.20.1-THETA-1-HOTFIX-3/overrides/config/`
-
-MYPACK's configs were synced (likely incorporating many ST configs) but a direct diff has not been done. In particular, check:
-- Mine & Slash difficulty/drop rate settings
-- GTCEu recipe changes Star Tech makes that we may want
-- Any mod compatibility overrides (e.g., Apotheosis, Create, AE2)
 
 ---
 
