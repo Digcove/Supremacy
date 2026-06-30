@@ -1445,6 +1445,10 @@ file = "config/ftbquests/quests/chapters/preparing_for_dimensional_travel.snbt"
 hash = "1b6922e2ccbdc96f6560591b86a2cb8898cc3fac86627a7cdc34441586ca8f7a"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/professions.snbt"
+hash = "dfdf9e4307f44d286737f39f2911c79276176d22970107a3e646884063069d97"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/quality_of_life.snbt"
 hash = "47989f6a8f843d430a8283efa03f98b98c4f0838ae73d1af4af8ef922ca38a91"
 
