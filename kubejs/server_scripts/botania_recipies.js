@@ -1,5 +1,23 @@
 ServerEvents.recipes(event => {
 
+    // Gate Orechid behind Create (polished rose quartz) — removes GoG alternation and adds standard recipe
+    event.remove({ type: 'botania:gog_alternation', output: 'botania:orechid' })
+    event.recipes.botania.apothecary(
+        'botania:orechid',
+        [
+            '#botania:petals/gray',
+            '#botania:petals/gray',
+            '#botania:petals/yellow',
+            '#botania:petals/green',
+            '#botania:petals/red',
+            'botania:rune_pride',
+            'botania:rune_greed',
+            'botania:redstone_root',
+            'botania:pixie_dust',
+            'create:polished_rose_quartz'
+        ]
+    )
+
     // Remove default Manasteel recipe
     event.remove({
         output: 'botania:manasteel_ingot',
@@ -9,7 +27,7 @@ ServerEvents.recipes(event => {
     // Soul Land -> Botania integration
     event.recipes.botania.manaInfusion(
         'botania:manasteel_ingot',
-        'soulland:spirit_steel_ingot',
+        'soulland:spirit_iron_ingot',
         3000
     )
 

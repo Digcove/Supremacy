@@ -7,5 +7,7 @@
 		{ id: "1E0FC4EA21F735F7", title: "Star Tech: Main" }
 		{ id: "03EF8417F6D21A2E", title: "Star Tech: Chemistry" }
 		{ id: "28726466D987C725", title: "Star Tech: Extra" }
+		{ id: "1E3C4B5FFAE48A39", title: "Campaign" }
+		{ id: "5F2CCE8075FCC994", title: "Logbook" }
 	]
 }

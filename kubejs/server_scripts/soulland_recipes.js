@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+    // Remove the mod's default Cultivation Altar recipe so JEI shows only ours
+    event.remove({ output: 'soulland:cultivation_altar' })
+
     // Cultivation Altar — early meditation station, made from spirit iron
     event.shaped('soulland:cultivation_altar', [
         ' I ',
