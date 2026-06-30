@@ -1325,6 +1325,10 @@ file = "config/ftbquests/quests/chapters/adventures_in_abydos.snbt"
 hash = "d2088feb874322e2b7a06a54b06069bc4821bc45c17307a82b3724c068e6925c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/ae2.snbt"
+hash = "ebf8caf88bab254f1179b4f89943cd3928820c4874871d236cbed8df1ba2e47c"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/alchemy.snbt"
 hash = "69f1723881705ebc52426501b72659fb6817394e2461400bc6f38cd50968537f"
 
