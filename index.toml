@@ -1353,6 +1353,10 @@ file = "config/ftbquests/quests/chapters/campaign_talent_rewards.snbt"
 hash = "49f9efdaf0667291db4515fc9bd82c18b02b33b79dc7b3baa8fa6b9da9f39feb"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/culinary_arts.snbt"
+hash = "aaf6c494b165b9d4874722767035c9587619aa74a98894b8616ee0ecafbf0570"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/draconic_age_part_1.snbt"
 hash = "49ead41751e6b15aa9ff247afcf6ef7d7ef0f81d7101652d0b44cc365e6e234c"
 
