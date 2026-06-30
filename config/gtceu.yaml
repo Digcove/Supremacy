@@ -65,7 +65,10 @@ machines:
   enableMaintenance: true
   maintenanceCheckInterval: 1000
   ghostCircuit: true
+  enableWorldAccelerators: false
   gt6StylePipesCables: true
+  highTierContent: true
+  ulvComponentsEnabled: true
   enableTieredCasings: false
   orderedAssemblyLineFluids: false
   allowDrumsInputFluidsFromOutputSide: false
