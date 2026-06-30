@@ -1,0 +1,13 @@
+name = "ExpandedGT"
+filename = "expandedgt-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8284af4e0260eea6cb3024f5664aa4ce5b4dd8a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8029416
+project-id = 1448336

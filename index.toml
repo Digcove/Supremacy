@@ -1334,7 +1334,7 @@ hash = "0e1218476e418a635121ad39d2d2ba0be29e21609cf8b02ef92d91858b83dd58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
-hash = "1b783fa382e3a3484ce7819687597935aa0523996c94a8fef9aac7a68d8c835f"
+hash = "53140fd35abc4ff8bee1656f75cb624a4d30497a2f01a746cc59a3b8913d14f4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascendancy.snbt"
@@ -1402,7 +1402,7 @@ hash = "6e922809c9c5ee2a2836d37b544ef6487a52dec910204e42b5a23a7140b1d3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
-hash = "16439426dd19f4527f03364d6dbbb1fc186579cae4295304ef2254f16de34a16"
+hash = "f44ff093be9f8874ff31aae491103aef3bdbf992e74461af9e74e9e248ff9ee8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/line_of_progression.snbt"
@@ -15055,8 +15055,18 @@ hash = "fff2acc3c8019523b091308e9a5689f8e11c95576d0fb3a07094aacad9883c54"
 metafile = true
 
 [[files]]
+file = "mods/ae2-network-analyser.pw.toml"
+hash = "59b441c02123a358b138b0e1421fdb085b8138392f2a65ff479e09d3f10098f2"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "74bbdad7434bc02ec767c15c0136269f885331601f73fa2365252c24e58c09bd"
+metafile = true
+
+[[files]]
+file = "mods/aeinfinitybooster.pw.toml"
+hash = "846831d26250caa2ecb9e68919c685b4501afa6899b38b87c7b3b4260e7f6e66"
 metafile = true
 
 [[files]]
@@ -15095,7 +15105,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
-hash = "36c1d9057db42df7c2573c8673bef9a2d6ac0c43599ee0f8209573bbd3dd3bcf"
+hash = "f3ddc5ed65361138c4c66fd4abd05b6050b24362dc7bb83a5ca54eafb74dd181"
 metafile = true
 
 [[files]]
@@ -15164,6 +15174,11 @@ hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
 metafile = true
 
 [[files]]
+file = "mods/betterp2p.pw.toml"
+hash = "edd12c354c729f8ad13fe5a86e5a5a1f1b13930b6008ad1b0772f83ef447c1fa"
+metafile = true
+
+[[files]]
 file = "mods/blood-magic.pw.toml"
 hash = "3b879bca4fd5bb5a90e9f0ce5d975c89f5676071997cb2e61383a40242fa0b3d"
 metafile = true
@@ -15225,7 +15240,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
+hash = "96204145e12506e0625d8b9bfa05aad54e9a62fd511bae39f0d57fcb5e39f4cc"
 metafile = true
 
 [[files]]
@@ -15377,6 +15392,21 @@ hash = "fbd9436bbb5853fd2834b1c0649ce6b262b2d4cae05b5a784c22c3a77091091b"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "b03708e6de0c0afd4a1b202d7da5b258d60e7e5a10a171aef42c6d35935f4859"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ae.pw.toml"
+hash = "185cdedde1c16e19211ca2f3916eea3936db843bf751d1775406fa0668193733"
+metafile = true
+
+[[files]]
+file = "mods/expandedgt.pw.toml"
+hash = "e64131425c0f4bcd22ae6131f31769ea399c492dbc6702c4567a41a53863351f"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "0db85b53cd32bb1d23c33273deaef58bd0f0429a180d171e3f02fe0ab86b0fe2"
 metafile = true
@@ -15459,6 +15489,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "898fd2704dd260ae8f3dc20b4416439751f0a9e76367c4f0bbdac886b6987802"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "2a7944b951ebfaa4dcf963c3e2faf43eb8115d99a4390daa49dd8ea6676e8828"
 metafile = true
 
 [[files]]
@@ -15672,6 +15707,16 @@ hash = "cad191760503c4f85107c334d987b3aec7286396134f2f3b4f8b6a4eaafee44e"
 metafile = true
 
 [[files]]
+file = "mods/mega.pw.toml"
+hash = "d9d3fe576eb7a4e3a2c7c08ecade6a000ca15cc07a1fe9444d2a37cce8f27f2f"
+metafile = true
+
+[[files]]
+file = "mods/merequester.pw.toml"
+hash = "0f4e587bcc73bdb780a04082c509cf5a758ff5b8b25380673606d6150297033a"
+metafile = true
+
+[[files]]
 file = "mods/mine-and-slash.pw.toml"
 hash = "0912b2ede15bab6aeb13b51f77e3113ae5c13fa4572d450ec99611148135d39c"
 metafile = true
@@ -15797,6 +15842,11 @@ hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
 metafile = true
 
 [[files]]
+file = "mods/patternbetter.pw.toml"
+hash = "ef29e05b101324450e0a2b2e02652bbc81ef263f614de8f4beaaf6b4e069d0c9"
+metafile = true
+
+[[files]]
 file = "mods/pipez.pw.toml"
 hash = "4b0bda60db3fc2f47e876e6e2e4a15c5d4f0d0e8a98fc8ce10a1b6694549b466"
 metafile = true
@@ -15829,6 +15879,11 @@ metafile = true
 [[files]]
 file = "mods/productivebees.pw.toml"
 hash = "08d286c82ca28323437d5dc8c6cc3d38ca6fcf8a66f56cb7e0005b639c90bad7"
+metafile = true
+
+[[files]]
+file = "mods/programmed-circuit-card.pw.toml"
+hash = "09b2f652a6d3f4e848016db8fdd663c4289495d24065282cb18ede8e6e748e2d"
 metafile = true
 
 [[files]]
