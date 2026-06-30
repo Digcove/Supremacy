@@ -1285,10 +1285,6 @@ file = "config/forge-client.toml"
 hash = "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
 
 [[files]]
-file = "config/ftbquests/chapter_groups.snbt"
-hash = "22527e53454dd15813f188fae295dae07cc6e8efe5e2bd2b811b7e84b37fa4d4"
-
-[[files]]
 file = "config/ftbquests/data.snbt"
 hash = "04c088f8c37c753a0676adbdb18540f8f7134a0d37430440849795cd49118b08"
 
