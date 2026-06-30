@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".claude/settings.local.json"
-hash = "0217f09cb52107a1c548e8464b4d6b3cd1d133a1035ce99553a68c5a76098da9"
+hash = "0ce1d1cbdd3003bee31778dcbb5ecebcb76391780430cd3f5c8603df0efc1835"
 
 [[files]]
 file = ".vscode/settings.json"
@@ -46,7 +46,7 @@ hash = "963acbfdc0b2bdcdadcc84dfc83c3e9cbb239ac37e00633e589e2195ea516c96"
 
 [[files]]
 file = "config/ae2/common.json"
-hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
+hash = "5167b8f7ee4b29979a3b521c856a4cd87e6d61fbebbd9d9fdf1186b9ae1d6104"
 
 [[files]]
 file = "config/alexscaves-client.toml"
@@ -14977,6 +14977,10 @@ file = "kubejs/data/mmorpg/recipes/salvaging_station.json"
 hash = "a1e89c19f15921d399145e36f924a6fd44084885cff6357c3308970a0f5712d4"
 
 [[files]]
+file = "kubejs/server_scripts/ae2_gtceu_compat.js"
+hash = "dc1b58f31ba10a183473a0250564668e80e2e633c9a9b9ca57c7b149a77b7f2c"
+
+[[files]]
 file = "kubejs/server_scripts/ars_nouveau_recipes.js"
 hash = "18fe7137e0fa6a831dd9852c984743b593ab3cf1d8dc55f2b7b81fd87911e4c5"
 
@@ -14995,6 +14999,18 @@ hash = "3bc69af61bfcb977a02ef9dd81db656bff98a8adf43d4cf5dda5f4bdb420795f"
 [[files]]
 file = "kubejs/server_scripts/dimension_return.js"
 hash = "87ee22e090f557b5494fdcc1ee7cda0ec23ab671ca79d46ff3b8ad3944b19136"
+
+[[files]]
+file = "kubejs/server_scripts/flux_networks_recipes.js"
+hash = "32833fe093723cd965587dae940b609c302a494bfcd16906e671fe33d02315d6"
+
+[[files]]
+file = "kubejs/server_scripts/functional_storage_recipes.js"
+hash = "9f24019a3da1f5313f756cab9e2f22204dd3ec1af483f363cbc7ef323da2c035"
+
+[[files]]
+file = "kubejs/server_scripts/general_compat.js"
+hash = "cb7227f8e99a4a5070e63413c6105bcc5bd0626d67ed2ae60b4f1bd897e4acd6"
 
 [[files]]
 file = "kubejs/server_scripts/gtceu_progression_gates.js"
@@ -15039,6 +15055,10 @@ hash = "29098aa01c89c8cd8ae4e58afb271dae4dff2483a4d82e5b94da509f9c0c134d"
 [[files]]
 file = "kubejs/server_scripts/starter_cleanup.js"
 hash = "b6709cb97bb496ba1d26c14565788c45cbef3f13216454ae72c797028dc3173e"
+
+[[files]]
+file = "kubejs/server_scripts/thermal_compat.js"
+hash = "fe1b3e1f258a60217ad728e95476147f09e8a7bc82a18b7450b3767df9be189a"
 
 [[files]]
 file = "kubejs/server_scripts/weapon_disable.js"
