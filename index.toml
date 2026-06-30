@@ -1286,11 +1286,15 @@ hash = "a8448518860cd8b542dadf75521bfab981451775212ee1b51ddc646d998f9311"
 
 [[files]]
 file = "config/ftbquests/chapter_groups.snbt"
-hash = "daeac19a14733cbc67dab008012249383f8e54233137d721bb31f92868597ed8"
+hash = "22527e53454dd15813f188fae295dae07cc6e8efe5e2bd2b811b7e84b37fa4d4"
 
 [[files]]
 file = "config/ftbquests/data.snbt"
 hash = "04c088f8c37c753a0676adbdb18540f8f7134a0d37430440849795cd49118b08"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "22527e53454dd15813f188fae295dae07cc6e8efe5e2bd2b811b7e84b37fa4d4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/a_portal_of_lost_worlds.snbt"
@@ -2282,7 +2286,7 @@ hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "dev_notes.md"
-hash = "7614006b478aad92c9519bdc2449a17da1eb0b91ae1bc4676864d4d6d8ed03f9"
+hash = "482f75e96431b5119bec501927ada877e06e0b7993d14174d71112071ec61b08"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/charged_qi_crystal.png"
