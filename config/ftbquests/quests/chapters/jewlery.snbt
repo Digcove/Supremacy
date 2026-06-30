@@ -128,6 +128,70 @@
 			x: 6.0d
 			y: -1.0d
 		}
+		{
+			description: ["Curios adds dedicated equipment slots beyond the vanilla armor and hotbar: two ring slots and one necklace slot. Open the Curios inventory through your inventory screen — there is a button on the side that opens the Curios panel. Mine and Slash rings and necklaces go in these slots; they do not equip in the main four armor positions. Every Curios slot you leave empty is a stat budget you are not spending. Equip something in all three jewelry slots as soon as you have anything available."]
+			id: "JW01000000000001"
+			rewards: [{
+				count: 2
+				id: "JW03000000000001"
+				item: "mmorpg:stone/1"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "JW02000000000001"
+				title: "Open the Curios Inventory"
+				type: "checkmark"
+			}]
+			title: "Curios Slots"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["JW01000000000001"]
+			description: ["Two separate mods equip rings via the Curios ring slots, and they are not interchangeable systems. Soul Land soul rings — white, yellow, purple, black, red, and blue rank — are cultivation items that grant movement speed, qi cycling rate, and hold soul ring abilities absorbed from defeated Soul Beasts. They are part of the Soul Land progression and have nothing to do with Mine and Slash stats. Mine and Slash jewelry rings are gear pieces that roll affixes and use stat souls. You have two ring slots: filling both with MnS rings maximizes stat optimization; keeping a Soul Land ring equipped preserves its cultivation bonuses. Choose based on where you are in the game — Soul Land rings are early power, MnS rings are endgame optimization."]
+			id: "JW01000000000002"
+			rewards: [{
+				count: 2
+				id: "JW03000000000002"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [{
+				id: "JW02000000000002"
+				title: "Understand both ring systems"
+				type: "checkmark"
+			}]
+			title: "Two Ring Systems"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["JW01000000000002"]
+			description: ["Unique jewelry pieces in Mine and Slash have fixed, predetermined affixes rather than random rolls. Where a Rare ring might give any combination of stats from its affix pool, a Unique ring has specific, non-random bonuses that define how it is used — often locked to a playstyle or build archetype. Unique jewelry is not craftable; it drops from endgame map bosses, Uber map completions, and specific high-tier mob kills. When a Unique drops, evaluate it against the specific bonuses it provides, not against a generic stat comparison. A well-matched Unique ring is often worth more than a perfectly-rolled Mythic random piece."]
+			id: "JW01000000000003"
+			rewards: [{
+				count: 1
+				id: "JW03000000000003"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/jewelry/common"
+					tag: {
+						tier: 2
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "JW02000000000003"
+				title: "Find a Unique ring or necklace drop"
+				type: "checkmark"
+			}]
+			title: "Unique Jewelry"
+			x: -3.0d
+			y: -3.0d
+		}
 	]
 	title: "Jewlery"
 }

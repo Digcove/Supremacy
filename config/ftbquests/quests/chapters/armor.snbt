@@ -294,6 +294,146 @@
 			x: -1.0d
 			y: -1.5d
 		}
+		{
+			description: ["Armor in this pack comes from several distinct paths. Tinkers Construct is tools only: it provides no armor and no weapons — Spartan Weaponry and Iron's Spells fill those roles. For armor: the Physical path runs Diamond to Netherite to GTCEu plate sets (rubber, bronze, steel, and higher alloys). The Soul path runs Jade Silk and soul-enhanced sets for cultivators. The Mine and Slash system applies stat souls to any armor base you are already wearing — it does not provide its own armor pieces. Build your armor base first on whichever path fits your playstyle, then layer MnS souls on top to close the gaps."]
+			id: "AR01000000000001"
+			rewards: [{
+				count: 4
+				id: "AR03000000000001"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/common"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "AR02000000000001"
+				title: "Read the Armor Guide"
+				type: "checkmark"
+			}]
+			title: "Armor Paths"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["AR01000000000001"]
+			description: ["GTCEu Rubber Plate armor is the first step into technology-based protection. Rubber plates are produced from Natural Rubber fluid in the Fluid Solidifier, then pressed into plates and formed into armor at the crafting table. Rubber armor provides reasonable physical defense with one notable property: electrical insulation. It is the recommended armor base when working extensively around GTCEu machines and power cables, as it protects against stray voltage damage. Craft the full set before building out your first LV machine room."]
+			id: "AR01000000000002"
+			rewards: [{
+				count: 2
+				id: "AR03000000000002"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AR02000000000002"
+					item: "gtceu:rubber_helmet"
+					type: "item"
+				}
+				{
+					id: "AR02000000000003"
+					item: "gtceu:rubber_chestplate"
+					type: "item"
+				}
+				{
+					id: "AR02000000000004"
+					item: "gtceu:rubber_leggings"
+					type: "item"
+				}
+				{
+					id: "AR02000000000005"
+					item: "gtceu:rubber_boots"
+					type: "item"
+				}
+			]
+			title: "Rubber Plating"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["AR01000000000002"]
+			description: ["Bronze Plate armor is the first metallic GTCEu armor tier. Bronze plates are alloyed from tin and copper in the Alloy Smelter or via the Chemical Bath, then formed into armor. Bronze armor provides substantially better defense than rubber and holds up comfortably through the early GT progression. Combine a Bronze set with Common or Uncommon MnS armor souls for a reliable baseline before Steel becomes available in the EBF."]
+			id: "AR01000000000003"
+			rewards: [{
+				count: 2
+				id: "AR03000000000003"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AR02000000000006"
+					item: "gtceu:bronze_helmet"
+					type: "item"
+				}
+				{
+					id: "AR02000000000007"
+					item: "gtceu:bronze_chestplate"
+					type: "item"
+				}
+				{
+					id: "AR02000000000008"
+					item: "gtceu:bronze_leggings"
+					type: "item"
+				}
+				{
+					id: "AR02000000000009"
+					item: "gtceu:bronze_boots"
+					type: "item"
+				}
+			]
+			title: "Bronze Plating"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["AR01000000000003"]
+			description: ["Steel Plate armor is the GT benchmark for mid-game survival. Steel plates require steel ingots — produced in the Electric Blast Furnace at 1000 K minimum — formed into plates via the Plate Bending Machine. A full Steel Plate set combined with Rare or Epic MnS armor souls provides strong defense well into IV-tier GTCEu content. Steel is the armor baseline to maintain until Tungstensteel and higher GT alloys become practical replacements at LuV and above."]
+			id: "AR01000000000004"
+			rewards: [{
+				count: 2
+				id: "AR03000000000004"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AR02000000000010"
+					item: "gtceu:steel_helmet"
+					type: "item"
+				}
+				{
+					id: "AR02000000000011"
+					item: "gtceu:steel_chestplate"
+					type: "item"
+				}
+				{
+					id: "AR02000000000012"
+					item: "gtceu:steel_leggings"
+					type: "item"
+				}
+				{
+					id: "AR02000000000013"
+					item: "gtceu:steel_boots"
+					type: "item"
+				}
+			]
+			title: "Steel Plating"
+			x: 3.0d
+			y: -2.5d
+		}
 	]
 	title: "Armor"
 }
