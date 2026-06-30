@@ -1377,6 +1377,10 @@ file = "config/ftbquests/quests/chapters/farming.snbt"
 hash = "38c30bda27a48f3956a0375af840db3c1a029fdd6507e35fa0fcf59ba2e07c95"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/fishing.snbt"
+hash = "6344f8ffff6688176219a9dab59645a9fa7259d5e2b0d8da7bf53be1ebcbf7a4"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/futuristic_mechanisms.snbt"
 hash = "7bf33967426cc0ff38487b6ab4e633489cb8f9ea6eca12e0a058b76ce114c303"
 
