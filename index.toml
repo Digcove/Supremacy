@@ -1425,6 +1425,10 @@ file = "config/ftbquests/quests/chapters/mystical_agriculture_gregified.snbt"
 hash = "e86a3cebc377ffbd27e3de593e11c43e7725566e76f8ba12c631836fce0e1745"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/nuclear_chemistry.snbt"
+hash = "5d08b448e06940a78fc4ac96bf9061864c3e8d95cb576095d3bc8309e531fff1"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/nuclear_fission.snbt"
 hash = "63ba4486832cbf7f1039b04cb4cbc44bfc40a1c244af6a643d1b619a4c72af0d"
 
