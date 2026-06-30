@@ -1326,7 +1326,7 @@ hash = "d2088feb874322e2b7a06a54b06069bc4821bc45c17307a82b3724c068e6925c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alchemy.snbt"
-hash = "025fd17edc3a187ef5bdc21cfb17bfc9ade3034b2f45c04c9b3d4bae49a4e2ad"
+hash = "69f1723881705ebc52426501b72659fb6817394e2461400bc6f38cd50968537f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -2266,7 +2266,7 @@ hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "dev_notes.md"
-hash = "22a2cd0783d16816dca34a61814b16779e81b9645a38f695afa8d6829f593ff1"
+hash = "ebafe0125d781eecb92f1641a5a425226bdb885778f127d29e0e50915932096a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/charged_qi_crystal.png"
