@@ -21,6 +21,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["JW01000000000001"]
 			description: ["Tier 1 jewelry stat souls are your first step into Mine & Slash's jewelry system. Apply them to rings and necklaces to lock in a primary stat. Low tier souls carry modest bonuses but scale with your gear level — any jewelry is better than bare Curios slots."]
 			id: "517204C9779F061E"
 			tasks: [{
@@ -191,6 +192,27 @@
 			title: "Unique Jewelry"
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["JW01000000000003", "0C4B077882D15DC3"]
+			description: ["Both ring slots filled, necklace in, soul tier progression complete, and the Unique system understood. Your jewelry loadout is no longer an afterthought — it is part of your build. Continue refining through Orb Forge currency upgrades and Atlas map farming for Unique drops."]
+			id: "JW01000000000004"
+			rewards: [{
+				count: 4
+				id: "JW03000000000004"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "JW02000000000004"
+				title: "Fully Decked"
+				type: "checkmark"
+			}]
+			title: "Master of Jewelry"
+			x: -3.0d
+			y: -5.0d
 		}
 	]
 	title: "Jewlery"

@@ -434,6 +434,105 @@
 			x: 3.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["AR01000000000004"]
+			description: ["Aluminium Plate armor is the first post-Steel milestone in the GTCEu armor track. Aluminium ingots are produced in the Electrolyzer from Bauxite dust, then pressed into plates in the Plate Bending Machine. The resulting set is lighter than steel with comparable defense and a cleaner smelting path — no EBF temperature gating beyond what Steel already required. Pair with Rare or Epic MnS armor souls for a reliable set that carries you through EV-tier GTCEu content."]
+			id: "AR01000000000005"
+			rewards: [{
+				count: 2
+				id: "AR03000000000005"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AR02000000000014"
+					item: "gtceu:aluminium_helmet"
+					type: "item"
+				}
+				{
+					id: "AR02000000000015"
+					item: "gtceu:aluminium_chestplate"
+					type: "item"
+				}
+				{
+					id: "AR02000000000016"
+					item: "gtceu:aluminium_leggings"
+					type: "item"
+				}
+				{
+					id: "AR02000000000017"
+					item: "gtceu:aluminium_boots"
+					type: "item"
+				}
+			]
+			title: "Aluminium Plating"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["AR01000000000005"]
+			description: ["Titanium Plate armor represents the upper boundary of the GTCEu plate armor track. Titanium requires the Electric Blast Furnace at 1941 K and access to Rutile or Ilmenite ore — both found in high-tier ore veins. The plates are expensive to produce but the resulting armor is among the strongest non-magical sets available. A full Titanium set with Epic or Legendary MnS armor souls is the recommended armor loadout entering IV-tier GTCEu and late-game dimensional content."]
+			id: "AR01000000000006"
+			rewards: [{
+				count: 2
+				id: "AR03000000000006"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/epic"
+					tag: {
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "AR02000000000018"
+					item: "gtceu:titanium_helmet"
+					type: "item"
+				}
+				{
+					id: "AR02000000000019"
+					item: "gtceu:titanium_chestplate"
+					type: "item"
+				}
+				{
+					id: "AR02000000000020"
+					item: "gtceu:titanium_leggings"
+					type: "item"
+				}
+				{
+					id: "AR02000000000021"
+					item: "gtceu:titanium_boots"
+					type: "item"
+				}
+			]
+			title: "Titanium Plating"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["AR01000000000006", "484E4A14F94A2FA8", "36285B3BA9B195F6"]
+			description: ["Three armor paths, fully realized. The GTCEu plate track ended at Titanium, your MnS armor souls are Legendary grade, and you understand what Jade Silk is for. From here, the remaining armor upgrades — Tungstensteel and higher GT alloys, Mythic MnS souls, and late-game magical sets — are refinements rather than unlocks. Continue into the endgame with a loadout that covers every defense category."]
+			id: "AR01000000000007"
+			rewards: [{
+				count: 4
+				id: "AR03000000000007"
+				item: "mmorpg:currency/mirror"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "AR02000000000022"
+				title: "All Paths Walked"
+				type: "checkmark"
+			}]
+			title: "The Well-Armored"
+			x: 0.0d
+			y: -7.0d
+		}
 	]
 	title: "Armor"
 }

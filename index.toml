@@ -1338,7 +1338,7 @@ hash = "0e1218476e418a635121ad39d2d2ba0be29e21609cf8b02ef92d91858b83dd58"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
-hash = "53140fd35abc4ff8bee1656f75cb624a4d30497a2f01a746cc59a3b8913d14f4"
+hash = "a53ce0612fbe090857d41e36c30e4554eb7a701ba83b57df3facad61c037e55d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ascendancy.snbt"
@@ -1406,7 +1406,7 @@ hash = "6e922809c9c5ee2a2836d37b544ef6487a52dec910204e42b5a23a7140b1d3b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
-hash = "f44ff093be9f8874ff31aae491103aef3bdbf992e74461af9e74e9e248ff9ee8"
+hash = "92326957bae4a21c526b00ecf96ae5d5c57cb89c78bc0610c9145771d4bf2514"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/line_of_progression.snbt"
@@ -1554,7 +1554,7 @@ hash = "6b5799083c1bab941ac0c5517860a4b1c205a240a247ec7f556d498e31c8049e"
 
 [[files]]
 file = "config/gtceu.yaml"
-hash = "27adb7b55ea47f8dd0783a1a63b3aeb741a9803757c3588c22ae5a5257da03da"
+hash = "537ceab5557777522519d3093e77e9d359cf28dcdd9026e254c3a287383f77e5"
 
 [[files]]
 file = "config/guardvillagers-client.toml"
@@ -2302,7 +2302,7 @@ hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "dev_notes.md"
-hash = "482f75e96431b5119bec501927ada877e06e0b7993d14174d71112071ec61b08"
+hash = "1455cd901cdf1663432de7543a0b8d46154b2493e8c2dedf5d7698697c439682"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/charged_qi_crystal.png"
