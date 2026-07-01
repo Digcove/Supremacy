@@ -27,8 +27,8 @@
 				type: "item"
 			}]
 			title: "Crushing Wheels"
-			x: -7.0d
-			y: 0.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -49,8 +49,8 @@
 				type: "item"
 			}]
 			title: "Fan Ore Washing"
-			x: -4.5d
-			y: 0.0d
+			x: 8.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["682F366436809BCC"]
@@ -69,8 +69,8 @@
 				type: "checkmark"
 			}]
 			title: "Crushing Byproducts"
-			x: -4.5d
-			y: 2.0d
+			x: 5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -100,8 +100,8 @@
 				}
 			]
 			title: "The Orechid"
-			x: -4.5d
-			y: -2.5d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4CCA4B2A9DAE30AE"]
@@ -126,8 +126,8 @@
 				}
 			]
 			title: "Automated Ore Line"
-			x: -2.0d
-			y: 0.0d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["1C4D7E9F2A3B5C69"]
@@ -144,8 +144,8 @@
 				type: "checkmark"
 			}]
 			title: "Into the Machine Age"
-			x: 0.5d
-			y: 0.0d
+			x: 12.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["409F8A64CB4B184A"]
@@ -157,7 +157,7 @@
 				type: "checkmark"
 			}]
 			title: "Mechanisms in Motion"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -177,8 +177,8 @@
 				type: "item"
 			}]
 			title: "Shafts"
-			x: 3.0d
-			y: -1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["378C3A0358FD2ABD"]
@@ -197,8 +197,8 @@
 				type: "item"
 			}]
 			title: "Water Wheel"
-			x: 1.0d
-			y: -1.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["369A9E51C5A05AB7"]
@@ -211,8 +211,8 @@
 				type: "item"
 			}]
 			title: "Cogwheels"
-			x: 1.5d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["369A9E51C5A05AB7"]
@@ -231,8 +231,8 @@
 				type: "item"
 			}]
 			title: "Andesite Casing"
-			x: 2.0d
-			y: -2.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -247,8 +247,8 @@
 				type: "item"
 			}]
 			title: "Mechanical Press"
-			x: 3.0d
-			y: -2.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["378C3A0358FD2ABD"]
@@ -272,8 +272,8 @@
 				type: "item"
 			}]
 			title: "Rose Quartz"
-			x: 4.0d
-			y: -1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -288,8 +288,8 @@
 				type: "item"
 			}]
 			title: "Electron Tube"
-			x: 4.0d
-			y: -2.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["378C3A0358FD2ABD"]
@@ -302,8 +302,8 @@
 				type: "item"
 			}]
 			title: "Alloy Bricks"
-			x: 5.0d
-			y: 0.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["39C72E59C80B3EB3"]
@@ -316,8 +316,8 @@
 				type: "item"
 			}]
 			title: "Brass Alloy"
-			x: 5.0d
-			y: -2.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["04395F0870569B7D"]
@@ -335,7 +335,7 @@
 			}]
 			title: "Brass Casing"
 			x: 7.0d
-			y: -2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -351,8 +351,8 @@
 				type: "item"
 			}]
 			title: "Deployer"
-			x: 3.0d
-			y: -4.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -372,8 +372,8 @@
 				type: "item"
 			}]
 			title: "Precision Mechanism"
-			x: 5.0d
-			y: -4.5d
+			x: 12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -389,8 +389,8 @@
 				type: "item"
 			}]
 			title: "Mechanical Arm"
-			x: 9.0d
-			y: -2.5d
+			x: 13.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["369A9E51C5A05AB7"]
@@ -407,8 +407,8 @@
 				type: "item"
 			}]
 			title: "Large Cogwheel"
-			x: 1.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D2E4F6A8B1C3D56"]
@@ -433,7 +433,7 @@
 				type: "advancement"
 			}]
 			title: "The Way of Steel"
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -513,7 +513,7 @@
 				}
 			]
 			title: "GT Hand Tools"
-			x: 14.5d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -549,7 +549,7 @@
 				}
 			]
 			title: "Wrought Iron & Firebricks"
-			x: 17.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -584,7 +584,7 @@
 				}
 			]
 			title: "Primitive Blast Furnace"
-			x: 19.5d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -663,7 +663,7 @@
 				}
 			]
 			title: "Rubber"
-			x: 24.5d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
@@ -695,7 +695,7 @@
 				}
 			]
 			title: "Glass & Vacuum Tubes"
-			x: 27.0d
+			x: 26.0d
 			y: 0.0d
 		}
 		{
@@ -722,7 +722,7 @@
 				}
 			]
 			title: "Red Alloy & Circuit Board"
-			x: 29.5d
+			x: 28.0d
 			y: 0.0d
 		}
 		{
@@ -763,7 +763,7 @@
 				}
 			]
 			title: "LV Machine Hull"
-			x: 32.0d
+			x: 30.0d
 			y: 0.0d
 		}
 		{
@@ -784,7 +784,7 @@
 				type: "item"
 			}]
 			title: "Basic Electronic Circuit"
-			x: 34.5d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
@@ -814,8 +814,8 @@
 				}
 			]
 			title: "Soul Infused Wire"
-			x: 34.5d
-			y: -2.5d
+			x: 32.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B4C8F3E1A9D5B7F"]
@@ -833,7 +833,7 @@
 				type: "item"
 			}]
 			title: "LV Motor"
-			x: 37.0d
+			x: 34.0d
 			y: 0.0d
 		}
 		{
@@ -881,7 +881,7 @@
 				type: "item"
 			}]
 			title: "LV Energy Converters"
-			x: 39.5d
+			x: 36.0d
 			y: 0.0d
 		}
 		{
@@ -900,7 +900,7 @@
 				type: "item"
 			}]
 			title: "LV Macerator"
-			x: 42.0d
+			x: 38.0d
 			y: 0.0d
 		}
 		{
@@ -919,7 +919,7 @@
 				type: "checkmark"
 			}]
 			title: "Electric Age Begins"
-			x: 44.0d
+			x: 40.0d
 			y: 0.0d
 		}
 		{
@@ -938,8 +938,8 @@
 				type: "item"
 			}]
 			title: "LV Electric Piston"
-			x: 46.5d
-			y: 0.0d
+			x: 42.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4DED4C6A00692C45"]
@@ -957,8 +957,8 @@
 				type: "item"
 			}]
 			title: "LV Robot Arm"
-			x: 49.0d
-			y: 0.0d
+			x: 44.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5FC62C3CE74A6BE5"]
@@ -976,8 +976,8 @@
 				type: "item"
 			}]
 			title: "LV Conveyor Module"
-			x: 49.0d
-			y: -2.0d
+			x: 42.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5FC62C3CE74A6BE5"]
@@ -996,8 +996,8 @@
 				type: "item"
 			}]
 			title: "LV Electric Pump"
-			x: 46.5d
-			y: 2.0d
+			x: 42.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1020,8 +1020,8 @@
 				type: "item"
 			}]
 			title: "The Assembler"
-			x: 51.5d
-			y: 0.0d
+			x: 46.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["34CDA1840B3ED98D"]
@@ -1039,8 +1039,8 @@
 				type: "item"
 			}]
 			title: "LV Wiremill"
-			x: 54.0d
-			y: 0.0d
+			x: 48.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["34CDA1840B3ED98D"]
@@ -1058,8 +1058,8 @@
 				type: "item"
 			}]
 			title: "LV Bender"
-			x: 54.0d
-			y: -2.0d
+			x: 48.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34CDA1840B3ED98D"]
@@ -1077,8 +1077,8 @@
 				type: "item"
 			}]
 			title: "LV Lathe"
-			x: 54.0d
-			y: 2.0d
+			x: 48.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5FC62C3CE74A6BE5"]
@@ -1096,8 +1096,8 @@
 				type: "checkmark"
 			}]
 			title: "Electric Ore Chain"
-			x: 46.5d
-			y: -4.5d
+			x: 42.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1ECC2289134EAEE4"]
@@ -1115,8 +1115,8 @@
 				type: "item"
 			}]
 			title: "LV Ore Washer"
-			x: 49.0d
-			y: -4.5d
+			x: 44.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1D9839C02092B73B"]
@@ -1134,8 +1134,8 @@
 				type: "item"
 			}]
 			title: "LV Thermal Centrifuge"
-			x: 51.5d
-			y: -4.5d
+			x: 46.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B07FADAB8B6CE4F"]
@@ -1153,8 +1153,8 @@
 				type: "item"
 			}]
 			title: "LV Chemical Bath"
-			x: 54.0d
-			y: -4.5d
+			x: 48.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["20078A3EE4C9425E"]
@@ -1174,8 +1174,8 @@
 				type: "checkmark"
 			}]
 			title: "Full Ore Processing Chain"
-			x: 56.5d
-			y: -4.5d
+			x: 50.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["023807B9C94AFD56"]
@@ -1193,8 +1193,8 @@
 				type: "item"
 			}]
 			title: "LV Alloy Smelter"
-			x: 57.0d
-			y: 0.0d
+			x: 50.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["43CBA3E6F9CF363F"]
@@ -1213,8 +1213,8 @@
 				type: "item"
 			}]
 			title: "LV Mixer"
-			x: 59.5d
-			y: 2.0d
+			x: 52.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["20078A3EE4C9425E"]
@@ -1233,8 +1233,8 @@
 				type: "item"
 			}]
 			title: "LV Chemical Reactor"
-			x: 59.5d
-			y: -2.0d
+			x: 50.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["34CDA1840B3ED98D"]
@@ -1253,8 +1253,8 @@
 				type: "item"
 			}]
 			title: "Blood Altar"
-			x: 51.5d
-			y: 3.5d
+			x: 48.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2354575E7D73E76D"]
@@ -1273,8 +1273,8 @@
 				type: "item"
 			}]
 			title: "Water Sigil"
-			x: 54.0d
-			y: 3.5d
+			x: 50.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1306,8 +1306,8 @@
 				}
 			]
 			title: "Cupronickel Coils"
-			x: 60.0d
-			y: 0.0d
+			x: 54.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2AEDD3EF2A946CA6"]
@@ -1327,8 +1327,8 @@
 				type: "checkmark"
 			}]
 			title: "Into the Volt Age"
-			x: 63.0d
-			y: 0.0d
+			x: 56.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["43CBA3E6F9CF363F"]
@@ -1346,8 +1346,8 @@
 				type: "dimension"
 			}]
 			title: "The Twilight Forest"
-			x: 60.0d
-			y: 2.5d
+			x: 52.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A5B0001CCDD0001"]
@@ -1376,8 +1376,8 @@
 				type: "item"
 			}]
 			title: "The Naga"
-			x: 62.0d
-			y: 2.5d
+			x: 54.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2AEDD3EF2A946CA6"]
@@ -1396,7 +1396,7 @@
 				type: "item"
 			}]
 			title: "EBF Casings"
-			x: 62.0d
+			x: 56.0d
 			y: 0.0d
 		}
 		{
@@ -1420,8 +1420,8 @@
 				type: "item"
 			}]
 			title: "Electric Blast Furnace"
-			x: 64.0d
-			y: 0.0d
+			x: 58.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5A5B0004CCDD0004"]
@@ -1448,8 +1448,8 @@
 				type: "item"
 			}]
 			title: "Aluminium"
-			x: 66.0d
-			y: 0.0d
+			x: 60.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A5B0005CCDD0005"]
@@ -1468,8 +1468,8 @@
 				type: "item"
 			}]
 			title: "Aluminium Plates"
-			x: 68.0d
-			y: 0.0d
+			x: 62.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5A5B0004CCDD0004"]
@@ -1488,8 +1488,8 @@
 				type: "item"
 			}]
 			title: "Silicon"
-			x: 66.0d
-			y: -2.0d
+			x: 60.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A5B0007CCDD0007"]
@@ -1508,8 +1508,8 @@
 				type: "item"
 			}]
 			title: "NAND Chip"
-			x: 68.0d
-			y: -2.0d
+			x: 62.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A5B0008CCDD0008"]
@@ -1538,8 +1538,8 @@
 				type: "item"
 			}]
 			title: "Good Electronic Circuit"
-			x: 70.0d
-			y: -2.0d
+			x: 64.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1562,7 +1562,7 @@
 				type: "item"
 			}]
 			title: "MV Machine Hull"
-			x: 70.0d
+			x: 66.0d
 			y: 0.0d
 		}
 		{
@@ -1581,7 +1581,7 @@
 				type: "item"
 			}]
 			title: "MV Motor"
-			x: 72.0d
+			x: 68.0d
 			y: 0.0d
 		}
 		{
@@ -1600,7 +1600,7 @@
 				type: "item"
 			}]
 			title: "MV Electrolyzer"
-			x: 74.0d
+			x: 70.0d
 			y: -2.0d
 		}
 		{
@@ -1619,7 +1619,7 @@
 				type: "item"
 			}]
 			title: "MV Chemical Reactor"
-			x: 74.0d
+			x: 70.0d
 			y: 2.0d
 		}
 		{
@@ -1650,8 +1650,8 @@
 				}
 			]
 			title: "Kanthal Alloy"
-			x: 76.0d
-			y: 0.0d
+			x: 72.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5A5B000ECCDD000E"]
@@ -1680,7 +1680,7 @@
 				type: "item"
 			}]
 			title: "Kanthal Coil Block"
-			x: 78.0d
+			x: 74.0d
 			y: 0.0d
 		}
 		{
@@ -1705,7 +1705,7 @@
 				type: "checkmark"
 			}]
 			title: "The 2700K Threshold"
-			x: 80.0d
+			x: 76.0d
 			y: 0.0d
 		}
 		{
@@ -1733,8 +1733,8 @@
 				type: "item"
 			}]
 			title: "The Twilight Lich"
-			x: 82.0d
-			y: 2.5d
+			x: 78.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5A5B0010CCDD0010"]
@@ -1761,8 +1761,8 @@
 				type: "item"
 			}]
 			title: "Stainless Steel"
-			x: 82.0d
-			y: 0.0d
+			x: 78.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1785,7 +1785,7 @@
 				type: "item"
 			}]
 			title: "HV Machine Hull"
-			x: 84.0d
+			x: 80.0d
 			y: 0.0d
 		}
 		{
@@ -1804,7 +1804,7 @@
 				type: "item"
 			}]
 			title: "HV Motor"
-			x: 86.0d
+			x: 82.0d
 			y: 0.0d
 		}
 		{
@@ -1824,7 +1824,7 @@
 				type: "item"
 			}]
 			title: "HV Chemical Reactor"
-			x: 86.0d
+			x: 84.0d
 			y: -2.0d
 		}
 		{
@@ -1845,7 +1845,7 @@
 				type: "item"
 			}]
 			title: "Arc Furnace"
-			x: 88.0d
+			x: 84.0d
 			y: 0.0d
 		}
 		{
@@ -1879,8 +1879,8 @@
 				type: "item"
 			}]
 			title: "Advanced Electronic Circuit"
-			x: 88.0d
-			y: -2.0d
+			x: 84.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6E9D450305DE647A"]
@@ -1907,7 +1907,7 @@
 				type: "item"
 			}]
 			title: "Titanium"
-			x: 90.0d
+			x: 86.0d
 			y: 0.0d
 		}
 		{
@@ -1927,7 +1927,7 @@
 				type: "item"
 			}]
 			title: "Titanium Plates"
-			x: 92.0d
+			x: 88.0d
 			y: 0.0d
 		}
 		{
@@ -1957,8 +1957,8 @@
 				type: "item"
 			}]
 			title: "Soul Forged Ingot"
-			x: 86.0d
-			y: 2.5d
+			x: 80.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["78C758B8AD001E3A"]
@@ -1978,7 +1978,7 @@
 				type: "checkmark"
 			}]
 			title: "Into Extreme Voltage"
-			x: 94.0d
+			x: 90.0d
 			y: 0.0d
 		}
 	]
