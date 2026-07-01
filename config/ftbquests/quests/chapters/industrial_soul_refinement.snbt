@@ -667,6 +667,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4E5D0AA37DD7A872"]
 			description: ["GT Glass is produced by processing Flint into Flint Dust, sieving or macerating Sand into Quartz Sand Dust, mixing them to form Glass Dust, then smelting. Vacuum Tubes are the foundational electronic component of LV circuits — a Glass Tube, two Copper Foil pieces, and a Steel Rod soldered together on a circuit board. Craft two: they are required for the Basic Electronic Circuit."]
 			id: "4E2F7A9D1B5C8E6A"
 			rewards: [{
@@ -725,6 +726,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["54851FB08D5C6931"]
 			description: ["The LV Machine Hull is the chassis for every LV electric machine. It requires Steel Plates, Wrought Iron Plates, and Tin Single Cables — the Tin cable demands rubber coating, which is why Rubber gates this quest. Nine steel plates form the outer shell; the wrought iron and tin cable provide internal structure and a low-voltage bus bar. Every LV machine in this chapter starts here."]
 			id: "3A9E7B2D4F8C6A1E"
 			rewards: [{
@@ -883,6 +885,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["19E12A32C4DC21E6"]
 			description: ["The LV Macerator is GregTech's first electric ore processor. It grinds ores into two Crushed Ore pieces — a guaranteed 2x yield — plus a chance at a secondary byproduct dust unique to each ore type. Iron gives a chance at Tin Dust. Gold gives a chance at Copper Dust. Copper gives a chance at Gold Dust. These byproduct dusts accumulate into real material value over time. The Macerator alone exceeds Create's Crushing Wheel output by adding the byproduct chain."]
 			id: "2F8A6D3B1E4C9F5D"
 			rewards: [{
@@ -920,6 +923,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The LV Electric Piston is the mechanical prerequisite for most LV machines — Wiremill, Bender, Lathe, Forge Hammer, Robot Arm, and Thermal Centrifuge all require one. It combines an Iron Rod, Iron and Steel Plates, Steel Pipe, and an LV Motor into a linear actuator that converts electric current into reciprocating force. Craft several before you need them; the demand from the full machine suite is immediate."]
 			id: "4DED4C6A00692C45"
 			rewards: [{
@@ -938,6 +942,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4DED4C6A00692C45"]
 			description: ["The LV Robot Arm combines a Motor, Piston, Steel Plates, Iron Rods, and Tin Cables into a programmable manipulator. It is a required component for the LV Assembler and governs precise item placement and handoff in machine arrays. The Robot Arm is the closest thing GT has to automation intelligence at LV tier — set up a loop of several before the Assembler comes online."]
 			id: "7752E1BB3D5CFC2D"
 			rewards: [{
@@ -956,6 +961,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The LV Conveyor Module uses two LV Motors and a rubber belt to move items between machines without player intervention. It is a required component for the LV Assembler and enables GT pipe-based item transport at LV tier. Rubber demand scales linearly with your machine count — ensure your rubber extraction loop is producing surplus before starting the full machine floor."]
 			id: "235DE680E4EED95B"
 			rewards: [{
@@ -974,6 +980,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The LV Electric Pump handles fluid movement through GT machines and fluid pipes. It is a required component for the Ore Washer, Chemical Bath, Chemical Reactor, and Electrolyzer — any machine that takes or outputs fluid needs a pump somewhere in its component chain. Build one now to avoid a production halt when you reach the ore washing steps."]
 			id: "09E55041CC5CE233"
 			optional: true
@@ -993,6 +1000,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"7752E1BB3D5CFC2D"
+				"235DE680E4EED95B"
+			]
 			description: ["The LV Assembler is the inflection point of GregTech automation. It accepts up to nine input items and produces any valid crafting recipe output automatically — no shaped table, no player. Feed it via Conveyor Module from sorted chests and it outputs directly to a downstream belt. The Assembler halves the manual crafting burden of every machine you build from this point forward. Set up dedicated recipes for the components you produce most: circuits, cables, plates, pipes."]
 			id: "34CDA1840B3ED98D"
 			rewards: [{
@@ -1013,6 +1024,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Wiremill produces wire from ingots at 2x or better yield compared to manual hammer-shaping. Copper and Tin wire demand scales directly with your machine count — every motor, every circuit, every cable run requires them at volume. The Wiremill is also the only way to produce Fine Wire and Very Fine Wire at MV tier, making it a non-negotiable machine before the Electric Blast Furnace. Automate a continuous Copper and Tin wire output loop before you need coil wire."]
 			id: "023807B9C94AFD56"
 			rewards: [{
@@ -1031,6 +1043,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Bender produces Plates, Curved Plates, and Rings from ingots and rods — at double the plate yield of manual hammer-shaping. Curved Plates are required for fluid pipes and machine casings; Rings appear in motors, pumps, and pistons. The Bender is the only way to produce Ring shapes, and its plate efficiency makes it mandatory for any factory operating at scale. Dedicate one Bender to Steel output for constant casing demand."]
 			id: "2C70B19C5BB3715D"
 			rewards: [{
@@ -1049,6 +1062,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Lathe produces Rods, Bolts, Screws, and Lens shapes from ingots and plates. Bolts and Screws are required for circuit assembly, machine component crafting, and several multiblock structures. The Lathe is the only GT machine that produces Lens shapes — needed later for optical sensors and the Distillation Tower. Set it producing Steel Rods and Iron Bolts on an automated loop from day one."]
 			id: "2A92915EF19FCDBA"
 			rewards: [{
@@ -1067,6 +1081,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The GT electric ore processing chain extends yield far beyond Create's Crushing Wheels. The full chain: Macerator (crushed ore, 2x base) → Ore Washer with distilled water (purified crushed ore + stone dust byproduct) → Thermal Centrifuge (ore dust + a rare secondary byproduct unique to each ore) → Chemical Bath for select ores (third byproduct). Assembling the full chain yields 3 to 4 distinct output items per raw ore input. Build the lane now so it comes online with the rest of the machine floor."]
 			id: "1ECC2289134EAEE4"
 			rewards: [{
@@ -1085,6 +1100,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1ECC2289134EAEE4"]
 			description: ["The LV Ore Washer processes Crushed Ore with Distilled Water into Purified Crushed Ore plus a Stone Dust byproduct. Purified ore macerated downstream has a higher chance at secondary byproduct dusts compared to direct-macerating raw ore. The key input is Distilled Water — regular water will not work. Produce it from a Steam Boiler condensate loop or, later, in the Distillery. An LV Pump connected to a fluid tank provides sufficient throughput at early volumes."]
 			id: "1D9839C02092B73B"
 			rewards: [{
@@ -1103,6 +1119,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1D9839C02092B73B"]
 			description: ["The LV Thermal Centrifuge processes Purified Crushed Ore into Ore Dust plus a secondary byproduct dust unique to each ore type. Iron gives a chance at Tin Dust. Gold gives a chance at Copper Dust. Copper gives a chance at Gold Dust at low probability. Rare ores like Platinum have extremely valuable centrifuge byproducts obtainable through no other method. Run the Thermal Centrifuge on every ore variety you process — the byproduct accumulation compounds into a real secondary income stream over time."]
 			id: "3B07FADAB8B6CE4F"
 			rewards: [{
@@ -1121,6 +1138,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["3B07FADAB8B6CE4F"]
 			description: ["The LV Chemical Bath adds a reagent soak step to ore processing, yielding a third byproduct output for specific ores. It also automates PCB etching: the Resin Circuit Board in the greg chapter was etched manually; the Chemical Bath runs this continuously with Sodium Persulfate or Iron(III) Chloride solution. Build it alongside the Chemical Reactor — the Chemical Bath consumes reagents the Reactor produces, forming a self-sustaining loop."]
 			id: "20078A3EE4C9425E"
 			rewards: [{
@@ -1139,6 +1157,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["20078A3EE4C9425E"]
 			description: ["The complete electric ore processing chain is assembled. A single raw ore input now produces two to four distinct output items — base ore dust, a secondary byproduct dust, a tertiary chemical byproduct, and Stone Dust from the washing step. Run everything through all four stages before final smelting. The average effective yield across common ores reaches 3.2x per raw ore input. Create's Crushing Wheels were a step. This is the destination."]
 			id: "7A9F036C8676F320"
 			rewards: [{
@@ -1159,6 +1178,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["023807B9C94AFD56"]
 			description: ["The LV Alloy Smelter automates GT alloy production from dust or ingot inputs without requiring a Mixer or specific fluid input. It accepts two items and produces the alloyed output directly — the fastest path for Bronze, Cupronickel, Invar, Electrum, and Steel ingot production at LV tier. Dedicate one Alloy Smelter instance per alloy type you produce continuously. Cupronickel for EBF coils is the immediate target."]
 			id: "43CBA3E6F9CF363F"
 			rewards: [{
@@ -1177,6 +1197,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["43CBA3E6F9CF363F"]
 			description: ["The LV Mixer combines two to four input items into alloy outputs or compound dusts. Unlike the Alloy Smelter it accepts fluids and wet compounds — Concrete, Slurry, Electrolyte solutions, and several chemical intermediates are Mixer-exclusive recipes. For alloy production the Mixer is slightly slower than the Alloy Smelter but accepts a broader range of input forms. Build it alongside rather than instead of the Alloy Smelter."]
 			id: "35DC7C5EBC1EC6AA"
 			optional: true
@@ -1196,6 +1217,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["20078A3EE4C9425E"]
 			description: ["The LV Chemical Reactor is GT's primary fluid chemistry machine — it combines fluid and item inputs to produce reagents, solutions, and byproduct gases. At LV tier it handles Sodium Persulfate for PCB etching, Sulfuric Acid for ore leaching, and Hydrogen via electrolysis chains. The Chemical Reactor unlocks GT's chemical tree, which runs in parallel with the ore processing chain from MV onward. Build it before you need it — reagent supply is always the bottleneck, never the machine."]
 			id: "2BAC972B6424A2AB"
 			optional: true
@@ -1215,6 +1237,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The Blood Altar is Blood Magic's central structure — a base of Blood Rune blocks topped with a Ritual Stone altar. It requires iron plates in quantity: GregTech's ore processing now produces them without effort. Blood Magic's altar would have been impractical before this chapter. Life Essence gathered from self-sacrifice or mob sacrifice powers rituals — several of which produce materials useful in GT chemistry chains. The industrial and the alchemical have always been adjacent."]
 			id: "2354575E7D73E76D"
 			optional: true
@@ -1234,6 +1257,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2354575E7D73E76D"]
 			description: ["The Water Sigil creates infinite water sources by spending Life Essence — right-click any air block above a valid surface and it places a permanent water source block. This feeds GT Steam Boilers, Ore Washers, and any water-hungry machine indefinitely without pumps, aqueducts, or player intervention. GT's industrial output enables Blood Magic's construction. Blood Magic's magic supplies GT's most tedious resource. Neither system is complete without the other."]
 			id: "41E155533627CFD4"
 			optional: true
@@ -1253,6 +1277,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"43CBA3E6F9CF363F"
+				"5A5B0002CCDD0002"
+			]
 			description: ["Cupronickel is alloyed from Copper and Nickel in a 1:1 ratio in the Alloy Smelter. Draw the ingots through the Wiremill to produce Cupronickel Double Wire, then assemble four wire units into Cupronickel Coil Blocks — the heating element of the Electric Blast Furnace. In this pack, the Cupronickel Coil Block recipe requires Naga Scales from the Twilight Forest Naga; open the Medium Voltage chapter and begin the Naga hunt before attempting to craft coil blocks. At 1800K maximum temperature, Cupronickel coils smelt Aluminum, Silicon, and Magnesium: the materials that unlock the MV Machine Hull and the entire MV tier. Every LV machine you have built was preparation for this coil."]
 			id: "2AEDD3EF2A946CA6"
 			rewards: [{
@@ -1282,6 +1310,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2AEDD3EF2A946CA6"]
 			description: ["The LV era is complete. You have electric machines that form, shape, alloy, assemble, and process ore without player input. The Electric Blast Furnace awaits — a multiblock that reaches temperatures impossible with carbon fuel alone. Aluminum at 1700K. Titanium at 1941K. Tungsten at 3600K. Each temperature threshold unlocks a new tier of materials, machines, and circuits. The Cupronickel Coils you wound are the first step. The volt age does not end — it accelerates."]
 			id: "371C709FA695E748"
 			rewards: [{
@@ -1302,6 +1331,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["43CBA3E6F9CF363F"]
 			description: ["The Twilight Forest is entered by constructing a 2×2 pool of water, surrounding it with flowers on all sides, and dropping a Diamond into the center. The portal ignites when the conditions are met. The realm beyond is a permanent overcast dimension — no natural sky light, dense tree cover, and escalating boss guardians that enforce a strict progression order. The Naga is the first guardian. Its Scales are required in this pack to craft Cupronickel Coil Blocks; without them, the Electric Blast Furnace cannot be assembled. Enter the forest and begin the hunt before you attempt to finish your coil winding."]
 			id: "5A5B0001CCDD0001"
 			rewards: [{
@@ -1350,6 +1380,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["2AEDD3EF2A946CA6"]
 			description: ["The Electric Blast Furnace requires a shell of Steel Machine Casings — Hammered Steel Plates bent and assembled into structural heat-resistant frames. You need 32 for the outer wall of the 3×3×4 structure. The interior ring of Cupronickel Coil Blocks sits inside these casings and is replaced independently when upgrading to higher-temperature coils. Build the casing stockpile while you complete the Naga hunt — both must be ready simultaneously before the multiblock can be placed."]
 			id: "5A5B0003CCDD0003"
 			rewards: [{
@@ -1734,6 +1765,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"484E50B0B8072B04"
+				"05A81A2DCDF86A9C"
+			]
 			description: ["The HV Machine Hull requires Stainless Steel Plates and a Twilight Lich Trophy in addition to the standard hull structure. The Trophy acts as a high-frequency resonance stabilizer embedded in the hull bus — without one, the hull cannot maintain medium-to-high voltage differential across the machine casing under load. Unlike the LV and MV hulls, the HV Hull is significantly more material-intensive; build your Stainless Steel reserves before starting the assembly line."]
 			id: "430AF7D410417947"
 			rewards: [{
@@ -1754,6 +1789,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["430AF7D410417947"]
 			description: ["The HV Electric Motor is the core component of all HV machines. Its higher coil density and current rating enables the power draw that HV-tier multiblocks require. Build several before beginning the HV machine floor — the component cascade for a full HV suite is substantial. The HV Pump, HV Robot Arm, HV Conveyor, and HV Piston all share this motor as a base, and several are also required for the machines themselves as subcomponents."]
 			id: "7DB2759F155D5B2E"
 			rewards: [{
@@ -1772,6 +1808,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DB2759F155D5B2E"]
 			description: ["The HV Chemical Reactor handles chemistry at high voltage — faster cycle times, wider fluid input range, and access to reactions that lower-tier reactors cannot sustain thermally. At this tier it enables Platinum Group Metal separation, advanced polymer production, and Titanium Tetrachloride processing for refined Titanium output. Route your Sulfuric Acid, Hydrochloric Acid, and Sodium Persulfate production through HV reactors as soon as they are assembled; the throughput difference over MV is significant at the volumes HV demands."]
 			id: "28B695498231F9E9"
 			optional: true
@@ -1791,6 +1828,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7DB2759F155D5B2E"]
 			description: ["The Arc Furnace smelts conductive metals using an electric arc rather than resistive heating — it processes Iron, Steel, and alloy scraps into high-quality ingots with zero fuel cost and no temperature ceiling. It is the primary source of Wrought Iron at HV volume, and also accepts salvaged machine components and ore dust that the EBF would waste. Build one immediately and route all metallic waste streams through it; the Arc Furnace is among the most EU-efficient machines in GTCEu when processing scrap."]
 			id: "6E9D450305DE647A"
 			rewards: [{
@@ -1811,6 +1849,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7DB2759F155D5B2E"]
 			description: ["The Advanced Electronic Circuit is the HV circuit tier. It requires Central Processing Units (CPUs) built from layered Silicon Wafers and Integrated Circuit Boards, assembled in the Assembler at HV speed. The production chain is longer than the Good Electronic Circuit — plan a dedicated Assembler line for CPU production before attempting circuit assembly. Advanced Electronic Circuits are consumed by every HV machine and by the first AE2 components you will encounter at EV tier."]
 			id: "73C93BDB40A672C2"
 			optional: true
@@ -1844,6 +1883,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6E9D450305DE647A"]
 			description: ["Titanium is smelted from Rutile ore or Ilmenite ore in the EBF at 1941K — well within your Kanthal Coils' 2700K range. Process Rutile Ore through the Macerator to obtain Rutile Dust, then feed to the EBF. Titanium Ingots are required for Titanium Plates, which are a prerequisite for the EV Machine Hull and the AE2 ME Controller. Titanium is also the highest-tier structural metal in this progression tier — EV machines, the ME network, and the Ur-Ghast Trophy gate all converge on it."]
 			id: "5B0047A58D31D99C"
 			rewards: [
@@ -1871,6 +1911,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5B0047A58D31D99C"]
 			description: ["Titanium Plates are produced by running Titanium Ingots through the Bender. They are a structural requirement for the EV Machine Hull and for the ME Controller that gates Applied Energistics 2 digital storage. Begin converting all Titanium output to Plates immediately — the AE2 network is one of the most material-intensive constructions in the EV tier and Titanium Plates are consumed across its entire component chain. Produce a reserve of at least 32 before beginning EV machine construction."]
 			id: "78C758B8AD001E3A"
 			rewards: [{
@@ -1890,6 +1931,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["430AF7D410417947"]
 			description: ["Soul Forged is the first alloy that cannot be explained by metallurgy alone. Spirit Iron Ingots from the Soul Land progression, Stainless Steel from the Electric Blast Furnace, and a Qi Crystal from your cultivation path are combined in a shaped crafting recipe — the crystal acts as a resonance anchor that aligns the metal's grain structure to soul power frequency. The resulting ingot is lighter than Steel and resonates with spirit energy, making it the ideal substrate for Mine & Slash Tier 3 gear at the M&S profession table. Every high-tier Soul Land equipment recipe from this point forward draws on it."]
 			id: "1135AE4ACDABB358"
 			rewards: [
@@ -1919,6 +1961,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["78C758B8AD001E3A"]
 			description: ["The Ur-Ghast is a massive flying creature that patrols the Dark Tower — a towering fortress found in the Dark Forest. It requires Ur-Ghast Tears (thrown by the boss mid-fight) to be redirected back at it for damage; conventional attacks do little until this mechanic is resolved. Its Trophy is required for the EV Machine Hull recipe, alongside Titanium Plates. Applied Energistics 2's ME Controller additionally requires Terrasteel Plates from the Botania endgame — two separate progression threads must converge at Extreme Voltage. Prepare for both."]
 			id: "5F36072A0F88C16F"
 			rewards: [{

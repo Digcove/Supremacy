@@ -1,0 +1,13 @@
+name = "Mine and Spells"
+filename = "mine_and_spells-0.60.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1d0ed34f50a8d819f1701b208459e58a6740df7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7119964
+project-id = 1349192

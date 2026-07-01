@@ -1,0 +1,13 @@
+name = "M'n'S More Class"
+filename = "mnsmoreclass-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfe3ea15d3182561ef6771c199b528bc6c3d6dce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7239467
+project-id = 1386060

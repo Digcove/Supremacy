@@ -1402,7 +1402,7 @@ hash = "e4f520dc87aae84198d103660429478214b1785ec3b5b4a68d40f8795c595dce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_soul_refinement.snbt"
-hash = "6e922809c9c5ee2a2836d37b544ef6487a52dec910204e42b5a23a7140b1d3b4"
+hash = "d85174fa36219543d179561252ff28bd04eed01693a17eaea4a5541b5a81c030"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
@@ -15437,8 +15437,8 @@ hash = "b03708e6de0c0afd4a1b202d7da5b258d60e7e5a10a171aef42c6d35935f4859"
 metafile = true
 
 [[files]]
-file = "mods/expanded-ae.pw.toml"
-hash = "185cdedde1c16e19211ca2f3916eea3936db843bf751d1775406fa0668193733"
+file = "mods/exile-overlay.pw.toml"
+hash = "1885f97d67816c4c7fe79aa6f43cbc99b315875fb8ae6316a1fddd1aeea3465c"
 metafile = true
 
 [[files]]
@@ -15759,6 +15759,16 @@ metafile = true
 [[files]]
 file = "mods/mine-and-slash.pw.toml"
 hash = "0912b2ede15bab6aeb13b51f77e3113ae5c13fa4572d450ec99611148135d39c"
+metafile = true
+
+[[files]]
+file = "mods/mine-and-spells.pw.toml"
+hash = "f7b63acc27a41ad078adbe6819e3d440f481ac513eebee438a960ec5e3aaf306"
+metafile = true
+
+[[files]]
+file = "mods/mns-more-class.pw.toml"
+hash = "892a8519287c12bffe873ac7edd3464abce81a41c96512d1cdf981a7d145011f"
 metafile = true
 
 [[files]]
