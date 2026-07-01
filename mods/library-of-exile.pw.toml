@@ -3,6 +3,11 @@ filename = "Library_of_Exile-1.20.1-2.1.5.jar"
 side = "both"
 
 [download]
-url = "https://mediafilez.forgecdn.net/files/7167/23/Library_of_Exile-1.20.1-2.1.5.jar"
-hash-format = "sha512"
-hash = "8ef8cc18809f9cb73203c855a68d557e8c13f7031a8fb7da1d3473440465b88bdf434c06c0614840abdd250edc2df8d985131b85e1dffd83a75c56baa0571e67"
+hash-format = "sha1"
+hash = "fd33c0e3c016f9c4e4db3ff7c626db314de9a3ad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7167023
+project-id = 398780

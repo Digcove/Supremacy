@@ -15199,6 +15199,11 @@ hash = "9224b29b7fc388a0a030f8a6e87b26b24ec73dbc853bcdd531a144ed8e59ccea"
 metafile = true
 
 [[files]]
+file = "mods/auto-repair-kits.pw.toml"
+hash = "252048a2fe4f8c0c111e147bc2f3b062cd25aba6fb09399afff430e54ededa07"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
@@ -15236,6 +15241,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "49f9d94df22724949d2ce1ae70b73461dfe7d92ce6ad6ceae9739cef0b34a089"
+metafile = true
+
+[[files]]
+file = "mods/born-in-chaos.pw.toml"
+hash = "d61aee2e0abf58c9a923bfebd86b9b1e88e8001164c2ebf2ac4c96842acc7423"
 metafile = true
 
 [[files]]
@@ -15378,6 +15388,11 @@ hash = "6a62d8663df5fe33f18c8a0d3784a3aab183b252c620c45fc98e677a71b06cde"
 metafile = true
 
 [[files]]
+file = "mods/cte2-essentials.pw.toml"
+hash = "bb052363c66c59e82a73c9dd24a26c7bef300e3902e62551a575e3da158ec891"
+metafile = true
+
+[[files]]
 file = "mods/cucumber.pw.toml"
 hash = "31b3ecd1317f2d2b9802592def351b5567196d726283530f72e33f5c827e5807"
 metafile = true
@@ -15410,6 +15425,11 @@ metafile = true
 [[files]]
 file = "mods/dungeoncrawl.pw.toml"
 hash = "c06061257b39a438aaa6205493090ac772564bc2d53d2c34a664de117fe6f4c0"
+metafile = true
+
+[[files]]
+file = "mods/easy-magic.pw.toml"
+hash = "079dbc9be43f9fa6ab866f21532d441f05421752a5d1ed52d358f6858d6fc2c2"
 metafile = true
 
 [[files]]
@@ -15568,7 +15588,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
+hash = "5851bef35e786bfcdb837dfc380c4bd22c857434b2997235a551b3a0cf72d158"
 metafile = true
 
 [[files]]
@@ -15677,13 +15697,28 @@ hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
 metafile = true
 
 [[files]]
+file = "mods/legendary-tabs.pw.toml"
+hash = "7c5a54bdcd0c1dbf402c1b49cf4d41e5558d617832c1e9df23c6bc16f676fc10"
+metafile = true
+
+[[files]]
+file = "mods/legendary-tooltips.pw.toml"
+hash = "35c0251ad56fdf68faef3ea142fe0b76016937ab6fa52b65ce222ea7d1fb5b74"
+metafile = true
+
+[[files]]
 file = "mods/lendercataclysm.pw.toml"
 hash = "fbf967b492d575d65f066941652400dc32b998a16ac477a4b8f0efc2f681296a"
 metafile = true
 
 [[files]]
 file = "mods/library-of-exile.pw.toml"
-hash = "3840f713f1714c78f83af31826af2e8db5df3eddf23ba6ef589d8d8edee2ca78"
+hash = "45b497698f5fb5740a3b9d59fafed79e1d569148b8f6512b7ac6e0cf6382554b"
+metafile = true
+
+[[files]]
+file = "mods/lightmans-currency.pw.toml"
+hash = "8c18b34a70a175f54915de312acb8d571ed935f61568e450f4a8934c6097e2c8"
 metafile = true
 
 [[files]]
@@ -15699,6 +15734,11 @@ metafile = true
 [[files]]
 file = "mods/lodestone.pw.toml"
 hash = "a484a0a768e886244dab01dd9793d979ca5d57b8327f9f4caa36a3031fc46d63"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "e8b4876d403b4f4daab64bad9704a5b271a33031d1ff8d19d23ebd1e3b8dd39a"
 metafile = true
 
 [[files]]
@@ -15764,6 +15804,11 @@ metafile = true
 [[files]]
 file = "mods/mine-and-spells.pw.toml"
 hash = "f7b63acc27a41ad078adbe6819e3d440f481ac513eebee438a960ec5e3aaf306"
+metafile = true
+
+[[files]]
+file = "mods/minemenu.pw.toml"
+hash = "3c8e28c58a785e98c329cb31f5f43887ee14bf7dd0b782d35cd71d8f405745d4"
 metafile = true
 
 [[files]]
@@ -15923,7 +15968,7 @@ metafile = true
 
 [[files]]
 file = "mods/prism-lib.pw.toml"
-hash = "f79cb80b6ea599fe4ca9404465277ff7edf25118976170c28827590febfcee7a"
+hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
 metafile = true
 
 [[files]]
@@ -16069,6 +16114,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "148bc9c5989ac676d91b6f07a5e871d7b5d11c1b7b46fe30c3894c1512069a88"
+metafile = true
+
+[[files]]
+file = "mods/telepass.pw.toml"
+hash = "657f8584c7517b777a644db5f8e479f22baa06e81ba08609f6c884b006bb0609"
 metafile = true
 
 [[files]]
@@ -16224,6 +16274,11 @@ metafile = true
 [[files]]
 file = "playtest_notes_2.md"
 hash = "7a7cd10dbda57f574c957ae451aa4709800ca76acbc3a7eb4de64096a67485ef"
+
+[[files]]
+file = "resourcepacks/adventurers-chest-lootr.pw.toml"
+hash = "cee653e8409000853e3a62185b731b6b9b80948fd1ee2333005adcd814ac76a4"
+metafile = true
 
 [[files]]
 file = "resourcepacks/aquaculture-2-excalibur-support.pw.toml"
