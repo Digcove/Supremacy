@@ -76,7 +76,7 @@
 			id: "71145B6D6BA8016A"
 			rewards: [{
 				id: "71AD72BA81F1063D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -94,7 +94,7 @@
 			id: "709EF5314988C381"
 			rewards: [{
 				id: "5D45784E429EBA2F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -124,7 +124,7 @@
 			rewards: [{
 				count: 2
 				id: "4E7C78B863728E16"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -151,7 +151,7 @@
 			rewards: [{
 				count: 2
 				id: "185D1A2732AA70F4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -180,7 +180,7 @@
 			id: "059CB064A515B157"
 			rewards: [{
 				id: "31E5B85946E6668B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -215,7 +215,7 @@
 			id: "70EEDB38B78F5C7F"
 			rewards: [{
 				id: "571DBC5F0C326282"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -254,7 +254,7 @@
 			rewards: [{
 				count: 2
 				id: "65414C96C1276990"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -276,7 +276,7 @@
 			id: "799F6F79B9FF86DF"
 			rewards: [{
 				id: "074DD9323BA686E2"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -297,7 +297,7 @@
 			id: "538113DD6E1EA84D"
 			rewards: [{
 				id: "2F4C85BFA986611D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -315,7 +315,7 @@
 			id: "11971C9E5BF28E5C"
 			rewards: [{
 				id: "7F047D7FFE2D5BA3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -334,7 +334,7 @@
 			id: "6180202612DCDBF4"
 			rewards: [{
 				id: "006592623F96E0FB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -421,7 +421,7 @@
 			id: "18FD654260DFF1D6"
 			rewards: [{
 				id: "3E63D34C298D5B9F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -440,7 +440,7 @@
 			id: "0168A45EB73911AC"
 			rewards: [{
 				id: "2208D0AE73F8D04F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -470,7 +470,7 @@
 			id: "498E36C4683EAA6C"
 			rewards: [{
 				id: "31D0FBC77051AC9D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -491,7 +491,7 @@
 			id: "1AF4BF803FEF14FE"
 			rewards: [{
 				id: "2E1CEDC71658AC53"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -513,7 +513,7 @@
 			id: "7EB9C44EE7515882"
 			rewards: [{
 				id: "1BB07819120B3601"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -554,7 +554,7 @@
 			rewards: [{
 				count: 2
 				id: "232BBBF8A8E9703F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -578,7 +578,7 @@
 			id: "097D8B4DF03A8617"
 			rewards: [{
 				id: "36AFA4CFB73E41F6"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -616,7 +616,7 @@
 			rewards: [{
 				count: 2
 				id: "28CB3399C4DBB677"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -635,7 +635,7 @@
 			id: "3F9D1B0CED0D4133"
 			rewards: [{
 				id: "48554ED3B7411A9C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -656,7 +656,7 @@
 			id: "45E628CF1DA8D380"
 			rewards: [{
 				id: "3931D2A84A679EEC"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -677,7 +677,7 @@
 			id: "69493DCA3D764771"
 			rewards: [{
 				id: "2592355F8935A980"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -695,7 +695,7 @@
 			id: "54944370404CEA94"
 			rewards: [{
 				id: "3ACAFF1C700E1EFF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -714,7 +714,7 @@
 			id: "1AEBAE3050B72906"
 			rewards: [{
 				id: "43B8FDF64F3E83FE"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -733,7 +733,7 @@
 			id: "0032335FFAE6E012"
 			rewards: [{
 				id: "4508B9B5A9191A97"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -785,7 +785,7 @@
 			id: "1772F46C9EAF6FB7"
 			rewards: [{
 				id: "2149BF78BEF347F5"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -807,7 +807,7 @@
 			id: "169C2E9DA1CF8F53"
 			rewards: [{
 				id: "3767B7D9C3E1212A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -826,7 +826,7 @@
 			id: "26FDB9612063F49D"
 			rewards: [{
 				id: "369733BBEC093142"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -845,7 +845,7 @@
 			id: "66D49CB8D8819E3F"
 			rewards: [{
 				id: "4F559A2D7738B87F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -864,7 +864,7 @@
 			id: "6F3DF16481990D99"
 			rewards: [{
 				id: "4D321A14B798F316"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -884,7 +884,7 @@
 			rewards: [{
 				count: 2
 				id: "7CA11CAA27400754"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -905,7 +905,7 @@
 			rewards: [{
 				count: 2
 				id: "2E601807C6A28763"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -924,7 +924,7 @@
 			id: "06EC98F6E6AFC2AF"
 			rewards: [{
 				id: "25348F8CF999B3FB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -943,7 +943,7 @@
 			rewards: [{
 				count: 2
 				id: "389DB35D298BFC27"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -962,7 +962,7 @@
 			id: "074635DC3322DC99"
 			rewards: [{
 				id: "741879FCA3600628"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -992,7 +992,7 @@
 			id: "032E72446266F7D4"
 			rewards: [{
 				id: "6B358F196D9422BE"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1010,7 +1010,7 @@
 			id: "09B55AFE7C06EC82"
 			rewards: [{
 				id: "5C220EE9FD21B829"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1030,7 +1030,7 @@
 			id: "37F9C85CFCFFDA5F"
 			rewards: [{
 				id: "60D4025181F9B52A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1052,7 +1052,7 @@
 			rewards: [{
 				count: 2
 				id: "40C1A432BCA32E06"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1076,7 +1076,7 @@
 			rewards: [{
 				count: 3
 				id: "418B437BE865C801"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1097,7 +1097,7 @@
 			id: "694E1F6458D5F72F"
 			rewards: [{
 				id: "09238F2539219DCC"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1122,7 +1122,7 @@
 			id: "7FABD2E818B70D35"
 			rewards: [{
 				id: "5913DB9A14802483"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1158,7 +1158,7 @@
 			id: "218CABD676F3B732"
 			rewards: [{
 				id: "265BFA194E2D1AB4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1182,7 +1182,7 @@
 			rewards: [{
 				count: 2
 				id: "313934EB6CD7410B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1201,7 +1201,7 @@
 			id: "0ECE55AB7BBDAAA4"
 			rewards: [{
 				id: "19D703078F0CF47C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1229,7 +1229,7 @@
 			id: "1D94473AA9436C60"
 			rewards: [{
 				id: "6FD29172BC5919BE"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1247,7 +1247,7 @@
 			id: "64780055536CEEF3"
 			rewards: [{
 				id: "25078307CEF39E7F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1288,7 +1288,7 @@
 			id: "7C65EDBD752F898D"
 			rewards: [{
 				id: "7D864BD9CC68CDDB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1310,7 +1310,7 @@
 			id: "4397DEEDB7C52BAC"
 			rewards: [{
 				id: "44B118BD6E9873F6"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1327,7 +1327,7 @@
 			id: "46127DF821C7C175"
 			rewards: [{
 				id: "16763B12FE534552"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1345,7 +1345,7 @@
 			id: "3B1453C435E3950B"
 			rewards: [{
 				id: "6CB5C3D8188E33D0"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1365,7 +1365,7 @@
 			id: "16FDCABFC80579D5"
 			rewards: [{
 				id: "748B871094F29C87"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1384,7 +1384,7 @@
 			id: "3AE6E85C2FC76DE9"
 			rewards: [{
 				id: "1307F45A07A8F297"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1408,7 +1408,7 @@
 			rewards: [{
 				count: 3
 				id: "2C713C0E55A96415"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1428,7 +1428,7 @@
 			id: "4D556DE76399E083"
 			rewards: [{
 				id: "058BF3F098253930"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1447,7 +1447,7 @@
 			id: "1C9396E2587051F7"
 			rewards: [{
 				id: "170A7AD04A8BFCA6"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1476,7 +1476,7 @@
 			id: "6D6C79E7CBBCC893"
 			rewards: [{
 				id: "0D4F24ECDD2D65B4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1499,7 +1499,7 @@
 			rewards: [{
 				count: 3
 				id: "028D0D1B11438E2C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1522,7 +1522,7 @@
 			id: "6A82CC9F01960097"
 			rewards: [{
 				id: "3210FE0BBF45E34D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1543,7 +1543,7 @@
 			id: "5224152A7D22A0B5"
 			rewards: [{
 				id: "0A16190629DBA7B9"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1562,7 +1562,7 @@
 			id: "4777033988C9F512"
 			rewards: [{
 				id: "6A7658ABB5B22219"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1611,7 +1611,7 @@
 			id: "33FBF8561A3D901D"
 			rewards: [{
 				id: "703863528004F25F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1629,7 +1629,7 @@
 			id: "68970C6696FA90E6"
 			rewards: [{
 				id: "49A048AE15AAE4F1"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1649,7 +1649,7 @@
 			id: "61E082759BC89A1E"
 			rewards: [{
 				id: "1460A867F3CE58DC"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1690,7 +1690,7 @@
 			id: "00333140377A33F5"
 			rewards: [{
 				id: "4ADD6A8943EA9210"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1725,7 +1725,7 @@
 			id: "7C050BBD087D46BD"
 			rewards: [{
 				id: "0624D90E24CCA3B2"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1743,7 +1743,7 @@
 			id: "49E80236C69B95C1"
 			rewards: [{
 				id: "32CC08CCB827F2D6"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1761,7 +1761,7 @@
 			id: "681FD6DF05A9DF79"
 			rewards: [{
 				id: "1E34E2CB3DC6C4E4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1783,7 +1783,7 @@
 			id: "5A724E912A475EAB"
 			rewards: [{
 				id: "2EB652113BA6B7C9"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1818,7 +1818,7 @@
 			id: "13508A2A55EAA6E1"
 			rewards: [{
 				id: "6F25641E021199E7"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1870,7 +1870,7 @@
 			id: "589A4AA6BF7C5097"
 			rewards: [{
 				id: "6363036C2FF73E28"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1940,7 +1940,7 @@
 			id: "4450509C08F416EC"
 			rewards: [{
 				id: "7F794F231F8464BA"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -1961,7 +1961,7 @@
 			id: "578BB997FB677D37"
 			rewards: [{
 				id: "5520D9C4880B014D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d

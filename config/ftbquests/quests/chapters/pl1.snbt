@@ -146,7 +146,7 @@
 			rewards: [{
 				count: 3
 				id: "1E682F198E36B543"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -165,7 +165,7 @@
 			rewards: [{
 				count: 3
 				id: "66C9403964085607"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -266,7 +266,7 @@
 			rewards: [{
 				count: 3
 				id: "177FCC7DBF8D3E8E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -305,7 +305,7 @@
 			rewards: [{
 				count: 3
 				id: "189F8E443232812B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -440,7 +440,7 @@
 			rewards: [{
 				count: 3
 				id: "67115D350EC4D563"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -471,7 +471,7 @@
 			rewards: [{
 				count: 3
 				id: "0CB227CEB27B2E60"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -490,7 +490,7 @@
 			rewards: [{
 				count: 3
 				id: "371C9BBAD5FC1EC7"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -509,7 +509,7 @@
 			rewards: [{
 				count: 3
 				id: "1575A6DABE125A75"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -540,7 +540,7 @@
 			rewards: [{
 				count: 3
 				id: "6297BC3564F324C0"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -579,7 +579,7 @@
 			rewards: [{
 				count: 3
 				id: "019B48004CBA5500"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -598,7 +598,7 @@
 			rewards: [{
 				count: 3
 				id: "2F796BD9913EEE6D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -823,7 +823,7 @@
 			rewards: [{
 				count: 3
 				id: "293D78873B328A93"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -848,7 +848,7 @@
 			rewards: [{
 				count: 3
 				id: "1DDE63E22BAEC6A5"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -866,7 +866,7 @@
 			id: "09287F72DB40D61E"
 			rewards: [{
 				id: "5EDA993A124808B0"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -888,7 +888,7 @@
 			id: "6B36075239F9F339"
 			rewards: [{
 				id: "43C4BC59EEA6600A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -910,7 +910,7 @@
 			rewards: [{
 				count: 3
 				id: "2FDAC917F3505BE1"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1171,7 +1171,7 @@
 			rewards: [{
 				count: 3
 				id: "3C17803F4BA6DF33"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1202,7 +1202,7 @@
 			rewards: [{
 				count: 3
 				id: "76DE545D5E9D3C8A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1388,7 +1388,7 @@
 			rewards: [{
 				count: 3
 				id: "39B82B44FEC41047"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1466,7 +1466,7 @@
 			rewards: [{
 				count: 3
 				id: "0B05DE886F119FA0"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1529,7 +1529,7 @@
 			rewards: [{
 				count: 3
 				id: "1BE6612D97CC176C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1758,7 +1758,7 @@
 			id: "2322B5C57E863AFD"
 			rewards: [{
 				id: "34E8D2C5650E167F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1945,7 +1945,7 @@
 			rewards: [{
 				count: 3
 				id: "553407EB1EC3CE27"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"

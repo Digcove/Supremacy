@@ -2437,7 +2437,7 @@
 			id: "22BC7BDE5E132A30"
 			rewards: [{
 				id: "26043A495658B8EF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -2485,7 +2485,7 @@
 			id: "4FFD2642BC183495"
 			rewards: [{
 				id: "08BAC9B75D29DFC8"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			size: 1.0d

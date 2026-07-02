@@ -145,7 +145,7 @@
 			rewards: [{
 				count: 3
 				id: "250F84F0EB076E5A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -342,7 +342,7 @@
 			rewards: [{
 				count: 3
 				id: "0DD7A944263A3551"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -366,7 +366,7 @@
 			rewards: [{
 				count: 3
 				id: "7BB30C908CDA9554"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -397,7 +397,7 @@
 			rewards: [{
 				count: 3
 				id: "678C9BCDD38C97D5"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -880,7 +880,7 @@
 			rewards: [{
 				count: 2
 				id: "7638456BA6F9C602"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1083,7 +1083,7 @@
 			rewards: [{
 				count: 3
 				id: "3FBC7DAE19CA88DA"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1256,7 +1256,7 @@
 			rewards: [{
 				count: 2
 				id: "5821754ED42B0C3C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1382,7 +1382,7 @@
 			id: "5A9A8A848F2B735B"
 			rewards: [{
 				id: "7887966493C1BE87"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -1409,7 +1409,7 @@
 			id: "0F6102B3CDB7097D"
 			rewards: [{
 				id: "2BB78D52433E74A3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -1436,7 +1436,7 @@
 			id: "3D51DB909365D9B3"
 			rewards: [{
 				id: "235CFD26B72ED6F9"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -1466,7 +1466,7 @@
 			rewards: [{
 				count: 3
 				id: "41F26704E142DBB5"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1923,7 +1923,7 @@
 			rewards: [{
 				count: 3
 				id: "4F739FD936D6392B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -2271,7 +2271,7 @@
 			rewards: [{
 				count: 3
 				id: "205623532C48F611"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -2538,7 +2538,7 @@
 			rewards: [{
 				count: 3
 				id: "4435562203EF0D17"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -3284,7 +3284,7 @@
 			rewards: [{
 				count: 3
 				id: "45723B24334B22B8"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -3462,7 +3462,7 @@
 			rewards: [{
 				count: 3
 				id: "3410396C923C7736"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"

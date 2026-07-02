@@ -682,7 +682,7 @@
 			rewards: [{
 				count: 3
 				id: "5CC49966111B49A8"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			size: 1.0d
@@ -716,7 +716,7 @@
 			id: "74A0BF2EA205B23C"
 			rewards: [{
 				id: "2516C54EF2E15FA4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [

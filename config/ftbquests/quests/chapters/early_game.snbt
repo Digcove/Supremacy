@@ -54,7 +54,7 @@
 			rewards: [{
 				count: 2
 				id: "7C035466B4F9E1EF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			size: 1.0d
@@ -79,7 +79,7 @@
 			rewards: [{
 				count: 2
 				id: "0D80F00FF26970B7"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -124,7 +124,7 @@
 			id: "7717C0904590E303"
 			rewards: [{
 				id: "5380F2CC96F110C1"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -162,7 +162,7 @@
 			id: "26D3E2C0599B43B2"
 			rewards: [{
 				id: "53AC48361C91255D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -188,7 +188,7 @@
 			id: "03ACC7D2577A2C66"
 			rewards: [{
 				id: "19602A061AC57EFF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -226,7 +226,7 @@
 			rewards: [{
 				count: 2
 				id: "6FBC93F381EF7553"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			size: 1.0d
@@ -260,7 +260,7 @@
 			id: "550A27AA2B500111"
 			rewards: [{
 				id: "0AF82121E951A38D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -285,7 +285,7 @@
 			id: "6C7DB3F0C3B85B9B"
 			rewards: [{
 				id: "7707126152A24AD2"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -364,7 +364,7 @@
 			id: "1801A2B1D6BD232F"
 			rewards: [{
 				id: "33A0C9431EAFB50C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -386,7 +386,7 @@
 			id: "3AC92138809F3783"
 			rewards: [{
 				id: "3808591A1B61371B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -434,7 +434,7 @@
 			id: "5094070DDE1BFA3D"
 			rewards: [{
 				id: "379E474AFD6C147C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -484,7 +484,7 @@
 			rewards: [{
 				count: 2
 				id: "365F21BD7B97BD84"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -509,7 +509,7 @@
 			rewards: [{
 				count: 2
 				id: "63CBB4B250CE4F11"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -554,7 +554,7 @@
 			id: "3AF688ADC18E580C"
 			rewards: [{
 				id: "31FBF68B80BC044E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -581,7 +581,7 @@
 			optional: true
 			rewards: [{
 				id: "24B61B66673D1F1D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -600,7 +600,7 @@
 			optional: true
 			rewards: [{
 				id: "2DAE713111C2C5F7"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -627,7 +627,7 @@
 			rewards: [{
 				count: 2
 				id: "00D6F6E2A931271F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -672,7 +672,7 @@
 			id: "3D0F6CA8028C074B"
 			rewards: [{
 				id: "783CFA9C4F222736"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -806,7 +806,7 @@
 			id: "143BB2B07A083CC0"
 			rewards: [{
 				id: "633BF5B0D7F6A702"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -834,7 +834,7 @@
 			optional: true
 			rewards: [{
 				id: "06C779CFE9AA509E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -879,7 +879,7 @@
 			id: "46E41B05B9F6FA82"
 			rewards: [{
 				id: "2FFF7F85F52E435C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -899,7 +899,7 @@
 			id: "2D1184752D7ACA66"
 			rewards: [{
 				id: "33CC60792D4A7D78"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -923,7 +923,7 @@
 			rewards: [{
 				count: 2
 				id: "71AB4D805CE8929B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -953,7 +953,7 @@
 			id: "64F15C7160BF5CBB"
 			rewards: [{
 				id: "6E32BB2F31B09375"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -992,7 +992,7 @@
 			id: "0843E56CA39E9822"
 			rewards: [{
 				id: "56F860D21CE643C7"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1011,7 +1011,7 @@
 			id: "6D5287A0FB892DFF"
 			rewards: [{
 				id: "3995A41C90DB5483"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1037,7 +1037,7 @@
 			id: "7F716A5BCC5F6B34"
 			rewards: [{
 				id: "3825E802944E5B58"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1065,7 +1065,7 @@
 			id: "07A407A268A4FC96"
 			rewards: [{
 				id: "3BE80406CE2FC7FF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1088,7 +1088,7 @@
 			id: "7EE1BE4043827F35"
 			rewards: [{
 				id: "73F3705C27616698"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1127,7 +1127,7 @@
 			id: "3B81632EF4586280"
 			rewards: [{
 				id: "4F41840F051793C3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1147,7 +1147,7 @@
 			id: "063AF9790DA7ABE0"
 			rewards: [{
 				id: "0932241AC23D4297"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1170,7 +1170,7 @@
 			id: "37451F8CF7504596"
 			rewards: [{
 				id: "24792D860FA038FB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1193,7 +1193,7 @@
 			id: "708A5EE75EC40FAD"
 			rewards: [{
 				id: "1F2D0F0BB1CD6772"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1222,7 +1222,7 @@
 			rewards: [{
 				count: 2
 				id: "3289F29B45D67D8C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1267,7 +1267,7 @@
 			id: "4491C4CD4AF75C93"
 			rewards: [{
 				id: "0BD68AE0E883549D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1293,7 +1293,7 @@
 			id: "634FB21D521253CF"
 			rewards: [{
 				id: "54EC1985C6E25A54"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1322,7 +1322,7 @@
 			id: "29F1EAF3E87A50F5"
 			rewards: [{
 				id: "737438312AE496B4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1352,7 +1352,7 @@
 			id: "07C5B4C5EE2F948D"
 			rewards: [{
 				id: "009004A0AE1DD4C1"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1381,7 +1381,7 @@
 			id: "14417CCE1E25C9C6"
 			rewards: [{
 				id: "57E9E2BE2809AC4F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1414,7 +1414,7 @@
 			id: "27E9698231A04022"
 			rewards: [{
 				id: "32F1FC0D547F64F3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1447,7 +1447,7 @@
 			id: "3477B2FEEF0DF44C"
 			rewards: [{
 				id: "78567F79F705A25E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1479,7 +1479,7 @@
 			id: "35FE719B047BFAAF"
 			rewards: [{
 				id: "132398E130FED8F3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1498,7 +1498,7 @@
 			optional: true
 			rewards: [{
 				id: "2ABEDB4C2EF9A1AD"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1538,7 +1538,7 @@
 			optional: true
 			rewards: [{
 				id: "5A2B8F5992335489"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1577,7 +1577,7 @@
 			optional: true
 			rewards: [{
 				id: "5188B586E15A952F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1643,7 +1643,7 @@
 			id: "3013B0CF1D1F3E20"
 			rewards: [{
 				id: "7E77F4EFC9D86E60"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1678,7 +1678,7 @@
 			id: "10126B9D6EC90F59"
 			rewards: [{
 				id: "36FCEC0DDB574296"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1707,7 +1707,7 @@
 			rewards: [{
 				count: 2
 				id: "473598BC00A77D85"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1727,7 +1727,7 @@
 			id: "7E72B9CC8631769D"
 			rewards: [{
 				id: "386D329F74361582"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1749,7 +1749,7 @@
 			id: "0E47ACCDF46E6B1F"
 			rewards: [{
 				id: "0128ACB6E0B8F0AE"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1769,7 +1769,7 @@
 			rewards: [{
 				count: 2
 				id: "319FF5EFBA896731"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1807,7 +1807,7 @@
 			optional: true
 			rewards: [{
 				id: "2F0BBAA2B20AC700"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -1838,7 +1838,7 @@
 			optional: true
 			rewards: [{
 				id: "79C586E97770FB74"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1858,7 +1858,7 @@
 			id: "6D23752791E9928A"
 			rewards: [{
 				id: "4F45102228F42D4D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1923,7 +1923,7 @@
 			optional: true
 			rewards: [{
 				id: "2B1393756AAD151F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -1947,7 +1947,7 @@
 			optional: true
 			rewards: [{
 				id: "650D4698DA25EFCC"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -2014,7 +2014,7 @@
 			optional: true
 			rewards: [{
 				id: "4F303B1BA85820BE"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -2048,7 +2048,7 @@
 			optional: true
 			rewards: [{
 				id: "141DA6BD85EC9EC4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [
@@ -2116,7 +2116,7 @@
 			optional: true
 			rewards: [{
 				id: "02B957C52A4C18CF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -2185,7 +2185,7 @@
 			optional: true
 			rewards: [{
 				id: "4DAC185F708CE2BF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -2207,7 +2207,7 @@
 			optional: true
 			rewards: [{
 				id: "370410FF2C87BED5"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -2225,7 +2225,7 @@
 			optional: true
 			rewards: [{
 				id: "6F422AC96183061A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -2263,7 +2263,7 @@
 			optional: true
 			rewards: [{
 				id: "1F2A3BFD35CFA9DB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -2287,7 +2287,7 @@
 			optional: true
 			rewards: [{
 				id: "132A91D9CCE0324C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"
@@ -2317,7 +2317,7 @@
 			optional: true
 			rewards: [{
 				id: "1FCCF30A0083DBB8"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{

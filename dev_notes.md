@@ -24,6 +24,7 @@ _Last updated: 2026-06-30. This file is the canonical pending-work tracker for f
 - **Star Technology config diff** — All 46 overlapping configs evaluated. Three gtceu.yaml fixes applied (`highTierContent: true`, `ulvComponentsEnabled: true`, `enableWorldAccelerators: false`). All other differences were either intentional (fluxnetworks GTCEu integration, MA inferium drops/ore gen) or mod-version formatting changes with no gameplay effect.
 - **KubeJS compat scripts** — ae2_gtceu_compat, thermal_compat, functional_storage_recipes, flux_networks_recipes, general_compat (adapted from Star Tech THETA-1; Star Tech custom materials excluded)
 - **AE2 channels** — set to `infinite` in config/ae2/common.json
+- **kubejs:coin replaced** — all 1,268 phantom `kubejs:coin` references across 27 Star Tech chapter files replaced with tiered `lightmanscurrency:coin_*` (iron → gold → emerald → diamond → netherite by progression stage). Kill tasks confirmed native FTBQuests (`type: "kill"`), no extra mod needed.
 
 ---
 
@@ -157,6 +158,44 @@ All these items render as purple missing-texture until PNGs are provided. All mu
 | `gtceu_progression_gates.js:96` | `twilightforest:ice_bomb` | `twilightforest:snow_queen_trophy` |
 
 ---
+
+---
+
+## 🟡 QUEST BOOK — MISSING COIN REWARDS (chapters with 0 coins despite 15+ quests)
+
+These chapters have content but no coin rewards at all. Consider adding `lightmanscurrency:coin_*` rewards at the appropriate tier:
+
+| Chapter | Quest Count | Suggested Tier | Notes |
+|---|---|---|---|
+| `ae2.snbt` | 35 | diamond | AE2 is endgame |
+| `armor.snbt` | 19 | gold/emerald | Mix by armor tier (diamond=gold, netherite=emerald) |
+| `dungeons.snbt` | 20 | emerald | M&S endgame content |
+| `nuclear_chemistry.snbt` | 25 | emerald/diamond | GT chemistry |
+| `mystical_agriculture_gregified.snbt` | 25 | gold | MA crops are mid-game |
+| `biome_hopper.snbt` | 24 | iron/gold | Exploration, early-mid |
+| `fishing.snbt` | ~20 | iron | Home Sweet Home, casual |
+| `culinary_arts.snbt` | 13 | iron | Home Sweet Home |
+| `homestead.snbt` | 19 | iron | Home Sweet Home |
+| `professions.snbt` | 15 | iron | Home Sweet Home |
+| `structures.snbt` | 19 | iron/gold | Adventure |
+
+## 🟡 QUEST BOOK — GAP ANALYSIS vs C2E2 and Star Technology
+
+### Chapters to add (high priority)
+- **Power Generation chapter** — Star Tech `power.snbt` covers Stirling/Compression/Steam dynamos + GT generators + boilers + rotor holders + Flux Networks tier by tier (22 quests). Supremacy has no dedicated power chapter. Suggested group: Main Story or Logbook.
+- **GTCEu Mechanics reference tab** — Star Tech `mechanics.snbt` (21 checkmark quests): multiblock wall sharing, distinct buses, overclocking, ghost circuits, machine modes, threading, parallels, throughput boosting, wireless power. All-checkmark, no rewards needed.
+
+### Chapters to add (medium priority)
+- **Campaign Shop (gem/coin shop)** — C2E2 has `gem_shop.snbt` (11 quests, all `can_repeat: true`): spend Lightman's coins to buy choice rewards (gear loot tables, gem boxes, rune boxes). Currency sink. Supremacy has `shop.snbt` (Star Tech bulk resources shop) but no ARPG-gear shop equivalent.
+- **Exploration chapter** — C2E2 `exploration.snbt` (42 quests): biome visits, structure finds, dimension entries. Supremacy has `biome_hopper` (24) and `structures` (19) but C2E2's are deeper.
+- **AE2 deep-dive** — Star Tech `applied_energistics.snbt` (25 quests) covers GT-AE2 hatches, MEGA cells, Quantum Link, assembler matrices, spatial storage. Supremacy's `storage_solutions` is shallower; check if it covers these systems.
+
+### Chapters to add (low priority)
+- **Chemistry chain reference (pl1–pl3)** — Dense GT chemistry chain docs (sulfur dioxide, chlorine, benzene, PCB coolant, PEEK, superalloy loops). Supremacy's `industrial_soul_refinement` covers soul materials but not GT chemistry fundamentals.
+- **QoL/Utility chapter** — Star Tech `quality_of_life.snbt` (22 quests): Effortless Building, Travel Anchors, Functional Storage, LaserIO, Tom's Storage, decorative block mods.
+
+### MnS XP rewards missing from Star Tech chapters
+Star Tech chapters ported to Supremacy (early_game, industrial_revolution, pl1–pl5, etc.) have **no Mine & Slash XP command rewards**. C2E2 awards `/mine_and_slash give xp_times_lvl @p <multiplier>` on every side-content quest. Consider adding `type: "command"` XP rewards to non-Main-Story chapters to keep ARPG progression flowing.
 
 ---
 

@@ -14,7 +14,7 @@
 			rewards: [{
 				count: 2
 				id: "2869E4BD2E5A310E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -54,7 +54,7 @@
 			rewards: [{
 				count: 2
 				id: "34DB4B4BCD0AB3CF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -73,7 +73,7 @@
 			rewards: [{
 				count: 3
 				id: "53EE868392DC0B64"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -93,7 +93,7 @@
 			rewards: [{
 				count: 2
 				id: "7C38284291EF1D04"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -112,7 +112,7 @@
 			rewards: [{
 				count: 5
 				id: "314691A7D69D946E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -134,7 +134,7 @@
 			rewards: [{
 				count: 3
 				id: "7DFB6B25EF61D040"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -154,7 +154,7 @@
 				{
 					count: 5
 					id: "602DE082CFE09419"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -180,7 +180,7 @@
 			rewards: [{
 				count: 6
 				id: "44BD9ABBE6343C0A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -201,7 +201,7 @@
 			rewards: [{
 				count: 3
 				id: "6EB46166D150DD07"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -256,7 +256,7 @@
 			rewards: [{
 				count: 3
 				id: "28ABABCC755FBA34"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -282,7 +282,7 @@
 			rewards: [{
 				count: 3
 				id: "5E81A14CA19D7841"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -307,7 +307,7 @@
 			rewards: [{
 				count: 4
 				id: "3CB27BE231123504"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [

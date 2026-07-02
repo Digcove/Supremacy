@@ -54,7 +54,7 @@
 			rewards: [{
 				count: 2
 				id: "5C62D9BF0BF46FAC"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -81,7 +81,7 @@
 			rewards: [{
 				count: 5
 				id: "1887167E5082E04E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -126,7 +126,7 @@
 			id: "1FB502D770A4A59B"
 			rewards: [{
 				id: "443DDB7EE2F5F57B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -153,7 +153,7 @@
 			id: "70D35B4C1D6A143D"
 			rewards: [{
 				id: "3B90C26F72F5A63B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -175,7 +175,7 @@
 			id: "433E2BCC63E779AF"
 			rewards: [{
 				id: "3D4753FAE4D98706"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -198,7 +198,7 @@
 			id: "5C7A92625D07C55D"
 			rewards: [{
 				id: "398ACC54F4F42715"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -288,7 +288,7 @@
 			id: "4DE40B37D609B921"
 			rewards: [{
 				id: "1FC4FEA09C39C1E4"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -310,7 +310,7 @@
 			id: "027C5CE3CFCB5649"
 			rewards: [{
 				id: "32443F1B809654D6"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -330,7 +330,7 @@
 			id: "2D713622FA2D6FCA"
 			rewards: [{
 				id: "1C8DB8447086E212"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -348,7 +348,7 @@
 			id: "3B85A08B2E08C6FC"
 			rewards: [{
 				id: "31146EC2D33D4B75"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -369,7 +369,7 @@
 			id: "5C3AF136913CF8BE"
 			rewards: [{
 				id: "4AC09D2CB06E6B4B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -392,7 +392,7 @@
 			rewards: [{
 				count: 2
 				id: "272B5C381C3B2C9E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -411,7 +411,7 @@
 			id: "10D78E10735CD210"
 			rewards: [{
 				id: "3A14DEA6D1AA0502"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -429,7 +429,7 @@
 			id: "1C515302A357B1B8"
 			rewards: [{
 				id: "7DDE8773170387CB"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "circle"
@@ -452,7 +452,7 @@
 			rewards: [{
 				count: 2
 				id: "73D4DBCF3C2B1167"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -477,7 +477,7 @@
 			rewards: [{
 				count: 2
 				id: "6BAC26EAB6E1C58F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -496,7 +496,7 @@
 			id: "66D2FB63E81E03AB"
 			rewards: [{
 				id: "37AFE192D0BE0925"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -515,7 +515,7 @@
 			id: "7A38469EAAABEAAE"
 			rewards: [{
 				id: "4262C7EF00DC2805"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d
@@ -846,7 +846,7 @@
 			id: "60ECE277341A9408"
 			rewards: [{
 				id: "23F129E3F9D9FFE1"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -866,7 +866,7 @@
 			rewards: [{
 				count: 2
 				id: "6D48716D5CB32355"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -887,7 +887,7 @@
 			id: "7FB86A5B9F6F6F35"
 			rewards: [{
 				id: "3E5689E13AD8D5CF"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			size: 1.0d

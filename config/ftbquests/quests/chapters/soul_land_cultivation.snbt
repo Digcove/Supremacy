@@ -854,7 +854,7 @@
 				{
 					count: 3
 					id: "07B89901B2D44557"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_iron"
 					type: "item"
 				}
 				{
@@ -1018,7 +1018,7 @@
 				{
 					count: 3
 					id: "5C0DE456A7C99014"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_iron"
 					type: "item"
 				}
 				{
@@ -1129,7 +1129,7 @@
 			rewards: [{
 				count: 2
 				id: "7CD27175FEA58844"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
@@ -1153,7 +1153,7 @@
 				{
 					count: 5
 					id: "5359AB66A6F343AD"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_iron"
 					type: "item"
 				}
 				{

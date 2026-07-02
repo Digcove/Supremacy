@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".claude/settings.local.json"
-hash = "0ce1d1cbdd3003bee31778dcbb5ecebcb76391780430cd3f5c8603df0efc1835"
+hash = "4affcd63baad2da2d58df45616da0aa5912424ca60ee6480ffb7985b8c06e71e"
 
 [[files]]
 file = ".vscode/settings.json"
@@ -11,6 +11,10 @@ hash = "f7c0978a395397c5dc0f4a359610123caecd53b7331c992a283a48c2806dafae"
 [[files]]
 file = "StarTechnology"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "c2e2_missing_mods.md"
+hash = "eda1e10b619a940c14219f6f5344fd37c0320c42130dbf3821aa2a9539904052"
 
 [[files]]
 file = "config/Advancedperipherals/general.toml"
@@ -1402,7 +1406,7 @@ hash = "e4f520dc87aae84198d103660429478214b1785ec3b5b4a68d40f8795c595dce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_soul_refinement.snbt"
-hash = "d85174fa36219543d179561252ff28bd04eed01693a17eaea4a5541b5a81c030"
+hash = "3770e84582d9d5bf895762d3463ea2e80e610d624a96b3e0d13c3bde195bb036"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"

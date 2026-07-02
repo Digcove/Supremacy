@@ -662,7 +662,7 @@
 			id: "38B3A7FC309E12E2"
 			rewards: [{
 				id: "3A1BB8F69976E897"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -2133,7 +2133,7 @@
 			id: "7E9A5A626648A859"
 			rewards: [{
 				id: "4A257F294C4D4C76"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "gear"

@@ -29,7 +29,7 @@
 			rewards: [{
 				count: 6
 				id: "EA01000000000001"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -51,7 +51,7 @@
 			rewards: [{
 				count: 4
 				id: "EA01000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -71,7 +71,7 @@
 			rewards: [{
 				count: 3
 				id: "EA01000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -101,7 +101,7 @@
 				{
 					count: 6
 					id: "EA01000000000004"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -135,7 +135,7 @@
 				{
 					count: 4
 					id: "EA01000000000006"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -164,7 +164,7 @@
 				{
 					count: 5
 					id: "EA01000000000008"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -192,7 +192,7 @@
 			rewards: [{
 				count: 8
 				id: "EA01000000000010"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -238,7 +238,7 @@
 			rewards: [{
 				count: 3
 				id: "AB01000000000001"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -266,7 +266,7 @@
 			rewards: [{
 				count: 4
 				id: "AB01000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -287,7 +287,7 @@
 			rewards: [{
 				count: 4
 				id: "AB01000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -324,7 +324,7 @@
 			rewards: [{
 				count: 5
 				id: "AB01000000000004"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -361,7 +361,7 @@
 			rewards: [{
 				count: 8
 				id: "AB01000000000005"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -383,7 +383,7 @@
 			rewards: [{
 				count: 5
 				id: "AB01000000000006"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -416,7 +416,7 @@
 			rewards: [{
 				count: 8
 				id: "AB01000000000007"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -451,7 +451,7 @@
 			rewards: [{
 				count: 5
 				id: "AB01000000000008"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -489,7 +489,7 @@
 			rewards: [{
 				count: 3
 				id: "AB01000000000009"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -513,7 +513,7 @@
 			rewards: [{
 				count: 4
 				id: "DB01000000000001"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -533,7 +533,7 @@
 			rewards: [{
 				count: 4
 				id: "DB01000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -553,7 +553,7 @@
 			rewards: [{
 				count: 5
 				id: "DB01000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [{
@@ -573,7 +573,7 @@
 			rewards: [{
 				count: 8
 				id: "DB01000000000004"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -595,7 +595,7 @@
 			rewards: [{
 				count: 8
 				id: "DB01000000000005"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			shape: "gear"
@@ -635,7 +635,7 @@
 			rewards: [{
 				count: 4
 				id: "DB01000000000006"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [
@@ -663,7 +663,7 @@
 			rewards: [{
 				count: 6
 				id: "DB01000000000007"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
 			tasks: [

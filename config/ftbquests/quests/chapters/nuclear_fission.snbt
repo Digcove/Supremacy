@@ -87,7 +87,7 @@
 			rewards: [{
 				count: 3
 				id: "37809005A5A3D89D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			size: 1.0d
@@ -110,7 +110,7 @@
 			rewards: [{
 				count: 2
 				id: "017BA6D7626280CD"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -506,7 +506,7 @@
 			rewards: [{
 				count: 3
 				id: "142ABBE1525B620F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			shape: "gear"
@@ -574,7 +574,7 @@
 			rewards: [{
 				count: 2
 				id: "73539BF69D21766E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -607,7 +607,7 @@
 			rewards: [{
 				count: 2
 				id: "44B936CE770223F3"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -640,7 +640,7 @@
 			rewards: [{
 				count: 2
 				id: "55488B7555E75A7C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -662,7 +662,7 @@
 			rewards: [{
 				count: 2
 				id: "03A288289050D715"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -707,7 +707,7 @@
 			rewards: [{
 				count: 2
 				id: "14AD5A363599967B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -729,7 +729,7 @@
 			rewards: [{
 				count: 3
 				id: "5E785011D48E4F3A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			size: 1.0d

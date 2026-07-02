@@ -28,7 +28,7 @@
 			id: "EH01000000000001"
 			rewards: [{
 				id: "EH03000000000001"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -46,7 +46,7 @@
 			id: "EH01000000000002"
 			rewards: [{
 				id: "EH03000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [
@@ -75,7 +75,7 @@
 			id: "EH01000000000003"
 			rewards: [{
 				id: "EH03000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -93,7 +93,7 @@
 			id: "EH01000000000004"
 			rewards: [{
 				id: "EH03000000000004"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -115,7 +115,7 @@
 			rewards: [{
 				count: 2
 				id: "EH03000000000005"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -154,7 +154,7 @@
 			rewards: [{
 				count: 3
 				id: "EH03000000000007"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -174,7 +174,7 @@
 			id: "EH01000000000008"
 			rewards: [{
 				id: "EH03000000000008"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "circle"
@@ -193,7 +193,7 @@
 			id: "EH01000000000009"
 			rewards: [{
 				id: "EH03000000000009"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -212,7 +212,7 @@
 			rewards: [{
 				count: 2
 				id: "EH0300000000000A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -236,7 +236,7 @@
 			rewards: [{
 				count: 2
 				id: "EH0300000000000B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -260,7 +260,7 @@
 			rewards: [{
 				count: 4
 				id: "EH0300000000000C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -293,7 +293,7 @@
 			rewards: [{
 				count: 8
 				id: "EH0300000000000D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			shape: "gear"
@@ -320,7 +320,7 @@
 			optional: true
 			rewards: [{
 				id: "EH0300000000000E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -340,7 +340,7 @@
 			optional: true
 			rewards: [{
 				id: "EH0300000000000F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{
@@ -360,7 +360,7 @@
 			optional: true
 			rewards: [{
 				id: "EH03000000000010"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
 			tasks: [{

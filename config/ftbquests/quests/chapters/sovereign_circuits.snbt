@@ -28,7 +28,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -55,7 +55,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -74,7 +74,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000004"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -93,7 +93,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000005"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -112,7 +112,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000006"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -149,7 +149,7 @@
 			rewards: [{
 				count: 8
 				id: "IV03000000000008"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -170,7 +170,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000009"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -189,7 +189,7 @@
 			rewards: [{
 				count: 5
 				id: "IV0300000000000A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -209,7 +209,7 @@
 			rewards: [{
 				count: 8
 				id: "IV0300000000000B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -251,7 +251,7 @@
 			rewards: [{
 				count: 5
 				id: "IV0300000000000C"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "circle"
@@ -271,7 +271,7 @@
 			rewards: [{
 				count: 5
 				id: "IV0300000000000D"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "circle"
@@ -294,7 +294,7 @@
 			rewards: [{
 				count: 8
 				id: "IV0300000000000E"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -318,7 +318,7 @@
 			rewards: [{
 				count: 8
 				id: "IV0300000000000F"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -342,7 +342,7 @@
 			rewards: [{
 				count: 10
 				id: "IV03000000000010"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -389,7 +389,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000011"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -408,7 +408,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000012"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -427,7 +427,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000013"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -449,7 +449,7 @@
 			rewards: [{
 				count: 3
 				id: "IV03000000000014"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -468,7 +468,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000015"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -505,7 +505,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000016"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [
@@ -535,7 +535,7 @@
 			rewards: [{
 				count: 10
 				id: "IV03000000000017"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -568,7 +568,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000018"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -587,7 +587,7 @@
 			rewards: [{
 				count: 5
 				id: "IV03000000000019"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
@@ -609,7 +609,7 @@
 			rewards: [{
 				count: 20
 				id: "IV0300000000001A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			shape: "gear"
@@ -631,7 +631,7 @@
 			rewards: [{
 				count: 5
 				id: "IV0300000000001B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{

@@ -28,7 +28,7 @@
 			id: "TS01000000000001"
 			rewards: [{
 				id: "TS03000000000001"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -52,7 +52,7 @@
 			rewards: [{
 				count: 3
 				id: "TS03000000000002"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			shape: "gear"
@@ -77,7 +77,7 @@
 			rewards: [{
 				count: 2
 				id: "TS03000000000003"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -103,7 +103,7 @@
 			optional: true
 			rewards: [{
 				id: "TS03000000000004"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -121,7 +121,7 @@
 			id: "TS01000000000005"
 			rewards: [{
 				id: "TS03000000000005"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -141,7 +141,7 @@
 			id: "TS01000000000006"
 			rewards: [{
 				id: "TS03000000000006"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -163,7 +163,7 @@
 			rewards: [{
 				count: 3
 				id: "TS03000000000007"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			shape: "gear"
@@ -185,7 +185,7 @@
 			optional: true
 			rewards: [{
 				id: "TS03000000000008"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -205,7 +205,7 @@
 			optional: true
 			rewards: [{
 				id: "TS03000000000009"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -225,7 +225,7 @@
 			optional: true
 			rewards: [{
 				id: "TS0300000000000A"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -245,7 +245,7 @@
 			optional: true
 			rewards: [{
 				id: "TS0300000000000B"
-				item: "kubejs:coin"
+				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
 			tasks: [{
@@ -273,7 +273,7 @@
 				{
 					count: 20
 					id: "TS0300000000000C"
-					item: "kubejs:coin"
+					item: "lightmanscurrency:coin_netherite"
 					type: "item"
 				}
 				{
