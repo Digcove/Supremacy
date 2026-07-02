@@ -1,0 +1,13 @@
+name = "TACZ Weapon Leveling Updated"
+filename = "tacz_weapon_compat-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "677610b2084e6f1cad97885b3c086808cb549b8e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8151727
+project-id = 1545936

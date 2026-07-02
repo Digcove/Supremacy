@@ -1,0 +1,13 @@
+name = "Create: Immersive TaCZ Integration"
+filename = "createimmersivetacz-1.4-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X2ZdQA3m/versions/9S4zWnf0/createimmersivetacz-1.4-1.20.1.jar"
+hash-format = "sha512"
+hash = "a379dc4adc392da9295cd40ec6e0d116d013d1dd86eb1839af8931701134eb3c31289afd7c84ce56710f7866f50c7a3e91439cdb00383e61775939244e125d3c"
+
+[update]
+[update.modrinth]
+mod-id = "X2ZdQA3m"
+version = "9S4zWnf0"

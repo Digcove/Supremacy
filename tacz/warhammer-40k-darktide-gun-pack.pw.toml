@@ -1,0 +1,13 @@
+name = "TaCZ x Warhammer 40K: Darktide Gun Pack"
+filename = "warhammer_40k_gun_pack_v0.1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6536e087b20483e02992ae6a73dea01156bc27b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5728320
+project-id = 1067988

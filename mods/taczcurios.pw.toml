@@ -1,0 +1,13 @@
+name = "TaczCurios"
+filename = "tcc-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JrcfcN88/versions/VtB3WSrG/tcc-1.2.3.jar"
+hash-format = "sha512"
+hash = "d8f07f0905b458ef0b00aeba6af2cbe40ffb96e3c208695a6c56b24cc1561203f352edb4097a1059713fc85529dbfea1a8a21f54d113120508806053fc10e0ee"
+
+[update]
+[update.modrinth]
+mod-id = "JrcfcN88"
+version = "VtB3WSrG"

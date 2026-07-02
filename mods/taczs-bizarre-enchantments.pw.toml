@@ -1,0 +1,13 @@
+name = "Tacz's Bizarre Enchantments"
+filename = "tbz-1.0.0-mc1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e1fa214c52a5ac942c8f11fc3a191cf4cfe5124"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8298520
+project-id = 1584055

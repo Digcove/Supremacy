@@ -1,0 +1,13 @@
+name = "TaCZ Fixlorant"
+filename = "tacz_fixlorant-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f231f3c6ca05db5d1955696d502d54fcc2e93786"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7694603
+project-id = 1474325

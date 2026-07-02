@@ -1,0 +1,13 @@
+name = "Fakelorant Gun Pack"
+filename = "fakelorant_pack-1.0.6-HOTFIX.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01fc79ae77d1decbbd648c4a91ec0d76fa2ff35c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7727523
+project-id = 1198095

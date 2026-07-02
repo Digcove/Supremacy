@@ -40,6 +40,18 @@ ServerEvents.recipes(event => {
         W: 'gtceu:cupronickel_single_wire'
     })
 
+    // Gun Smith Table: Terrasteel gate (TaCZ firearms unlock at Botania Ch6)
+    event.remove({ output: 'tacz:gun_smith_table' })
+    event.shaped('tacz:gun_smith_table', [
+        'LLL',
+        'ITI',
+        'I I'
+    ], {
+        L: '#minecraft:logs',
+        I: 'forge:ingots/iron',
+        T: 'botania:terrasteel'
+    })
+
     // ME Controller: Terrasteel (Botania Ch6) + Titanium Plate (EBF Ch7) gate
     event.remove({ output: 'ae2:me_controller' })
     event.shaped('ae2:me_controller', [

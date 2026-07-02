@@ -1,0 +1,13 @@
+name = "Helldivers: Escalation of Freedom Gun Pack"
+filename = "[eof]helldivers_gun_pack.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab25b75ac51c81ced82c6bf2ebea0ea6cc8e9ce0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8114014
+project-id = 1091118

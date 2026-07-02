@@ -1,0 +1,13 @@
+name = "Ghoul's Guns"
+filename = "tacz_ghouls_guns-1.0.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b23f3d359d1d214824a6f65a8dab1bcf18a8da65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7895105
+project-id = 1508254

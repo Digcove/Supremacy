@@ -1,0 +1,13 @@
+name = "TACZ Attributes Addon"
+filename = "tacz_attributes_addon-1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f47df8d4c95d7d0dc9bffc058572066271aa16b1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7779997
+project-id = 1482794

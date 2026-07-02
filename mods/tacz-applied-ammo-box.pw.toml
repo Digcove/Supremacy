@@ -1,0 +1,13 @@
+name = "TaCZ Applied Ammo Box"
+filename = "applied_ammo_box-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VQOi9K8E/versions/Ids2jY2U/applied_ammo_box-1.2.2.jar"
+hash-format = "sha512"
+hash = "1394b2bded1b84d5e68aa736a9bf6513b7db82118f4a70b3268061c7eee68d8e3a3e8b0255f3005b3f33fcdf9476a9478ef00b61cb3a635a2ea56bc4f6f62f8c"
+
+[update]
+[update.modrinth]
+mod-id = "VQOi9K8E"
+version = "Ids2jY2U"

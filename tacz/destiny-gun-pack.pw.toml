@@ -1,0 +1,13 @@
+name = "Destiny Gun Pack"
+filename = "Destiny_GunPack_v1.3.0-hotfix.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "29b1ed33d998436eb31d741692d20f79024e70ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8318236
+project-id = 1456442
