@@ -1412,40 +1412,22 @@
 		}
 		{
 			can_repeat: true
-			icon: "travelanchors:travel_staff"
+			icon: "waystones:warp_stone"
 			id: "2DFC6496C56829BF"
 			rewards: [
 				{
 					id: "4A08C28830A77C91"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "travelanchors:range"
-								lvl: 3
-							}]
-						}
-					}
+					item: "waystones:warp_scroll"
 					type: "item"
 				}
 				{
 					id: "06A81955F03EE4C5"
-					item: "travelanchors:travel_anchor"
+					item: "waystones:waystone"
 					type: "item"
 				}
 				{
 					id: "588A5043CB619D20"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "travelanchors:teleportation"
-								lvl: 1s
-							}]
-						}
-					}
+					item: "waystones:warp_scroll"
 					type: "item"
 				}
 			]

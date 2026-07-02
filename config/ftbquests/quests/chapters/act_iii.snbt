@@ -24,7 +24,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1206AB15279F8FA5"
 					silent: true
 					title: "6000 Experience"
@@ -70,7 +70,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "495F3EA9B5202D6E"
 					silent: true
 					title: "5000 Experience"
@@ -116,7 +116,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "513C3E0F390949B6"
 					silent: true
 					title: "7250 Experience"
@@ -170,7 +170,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "235DECB54BBFBDE3"
 					silent: true
 					title: "6250 Experience"
@@ -230,7 +230,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4AB967C7D0BC5EA0"
 					silent: true
 					title: "5500 Experience"
@@ -264,7 +264,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6B975E6A9D52282E"
 					silent: true
 					title: "5000 Experience"
@@ -298,7 +298,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1FC44A6913452913"
 					silent: true
 					title: "7500 Experience"
@@ -355,7 +355,7 @@
 			]
 			description: ["Complete all of the quests in Act III to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:babydolphin"
+			icon: "lightmanscurrency:coin_gold"
 			id: "6852C249CA093735"
 			rewards: [
 				{
@@ -366,7 +366,7 @@
 				}
 				{
 					id: "69E1F9E5F47DE548"
-					item: "simplehats:babydolphin"
+					item: "lightmanscurrency:coin_gold"
 					title: "Baby Dolphin"
 					type: "item"
 				}
@@ -391,7 +391,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "479F2BD1BBE7BC9A"
 					silent: true
 					title: "8000 Experience"
@@ -406,7 +406,7 @@
 				}
 				{
 					id: "2CD9791B813A37F2"
-					item: "simplehats:seaweedhat"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -434,7 +434,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 6750"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "482D24E3915BCF42"
 				silent: true
 				title: "6750 Experience"
@@ -494,7 +494,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "132D51D143AFAECD"
 					silent: true
 					title: "8500 Experience"
@@ -535,7 +535,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2D6BC5CAD878B4F4"
 					silent: true
 					title: "8750 Experience"
@@ -570,7 +570,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "325506065E24D465"
 					silent: true
 					title: "8750 Experience"
@@ -623,7 +623,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 9250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5E42161C284D2B09"
 					silent: true
 					title: "9250 Experience"
@@ -693,7 +693,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 14000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7153FEA8AA828FFB"
 					silent: true
 					title: "14000 Experience"
@@ -780,7 +780,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "59ABA7C0A346C178"
 					silent: true
 					title: "15000 Experience"
@@ -816,7 +816,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "052C4DC20201AB66"
 					silent: true
 					title: "5000 Experience"
@@ -855,7 +855,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 9250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4BE8EDFC75B0DD85"
 				silent: true
 				title: "9250 Experience"
@@ -901,7 +901,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 12500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "45269ACB23D984A3"
 					silent: true
 					title: "12500 Experience"
@@ -1039,7 +1039,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 5500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7B45C6A08AC082FC"
 				silent: true
 				title: "5500 Experience"
@@ -1063,7 +1063,7 @@
 					id: "2623FECED1EC26D4"
 					item: {
 						Count: 1
-						id: "seadwellers:depth_chestplate"
+						id: "lightmanscurrency:coin_gold"
 						tag: {
 							Damage: 0
 						}
@@ -1074,7 +1074,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0E5CD2D42DE0C09E"
 					silent: true
 					title: "8000 Experience"
@@ -1084,7 +1084,7 @@
 			subtitle: "Undersea Adventure"
 			tasks: [{
 				id: "59C725105DC08072"
-				item: "seadwellers:aquamarine"
+				item: "minecraft:prismarine_crystals"
 				type: "item"
 			}]
 			title: "Sea Dwellers"
@@ -1122,7 +1122,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 6000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1698C3C7A8EAD812"
 					silent: true
 					title: "6000 Experience"
@@ -1147,7 +1147,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "794C0235E593BB75"
 				silent: true
 				title: "7500 Experience"
@@ -1186,7 +1186,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "1F0BB657CC303C1D"
 				silent: true
 				title: "7500 Experience"
@@ -1229,7 +1229,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 10000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "57410F6F9D28BDAF"
 					silent: true
 					title: "10000 Experience"
@@ -1285,7 +1285,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 11000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "62F5C57610CB66C2"
 					silent: true
 					title: "11000 Experience"
@@ -1329,7 +1329,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 8500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4A1C2918189AC326"
 					silent: true
 					title: "8500 Experience"
@@ -1405,7 +1405,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 10000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "3E1B0097332F1A41"
 				silent: true
 				title: "10000 Experience"

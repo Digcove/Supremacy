@@ -15163,6 +15163,11 @@ hash = "50ef20cead6c51577f6698e6d2e63cdb11fb460d08a56517bdd99520a756a28a"
 metafile = true
 
 [[files]]
+file = "mods/aquamirae.pw.toml"
+hash = "8829e5715b66da6938ff7757de3b829c240647a875c2da126a8d5021c8ef18cb"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
 metafile = true
@@ -15253,6 +15258,11 @@ hash = "d61aee2e0abf58c9a923bfebd86b9b1e88e8001164c2ebf2ac4c96842acc7423"
 metafile = true
 
 [[files]]
+file = "mods/bosses-of-mass-destruction.pw.toml"
+hash = "a748351943c09e8cb6e90e56b7419c9420d76072c822a2c8c7b0f7f6f636648c"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "716738bc268a354fb2df91d00ae7c60cf8d86446249fe3b7221c16a4f7d859c4"
 metafile = true
@@ -15280,6 +15290,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "ca55f3ceb2ccbf454645c4eb691109220ad14205ca2592caf46223d81f73ced3"
+metafile = true
+
+[[files]]
+file = "mods/cerbons-api.pw.toml"
+hash = "b04f3690005952fb2f0d93b742a00d4b25547cbb4e2975aaca89fb0af58a9539"
 metafile = true
 
 [[files]]
@@ -15456,6 +15471,11 @@ hash = "fbd9436bbb5853fd2834b1c0649ce6b262b2d4cae05b5a784c22c3a77091091b"
 metafile = true
 
 [[files]]
+file = "mods/ex-nihilo-sequentia.pw.toml"
+hash = "bfead07ba28cab628e78a79531f225f6b4796db709ffcc30eca001df11e449f4"
+metafile = true
+
+[[files]]
 file = "mods/ex-pattern-provider.pw.toml"
 hash = "b03708e6de0c0afd4a1b202d7da5b258d60e7e5a10a171aef42c6d35935f4859"
 metafile = true
@@ -15463,6 +15483,11 @@ metafile = true
 [[files]]
 file = "mods/exile-overlay.pw.toml"
 hash = "1885f97d67816c4c7fe79aa6f43cbc99b315875fb8ae6316a1fddd1aeea3465c"
+metafile = true
+
+[[files]]
+file = "mods/expanded-ae.pw.toml"
+hash = "185cdedde1c16e19211ca2f3916eea3936db843bf751d1775406fa0668193733"
 metafile = true
 
 [[files]]
@@ -15586,6 +15611,11 @@ hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
 metafile = true
 
 [[files]]
+file = "mods/hats-classic.pw.toml"
+hash = "a725d7eebceb0d0b35e7bc5375741bc52081102b6bdb5d47e4c0b8df75984aa1"
+metafile = true
+
+[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "94c7c45a70d0cea86695ecd467f8e5c22510442c53c44291a570986e234428e5"
 metafile = true
@@ -15593,6 +15623,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "5851bef35e786bfcdb837dfc380c4bd22c857434b2997235a551b3a0cf72d158"
+metafile = true
+
+[[files]]
+file = "mods/illager-invasion.pw.toml"
+hash = "de2f38aea5766676305ffff2000100c889b9278583379cfa04bba375ff45b6ec"
 metafile = true
 
 [[files]]
@@ -15741,6 +15776,11 @@ hash = "a484a0a768e886244dab01dd9793d979ca5d57b8327f9f4caa36a3031fc46d63"
 metafile = true
 
 [[files]]
+file = "mods/lootjs.pw.toml"
+hash = "3e33e0b6b8e3344678161758972264b069d8dbed72ae2ac3791843aa661bde5b"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "e8b4876d403b4f4daab64bad9704a5b271a33031d1ff8d19d23ebd1e3b8dd39a"
 metafile = true
@@ -15856,11 +15896,6 @@ hash = "22e247ae9d30f9cbe247f370a29968684ff426c6b06f8ccffec0bf72a4f6ceaf"
 metafile = true
 
 [[files]]
-file = "mods/mutil.pw.toml"
-hash = "555fa3f84e00c06fa907205ccb8de29c3a3b64d1e46b78669586f8d2625d825d"
-metafile = true
-
-[[files]]
 file = "mods/mystical-agradditions.pw.toml"
 hash = "557af60462fd714ead361c411eff8068d8a023ed14c276b904821653155cee99"
 metafile = true
@@ -15888,6 +15923,11 @@ metafile = true
 [[files]]
 file = "mods/nether-depths-upgrade.pw.toml"
 hash = "19bcecfa3d942e4dddda2f84987b10718809ee9b09ee8461d993b951b538810d"
+metafile = true
+
+[[files]]
+file = "mods/novacore.pw.toml"
+hash = "6f15aaeac3615f9f1af2e6090e60dbe1d4ac4abe7abbb6fe81bf502fce7379b2"
 metafile = true
 
 [[files]]
@@ -16061,6 +16101,11 @@ hash = "2720aee58db6299559f89ea9dc8b1d573b8324f2b4af1e594c5239607585487b"
 metafile = true
 
 [[files]]
+file = "mods/sgjourney.pw.toml"
+hash = "0a259c98b9e68d002ef9454e6ca81801af285c18af5302f9cd9dbcb41c3b9512"
+metafile = true
+
+[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "8d3e9ef52ac3b65fb976629b55652ca30f9ad8b7ff37925c3111ae78386e1a97"
 metafile = true
@@ -16133,11 +16178,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "b0978cb7ae7b79c5be89b323ca1bd038f693ff6d11c43dfcbd63953964149af2"
-metafile = true
-
-[[files]]
-file = "mods/tetra.pw.toml"
-hash = "7bf5beda21dae1c14bf20864657e95c1a2af98e6c7317dcb620826aa0d08d7e3"
 metafile = true
 
 [[files]]

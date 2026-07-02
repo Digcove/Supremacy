@@ -35,7 +35,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "70B7B4E51C690B9C"
 					silent: true
 					title: "100 Experience x Lv."
@@ -70,7 +70,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4316A2F887A0A2FD"
 					silent: true
 					title: "100 Experience x Lv."
@@ -117,7 +117,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4A67BA0D6CB28907"
 					silent: true
 					title: "100 Experience x Lv."
@@ -149,7 +149,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6FB5B5E1ED6DE217"
 				silent: true
 				title: "100 Experience x Lv."
@@ -179,7 +179,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "55F9B02BA217DC97"
 				silent: true
 				title: "100 Experience x Lv."
@@ -223,7 +223,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "180F4535CFA511ED"
 				silent: true
 				title: "100 Experience x Lv."
@@ -258,7 +258,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "12E22C5A783337C6"
 				silent: true
 				title: "100 Experience x Lv."
@@ -280,14 +280,14 @@
 			rewards: [
 				{
 					id: "0BD216B7D41C5F33"
-					item: "simplehats:lightning_eyes"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "140F35FD322F6C29"
 					silent: true
 					title: "100 Experience x Lv."
@@ -331,7 +331,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1FA7C3BF8B7EAFD5"
 					silent: true
 					title: "100 Experience x Lv."
@@ -375,7 +375,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "27BD5A116AD9354A"
 					silent: true
 					title: "100 Experience x Lv."
@@ -425,7 +425,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "206DCA8214A88470"
 					silent: true
 					title: "100 Experience x Lv."
@@ -461,7 +461,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "05F410CDAE0F5C2D"
 					silent: true
 					title: "100 Experience x Lv."
@@ -529,7 +529,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1F23CBF2C75BD36A"
 					silent: true
 					title: "100 Experience x Lv."
@@ -569,7 +569,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5E7EBF27BF99F475"
 					silent: true
 					title: "100 Experience x Lv."
@@ -620,7 +620,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3C14054033CDCB8D"
 					silent: true
 					title: "250 Experience x Lv."
@@ -679,7 +679,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "543340695C1E918F"
 					silent: true
 					title: "100 Experience x Lv."
@@ -743,7 +743,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "19CC8E55BADA7FA6"
 				silent: true
 				title: "200 Experience x Lv."
@@ -768,7 +768,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "70510941304702CA"
 				silent: true
 				title: "100 Experience x Lv."
@@ -793,7 +793,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6B31AAE148A74E0B"
 					silent: true
 					title: "250 Experience x Lv."
@@ -801,7 +801,7 @@
 				}
 				{
 					id: "6CA94324ACAC5BAB"
-					item: "simplehats:antlers"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -823,7 +823,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "601ABD659AF2BC18"
 				silent: true
 				title: "100 Experience x Lv."
@@ -857,7 +857,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "31373E602F46AAE7"
 					silent: true
 					title: "100 Experience x Lv."
@@ -865,7 +865,7 @@
 				}
 				{
 					id: "20B1B345809D3BFB"
-					item: "simplehats:dwarfminerbeard"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -896,7 +896,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "69F464A7F336481B"
 				silent: true
 				title: "100 Experience x Lv."
@@ -968,14 +968,14 @@
 			rewards: [
 				{
 					id: "46BBA0C2125307D3"
-					item: "simplehats:festiveantlers"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "502C82E8854716EB"
 					silent: true
 					title: "500 Experience x Lv."
@@ -1029,7 +1029,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4F999D5876FBD2F7"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1037,7 +1037,7 @@
 				}
 				{
 					id: "6F980E5DA27FAEDF"
-					item: "simplehats:rainboworbiters"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -1076,7 +1076,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "60F4410FF8DE1DD7"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1111,7 +1111,7 @@
 			rewards: [
 				{
 					id: "1C9F4A8D4D9D3D12"
-					item: "aquaculturedelight:tuna_spaghetti"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -1123,7 +1123,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3BB4113929999F8A"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1155,7 +1155,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "79CFBA772E1368A8"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1227,7 +1227,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6594D243FDD2E394"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1251,7 +1251,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4CEE80924C54A38B"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1259,7 +1259,7 @@
 				}
 				{
 					id: "6B8E3243D165C2ED"
-					item: "simplehats:zigzagwitchhat"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -1293,7 +1293,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "5663C62720C9A346"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1342,7 +1342,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4B46D1460C6AFD85"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1381,7 +1381,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4B65D23594342E6C"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1414,7 +1414,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "5AECFFDAD351684B"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1445,7 +1445,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "72A51782A5F20458"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1468,7 +1468,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "1A7B949E858E7836"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1499,7 +1499,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "56E5DC6F0C992AA6"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1523,7 +1523,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "783D8B1057916D55"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1555,7 +1555,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6C4757A8FFB7C5A9"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1595,7 +1595,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "006AA537479C9A70"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1629,7 +1629,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "3D6378D70ACCBE7A"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1665,7 +1665,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4DD2369F7B276F9C"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1720,7 +1720,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3D83621C90FDE899"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1834,7 +1834,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "210D8324EEAC377D"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1865,7 +1865,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0FC8CC5B5FED43E6"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1906,7 +1906,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0DFA77AF7A346BDA"
 					silent: true
 					title: "100 Experience x Lv."
@@ -1936,7 +1936,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "735D74249264D06E"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1959,7 +1959,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6A6FCC4CAB46BBE6"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1982,7 +1982,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4F685B151AE21EA7"
 				silent: true
 				title: "200 Experience x Lv."
@@ -2011,7 +2011,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7F439C04D1C7ECC0"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2019,7 +2019,7 @@
 				}
 				{
 					id: "79E5D02E5E6EF349"
-					item: "simplehats:raincloud"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -2041,7 +2041,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4E034DF7119888A1"
 				silent: true
 				title: "100 Experience x Lv."
@@ -2069,7 +2069,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0995DAA000BAD7C1"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2101,7 +2101,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "3FC674038D61F647"
 				silent: true
 				title: "100 Experience x Lv."
@@ -2136,7 +2136,7 @@
 				auto: "enabled"
 				command: "100 Experience x Lv."
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "2793AD7DEEFB84CC"
 				silent: true
 				title: "100 Experience x Lv."
@@ -2159,7 +2159,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "79CB48A21A0DA987"
 				silent: true
 				title: "100 Experience x Lv."
@@ -2182,7 +2182,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "46FB8436FC2C127A"
 					silent: true
 					title: "200 Experience x Lv."
@@ -2230,7 +2230,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "74D4D2CC9BB5A535"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2270,7 +2270,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "692A7A30A070098D"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2300,7 +2300,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5462B9F9DD3A668C"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2332,7 +2332,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "14E614C4B7DAF869"
 					silent: true
 					title: "100 Experience x Lv."
@@ -2370,7 +2370,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "073BACAAB8027196"
 				silent: true
 				title: "100 Experience x Lv."
@@ -2379,8 +2379,7 @@
 			subtitle: "Chunk Loading"
 			tasks: [{
 				id: "3C7BB9EFD738D636"
-				item: "chunkloaders:basic_chunk_loader"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -2.5d
 			y: 1.0d

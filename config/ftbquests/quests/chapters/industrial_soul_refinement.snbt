@@ -14,7 +14,18 @@
 			]
 			description: ["Create's Crushing Wheels process raw ores into crushed ore chunks, guaranteeing two outputs per ore — a full 2x yield with no RNG. Place two counter-rotating wheels with a single-block gap between them and drop ore into the gap. Both wheels require rotational input; connect them via shaft to any power source. Speed determines throughput, not yield — even a slow Water Wheel is sufficient to begin."]
 			id: "682F366436809BCC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E022B5EA09D144A3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "0A8F2B4C6D1E3F50"
 				item: "lightmanscurrency:coin_gold"
@@ -37,7 +48,18 @@
 			]
 			description: ["Fan Ore Washing adds a secondary output on top of your Crushing Wheels yield. Build a column of water source blocks, then drive an Encased Fan to push air horizontally through them. Crushed ore passing through exits as Washed Crushed Ore, yielding a bonus purified ore item on top of the base crush output. The fan requires rotational input; any Water Wheel connection is sufficient."]
 			id: "4CCA4B2A9DAE30AE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "98BD3F607893C0CB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "1B9A3C5D7E2F4A61"
 				item: "lightmanscurrency:coin_gold"
@@ -57,7 +79,18 @@
 			description: ["Create's crushing recipes yield more than just ore. Gravel produces Flint. Blaze Rods give Blaze Powder with a chance at Blaze Mesh. Many ores have secondary dust outputs — Iron has a chance at Manganese, Gold yields a chance at Copper Dust. Route your output belt through a Brass Funnel set to filter so crushed ore and byproducts sort into separate chests automatically. At scale, these compounds into real value."]
 			id: "2E5F7A9B1C3D6E82"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DCD05F701F546CD8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "6A8C1E3F5B7D9A24"
 				item: "lightmanscurrency:coin_gold"
@@ -81,7 +114,18 @@
 			description: ["The Orechid is a Botania generating flower that transmutes adjacent Stone blocks into random ores over time, consuming 17,500 mana per conversion. It is crafted at the Petal Apothecary using Polished Rose Quartz — a material that only exists because of Create's sandpaper mechanic. This is the first hard convergence point between mechanical and magical systems. Plant it underground near dense Stone, fed by a dedicated Mana Spreader and Pool. A bank of four Orechids provides meaningful passive ore supplementation without ever lifting a pickaxe."]
 			id: "5A3B7C9D1E2F4A65"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "63D2967670E01328"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "2F4A6B8C1D3E5F78"
 				item: "lightmanscurrency:coin_gold"
@@ -107,7 +151,18 @@
 			dependencies: ["4CCA4B2A9DAE30AE"]
 			description: ["A manually-fed Crushing Wheel setup is a permanent bottleneck. An Andesite Funnel mounted on a Chest pulls items onto a Mechanical Belt, which carries them to a Chute that drops ore directly into the input gap above your wheels. On the output side, add a Brass Funnel with a filter to sort crushed ore from byproducts into separate inventories. Once this line runs unattended, your metal throughput becomes limited only by your belt speed and available power."]
 			id: "1C4D7E9F2A3B5C69"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A22E8730956EF344"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "4C6E8A2B1D3F5A85"
 				item: "lightmanscurrency:coin_gold"
@@ -133,7 +188,18 @@
 			dependencies: ["1C4D7E9F2A3B5C69"]
 			description: ["Create's ore processing reaches its ceiling here — Crushing Wheels with Fan Washing deliver reliable 2x to 2.5x ore yield. GregTech's electric processing begins where Create ends: the Macerator guarantees 2x yield plus bonus byproduct dusts, and a cascade of chemical refinement steps extracts rare metals unavailable through any other method. The Greg chapter covers the path from Primitive Blast Furnace through your first LV electric machines and the ore processing chain that follows."]
 			id: "7D2E4F6A8B1C3D56"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7D7F69F51C9921A6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1F2A3B4C5D6E7F87"
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
@@ -151,6 +217,16 @@
 			dependencies: ["409F8A64CB4B184A"]
 			description: ["Create is a kinetic power mod built around Stress Units (SU). Rotational force is generated by sources like Water Wheels and Windmills, transmitted through Shafts and Cogwheels, and consumed by machines. Every machine has a stress cost — exceeding your network's capacity stalls everything connected to it. Manage your SU budget carefully as your factory grows."]
 			id: "378C3A0358FD2ABD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CD795B1C44710A2D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "26533AA197A01B49"
 				title: "Create"
@@ -164,7 +240,18 @@
 			dependencies: ["378C3A0358FD2ABD"]
 			description: ["Shafts transmit rotational force along a line. Cogwheels change its direction and speed — meshing a large and small cogwheel produces a 4:1 speed ratio. Greater speed increases a machine's throughput but also its stress cost. Design your drivetrain before committing resources to machines."]
 			id: "369A9E51C5A05AB7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0C727BDF822A9F42"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "309EEC25B4AC2F42"
 				item: "minecraft:andesite"
@@ -184,7 +271,18 @@
 			dependencies: ["378C3A0358FD2ABD"]
 			description: ["The Water Wheel is your first reliable power source. Place it where flowing water runs perpendicular to the wheel's axle. Two Water Wheels on the same shaft double your output. Look for rivers and waterfalls early — optimal placement is worth more than additional wheels."]
 			id: "41BDD2ED2D884E3C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F0C6EB6B317C59D2"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "30CCC5A188CFE1A4"
 				item: "create:shaft"
@@ -204,6 +302,16 @@
 			dependencies: ["369A9E51C5A05AB7"]
 			description: ["Cogwheels transfer rotation between adjacent shafts. Meshing a Large Cogwheel with a standard one creates a speed ratio — use this to tune machine RPM without adding more power sources. Every machine has an optimal speed range; running too slow wastes time, running too fast burns SU."]
 			id: "4F9FCFD4864B0663"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2451427648AAB4FD"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "6665CE777EEE5EDE"
@@ -218,7 +326,18 @@
 			dependencies: ["369A9E51C5A05AB7"]
 			description: ["Andesite Casings are structural components for many Create machines. Craft them by right-clicking an Andesite Alloy onto a log in the world. They are a prerequisite for the Mechanical Press and most other early machines — stockpile them before you need them."]
 			id: "40507516171E9931"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "17AA9F3CA520D056"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "51C098F4AD182583"
 				item: "minecraft:andesite"
@@ -241,6 +360,16 @@
 			]
 			description: ["The Mechanical Press shapes metals into sheets and compacts items into blocks. It requires a rotational input from above and a Basin or Belt below. Pressing is mandatory for producing metal sheets — a prerequisite for most mid-game Create crafting recipes."]
 			id: "1360F2689830BE48"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "096C3460BEABB3D2"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2CE365BD619AC133"
 				item: "create:mechanical_press"
@@ -254,7 +383,18 @@
 			dependencies: ["378C3A0358FD2ABD"]
 			description: ["Rose Quartz is found underground near Diorite. Polish it using Sandpaper (crafted from Rose Quartz itself — use the first piece to make the tool) to produce Polished Rose Quartz, a critical component in Electron Tubes and advanced precision parts."]
 			id: "0FCDD275FC93F23B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AF56CF7411A4E656"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "319A0228012E2B85"
 				item: {
 					Count: 1
@@ -282,6 +422,16 @@
 			]
 			description: ["Electron Tubes are precision components assembled from Iron, Polished Rose Quartz, and Copper. They are required for the Deployer, Mechanical Arm, and Precision Mechanism — three of Create's most powerful automation tools. Mass-produce them early; demand only grows."]
 			id: "1FF3679444FBAD5A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DA8167B32B2DE413"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3057934041C19B79"
 				item: "create:electron_tube"
@@ -295,6 +445,16 @@
 			dependencies: ["378C3A0358FD2ABD"]
 			description: ["Immersive Engineering's Alloy Bricks are needed to build the Alloy Kiln, which produces Brass Ingots by mixing Copper and Zinc. A modest material cost now unlocks Create's entire Brass tier of machinery — the most impactful upgrade in early Create progression."]
 			id: "39C72E59C80B3EB3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AA76FB3670405495"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 8L
 				id: "24F7F9C3B15AADBC"
@@ -309,6 +469,16 @@
 			dependencies: ["39C72E59C80B3EB3"]
 			description: ["Brass Ingots are alloyed from Copper and Zinc in a heated Mixer. They unlock the entire Brass age of Create machinery, including the Sequenced Gearshift, Mechanical Arm, and Deployer. You cannot progress past early Create without a reliable brass supply."]
 			id: "04395F0870569B7D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "54E473E9ED4593AA"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "5FCFBFB7101AC774"
@@ -323,7 +493,18 @@
 			dependencies: ["04395F0870569B7D"]
 			description: ["Brass Casings are the structural foundation of advanced Create machines. Right-click a Brass Ingot onto any log in the world to form one. They are used in the Mechanical Arm, Deployer, and most Brass-age machines — craft them in bulk before beginning those builds."]
 			id: "3266EF960D4E3D8C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "294260DFCFADFD15"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3160ED6D096553BA"
 				item: "create:brass_ingot"
 				type: "item"
@@ -345,6 +526,16 @@
 			]
 			description: ["The Deployer holds any tool or item and activates it against blocks directly in front of it, powered by rotational input. It can place blocks, use items on surfaces, till soil, or even attack mobs. Combined with a Mechanical Arm and a Sequenced Gearshift, it enables fully automated crafting lines."]
 			id: "05504D33EF04161E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5724157067026420"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4063AD7708E53D39"
 				item: "create:deployer"
@@ -361,7 +552,18 @@
 			]
 			description: ["The Precision Mechanism is an intricate assembly of gears, springs, and tubing assembled in a Mechanical Crafter. It is the gateway component to the Mechanical Arm and other advanced Brass machines. Building a Mechanical Crafter to produce it is itself a small automation challenge worth solving properly."]
 			id: "0DC4B9019CA7DB3A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F4436B08929EB8CF"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5E84C168CAD1D51B"
 				item: "create:precision_mechanism"
 				type: "item"
@@ -383,6 +585,16 @@
 			]
 			description: ["The Mechanical Arm is Create's master logistics machine. Configure it to pull items from one or more input inventories and push them to one or more outputs on a priority basis. It replaces dozens of hoppers with a single, controllable transfer system. Central to any serious automation setup."]
 			id: "230584FBD5ED0711"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8C9E37D4DE1BEEC0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0E2288DDD239A4B1"
 				item: "create:mechanical_arm"
@@ -396,7 +608,18 @@
 			dependencies: ["369A9E51C5A05AB7"]
 			description: ["Large Cogwheels mesh with standard Cogwheels to produce a 4:1 speed ratio. Place a Large Cogwheel adjacent to a standard one with perpendicular shafts to multiply or divide RPM. Use them to push fast-throughput machines like Crushing Wheels or Saws to their maximum speed."]
 			id: "0A3361581FF70C7E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "417F71C04B9CD3A4"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3E50DF22970DD5B9"
 				item: "create:large_cogwheel"
 				type: "item"
@@ -414,7 +637,18 @@
 			dependencies: ["7D2E4F6A8B1C3D56"]
 			description: ["GregTech Community Edition is the industrial backbone of the late game. It begins simply — hand tools, iron, and fire — and escalates into vast automated factories processing every ore and alloy on the periodic table. Reaching Spirit Scholar means your cultivation has stabilized enough to direct that same discipline toward industry. The path from campfire smelting to electric machinery is long, but every step is deliberate."]
 			id: "1727551BEC3E69D1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A2E7499785193E0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0A1B2C3D4E5F6072"
 				item: {
 					Count: 1
@@ -440,7 +674,18 @@
 			dependencies: ["1727551BEC3E69D1"]
 			description: ["GregTech requires specialized hand tools for nearly every crafting step. The Hammer is mandatory — it shapes ingots into plates, rods into gears, and blocks into casings. The File trims rod ends. The Wire Cutter strips cables. The Screwdriver sets circuit components. The Wrench removes machines without breaking them. Craft what you need before you need it; the recipes are cheap but the work will halt without the right tool."]
 			id: "7A3F9B2E5D8C1A4F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C856E45B11000272"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "5F9A3B8C0D7E4F60"
 				item: "lightmanscurrency:coin_gold"
@@ -520,7 +765,18 @@
 			dependencies: ["7A3F9B2E5D8C1A4F"]
 			description: ["Wrought Iron is produced by smelting Iron in a Campfire — the slow, low-heat process retains a fibrous structure that vanilla smelting destroys. GT hand tools and machine hulls require it in plate form. Firebricks are the structural lining of every early GT smelting multiblock: mix Clay Dust and Sand into Fireclay, compress it into Compressed Fireclay, then fire it. Neither step is optional — Wrought Iron gates hulls, Firebricks gate the Primitive Blast Furnace."]
 			id: "2B8D4F6A9E1C3B7D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A79915F9330151D0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "0E4F8A3B5C2D9EB5"
 				item: "lightmanscurrency:coin_gold"
@@ -556,7 +812,18 @@
 			dependencies: ["2B8D4F6A9E1C3B7D"]
 			description: ["The Primitive Blast Furnace is constructed from 32 Firebricks arranged in a hollow 3x3x4 structure with the controller facing outward. Feed it Wrought Iron Ingots and Charcoal — the ratio is 1:2, iron to charcoal. The first batch of Steel marks the beginning of every machine chain that follows. Steel unlocks hulls, plates, pipes, and the frameworks for every GT multiblock you will ever build."]
 			id: "65F2399D1833ECC6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7E056EAFA75533D9"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "54339095BD7DFEE4"
 				item: "lightmanscurrency:coin_gold"
@@ -591,7 +858,18 @@
 			dependencies: ["65F2399D1833ECC6"]
 			description: ["The Coke Oven is built from 25 Coke Oven Bricks — mixed Clay Ball and Sand into Compressed Coke Clay, fired in a furnace. The structure itself is a 3x3x3 hollow cube. It converts Coal into Coal Coke (twice the fuel value of coal) and produces Creosote Oil as a byproduct. Creosote treats wood planks into Treated Wood — a weather-resistant material used in many GT structures. Coal Coke is the preferred steam boiler fuel at this stage."]
 			id: "5C1E8B4D2F7A3E9C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D842EB5E3699C22A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "423AAB8839CD3589"
 				item: "lightmanscurrency:coin_gold"
@@ -624,7 +902,18 @@
 			description: ["The Low-Pressure Steam Boiler converts water and solid fuel into Steam — the power medium for GregTech's first generation of machines. Connect it to a Steam Machine Hull with Bronze fluid pipes and feed it water continuously via a GT pump or tank. Coal Coke provides the longest burn time per slot. Without steam, no early GT machine will run."]
 			id: "1DB0BF33EA67FB8D"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B7C5E23E47B2E986"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "03BF5B0C2D9E6F2C"
 				item: "lightmanscurrency:coin_gold"
@@ -643,7 +932,18 @@
 			dependencies: ["5C1E8B4D2F7A3E9C"]
 			description: ["Rubber is mandatory for GT cables — every single cable requires a rubber coating to function. Jungle Saplings tapped by a Thermal Tree Extractor produce Raw Rubber Sap; distill it into Raw Rubber, then cure it into Rubber Plates. Alternatively, the GT Latex Plantation multiblock automates the process, or a Create Mechanical Mixer with a basin and heat source can alloy it. Either path works. Stockpile rubber plates early — demand from cables, seals, and components is continuous."]
 			id: "4E5D0AA37DD7A872"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E4A78D1E7BCD992"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "36EC8E3F5A2B9C5F"
 				item: "lightmanscurrency:coin_gold"
@@ -670,7 +970,18 @@
 			dependencies: ["4E5D0AA37DD7A872"]
 			description: ["GT Glass is produced by processing Flint into Flint Dust, sieving or macerating Sand into Quartz Sand Dust, mixing them to form Glass Dust, then smelting. Vacuum Tubes are the foundational electronic component of LV circuits — a Glass Tube, two Copper Foil pieces, and a Steel Rod soldered together on a circuit board. Craft two: they are required for the Basic Electronic Circuit."]
 			id: "4E2F7A9D1B5C8E6A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C2B40AE5B687999B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7A20CC7D9E6F3A93"
 				item: "lightmanscurrency:coin_gold"
@@ -702,7 +1013,18 @@
 			dependencies: ["4E2F7A9D1B5C8E6A"]
 			description: ["Red Alloy is an electrical conductor made by alloying Copper and Redstone — produce it in a Create Mixer or Steam Alloy Smelter. It is used in circuit wiring and redstone-logic components. The Resin Printed Circuit Board is the first tier circuit substrate: collect Sticky Resin from a rubber tree, form it into a Resin Circuit Board, then etch it with Iron(III) Chloride or Sodium Persulfate solution in a Chemical Bath. Both are required to assemble the Basic Electronic Circuit."]
 			id: "54851FB08D5C6931"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "718C1E5E341BAEDA"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "37FAC1F837317797"
 				item: "lightmanscurrency:coin_gold"
@@ -729,7 +1051,18 @@
 			dependencies: ["54851FB08D5C6931"]
 			description: ["The LV Machine Hull is the chassis for every LV electric machine. It requires Steel Plates, Wrought Iron Plates, and Tin Single Cables — the Tin cable demands rubber coating, which is why Rubber gates this quest. Nine steel plates form the outer shell; the wrought iron and tin cable provide internal structure and a low-voltage bus bar. Every LV machine in this chapter starts here."]
 			id: "3A9E7B2D4F8C6A1E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1BB98E56CC1D7BFB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "78BC1309E620B6C3"
 				item: "lightmanscurrency:coin_gold"
@@ -770,7 +1103,18 @@
 			dependencies: ["3A9E7B2D4F8C6A1E"]
 			description: ["The Basic Electronic Circuit is the first milestone of GT's electrical era. It requires Vacuum Tubes, a Resin Printed Circuit Board, Resistors, and Red Alloy wire soldered in the correct configuration. Resistors are made from Carbon Dust and Red Alloy wire — a small additional synthesis step. This circuit gates all LV electric machines. Produce several; demand is immediate and ongoing."]
 			id: "6B4C8F3E1A9D5B7F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "22D069C278F2128D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "14CA06B69C6D331D"
 				item: "lightmanscurrency:coin_gold"
@@ -791,7 +1135,18 @@
 			dependencies: ["6B4C8F3E1A9D5B7F"]
 			description: ["Soul Sand, drawn from the Nether, carries latent spiritual resonance — the same force cultivators spend lifetimes purifying. Alloyed with Invar under heat, it yields the Soul Infused Ingot. Draw this into wire and it becomes a conductor that carries both electricity and soul energy simultaneously. LV Energy Converters require it specifically: without soul resonance threaded through the circuitry, the conversion between GT and standard power formats is unstable. The industrial and the spiritual are not separate systems."]
 			id: "1C7D5F9A4B2E8C3A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A204E1DC8F37F229"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "47FD39E9CF9A664A"
 				item: "lightmanscurrency:coin_gold"
@@ -821,7 +1176,18 @@
 			dependencies: ["6B4C8F3E1A9D5B7F"]
 			description: ["The LV Electric Motor converts electrical current into mechanical rotation. It is a direct prerequisite for most LV machines — the Macerator, Wiremill, Bender, Lathe, and Assembler all require one. Craft it from Iron Rod, Copper Single Wire, and a Tin Cable wound in the correct configuration using GT hand tools. The motor is cheap; building multiples now saves time when the rest of the LV machine suite comes online."]
 			id: "4D1E3B7C8F6A2D9B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "99D6EC1CCF3F6DF2"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "691F5BBBF1BC886C"
 				item: "lightmanscurrency:coin_gold"
@@ -843,7 +1209,18 @@
 			]
 			description: ["The LV Energy Converter bridges GT's internal voltage system with the standard RF/FE power network. It requires an LV Machine Hull, a Basic Electronic Circuit, and Soul Infused Wire — the soul resonance in the wire stabilizes the conversion at low voltage. Without a Converter, no RF-producing machine can charge GT machines and vice versa. This is the gateway to powered automation: every LV machine, every cable run, every automated line begins here."]
 			id: "19E12A32C4DC21E6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B79963A7136C0C0E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "0A64EF9E11DCAA66"
 				item: "lightmanscurrency:coin_gold"
@@ -888,7 +1265,18 @@
 			dependencies: ["19E12A32C4DC21E6"]
 			description: ["The LV Macerator is GregTech's first electric ore processor. It grinds ores into two Crushed Ore pieces — a guaranteed 2x yield — plus a chance at a secondary byproduct dust unique to each ore type. Iron gives a chance at Tin Dust. Gold gives a chance at Copper Dust. Copper gives a chance at Gold Dust. These byproduct dusts accumulate into real material value over time. The Macerator alone exceeds Create's Crushing Wheel output by adding the byproduct chain."]
 			id: "2F8A6D3B1E4C9F5D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E719ABF0BF5B5975"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "6ACA776FFC34FC65"
 				item: "lightmanscurrency:coin_gold"
@@ -907,7 +1295,18 @@
 			dependencies: ["2F8A6D3B1E4C9F5D"]
 			description: ["The LV Macerator proves the electric age works. Now build it out. The full LV machine suite — Piston, Robot Arm, Conveyor, Assembler, Wiremill, Bender, Lathe, Alloy Smelter — is the industrial backbone of every process you will run between here and the Electric Blast Furnace. Each machine accepts EU from any LV cable run; set up a dedicated substation near your assembly floor and run a single cable tray once. The parallel ore processing chain — Ore Washer, Thermal Centrifuge, Chemical Bath — turns every raw ore into three or four distinct products. This is what GregTech was built to do."]
 			id: "5FC62C3CE74A6BE5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C4E779FF7100A725"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0001"
 				item: "lightmanscurrency:coin_gold"
@@ -926,7 +1325,18 @@
 			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The LV Electric Piston is the mechanical prerequisite for most LV machines — Wiremill, Bender, Lathe, Forge Hammer, Robot Arm, and Thermal Centrifuge all require one. It combines an Iron Rod, Iron and Steel Plates, Steel Pipe, and an LV Motor into a linear actuator that converts electric current into reciprocating force. Craft several before you need them; the demand from the full machine suite is immediate."]
 			id: "4DED4C6A00692C45"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6605EB866A73FAE0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0002"
 				item: "lightmanscurrency:coin_gold"
@@ -945,7 +1355,18 @@
 			dependencies: ["4DED4C6A00692C45"]
 			description: ["The LV Robot Arm combines a Motor, Piston, Steel Plates, Iron Rods, and Tin Cables into a programmable manipulator. It is a required component for the LV Assembler and governs precise item placement and handoff in machine arrays. The Robot Arm is the closest thing GT has to automation intelligence at LV tier — set up a loop of several before the Assembler comes online."]
 			id: "7752E1BB3D5CFC2D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "34D2DD77CBAADFF3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0003"
 				item: "lightmanscurrency:coin_gold"
@@ -964,7 +1385,18 @@
 			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The LV Conveyor Module uses two LV Motors and a rubber belt to move items between machines without player intervention. It is a required component for the LV Assembler and enables GT pipe-based item transport at LV tier. Rubber demand scales linearly with your machine count — ensure your rubber extraction loop is producing surplus before starting the full machine floor."]
 			id: "235DE680E4EED95B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "307185EE95CD7027"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0004"
 				item: "lightmanscurrency:coin_gold"
@@ -984,7 +1416,18 @@
 			description: ["The LV Electric Pump handles fluid movement through GT machines and fluid pipes. It is a required component for the Ore Washer, Chemical Bath, Chemical Reactor, and Electrolyzer — any machine that takes or outputs fluid needs a pump somewhere in its component chain. Build one now to avoid a production halt when you reach the ore washing steps."]
 			id: "09E55041CC5CE233"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4658159BE654DA6E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0005"
 				item: "lightmanscurrency:coin_gold"
@@ -1006,7 +1449,18 @@
 			]
 			description: ["The LV Assembler is the inflection point of GregTech automation. It accepts up to nine input items and produces any valid crafting recipe output automatically — no shaped table, no player. Feed it via Conveyor Module from sorted chests and it outputs directly to a downstream belt. The Assembler halves the manual crafting burden of every machine you build from this point forward. Set up dedicated recipes for the components you produce most: circuits, cables, plates, pipes."]
 			id: "34CDA1840B3ED98D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9A4653D70C3A82DF"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "12340000AABB0006"
 				item: "lightmanscurrency:coin_gold"
@@ -1027,7 +1481,18 @@
 			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Wiremill produces wire from ingots at 2x or better yield compared to manual hammer-shaping. Copper and Tin wire demand scales directly with your machine count — every motor, every circuit, every cable run requires them at volume. The Wiremill is also the only way to produce Fine Wire and Very Fine Wire at MV tier, making it a non-negotiable machine before the Electric Blast Furnace. Automate a continuous Copper and Tin wire output loop before you need coil wire."]
 			id: "023807B9C94AFD56"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2CB11F383CEBEEC4"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB0007"
 				item: "lightmanscurrency:coin_gold"
@@ -1046,7 +1511,18 @@
 			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Bender produces Plates, Curved Plates, and Rings from ingots and rods — at double the plate yield of manual hammer-shaping. Curved Plates are required for fluid pipes and machine casings; Rings appear in motors, pumps, and pistons. The Bender is the only way to produce Ring shapes, and its plate efficiency makes it mandatory for any factory operating at scale. Dedicate one Bender to Steel output for constant casing demand."]
 			id: "2C70B19C5BB3715D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A7D284CD58889E1"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB0008"
 				item: "lightmanscurrency:coin_gold"
@@ -1065,7 +1541,18 @@
 			dependencies: ["34CDA1840B3ED98D"]
 			description: ["The LV Lathe produces Rods, Bolts, Screws, and Lens shapes from ingots and plates. Bolts and Screws are required for circuit assembly, machine component crafting, and several multiblock structures. The Lathe is the only GT machine that produces Lens shapes — needed later for optical sensors and the Distillation Tower. Set it producing Steel Rods and Iron Bolts on an automated loop from day one."]
 			id: "2A92915EF19FCDBA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CE6FEF10954C28BD"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB0009"
 				item: "lightmanscurrency:coin_gold"
@@ -1084,7 +1571,18 @@
 			dependencies: ["5FC62C3CE74A6BE5"]
 			description: ["The GT electric ore processing chain extends yield far beyond Create's Crushing Wheels. The full chain: Macerator (crushed ore, 2x base) → Ore Washer with distilled water (purified crushed ore + stone dust byproduct) → Thermal Centrifuge (ore dust + a rare secondary byproduct unique to each ore) → Chemical Bath for select ores (third byproduct). Assembling the full chain yields 3 to 4 distinct output items per raw ore input. Build the lane now so it comes online with the rest of the machine floor."]
 			id: "1ECC2289134EAEE4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8BF506B349314079"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB000A"
 				item: "lightmanscurrency:coin_gold"
@@ -1103,7 +1601,18 @@
 			dependencies: ["1ECC2289134EAEE4"]
 			description: ["The LV Ore Washer processes Crushed Ore with Distilled Water into Purified Crushed Ore plus a Stone Dust byproduct. Purified ore macerated downstream has a higher chance at secondary byproduct dusts compared to direct-macerating raw ore. The key input is Distilled Water — regular water will not work. Produce it from a Steam Boiler condensate loop or, later, in the Distillery. An LV Pump connected to a fluid tank provides sufficient throughput at early volumes."]
 			id: "1D9839C02092B73B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E5013987E1FEF4B6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB000B"
 				item: "lightmanscurrency:coin_gold"
@@ -1122,7 +1631,18 @@
 			dependencies: ["1D9839C02092B73B"]
 			description: ["The LV Thermal Centrifuge processes Purified Crushed Ore into Ore Dust plus a secondary byproduct dust unique to each ore type. Iron gives a chance at Tin Dust. Gold gives a chance at Copper Dust. Copper gives a chance at Gold Dust at low probability. Rare ores like Platinum have extremely valuable centrifuge byproducts obtainable through no other method. Run the Thermal Centrifuge on every ore variety you process — the byproduct accumulation compounds into a real secondary income stream over time."]
 			id: "3B07FADAB8B6CE4F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "15DD030506340EEE"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB000C"
 				item: "lightmanscurrency:coin_gold"
@@ -1141,7 +1661,18 @@
 			dependencies: ["3B07FADAB8B6CE4F"]
 			description: ["The LV Chemical Bath adds a reagent soak step to ore processing, yielding a third byproduct output for specific ores. It also automates PCB etching: the Resin Circuit Board in the greg chapter was etched manually; the Chemical Bath runs this continuously with Sodium Persulfate or Iron(III) Chloride solution. Build it alongside the Chemical Reactor — the Chemical Bath consumes reagents the Reactor produces, forming a self-sustaining loop."]
 			id: "20078A3EE4C9425E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "62D4238B65D28171"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB000D"
 				item: "lightmanscurrency:coin_gold"
@@ -1160,7 +1691,18 @@
 			dependencies: ["20078A3EE4C9425E"]
 			description: ["The complete electric ore processing chain is assembled. A single raw ore input now produces two to four distinct output items — base ore dust, a secondary byproduct dust, a tertiary chemical byproduct, and Stone Dust from the washing step. Run everything through all four stages before final smelting. The average effective yield across common ores reaches 3.2x per raw ore input. Create's Crushing Wheels were a step. This is the destination."]
 			id: "7A9F036C8676F320"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "19A644CE5CEF3BED"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "12340000AABB000E"
 				item: "lightmanscurrency:coin_gold"
@@ -1181,7 +1723,18 @@
 			dependencies: ["023807B9C94AFD56"]
 			description: ["The LV Alloy Smelter automates GT alloy production from dust or ingot inputs without requiring a Mixer or specific fluid input. It accepts two items and produces the alloyed output directly — the fastest path for Bronze, Cupronickel, Invar, Electrum, and Steel ingot production at LV tier. Dedicate one Alloy Smelter instance per alloy type you produce continuously. Cupronickel for EBF coils is the immediate target."]
 			id: "43CBA3E6F9CF363F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2431E6BAE1FB824C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB000F"
 				item: "lightmanscurrency:coin_gold"
@@ -1201,7 +1754,18 @@
 			description: ["The LV Mixer combines two to four input items into alloy outputs or compound dusts. Unlike the Alloy Smelter it accepts fluids and wet compounds — Concrete, Slurry, Electrolyte solutions, and several chemical intermediates are Mixer-exclusive recipes. For alloy production the Mixer is slightly slower than the Alloy Smelter but accepts a broader range of input forms. Build it alongside rather than instead of the Alloy Smelter."]
 			id: "35DC7C5EBC1EC6AA"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "706155E271363190"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0010"
 				item: "lightmanscurrency:coin_gold"
@@ -1221,7 +1785,18 @@
 			description: ["The LV Chemical Reactor is GT's primary fluid chemistry machine — it combines fluid and item inputs to produce reagents, solutions, and byproduct gases. At LV tier it handles Sodium Persulfate for PCB etching, Sulfuric Acid for ore leaching, and Hydrogen via electrolysis chains. The Chemical Reactor unlocks GT's chemical tree, which runs in parallel with the ore processing chain from MV onward. Build it before you need it — reagent supply is always the bottleneck, never the machine."]
 			id: "2BAC972B6424A2AB"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A3DF4DE3BBAE9542"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "12340000AABB0011"
 				item: "lightmanscurrency:coin_gold"
@@ -1241,7 +1816,18 @@
 			description: ["The Blood Altar is Blood Magic's central structure — a base of Blood Rune blocks topped with a Ritual Stone altar. It requires iron plates in quantity: GregTech's ore processing now produces them without effort. Blood Magic's altar would have been impractical before this chapter. Life Essence gathered from self-sacrifice or mob sacrifice powers rituals — several of which produce materials useful in GT chemistry chains. The industrial and the alchemical have always been adjacent."]
 			id: "2354575E7D73E76D"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "37C2D4257D03D55D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB0012"
 				item: "lightmanscurrency:coin_gold"
@@ -1261,7 +1847,18 @@
 			description: ["The Water Sigil creates infinite water sources by spending Life Essence — right-click any air block above a valid surface and it places a permanent water source block. This feeds GT Steam Boilers, Ore Washers, and any water-hungry machine indefinitely without pumps, aqueducts, or player intervention. GT's industrial output enables Blood Magic's construction. Blood Magic's magic supplies GT's most tedious resource. Neither system is complete without the other."]
 			id: "41E155533627CFD4"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CC144FB7E2CF339F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "12340000AABB0013"
 				item: "lightmanscurrency:coin_gold"
@@ -1283,7 +1880,18 @@
 			]
 			description: ["Cupronickel is alloyed from Copper and Nickel in a 1:1 ratio in the Alloy Smelter. Draw the ingots through the Wiremill to produce Cupronickel Double Wire, then assemble four wire units into Cupronickel Coil Blocks — the heating element of the Electric Blast Furnace. In this pack, the Cupronickel Coil Block recipe requires Naga Scales from the Twilight Forest Naga; open the Medium Voltage chapter and begin the Naga hunt before attempting to craft coil blocks. At 1800K maximum temperature, Cupronickel coils smelt Aluminum, Silicon, and Magnesium: the materials that unlock the MV Machine Hull and the entire MV tier. Every LV machine you have built was preparation for this coil."]
 			id: "2AEDD3EF2A946CA6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0D7D0DA3EFC5FA56"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "12340000AABB0014"
 				item: "lightmanscurrency:coin_gold"
@@ -1313,7 +1921,18 @@
 			dependencies: ["2AEDD3EF2A946CA6"]
 			description: ["The LV era is complete. You have electric machines that form, shape, alloy, assemble, and process ore without player input. The Electric Blast Furnace awaits — a multiblock that reaches temperatures impossible with carbon fuel alone. Aluminum at 1700K. Titanium at 1941K. Tungsten at 3600K. Each temperature threshold unlocks a new tier of materials, machines, and circuits. The Cupronickel Coils you wound are the first step. The volt age does not end — it accelerates."]
 			id: "371C709FA695E748"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "800917AF9DE49AE8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 6
 				id: "12340000AABB0015"
 				item: "lightmanscurrency:coin_gold"
@@ -1334,7 +1953,18 @@
 			dependencies: ["43CBA3E6F9CF363F"]
 			description: ["The Twilight Forest is entered by constructing a 2×2 pool of water, surrounding it with flowers on all sides, and dropping a Diamond into the center. The portal ignites when the conditions are met. The realm beyond is a permanent overcast dimension — no natural sky light, dense tree cover, and escalating boss guardians that enforce a strict progression order. The Naga is the first guardian. Its Scales are required in this pack to craft Cupronickel Coil Blocks; without them, the Electric Blast Furnace cannot be assembled. Enter the forest and begin the hunt before you attempt to finish your coil winding."]
 			id: "5A5B0001CCDD0001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5885E1D8F80DAACB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7A7B0001CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1354,6 +1984,16 @@
 			description: ["The Naga is a massive serpent that circles its clearing in aggressive territorial sweeps. Its primary attack is a rapid lateral lunge — clear the clearing of obstacles before engaging. When killed, it drops Naga Scales and the Naga Head. The Scales are woven into the Cupronickel Coil Block recipe in this pack; collect four then return to your factory to finish winding your EBF coils. The Naga is the first Twilight Forest gate; every subsequent boss requires you to have cleared all prior guardians."]
 			id: "5A5B0002CCDD0002"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "129D643435A3C90B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 5
 					id: "7A7B0002CCDD0001"
@@ -1383,7 +2023,18 @@
 			dependencies: ["2AEDD3EF2A946CA6"]
 			description: ["The Electric Blast Furnace requires a shell of Steel Machine Casings — Hammered Steel Plates bent and assembled into structural heat-resistant frames. You need 32 for the outer wall of the 3×3×4 structure. The interior ring of Cupronickel Coil Blocks sits inside these casings and is replaced independently when upgrading to higher-temperature coils. Build the casing stockpile while you complete the Naga hunt — both must be ready simultaneously before the multiblock can be placed."]
 			id: "5A5B0003CCDD0003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B8885F4B97F46E4E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B0003CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1406,7 +2057,18 @@
 			]
 			description: ["The Electric Blast Furnace is a 3×3×4 hollow multiblock: outer walls of Steel Machine Casings, inner ring of Coil Blocks, the EBF Controller on the front face, and Output and Input Hatches for solid and fluid I/O. A Muffler Hatch on one side vents waste heat. Connect EU to the Energy Input Hatch at LV or MV voltage. The EBF does not run on steam — it requires electric current. The first batch of Aluminium at 1700K proves the machine is correctly assembled and the coil ring is complete."]
 			id: "5A5B0004CCDD0004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8B24B2077F88FD5B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 6
 				id: "7A7B0004CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1428,6 +2090,16 @@
 			description: ["Aluminium is smelted from Bauxite ore — process raw Bauxite through the Macerator to obtain Bauxite Dust, then feed it to the EBF at 1700K. Cupronickel coils reach 1801K, comfortably clearing this threshold. Aluminium Ingots are the primary material for the MV Machine Hull, the MV Circuit substrate, and several machine components. Smelt at least 64 before proceeding — demand accelerates rapidly once the MV machine floor comes online and alloy production begins."]
 			id: "5A5B0005CCDD0005"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "09B72DB8188B17EB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 3
 					id: "7A7B0005CCDD0001"
@@ -1455,7 +2127,18 @@
 			dependencies: ["5A5B0005CCDD0005"]
 			description: ["Aluminium Plates are produced by running Aluminium Ingots through the LV Bender — the plate yield from hammer shaping is half the Bender's output at the cost of twice the tool durability. Build nine for the MV Machine Hull and a surplus stockpile for casing and component demand beyond. Plates, not ingots, are the structural raw material of MV construction — convert your entire Aluminium ingot output to plates at the Bender before downstream processes consume it."]
 			id: "5A5B0006CCDD0006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81A8BA3D088E6706"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B0006CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1475,7 +2158,18 @@
 			dependencies: ["5A5B0004CCDD0004"]
 			description: ["Silicon is produced by processing Quartzite Dust or Silicon Dioxide in the EBF at approximately 1700K — within Cupronickel coil range. Silicon Ingots are then cut by the Wiremill into Silicon Wafers, which are etched and layered into NAND Chips. Silicon is the foundation of every circuit tier above LV and must be produced in continuous quantity; the combined circuit demand from MV machines and the EBF upgrade chain is substantial and begins immediately."]
 			id: "5A5B0007CCDD0007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "300D19A815020319"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B0007CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1495,7 +2189,18 @@
 			dependencies: ["5A5B0007CCDD0007"]
 			description: ["NAND Chips are integrated circuits produced from Silicon Wafers etched in acid solution. Run a Silicon Ingot through the Wiremill to produce Silicon Wafers; etch each wafer in the Chemical Bath with Sulfuric Acid to yield a NAND Chip. They are the primary logic element of Good Electronic Circuits — the MV circuit tier. Produce at least 16 before beginning circuit assembly; the batch size per circuit is non-trivial and automated Chemical Bath throughput determines your total circuit production speed."]
 			id: "5A5B0008CCDD0008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "91E3216F12C968D3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B0008CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1516,6 +2221,16 @@
 			description: ["The Good Electronic Circuit is the MV circuit tier. It combines NAND Chips, Resistors, Capacitors, and Transistors on an Integrated Logic Circuit Board — a substrate produced by chemically treating a Phenolic Circuit Board blank. The Assembler is the only practical way to produce these at volume; set up a dedicated circuit line with the Assembler before beginning MV machine construction. You will consume dozens before the end of this chapter and hundreds before MV machines are fully operational."]
 			id: "5A5B0009CCDD0009"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "58920992AE564CC0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 4
 					id: "7A7B0009CCDD0001"
@@ -1548,7 +2263,18 @@
 			]
 			description: ["The MV Machine Hull requires Aluminium Plates, Aluminium Machine Casings, and an Epic-quality Mine & Slash Power Stone — a gemstone of sufficient soul resonance to stabilize medium-voltage current through the hull's internal bus. Epic Power Stones drop from Elite and Champion M&S enemies in zones scaled to your current rank; they are not found at low-tier encounter difficulty. Secure one, then assemble the hull. Every MV machine depends on this component as its chassis."]
 			id: "5A5B000ACCDD000A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6EC580B75D4ADB74"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "7A7B000ACCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1569,7 +2295,18 @@
 			dependencies: ["5A5B000ACCDD000A"]
 			description: ["The MV Electric Motor is wound with finer copper wire than its LV counterpart, providing higher rotation frequency at medium voltage. It is a prerequisite for the MV Piston, MV Robot Arm, MV Conveyor, and all MV machines that follow. Craft several before beginning the MV machine floor — the component demand for a full MV suite exceeds LV by a significant margin, and every delay in motor production cascades into delays in every downstream machine."]
 			id: "5A5B000BCCDD000B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "80959DC8B38BEC99"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B000BCCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1588,7 +2325,18 @@
 			dependencies: ["5A5B000BCCDD000B"]
 			description: ["The MV Electrolyzer decomposes chemical compounds into their constituent elements using electrical current. At MV tier it handles Alumina into Aluminium and Oxygen, Chromite into Chrome and Iron Oxide, Water into Hydrogen and Oxygen, and dozens of other industrial reactions. Chrome — required for both Kanthal Alloy and Stainless Steel — is most efficiently produced through Chromite ore electrolysis. The MV Electrolyzer is the gateway to GTCEu's chemical processing tree, which runs in parallel with ore processing from this tier onward and scales with every tier above."]
 			id: "5A5B000CCCDD000C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "69E8C6F4C777017C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B000CCCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1607,7 +2355,18 @@
 			dependencies: ["5A5B000BCCDD000B"]
 			description: ["The MV Chemical Reactor handles fluid-reagent chemistry at medium voltage — Sulfuric Acid from Sulfur and Water, Hydrochloric Acid, Sodium Persulfate for PCB etching, and the Chromite leaching chain. Unlike the LV reactor it accepts simultaneous fluid and solid inputs with wider throughput limits. Set it producing Sulfuric Acid continuously from the start — it is consumed by Aluminium processing, Platinum group chemistry, and nearly every industrial leaching reaction that follows in HV and beyond."]
 			id: "5A5B000DCCDD000D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "24134D4A6F44970E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7A7B000DCCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1629,7 +2388,18 @@
 			]
 			description: ["Kanthal is an iron-chromium-aluminium alloy that forms the heating element of high-temperature EBF coil blocks. Process Chromite Ore through the Macerator to obtain Chromite Dust, then electrolyze it to Chrome Ingot. Alloy Iron, Chrome, and Aluminium in the Alloy Smelter to form Kanthal Ingots — draw through the Wiremill to produce Kanthal Double Wire, then assemble four wire units into Kanthal Coil Blocks. Four blocks replace the Cupronickel ring of your EBF and raise its operating temperature to 2700K."]
 			id: "5A5B000ECCDD000E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2CEFB3FB8BD60741"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "7A7B000ECCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1658,6 +2428,16 @@
 			description: ["Kanthal Coil Blocks replace the Cupronickel inner ring of the EBF without dismantling the outer shell. Break only the inner coil layer, place Kanthal Coil Blocks in every inner-ring position, and the EBF controller automatically detects the upgrade. At 2700K the EBF reaches Titanium's smelting threshold (1941K) with 759K of thermal headroom — sufficient for every HV-tier alloy including Stainless Steel. Both production chains can begin as soon as the coil swap is complete."]
 			id: "5A5B000FCCDD000F"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CCAA43C4669C550C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 6
 					id: "7A7B000FCCDD0001"
@@ -1691,7 +2471,18 @@
 			]
 			description: ["The EBF operates at 2700K. Titanium melts at 1941K; Stainless Steel and all Chrome alloys fall within this temperature range. The MV machine floor is assembled — Electrolyzer, Chemical Reactor, upgraded ore processing, full alloy and circuit production. What remains requires one more boss gate: the Twilight Lich commands the second major Twilight Forest structure and carries the Lich Trophy, which is woven into the HV Machine Hull recipe. Prepare your equipment and return to the forest."]
 			id: "5A5B0010CCDD0010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D4FA5B879D2748E3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "7A7B0010CCDD0001"
 				item: "lightmanscurrency:coin_gold"
@@ -1713,6 +2504,16 @@
 			description: ["The Twilight Lich commands a tall Lich Tower that generates in snow-covered forest clearings. Unlike the Naga, the Lich cannot be damaged until all four Lich Shields orbiting it are destroyed — strike the shields first while staying mobile to avoid the Lich's ranged attacks. After the shields break, the Lich enters aggressive phase and summons undead followers. The Lich Trophy it drops is required for the HV Machine Hull recipe alongside Stainless Steel. The Trophy cannot be substituted; there is no alternative source."]
 			id: "05A81A2DCDF86A9C"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2ED0AF8911D23BEA"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 6
 					id: "0E1EF9259E744055"
@@ -1741,6 +2542,16 @@
 			description: ["Stainless Steel is alloyed from Iron, Chrome, Nickel, and Manganese in the EBF. Chrome is produced by processing Chromite Ore through the Macerator to obtain Chromite Dust, then through the MV Electrolyzer to yield Chrome Ingots — the same pipeline introduced in the Kanthal Alloy chain. Nickel comes from Pentlandite ore; Manganese from Pyrolusite or as a processing byproduct. Your Kanthal Coils reach 2700K, comfortably above the Stainless Steel alloying range. Smelt at least 16 ingots — Stainless Steel is consumed by both the HV Hull and the Soul Forged Ingot recipe."]
 			id: "484E50B0B8072B04"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F0DDF115940AE8A8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 4
 					id: "0FF648C100D5D573"
@@ -1771,7 +2582,18 @@
 			]
 			description: ["The HV Machine Hull requires Stainless Steel Plates and a Twilight Lich Trophy in addition to the standard hull structure. The Trophy acts as a high-frequency resonance stabilizer embedded in the hull bus — without one, the hull cannot maintain medium-to-high voltage differential across the machine casing under load. Unlike the LV and MV hulls, the HV Hull is significantly more material-intensive; build your Stainless Steel reserves before starting the assembly line."]
 			id: "430AF7D410417947"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BF36DC50E5C5FCC1"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 6
 				id: "2269A5B5C778A29E"
 				item: "lightmanscurrency:coin_gold"
@@ -1792,7 +2614,18 @@
 			dependencies: ["430AF7D410417947"]
 			description: ["The HV Electric Motor is the core component of all HV machines. Its higher coil density and current rating enables the power draw that HV-tier multiblocks require. Build several before beginning the HV machine floor — the component cascade for a full HV suite is substantial. The HV Pump, HV Robot Arm, HV Conveyor, and HV Piston all share this motor as a base, and several are also required for the machines themselves as subcomponents."]
 			id: "7DB2759F155D5B2E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "262C28989240E51A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "23CAC9BB6F149F08"
 				item: "lightmanscurrency:coin_gold"
@@ -1812,7 +2645,18 @@
 			description: ["The HV Chemical Reactor handles chemistry at high voltage — faster cycle times, wider fluid input range, and access to reactions that lower-tier reactors cannot sustain thermally. At this tier it enables Platinum Group Metal separation, advanced polymer production, and Titanium Tetrachloride processing for refined Titanium output. Route your Sulfuric Acid, Hydrochloric Acid, and Sodium Persulfate production through HV reactors as soon as they are assembled; the throughput difference over MV is significant at the volumes HV demands."]
 			id: "28B695498231F9E9"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "122507567A1242EA"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "1B9A4AD9AAA4C2AC"
 				item: "lightmanscurrency:coin_gold"
@@ -1831,7 +2675,18 @@
 			dependencies: ["7DB2759F155D5B2E"]
 			description: ["The Arc Furnace smelts conductive metals using an electric arc rather than resistive heating — it processes Iron, Steel, and alloy scraps into high-quality ingots with zero fuel cost and no temperature ceiling. It is the primary source of Wrought Iron at HV volume, and also accepts salvaged machine components and ore dust that the EBF would waste. Build one immediately and route all metallic waste streams through it; the Arc Furnace is among the most EU-efficient machines in GTCEu when processing scrap."]
 			id: "6E9D450305DE647A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AC2101E32B41654B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "5E8B140A08049E8A"
 				item: "lightmanscurrency:coin_gold"
@@ -1854,6 +2709,16 @@
 			id: "73C93BDB40A672C2"
 			optional: true
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C96E8A32684A83A6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 5
 					id: "6C41E21EB9B3D679"
@@ -1888,6 +2753,16 @@
 			id: "5B0047A58D31D99C"
 			rewards: [
 				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "75B966D5F481CE39"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 					count: 4
 					id: "642395EF1C552CA1"
 					item: "lightmanscurrency:coin_gold"
@@ -1914,7 +2789,18 @@
 			dependencies: ["5B0047A58D31D99C"]
 			description: ["Titanium Plates are produced by running Titanium Ingots through the Bender. They are a structural requirement for the EV Machine Hull and for the ME Controller that gates Applied Energistics 2 digital storage. Begin converting all Titanium output to Plates immediately — the AE2 network is one of the most material-intensive constructions in the EV tier and Titanium Plates are consumed across its entire component chain. Produce a reserve of at least 32 before beginning EV machine construction."]
 			id: "78C758B8AD001E3A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1FD9966EFDFFDF92"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "34D96E155B3B2FB1"
 				item: "lightmanscurrency:coin_gold"
@@ -1935,6 +2821,16 @@
 			description: ["Soul Forged is the first alloy that cannot be explained by metallurgy alone. Spirit Iron Ingots from the Soul Land progression, Stainless Steel from the Electric Blast Furnace, and a Qi Crystal from your cultivation path are combined in a shaped crafting recipe — the crystal acts as a resonance anchor that aligns the metal's grain structure to soul power frequency. The resulting ingot is lighter than Steel and resonates with spirit energy, making it the ideal substrate for Mine & Slash Tier 3 gear at the M&S profession table. Every high-tier Soul Land equipment recipe from this point forward draws on it."]
 			id: "1135AE4ACDABB358"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BA7A67248A22B1A8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 6
 					id: "410B21E84B34A1CD"
@@ -1964,7 +2860,18 @@
 			dependencies: ["78C758B8AD001E3A"]
 			description: ["The Ur-Ghast is a massive flying creature that patrols the Dark Tower — a towering fortress found in the Dark Forest. It requires Ur-Ghast Tears (thrown by the boss mid-fight) to be redirected back at it for damage; conventional attacks do little until this mechanic is resolved. Its Trophy is required for the EV Machine Hull recipe, alongside Titanium Plates. Applied Energistics 2's ME Controller additionally requires Terrasteel Plates from the Botania endgame — two separate progression threads must converge at Extreme Voltage. Prepare for both."]
 			id: "5F36072A0F88C16F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9FBB552424B83FAC"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 10
 				id: "57BE5F7AC19F62B3"
 				item: "lightmanscurrency:coin_gold"

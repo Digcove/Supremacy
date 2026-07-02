@@ -630,7 +630,7 @@
 				}
 				{
 					id: "44C98A1EC1B45829"
-					item: "simplehats:toy_story_alien"
+					item: "lightmanscurrency:coin_diamond"
 					type: "item"
 				}
 			]
@@ -973,7 +973,7 @@
 				"&b+30% Spell Dodge Rating&r"
 				"&b+25% Elemental Resistance&r"
 			]
-			icon: "outer_end:ender_roots"
+			icon: "minecraft:chorus_plant"
 			id: "700E3C92E9C27B04"
 			rewards: [
 				{
@@ -1640,12 +1640,12 @@
 			]
 			description: ["Defeat all of the &eTwilight Forest&r bosses in the Epilogue to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:pog"
+			icon: "lightmanscurrency:coin_diamond"
 			id: "481C3C4D8D5AF5B8"
 			rewards: [
 				{
 					id: "6350309B873FAF80"
-					item: "simplehats:pog"
+					item: "lightmanscurrency:coin_diamond"
 					type: "item"
 				}
 				{

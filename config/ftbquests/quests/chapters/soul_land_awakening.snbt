@@ -12,7 +12,18 @@
 			can_repeat: true
 			description: ["Welcome to Craft to Exile: Soul Land. Open your Master Bag and take stock of what you carry. This world is governed by three intertwined forces — soul cultivation, industrial machinery, and magical power. Your journey begins here, on the ground, with nothing but your talent and your will. Press M at a Cultivation Altar when you are ready."]
 			id: "73CE4DB9AE29B81C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E6E306ABB53B3DFE"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1C05F8B03519C8D5"
 				item: "mmorpg:master_bag"
 				type: "item"
@@ -30,7 +41,18 @@
 			dependencies: ["73CE4DB9AE29B81C"]
 			description: ["Wood is the universal starting material. Collect enough logs to begin crafting Tinkers' Construct pattern blanks — the templates used to shape tool parts. Your first tools will be made from wood and stone, but the materials system that follows will take you far beyond vanilla crafting."]
 			id: "630F7B4B08640585"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "07D7A3BCB56525B4"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "50005F7839CFF23A"
 				item: "tconstruct:pattern"
@@ -57,7 +79,18 @@
 			dependencies: ["630F7B4B08640585"]
 			description: ["The Tinker's Workshop is your crafting foundation. The Tinker Station assembles tools from individually crafted parts; the Part Builder shapes raw materials into heads, handles, and bindings using pattern blanks; the Crafting Station connects to adjacent inventories for streamlined crafting. Build all three and keep them together — they work best as a set."]
 			id: "1319819B00FEA874"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C6C1F2B84629AE5"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "034C0FACB91219E3"
 				item: "tconstruct:tinkers_chest"
 				type: "item"
@@ -95,6 +128,16 @@
 			id: "78CD039E8C931F77"
 			rewards: [
 				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "43FB3A5A3D77FD49"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 					id: "30ABCAC7D205EE14"
 					item: {
 						Count: 1
@@ -131,7 +174,18 @@
 			dependencies: ["630F7B4B08640585"]
 			description: ["A bed sets your respawn point and skips the night, but in this world it also enables placing a Waystone. Waystones are teleportation anchors — place one at your base and activate others found in villages and structures across the continent. Fast travel becomes essential once your operations span multiple biomes."]
 			id: "019B7853C67C2A80"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A0EB2AFADE4A7A2F"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0323180557DB4507"
 				item: "waystones:waystone"
 				type: "item"
@@ -156,6 +210,16 @@
 			dependencies: ["019B7853C67C2A80"]
 			description: ["Your base is established and your spawn is set. This is where long-term operations begin — keep your base close to resources, rivers for water power, and open terrain for future factory expansion. Everything built from this point branches outward from here."]
 			id: "686C035EB5949EBA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "21CCB8FA6B53EE8B"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1ED8697BD4DB0AD0"
 				title: "Home Sweet Home"
@@ -169,7 +233,18 @@
 			dependencies: ["78CD039E8C931F77"]
 			description: ["Copper is found at mid-depths in quantity. Smelt it into ingots for early crafting and as a component in Create's Andesite Alloy. The Blast Furnace reward gives you a head start on smelting efficiency — place it early and use it to process copper, iron, and gold faster than a standard furnace."]
 			id: "7F3D68FF64242454"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3F98A4FBBCC977E9"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0C147A95EE364262"
 				item: "minecraft:blast_furnace"
 				type: "item"
@@ -188,7 +263,18 @@
 			dependencies: ["78CD039E8C931F77"]
 			description: ["Iron is the backbone of early production. Accumulate a substantial supply before committing to any large build — you will consume iron faster than expected once machines, armor, and crafting chains begin demanding it simultaneously. The Grout reward is your first step toward building a Tinkers' Smeltery."]
 			id: "6E317C68C5F44D16"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "089BD0F36A4829D3"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "5DC2B42B807A54B4"
 				item: "tconstruct:grout"
@@ -208,7 +294,18 @@
 			dependencies: ["78CD039E8C931F77"]
 			description: ["Spirit Iron Ore generates at iron depth and glows faintly blue-grey. Smelt it into Spirit Iron Ingots — the base material for all early Soul Land crafting, including the Forging Table and Spirit Iron armor. It also gates access to this pack's custom Nature's Compass recipe, modified to require Spirit Iron."]
 			id: "3C869BA745F7E08E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "405B367DB6F8762E"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2800EA26EB76E110"
 				item: "soulland:spirit_dew_root"
@@ -229,6 +326,16 @@
 			description: ["The Forging Table is the crafting station for all Soul Land items — hidden weapons, armor sets, herbs into pills, and spirit tools. Unlike a standard crafting table, it handles recipes unique to Soul Land's cultivation system. Keep it accessible; you will return to it throughout the entire modpack progression."]
 			id: "5E33BC8AED91B4B9"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "60A318CF7C925A61"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 8
 					id: "6F3102D3DC09B7EF"
@@ -261,6 +368,16 @@
 			dependencies: ["5E33BC8AED91B4B9"]
 			description: ["The Silent Sleeve Dart is the entry point of the Tang Sect's hidden weapon system — compact needles fired in rapid bursts from concealed wrist-mounted launchers. It requires minimal soul power to operate and can be used effectively from rank 1. Upgrade to higher-tier Tang Sect weapons as your cultivation advances."]
 			id: "203FAF595F10C378"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "46F2DB1E671CFE33"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2F94F60874EA36D3"
 				item: "soulland:silent_sleeve_dart"
@@ -274,6 +391,16 @@
 			dependencies: ["5E33BC8AED91B4B9"]
 			description: ["The Flying God Claw is a mid-tier Tang Sect hidden weapon — a retractable steel claw launched on a wire, capable of grappling targets, pulling items, and striking at range. It demands more soul power than the Sleeve Dart but delivers far greater versatility in combat."]
 			id: "3FF2BD148A95264A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6E12F930520B4B04"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6B325CCC9BCDA426"
 				item: "soulland:flying_god_claw"
@@ -287,7 +414,18 @@
 			dependencies: ["6E317C68C5F44D16"]
 			description: ["Mine & Slash uses a gear soul system to modify your equipment. Weapon stat souls are applied to weapons to set a primary damage stat — physical, elemental, or soul power scaling. Your first Common soul is the baseline; upgrade to higher rarity souls as you find them to dramatically increase your damage output."]
 			id: "1DDEDD7CE556B85B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2A9665424A97FB6A"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5274FD0BEC631175"
 				item: {
 					Count: 1
@@ -317,7 +455,18 @@
 			dependencies: ["1DDEDD7CE556B85B"]
 			description: ["Gear souls come in six rarities: Common, Uncommon, Rare, Epic, Legendary, and Mythic. Higher rarities provide stronger primary stats and more affix slots. Apply souls using the Mine & Slash gear crafting system — always apply to a freshly identified piece for maximum value. Orbs of Quality can raise a piece's base quality before soul application."]
 			id: "278B22017E0AF827"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "838E48A53FAE3C33"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "41BC10A45A3BF85F"
 				item: "mmorpg:currency/orb_of_quality"
 				type: "item"
@@ -335,7 +484,18 @@
 			dependencies: ["6E317C68C5F44D16"]
 			description: ["The Seared Melter and Seared Heater are the compact pre-smeltery alternative to the full Tinkers' Smeltery. The Heater provides heat; the Melter liquefies metals. Together they allow small-scale metal casting for tool parts without committing to the full smeltery multiblock. Build the full smeltery next."]
 			id: "44B79949D33B2037"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A87FE3E80724E167"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 32
 				id: "53E065CC7C802FE7"
 				item: "tconstruct:grout"
@@ -364,6 +524,16 @@
 			]
 			description: ["The Tang Sect's hidden weapons span 16 items across a full progression arc — from Sleeve Darts and Godly Zhuge Crossbows to legendary single-use weapons capable of killing beasts a hundred ranks above your own. Each weapon requires specific soul power thresholds. The full catalog is documented in the cultivation manual."]
 			id: "3BAA6E1DEABA9E59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "07A690986F2C739C"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "34547304255D421D"
 				title: "Hidden Weapons"
@@ -378,7 +548,18 @@
 			description: ["Iron armor is your baseline protection. It is not glamorous, but it keeps you alive while you build toward better options. In Mine & Slash, each armor piece should have a stat soul applied immediately — even a Common soul dramatically improves its defensive value. Choose a soul family based on your intended playstyle."]
 			id: "156AB72EA5D22CE1"
 			max_completable_dependents: 1
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "10C44A717365486D"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "38C664934970C600"
 				item: {
@@ -444,6 +625,16 @@
 			dependencies: ["156AB72EA5D22CE1"]
 			description: ["The Armor stat soul family specializes in raw physical defense — increased armor rating, damage reduction, and physical resistance. This is the path for frontline fighters who intend to stand toe-to-toe with spirit beasts. Stack armor souls across all four pieces for maximum protection before entering the Star Dou Forest."]
 			id: "5EA6CE3CAF012805"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4AA3E0ED646B2EA8"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "0CDFDE1FB085177A"
@@ -458,6 +649,16 @@
 			dependencies: ["156AB72EA5D22CE1"]
 			description: ["The Dodge stat soul family prioritizes evasion — increasing dodge chance and movement-based defense. Effective for builds that rely on avoiding hits entirely rather than absorbing them. Pairs well with Iron's Spells teleportation skills and Ghost Shadow Track technique from the Tang Sect."]
 			id: "0D3E53AB3D57B33D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D49DB76AB3CF7D4B"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "42F9682B477E7BFC"
@@ -472,6 +673,16 @@
 			dependencies: ["156AB72EA5D22CE1"]
 			description: ["The Magic Shield stat soul family converts defense into a mana-regenerating barrier that absorbs damage before your health pool is touched. Ideal for spellcasters and cultivators who maintain high mana reserves. Synergizes strongly with Botania Manasteel armor and Iron's Spells spellbooks."]
 			id: "5A145E90DB0BCF86"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2543029F26276FA7"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "22D03A989A4E3392"
@@ -487,6 +698,16 @@
 			description: ["The Smeltery is Tinkers' Construct's core multiblock — a hollow structure of Seared Bricks with a Controller, Drain, Basin, and Faucet. It liquefies metals by heat from a Seared Fuel Tank below, casting them into tools and parts via the Drain and Faucet system. Unlike the Melter, the Smeltery can alloy multiple metals simultaneously."]
 			id: "1743DDFA6AFDF584"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "421218734C226D8F"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
 				{
 					id: "4DB97DBC7BE791AE"
 					item: "tconstruct:seared_drain"
@@ -545,6 +766,16 @@
 			dependencies: ["1743DDFA6AFDF584"]
 			description: ["The Smeltery enables your first real ore processing chain. Ores placed inside melt directly into liquid metal, and most ore types yield 1.5x the metal output compared to direct smelting. This is the foundation of the ore processing chapter — the next step is Create's Crushing Wheels for full doubling."]
 			id: "3B495C6068F785CD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A18C3403522FE4BD"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "405B7B139AEC398C"
 				title: "Ore Processing"
@@ -563,6 +794,16 @@
 			dependency_requirement: "one_completed"
 			description: ["Mine & Slash's armor system gives you three defensive identity paths — raw mitigation, evasion, and magic barrier. Each piece of armor can be specialized independently, but a consistent path across all four slots is more effective than mixing. Revisit this choice when you reach Manasteel and Spirit Steel armor tiers; the path that works now may not be optimal later."]
 			id: "060FDDC6B781BC29"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AF7CC036A4250F15"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "232B0365AF511ECE"
 				title: "Armor in a Nutshell"
@@ -576,6 +817,16 @@
 			dependencies: ["3C869BA745F7E08E"]
 			description: ["Nature's Compass lets you search for any biome by name and points you toward the nearest one. Essential for locating rare biomes containing unique crops, Spirit Beasts, and Soul Land herbs. In this pack the recipe has been modified to require Spirit Iron Ingots — the continent's natural order rewards those who cultivate."]
 			id: "05350BD6B36C9089"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "92FD82FEA97390A0"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "64E5B40ADC34A0DA"
 				item: {
@@ -593,6 +844,16 @@
 			dependencies: ["05350BD6B36C9089"]
 			description: ["The continent holds dozens of distinct biomes — from scorching deserts to ancient mushroom islands. Each hosts unique herbs, mobs, and environmental resources. A cultivator who knows where to look is never short of ingredients. Use Nature's Compass to systematically visit every biome type as your needs evolve."]
 			id: "508CC7BBF4E68A41"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "001559DE98E5222D"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "66EDB7501BE74E3F"
 				title: "Oh the Biomes You'll See"
@@ -606,6 +867,16 @@
 			dependencies: ["7F3D68FF64242454"]
 			description: ["The Explorer's Compass points toward the nearest structure of any type you select. Use it to locate AE2 Meteorites for Inscriber Presses, dungeons for M&S loot, and Soul Land locations including the Shrek Academy. In this pack the recipe has been modified to use Copper Ingots instead of Cracked Stone Bricks."]
 			id: "14D59603427FE034"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DF42CEF4C43ED10B"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6ED340F9B6A316ED"
 				item: {
@@ -623,6 +894,16 @@
 			dependencies: ["14D59603427FE034"]
 			description: ["The continent is scattered with ancient ruins, academies, shrines, and dungeons — each with unique loot tables and hidden crafting materials. Many Mine & Slash gear pieces are dungeon-exclusive. Develop a habit of clearing structures you encounter; the rewards compound significantly over time."]
 			id: "3D0C96F7C0A0214F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0820B9F12C49DF86"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "54778716AF99C964"
 				title: "Structures"
@@ -636,7 +917,18 @@
 			dependencies: ["6E317C68C5F44D16"]
 			description: ["Andesite Alloy is Create's foundational component — crafted from Andesite and Iron Nuggets or Copper Nuggets. It is required for virtually every Create machine casing and structural part. Start producing it in bulk now; the Create chapter ahead demands it in quantity."]
 			id: "65567C3B9E419E59"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "695E5205C718D876"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "71C87C3EBA47A6D5"
 				item: "minecraft:andesite"
@@ -656,6 +948,16 @@
 			dependencies: ["65567C3B9E419E59"]
 			description: ["Create's kinetic power system is now open to you. Rotational force generated by Water Wheels and other sources is transmitted through Shafts and Cogwheels, then consumed by machines. See the Create chapter to build your first automated processing lines — starting with ore doubling via Crushing Wheels."]
 			id: "409F8A64CB4B184A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D4073F7B27B665BA"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "245FAF7B589D06C1"
 				title: "Create"
@@ -669,7 +971,18 @@
 			dependencies: ["73CE4DB9AE29B81C"]
 			description: ["Seeds from any plant are the start of a self-sustaining food supply. In this pack, Pam's HarvestCraft and Farmer's Delight expand the farming system dramatically — over 80 unique crops, dozens of cooking recipes, and food that provides lasting stat buffs. A reliable farm is a force multiplier for everything else you do."]
 			id: "3ABDA0A1EA25EB8F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2C7A0D0EB0F28705"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "5C777912ABADC84C"
 				item: "minecraft:apple"
@@ -695,6 +1008,16 @@
 			dependencies: ["3ABDA0A1EA25EB8F"]
 			description: ["Expanding your crop variety unlocks new Farmer's Delight cooking recipes and Mine & Slash alchemy ingredients. Prioritize crops that provide multiple outputs — many Pam's crops yield both a food item and a seed, enabling compact automated farms. See the Farming chapter for the full crop and cooking system breakdown."]
 			id: "453608F7110E1D8E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E780D2C235CB7065"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "585EE65C5B5CD726"
 				title: "I'm Growing Off"
@@ -708,7 +1031,18 @@
 			dependencies: ["73CE4DB9AE29B81C"]
 			description: ["Spirit Herbs grow in the Star Dou Great Forest and surrounding spirit-dense biomes. They are consumed by holding — each herb provides a pulse of cultivation experience, but diminishing returns kick in after three uses per herb type. Alchemy is required for efficient late-game cultivation speed; raw herb consumption alone will not carry you to the higher ranks."]
 			id: "3D2D38E41E9F7301"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2EF7FBA9E8072DD2"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6D78E71EF3665D24"
 				item: "soulland:soul_crystal"
 				type: "item"
@@ -727,7 +1061,18 @@
 			dependencies: ["78CD039E8C931F77"]
 			description: ["Mine & Slash jewelry occupies dedicated Curios ring and necklace slots, adding powerful passive bonuses entirely separate from your armor. Gold is an early crafting component for basic jewelry pieces. The Emerald Stoneplate Ring reward gives you a functional piece immediately — equip it and note how the stat contribution changes your effective power."]
 			id: "3160A49FB7E8CE2A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "190DEA20D72115D5"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "52CF16B4BC54BF61"
 				item: "irons_spellbooks:emerald_stoneplate_ring"
 				type: "item"
@@ -746,6 +1091,16 @@
 			dependencies: ["3160A49FB7E8CE2A"]
 			description: ["Jewelry is the most flexible stat system in Mine & Slash — rings and necklaces roll entirely separate affix pools from armor, allowing you to patch gaps in your build without replacing major gear pieces. Invest in salvaging unwanted pieces and rerolling for the affixes your build actually needs. See the Jewelry chapter for the full tier progression."]
 			id: "5FB4DAA4F0C4C446"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F97D4B53E97B5805"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1D403C3F2ABF9E2A"
 				title: "Professional Jewler"
@@ -762,7 +1117,18 @@
 			]
 			description: ["The Cultivation Altar is your meditation hub. Press M while standing at it to begin passive soul power accumulation. Meditation speed is influenced by your talent, local Qi density, and Foundation Stability. Herbs and pills improve these values. Place your altar in a high-Qi location — the Star Dou Forest edges have naturally elevated density — and return to it between expeditions."]
 			id: "022A0AD9DA7A55DE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D81BC304F54C17D4"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4D0746FE80531982"
 				type: "xp_levels"
 				xp_levels: 2
@@ -780,6 +1146,16 @@
 			dependencies: ["022A0AD9DA7A55DE"]
 			description: ["Your cultivation practice is established. The Soul Land Cultivation chapter continues from here — tracking your ring absorption, Botania mana infusion for Spirit Steel, and the full path through Spirit Scholar toward higher stages. The continent's power is vast; begin the climb."]
 			id: "33EAD812978BAB9C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "829D50A237FAF120"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "776D383466B88799"
 				title: "Soul Land Cultivation"
@@ -794,6 +1170,16 @@
 			description: ["Spirit Cloth is woven from spirit herb fibers at the Forging Table. It is the primary material for the Spirit Cloth armor set — a magic-focused early armor path suited to spellcasters and cultivators. Gather a substantial supply before crafting; a full set requires significant cloth to produce."]
 			id: "2F79165FD4DEF64F"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "575BAAA784FBEDD0"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 4
 					id: "3E47B45EA03D9D43"
@@ -821,7 +1207,18 @@
 			dependencies: ["2F79165FD4DEF64F"]
 			description: ["Spirit Cloth Armor provides moderate physical defense with a significant bonus to magic damage and mana regeneration. It is the preferred early armor for Iron's Spells casters, Botania mana users, and any build that relies on soul power throughput rather than raw physical durability. Apply Magic Shield stat souls to maximize the synergy."]
 			id: "4BCB50F8C52E2AFA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EF693A05DD4CCDC4"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "04CF97A61CAEBF3C"
 				item: "botania:fertilizer"
@@ -881,7 +1278,18 @@
 			dependencies: ["3C869BA745F7E08E"]
 			description: ["Qi Crystals are found as ore at diamond depth and are required across multiple Soul Land crafting chains. They also serve as catalyst components for Botania's mana infusion gate. Mine a substantial supply when you first reach diamond depth — demand only increases as your Soul Land progression advances."]
 			id: "4DED53395D239509"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "498D6EF31DFA5D7F"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "3052A0ADD1DCBBBD"
 				item: "soulland:soul_crystal"
@@ -905,7 +1313,18 @@
 			description: ["Shrek Academy is the most prestigious soul master institution on the continent — and the hardest armor set to earn at this stage. The full Shrek Academy set is reserved for those who have proven themselves through both spirit cultivation and material mastery. Wear it with the weight it deserves."]
 			hide_until_deps_complete: true
 			id: "5570A9272D0E0755"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C2B1699E7703FE24"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "15F0FA252067AF65"
 				item: "soulland:spirit_detector"
 				type: "item"
@@ -964,6 +1383,16 @@
 			dependencies: ["3ABDA0A1EA25EB8F"]
 			description: ["Mine & Slash's farming materials are gathered from crops and used in the Alchemy Station to brew potions. Tier 0 farming materials drop from common crops and are the entry point into M&S alchemy. Establish a diverse farm early — the alchemy system rewards variety in your crop selection."]
 			id: "3FD855E06C3AFFAC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A45CF67D69213C6"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "2EC8EEAA8CD52248"
@@ -978,7 +1407,18 @@
 			dependencies: ["3FD855E06C3AFFAC"]
 			description: ["The Mine & Slash Alchemy Station brews potions from farming materials, herbs, and reagents. Potions provide temporary combat buffs — health regeneration, stat boosts, elemental resistance — that compound significantly in difficult encounters. Leveling your Alchemy profession unlocks stronger recipes and improves brew success rates."]
 			id: "7F53568BFBE6E6A5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "99AA16FEDBB7DC58"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "651065F811BAA7EF"
 				item: {
@@ -1003,6 +1443,16 @@
 			dependencies: ["7F53568BFBE6E6A5"]
 			description: ["Three distinct alchemy systems exist in this pack — Mine & Slash potions, Soul Land pill crafting, and Blood Magic transmutation. Each serves a different role: M&S potions for combat buffs, Soul Land pills for cultivation acceleration, and Blood Magic for permanent power upgrades. See the Alchemy chapter for an overview of all three."]
 			id: "034EBAE02D0EEB63"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E72D1BC9C167247E"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5DDD7139B4418FED"
 				title: "Alchemy"

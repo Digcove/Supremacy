@@ -14,6 +14,16 @@
 			id: "56B697F3D73D8A5F"
 			shape: "hexagon"
 			size: 1.5d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E66FE74841B2526A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "32777659F80D9947"
 				item: "mysticalagriculture:inferium_essence"
@@ -26,6 +36,16 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			id: "01D112D51BBE3D90"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BC703BD2AB669956"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "744059287DDC2BA0"
 				item: "mysticalagriculture:prudentium_essence"
@@ -38,6 +58,16 @@
 			dependencies: ["01D112D51BBE3D90"]
 			id: "56B3C3437ED6767A"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "558B6A1C2F2D1C84"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4CA9BEBDC40F81BF"
 				item: "mysticalagriculture:tertium_essence"
@@ -50,6 +80,16 @@
 			dependencies: ["56B3C3437ED6767A"]
 			id: "2E2F3E90BB63363D"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E6B7B860E16DAE18"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "453C9BDF4AD7C6E4"
 				item: "mysticalagriculture:imperium_essence"
@@ -62,6 +102,16 @@
 			dependencies: ["2E2F3E90BB63363D"]
 			id: "6A564F02CB57A5F3"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "48219B2AB4771CDD"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "62711B45862321BF"
 				item: "mysticalagriculture:supremium_essence"
@@ -74,6 +124,16 @@
 			dependencies: ["6A564F02CB57A5F3"]
 			id: "60220FD4C658E3E1"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9A9E2EDB70BDE06E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "44C13285E4DC5777"
 				item: "mysticalagriculture:awakened_supremium_essence"
@@ -86,6 +146,16 @@
 			dependencies: ["60220FD4C658E3E1"]
 			id: "621667D1102BAA1D"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AE73BAEB788A48D9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1E1271E34AF4414C"
 				item: "mysticalagradditions:insanium_essence"
@@ -98,6 +168,16 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			hide_dependent_lines: true
 			id: "38351B708EBA5528"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9173E2D46D54484B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3CF3FAD2F6AEF981"
 				item: "mysticalagriculture:air_essence"
@@ -110,6 +190,16 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			hide_dependent_lines: true
 			id: "7A378D0908AE6744"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7B3FC0D2863E4003"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "05DE408F90E5074D"
 				item: "mysticalagriculture:earth_essence"
@@ -122,6 +212,16 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			hide_dependent_lines: true
 			id: "2A51036C7A74D5CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2A2A3920D0E93399"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B8D4C1EE0A6C08C"
 				item: "mysticalagriculture:water_essence"
@@ -134,6 +234,16 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			hide_dependent_lines: true
 			id: "26874A1DDDAF1CA3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5C6B220B49D17CAC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3B43C444CFC17A97"
 				item: "mysticalagriculture:fire_essence"
@@ -150,6 +260,16 @@
 			]
 			hide_dependent_lines: true
 			id: "1C7BB73E5BFEF10A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9C77CB943563F048"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0CF28CD96BFF7AD9"
 				item: "mysticalagriculture:stone_essence"
@@ -166,6 +286,16 @@
 			]
 			hide_dependent_lines: true
 			id: "7FA6CFD5AE681336"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6E4B7C7E973D02D2"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "639F3E8A8AFCB99B"
 				item: "mysticalagriculture:dirt_essence"
@@ -182,6 +312,16 @@
 			]
 			hide_dependent_lines: true
 			id: "3A57AB05C754EC43"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FFD7E8108B6D465F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "29AD050AD351DA52"
 				item: "mysticalagriculture:wood_essence"
@@ -196,6 +336,16 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "432D9C0395AD8945"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E04FE804D6ED019B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "055F312B931C9C21"
 				item: "mysticalagriculture:ice_essence"
@@ -211,6 +361,16 @@
 			]
 			hide_dependent_lines: true
 			id: "00E0A2A6ED4F8A2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FDBAD689BEFB07F7"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "40F9F27B65BA84BE"
 				item: "mysticalagriculture:coal_essence"
@@ -227,6 +387,16 @@
 			]
 			hide_dependent_lines: true
 			id: "433E31BBB73FE3A3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3AC6B665165C1821"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2204775C0735C28E"
 				item: "mysticalagriculture:dye_essence"
@@ -243,6 +413,16 @@
 			]
 			hide_dependent_lines: true
 			id: "7836ECD05F001FF0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7635670E8C894528"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6D0BF9159E2D99CC"
 				item: "mysticalagriculture:nature_essence"
@@ -255,6 +435,16 @@
 			dependencies: ["7836ECD05F001FF0"]
 			hide_dependent_lines: true
 			id: "3FFF83B44C77414A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DD99F4D8A8EFDE5D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "595FD27B43A3A68B"
 				item: "mysticalagriculture:life_essence"
@@ -271,6 +461,16 @@
 			]
 			hide_dependent_lines: true
 			id: "54FFE44A7DDD84AD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "24BAD56299C24A70"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B69251A302428F4"
 				item: "mysticalagriculture:iron_essence"
@@ -287,6 +487,16 @@
 			]
 			hide_dependent_lines: true
 			id: "56A10DA87155CD39"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "35C3AC28B43A2864"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "459A0A5388408057"
 				item: "mysticalagriculture:copper_essence"
@@ -302,6 +512,16 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "16B4E2C89C1470DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "80245CB8A78897B4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6BDE8C6935F82C0D"
 				item: "mysticalagriculture:tin_essence"
@@ -317,6 +537,16 @@
 			]
 			hide_dependent_lines: true
 			id: "1E1EF797DFA378A5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5039B066DD7842C4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "45CD6ED102CDE59C"
 				item: "mysticalagriculture:diamond_essence"
@@ -333,6 +563,16 @@
 			]
 			hide_dependent_lines: true
 			id: "1FCC274B027FD50D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DAB6AA1AEDFA77B3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5A0BF590770700A5"
 				item: "mysticalagriculture:nickel_essence"
@@ -349,6 +589,16 @@
 			]
 			hide_dependent_lines: true
 			id: "4AC5675A19FF8A18"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "03234E45A4DC0171"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6DD37BDCA64317AF"
 				item: "mysticalagriculture:lead_essence"
@@ -364,6 +614,16 @@
 				"433E31BBB73FE3A3"
 			]
 			id: "50AA52F2FFD414D3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4EF8671B94C888A9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4F2E94499CF37A73"
 				item: "mysticalagriculture:glowstone_essence"
@@ -380,6 +640,16 @@
 			]
 			hide_dependent_lines: true
 			id: "01A1A684A06400DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A3FB500BF929C9D3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1B764A91362F2B8A"
 				item: "mysticalagriculture:sulfur_essence"
@@ -395,6 +665,16 @@
 				"433E31BBB73FE3A3"
 			]
 			id: "1C8DAB37D3B1ADD9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E7A50EC21B583CC1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "209ABB37121E9FAE"
 				item: "mysticalagriculture:redstone_essence"
@@ -410,6 +690,16 @@
 				"433E31BBB73FE3A3"
 			]
 			id: "41ED6D8F4CBABB03"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "35F877F7C542764F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5CD8F0CA5413C9CC"
 				item: "mysticalagriculture:lapis_lazuli_essence"
@@ -426,6 +716,16 @@
 			]
 			hide_dependent_lines: true
 			id: "5CBCC150F84FDE88"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F1EF4F1380EC889B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0A72517D7C97EA60"
 				item: "mysticalagriculture:nether_quartz_essence"
@@ -442,6 +742,16 @@
 			]
 			hide_dependent_lines: true
 			id: "7C550C34DDFDD746"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D3AE3CADAE4999F8"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3F4850C3934E7BA9"
 				item: "mysticalagriculture:amethyst_essence"
@@ -457,6 +767,16 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "3630E2354CAE560D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "85BCE626192CC97D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "60738317E94091F9"
 				item: "mysticalagriculture:gold_essence"
@@ -472,6 +792,16 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "600C68A6B3860141"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E6C47B5992136E83"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4300B816CADDF331"
 				item: "mysticalagriculture:zinc_essence"
@@ -483,6 +813,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "7EBC869AEE92E452"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "463800499C3D6AC0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "04BE308A0F79E1BC"
 				item: "mysticalagriculture:enderman_essence"
@@ -494,6 +834,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "32391FA217887AC5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1FC649B0524E4B8D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "14DF274B1B60B51B"
 				item: "mysticalagriculture:slime_essence"
@@ -505,6 +855,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "78ADC2FA4F532A03"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AA2B6D1D1242445A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5FDF4F059EBE4584"
 				item: "mysticalagriculture:prismarine_essence"
@@ -516,6 +876,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "5182004E4AA2B1C3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D97DC1779674B845"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "50C8F284DC829F99"
 				item: "mysticalagriculture:blaze_essence"
@@ -527,6 +897,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "7BECB788CE6A488A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1753194492CED6AC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6E407E0625E12591"
 				item: "mysticalagriculture:blizz_essence"
@@ -538,6 +918,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "541316BA2C4F2013"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9C7A5C36DF3A0158"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "721726CB70371113"
 				item: "mysticalagriculture:blitz_essence"
@@ -549,6 +939,16 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "1C69FFC21B256DEE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "743DC2AA69677C93"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0B14D4E603ADC125"
 				item: "mysticalagriculture:basalz_essence"
@@ -564,6 +964,16 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "35C7A94BECD94748"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0F4D6127CA8C3019"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1E1BAB766F2389E5"
 				item: "mysticalagriculture:emerald_essence"
@@ -580,6 +990,16 @@
 			]
 			hide_dependent_lines: true
 			id: "571124D1AC5B3986"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8E56784DCD7E7892"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "43FE7A54FD176262"
 				item: "mysticalagriculture:certus_quartz_essence"
@@ -596,6 +1016,16 @@
 			]
 			hide_dependent_lines: true
 			id: "7BB1DEFF61304927"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "01C9A66000F28C46"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6002788DCB63311A"
 				item: "mysticalagriculture:ruby_essence"
@@ -610,6 +1040,16 @@
 				"1C7BB73E5BFEF10A"
 			]
 			id: "45A308BB4D520292"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "17C2104332BCC618"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "32357DDCB4EC55E4"
 				item: "mysticalagriculture:saltpeter_essence"
@@ -625,6 +1065,16 @@
 			]
 			hide_dependent_lines: true
 			id: "102CF32B6FB093BA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A689E4F10BD3A53B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1B6ED1626CA0762F"
 				item: "mysticalagriculture:salts_essence"
@@ -641,6 +1091,16 @@
 			]
 			hide_dependent_lines: true
 			id: "2B7C5B2F9E98F1A0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "EEEA3E6AE906160C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "77DFCDDE63E6E483"
 				item: "mysticalagriculture:garnet_essence"
@@ -657,6 +1117,16 @@
 			]
 			hide_dependent_lines: true
 			id: "51BA5B19B455D233"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BFF000C7B8692195"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "440F6F84DEA4A1E2"
 				item: "mysticalagriculture:apatite_essence"
@@ -668,6 +1138,16 @@
 		{
 			dependencies: ["5E7D047B235A9B34"]
 			id: "08BBF8D7FDF00425"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3479BACD0FFA3C6B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "157A91D5A20E7689"
 				item: "mysticalagriculture:sapphire_essence"
@@ -684,6 +1164,16 @@
 			]
 			hide_dependent_lines: true
 			id: "2422A707D07866EB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C1E5D10F388C6BDA"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "73976D38F83F59D1"
 				item: "mysticalagriculture:topaz_essence"
@@ -698,6 +1188,16 @@
 				"5CBCC150F84FDE88"
 			]
 			id: "58E25CA6B70548D2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B4F29B7516471888"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0928A5E9DA18BBA6"
 				item: "mysticalagriculture:realgar_essence"
@@ -712,6 +1212,16 @@
 				"5E7D047B235A9B34"
 			]
 			id: "3F96EFD86E1A78A1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9F5B57903E913B78"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "64BDEEC874F611AC"
 				item: "mysticalagriculture:lepidolite_essence"
@@ -727,6 +1237,16 @@
 				"1C7BB73E5BFEF10A"
 			]
 			id: "0BD41DC3D4D5F5BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CB0610E1CCB5823E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7FA96A7205995F4F"
 				item: "mysticalagriculture:cobaltite_essence"
@@ -738,6 +1258,16 @@
 		{
 			dependencies: ["51BA5B19B455D233"]
 			id: "5E63356573257FCC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FFC8CBBF55031D11"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "474698D48C94D134"
 				item: "mysticalagriculture:monazite_essence"
@@ -754,6 +1284,16 @@
 			]
 			hide_dependent_lines: true
 			id: "5C70FDF9640E2376"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E62D217AE7696A30"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5DBCB633EA640CC7"
 				item: "mysticalagriculture:antimony_essence"
@@ -770,6 +1310,16 @@
 			]
 			hide_dependent_lines: true
 			id: "5E7D047B235A9B34"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F7B33FDA86A6254C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "23F7C73104893557"
 				item: "mysticalagriculture:aluminum_essence"
@@ -785,6 +1335,16 @@
 				"5CBCC150F84FDE88"
 			]
 			id: "2C20C34FF81539D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3505D0FE001613C1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "45F86473229717BB"
 				item: "mysticalagriculture:uranium_essence"
@@ -796,6 +1356,16 @@
 		{
 			dependencies: ["7BB1DEFF61304927"]
 			id: "3E5C9F9CCECB2AEC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B73FEA214505B61F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7D73D5E731844711"
 				item: "mysticalagriculture:chrome_essence"
@@ -811,6 +1381,16 @@
 				"571124D1AC5B3986"
 			]
 			id: "5E2337F0467FC00C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AA7AED27DC4E8213"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7E642788B6BBECC7"
 				item: "mysticalagriculture:molybdenum_essence"
@@ -822,6 +1402,16 @@
 		{
 			dependencies: ["2142753CCA47D3DE"]
 			id: "07895E684C78C55B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3CAE8BAB91675F07"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1A695EF5615A29D3"
 				item: "mysticalagriculture:tantalum_essence"
@@ -834,6 +1424,16 @@
 			dependencies: ["2B7C5B2F9E98F1A0"]
 			hide_dependent_lines: true
 			id: "2142753CCA47D3DE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6C300C91F5E3350C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "05D065A64C168AD4"
 				item: "mysticalagriculture:manganese_essence"
@@ -849,6 +1449,16 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "4EC15C3BFF40C196"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6BC7E9D84B63FF60"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3877E4E8C2637E81"
 				item: "mysticalagriculture:platinum_essence"
@@ -864,6 +1474,16 @@
 				"5E7D047B235A9B34"
 			]
 			id: "310C3E32A4D433F6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F19E0090F45C20E9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B345D8F6591B271"
 				item: "mysticalagriculture:titanium_essence"
@@ -879,6 +1499,16 @@
 				"7A378D0908AE6744"
 			]
 			id: "5352BCC9385B3CF8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "63A1E9CC260AB8B3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "21D2F5F121AFED50"
 				item: "mysticalagriculture:caesium_essence"
@@ -894,6 +1524,16 @@
 				"7A378D0908AE6744"
 			]
 			id: "6ED859669AA81C44"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7C474AD19D641FF3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7C966C7DE5B6834E"
 				item: "mysticalagriculture:cerium_essence"
@@ -905,6 +1545,16 @@
 		{
 			dependencies: ["56A10DA87155CD39"]
 			id: "13776F374B1DE1F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2B7E75929A5E1C4B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6AD2DDADFA205964"
 				item: "mysticalagriculture:chalcopyrite_essence"
@@ -920,6 +1570,16 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "611127A958068922"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A38BCD857D156BE6"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3406B372B2703506"
 				item: "mysticalagriculture:niobium_essence"
@@ -932,6 +1592,16 @@
 			dependencies: ["6823588331374DE5"]
 			hide_dependent_lines: true
 			id: "4E577EF028A1E249"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "26A08319DC56F033"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7F47A1FAA7CC3529"
 				item: "mysticalagriculture:tungsten_essence"
@@ -948,6 +1618,16 @@
 			]
 			hide_dependent_lines: true
 			id: "6823588331374DE5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "52267EEC5738DEFD"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "62142F7F9BCD9D6D"
 				item: "mysticalagriculture:barium_essence"
@@ -959,6 +1639,16 @@
 		{
 			dependencies: ["4E577EF028A1E249"]
 			id: "68C8A39BA0B446E2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CA74660B294B53E0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "77ED869B2A235A79"
 				item: "mysticalagriculture:naquadah_essence"
@@ -974,6 +1664,16 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "3833C5B31BFDB229"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AC294D0044444211"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4348BA4C0FEDA479"
 				item: "mysticalagriculture:silver_essence"
@@ -990,6 +1690,16 @@
 			icon: "gtceu:12_crown_4_li_bucket"
 			id: "113753237D12FA9E"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BEDEE8F783E60ACE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "30138EDA3C6FE9B3"
@@ -1014,6 +1724,16 @@
 			icon: "gtceu:15_crown_5_na_bucket"
 			id: "5BA4AA05957C3680"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "427BCA32771A2B98"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "318CC75FFEEE528F"
@@ -1038,6 +1758,16 @@
 			icon: "gtceu:18_crown_6_k_bucket"
 			id: "0305CA2E461A29ED"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "749111634F652A1F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "00E6FA8B41200FA2"
@@ -1061,6 +1791,16 @@
 			]
 			icon: "gtceu:12_crown_4_bucket"
 			id: "6A23EECC4324E1BE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3C04F96BF25757CA"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0B6D2540F53713E5"
@@ -1084,6 +1824,16 @@
 			]
 			icon: "gtceu:15_crown_5_bucket"
 			id: "52B4ECEDABA275E0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FD0BA0A87CDC2B4A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4AFEA8AC008A1AFD"
@@ -1108,6 +1858,16 @@
 			]
 			icon: "gtceu:18_crown_6_bucket"
 			id: "1BE177A3432F9704"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0CE7DCAA0B3CBF5F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "1B4778C80E9F9878"
@@ -1129,6 +1889,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "47E764421365FF63"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "ECF428B33F5E6A4F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0E90B5A1E37E63B8"
 				item: "gtceu:lithium_perchlorate_dust"
@@ -1142,6 +1912,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "6D9D31BEE724E7F2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7E03E1EC792B56FA"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "340CD89384FEFC65"
 				item: "gtceu:sodium_perchlorate_dust"
@@ -1152,6 +1932,16 @@
 		}
 		{
 			id: "7FB28453EDD67A57"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1B40A1B71B7017D9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3F05D9BAAAF99E5C"
 				item: "gtceu:sodium_chlorate_dust"
@@ -1164,6 +1954,16 @@
 			dependencies: ["6F8B3F5A095B6D14"]
 			icon: "gtceu:triethylene_glycol_bucket"
 			id: "08F1A4DF159D7563"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "280F7DCC42FDBFB4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "68A26B9D231E9B2D"
@@ -1184,6 +1984,16 @@
 			dependencies: ["6F8B3F5A095B6D14"]
 			icon: "gtceu:diethylene_glycol_bucket"
 			id: "391A6DC2A90E21CB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4156162CA565589B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "642BC1768FE93CA0"
@@ -1204,6 +2014,16 @@
 			dependencies: ["6F8B3F5A095B6D14"]
 			icon: "gtceu:ethylene_glycol_bucket"
 			id: "02547CEE379118F3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C2F9E38B6624C87C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "235D598914EE8CFA"
@@ -1223,6 +2043,16 @@
 		{
 			icon: "gtceu:ethylene_oxide_bucket"
 			id: "6F8B3F5A095B6D14"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C17D60580F9ECCA9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0FECC619EB444387"
@@ -1246,6 +2076,16 @@
 			]
 			icon: "gtceu:triglycol_dichloride_bucket"
 			id: "051E1163B3261E41"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3328D3AEDA669CC7"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "392237AF8F56116D"
@@ -1266,6 +2106,16 @@
 			dependencies: ["57250D0E817C7623"]
 			icon: "gtceu:sulfuryl_chloride_bucket"
 			id: "73944C662B4246A0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C99AD1D0EA8E3BA3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0D5205DEB891B798"
@@ -1285,6 +2135,16 @@
 		{
 			icon: "gtceu:sulfur_dichloride_bucket"
 			id: "57250D0E817C7623"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C3FCA4DF7253CCEF"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6D761274B55A8662"
@@ -1304,6 +2164,16 @@
 		{
 			icon: "gtceu:thionyl_chloride_bucket"
 			id: "3C7187BEE1CC9304"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "040FA820436EA8DC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "3894238C15DA8510"
@@ -1323,6 +2193,16 @@
 		{
 			icon: "gtceu:toluene_bucket"
 			id: "76C7FC7DBA21211F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "EB1EA2F754AE72E9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4E8490312406ED92"
@@ -1345,6 +2225,16 @@
 				"76C7FC7DBA21211F"
 			]
 			id: "6EA22AC48FB83D9C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "94D69F83948C78E1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "21D31E3F93DF1B8A"
 				item: "gtceu:4_toluenesulfonyl_chloride_dust"
@@ -1355,6 +2245,16 @@
 		}
 		{
 			id: "70848C5FEC0ACB9D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4AECEE617E2760A0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "754818491B920EBC"
 				item: "gtceu:potassium_hydroxide_dust"
@@ -1370,6 +2270,16 @@
 				"70848C5FEC0ACB9D"
 			]
 			id: "416320F7D1F89FBD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C6D67D3FDC27FD4C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7BB84490824D9B4E"
 				item: "gtceu:triethylene_glycol_ditosylate_dust"
@@ -1380,6 +2290,16 @@
 		}
 		{
 			id: "14835CC7EAFEFD41"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4CC18AB937ABC931"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1B402ADF8044031A"
 				item: "gtceu:soda_ash_dust"
@@ -1390,6 +2310,16 @@
 		}
 		{
 			id: "4D227ECFC561C524"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1F99FEB2DB154E43"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "192B54291580D38E"
 				item: "gtceu:sodium_azide_dust"
@@ -1404,6 +2334,16 @@
 				"416320F7D1F89FBD"
 			]
 			id: "1FBBE8D45D0A6105"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "74F6FE62C0669344"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5086AFE05586457E"
 				item: "gtceu:triethylene_glycol_diazide_dust"
@@ -1415,6 +2355,16 @@
 		{
 			dependencies: ["1FBBE8D45D0A6105"]
 			id: "778F89C997467DEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CF1360C6AC15F639"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "70B30D3659836548"
 				item: "gtceu:triethylene_glycol_diamine_dust"
@@ -1431,6 +2381,16 @@
 			]
 			icon: "gtceu:cryptand_bucket"
 			id: "6248DA726DD737E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0432B1F5AB9C5BB3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "14E37DD56C9480D2"
@@ -1455,6 +2415,16 @@
 			icon: "gtceu:cryptand_li_bucket"
 			id: "5CD6970DA4F94C3B"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9FB212D4483FB91E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5BCF019BE4A97B03"
@@ -1479,6 +2449,16 @@
 			icon: "gtceu:cryptand_na_bucket"
 			id: "4DD1697CC78CC83C"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "394292F7E1FBACE9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "6583FF1119FE6457"
@@ -1503,6 +2483,16 @@
 			icon: "gtceu:cryptand_k_bucket"
 			id: "182B1B1A1DFEF069"
 			shape: "hexagon"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C37F69D099BD18C3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "0597F4E0A3FECE31"
@@ -1524,6 +2514,16 @@
 			hide_dependency_lines: true
 			id: "6AC8588F6172617D"
 			shape: "rsquare"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1D4AB7FA1E393063"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "68B5895A6BDED2A3"
 				item: "gtceu:essence_replicator"
@@ -1536,6 +2536,16 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			id: "63A83F8EC256BE94"
 			shape: "rsquare"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "50B35B80BA0DC865"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "655D07B2EB92E5C3"
 				item: "gtceu:essence_enchancer"
@@ -1547,6 +2557,16 @@
 		{
 			id: "39189DA37201FB2D"
 			shape: "rsquare"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "521923C591D4DD28"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B6AA0A208BA5F87"
 				item: {
@@ -1599,6 +2619,16 @@
 		{
 			id: "1DEE4153C7FBD7AC"
 			shape: "rsquare"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F76801125B73284F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5399FC263D894E2B"
 				item: {
@@ -1651,6 +2681,16 @@
 		{
 			hide_dependent_lines: true
 			id: "09B67D709C612B3A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2C6E3B1E2E39681E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1F272826D7253CCA"
 				item: "gtceu:rock_salt_dust"
@@ -1667,6 +2707,16 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.mystical_agriculture_gregified.ma_chem_looping.description}"]
 			id: "31FE488A7302A0D2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "554883F4167EF18F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "39AAE923E4183A6D"
 				title: "{ftbquests.mystical_agriculture_gregified.ma_chem_looping.title}"

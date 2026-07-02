@@ -76,7 +76,18 @@
 				}
 			}
 			id: "493DD013C818BB7B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A23740C3854398D3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "10AE2BAE3BCD94E8"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -98,7 +109,18 @@
 			dependencies: ["37E3EF96EDE85C86"]
 			description: ["{ftbquests.abydos.zalloy_ingot.description}"]
 			id: "6110BA7B3E84F06F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C96444F095732B2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "61B75FB189A66E73"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -118,7 +140,18 @@
 			]
 			description: ["{ftbquests.abydos.cyclonic_sifter.description}"]
 			id: "1A8F645AC1B30411"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B19A15BF2901477B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "38FD7FEB9F6C65C7"
 				item: "lightmanscurrency:coin_emerald"
@@ -149,7 +182,18 @@
 			]
 			description: ["{ftbquests.abydos.folding_akreyrium_stabiliser.description}"]
 			id: "5368269646BC0F27"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA77F90A03A7BF7E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3E1E31EFB499CF8F"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -168,7 +212,18 @@
 			hide_dependent_lines: true
 			id: "7F203254ACDF8C88"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F1EEFDD9DAF1441A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "47DA1B2270F7BF54"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -198,7 +253,18 @@
 				tag: { }
 			}
 			id: "07AD6651D0B40E22"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "89CB95315033B3AF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "467B4390B3548719"
 				item: "lightmanscurrency:coin_emerald"
@@ -226,19 +292,25 @@
 			dependencies: ["305974D431F17AF0"]
 			description: ["{ftbquests.abydos.bacterial_breeding_vat.description}"]
 			id: "6356F875511B2610"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7647B791A621E5EB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6115048882C1189D"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "42579027C8356E2E"
-				item: {
-					Count: 1
-					id: "start_core:bacterial_breeding_vat"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -10.5d
 			y: 4.5d
@@ -247,19 +319,25 @@
 			dependencies: ["305974D431F17AF0"]
 			description: ["{ftbquests.abydos.bacterial_hydrocarbon_harvester.description}"]
 			id: "47DF7968E9B98C65"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "862E18EF856919A0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "217E675CB4B89D49"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "5705C4E3BE1D26CE"
-				item: {
-					Count: 1
-					id: "start_core:bacterial_hydrocarbon_harvester"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -8.5d
 			y: 2.5d
@@ -273,7 +351,18 @@
 			]
 			description: ["{ftbquests.abydos.bacterial_runic_mutator.description}"]
 			id: "7F72F9E28713D965"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A647F207DCEDE896"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "3870418467E509D5"
 				item: "lightmanscurrency:coin_emerald"
@@ -283,12 +372,7 @@
 			size: 1.25d
 			tasks: [{
 				id: "4109922C155C43A3"
-				item: {
-					Count: 1
-					id: "start_core:bacterial_runic_mutator"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -10.5d
 			y: 0.5d
@@ -297,7 +381,18 @@
 			dependencies: ["493DD013C818BB7B"]
 			description: ["{ftbquests.abydos.temples.description}"]
 			id: "3479CEBD73550718"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "83EAC94DE3F9A651"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7FC500BE090ABC2E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -316,19 +411,25 @@
 			dependencies: ["3479CEBD73550718"]
 			description: ["{ftbquests.abydos.bacteria_dormant.description}"]
 			id: "6F05FAE3F5AAC357"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7C7AFFB02BD1821E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1C5C5256EB429800"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "784D51942B0F18A9"
-				item: {
-					Count: 1
-					id: "start_core:bacteria_dormant"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.abydos.bacteria_dormant.title}"
 			x: -10.5d
@@ -338,7 +439,18 @@
 			dependencies: ["7F72F9E28713D965"]
 			description: ["{ftbquests.abydos.bacteria.description}"]
 			id: "305974D431F17AF0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2A0F15645DB81D25"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0707F4889D91098E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -346,33 +458,27 @@
 			tasks: [
 				{
 					id: "21B1C33C08178D65"
-					item: "start_core:bacteria_fermentibacter_solvatis"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "6F2EB0EEC6256F1C"
-					item: "start_core:bacteria_xylotoxibacter_aromatica"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "674EE248B4B9A218"
-					item: "start_core:bacteria_petrospirillum_solvans"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "5ECE2F30A417B923"
-					item: "start_core:bacteria_octanivorax_sorbitolens"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "71CAFC4BC40B1A39"
-					item: "start_core:bacteria_bituminimonas_combustilis"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "6FCAD2C5B48E566B"
-					item: "start_core:bacteria_carbanogasibacter_volatilis"
-					type: "item"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.abydos.bacteria.title}"
@@ -387,7 +493,18 @@
 			]
 			description: ["{ftbquests.abydos.ancient_runicalium_ingot.description}"]
 			id: "30C974448C57F0EC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "69C60117315EC867"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "470268845820F4F7"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -404,7 +521,18 @@
 			dependencies: ["30C974448C57F0EC"]
 			description: ["{ftbquests.abydos.ancient_runicalium_wire.description}"]
 			id: "1C0B16612DBBE8CA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CE5A8DA9678CBB05"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7EE50E0E44FBAE00"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -425,7 +553,18 @@
 			]
 			description: ["{ftbquests.abydos.uhv_auxiliary_boosted_fusion_reactor.description}"]
 			id: "6C8C6EA426060065"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "002C5132C969AAC6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "640F8E7170910B63"
 				item: "lightmanscurrency:coin_emerald"
@@ -435,12 +574,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "70C8CC3BD58DC9B4"
-				item: {
-					Count: 1
-					id: "start_core:uhv_fusion_reactor"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 5.5d
 			y: 6.5d
@@ -452,7 +586,18 @@
 			]
 			description: ["{ftbquests.abydos.exotic_gas_siphon.description}"]
 			id: "2659B3AA9108BC43"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8EB5BCCE53D1722D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "518D145AEA79CC76"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -471,7 +616,18 @@
 			description: ["{ftbquests.abydos.ethylbenzene.description}"]
 			id: "2F91771A1872EB4E"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9530C32A7E56A324"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4EC2838A7C2560F4"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -494,19 +650,25 @@
 			description: ["{ftbquests.abydos.data_dna_disk.description}"]
 			hide_dependent_lines: true
 			id: "43DAD4B63603BFC3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AE8DB1857BDA27A6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2D07335EE60C7099"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "5A91EE93457C617E"
-				item: {
-					Count: 1
-					id: "start_core:data_dna_disk"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: -1.5d
@@ -519,7 +681,18 @@
 			]
 			description: ["{ftbquests.abydos.zalloy_coil.description}"]
 			id: "4D04123F036F181E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "959F951C31DD5AC6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "4A07C2A5CDF57C6D"
 				item: "lightmanscurrency:coin_emerald"
@@ -544,7 +717,18 @@
 			description: ["{ftbquests.abydos.uepic_chip.description}"]
 			hide_dependent_lines: true
 			id: "7AC55BA8BDD0F3D2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E88D68AB1B15152B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7B8476986ACF57ED"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -575,7 +759,18 @@
 				tag: { }
 			}
 			id: "179A15014A5716B5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "92CA6096A3508FC7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "51E73ECB550953E2"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -605,15 +800,25 @@
 			description: ["{ftbquests.abydos.nanofluidic_heat_sink.description}"]
 			id: "6E40FC247C876DB2"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4CFE20B7E12E54AC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "65AEC5164B11BDB1"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "1C83A6D338CC1AF6"
-				item: "start_core:hpca_nanofluidic_heat_sink_component"
-				type: "item"
+				type: "checkmark"
 			}]
 			title: "{ftbquests.abydos.nanofluidic_heat_sink.title}"
 			x: 9.5d
@@ -623,6 +828,16 @@
 			id: "39E723ECCBEE0A0A"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F76F0238751D9F89"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6A826ED481004E31"
 				title: "{ftbquests.positioner.title}"
@@ -635,7 +850,18 @@
 			dependencies: ["25583D0BF59E1BC8"]
 			description: ["{ftbquests.abydos.uhv_parallel_hatch.description}"]
 			id: "320ADA7E07856560"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "26DF16E5EBD061BD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1D899BA83FEBF385"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -643,8 +869,7 @@
 			subtitle: "{ftbquests.abydos.uhv_parallel_hatch.subtitle}"
 			tasks: [{
 				id: "03A50D522C002B0C"
-				item: "start_core:uhv_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 3.5d
 			y: 4.5d
@@ -656,7 +881,18 @@
 			]
 			description: ["{ftbquests.abydos.uhv_absolute_parallel_hatch.description}"]
 			id: "230A202BB7D02C1A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C633C98A077C3475"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "70C56357C02E5DF6"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -664,8 +900,7 @@
 			subtitle: "{ftbquests.abydos.uhv_absolute_parallel_hatch.subtitle}"
 			tasks: [{
 				id: "59E8F04BD1D95FD9"
-				item: "start_core:uhv_absolute_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 3.5d
 			y: 6.5d
@@ -675,6 +910,16 @@
 			description: ["{ftbquests.abydos.magma_processing.description}"]
 			icon: "gtceu:abydos_reactive_dense_magma_bucket"
 			id: "5BD0047E69D79476"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B5E61477E6AD1108"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "630CDF3A4731333F"
 				title: "{ftbquests.abydos.magma_processing.title}"
@@ -687,7 +932,18 @@
 			dependencies: ["07AD6651D0B40E22"]
 			description: ["{ftbquests.abydos.bulk_ore_processing_array.description}"]
 			id: "13118B7518370623"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C0ED2F9E84FA2922"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F1C87DDDBE0917F"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -704,6 +960,16 @@
 			dependencies: ["652809D17FCE8B11"]
 			description: ["{ftbquests.abydos.ruined_components.description}"]
 			id: "077F46BD75F325FD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E1813986288FB350"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "588B98BE82BB689C"
@@ -754,6 +1020,16 @@
 			dependencies: ["652809D17FCE8B11"]
 			description: ["{ftbquests.abydos.abydos_talisman.description}"]
 			id: "7FBEF894C1FC4CCF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "91152FDB02CA3482"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "16690ECAFD8AF4A4"
 				item: "kubejs:abydos_talisman"
@@ -766,7 +1042,18 @@
 			dependencies: ["493DD013C818BB7B"]
 			icon: "sgjourney:sandstone_cartouche"
 			id: "652809D17FCE8B11"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "86A47DD08F0995DD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "52951CF3514E9D61"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -785,6 +1072,16 @@
 			dependencies: ["678B90BF2ACE2BBA"]
 			description: ["{ftbquests.abydos.abydos_alloys.description}"]
 			id: "3BFB8DA58BED12D1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "ACF30A1DCDE63624"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "120E7C97781B59E9"
@@ -810,6 +1107,16 @@
 			shape: "gear"
 			size: 1.25d
 			subtitle: "{ftbquests.abydos.runic_processor_mainframe.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DF4C707450F88BF8"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0F71C952D6EC490A"
 				item: "kubejs:runic_processor_mainframe"
@@ -822,6 +1129,16 @@
 			dependencies: ["4F994F04EF1710B9"]
 			id: "67E52B5738FC7398"
 			subtitle: "{ftbquests.abydos.runic_processor_computer.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "ADDEFA8B51959065"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0AB6135CF248B2E9"
 				item: "kubejs:runic_processor_computer"
@@ -837,6 +1154,16 @@
 			]
 			id: "4F994F04EF1710B9"
 			subtitle: "{ftbquests.abydos.runic_processor_assembly.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "61333BD38631CB58"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6D1079B819FF51A6"
 				item: "kubejs:runic_processor_assembly"
@@ -848,6 +1175,16 @@
 		{
 			dependencies: ["6D573ACD05D0EF96"]
 			id: "5022ABEA367576E7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0DB39142C9AA3DE3"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "507020635FBF83C5"
@@ -868,7 +1205,18 @@
 			description: ["{ftbquests.abydos.neutronium_silicon_carbide_ingot.description}"]
 			hide_dependency_lines: true
 			id: "06BE744AEAA6C217"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C75B7A325804636"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "21070641AEDDEF98"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -888,7 +1236,18 @@
 			]
 			description: ["{ftbquests.abydos.zirconium_ingot.description}"]
 			id: "3C99D83398AFC31C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "37C3479973646880"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6A32F9EDDCD8304C"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -911,6 +1270,16 @@
 			id: "5DF4501BD2593465"
 			shape: "gear"
 			size: 1.5d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5E6BEE69A2D1E488"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "19FB82BBC41F8724"
 				item: "gtceu:component_nexus"
@@ -924,6 +1293,16 @@
 			description: ["{ftbquests.abydos.uhv_stabilization_module.description}"]
 			hide_dependent_lines: true
 			id: "6CB6343BFD09B5C0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "80E349A9FBC9CCFD"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4E67D31B875E1C4F"
 				item: "gtceu:uhv_stabilization_module"
@@ -936,15 +1315,25 @@
 			dependencies: ["07AD6651D0B40E22"]
 			description: ["{ftbquests.abydos.oneiric_relay.description}"]
 			id: "0DFAD40205E5D899"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "16C147694411C353"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6C05E0C359C06382"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
 			tasks: [{
 				id: "18B2CAF419FA5670"
-				item: "start_core:oneiric_relay"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: 2.5d
@@ -953,6 +1342,16 @@
 			dependencies: ["5ED2EA63EE112E24"]
 			id: "1341EFC24A45EFF8"
 			subtitle: "{ftbquests.abydos.runic_processor.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CAE9778B0BCD4328"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "279F6BE7CBC5E784"
 				item: "kubejs:runic_processor"
@@ -964,6 +1363,16 @@
 		{
 			dependencies: ["5022ABEA367576E7"]
 			id: "5ED2EA63EE112E24"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3A950DDB75EBF053"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5F7D932EF545205D"
 				item: "kubejs:runic_convergence_processing_unit"
@@ -976,7 +1385,18 @@
 			dependencies: ["01AF9486EA6DA792"]
 			description: ["{ftbquests.abydos.wetware_circuit_board.description}"]
 			id: "68F878EC21CA1749"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "20E8330BFE398C26"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "04BE1D70705BBCD1"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1008,7 +1428,18 @@
 			]
 			description: ["{ftbquests.abydos.neuro_processing_unit.description}"]
 			id: "18D5591BF53AD07F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1117099639B236D8"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5B036F742F1DFE1B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1026,7 +1457,18 @@
 		{
 			dependencies: ["18D5591BF53AD07F"]
 			id: "0962C36622E385B8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4470BB5824F4A9CF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "66EF264D559B0F0C"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1045,7 +1487,18 @@
 			dependencies: ["01AF9486EA6DA792"]
 			description: ["{ftbquests.abydos.stem_cells.description}"]
 			id: "3EEEC61CEE1B6BB2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "240A9982A8519DD3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F2F729A716E6C0C"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1065,7 +1518,18 @@
 				"675054125531A098"
 			]
 			id: "4C5DBB94345FF33B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DF78397A771CA254"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "00D79CF33F2FE5BC"
 				item: "lightmanscurrency:coin_emerald"
@@ -1084,7 +1548,18 @@
 		{
 			dependencies: ["0962C36622E385B8"]
 			id: "1F79E45EF7810DFF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5A3105D5F0FEBD94"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "070FCC1D05DF6950"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1103,7 +1578,18 @@
 			dependencies: ["2911EC7333E0E9C5"]
 			description: ["{ftbquests.abydos.darmstadtium_ingot.description}"]
 			id: "27C0ED4305E84D21"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F7D3CED15D03F13B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2CB2FD24D7187D27"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1123,7 +1609,18 @@
 			description: ["{ftbquests.abydos.uv_machine_hull.description}"]
 			hide_dependency_lines: true
 			id: "3F4C068368F97580"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3763DE85A3A95622"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "16A9EF2CDC5E6B40"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1145,7 +1642,18 @@
 			]
 			description: ["{ftbquests.abydos.tritanium_ingot.description}"]
 			id: "6131A76D203DE6AB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2C110E91E84D8847"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5DE37EDA23E177D0"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1167,7 +1675,18 @@
 			description: ["{ftbquests.abydos.americium_ingot.description}"]
 			hide_dependent_lines: true
 			id: "70AA84848FB2A9BB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F6AC479D9B643233"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0ECD4E21E5FD1EDA"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1188,7 +1707,18 @@
 			]
 			description: ["{ftbquests.abydos.uv_energy_input_hatch.description}"]
 			id: "0B7A0924AFE58559"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6F43E3BDA46B9D85"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6B95CCF09AF3CE9A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1209,7 +1739,18 @@
 			]
 			description: ["{ftbquests.abydos.tritanium_coil.description}"]
 			id: "678B90BF2ACE2BBA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3B12621286C0C831"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "21006EDC281083B3"
 				item: "lightmanscurrency:coin_emerald"
@@ -1229,7 +1770,18 @@
 			dependencies: ["0B7A0924AFE58559"]
 			description: ["{ftbquests.abydos.uv_energy_input_hatch_4a.description}"]
 			id: "155947C2913FFA42"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "62CF496C689FCEAF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6C1602A5958BA368"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1247,7 +1799,18 @@
 			dependencies: ["155947C2913FFA42"]
 			description: ["{ftbquests.abydos.uv_energy_input_hatch_16a.description}"]
 			id: "1B4B0A67B86B7D58"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "95153289B7745713"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "676897D5A44043C4"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1266,7 +1829,18 @@
 			description: ["{ftbquests.abydos.enriched_naquadah_trinium_europium_duranide_ingot.description}"]
 			hide_dependent_lines: true
 			id: "02606EBF230281A3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D4DFD7DD9A12B9A3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6C2453AE007BCC77"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1284,7 +1858,18 @@
 			dependencies: ["6131A76D203DE6AB"]
 			description: ["{ftbquests.abydos.sterilizing_filter_casing.description}"]
 			id: "6CC13BE9AD447218"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BB753D81F7B7B9F7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2850DA80D961611B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1307,7 +1892,18 @@
 			]
 			description: ["{ftbquests.abydos.data_module.description}"]
 			id: "7C182C34888AF189"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "605EE6B9CD5CDE52"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "06C89564F1B6E33A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1328,6 +1924,16 @@
 			dependencies: ["7C182C34888AF189"]
 			description: ["{ftbquests.abydos.advanced_synthesis_plant.description}"]
 			id: "53B8A2EFCF2D4371"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "459D430DBB37282D"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6A01A251A9C02550"
 				item: "gtceu:advanced_synthesis_plant"
@@ -1340,7 +1946,18 @@
 			dependencies: ["4C5DBB94345FF33B"]
 			description: ["{ftbquests.abydos.wetware_processor_mainframe.description}"]
 			id: "707C2E9BA62A60C5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8EF19B9BC678920A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "6B546AB752B83ABC"
 				item: "lightmanscurrency:coin_emerald"
@@ -1364,7 +1981,18 @@
 			]
 			description: ["{ftbquests.abydos.uv_fusion_reactor.description}"]
 			id: "314B6ABE72E4A438"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8C20211FFEB72A01"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "6B0A97854CBB59A1"
 				item: "lightmanscurrency:coin_emerald"
@@ -1374,7 +2002,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "63A31B4C5E81DA04"
-				item: "start_core:uv_fusion_reactor"
+				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1384,7 +2012,18 @@
 			dependencies: ["314B6ABE72E4A438"]
 			description: ["{ftbquests.abydos.neutronium.description}"]
 			id: "5BDA17962F4630EB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8C6C1F0679CB9A9E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "1E040F3B6F4948C9"
 				item: "lightmanscurrency:coin_emerald"
@@ -1404,7 +2043,18 @@
 			dependencies: ["5BDA17962F4630EB"]
 			description: ["{ftbquests.abydos.ruthenium_trinium_americium_neutronate_ingot.description}"]
 			id: "3ECCE739DE8F5F2C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "89A2486768219BA3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3DA5E57A968DB4AE"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1421,7 +2071,18 @@
 			dependencies: ["5BDA17962F4630EB"]
 			description: ["{ftbquests.abydos.uhv_machine_hull.description}"]
 			id: "5C39B74171CC21F9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C81FC68E49E53FCB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0183789A1E5AA702"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1441,7 +2102,18 @@
 			]
 			description: ["{ftbquests.abydos.uhv_energy_input_hatch.description}"]
 			id: "11D51899B980082B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C5CE5B4AAB7DC113"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2E474FF058F620B3"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1461,7 +2133,18 @@
 			]
 			description: ["{ftbquests.abydos.uhv_energy_input_hatch_4a.description}"]
 			id: "44B43694312BAAC8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "06740D347526A55B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "439C3636390FF949"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1478,7 +2161,18 @@
 			dependencies: ["44B43694312BAAC8"]
 			description: ["{ftbquests.abydos.uhv_energy_input_hatch_16a.description}"]
 			id: "581B9922CC4B457F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7343EE362FEA9BB3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "354EE1013EA404DB"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1495,7 +2189,18 @@
 			dependencies: ["7FFCAD92772A175F"]
 			description: ["{ftbquests.abydos.uv_parallel_hatch.description}"]
 			id: "27E656FA93E2A1F4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1F5381A3CECEFF91"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2FC0A2A1510D510B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1513,7 +2218,18 @@
 			dependencies: ["1AC8CBF01196D1F3"]
 			description: ["{ftbquests.abydos.highly_advanced_soc_wafer.description}"]
 			id: "3FE0B664F2D15942"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "89CB8FD3BF6D8C01"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "01E1C3C603E976E8"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1538,7 +2254,18 @@
 			dependencies: ["0F7A1EA1AB52F795"]
 			description: ["{ftbquests.abydos.neutronium_wafer.description}"]
 			id: "1AC8CBF01196D1F3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81DAFB0691EA1F55"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7E64A0FD0377ABAC"
 				item: "lightmanscurrency:coin_emerald"
@@ -1558,7 +2285,18 @@
 			dependencies: ["5BDA17962F4630EB"]
 			description: ["{ftbquests.abydos.neutronium_boule.description}"]
 			id: "0F7A1EA1AB52F795"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "50C827CBA6FA4F72"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "42D6FB3B7E75DE20"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1580,7 +2318,18 @@
 			]
 			hide_dependent_lines: true
 			id: "52B553FDB34B1475"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2D353B1486EE6811"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0A7609C4179CF5A2"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1608,7 +2357,18 @@
 			]
 			description: ["{ftbquests.abydos.stellarium_ingot.description}"]
 			id: "253AECE450920D99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "97F7ADB54E50E08B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "70C887ECBA6B4542"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1625,7 +2385,18 @@
 			dependencies: ["253AECE450920D99"]
 			description: ["{ftbquests.abydos.stellarium_wire.description}"]
 			id: "55102B0E5D0238E1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CED480AF260ED98C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "664E3AF7B9872F12"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1642,7 +2413,18 @@
 			dependencies: ["5BDA17962F4630EB"]
 			description: ["{ftbquests.abydos.gravi_star.description}"]
 			id: "7FFCAD92772A175F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E836F3AAB9EB5EA9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "41645C4A24DF3CD2"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1660,7 +2442,18 @@
 			description: ["{ftbquests.abydos.mega_blast_furnace.description}"]
 			id: "2EE4C6540FE3D4CF"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "02AF8BF96C5CD812"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "173AE84D06BE0BF0"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1678,7 +2471,18 @@
 			dependencies: ["141911C5DD68CD2A"]
 			description: ["{ftbquests.abydos.wireless_covers_hatches.description}"]
 			id: "659690E81B3E3AE7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FD50C350ABA381AA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "00C995FE80302AE3"
 				item: "lightmanscurrency:coin_emerald"
@@ -1693,26 +2497,6 @@
 					id: "itemfilters:or"
 					tag: {
 						items: [
-							{
-								Count: 1b
-								id: "start_core:uv_2a_dream_link_cover_item"
-							}
-							{
-								Count: 1b
-								id: "start_core:uv_2a_dream_link_energy_hatch"
-							}
-							{
-								Count: 1b
-								id: "start_core:uv_4a_dream_link_energy_hatch"
-							}
-							{
-								Count: 1b
-								id: "start_core:uv_16a_dream_link_energy_hatch"
-							}
-							{
-								Count: 1b
-								id: "start_core:uv_64a_dream_link_energy_hatch"
-							}
 						]
 					}
 				}
@@ -1732,7 +2516,18 @@
 			]
 			description: ["{ftbquests.abydos.wireless_energy.description}"]
 			id: "141911C5DD68CD2A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B99E058523ABADCF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "73B232401A84DDAC"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1740,14 +2535,12 @@
 			tasks: [
 				{
 					id: "66552A0737028183"
-					item: "start_core:dream_link_node"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "317B167D4342C13D"
-					item: "start_core:lucinducer"
-					optional_task: true
-					type: "item"
+										optional_task: true
+					type: "checkmark"
 				}
 			]
 			x: -8.5d
@@ -1761,7 +2554,18 @@
 			]
 			description: ["{ftbquests.abydos.chemical_plant.description}"]
 			id: "3E1CA9FFB9953F42"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4D6F75964C232E6B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "73B25BCF5A2F61C1"
 				item: "lightmanscurrency:coin_emerald"
@@ -1785,7 +2589,18 @@
 			]
 			description: ["{ftbquests.abydos.cleaning_maintenance_hatch.description}"]
 			id: "3391903EBBB3F308"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FB5B292AD427B621"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5CAB5DD7B5EE938D"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1802,6 +2617,16 @@
 		{
 			dependencies: ["3C99D83398AFC31C"]
 			id: "17946D19C10BFC9E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9368F436E3BDF38B"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2C684CE4A875B86F"
 				item: "kubejs:complex_reflector_casing"
@@ -1815,6 +2640,16 @@
 			description: ["{ftbquests.abydos.compact_assembly_line.description}"]
 			hide_dependent_lines: true
 			id: "57E4168A83E31D62"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E98F4E6BAE3A4A99"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5F12190454CE37FD"
 				item: "gtceu:compact_assembly_line"
@@ -1829,6 +2664,16 @@
 				"7FFCAD92772A175F"
 			]
 			id: "49F5F88C69586F13"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "48D727C33668D739"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "03C541ABB9EC8ED5"
 				item: "kubejs:reinforced_reflector_casing"
@@ -1840,6 +2685,16 @@
 		{
 			dependencies: ["31EADD276ECB7B25"]
 			id: "675054125531A098"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9DA144E040B8FB5D"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4CF7493CA8AE5F9E"
@@ -1877,7 +2732,18 @@
 			]
 			description: ["{ftbquests.abydos.network_switch.description}"]
 			id: "0687F0D2A9EC1AA4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2647851BE2129AAF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2B66FA09A1766701"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -1895,6 +2761,16 @@
 			dependencies: ["6131A76D203DE6AB"]
 			hide_dependent_lines: true
 			id: "3F3553DE7A3D87C6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "03A78F0D8AB63051"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "13519271FAA54271"
 				item: "gtceu:tritan_steel_ingot"
@@ -1907,6 +2783,16 @@
 			dependencies: ["4D04123F036F181E"]
 			hide_dependency_lines: true
 			id: "139F1EF64FA349B1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A495858B5F4B7668"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0BD9F34CD9894B76"
 				item: "gtceu:cerium_tritelluride_ingot"
@@ -1918,10 +2804,19 @@
 		{
 			dependencies: ["07AD6651D0B40E22"]
 			id: "6B814FF7184A941B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F08AE354F38AF282"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "71A56DBBC9CD4496"
-				item: "start_core:hpca_optimized_computation_component"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 6.5d

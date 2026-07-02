@@ -41,7 +41,18 @@
 			]
 			description: ["{ftbquests.asg.runic_casings.description}"]
 			id: "379D69A44FC5B2F2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8043271C8754F6D7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "06D88EE9C7DC14A5"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -84,7 +95,18 @@
 			]
 			description: ["{ftbquests.asg.runic_inscribe_manipulate.description}"]
 			id: "2C354B0735DF8023"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F5E82D1529457440"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "36EA64F5267C4268"
 				item: "lightmanscurrency:coin_emerald"
@@ -112,7 +134,18 @@
 			description: ["{ftbquests.asg.inscribe_casing.description}"]
 			hide_dependency_lines: true
 			id: "624480A1E62B52EF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "50B22752AEC5712F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "78DFAFA748001157"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -130,7 +163,18 @@
 			dependencies: ["2F26A144D29B00A5"]
 			description: ["{ftbquests.asg.nether_armor.description}"]
 			id: "59B0F5DB2C1E96DC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3B61791EC68D430E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "25BD037BA00CCCA2"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -192,7 +236,18 @@
 			description: ["{ftbquests.asg.naquadah_armor.description}"]
 			hide_dependency_lines: true
 			id: "2F26A144D29B00A5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "009B965A693C6D25"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "37B8E6AFBC5B75E9"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -256,7 +311,18 @@
 			description: ["{ftbquests.asg.super_pressure_heat_chamber.description}"]
 			hide_dependent_lines: true
 			id: "59711F987DE95924"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6479936C4AD4A4A6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1B33E52F7FEAD5E8"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -275,7 +341,18 @@
 			dependencies: ["239A0034C8425661"]
 			description: ["{ftbquests.asg.raw_void_ingot.description}"]
 			id: "0889A97E22C484CC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BE1E9E19D87676F6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "515734ACECDB08A0"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -296,7 +373,18 @@
 			]
 			description: ["{ftbquests.asg.void_ingot.description}"]
 			id: "7A5734E3CF682EBA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "58032017E5C151BD"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "45A0DE263D7BBCA1"
 				item: "lightmanscurrency:coin_emerald"
@@ -321,7 +409,18 @@
 				tag: { }
 			}
 			id: "239A0034C8425661"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AF01A72DE37C2E61"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3F68400BC1C19CFF"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -347,7 +446,18 @@
 			dependencies: ["3479CEBD73550718"]
 			description: ["{ftbquests.asg.runic_tablet_fragments.description}"]
 			id: "5744150A5658FE4D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E0AE2F0DC3783194"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "615C650D39461500"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -393,7 +503,18 @@
 			dependencies: ["5744150A5658FE4D"]
 			description: ["{ftbquests.asg.runic_tablet_complete.description}"]
 			id: "146F88E5C1119649"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5432C386B6A1C309"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2DDF7ACB3920B1DA"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -415,6 +536,16 @@
 			]
 			description: ["{ftbquests.asg.abyssal_stargate_rod.description}"]
 			id: "1C352799FF32D6FA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4339639A69557281"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "20798D7A59C71F69"
 				item: "kubejs:abyssally_reforged_stargate_rod"
@@ -431,6 +562,16 @@
 			]
 			description: ["{ftbquests.asg.infernal_stargate_rod.description}"]
 			id: "1D917722EDB1F267"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6C9BA1A1BD39ABFB"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7FBEA25DF7CFCF47"
 				item: "kubejs:infernally_reforged_stargate_rod"
@@ -446,6 +587,16 @@
 			]
 			description: ["{ftbquests.asg.awakened_infernal_stargate_rod.description}"]
 			id: "58DCDBC6EE97CA5E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E316F48458E8F220"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3BB30603567E2CD9"
 				item: "kubejs:awakened_inferno_stargate_rod"
@@ -461,6 +612,16 @@
 			]
 			description: ["{ftbquests.asg.awakened_abyssal_stargate_rod.description}"]
 			id: "42EA4F227DC6D1DE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D45A26D74B3F73C2"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1638DACF125E8A7D"
 				item: "kubejs:awakened_abyss_stargate_rod"
@@ -477,6 +638,16 @@
 			description: ["{ftbquests.asg.stargate_rod_base.description}"]
 			hide_dependent_lines: true
 			id: "40D758F7F13C6959"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2069CF0D9B8801D9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "25A8D50B91F2DE33"
 				item: "kubejs:asg_stargate_rod_base"
@@ -491,6 +662,16 @@
 			id: "40BD5304492E6177"
 			shape: "gear"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "23F613F9D2F1B7EB"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0E2A710666D4A4B8"
 				item: "kubejs:abyss_fragment"
@@ -505,6 +686,16 @@
 			id: "073B57C15F3BFCFD"
 			shape: "gear"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9521CF0F83CBA1F0"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0D95E4ED4397A0AB"
 				item: "kubejs:inferno_fragment"
@@ -517,6 +708,16 @@
 			dependencies: ["073B57C15F3BFCFD"]
 			description: ["{ftbquests.asg.helish_core.description}"]
 			id: "4869BB9EE1BCDDDB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9DEC5A0BC8207D30"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5A1A22D143C4FF22"
 				item: "kubejs:helish_core"
@@ -529,6 +730,16 @@
 			dependencies: ["40BD5304492E6177"]
 			description: ["{ftbquests.asg.voidic_core.description}"]
 			id: "250A0858E6E14F2A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8DBB562FA260168E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "78551DE22E97A8EB"
 				item: "kubejs:voidic_core"
@@ -547,6 +758,16 @@
 			id: "3CB8D2D72137848F"
 			shape: "gear"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B653479BEDADEABE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6574F021B3A031D6"
 				item: "kubejs:draconic_core"
@@ -559,6 +780,16 @@
 			dependencies: ["43DAD4B63603BFC3"]
 			id: "1086D88615F8AB90"
 			shape: "gear"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "861D8601A94B3CC4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7DE9755716893BE3"
 				item: "kubejs:nether_coordinate_crystal"
@@ -576,6 +807,16 @@
 			id: "2635B921AA9053D0"
 			shape: "octagon"
 			size: 1.1d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BD8D91069B9C6131"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "79AD8F0BAF8E67CE"
 				item: {
@@ -658,6 +899,16 @@
 			]
 			description: ["{ftbquests.asg.field_stabiliser.description}"]
 			id: "5FC1A69559B6FEB5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0E89038B0612599D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6CAC683C98A0C372"
 				item: "kubejs:asg_field_stabiliser"
@@ -673,6 +924,16 @@
 			]
 			description: ["{ftbquests.asg.energy_modulator.description}"]
 			id: "1AA53815B9903975"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5E2BF39A5B8398E2"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3C53287B0E1F663A"
 				item: "kubejs:asg_energy_modulator"
@@ -685,6 +946,16 @@
 			dependencies: ["7BBD4C912E080813"]
 			description: ["{ftbquests.asg.stellar_dialer.description}"]
 			id: "36079E557301733E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "EFFE07C599C9ECB6"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "27B8D2818B602819"
 				item: "kubejs:asg_stellar_dialer"
@@ -697,6 +968,16 @@
 			dependencies: ["3104E8ABA3C4FC66"]
 			description: ["{ftbquests.asg.dpu.description}"]
 			id: "4C954542DB739F5E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4DFADE6EC2EF2D36"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "48AD35DB585E8C5A"
@@ -719,6 +1000,16 @@
 			]
 			description: ["{ftbquests.asg.enscription_plate.description}"]
 			id: "3104E8ABA3C4FC66"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "344B29E483389BBE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3437233A70862CD4"
 				item: "kubejs:asg_enscription_plate"
@@ -731,6 +1022,16 @@
 			dependencies: ["4C954542DB739F5E"]
 			description: ["{ftbquests.asg.computational_matrix.description}"]
 			id: "7BBD4C912E080813"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "82D30529F9477B89"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4B3CEE27A234D7A1"
 				item: "kubejs:asg_computational_matrix"
@@ -744,6 +1045,16 @@
 			description: ["{ftbquests.asg.stellar_access_point.description}"]
 			hide_dependent_lines: true
 			id: "330F222D8230852A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AB8FC57D3E71FC79"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5968EDC2650BB594"
 				item: "kubejs:asg_stellar_access_point"
@@ -761,6 +1072,16 @@
 			description: ["{ftbquests.asg.chevron.description}"]
 			hide_dependency_lines: true
 			id: "21E115DFA9F2E14A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3EC9C57B1A115C07"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1EEE4AF432C6CC7D"
 				item: "kubejs:asg_chevron"
@@ -778,6 +1099,16 @@
 			description: ["{ftbquests.asg.dimensional_supercomputer.description}"]
 			hide_dependency_lines: true
 			id: "101A7D0F395C7642"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7580B4BF572F6542"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "56C943645A4672C2"
 				item: "kubejs:asg_dimensional_supercomputer"
@@ -791,6 +1122,16 @@
 			description: ["{ftbquests.asg.reinforced_plating.description}"]
 			hide_dependent_lines: true
 			id: "6E5A8D4641052624"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CB8F77FDEDA175CB"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "549AD495E867E153"
 				item: "kubejs:asg_reinforced_plating"
@@ -807,7 +1148,18 @@
 			]
 			description: ["{ftbquests.asg.ancient_stargate_ring_block.description}"]
 			id: "5DADD2204991B4D5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E6A072C316198929"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0C6EE8224B97BBA5"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -834,7 +1186,18 @@
 			]
 			description: ["{ftbquests.asg.ancient_stargate_base_block.description}"]
 			id: "6F9793149DE81FCC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "655430C129C150B7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5A3140CEAF2772E4"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -872,7 +1235,18 @@
 				}
 			}
 			id: "5E7153B7A10FC241"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0FFC7705610A7C8D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2D4B9720F64C104A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -899,7 +1273,18 @@
 			]
 			description: ["{ftbquests.asg.ancient_stargate_chevron_block.description}"]
 			id: "63E36421AE07BC42"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "67B3DFA33AB979A4"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1E1781F6129AF097"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -922,6 +1307,16 @@
 			dependencies: ["3104E8ABA3C4FC66"]
 			description: ["{ftbquests.asg.runic_plating.description}"]
 			id: "3C09E77C352B2A11"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "82EA84AF869C13EE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "1FA0387EA541AEB9"
@@ -953,6 +1348,16 @@
 			description: ["{ftbquests.asg.stellarized_weapon_grade_naquadah.description}"]
 			hide_dependent_lines: true
 			id: "0A242E67024A0A0B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "602C823413845B4D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "21EDCA5D2FF30644"
 				item: "gtceu:stellarized_weapon_grade_naquadah_ingot"
@@ -965,6 +1370,16 @@
 			dependencies: ["5C4FE0E51C67FDFA"]
 			description: ["{ftbquests.asg.akreyriadic_runixium_gem.description}"]
 			id: "4B0DA4EB357663F7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E370B83F27DC478D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2E12F375D370D520"
 				item: "gtceu:exquisite_akreyriadic_runixium_gem"
@@ -977,6 +1392,16 @@
 			dependencies: ["07AD6651D0B40E22"]
 			description: ["{ftbquests.asg.akreyriadic_runixium_dust.description}"]
 			id: "5C4FE0E51C67FDFA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0F8F8FD4E567D4F6"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1FFC87A96FC735E0"
 				item: "gtceu:akreyriadic_runixium_dust"
@@ -989,6 +1414,16 @@
 			id: "408FF495F331D86B"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A3CEB0AB140C0DBC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3A2B0003E5046083"
 				title: "{ftbquests.positioner.title}"

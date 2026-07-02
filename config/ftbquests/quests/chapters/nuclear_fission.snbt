@@ -84,7 +84,18 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "0819D5AEBF7441FF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A4A0166EA030187F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "37809005A5A3D89D"
 				item: "lightmanscurrency:coin_netherite"
@@ -107,7 +118,18 @@
 			dependencies: ["68262B77F9E063B0"]
 			dependency_requirement: "one_completed"
 			id: "0D6B1EF3F5E9D399"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "791ADA7F36A68E2F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "017BA6D7626280CD"
 				item: "lightmanscurrency:coin_netherite"
@@ -130,6 +152,16 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.pl_nuc.fuel_rods.description}"]
 			id: "7375D44BBE2E3BF1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DAC0DD6BD4EA53EA"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4A358818F51E440D"
 				item: "kubejs:thr_fuel_rod"
@@ -142,6 +174,16 @@
 			dependencies: ["206859C2B2272102"]
 			dependency_requirement: "one_completed"
 			id: "002E548F34346407"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7DCE4B7B7D9ADAF7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "55B3A192521DFB5C"
 				item: "kubejs:leu238_fuel_rod"
@@ -154,6 +196,16 @@
 			dependencies: ["5E894DC47896785B"]
 			dependency_requirement: "one_completed"
 			id: "1727CF56FFE635BE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9CF1F0D18EFF9E7E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "52B53088269D0BE9"
 				item: "kubejs:heu_fuel_rod"
@@ -165,6 +217,16 @@
 		{
 			dependencies: ["002E548F34346407"]
 			id: "54ACB70AC1F38F77"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "19A2F5BD5FFEEEDA"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7BCD028D4C86EF2C"
 				item: "gtceu:plutonium_244_dust"
@@ -176,6 +238,16 @@
 		{
 			dependencies: ["002E548F34346407"]
 			id: "2A070F5D1D7CEAE1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "99568E2A6DE9DF5A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3B543C4241A6E8D3"
 				item: "gtceu:neptunium_dust"
@@ -188,6 +260,16 @@
 			dependencies: ["54ACB70AC1F38F77"]
 			dependency_requirement: "one_completed"
 			id: "68262B77F9E063B0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "ECF199EB0B28A1F8"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2529CE14F6FB0E22"
 				item: "kubejs:plu_fuel_rod"
@@ -204,6 +286,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "775D74B68C7354E3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B9DC85B58AE10828"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "184D416EA0F989C8"
 				item: "kubejs:nep_fuel_rod"
@@ -218,6 +310,16 @@
 				"7965F4C1213E5133"
 			]
 			id: "7C0A16CAC3CE5BF9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "73A7DD4D3E8DA4C9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "54C065C2FC52D928"
 				item: "gtceu:americium_241_dust"
@@ -232,6 +334,16 @@
 				"2F8062042B23DA26"
 			]
 			id: "3A26F6A55E70941D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8815D2B0338CA7C6"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "49D1E8D85974E598"
 				item: "gtceu:plutonium_238_dust"
@@ -244,6 +356,16 @@
 			dependencies: ["7C0A16CAC3CE5BF9"]
 			dependency_requirement: "one_completed"
 			id: "2F8062042B23DA26"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FF0679EF752CC1CF"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1DFBEDB6F1F79FEC"
 				item: "kubejs:amr_fuel_rod"
@@ -260,6 +382,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "7965F4C1213E5133"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A0F1CD5F1114BF9C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "02CAE195295B1E9B"
 				item: "kubejs:mox239_fuel_rod"
@@ -271,6 +403,16 @@
 		{
 			dependencies: ["2F8062042B23DA26"]
 			id: "51407C04C67959D1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "412A901011ADF232"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "67184AF94C49B329"
 				item: "gtceu:curium_244_dust"
@@ -283,6 +425,16 @@
 			dependencies: ["51407C04C67959D1"]
 			dependency_requirement: "one_completed"
 			id: "0F5B28674794C1DA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1F4F95BCC8B3BBE4"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "76052E44E896B8D8"
 				item: "kubejs:crm_fuel_rod"
@@ -294,6 +446,16 @@
 		{
 			dependencies: ["0F5B28674794C1DA"]
 			id: "5FEE56EB46508554"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2D13281151942CD9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5BAA92C1F3A7FB6B"
 				item: "gtceu:californium_252_dust"
@@ -306,6 +468,16 @@
 			dependencies: ["5FEE56EB46508554"]
 			dependency_requirement: "one_completed"
 			id: "4DE01C4D23FB5912"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F677330E157C7555"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7410B9820DC9F3D4"
 				item: "kubejs:caf_fuel_rod"
@@ -319,6 +491,16 @@
 			id: "112C0821547F18B2"
 			shape: "gear"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DA5A8C4F3CB5D902"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "38231BE027E6860D"
 				item: "gtceu:fermium_dust"
@@ -338,6 +520,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "4E9D9B798430A2CA"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "304DD036549C00A7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "22580AF2825A186F"
 				item: "kubejs:tpu_fuel_rod"
@@ -356,6 +548,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "5D2284A2301F73E5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CA5C4A710DEC90D7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1E45403E477C5237"
 				item: "kubejs:mox241_fuel_rod"
@@ -374,6 +576,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "42F45F8B4A7501DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D5811BE7B339230B"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1EF0051928A6C736"
 				item: "kubejs:mox238_fuel_rod"
@@ -385,6 +597,16 @@
 		{
 			dependencies: ["4E9D9B798430A2CA"]
 			id: "6B8808C8AE317F93"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3FCED0B5F16C1F3E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1ED2BCE52B44E109"
 				item: "gtceu:uranium_233_dust"
@@ -405,6 +627,16 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "6711BE34695BB008"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F7A0F2899EF66120"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2A1DE4D1F7A4C1E1"
 				item: "kubejs:etu_fuel_rod"
@@ -417,6 +649,16 @@
 			dependencies: ["6B8808C8AE317F93"]
 			dependency_requirement: "one_completed"
 			id: "05B10E9ECCD94ABB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "582BCAFB274478FE"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2E96BC648AD1DC92"
 				item: "kubejs:leu233_fuel_rod"
@@ -428,6 +670,16 @@
 		{
 			dependencies: ["6711BE34695BB008"]
 			id: "722C516F31267AB0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "55803F5DB5229C9F"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "58324F27B3879B2C"
 				item: "gtceu:einsteinium_253_dust"
@@ -443,6 +695,16 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "061287E5532E1CA8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F132C50E22F65EA8"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7944AAB92EBE82AD"
 				item: "kubejs:nqe_fuel_rod"
@@ -455,6 +717,16 @@
 			dependencies: ["050206AAE7043982"]
 			hide_dependency_lines: true
 			id: "74476363CA71A782"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "49D764015E3FC2F8"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1F90AAA9B2DF5E5E"
 				item: "gtceu:tiny_enriched_naquadah_dust"
@@ -469,6 +741,16 @@
 				"60ECE277341A9408"
 			]
 			id: "5728078931762D8E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "943242E2E7B8FF3C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "182F82F91811C0C1"
 				item: {
@@ -484,6 +766,16 @@
 		{
 			dependencies: ["5728078931762D8E"]
 			id: "3722C0427C9AF100"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C06437EFBCDBAA79"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "32D58BAEFF6BE603"
 				item: {
@@ -503,7 +795,18 @@
 			]
 			description: ["{ftbquests.pl_nuc.echo_shard.description}"]
 			id: "2F87FC1D5BB43220"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "686736B1B48B4C44"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "142ABBE1525B620F"
 				item: "lightmanscurrency:coin_netherite"
@@ -526,6 +829,16 @@
 		{
 			dependencies: ["061287E5532E1CA8"]
 			id: "7C9719417055D0A0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "91674469DBE6CB62"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "53E060E177E4F662"
 				item: "gtceu:echo_shard_dust"
@@ -537,6 +850,16 @@
 		{
 			dependencies: ["4DE01C4D23FB5912"]
 			id: "2329BCC8F3B00FE3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "76D770342460AEBC"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6135765424F7AC64"
 				item: "gtceu:plutonium_241_dust"
@@ -548,6 +871,16 @@
 		{
 			dependencies: ["6711BE34695BB008"]
 			id: "48E21B5E5A6622DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AD8CB3CF923FA7A3"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "11CF046CCE226E25"
 				item: "gtceu:plutonium_238_dust"
@@ -559,6 +892,16 @@
 		{
 			dependencies: ["05B10E9ECCD94ABB"]
 			id: "277B5F8987B934CF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C76E7E87132A08AA"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5355C9A09403A97D"
 				item: "gtceu:californium_252_dust"
@@ -571,7 +914,18 @@
 			dependencies: ["05B10E9ECCD94ABB"]
 			dependency_requirement: "one_completed"
 			id: "2A58D3FA81927F92"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7017E7F4490955A0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "73539BF69D21766E"
 				item: "lightmanscurrency:coin_netherite"
@@ -592,6 +946,16 @@
 		{
 			dependencies: ["42F45F8B4A7501DC"]
 			id: "4CFDAFCB47AA8059"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3A8042C2B9269168"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "22A05D271BB65F77"
 				item: "gtceu:curium_244_dust"
@@ -604,7 +968,18 @@
 			dependencies: ["42F45F8B4A7501DC"]
 			dependency_requirement: "one_completed"
 			id: "1060B5D7662A291A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DA570C7BF6895306"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "44B936CE770223F3"
 				item: "lightmanscurrency:coin_netherite"
@@ -625,6 +1000,16 @@
 		{
 			dependencies: ["5D2284A2301F73E5"]
 			id: "49EE4B1BF49442D0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8628E539C1B00E39"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "018D1B37DB425DB9"
 				item: "gtceu:americium_241_dust"
@@ -637,7 +1022,18 @@
 			dependencies: ["5D2284A2301F73E5"]
 			dependency_requirement: "one_completed"
 			id: "70FF61E058B9F86B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DB89C41D0401D9B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "55488B7555E75A7C"
 				item: "lightmanscurrency:coin_netherite"
@@ -659,7 +1055,18 @@
 			dependencies: ["0F5B28674794C1DA"]
 			dependency_requirement: "one_completed"
 			id: "687E39C25F7F2564"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DB1A166756D8EBD5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "03A288289050D715"
 				item: "lightmanscurrency:coin_netherite"
@@ -680,6 +1087,16 @@
 		{
 			dependencies: ["4E9D9B798430A2CA"]
 			id: "00898982AEA993B2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2FFEA2BE928158AA"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1BD9187051510978"
 				item: "gtceu:americium_241_dust"
@@ -692,6 +1109,16 @@
 			dependencies: ["2F8062042B23DA26"]
 			id: "342969434CB3B5DE"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D49B81FD307E4936"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4262F299A4CEC65A"
 				item: "gtceu:neptunium_dust"
@@ -704,7 +1131,18 @@
 			dependencies: ["775D74B68C7354E3"]
 			dependency_requirement: "one_completed"
 			id: "319B789A79579E3D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "24B4ECAE3486EBE2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "14AD5A363599967B"
 				item: "lightmanscurrency:coin_netherite"
@@ -726,7 +1164,18 @@
 			dependencies: ["7965F4C1213E5133"]
 			dependency_requirement: "one_completed"
 			id: "6204209FB377E7E0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E5346B9DF49A8DEE"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "5E785011D48E4F3A"
 				item: "lightmanscurrency:coin_netherite"

@@ -14,6 +14,16 @@
 			invisible: true
 			optional: true
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7267C9C623D4425B"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "TS0F0000000000FF"
 				title: "{ftbquests.positioner.title}"
@@ -26,7 +36,18 @@
 			dependencies: ["EH0100000000000D"]
 			description: ["The End is not an end—it is a beginning mistranslated by cartographers. The Ender Dragon holds this dimension in stasis, maintaining the torpor of the Endermen who built its infrastructure long before the Overworld had a name. Break the stasis."]
 			id: "TS01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7C61CF56A4323548"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000001"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -49,7 +70,18 @@
 			description: ["The Dragon does not guard treasure. It maintains the dimensional seal between the End and the Void—a seal that, once broken, allows passage to the outer islands where End Cities drift in permanent exile. It was never going to end any other way."]
 			icon: "minecraft:dragon_egg"
 			id: "TS01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3099BDA01D3032B6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "TS03000000000002"
 				item: "lightmanscurrency:coin_netherite"
@@ -74,7 +106,18 @@
 			dependencies: ["TS01000000000002"]
 			description: ["The Elytra are found in End Ships docked at the outer island city towers. They are the wings of something that no longer exists—the remnants of a civilization that predated even the Overworld. They were made to be worn. Wear them."]
 			id: "TS01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "227635819E3B73A3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "TS03000000000003"
 				item: "lightmanscurrency:coin_netherite"
@@ -101,7 +144,18 @@
 			hide_dependency_lines: true
 			id: "TS01000000000004"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "22ECAE4CFD486422"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000004"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -119,7 +173,18 @@
 			dependencies: ["TS01000000000001"]
 			description: ["The End Cities float in the Void on chains of Purpur and End Stone. Each hosts a Ship docked at its highest tower. The Ship holds the Elytra and a Dragon's Breath stockpile. Navigate to the outer islands via the exit portal gateway—the Cities are worth the travel."]
 			id: "TS01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "45313A8B0CD9F7A2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000005"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -139,7 +204,18 @@
 			dependencies: ["TS01000000000005"]
 			description: ["Shulker Boxes are portable inventory containers—the End's one practical contribution to logistics. Two Shulker shells form a chest that retains its contents when broken. Bring as many back as you can carry. You will use every one."]
 			id: "TS01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "70CB3844DCE241F8"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000006"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -160,7 +236,18 @@
 			]
 			description: ["Ultra Extreme Voltage. The UEV Machine Hull operates at power levels that dwarf anything built before the Milky Way Stargate. The alloys required do not occur naturally at any temperature this planet can produce—but you have a stargate now, and the universe is larger than this planet."]
 			id: "TS01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0BD4E8C5E371DE53"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "TS03000000000007"
 				item: "lightmanscurrency:coin_netherite"
@@ -183,7 +270,18 @@
 			hide_dependency_lines: true
 			id: "TS01000000000008"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0BF2026237142F35"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000008"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -203,7 +301,18 @@
 			hide_dependency_lines: true
 			id: "TS01000000000009"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "56D955BBCEB79EC6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS03000000000009"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -223,7 +332,18 @@
 			hide_dependency_lines: true
 			id: "TS0100000000000A"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "41882F990D43DE8E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS0300000000000A"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -243,7 +363,18 @@
 			hide_dependency_lines: true
 			id: "TS0100000000000B"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F3663E0C5E2CC80B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "TS0300000000000B"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
@@ -258,9 +389,273 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["TS01000000000002"]
+			description: ["The Stargate network crosses galaxies in a single step—but its builders earned orbit the slow way first, and so will you. The NASA Workbench is where planning becomes hardware. Naquadah did not fall from the sky. You are going up to get it."]
+			id: "AA01000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000001"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "AA04000000000001"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "AA02000000000001"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			title: "The Slow Way Up"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["AA01000000000001"]
+			description: ["The Tier 1 Rocket is a controlled explosion with a chair on top. It burns fuel you refined yourself and trusts welds you made yourself. Assemble it at the NASA Workbench and set it on a Launch Pad. The Moon does not come to you."]
+			id: "AA01000000000002"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000002"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "AA04000000000002"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA02000000000002"
+					item: "ad_astra:tier_1_rocket"
+					type: "item"
+				}
+				{
+					id: "AA02000000000003"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Rocket"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["AA01000000000001"]
+			description: ["Space does not negotiate. The Space Suit holds your air, your heat, and your blood where they belong. Wear all four pieces before you board anything with an engine. The suit is not optional. The lesson, if skipped, is only taught once."]
+			id: "AA01000000000003"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000003"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "AA04000000000003"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "AA02000000000004"
+					item: "ad_astra:space_helmet"
+					type: "item"
+				}
+				{
+					id: "AA02000000000005"
+					item: "ad_astra:space_suit"
+					type: "item"
+				}
+				{
+					id: "AA02000000000006"
+					item: "ad_astra:space_pants"
+					type: "item"
+				}
+				{
+					id: "AA02000000000007"
+					item: "ad_astra:space_boots"
+					type: "item"
+				}
+			]
+			title: "Suit Up"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"AA01000000000002"
+				"AA01000000000003"
+			]
+			description: ["The Moon is grey, silent, and closer than anything else that isn't trying to kill you. Land, plant your boots in the regolith, and look back at the planet you industrialized. Every Douluo who ever cultivated toward heaven stopped short of this."]
+			id: "AA01000000000004"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000004"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "AA04000000000004"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_stone"
+				id: "AA02000000000008"
+				title: "Walk on the Moon"
+				type: "dimension"
+			}]
+			title: "One Small Step"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["AA01000000000004"]
+			description: ["Desh runs in veins under the lunar surface—a metal the Overworld never produced. Refine it. Tier 2 rockets, oxygen distribution, and the machinery of survival off-world are all built on Desh. The Moon is a supply depot that happens to be beautiful."]
+			id: "AA01000000000005"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000005"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "AA04000000000005"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "AA02000000000009"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Desh"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["AA01000000000005"]
+			description: ["Mars is rust and thin wind. Ostrum sleeps under its deserts, and the storms do not care about your suit's warranty. Reach the red planet and pull its metal out of the ground. Each world you touch by rocket makes the next one reachable."]
+			id: "AA01000000000006"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000006"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "AA04000000000006"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_stone"
+					id: "AA0200000000000A"
+					title: "Land on Mars"
+					type: "dimension"
+				}
+				{
+					id: "AA0200000000000B"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			title: "The Red Wastes"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["AA01000000000006"]
+			description: [
+				"From orbit, the pattern is unmissable: naquadah signatures on every world you visit, always near ring-shaped ruins, always older than the terrain around them. The gate network was here first. Rockets taught you the size of the distance."
+				""
+				"The Stargate will teach you the way across it."
+			]
+			icon: "sgjourney:classic_stargate"
+			id: "AA01000000000007"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA03000000000007"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "AA04000000000007"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Rockets are the question. The gate is the answer."
+			tasks: [{
+				id: "AA0200000000000C"
+				title: "Echoes of the Gate"
+				type: "checkmark"
+			}]
+			title: "Echoes of the Gate"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
 			dependencies: [
 				"TS01000000000007"
 				"TS01000000000003"
+				"AA01000000000007"
 			]
 			description: [
 				"You built a factory from flint. You tamed the soul of a Douluo. You opened a stargate to another galaxy. The Wetware Mainframe runs on living tissue. The Milky Way Stargate has nine locks. None of it was guaranteed when you started."
@@ -270,6 +665,16 @@
 			icon: "sgjourney:pegasus_stargate"
 			id: "TS0100000000000C"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "58EADAD6CEB2A624"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 20
 					id: "TS0300000000000C"

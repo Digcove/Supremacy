@@ -87,7 +87,18 @@
 			dependencies: ["523F20DC5FA04229"]
 			description: ["{ftbquests.industrial_revolution.bender.description}"]
 			id: "12F01BF7D567FEC3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2A476494886F167A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "590C29E52588F372"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -105,7 +116,18 @@
 			dependencies: ["234CE57A62FB8D82"]
 			description: ["{ftbquests.industrial_revolution.wiremill.description}"]
 			id: "4E724D0920A2DF55"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7BB675456C39E5B0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2E9A160DB32441DD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -123,7 +145,18 @@
 			dependencies: ["523F20DC5FA04229"]
 			description: ["{ftbquests.industrial_revolution.lathe.description}"]
 			id: "77A36FD20946C8A0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8414641889E9EB86"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "35E8F3C1454E2165"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -141,7 +174,18 @@
 			dependencies: ["53E98CFC7934FA67"]
 			description: ["{ftbquests.industrial_revolution.polarizer.description}"]
 			id: "71DAA3541CEC96DD"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "359D0F37D064B121"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2E661C9DC9B246EA"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -158,7 +202,18 @@
 			dependencies: ["53E98CFC7934FA67"]
 			description: ["{ftbquests.industrial_revolution.motor.description}"]
 			id: "234CE57A62FB8D82"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4ADB40D897375E2F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2102792C882DD121"
 				item: "lightmanscurrency:coin_iron"
@@ -183,7 +238,18 @@
 			hide_dependent_lines: true
 			id: "0E88CB5E68212006"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "953D177B544AF225"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "33061CD7DE7F3DEE"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -205,7 +271,18 @@
 			dependencies: ["53E98CFC7934FA67"]
 			description: ["{ftbquests.industrial_revolution.alloy_smelter.description}"]
 			id: "568B71C405BD66DF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FD716349E089BAC8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5717FA9D67E3371B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -223,7 +300,18 @@
 			description: ["{ftbquests.industrial_revolution.mixer.description}"]
 			hide_dependent_lines: true
 			id: "54549EC141659C30"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2C2C7678F4B6C0B4"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3F9D23A8F9E2DCA8"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -240,7 +328,18 @@
 			dependencies: ["234CE57A62FB8D82"]
 			description: ["{ftbquests.industrial_revolution.chemical_reactor.description}"]
 			id: "1AAB9C20E833029A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A44174D1108F18B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5889CD9E578BE2CB"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -256,7 +355,18 @@
 		{
 			dependencies: ["234CE57A62FB8D82"]
 			id: "523F20DC5FA04229"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FBDA83DBCFB40BD5"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "02E8DB758E894C43"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -273,7 +383,18 @@
 			dependencies: ["523F20DC5FA04229"]
 			description: ["{ftbquests.industrial_revolution.macerator.description}"]
 			id: "39F4B61B17304481"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "24B41915DD988FB8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3D6F3F6B21B141CC"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -290,7 +411,18 @@
 			dependencies: ["523F20DC5FA04229"]
 			description: ["{ftbquests.industrial_revolution.forge_hammer.description}"]
 			id: "6E92236103190E99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C213CC34C9E2B5D9"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "610552038D184592"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -307,7 +439,18 @@
 			dependencies: ["523F20DC5FA04229"]
 			description: ["{ftbquests.industrial_revolution.robot_arm.description}"]
 			id: "436A7D2511096831"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4DCF651FAC5C0E33"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "47C83736AF8E692A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -324,7 +467,18 @@
 			dependencies: ["234CE57A62FB8D82"]
 			description: ["{ftbquests.industrial_revolution.conveyor_module.description}"]
 			id: "02B8D64EAE39BA08"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4446483F1425074E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2CF6BECD00AB4913"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -344,7 +498,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.assembler.description}"]
 			id: "4B51B15B49620F57"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "609B453197F943F2"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "693E60F2920C36CD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -361,7 +526,18 @@
 			dependencies: ["4B51B15B49620F57"]
 			description: ["{ftbquests.industrial_revolution.energy_input_hatch.description}"]
 			id: "1F5CCE8CFD02903A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "916981469A844C25"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7F197D253C0E829C"
 				item: "lightmanscurrency:coin_iron"
@@ -384,7 +560,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.cutter.description}"]
 			id: "4A4989A767F3825D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F55F3B93BD80A0D9"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6FAD7A703B5EE2CF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -401,7 +588,18 @@
 			dependencies: ["5D3B5EF195A3093B"]
 			description: ["{ftbquests.industrial_revolution.cobalt_brass_buzz_saw.description}"]
 			id: "5AA77BA8B764A2AA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D7B6EF6617D4B393"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4D56E3C5935202AB"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -424,7 +622,18 @@
 			description: ["{ftbquests.industrial_revolution.cobalt_dust.description}"]
 			hide_dependency_lines: true
 			id: "5D3B5EF195A3093B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A41CF551E93D0A97"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6EEC913BD06C07C4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -441,7 +650,18 @@
 			dependencies: ["234CE57A62FB8D82"]
 			description: ["{ftbquests.industrial_revolution.centrifuge.description}"]
 			id: "1B97E56660BDCEF6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "78FBAA0310DD234A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "791327B6B4AF7203"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -458,7 +678,18 @@
 			dependencies: ["234CE57A62FB8D82"]
 			description: ["{ftbquests.industrial_revolution.electric_pump.description}"]
 			id: "2AFD24A844E49C42"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FC9DAEB4C7D387D1"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2585095E52FBBD42"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -478,7 +709,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.gas_collector.description}"]
 			id: "4503C48C47348B74"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EB42CB07F4EE6397"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4F0B4DCF0F98747E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -495,7 +737,18 @@
 			dependencies: ["2AFD24A844E49C42"]
 			description: ["{ftbquests.industrial_revolution.fluid_solidifier.description}"]
 			id: "620F1881452C03B6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7AF8FD4A4B005A70"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F9BA44DD14A19AF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -513,7 +766,18 @@
 			description: ["{ftbquests.industrial_revolution.extractor.description}"]
 			hide_dependent_lines: true
 			id: "7844913D9059D182"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DE8F134A52639BC7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6679E1A4653C52CB"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -530,7 +794,18 @@
 			dependencies: ["53E98CFC7934FA67"]
 			description: ["{ftbquests.industrial_revolution.electrolyzer.description}"]
 			id: "3A15777DD813EE71"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "10EDFEB2B63A6C81"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "52E6F6B56D322690"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -551,7 +826,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.industrial_revolution.graphite_dust.description}"]
 			id: "10F2237FF0C87F62"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A8124B39C75FD3AC"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "21E84874107E268E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -569,7 +855,18 @@
 			description: ["{ftbquests.industrial_revolution.arc_furnace.description}"]
 			hide_dependent_lines: true
 			id: "76B701A5EF4C1EF1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "49E487C9F986D2A8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3CF14AD07DB1686B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -586,15 +883,25 @@
 			dependencies: ["620F1881452C03B6"]
 			hide_dependent_lines: true
 			id: "38A4A5FB19EB4AB9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CD54F7CC80DA1CE6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "06B988807550F9B3"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			tasks: [{
 				id: "44BE119EB12AE1EE"
-				item: "thermal_extra:soul_infused_glass"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 0.5d
@@ -606,7 +913,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.lv_upgrade_kit.description}"]
 			id: "574CA65B67D79A6E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C57A6BE5F4BDF708"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3B2963F6CA12BFDF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -632,7 +950,18 @@
 			dependencies: ["53E98CFC7934FA67"]
 			description: ["{ftbquests.industrial_revolution.super_chest.description}"]
 			id: "73125407EA6D21EC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E6A661B11C388714"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5A3838D031ABA355"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -653,7 +982,18 @@
 			description: ["{ftbquests.industrial_revolution.electric_blast_furnace.description}"]
 			icon: "gtceu:electric_blast_furnace"
 			id: "56BA79287C4DBE52"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BCB963E43CFAA32D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2E79F5C61F91FC82"
 				item: "lightmanscurrency:coin_iron"
@@ -675,7 +1015,18 @@
 			description: ["{ftbquests.industrial_revolution.signalum.description}"]
 			icon: "gtceu:signalum_ingot"
 			id: "1A638BE0C6031CC5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E3F88D610A298BC0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1E25AB67DE54679E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -700,7 +1051,18 @@
 			dependencies: ["56BA79287C4DBE52"]
 			description: ["{ftbquests.industrial_revolution.aluminium.description}"]
 			id: "60F649FC6E64DFD9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1B9F58BF0AAF1F71"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "38F829CD52ACC0A7"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -722,7 +1084,18 @@
 			description: ["{ftbquests.industrial_revolution.realgar.description}"]
 			hide_dependency_lines: true
 			id: "5BF06BFED6E52523"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6C1AFF89AED5F2F6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "48ABA260B49D0D83"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -742,7 +1115,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.gallium_arsenide.description}"]
 			id: "77FB57773EFE8D6C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8DCBBF440AC92B1A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "21CFB2F082FD4C2E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -763,7 +1147,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.industrial_revolution.sphalerite.description}"]
 			id: "3F116A55E0215095"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "097F48A1E16E08F0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5FDBAD28EF9411D8"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -780,7 +1175,18 @@
 			dependencies: ["77FB57773EFE8D6C"]
 			description: ["{ftbquests.industrial_revolution.diode.description}"]
 			id: "683FD2FC0B64739A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E01A678DB9FB196"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4882F8DD5EAAE4C4"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -800,7 +1206,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.boules.description}"]
 			id: "5C15427D1679D4C3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C471559A7C4EBAFB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2A2893A1B960213D"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -820,7 +1237,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.wafers.description}"]
 			id: "0DEEBB486450E74E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BA673C5002D6A10A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "323753DF9149A500"
 				item: "lightmanscurrency:coin_iron"
@@ -843,7 +1271,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.vanadium_steel_ingot.description}"]
 			id: "47027B245D1C7A2E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6F7E543755DA0D37"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3CB0CBEB70D0F2AB"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -863,7 +1302,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.mv_cutter.description}"]
 			id: "580BFECBF63DAC5D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "85093DE18A7D4EFC"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "664E644502AE2C77"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -880,7 +1330,18 @@
 			dependencies: ["60F649FC6E64DFD9"]
 			description: ["{ftbquests.industrial_revolution.mv_machine_hull.description}"]
 			id: "12C9427A04A2F550"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0F48D17E5B652C02"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "76BDA69ED8BAB9FD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -900,7 +1361,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.mv_energy_converter.description}"]
 			id: "1F693ACD14436D87"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5EA854544AABFE68"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0EEF835BE5647FBD"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -945,7 +1417,18 @@
 			dependencies: ["12C9427A04A2F550"]
 			description: ["{ftbquests.industrial_revolution.mv_laser_engraver.description}"]
 			id: "491C4CECC6C24DDF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "12DED8C561189C25"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1671366165B56302"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -965,7 +1448,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.phenolic_circuit_boards.description}"]
 			id: "6D8E5B0E49056FDC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D79F3963E28B70DB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3EB1FEC1E125F68C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -997,7 +1491,18 @@
 				"4E1271A47BFEE3B9"
 			]
 			id: "7836F17B34B47B16"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "26DA4A9A05BC2478"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7D1CA49B9DBB8459"
 				item: "lightmanscurrency:coin_iron"
@@ -1018,7 +1523,18 @@
 			dependencies: ["7836F17B34B47B16"]
 			description: ["{ftbquests.industrial_revolution.circuit_assembler.description}"]
 			id: "707733C864B8729C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F7AAFAD2BF4C1751"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2FC1EE7643113986"
 				item: "lightmanscurrency:coin_iron"
@@ -1038,7 +1554,18 @@
 			dependencies: ["7836F17B34B47B16"]
 			description: ["{ftbquests.industrial_revolution.greenhouse.description}"]
 			id: "2F4B998D20856E2B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E4DD4736B50E71F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "11BFF2E7331E5C09"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1055,7 +1582,18 @@
 			dependencies: ["12C9427A04A2F550"]
 			description: ["{ftbquests.industrial_revolution.pyrolyse_oven.description}"]
 			id: "0AB3A8C14C3A0512"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C45252EED6E8773B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "62842FFE70DEB525"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1076,7 +1614,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.basic_integrated_circuit.description}"]
 			id: "70875F86587758D7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F75CF97C002C636C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "33AAB8FC1F3008AF"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1094,7 +1643,18 @@
 			dependencies: ["70875F86587758D7"]
 			description: ["{ftbquests.industrial_revolution.good_integrated_circuit.description}"]
 			id: "23D3BED4F1968AD6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BEA9C62F56F083DC"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "295C26334A202535"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1116,7 +1676,18 @@
 			description: ["{ftbquests.industrial_revolution.ilc_chip.description}"]
 			icon: "gtceu:ilc_chip"
 			id: "590380B77F8EF17D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CD5C0C230DE0A3E6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2BB07344C488A780"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1159,7 +1730,18 @@
 			description: ["{ftbquests.industrial_revolution.ulpic_chip.description}"]
 			icon: "gtceu:ulpic_chip"
 			id: "79AA3AF63E976038"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "891E884BE448DB70"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "309AB16B73A3768D"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1201,7 +1783,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.mv_energy_input_hatch.description}"]
 			id: "0A03B4D352DCF148"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C3215A7AF4841234"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "6AB657851A053BB4"
 				item: "lightmanscurrency:coin_iron"
@@ -1221,7 +1814,18 @@
 			dependencies: ["12C9427A04A2F550"]
 			description: ["{ftbquests.industrial_revolution.mv_assembler.description}"]
 			id: "7EC83EEF3F7A89B8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "569BBF9AC1D187A9"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "103D493E1BB9765B"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1239,7 +1843,18 @@
 			dependencies: ["261174370DC87FCB"]
 			description: ["{ftbquests.industrial_revolution.super_tank.description}"]
 			id: "1A9E5F3F6CE13465"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "425863C66975C695"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0DD4BBA61877A159"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1256,7 +1871,18 @@
 			dependencies: ["7EC83EEF3F7A89B8"]
 			description: ["{ftbquests.industrial_revolution.mv_upgrade_kit.description}"]
 			id: "38C4FC58A4482F83"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D84104AEBCFBA64A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "23701926BCA340FC"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1283,7 +1909,18 @@
 			description: ["{ftbquests.industrial_revolution.rare_earth_metals.description}"]
 			hide_dependent_lines: true
 			id: "2C404AE10029FCD4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "694E7E336D7A56CE"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "473BE4E7B57E5CD3"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1324,7 +1961,18 @@
 			description: ["{ftbquests.industrial_revolution.hot_kanthal_ingot.description}"]
 			icon: "gtceu:hot_kanthal_ingot"
 			id: "7A9839144373C80D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D5D2A00DF36D74F5"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "123D34BFA3D2CC82"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1350,7 +1998,18 @@
 			dependencies: ["0A03B4D352DCF148"]
 			description: ["{ftbquests.industrial_revolution.stainless_steel.description}"]
 			id: "7E6BF5B40EA057F5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2B3D5E79F39F24B6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6B7F70F97846F1E0"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1367,7 +2026,18 @@
 			dependencies: ["7A9839144373C80D"]
 			description: ["{ftbquests.industrial_revolution.kanthal_ingot.description}"]
 			id: "6749EECB949732DB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81CF3BF80B3F6AE6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6C027EFC8EC67C50"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1384,7 +2054,18 @@
 			dependencies: ["6749EECB949732DB"]
 			description: ["{ftbquests.industrial_revolution.kanthal_coils.description}"]
 			id: "0E61DC74B2E2C962"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4796968CA1838A01"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "4CF641039036DCBE"
 				item: "lightmanscurrency:coin_iron"
@@ -1405,7 +2086,18 @@
 			description: ["{ftbquests.industrial_revolution.hot_silicon_ingot.description}"]
 			icon: "gtceu:silicon_ingot"
 			id: "4ED724D5B94CFA3A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DB74F23B146BB37D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6D0CFE337FF1273C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1430,7 +2122,18 @@
 			dependencies: ["689579627AADC578"]
 			description: ["{ftbquests.industrial_revolution.inscriber_presses.description}"]
 			id: "4CCB2727C13AEBDD"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "219ACE51112C2A0C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4F8FC78D0F3D8220"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1466,6 +2169,16 @@
 			id: "53E98CFC7934FA67"
 			shape: "gear"
 			size: 1.5d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E976B8558A97B2A1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 8L
 				id: "239235F1614EEEA3"
@@ -1487,7 +2200,18 @@
 			]
 			id: "5F80268C02FAD5F6"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A1F6009056A01DFA"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "170D10B336CA9B51"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1512,7 +2236,18 @@
 			]
 			icon: "gtceu:void_extractor"
 			id: "30B2688F8387048F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "84B903F183169951"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4B6770AF03D1B85C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1540,7 +2275,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.rare_earth_dust.description}"]
 			id: "4597B95C2F5EE106"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7FA79E8C8E4F127F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "663D16B1BCB3CB2C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1564,7 +2310,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.vanadium_magnetite_dust.description}"]
 			id: "12DA5E8FA3E11AC0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A32848D6B24330B3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1D01CDEB4254326A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1595,6 +2352,16 @@
 			]
 			icon: "gtceu:sodium_bisulfate_dust"
 			id: "3A20504009C70217"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7AC3705C5F6E4A9D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "633C63725D58A795"
 				title: "{ftbquests.industrial_revolution.etching_liquids.title}"
@@ -1608,6 +2375,16 @@
 			icon: "gtceu:raw_sodalite"
 			id: "7CA424E05FB05DFF"
 			subtitle: "{ftbquests.industrial_revolution.resource_production_chapter.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1F5388661D7F7D7C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7A70E4D923C0FA25"
 				title: "{ftbquests.industrial_revolution.resource_production_chapter.title}"
@@ -1620,6 +2397,16 @@
 			id: "0A0DC5148CC45DCB"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1F52A52704AE5249"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "10740F5D76540FB7"
 				title: "{ftbquests.positioner.title}"
@@ -1637,6 +2424,16 @@
 			]
 			icon: "ae2:fluix_glass_cable"
 			id: "352E17B4D7719638"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "912968DC765CAD64"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "724697297E01E6F0"
 				title: "{ftbquests.industrial_revolution.ae2_chapter.title}"
@@ -1649,7 +2446,18 @@
 			dependencies: ["76B701A5EF4C1EF1"]
 			description: ["{ftbquests.industrial_revolution.annealed_copper.description}"]
 			id: "47B9F8BF9E02391C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "732163E933BC962D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "75460ACFE7D43950"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1670,7 +2478,18 @@
 			]
 			description: ["{ftbquests.industrial_revolution.transistor.description}"]
 			id: "724BAC3F48CE91AA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E2837C58F751BC3E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "186727D1BB104DD6"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1695,7 +2514,18 @@
 			description: ["{ftbquests.industrial_revolution.ram_chips.description}"]
 			icon: "gtceu:ram_chip"
 			id: "45591A05A0A61821"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9A18618E8FD2C359"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "021348F6717A5BE0"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1740,6 +2570,16 @@
 			icon: "gtceu:tin_quadruple_cable"
 			id: "36BE4A7635DF3A1B"
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0A440EBA1E818EFC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "265FCE0A1D58491A"
 				title: "{ftbquests.industrial_revolution.power_chapter.title}"
@@ -1753,7 +2593,18 @@
 			description: ["{ftbquests.industrial_revolution.mechanical_sieve.description}"]
 			id: "569A70F811536F5F"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "345F6D8B689CF212"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "467FFCB072ECCA56"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1774,7 +2625,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.industrial_revolution.cupronickel_coil.description}"]
 			id: "23C8E1371ABA986C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4F3BBC91FF42C292"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F05E3537E63DD0E"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1792,7 +2654,18 @@
 			description: ["{ftbquests.industrial_revolution.tin_alloy.description}"]
 			icon: "gtceu:tin_alloy_bucket"
 			id: "333F9471F8B4E184"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C83756AFF350478F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1FF636B58F5E1EA1"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1818,7 +2691,18 @@
 			description: ["{ftbquests.industrial_revolution.mv_processing_machines.description}"]
 			hide_dependent_lines: true
 			id: "550DB81B8DC91730"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B9D9D981AC340E33"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4545050297AC3C4A"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1845,7 +2729,18 @@
 			dependencies: ["2AFD24A844E49C42"]
 			description: ["{ftbquests.industrial_revolution.lubricant_production.description}"]
 			id: "2E1E8E6F80D7665C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2034EDBD4403ABA8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4CF6137E21DDA137"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
@@ -1874,7 +2769,18 @@
 			hide_dependent_lines: true
 			icon: "gtceu:lubricant_bucket"
 			id: "13B656D92E651FB4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3D1C534F8CDC3FF0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "12EF13C04335189C"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"

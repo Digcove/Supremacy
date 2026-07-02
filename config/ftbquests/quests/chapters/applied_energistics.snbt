@@ -12,7 +12,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "47B51BF0F3A51A17"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C4FE83F1E820F7B2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "73F552DE315F54DD"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -32,7 +43,18 @@
 		{
 			dependencies: ["47B51BF0F3A51A17"]
 			id: "19B9634DC5EFBB64"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4F67E593419DFB67"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7AADB4925335006C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -52,7 +74,18 @@
 		{
 			dependencies: ["16D74E923B76E266"]
 			id: "3594628E8316824E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F31867E7ABD17484"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0E6905C17E2205B3"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -69,7 +102,18 @@
 		{
 			dependencies: ["3594628E8316824E"]
 			id: "307B93E1431087D0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1A592AFF59F61B6F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "30D9DA5A1CB6B91B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -86,7 +130,18 @@
 		{
 			dependencies: ["307B93E1431087D0"]
 			id: "6672296A6740F5B8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E53BEDCF0C02647D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6838DD02224B7569"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -103,7 +158,18 @@
 		{
 			dependencies: ["6672296A6740F5B8"]
 			id: "479A121A74E2DE4F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7F24FA14245D2846"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "17C83592774092B4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -120,7 +186,18 @@
 		{
 			dependencies: ["479A121A74E2DE4F"]
 			id: "69768541E12842D1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DE90DCCE1648BBA7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7C50552FD13201ED"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -140,7 +217,18 @@
 				"14AD7FB0096260E3"
 			]
 			id: "07FE13B6C2445554"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D0860A60B18AC071"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "750CAEF880655041"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -160,7 +248,18 @@
 				"14AD7FB0096260E3"
 			]
 			id: "66CDB0CB180B9819"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF23A2CAFB508919"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "103B1C056511949C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -180,7 +279,18 @@
 				"14AD7FB0096260E3"
 			]
 			id: "74DDE18F637959CE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5CE08F6023FE326A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4FAA93FB23551F8D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -200,7 +310,18 @@
 				"14AD7FB0096260E3"
 			]
 			id: "2158BBB95B4D5A2B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ABA95679ECA0DA19"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "26B0868BE60A2D78"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -220,7 +341,18 @@
 				"14AD7FB0096260E3"
 			]
 			id: "087C40F74BD44B3D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B91FE5001A65EDC1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0062152E96C8302B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -237,7 +369,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "4DAE06A1BAE2853F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F7B0D1E1AFBAD60E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "56474C6791A317EA"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -266,7 +409,18 @@
 		{
 			dependencies: ["4E724D0920A2DF55"]
 			id: "00C108BA77C4FC44"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F25509B010B9BC21"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "75C20BCE36C875C8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -285,7 +439,18 @@
 				"46C9CFB443BB3CAA"
 			]
 			id: "69517897AAD23478"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9DB4ED4BE45E49D9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "500E8940290936A7"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -301,7 +466,18 @@
 		{
 			dependencies: ["69517897AAD23478"]
 			id: "0CCCF777F0B7DC41"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "852D3CB146A9147C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3F2C5273410D3E99"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -317,7 +493,18 @@
 		{
 			dependencies: ["0CCCF777F0B7DC41"]
 			id: "20A58C211FDF7A94"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "612B56F580280B6D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "58D1E7203C83ADA4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -333,7 +520,18 @@
 		{
 			dependencies: ["134C7F5E57B44097"]
 			id: "745E8F2BC7D5FE33"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "75320A24C07F2609"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6958C1C091A46D18"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -349,7 +547,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "0887FE2C8C5A2945"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F450790EBB2945AC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4A1E68357A7AF956"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -373,7 +582,18 @@
 		{
 			dependencies: ["3594628E8316824E"]
 			id: "716E3EB48FB124B2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2FFB6CE9830F9550"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6D453006424C4703"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -389,7 +609,18 @@
 		{
 			dependencies: ["774470E98AEB60C2"]
 			id: "311AE326F9287D02"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A2A835ED99203B78"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3F5B7931F014C55A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -405,7 +636,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "720E13408B1A7170"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF5BDE63AEB3D9A0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5EA49C4ADFB5D785"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -421,7 +663,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "774470E98AEB60C2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "79DBBAB3221DDB35"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "008DB67AA38EE6AE"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -437,7 +690,18 @@
 		{
 			dependencies: ["29D7E2B8D3BF1D9E"]
 			id: "02EB760C5FF71D91"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9D109F7F83211BE4"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0C03A971F9E29900"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -454,7 +718,18 @@
 			dependencies: ["2896C7FE79A7D094"]
 			hide_dependency_lines: true
 			id: "70F6AD4F913B2B48"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7C57B9DB51B835F1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6745E89916A2ADDF"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -471,7 +746,18 @@
 			dependencies: ["0A1DB46E5375B995"]
 			hide_dependency_lines: true
 			id: "784DECDFEAE5E655"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4D000DA27569D906"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F006AB6CE00A2A8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -487,7 +773,18 @@
 		{
 			dependencies: ["62BA581B2918BB7B"]
 			id: "4F37BFEF63998350"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AF3A291AE31ACFB3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "604128D32FCE2C91"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -521,7 +818,18 @@
 		{
 			dependencies: ["0CCCF777F0B7DC41"]
 			id: "134C7F5E57B44097"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B5377CDE211632D7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "14A54982A73DADB4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -538,7 +846,18 @@
 			dependencies: ["220ECC2DE9D50213"]
 			hide_dependency_lines: true
 			id: "21B152B4D6B29378"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8E87A037A8041C59"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0265C66C4CEA44C0"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -554,7 +873,18 @@
 		{
 			dependencies: ["774470E98AEB60C2"]
 			id: "036D871AE55BC323"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0F4BFB60C93567CE"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7688F8B7D57E9DD6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -577,7 +907,18 @@
 		{
 			dependencies: ["6672296A6740F5B8"]
 			id: "54FB87F5A13C620D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C60D36000AA80D66"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2E071851169D4631"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -681,7 +1022,18 @@
 		{
 			dependencies: ["69768541E12842D1"]
 			id: "15609A10132FC49C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B52ABC4D4EE37FAD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6DE8270C130CB496"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -698,7 +1050,18 @@
 		{
 			dependencies: ["15609A10132FC49C"]
 			id: "29FCED9F85FB2882"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "15A1C292EED7D804"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7EC2D5198CA5EF06"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -715,7 +1078,18 @@
 		{
 			dependencies: ["29FCED9F85FB2882"]
 			id: "3CFA9E13D95178D6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "34DDBCB3F52CDD0E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6D2F5E524680D1E2"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -732,7 +1106,18 @@
 		{
 			dependencies: ["3CFA9E13D95178D6"]
 			id: "07CB8E78FF4461BB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F98B7BE882FBF60"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7388A988A9D3FD0D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -752,7 +1137,18 @@
 				"7543CC066CBF4EE0"
 			]
 			id: "4F32D62F9BD279F3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C56F450F1C2AA11C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3C82E4C41292A0F9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -771,7 +1167,18 @@
 				"7543CC066CBF4EE0"
 			]
 			id: "7714826EF2BA750A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "578FC663EF8AE804"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0277EF23962BA5BB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -790,7 +1197,18 @@
 				"7543CC066CBF4EE0"
 			]
 			id: "4FF5366683095676"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A39B9A907A769524"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "108BD89581B8BB53"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -809,7 +1227,18 @@
 				"7543CC066CBF4EE0"
 			]
 			id: "0BD267A7CFB4B21D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1BEE3F57715F2D92"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "59196DA860630BB8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -828,7 +1257,18 @@
 				"7543CC066CBF4EE0"
 			]
 			id: "2280548034E41819"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E0398E6520F8B4BC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4062016BEE2C2F06"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -844,7 +1284,18 @@
 		{
 			dependencies: ["07CB8E78FF4461BB"]
 			id: "4E5B71A2D89CAC2B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9222B0B1C211924A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "545675DCEE3B5661"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -864,7 +1315,18 @@
 				"16D74E923B76E266"
 			]
 			id: "29D7E2B8D3BF1D9E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EC3441F88DC89576"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "79D7C1E99CA77314"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -898,7 +1360,18 @@
 			]
 			description: ["{ftbquests.ae2.printed_circuits.description}"]
 			id: "3B787FE75F563F45"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "884B237BF804294B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6B4979972047485E"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -932,7 +1405,18 @@
 		{
 			dependencies: ["53E98CFC7934FA67"]
 			id: "16D74E923B76E266"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F9AF41EFBC64D37B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2A04AD48BF087B6B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1001,7 +1485,18 @@
 		{
 			dependencies: ["689579627AADC578"]
 			id: "220ECC2DE9D50213"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C3778E21540B3C77"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "420F6970840E1809"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1031,7 +1526,18 @@
 			dependencies: ["12C9427A04A2F550"]
 			hide_dependency_lines: true
 			id: "689579627AADC578"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "072777CFA0A8A282"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "36F7029FDD732143"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1048,7 +1554,18 @@
 		{
 			dependencies: ["689579627AADC578"]
 			id: "0F269DCAD4B8CC4C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "00138E81FB547653"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "16F90786EDC10B89"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1064,7 +1581,18 @@
 		{
 			dependencies: ["6896F9AF41EE8571"]
 			id: "46C9CFB443BB3CAA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "76120DD7D7456693"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4A6252AD5CA821C3"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1080,7 +1608,18 @@
 		{
 			dependencies: ["46C9CFB443BB3CAA"]
 			id: "2DC161E1BBA0919A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BD56D6F3A85E643C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3475A32B53C0B73F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1096,7 +1635,18 @@
 		{
 			dependencies: ["2DC161E1BBA0919A"]
 			id: "1AF7A9EE66326442"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9D62804A5660244A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3506DA5E89F7BB0A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1120,7 +1670,18 @@
 		{
 			dependencies: ["2DC161E1BBA0919A"]
 			id: "39FD400143952D58"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BBCDD1637E12E0FF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1661C4F7F9325F0F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1136,7 +1697,18 @@
 		{
 			dependencies: ["2DC161E1BBA0919A"]
 			id: "567E88B4BE35DB3C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3E8AA7516166A73A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7B5ABB1C21D9F6D9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1153,7 +1725,18 @@
 			dependencies: ["2DC161E1BBA0919A"]
 			hide_dependent_lines: true
 			id: "14AD7FB0096260E3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B128A9449AE5375A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "716F788B9D22DD16"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1169,7 +1752,18 @@
 		{
 			dependencies: ["14AD7FB0096260E3"]
 			id: "0A1DB46E5375B995"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "645D8A87F4894D65"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "236839915B49BE33"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1185,7 +1779,18 @@
 		{
 			dependencies: ["220ECC2DE9D50213"]
 			id: "2896C7FE79A7D094"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6FCEEB6917121528"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "601A2172A835834A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1209,7 +1814,18 @@
 		{
 			dependencies: ["2DC161E1BBA0919A"]
 			id: "6706CD6EC648B7C8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "21B4524CD7B9EF06"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "36AC6AA884BA4741"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1229,7 +1845,18 @@
 			]
 			hide_text_until_complete: false
 			id: "09241664F45A91EA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5AEA4D9CCD2578E0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "047D80D0B8D80FA3"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1250,7 +1877,18 @@
 			]
 			hide_dependent_lines: true
 			id: "7543CC066CBF4EE0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6B448B873FD5E35F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4440981064FEE3D6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1266,7 +1904,18 @@
 		{
 			dependencies: ["2896C7FE79A7D094"]
 			id: "6EDEC5B6214A20CC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0BA85FFBB1BD84C2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "00163962020B9CE6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1295,7 +1944,18 @@
 		{
 			dependencies: ["15609A10132FC49C"]
 			id: "31E2D720FFC159EB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8CA33618E65CC16B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "507BB256D4FF1231"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1314,7 +1974,18 @@
 				"19B9634DC5EFBB64"
 			]
 			id: "161969BDC9245CB4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0EAA4DEE87048789"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "029DA5B323FFD719"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1334,7 +2005,18 @@
 		{
 			dependencies: ["0F269DCAD4B8CC4C"]
 			id: "5CC6C1096C9F77FC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4EA7EA0EBE2C8F36"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4F00129FC664AC01"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1350,7 +2032,18 @@
 		{
 			dependencies: ["5CC6C1096C9F77FC"]
 			id: "49ACE56A8AC7A63E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6D2D230484126924"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6FDC76890843D705"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1367,7 +2060,18 @@
 			dependencies: ["49ACE56A8AC7A63E"]
 			hide_dependent_lines: true
 			id: "43F95399A861BDB4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6D61C8F0FA7E567E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "22B801B177ED3B85"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1392,7 +2096,18 @@
 		{
 			dependencies: ["0F269DCAD4B8CC4C"]
 			id: "3B8CDE368E941652"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "36A938C89B517E68"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5F01C501A8FBE117"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1408,7 +2123,18 @@
 		{
 			dependencies: ["0F269DCAD4B8CC4C"]
 			id: "617E17824856450D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D901C8CD4BFF014"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "72F1D5040C7F3F1F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1424,7 +2150,18 @@
 		{
 			dependencies: ["20A12F3B992762F0"]
 			id: "534F27BC96F104A2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81F31381D687B4AA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4302BBBD2A937DB6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1441,7 +2178,18 @@
 			dependencies: ["534F27BC96F104A2"]
 			description: ["{ftbquests.ae2.terminals.description}"]
 			id: "3FC037156B8DB553"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF8FFAACB66A4E53"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "39BD40F5A99C9102"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1465,7 +2213,18 @@
 		{
 			dependencies: ["534F27BC96F104A2"]
 			id: "3E163E0DA56697A9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D0BC3E10083E78B2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "57F4FD9FFACF5617"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1481,7 +2240,18 @@
 		{
 			dependencies: ["534F27BC96F104A2"]
 			id: "1401D93CE8C44E5C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C2B8DAB237D155CE"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "43A0E618DF2F90A8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1502,7 +2272,18 @@
 			]
 			description: ["{ftbquests.ae2.autocrafting.description}"]
 			id: "54D3F6BC8F7BC609"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E401F8CE05A27C20"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "77FA31338FE2EBDD"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1519,7 +2300,18 @@
 		{
 			dependencies: ["3FC037156B8DB553"]
 			id: "372842AD602BB1BF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF83408DA7D990DC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6290A72307ED8BCC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1535,7 +2327,18 @@
 		{
 			dependencies: ["3B8CDE368E941652"]
 			id: "27A6A5C168C0FB73"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1E71FA13BE7CA929"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "63F670263F5E3E3D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1552,7 +2355,18 @@
 			dependencies: ["3B8CDE368E941652"]
 			hide_dependency_lines: true
 			id: "714785F87C1B07D0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A612C2A64761CA57"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6E0C12FB5FB574FB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1569,7 +2383,18 @@
 			dependencies: ["617E17824856450D"]
 			hide_dependency_lines: true
 			id: "49447FEBBB76FFF7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C97784A4D86F7BD9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "73AB54844DBB34FD"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1588,7 +2413,18 @@
 				"45EA9095FAF7DDD6"
 			]
 			id: "45739DAADDC070FB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A10CA71F22B4248E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "210A87E076536502"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1607,7 +2443,18 @@
 				"45EA9095FAF7DDD6"
 			]
 			id: "6D441C650137BD6D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "132E03DDEA41ACA0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "62B31DFC7E8C4F65"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1623,7 +2470,18 @@
 		{
 			dependencies: ["45739DAADDC070FB"]
 			id: "587DFCFB215EFD67"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D6FC35E85001D4E2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "42A61E0167C9E58D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1639,7 +2497,18 @@
 		{
 			dependencies: ["45EA9095FAF7DDD6"]
 			id: "7E50B29E1FBF5831"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BD4048624E2211FA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "630B1F105E30B282"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1663,7 +2532,18 @@
 		{
 			dependencies: ["45EA9095FAF7DDD6"]
 			id: "4B90617F77F7F6C8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "151471CE74166262"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2D78AD0D077E970D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1679,7 +2559,18 @@
 		{
 			dependencies: ["45EA9095FAF7DDD6"]
 			id: "14C0B19E6CFFD112"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FC4BE79E04CFCAFB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "482750736AAF013B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1696,7 +2587,18 @@
 			dependencies: ["45EA9095FAF7DDD6"]
 			hide_text_until_complete: false
 			id: "297AAAB115BBC7E5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "404810B83B05D508"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "37E6CAFD8B8D4B76"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1712,7 +2614,18 @@
 		{
 			dependencies: ["7FF1D8543D63EA7E"]
 			id: "0E699B8608412E2C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C7F7E19496CF398"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "53ACD3DF2604E2F7"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1730,7 +2643,18 @@
 			dependencies: ["3FC037156B8DB553"]
 			hide_dependency_lines: true
 			id: "7FF1D8543D63EA7E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E075A5671B56E122"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "62C8CEDD7EE6AF20"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1749,7 +2673,18 @@
 				"45EA9095FAF7DDD6"
 			]
 			id: "0C82D20AA1B8A33B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1ABA468A55520D3D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2EFC0B6B93D2AA8C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1765,7 +2700,18 @@
 		{
 			dependencies: ["567E88B4BE35DB3C"]
 			id: "7A05D139ED3E4C99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3267DF969CDF86F7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5A0C55E2966C8BC2"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1781,7 +2727,18 @@
 		{
 			dependencies: ["7A05D139ED3E4C99"]
 			id: "452B14D8B90757AA"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A0D9D7EBBF3780B4"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2FEEFAAEE7C9233C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1797,7 +2754,18 @@
 		{
 			dependencies: ["452B14D8B90757AA"]
 			id: "5EFD28E67B3D1425"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F81907E76B7ADB87"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4963363E4F90B972"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1833,7 +2801,18 @@
 		{
 			dependencies: ["0F269DCAD4B8CC4C"]
 			id: "0DCD572D56DB0AB0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "77536C1A8E8552D6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "76D4FDE1EA0D1B06"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1849,7 +2828,18 @@
 		{
 			dependencies: ["0F269DCAD4B8CC4C"]
 			id: "2170EA7E1D21FA18"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "810E8D7D5B3239ED"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3FF3B244F6EA9934"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1865,7 +2855,18 @@
 		{
 			dependencies: ["452B14D8B90757AA"]
 			id: "3FDA47AA7278BC2B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A6EE5C606D2E1DF4"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0C8065BAB8722E94"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1881,6 +2882,16 @@
 		{
 			dependencies: ["52FE319F5E176C37"]
 			id: "45EA9095FAF7DDD6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "84BFF3B47E283445"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1BEA9D6C9EB86103"
 				title: "{ftbquests.ae2.extended_machines.title}"
@@ -1893,6 +2904,16 @@
 			id: "5D67E904C7D02AB8"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9697D860E79EBD26"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "76B74EE25F58E344"
 				title: "{ftbquests.positioner.title}"
@@ -1907,7 +2928,18 @@
 				"6D441C650137BD6D"
 			]
 			id: "41C6F59DB92F79A7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C0409C286CBA6208"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4D521B4CF7D63ECE"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1952,7 +2984,18 @@
 		{
 			dependencies: ["478A02E7D8C0A1C8"]
 			id: "1E343F9554344E46"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "624063E32DD518EF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1FFC459BFB8B9229"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1968,7 +3011,18 @@
 		{
 			dependencies: ["0A1DB46E5375B995"]
 			id: "478A02E7D8C0A1C8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C4CE81527E200152"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "65DE42C38DB432AA"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1984,7 +3038,18 @@
 		{
 			dependencies: ["53113FB2835560E0"]
 			id: "6E4DB64EB63F8714"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4D1D0A570E107034"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "70AFB7C0D8D6E9CA"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2000,7 +3065,18 @@
 		{
 			dependencies: ["478A02E7D8C0A1C8"]
 			id: "53113FB2835560E0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "97B312CE899D5534"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "45703B7AEAC59848"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2016,7 +3092,18 @@
 		{
 			dependencies: ["53113FB2835560E0"]
 			id: "1F5B2DFAFDCDF050"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "008CAB4142F25C8B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "28ADAFE315B7F8A9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2032,7 +3119,18 @@
 		{
 			dependencies: ["1F5B2DFAFDCDF050"]
 			id: "344AAB2C51F822B1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "071A1EA467CABC63"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5940AACFB24A646C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2048,7 +3146,18 @@
 		{
 			dependencies: ["307E7CA88BA6E1E0"]
 			id: "686148DD4CC74166"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "90773024A43C0DBD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "18044FC9DCD86640"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2064,7 +3173,18 @@
 		{
 			dependencies: ["1F5B2DFAFDCDF050"]
 			id: "307E7CA88BA6E1E0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D238BC0C6A1C1AB5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "318CBE5E0D41037A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2080,7 +3200,18 @@
 		{
 			dependencies: ["1C484C4AB8D3C36B"]
 			id: "7A328586CB117E32"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8A0572B1AE82D215"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "06118D3D40634B29"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2096,7 +3227,18 @@
 		{
 			dependencies: ["307E7CA88BA6E1E0"]
 			id: "1C484C4AB8D3C36B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DE8B1A20ACDDFF55"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "434F267D5B5DC64C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2112,7 +3254,18 @@
 		{
 			dependencies: ["194C30F25E32E9AE"]
 			id: "5497D6386B182B01"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7C4DAE2A4A93CC89"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "544098E2BC2D759A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2128,7 +3281,18 @@
 		{
 			dependencies: ["1C484C4AB8D3C36B"]
 			id: "194C30F25E32E9AE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "31C74133B94F8156"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1A9FD47C456EDE32"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2144,7 +3308,18 @@
 		{
 			dependencies: ["3BF1920443CA9407"]
 			id: "68610A9C19C87EF9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "85700B982A2A968C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0E21F4AEE1BD9B8B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2160,7 +3335,18 @@
 		{
 			dependencies: ["194C30F25E32E9AE"]
 			id: "3BF1920443CA9407"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1566B6DE3DEB02C7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3462CEA3689532A2"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2176,7 +3362,18 @@
 		{
 			dependencies: ["54719F78D8E03083"]
 			id: "697009990248A750"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1AB45250C9DCE05B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1E3726B1D4DC5D44"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2192,7 +3389,18 @@
 		{
 			dependencies: ["3BF1920443CA9407"]
 			id: "54719F78D8E03083"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B1545D37E5FB1AC7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "65109255CFF47FF4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2208,7 +3416,18 @@
 		{
 			dependencies: ["49476A75A61E5FCE"]
 			id: "6A8AE35DEB32BBD5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0352724B1C8E9B87"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3B41311F2616DFA8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2224,7 +3443,18 @@
 		{
 			dependencies: ["54719F78D8E03083"]
 			id: "49476A75A61E5FCE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "762ABE450B908B99"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7A9B1212BAF3D3E8"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2240,7 +3470,18 @@
 		{
 			dependencies: ["723055BFDB9A7484"]
 			id: "7CB062C9B22FB74A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "01D49A656CAE6552"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3922590E6A1C30DF"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2256,7 +3497,18 @@
 		{
 			dependencies: ["49476A75A61E5FCE"]
 			id: "723055BFDB9A7484"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D10A1B5275EC832"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "77C97397250923CF"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2272,7 +3524,18 @@
 		{
 			dependencies: ["0C82D20AA1B8A33B"]
 			id: "6820C607C25AE859"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EC9C1E0474AC36C5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1EBC897C2327B4B3"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2288,7 +3551,18 @@
 		{
 			dependencies: ["6D441C650137BD6D"]
 			id: "2519DA28EADD47D4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0948997E9233A0FB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "69408D38CB98BCCB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2305,7 +3579,18 @@
 			dependencies: ["29D7E2B8D3BF1D9E"]
 			hide_dependency_lines: true
 			id: "66668FEA4D4F8573"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AE65A433F1817CDF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "28DB4814395F8538"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2322,7 +3607,18 @@
 			dependencies: ["29FCED9F85FB2882"]
 			description: ["{ftbquests.ae2.mega_component_skip.description}"]
 			id: "334AE7B73C221920"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EA8F0701199384A9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0CB8811CB43A77BC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2342,7 +3638,18 @@
 				"43F95399A861BDB4"
 			]
 			id: "010737DB9CD70C4C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4A0F9DD593D12164"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "26EE3E7485DD7FBD"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2358,7 +3665,18 @@
 		{
 			dependencies: ["2519DA28EADD47D4"]
 			id: "32473F3391BBD84E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "703E987B148B031C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "41D43219CFBB7014"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2374,7 +3692,18 @@
 		{
 			dependencies: ["272CE9BF358D64FE"]
 			id: "795C46D5A4EFCCB8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DFA250F149ADA32E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "174F9899B6C8D072"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2398,7 +3727,18 @@
 		{
 			dependencies: ["4F37BFEF63998350"]
 			id: "5177CE4CC1DE1A04"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "230F74847D9E673C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3B6DC527323EAC25"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2432,7 +3772,18 @@
 		{
 			dependencies: ["795C46D5A4EFCCB8"]
 			id: "1E15558A3C50312D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DD13EE2AAD2CFA3A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0E21CF8AEC15E8F4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2466,7 +3817,18 @@
 		{
 			dependencies: ["617E17824856450D"]
 			id: "145E8628D8EAB5A8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D4295A2D14C1C93A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6C759E2074206795"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2482,7 +3844,18 @@
 		{
 			dependencies: ["1E15558A3C50312D"]
 			id: "0D861EADBA0E8735"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1B3FA6C3D7465EA9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "02BB32F4B492CD5B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2498,7 +3871,18 @@
 		{
 			dependencies: ["0094C2E72105E8CA"]
 			id: "4E9302D20943CC77"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A25354B8AFF171AD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "73F6842B7067DE69"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2514,7 +3898,18 @@
 		{
 			dependencies: ["4E9302D20943CC77"]
 			id: "3750F37A0F2A98E1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8F15AD5611053454"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4DAAA1CA2ABB48E4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -2534,7 +3929,18 @@
 			]
 			description: ["{ftbquests.ae2.certus_quartz.description}"]
 			id: "6896F9AF41EE8571"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "032830E6277A5911"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7C19B021AC9106CC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"

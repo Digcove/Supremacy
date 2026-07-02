@@ -14,6 +14,16 @@
 			invisible: true
 			optional: true
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "32B719F003128B5A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "EH0F0000000000FF"
 				title: "{ftbquests.positioner.title}"
@@ -26,7 +36,18 @@
 			dependencies: ["VL01000000000009"]
 			description: ["Stem cells are the biological foundation of wetware circuit boards. Grow them in a cell incubator at tightly controlled atmospheric conditions—they die if temperature deviates by more than half a degree. The colony takes time to establish. Start it now, before you need it."]
 			id: "EH01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F06C3D244076C1B7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000001"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -44,7 +65,18 @@
 			dependencies: ["EH01000000000001"]
 			description: ["The wetware circuit board is a hybrid substrate: a standard PCB printed with bio-conductive pathways, then seeded with living stem cell culture. The cells grow into the pathways and form synaptic connections that no silicon circuit can replicate. Handle carefully—the culture is still alive."]
 			id: "EH01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F9A6F1335BB91671"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000002"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -73,7 +105,18 @@
 			dependencies: ["EH01000000000002"]
 			description: ["The Neuro Processing Unit interleaves biological and silicon compute pathways at the nanoscale. The organic component handles pattern recognition; the silicon handles deterministic logic. Neither achieves ZPM-grade throughput alone."]
 			id: "EH01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DAE9C74D159357D2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000003"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -91,7 +134,18 @@
 			dependencies: ["EH01000000000003"]
 			description: ["A fully functional ZPM-grade processor. The biological lattice inside regulates its own thermal dissipation, sustaining compute densities that would destroy conventional silicon within milliseconds of operation."]
 			id: "EH01000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "09FE39911D047292"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000004"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -112,7 +166,18 @@
 			]
 			description: ["Wetware processors slotted into a multi-nodal computing architecture. The interconnect bus must be grown, not soldered—the bio-conductive pathways between processors self-organize under the correct electromagnetic field conditions."]
 			id: "EH01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B6EA60777F509F75"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "EH03000000000005"
 				item: "lightmanscurrency:coin_diamond"
@@ -138,6 +203,16 @@
 			id: "EH01000000000006"
 			shape: "rsquare"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "937ADBF38AC82615"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "EH02000000000007"
 				title: "Complete the Way of the Soul"
@@ -151,7 +226,18 @@
 			dependencies: ["EH01000000000006"]
 			description: ["The largest stable wetware circuit that can be grown in a single incubation run. Its compute density approaches biological limits. Beyond this threshold, circuit scaling requires materials that should not exist—and in the standard universe, do not."]
 			id: "EH01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "566908424EB776B7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "EH03000000000007"
 				item: "lightmanscurrency:coin_diamond"
@@ -172,7 +258,18 @@
 			dependencies: ["EH01000000000001"]
 			description: ["Element 110. Synthesizing darmstadtium requires temperatures the EBF cannot sustain without Naquadah coils at minimum. The resulting alloy has a self-reinforcing crystalline structure that becomes more rigid under thermal stress—exactly what ZPM-tier machinery demands."]
 			id: "EH01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0FA2620C30092A41"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000008"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -191,7 +288,18 @@
 			dependencies: ["EH01000000000008"]
 			description: ["Tritanium is not found in nature—it must be smelted from exotic rare earth precursors at extreme EBF temperatures. Its properties justify the mythology: harder than osmium at temperature, lighter than iron at room conditions."]
 			id: "EH01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2ECC358564DD1C6E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000009"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -209,7 +317,18 @@
 			dependencies: ["EH01000000000009"]
 			description: ["Tritanium coil blocks push the EBF to its maximum sustainable operating temperature. At this range, elements that exist only transiently in particle accelerators can be stabilized long enough to ingot. Neutronium production is impossible without them."]
 			id: "EH0100000000000A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ADED3621D9E3EED3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "EH0300000000000A"
 				item: "lightmanscurrency:coin_diamond"
@@ -233,7 +352,18 @@
 			]
 			description: ["The UV Machine Hull houses machinery operating at Ultra Voltage—power levels measured in millions of volts. Fabricated from tritanium alloy sheet with an electroplated dielectric barrier compound. Conventional welding destroys both materials; the assembly must be bonded by induction."]
 			id: "EH0100000000000B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F849939A86D48815"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "EH0300000000000B"
 				item: "lightmanscurrency:coin_diamond"
@@ -257,7 +387,18 @@
 			]
 			description: ["Neutronium is what remains when a stellar core's electron degeneracy pressure collapses. Your EBF achieves this in miniature through extreme fusion conditions. The resulting material is the hardest substance that can exist in this universe—and the last material gate before the physics stops cooperating."]
 			id: "EH0100000000000C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2D8125E71AB36FE7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "EH0300000000000C"
 				item: "lightmanscurrency:coin_diamond"
@@ -290,7 +431,18 @@
 				}
 			}
 			id: "EH0100000000000D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7ECE504A8BBC4F06"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "EH0300000000000D"
 				item: "lightmanscurrency:coin_diamond"
@@ -318,7 +470,18 @@
 			hide_dependency_lines: true
 			id: "EH0100000000000E"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D112DF3C0CAB18F1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH0300000000000E"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -338,7 +501,18 @@
 			hide_dependency_lines: true
 			id: "EH0100000000000F"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D40A01D4ED879727"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH0300000000000F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -358,7 +532,18 @@
 			hide_dependency_lines: true
 			id: "EH01000000000010"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1E41D15CF612CFA6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "EH03000000000010"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"

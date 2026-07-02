@@ -29,7 +29,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 19000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4D18B65191DEAB27"
 				silent: true
 				title: "19000 Experience"
@@ -69,7 +69,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 10000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "16AD0ECACA8534A4"
 					silent: true
 					title: "10000 Experience"
@@ -107,7 +107,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 12500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "1C5BD6EBA4C93030"
 				silent: true
 				title: "12500 Experience"
@@ -153,7 +153,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 14500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "13C6B993CC7FEA59"
 					silent: true
 					title: "14500 Experience"
@@ -194,7 +194,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 14500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1F5AACD729066105"
 					silent: true
 					title: "14500 Experience"
@@ -230,7 +230,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 13500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "03BD8073B19FA10A"
 					silent: true
 					title: "13500 Experience"
@@ -278,7 +278,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0CEFB91DE0714449"
 					silent: true
 					title: "20000 Experience"
@@ -362,7 +362,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2B451560B8BFF45C"
 					silent: true
 					title: "20000 Experience"
@@ -458,7 +458,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "135D273C25E842F5"
 					silent: true
 					title: "25000 Experience"
@@ -543,7 +543,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3376346B940F53CB"
 					silent: true
 					title: "25000 Experience"
@@ -638,7 +638,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 18000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "45C316F7912839EF"
 					silent: true
 					title: "18000 Experience"
@@ -697,7 +697,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 19250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0AC5615867DF791F"
 					silent: true
 					title: "19250 Experience"
@@ -743,7 +743,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 17000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "12683C844A99C4C0"
 					silent: true
 					title: "17000 Experience"
@@ -802,7 +802,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "05E99D1E12995F08"
 					silent: true
 					title: "20000 Experience"
@@ -855,7 +855,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 13000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3AB0CC5DDBEF85A8"
 					silent: true
 					title: "13000 Experience"
@@ -898,7 +898,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 13000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5AE408B538326E95"
 					silent: true
 					title: "13000 Experience"
@@ -951,7 +951,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "59D7A4D19D910329"
 					silent: true
 					title: "15500 Experience"
@@ -982,7 +982,7 @@
 				}
 				{
 					entity: "blue_skies:crynocerous"
-					icon: "simplehats:unicornhorn"
+					icon: "lightmanscurrency:coin_emerald"
 					id: "17317C9793765AA5"
 					type: "kill"
 					value: 8L
@@ -1028,7 +1028,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4058C769C50CDB26"
 					silent: true
 					title: "15500 Experience"
@@ -1096,12 +1096,12 @@
 			]
 			description: ["&eComplete&r all of the &equests&r in Act IV to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:questbook"
+			icon: "lightmanscurrency:coin_emerald"
 			id: "713453058246129A"
 			rewards: [
 				{
 					id: "6237206235CF02D4"
-					item: "simplehats:questbook"
+					item: "lightmanscurrency:coin_emerald"
 					type: "item"
 				}
 				{
@@ -1167,7 +1167,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 15500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "621213B3B25F0F08"
 				silent: true
 				title: "15500 Experience"
@@ -1192,7 +1192,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 15500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4D85B77A38196A19"
 				silent: true
 				title: "15500 Experience"
@@ -1251,7 +1251,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4AACF55C8A2C99F6"
 					silent: true
 					title: "15500 Experience"
@@ -1288,7 +1288,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 17000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "42CE0F3820716AC1"
 				silent: true
 				title: "17000 Experience"
@@ -1346,7 +1346,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 16000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "64EAE736F49AFC28"
 					silent: true
 					title: "16000 Experience"
@@ -1402,7 +1402,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "02163ADE8B5C9F55"
 					silent: true
 					title: "15000 Experience"
@@ -1471,7 +1471,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 18500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "69FC5BBDE8AC3CE0"
 					silent: true
 					title: "18500 Experience"
@@ -1529,7 +1529,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "25E48201F98C883C"
 					silent: true
 					title: "25500 Experience"
@@ -1579,7 +1579,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5E4FECB2A3D5C667"
 					silent: true
 					title: "25500 Experience"
@@ -1613,7 +1613,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 17000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2C39F5BECE4AE2FF"
 					silent: true
 					title: "17000 Experience"

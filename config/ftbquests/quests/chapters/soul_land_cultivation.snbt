@@ -18,7 +18,18 @@
 			dependencies: ["33EAD812978BAB9C"]
 			description: ["Your martial soul has awakened. The Soul Land mod tracks your cultivation rank from 1 to 120 across 14 stages — from Spirit Scholar to God. Your Talent score, assigned at birth, determines your starting pace but not your ceiling. Meditate regularly at your Cultivation Altar, use herbs wisely, and always complete your breakthrough cycles."]
 			id: "330FEE9467B9D8A6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EEFEA75F3945A227"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5C6DA795C4125F36"
 				item: "soulland:spirit_condensing_pill"
 				type: "item"
@@ -38,7 +49,18 @@
 			dependencies: ["330FEE9467B9D8A6"]
 			description: ["A Soul Ring is absorbed from a defeated spirit beast. The White Ring comes from a 10-year beast — found in the Star Dou Forest Edge. Each ring permanently enhances one of your martial soul's skills; rings cannot be removed once absorbed. The age and species of the beast determines the ring's power. Choose carefully — you only get nine rings across your entire lifetime."]
 			id: "5FC6C2D842B38AD2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "58CF1EBF90FBCC6E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "6A1B1D2DEBDF475A"
 				item: "soulland:spirit_condensing_pill"
@@ -58,6 +80,16 @@
 			description: ["Botania's mystical flowers bloom across every biome, each with a distinct color and function. Gathering four unique types and reading the Lexica Botania is your introduction to a mana-based magic system that runs in parallel with your soul cultivation. Botania and Soul Land share material gates — you will need both."]
 			id: "5497889D31975BB4"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A91522CF7EA63F97"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 4
 					id: "38E588CF03832611"
@@ -91,6 +123,16 @@
 			dependencies: ["5FC6C2D842B38AD2"]
 			description: ["The soul ring is now bound to your martial soul. Your spirit beast hunting should continue — Yellow Rings (100-year beasts) await in the Outer Forest, and Purple Rings (1000-year) in the Inner Forest. Each ring slot unlocks at a specific cultivation rank, so prioritize rank advancement alongside ring collection."]
 			id: "503C916FBA9B26FD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "926529BCB2134331"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				advancement: "soulland:story/first_ring"
 				criterion: ""
@@ -106,7 +148,18 @@
 			description: ["The Petal Apothecary converts flower petals into Botania's functional flowers. Fill it with water, then throw in the crafting ingredients listed in the Lexica Botania. Endoflames — which burn fuel to generate mana — are your first priority. Craft four and point a Mana Spreader at a Mana Pool to establish your first mana supply."]
 			icon: "botania:apothecary_default"
 			id: "75C157B691AC5AFE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2D95F15B704148C4"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "6F8D8F2D3CA2F7B1"
 				item: "botania:fertilizer"
@@ -126,6 +179,16 @@
 			description: ["The Pure Daisy is placed in the world and converts adjacent Stone into Livingrock and Wood into Livingwood over time — the foundational materials for all Botania infrastructure. Craft two and let them work passively while you tend to other progression. You will need substantial Livingrock quantities before long."]
 			id: "39E3B53123CFECC7"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6214FA9C14F84F0A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 5
 					id: "49AC328CE1199457"
@@ -159,7 +222,18 @@
 			dependencies: ["39E3B53123CFECC7"]
 			description: ["Mana is Botania's energy currency. Generating flowers produce it; Mana Spreaders beam it into Mana Pools. The Mana Pool stores it for use in crafting and mana infusion. Keep your pool topped up — Manasteel production alone requires thousands of mana per ingot, and the Terra Plate demands an uninterrupted sustained supply."]
 			id: "6CD3FDD027906C44"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0B2BC5B5FB85E6A7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0166507C7DDB6897"
 				item: "botania:mana_tablet"
 				type: "item"
@@ -185,6 +259,16 @@
 			dependencies: ["75C157B691AC5AFE"]
 			description: ["The Endoflame is Botania's entry-level generating flower. It burns solid fuels — coal, charcoal, and coal blocks — to produce mana. Coal blocks are the most efficient fuel per slot. A bank of four Endoflames feeding a single Spreader provides a reliable baseline mana supply while you build toward more efficient flowers."]
 			id: "5B7F342A6DC75143"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A2BB0CCC533EFA15"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 4L
 				id: "39E51FDE01B10F0A"
@@ -202,7 +286,18 @@
 			]
 			description: ["The Open Crate drops items directly below it when a Redstone signal is applied. Place one above your Endoflames with a pressure plate trigger to automate fuel delivery. This eliminates the single largest maintenance burden in early Botania and frees you to focus on building the rest of your mana infrastructure."]
 			id: "73045CEAB13DB4AD"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9CB18C6F4BE5F20A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "7761DD0FFDE0DDDB"
 				item: "quark:charcoal_block"
@@ -235,7 +330,18 @@
 			dependencies: ["503C916FBA9B26FD"]
 			description: ["Qi Crystal Ore generates at diamond depth and emits a faint luminescence. Mine it raw and smelt it to obtain Qi Crystals — a key reagent in Soul Land forging recipes and a catalyst used in Botania's mana infusion gate for Spirit Steel. Keep a stockpile; demand increases significantly as you advance."]
 			id: "10ED7158063F7663"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "40339E6589C18386"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "5F7BD71A8643EE9A"
 				item: "soulland:qi_crystal"
@@ -260,7 +366,18 @@
 			]
 			description: ["Manasteel is produced by infusing Iron Ingots with 3,000 mana in Botania's mana infusion process — drop the ingot into a Mana Pool. In this pack, the infusion recipe has been modified to also yield Spirit Steel Ingots, gating mid-tier Soul Land crafting behind your Botania progress. This is the first major convergence of the two systems."]
 			id: "6DACE8982D9E9FA0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "19F5DB15FE671E61"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "6E0A6DA357311FF2"
 				item: "soulland:spirit_steel_ingot"
@@ -280,6 +397,16 @@
 			description: ["The Runic Altar uses mana and materials to craft Runes — the building blocks of Botania's highest-tier recipes. Each rune represents one of the classical elements. To craft a rune, place the ingredients on the altar, then right-click with your Wand of the Forest while it holds sufficient mana."]
 			id: "26F5385A961388DF"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "49F18CDFD00252E6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					id: "4ADAF2DFEC1CFBC2"
 					item: "botania:mana_pearl"
@@ -307,6 +434,16 @@
 			]
 			description: ["The Rune of Water is forged at the Runic Altar using Mana Pearls and water-related materials. It is required for the Water Rod and is one of four elemental runes needed to unlock Terrasteel — the apex of Botania's material progression."]
 			id: "738DA05E474241BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B7F1A1AAC6B135E1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 2L
 				id: "44779A68A9F3E37C"
@@ -324,6 +461,16 @@
 			]
 			description: ["The Rune of Fire is forged at the Runic Altar using Mana Pearls and Blaze Powder. It is required for the Fire Rod and is one of four elemental runes that gate Terrasteel production."]
 			id: "1CE280BE9D6AB1F4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D17F0941E804AF9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 2L
 				id: "2506B682351C710A"
@@ -341,6 +488,16 @@
 			]
 			description: ["The Rune of Earth is forged from Livingrock and natural materials at the Runic Altar. It enables the Dirt Rod and contributes to the Terrasteel crafting chain. All four runes are required before the Terrestrial Agglomeration Plate can be activated."]
 			id: "1D2F06656F6C6EC8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CF5C1C00190E0D36"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 2L
 				id: "03A5D7B1052C3332"
@@ -358,6 +515,16 @@
 			]
 			description: ["The Rune of Air completes the four classical element runes. Together with Water, Fire, and Earth, it is required for Terrasteel production and several advanced Botania tools. Craft two — one for the Terra Plate pattern and one to keep on hand for future recipes."]
 			id: "46D9C86A05048965"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "2A0E59EE4CBFDFEE"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				count: 2L
 				id: "65973E6DA01EC078"
@@ -372,6 +539,16 @@
 			dependencies: ["738DA05E474241BB"]
 			description: ["The Water Rod conjures a temporary water source at the target location. A practical exploration and farming tool at modest mana cost. Useful for creating waterfalls, filling tanks, or placing water sources in the Nether where conventional water placement is blocked."]
 			id: "583E232A3327ABD7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E2FB0AB9B0A2680B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "07D422B44E52472D"
 				item: "botania:water_rod"
@@ -385,6 +562,16 @@
 			dependencies: ["46D9C86A05048965"]
 			description: ["The Tornado Rod launches you into the air and grants a brief upward burst of momentum. Combined with Paragliders, this effectively gives you controlled aerial traversal without a full elytra setup. Keep it charged — it can save your life in difficult terrain."]
 			id: "3A255D1A5833FF71"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "91F01AECA52502BD"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6073C9C178091B4F"
 				item: {
@@ -402,6 +589,16 @@
 			dependencies: ["1D2F06656F6C6EC8"]
 			description: ["The Dirt Rod summons a column of dirt from below the target location, up to a fixed height. Useful for bridging gaps, scaling cliffs, or rapidly placing terrain without consuming inventory materials. A practical utility tool at very low mana cost."]
 			id: "49B4340624D575EB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3C6EDA23FE38C770"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "528F546222FBD697"
 				item: "botania:dirt_rod"
@@ -415,6 +612,16 @@
 			dependencies: ["1CE280BE9D6AB1F4"]
 			description: ["The Fire Rod conjures a burst of Botania's natural fire at the target location, igniting blocks and entities in a small radius. Effective against groups of enemies, particularly in open areas. The mana cost scales with use, making it a situational combat tool rather than a primary weapon."]
 			id: "1913B5390F037B5E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C69C4F222A0955AB"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "12AA1B33D6F81528"
 				item: "botania:fire_rod"
@@ -441,6 +648,16 @@
 			}
 			id: "7E97DD1D2B3B2C27"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DD0569AF988168B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					exclude_from_claim_all: true
 					id: "295DEDA7E9C42946"
@@ -474,6 +691,16 @@
 			id: "5D935273D1D08BAC"
 			rewards: [
 				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "186D78E96D7E704E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 					id: "5C239C03464EF339"
 					item: {
 						Count: 1
@@ -501,7 +728,18 @@
 			dependencies: ["6DACE8982D9E9FA0"]
 			description: ["Manasteel Armor offers solid defense with a passive mana resonance bonus that reduces spell costs. A full set marks your transition from iron-era survivalism to cultivator-class protection. Apply Rare armor stat souls to each piece before entering serious combat zones."]
 			id: "7C266B6B79B327B0"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FFC1731F8F1A9A03"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "6096F1B45B9E8A60"
 				item: {
@@ -567,7 +805,18 @@
 			dependencies: ["5D935273D1D08BAC"]
 			description: ["The Weak Blood Orb stores Life Points outside the altar, allowing portable LP management and access to low-tier sigils in the field. Creating it requires 2,000 LP — a substantial but necessary investment. The Blood Coagulation Herb found in Soul Land helps offset the health cost of large sacrifices."]
 			id: "38C29C6628EE73D9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "970C7CFB0F62E7EB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "13AB7F23DBC527E5"
 				item: "soulland:blood_coagulation_herb"
 				type: "item"
@@ -585,7 +834,18 @@
 			dependencies: ["5D935273D1D08BAC"]
 			description: ["Blank Slates are crafted by infusing Smooth Stone with LP at the Blood Altar. They are required for nearly every Blood Magic upgrade path — sigil crafting, orb tiers, and ritual stones all demand them in quantity. Establish a steady production line early; you will consume hundreds over a full Blood Magic progression."]
 			id: "09A01ED1974A1836"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BBBE6BC598EDBBF3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "52A32474753AEFD6"
 				item: "soulland:blood_coagulation_herb"
@@ -605,7 +865,18 @@
 			dependencies: ["6DACE8982D9E9FA0"]
 			description: ["The Terrestrial Agglomeration Plate forges Terrasteel from Manasteel, Mana Pearl, and Mana Diamond. Build a precise multiblock with two Mana Pools feeding the plate, place the four elemental runes in the correct pattern, then throw the ingredients on top. The plate consumes mana continuously until the process completes — do not interrupt it."]
 			id: "7C1B9CFE0B916B83"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "82F3579E75AF1F7A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6EFBFF69710682DB"
 				item: {
 					Count: 1
@@ -643,7 +914,18 @@
 			dependencies: ["7C1B9CFE0B916B83"]
 			description: ["Mana Sparks attach to Mana Pools and automatically transfer mana between adjacent pools. They remove the need for Spreader micromanagement and dramatically improve mana logistics once your Botania infrastructure grows beyond a single pool. Craft two and use them to equalize your primary production pools."]
 			id: "21FA03803B15AD7C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FC2D7DDCF7E17E4D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "62EB9F2695BD57B9"
 				item: "botania:spark"
@@ -666,6 +948,16 @@
 			]
 			description: ["Terrasteel is Botania's apex crafting material — dense with mana and resonant with life energy. It unlocks the Alfheim Portal, the Elementium production chain, and several endgame tools and armor pieces. Every Terrasteel ingot you produce represents a meaningful commitment of mana infrastructure."]
 			id: "59FC1DC92898EE5E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E85C3FAB5D0938D7"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "72158F0D783153BE"
 				item: "botania:terrasteel_ingot"
@@ -679,7 +971,18 @@
 			dependencies: ["59FC1DC92898EE5E"]
 			description: ["The Alfheim Portal opens trade with the fairy dimension. Throw Livingwood and Livingrock through the portal to receive Elven materials in return — including the Elven Gateway Core required for endgame Botania crafting. The portal consumes mana continuously while open; keep your pools supplied before activating it."]
 			id: "6DF58A9163227678"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CDD43D2B4FA7BDD3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "16551CE76EC2FEDC"
 				item: "botania:dreamwood_log"
@@ -698,6 +1001,16 @@
 			dependencies: ["5FC6C2D842B38AD2"]
 			description: ["Spirit Scholar is the first formal cultivation rank — the point where your soul power stabilizes and your martial soul begins to express its unique traits. Continue your breakthrough cycles every 10 ranks, absorb more soul rings as higher-age beasts become accessible, and deepen your Alchemy practice to accelerate your ascent."]
 			id: "792CE5342E2F27E8"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1BFEFA08FBDAA255"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				advancement: "soulland:cultivation/spirit_scholar"
 				criterion: ""
@@ -712,7 +1025,18 @@
 			dependencies: ["792CE5342E2F27E8"]
 			description: ["The Yellow Ring is absorbed from a 100-year spirit beast — far older than the creatures found at the Star Dou Forest Edge. You must venture into the Outer Forest, where soul power density rises and the predators grow proportionally more dangerous. Each ring permanently adds an active skill to your martial soul; choose the beast that complements your fighting style. The Spirit Detector reveals the age of nearby beasts — use it to find a 100-year target before committing to the hunt."]
 			id: "5815ABC064A26E99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "212634C796B4943E"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "08746265B71C5046"
 				item: "soulland:spirit_condensing_pill"
@@ -731,7 +1055,18 @@
 			dependencies: ["5815ABC064A26E99"]
 			description: ["Spirit Elder marks your recognition as a second-tier cultivator — ranks 11 through 20. Your Yellow Ring slot is now active, and your soul power has stabilized enough to begin absorbing century-aged beast skills. Maintain steady breakthrough cycles and manage your Foundation Stability carefully. Overuse of herbs generates instability; meditation and pills are the remedy. The gap between an undisciplined scholar and a disciplined elder widens fast at this stage."]
 			id: "17C5B665758D7130"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E876BA7D55872DBD"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0B6B04B93CD2C84D"
 				item: "soulland:breakthrough_pill"
 				type: "item"
@@ -750,7 +1085,18 @@
 			dependencies: ["792CE5342E2F27E8"]
 			description: ["Press [B] to attempt a Breakthrough when your soul power reaches the next rank threshold. Press [Shift+B] to consume a Foundation Pill and boost success rate. Foundation Stability is a hidden stat: herb overuse, death, and failed breakthroughs each add instability points, which lower success probability and slow meditation speed. Stability recovers through meditation and resets faster with pills. Stock Breakthrough Pills before every major threshold — they drop from dungeon chests and high-tier beast kills."]
 			id: "7DAE3A2B358785F6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7EA787719408A046"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "2BFE900939FA418D"
 				item: "soulland:breakthrough_pill"
@@ -769,7 +1115,18 @@
 			dependencies: ["17C5B665758D7130"]
 			description: ["The Purple Ring comes from a 1000-year spirit beast — creatures that have survived long enough to develop genuine domain auras and active combat skills. Defeating one at Spirit Elder tier is a serious fight; approach it fully prepared. The power gap between a Yellow and Purple Ring is substantial — a single Purple Ring can define an entire build direction. Use the Spirit Detector to identify a 1000-year target in the Inner Forest without accidentally aggroing older, more lethal beasts in the vicinity."]
 			id: "10A7D1DB2655CBDF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FD311AA46105E2C9"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "332E563B23E92F6C"
 				item: {
 					Count: 1
@@ -794,6 +1151,16 @@
 			description: ["Spirit King — ranks 21 through 30 — is the tier where your martial soul's power begins to consolidate into something the continent recognizes as formidable. Three ring slots are active, your soul power output enables sustained combat, and your foundation in both Botania mana and Blood Magic LP is now established. At rank 30, the Martial Soul Transformation first manifests — press [V] to activate T1, overlaying your body with the physical traits of your martial soul."]
 			id: "4BCFBD1E3F78FB52"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4EB3DBC9BB863AA0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 2
 					id: "0AB2EACC64171F7E"
@@ -826,7 +1193,18 @@
 			dependencies: ["4BCFBD1E3F78FB52"]
 			description: ["At rank 30, your Martial Soul Transformation first manifests. Press [V] to activate T1 — the physical traits of your martial soul overlay your form: limb augmentations, elemental traces, and a temporary amplification of attack power and sensory range. Two further tiers follow: T2 at rank 60 integrates chest, head, and glowing runic overlays. T3 at rank 90 triggers full Spirit Avatar mode — a complete hybrid body transformation representing the peak expression of your martial soul's original form. Each tier is a permanent threshold, not a cooldown."]
 			id: "737BC9163766D4DF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D0A909822C29C463"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7C67C7D7947C9E0F"
 				item: {
 					Count: 1
@@ -851,6 +1229,16 @@
 			description: ["Spirit Ancestor — ranks 31 through 40 — marks your transition to genuine continental power. Four ring slots are active, your transformation capabilities have deepened, and your soul power output is sufficient to begin pursuing the Soul Forged equipment tier. Soul Forged Ingots — Spirit Iron fused with GTCEu-grade Stainless Steel and Qi Crystals — require industrial-scale Electric Blast Furnace production. The Greg chapter's factory infrastructure becomes necessary here; cultivation alone cannot sustain your equipment requirements."]
 			id: "07B89901B2D44556"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8D5BF5D8A69B8FE2"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 3
 					id: "07B89901B2D44557"
@@ -883,7 +1271,18 @@
 			dependencies: ["6DF58A9163227678"]
 			description: ["The Alfheim Portal trades materials from our dimension for rare Elven resources. Throw Livingwood Logs into the active portal to receive Dreamwood in return — the structural timber of Elven Botania builds. To obtain Elementium Ingots, throw Manasteel Ingots through the portal. Each trade has a specific ratio documented in the Lexica Botania. Maintain continuous mana flow to the portal during all trades; if the portal closes mid-trade, the materials are lost. Establish Open Crate automation above the portal for reliable bulk trading."]
 			id: "18C9A012C3E55667"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4D1970FFF544803F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "18C9A012C3E55668"
 				item: "botania:dreamwood_log"
@@ -903,7 +1302,18 @@
 			dependencies: ["18C9A012C3E55667"]
 			description: ["Elementium Ingots are obtained by trading Manasteel Ingots through the active Alfheim Portal. They are lighter than Manasteel but resonate more strongly with life energy and fairy affinity — the core material for Botania's endgame armor and the Gaia Spreader. Begin stockpiling immediately: the Gaia Guardian ritual and a full armor set together require a significant quantity, and portal trading is not instantaneous."]
 			id: "29DAB123D4F66778"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B9B2993A2BF652C8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "29DAB123D4F66779"
 				item: "botania:elementium_ingot"
@@ -923,7 +1333,18 @@
 			dependencies: ["29DAB123D4F66778"]
 			description: ["The Gaia Spreader is crafted from Elementium and an Eye of Ender. It transmits mana at twice the speed of a standard Mana Spreader and supports augment Lenses unavailable to its predecessors. Replace your primary mana distribution spreaders once Elementium production is established — the throughput increase sustains larger Botania setups with fewer units and dramatically reduces fill time for the large Mana Pools required by endgame crafting."]
 			id: "3AEBC234E5A77889"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "551D2684ABE8FCE3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3AEBC234E5A77880"
 				item: {
 					Count: 1
@@ -947,7 +1368,18 @@
 			dependencies: ["29DAB123D4F66778"]
 			description: ["Elementium Armor provides defenses comparable to Terrasteel with a unique Pixie affinity — each piece occasionally summons a Pixie companion when you take damage. Pixies attack your aggressors and draw aggro. A full set significantly increases proc frequency. Apply Epic or Legendary armor stat souls before entering the Gaia Guardian ritual: the fight's escalating damage waves demand sustained mitigation, and the Pixie procs alone will not carry an under-prepared kit."]
 			id: "4BFCD345F6B88901"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "963C8F1ECCFD281A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "676C777602CF78A9"
 				item: {
@@ -1016,6 +1448,16 @@
 			id: "5C0DE456A7C99012"
 			rewards: [
 				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "16BD9759CB601FA2"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 					count: 3
 					id: "5C0DE456A7C99014"
 					item: "lightmanscurrency:coin_iron"
@@ -1049,7 +1491,18 @@
 			]
 			description: ["The Reinforced Slate is created by infusing a Blank Slate with 5,000 LP at the Blood Altar — your first Tier 2 crafting operation. With Reinforced Slates in hand, the altar can be upgraded to Tier 2, granting access to the Apprentice Blood Orb and mid-tier recipes. Build at least four before proceeding; the upgrade path ahead demands them in multiples. The Blood Coagulation Herb significantly offsets the health cost of large LP expenditures — keep a supply on hand during heavy sacrifice sessions."]
 			id: "6D1EF567B8DAA123"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A5CEB8333A023844"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "6D1EF567B8DAA124"
 				item: "soulland:blood_coagulation_herb"
@@ -1069,7 +1522,18 @@
 			dependencies: ["6D1EF567B8DAA123"]
 			description: ["The Apprentice Blood Orb stores 10,000 LP — five times the capacity of the Weak Blood Orb. Its construction requires a Reinforced Slate and 10,000 LP consumed at the T2 altar. Equipping it in your off-hand makes stored LP available for sigil casting in the field, removing your dependency on returning to the altar for every expenditure. With the Apprentice Orb active, Tier 2 sigils become craftable — each providing a different passive or active LP utility unavailable through any other system in the pack."]
 			id: "7E2FA678C9EBB234"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6CBE727A75D3470B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "7E2FA678C9EBB235"
 				item: "soulland:blood_coagulation_herb"
@@ -1088,7 +1552,18 @@
 			dependencies: ["7E2FA678C9EBB234"]
 			description: ["The Master Ritual Stone is the anchor for Blood Magic's ritual system — permanent multiblock structures that perform passive LP operations at scale. Each ritual consists of a Master Ritual Stone surrounded by rings of Ritual Stones in a unique elemental pattern. The Well of Suffering, your most important early ritual, places hostile mobs near the altar and sacrifices them continuously to feed your LP reserves — eliminating the need for repeated self-sacrifice at scale."]
 			id: "1D473E5008CA161A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FBD8128F94C9FF6C"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "3C9B405566061433"
 				item: "soulland:blood_coagulation_herb"
@@ -1107,7 +1582,18 @@
 			dependencies: ["1D473E5008CA161A"]
 			description: ["The Well of Suffering ritual requires a Master Ritual Stone at center with rings of Ritual Stones in the correct pattern. Once active, it damages all living entities within its radius and converts their health loss directly into LP in the altar. Place a mob spawner above the ritual inside a contained room — a constant sacrificial supply means your altar is always filled and never bottlenecked by your own health pool. This ritual is the backbone of automated LP generation for the rest of your Blood Magic progression."]
 			id: "20AB5DDC69A3EC92"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A1BE8B3E25B41414"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "32D1164AFF9FC3DC"
 				item: "bloodmagic:reinforcedslate"
@@ -1126,7 +1612,18 @@
 			dependencies: ["7E2FA678C9EBB234"]
 			description: ["The Magician's Blood Orb stores 40,000 LP — the Tier 3 orb and the gateway to Blood Magic's most powerful rituals and sigil crafting. Constructing it requires Imbued Slates in addition to the standard LP sacrifice at a T3 Blood Altar. With the Magician Orb equipped, advanced sigils become available — including passive flight assistance, environmental immunity, and life-drain combat effects that pair directly with Soul Land's cultivation mechanics."]
 			id: "6CE87A114AFD77FE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7B040F6BBD8E88E0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7CD27175FEA58844"
 				item: "lightmanscurrency:coin_iron"
@@ -1150,6 +1647,16 @@
 			icon: "soulland:soul_crystal"
 			id: "388C72C20F961A3A"
 			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1051D6E2DBB01FCD"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
 				{
 					count: 5
 					id: "5359AB66A6F343AD"

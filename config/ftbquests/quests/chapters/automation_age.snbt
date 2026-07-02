@@ -76,7 +76,18 @@
 			]
 			description: ["{ftbquests.automation_age.advanced_integrated_circuit.description}"]
 			id: "73931EAA3EC5C9A9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BDAF594D2734FBFB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7FFA32EF0930598E"
 				item: "lightmanscurrency:coin_gold"
@@ -101,7 +112,18 @@
 			]
 			description: ["{ftbquests.automation_age.hv_converters.description}"]
 			id: "34EF34E0E41A6618"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0D5F1BF2ECDD4641"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "65CC51C78EE6F9E2"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -147,7 +169,18 @@
 			dependencies: ["3F49250E7CE2E282"]
 			description: ["{ftbquests.automation_age.lumium_wire.description}"]
 			id: "68EB3C1DABB1869C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2AF54F4855AFB4CF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0ECE3B40ACFB4B01"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -168,7 +201,18 @@
 			]
 			description: ["{ftbquests.automation_age.lumium_ingot.description}"]
 			id: "3F49250E7CE2E282"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7E189AB4A3A9CB6E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "512E1AEBD727940D"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -190,7 +234,18 @@
 			]
 			description: ["{ftbquests.automation_age.hv_machine_hull.description}"]
 			id: "3CB63B290C9EFAA2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7F5455C0ACF2CBB2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0103A1EEE577BCBC"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -208,7 +263,18 @@
 			dependencies: ["73931EAA3EC5C9A9"]
 			description: ["{ftbquests.automation_age.mv_circuit_assembler.description}"]
 			id: "75942788374CDEF3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DC8F9381841FF4F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "47D65386785B5F06"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -226,7 +292,18 @@
 			dependencies: ["73931EAA3EC5C9A9"]
 			description: ["{ftbquests.automation_age.multi_smelter.description}"]
 			id: "649596731FFA9C9A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B9DFFD6D5962A282"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1CC5497D89B6D364"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -244,7 +321,18 @@
 			dependencies: ["088FE0CF9D07F9C6"]
 			description: ["{ftbquests.automation_age.micro_processor.description}"]
 			id: "363F5B598683A074"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E2BC2A5DC360C97F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3A3BA9FB7E4765D6"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -267,7 +355,18 @@
 			]
 			description: ["{ftbquests.automation_age.microchip_processor.description}"]
 			id: "088FE0CF9D07F9C6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9F88D7C890BC82A2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "36565CD30876ABD0"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -286,7 +385,18 @@
 			dependencies: ["363F5B598683A074"]
 			description: ["{ftbquests.automation_age.micro_processor_assembly.description}"]
 			id: "7399429099302C6C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8F90D904E8C785BE"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4962712B3775941E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -308,7 +418,18 @@
 			]
 			description: ["{ftbquests.automation_age.micro_processor_computer.description}"]
 			id: "52FE319F5E176C37"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B12E58981A487C5A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "553F96E9B7B1DD15"
 				item: "lightmanscurrency:coin_gold"
@@ -333,7 +454,18 @@
 			description: ["{ftbquests.automation_age.cpu_chip.description}"]
 			icon: "gtceu:cpu_chip"
 			id: "470EBC3C75C6748E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F199684119535222"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "09900C2F1810939C"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -377,7 +509,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.automation_age.plastic_circuit_board.description}"]
 			id: "41D5FABA8D0BB0AC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "711607733A357206"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "138F9541C5275C03"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -410,7 +553,18 @@
 			]
 			description: ["{ftbquests.automation_age.maintenance_hatch_types.description}"]
 			id: "0F144FEF99D7D04C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D655FD175A37727A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5A529DFCB691E409"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -436,7 +590,18 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			description: ["{ftbquests.automation_age.hv_assembler.description}"]
 			id: "1B697A89954BA5FE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EB6B8514E078AD2B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2D9D2C20FC58CB35"
 				item: "lightmanscurrency:coin_gold"
@@ -459,7 +624,18 @@
 			]
 			description: ["{ftbquests.automation_age.hv_energy_input_hatch.description}"]
 			id: "50CBF077613B6161"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8660B0DBBF432936"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5894C32B49A197DE"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -483,7 +659,18 @@
 			hide_dependency_lines: true
 			icon: "gtceu:lpic_chip"
 			id: "2681E878121B1CF6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AC2ED2F6F11B1E27"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3C610FA61B1ADEE0"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -514,7 +701,18 @@
 			dependencies: ["1B697A89954BA5FE"]
 			description: ["{ftbquests.automation_age.smds.description}"]
 			id: "55D8D982524DA85E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "68FD0691FF6E5296"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "596F793272FE0A6A"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -555,7 +753,18 @@
 			dependencies: ["1B697A89954BA5FE"]
 			description: ["{ftbquests.automation_age.hv_upgrade_kit.description}"]
 			id: "759FF87FC22D814D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2D5B9F92804B6872"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "76A50DFAE09F8998"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -585,7 +794,18 @@
 			]
 			description: ["{ftbquests.automation_age.energy_crystal.description}"]
 			id: "7B0133D388101F68"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4206D9F1712CA488"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3FDC70995B21E529"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -603,7 +823,18 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			description: ["{ftbquests.automation_age.hv_autoclave.description}"]
 			id: "2D089B0427CFDBBE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "57F7650C81D5382A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "289E7492A240586B"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -621,7 +852,18 @@
 			dependencies: ["7B0133D388101F68"]
 			description: ["{ftbquests.automation_age.nanomuscle_armor.description}"]
 			id: "7E670308A773A07E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "65D2FB2C955ABAEC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6B9D1D6EEF48C5A4"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -661,7 +903,18 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			description: ["{ftbquests.automation_age.cleanroom.description}"]
 			id: "17C1292018AE363E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "585C7BB804A64406"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0DF694E3A6C0799D"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -680,7 +933,18 @@
 			dependencies: ["52FE319F5E176C37"]
 			description: ["{ftbquests.automation_age.hv_circuit_assembler.description}"]
 			id: "47CD61D6ECD3DC7D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5128A366963937DC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "02612C98685AC3EB"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -698,7 +962,18 @@
 			dependencies: ["47CD61D6ECD3DC7D"]
 			description: ["{ftbquests.automation_age.micro_processor_mainframe.description}"]
 			id: "62BA581B2918BB7B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F42906D6310C0CAD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "28AD2132C6479CB0"
 				item: "lightmanscurrency:coin_gold"
@@ -722,7 +997,18 @@
 			]
 			description: ["{ftbquests.automation_age.ev_64a_energy_converter.description}"]
 			id: "5D3006AB62E2CE9B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4E51DD80BB126969"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "601186952EBAB995"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -764,9 +1050,8 @@
 				}
 				{
 					id: "0708A49A101103CD"
-					item: "start_core:ev_64a_energy_converter"
-					optional_task: true
-					type: "item"
+										optional_task: true
+					type: "checkmark"
 				}
 			]
 			x: -0.5d
@@ -776,7 +1061,18 @@
 			dependencies: ["5BA3F17E1C7BE599"]
 			description: ["{ftbquests.automation_age.enderium_wire.description}"]
 			id: "77303F30F0A44393"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A165FB4635ABF2D5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "59B7A01CB85BA964"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -794,7 +1090,18 @@
 			dependencies: ["1DA6B3308C263A6F"]
 			description: ["{ftbquests.automation_age.enderium_ingot.description}"]
 			id: "5BA3F17E1C7BE599"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "436A9D185D8BEDD9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "363322517E6CC58D"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -815,7 +1122,18 @@
 			]
 			description: ["{ftbquests.automation_age.nichrome_ingot.description}"]
 			id: "32B878D63A6AB6D3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "97912DB8A0ADC449"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6998E98E8D6DD7F7"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -836,7 +1154,18 @@
 			]
 			description: ["{ftbquests.automation_age.nichrome_coil.description}"]
 			id: "1DA6B3308C263A6F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C2AA9EEB2082A25"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "4741EA9D2EA236FC"
 				item: "lightmanscurrency:coin_gold"
@@ -859,7 +1188,18 @@
 			]
 			description: ["{ftbquests.automation_age.ev_machine_hull.description}"]
 			id: "74749B089D50329C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "630A708EEFF7BB85"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "27CD4AD7BE3E9087"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -880,7 +1220,18 @@
 			]
 			description: ["{ftbquests.automation_age.ev_upgrade_kit.description}"]
 			id: "60EB030A899ADE28"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "982E51B65218500D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "510254539341E7E3"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -907,7 +1258,18 @@
 			dependencies: ["74749B089D50329C"]
 			description: ["{ftbquests.automation_age.ev_assembler.description}"]
 			id: "6060E79B2D08912D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F7BB32A066A21153"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "66C5AD2F5A6D654C"
 				item: "lightmanscurrency:coin_gold"
@@ -928,7 +1290,18 @@
 			description: ["{ftbquests.automation_age.vacuum_freezer.description}"]
 			hide_dependent_lines: true
 			id: "1646D6D439B260D3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2314A43AA9B20C59"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7429BB3E22C2DF27"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -947,7 +1320,18 @@
 			description: ["{ftbquests.automation_age.multiblock_upgrade_kit.description}"]
 			hide_dependent_lines: true
 			id: "5B70B63D4157594F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ADBE947A05DC1BF7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "642F8A4F1ECE22CD"
 				item: "lightmanscurrency:coin_gold"
@@ -972,7 +1356,18 @@
 			description: ["{ftbquests.automation_age.distillation_tower.description}"]
 			icon: "gtceu:distillation_tower"
 			id: "170C262792DA7123"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D7F82C4CA9CA6883"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "45C8F1B5FB0A96CA"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1004,7 +1399,18 @@
 			description: ["{ftbquests.automation_age.oil.description}"]
 			icon: "gtceu:oil_bucket"
 			id: "1B0A7CF5BE5D71FE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "571236993AD20795"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "78976723BD15C03B"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1023,7 +1429,18 @@
 			description: ["{ftbquests.automation_age.desulfurize.description}"]
 			icon: "gtceu:sulfur_dust"
 			id: "1A05644388327FA4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "55409B29C1DBF284"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1A4C0A26489CA02E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1042,7 +1459,18 @@
 			description: ["{ftbquests.automation_age.cracker.description}"]
 			icon: "gtceu:cracker"
 			id: "22F56435C5449158"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AE8540C34B72E7D4"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "336298AD9BCF6974"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1078,7 +1506,18 @@
 			description: ["{ftbquests.automation_age.distilling.description}"]
 			icon: "gtceu:dichlorobenzene_bucket"
 			id: "439D8AE6D3DC41AF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "62676C3873242668"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "0C782E6F3678C392"
 				item: "lightmanscurrency:coin_gold"
@@ -1098,7 +1537,18 @@
 			dependencies: ["439D8AE6D3DC41AF"]
 			description: ["{ftbquests.automation_age.styrene_butadiene_rubber.description}"]
 			id: "38C9D56C7F821B5C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "98F2F2434794780F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "31FAA10AB69D2B2D"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1119,7 +1569,18 @@
 			]
 			description: ["{ftbquests.automation_age.ev_energy_input_hatch.description}"]
 			id: "75CCD3B6125B55C4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8EA195B61F41E308"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7F2DC78F0E3D256E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1141,7 +1602,18 @@
 			]
 			description: ["{ftbquests.automation_age.rtm_alloy_coil.description}"]
 			id: "3B2D79D40B9617D5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2BEAC0841019CD33"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "732A7D6E95439379"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1164,7 +1636,18 @@
 			]
 			description: ["{ftbquests.automation_age.tungsten_steel_ingot.description}"]
 			id: "4BCE8A9EBDF113CE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D29B0833F0BE49CD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0CB27DBB660355C2"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1186,7 +1669,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.automation_age.liquid_airs.description}"]
 			id: "39FF89B370D09B88"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF281FFBD9DF4A91"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "416E66E544A563FC"
 				item: "lightmanscurrency:coin_gold"
@@ -1221,7 +1715,18 @@
 			dependencies: ["74749B089D50329C"]
 			description: ["{ftbquests.automation_age.cupric_chloride_solution.description}"]
 			id: "001252911D2DA7C3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "954363761FD9835F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "04F9F912A7019060"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1240,7 +1745,18 @@
 			description: ["{ftbquests.automation_age.mpic_chip.description}"]
 			icon: "gtceu:mpic_chip"
 			id: "2D4F9DFF6B559C65"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4E75AFAC19E80A51"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "75C3D00737014C3F"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1273,7 +1789,18 @@
 			dependencies: ["6EB85BBD539AEB57"]
 			description: ["{ftbquests.automation_age.phosphorus_wafer.description}"]
 			id: "2CABFCC73E33E133"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AA451243C532488F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "4012A41A880533F7"
 				item: "lightmanscurrency:coin_gold"
@@ -1293,7 +1820,18 @@
 			dependencies: ["75CCD3B6125B55C4"]
 			description: ["{ftbquests.automation_age.ev_energy_input_hatch_4a.description}"]
 			id: "32FF3127152DCD7D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F2F39BEB4ED44A9A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3C609B1EA15887CC"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1311,7 +1849,18 @@
 			dependencies: ["32FF3127152DCD7D"]
 			description: ["{ftbquests.automation_age.ev_energy_input_hatch_16a.description}"]
 			id: "65705AECA837EE4C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "80CE700F0B840EDA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "05AD2B7C5A5ECE0E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1329,7 +1878,18 @@
 			dependencies: ["2231C06CE59E0074"]
 			description: ["{ftbquests.automation_age.phosphorus_boule.description}"]
 			id: "6EB85BBD539AEB57"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0592AE2AA102D9F0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0E4C76EDAE1E68F1"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1351,7 +1911,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.automation_age.phosphorus_dust.description}"]
 			id: "2231C06CE59E0074"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A203D93D49808C52"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "437765BD288B060E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1369,7 +1940,18 @@
 			dependencies: ["2CABFCC73E33E133"]
 			icon: "gtceu:soc"
 			id: "4C9AB0E06EB7C099"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "09D2FA4A2D7A8855"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1A3C9897E5D5AB62"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1406,7 +1988,18 @@
 			]
 			description: ["{ftbquests.automation_age.ev_circuit_assembler.description}"]
 			id: "574ECD841D0D2AD7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9EB21403C651FB60"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "454446B7F35018F3"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1428,7 +2021,18 @@
 			]
 			description: ["{ftbquests.automation_age.nano_processor.description}"]
 			id: "0514DE717001A062"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1AADBD9C83CD775E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "546570E01303C2B2"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1446,7 +2050,18 @@
 		{
 			dependencies: ["0514DE717001A062"]
 			id: "497833345EB46A47"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "411CE4ABB75B5BDF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "22E64E86F277012F"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1467,7 +2082,18 @@
 				"737C84EA25886EC9"
 			]
 			id: "0C0C0FBDE1760110"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BE246EDFCE07104D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "253695E092304D40"
 				item: "lightmanscurrency:coin_gold"
@@ -1488,7 +2114,18 @@
 			dependencies: ["076532C492102F8E"]
 			description: ["{ftbquests.automation_age.epoxy_circuit_board.description}"]
 			id: "059FD3E475A05070"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "74DB51C8612B490B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1F3EC27C4996E6A2"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1518,7 +2155,18 @@
 			description: ["{ftbquests.automation_age.nano_cpu_chip.description}"]
 			icon: "gtceu:nano_cpu_chip"
 			id: "6F008C23D5DE50D6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "76369A01892AB193"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "77E8DB9F8F608296"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1544,7 +2192,18 @@
 		{
 			dependencies: ["4D49884E7F5BCBB4"]
 			id: "076532C492102F8E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2D49A2DAF2138B5E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7C1232DD7919F311"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1564,7 +2223,18 @@
 			hide_dependent_lines: true
 			icon: "gtceu:nor_memory_chip"
 			id: "737C84EA25886EC9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EEFCAD37C4F5C999"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0841DE5676812FEF"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1600,7 +2270,18 @@
 			]
 			description: ["{ftbquests.automation_age.iv_energy_input_hatch.description}"]
 			id: "7CACFC7C9101EA59"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "13083276B5CA810C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "524F28B3FD185A74"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1621,7 +2302,18 @@
 			]
 			description: ["{ftbquests.automation_age.iv_assembler.description}"]
 			id: "5CB82E9BED342EB2"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5BC37D26E1D6842F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "5E45BE6C805396E0"
 				item: "lightmanscurrency:coin_gold"
@@ -1641,7 +2333,18 @@
 			dependencies: ["4BCE8A9EBDF113CE"]
 			description: ["{ftbquests.automation_age.iv_machine_hull.description}"]
 			id: "4D9DAED52FF74B8B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1C539D711A9A7262"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2F601584CF53D9C4"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1659,7 +2362,18 @@
 			dependencies: ["7CACFC7C9101EA59"]
 			description: ["{ftbquests.automation_age.iv_energy_input_hatch_4a.description}"]
 			id: "4A45669665626026"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "73A5908BAFD01FCF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5DE3ED7BA8D48DB0"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1677,7 +2391,18 @@
 			dependencies: ["4A45669665626026"]
 			description: ["{ftbquests.automation_age.iv_energy_input_hatch_16a.description}"]
 			id: "528253AC30E635F1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F15EEE71605B77F1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6EA3EBDFA6E4910A"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1695,7 +2420,18 @@
 			dependencies: ["1C05C80BCB4736B6"]
 			description: ["{ftbquests.automation_age.shellite_wire.description}"]
 			id: "15CAE17A4EF1F7E9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8298573D100ED531"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "258640534B0E3510"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1713,7 +2449,18 @@
 			dependencies: ["3B2D79D40B9617D5"]
 			description: ["{ftbquests.automation_age.shellite_ingot.description}"]
 			id: "1C05C80BCB4736B6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "13CD2950BE6407E9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "415D9C74355CF8C9"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1737,7 +2484,18 @@
 			hide_dependency_lines: true
 			icon: "gtceu:hpic_chip"
 			id: "05F2C7351FF1B0E5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E91176C1DC3E034C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "422D2728910C5664"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1768,7 +2526,18 @@
 			]
 			description: ["{ftbquests.automation_age.advanced_smds.description}"]
 			id: "18A88F62B17CE9EC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "29870CEB4DE48B33"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2CA1A500A6D1550C"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1812,7 +2581,18 @@
 			]
 			description: ["{ftbquests.automation_age.hssg_coil.description}"]
 			id: "689150D2A185216C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "916546F23947F697"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0E893C06186BCA22"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1832,7 +2612,18 @@
 			description: ["{ftbquests.automation_age.hssg_ingot.description}"]
 			hide_dependency_lines: true
 			id: "06FCA7209B892A81"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4287EC54867AAAC1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "19AE750E78CB2C8B"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1850,7 +2641,18 @@
 			dependencies: ["689150D2A185216C"]
 			description: ["{ftbquests.automation_age.hsse_ingot.description}"]
 			id: "630C93730FCF07D7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7338C6E7427EA737"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2731573D0E9BEDAA"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1868,7 +2670,18 @@
 			dependencies: ["689150D2A185216C"]
 			description: ["{ftbquests.automation_age.hsss_ingot.description}"]
 			id: "71A44D3F0F20E329"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6BBCFCE4842DB85B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "101A195EDCC51F0C"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1886,7 +2699,18 @@
 			dependencies: ["10F2237FF0C87F62"]
 			description: ["{ftbquests.automation_age.graphene_dust.description}"]
 			id: "687C720033164A7B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3D36C1E5E6E6432F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0BD87C29D60BCC50"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -1904,7 +2728,18 @@
 			dependencies: ["3B2D79D40B9617D5"]
 			description: ["{ftbquests.automation_age.alloy_blast_smelter.description}"]
 			id: "664E782C6A24D9F1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "720FADF45396DE90"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "3683772979FB1CC1"
 				item: "lightmanscurrency:coin_gold"
@@ -1929,7 +2764,18 @@
 			description: ["{ftbquests.automation_age.nuclear_reactor.description}"]
 			id: "68865F1DDBFFFACE"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7AA3229D72BF2F9D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7E70C6C6130F88D8"
 				item: "lightmanscurrency:coin_gold"
@@ -1955,7 +2801,18 @@
 			description: ["{ftbquests.automation_age.radon.description}"]
 			hide_dependent_lines: true
 			id: "2DB216B224F2E8EF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "33084EF78AD7803A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "3FFB7996ABA8F5EA"
 				item: "lightmanscurrency:coin_gold"
@@ -1974,6 +2831,16 @@
 			id: "56B0A897E7C7C25C"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5304E86B2FAA3BB9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "02A369FF9CB41D88"
 				title: "{ftbquests.positioner.title}"
@@ -1987,6 +2854,16 @@
 			icon: "gtceu:nand_memory_chip"
 			id: "5026437079530A67"
 			subtitle: "{ftbquests.automation_age.nand_chips.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "709F7FB983071853"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "78983E5E875409CA"
@@ -2015,6 +2892,16 @@
 			description: ["{ftbquests.automation_age.power_chapter.description}"]
 			icon: "gtceu:europium_quadruple_cable"
 			id: "0B36E111D8F13F49"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "417B667342E1BE5A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6CBB8D7367F787C3"
 				title: "{ftbquests.automation_age.power_chapter.title}"
@@ -2027,7 +2914,18 @@
 			dependencies: ["3306CAE5E57839A2"]
 			description: ["{ftbquests.automation_age.laminated_glass.description}"]
 			id: "020048FAC9576691"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1ABAB7D0D2BC11B2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "64A00C5F06E018B8"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2045,7 +2943,18 @@
 			dependencies: ["020048FAC9576691"]
 			description: ["{ftbquests.automation_age.industrial_barrel.description}"]
 			id: "3DBCF29F5183C6C5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DDC9C2A2B2CEE8B1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "07A08D452D47B133"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2063,6 +2972,16 @@
 			description: ["{ftbquests.automation_age.pyrolysed_oil.description}"]
 			icon: "minecraft:spruce_log"
 			id: "74186F521D41913D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "858BAB1A9B595C6C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0E8DB02CDB2185B9"
 				title: "{ftbquests.automation_age.pyrolysed_oil.title}"
@@ -2076,7 +2995,18 @@
 			description: ["{ftbquests.automation_age.carbon_fibers.description}"]
 			id: "4FF433145C67693F"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "27FC35314ED363AB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "046C4EC8F24182DD"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2095,7 +3025,18 @@
 			description: ["{ftbquests.automation_age.borosilicate_glass_ingot.description}"]
 			id: "5B575348D2A871BB"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AD77810306A831BC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "70A331233F13EF2E"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2118,7 +3059,18 @@
 			description: ["{ftbquests.automation_age.super_ebf.description}"]
 			hide_dependent_lines: true
 			id: "09C1739F3FE3298F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "22608DE9738B3DA0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "776A9C03EC93261A"
 				item: "lightmanscurrency:coin_gold"
@@ -2138,7 +3090,18 @@
 			dependencies: ["4D9DAED52FF74B8B"]
 			description: ["{ftbquests.automation_age.large_machines.description}"]
 			id: "21B885A85E5764F9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8731DE0C6B525031"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "3B3A6178EA51F071"
 				item: "lightmanscurrency:coin_gold"
@@ -2256,7 +3219,18 @@
 				"2DB216B224F2E8EF"
 			]
 			id: "272CE9BF358D64FE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C530B9CFDBBADEA5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5C9D5984889446C9"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2273,7 +3247,18 @@
 			dependencies: ["46D5CAA2666803D4"]
 			description: ["{ftbquests.automation_age.twinite_wire.description}"]
 			id: "26126E2FA2B406E8"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DA4F438C17D73B36"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7A89F0E0D13FB121"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2290,7 +3275,18 @@
 			dependencies: ["689150D2A185216C"]
 			description: ["{ftbquests.automation_age.twinite_ingot.description}"]
 			id: "46D5CAA2666803D4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "14896817768F5672"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "559DE76C9E59DA34"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2308,6 +3304,16 @@
 			dependencies: ["52FE319F5E176C37"]
 			hide_dependent_lines: true
 			id: "2027351D670E4CC6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3ECA81D6230A0500"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "56732FAD42D189AA"
 				item: "gtceu:super_cutter"
@@ -2320,7 +3326,18 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			description: ["{ftbquests.automation_age.super_electric_ore_factory.description}"]
 			id: "4BDAE5D4790ED230"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A1B2B2AD8717E87D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "29E0C0EB00DB8AC2"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
@@ -2341,7 +3358,18 @@
 			description: ["{ftbquests.automation_age.large_chemical_reactor.description}"]
 			hide_dependent_lines: true
 			id: "1820787D031EAB15"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FA6B1DA47F6E1D0F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "3C77881803A22D67"
 				item: "lightmanscurrency:coin_gold"

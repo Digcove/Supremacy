@@ -67,7 +67,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 150"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "22385397363DF4AE"
 				silent: true
 				title: "150 Experience"
@@ -75,7 +75,7 @@
 			}]
 			shape: "gear"
 			tasks: [{
-				entity: "monsterplus:glow_skeleton"
+				entity: "minecraft:stray"
 				icon: "ftb_ph:glow_skeleton"
 				id: "7167EEEB84804B82"
 				type: "kill"
@@ -98,7 +98,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6B943AAF55E07A27"
 				silent: true
 				title: "1500 Experience"
@@ -114,7 +114,7 @@
 					value: 24L
 				}
 				{
-					entity: "realmrpg_wyrms:red_wyrm"
+					entity: "iceandfire:fire_dragon"
 					icon: "minecraft:blaze_powder"
 					id: "7B115CCAFCE6BF38"
 					type: "kill"
@@ -137,7 +137,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 7500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "123914C951A94532"
 				silent: true
 				title: "7500 Experience"
@@ -173,7 +173,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 12500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7649A7E781D80ED1"
 				silent: true
 				title: "12500 Experience"
@@ -209,7 +209,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 12500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "20605B6EF6CD2F14"
 				silent: true
 				title: "12500 Experience"
@@ -239,7 +239,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 15500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "296696F69ECA5142"
 				silent: true
 				title: "15500 Experience"
@@ -247,8 +247,8 @@
 			}]
 			shape: "gear"
 			tasks: [{
-				entity: "realmrpg_wyrms:ender_wyrm"
-				icon: "simplehats:dragonskullender"
+				entity: "alexsmobs:void_worm"
+				icon: "lightmanscurrency:coin_diamond"
 				id: "6E118349E188C606"
 				type: "kill"
 				value: 30L
@@ -269,7 +269,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 17000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6D23E2486AAAC0FD"
 				silent: true
 				title: "17000 Experience"
@@ -306,7 +306,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "57C29501D0B0F1B3"
 				silent: true
 				title: "250 Experience"
@@ -352,7 +352,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 6000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6D4E0BA3D852CCB7"
 				silent: true
 				title: "6000 Experience"

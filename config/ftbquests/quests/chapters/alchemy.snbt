@@ -10,6 +10,16 @@
 		{
 			description: ["Soul Land's alchemical tradition operates through the Spirit Herb Forest biome — a dimension-adjacent zone where spiritual herbs grow in concentrated qi. Herbs consumed raw give small temporary buffs with three-use diminishing returns. Pills crafted at the Cultivation Altar are more potent: Breakthrough Pills amplify advancement success, Foundation Pills heal Foundation Instability, and Recovery Pills restore spent qi. The Cultivation Altar functions as your spiritual laboratory."]
 			id: "645C17C6B1EF54F1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F03D33DC1E8468E8"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "52C6E4709C7F64EB"
 				title: "Spiritual Alchemy"
@@ -23,7 +33,18 @@
 			dependencies: ["645C17C6B1EF54F1"]
 			description: ["Qi Crystals are the fundamental currency of the Soul Land material system. Two Spirit Iron Ingots combined with an Amethyst Shard yield a single Qi Crystal at the crafting table. Qi Crystals are used as reagents in Soul Land and GTCEu gate recipes — the Cultivation Altar accepts them in advanced pill batches. Stack a supply early; demand only increases as cultivation tier rises."]
 			id: "AL01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1C348540F912D7D3"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AL03000000000001"
 				item: "soulland:spirit_iron_ingot"
@@ -42,7 +63,18 @@
 			dependencies: ["AL01000000000001"]
 			description: ["Soul Crystals are a higher tier of qi-infused crystal produced at the Ars Nouveau Enchanting Apparatus. The ritual fuses spiritual qi with magical source alongside Blank Slates and Source Gems to produce a denser crystalline matrix. Soul Crystals bridge the Soul Land and Convergence Forge material chains — they are required in endgame Convergence recipes and cannot be obtained by any simpler method."]
 			id: "AL01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "719DF2A3D25692FF"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AL03000000000002"
 				item: "soulland:qi_crystal"
@@ -61,7 +93,18 @@
 			dependencies: ["AL01000000000002"]
 			description: ["Soul Forged Ingots combine Spirit Iron Ingots with Soul Crystals and Qi Crystals under EBF heat to produce the highest-tier Soul Land metallic material. Used in Convergence Forge gates and in GTCEu recipe chains that incorporate Soul Land metals. These ingots are the convergence point where Soul Land cultivation and Great Technology Electric meet — and proof that neither system is complete without the other."]
 			id: "AL01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D5FA50B54C628BA7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "AL03000000000003"
 				item: "mmorpg:currency/mirror"
 				type: "item"
@@ -78,6 +121,16 @@
 		{
 			description: ["Blood Magic converts Life Points sacrificed at the Blood Altar into crafted power. The altar's tier determines which recipes are available — each tier requires Reinforced, Infused, Demonically Infused, or Ethereal Slates placed as upgrades. Begin by building the altar using the Sacrificial Orb to self-sacrifice, then accumulate LP to start slate progression. The altar is your Blood Magic laboratory for everything that follows."]
 			id: "099035739255D6E7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D8F858A480F8B023"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7DD29638A4CE30B8"
 				title: "Blood Magic Alchemy"
@@ -91,7 +144,18 @@
 			dependencies: ["099035739255D6E7"]
 			description: ["The Blood Altar is the core Blood Magic crafting block and the entry point for the entire mod. In this pack it requires Manasteel Ingots rather than Gold, firmly gating it behind Botania progression. Once built, surround it with Rune of the Dagger, Speed Runes, and Sacrifice Runes to accelerate LP generation. Altar tier determines recipe access — tier 1 is the beginning, not the ceiling."]
 			id: "AL01000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8FBDF72E51CC2D65"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "AL03000000000004"
 				item: "minecraft:redstone"
@@ -110,7 +174,18 @@
 			dependencies: ["AL01000000000004"]
 			description: ["Blank Slates are the first step in the Blood Magic upgrade tier chain. An unadorned piece of smooth stone is soaked in the Blood Altar at tier 1, consuming LP to infuse it with bound blood magic. Slates progress through four grades — Blank, Reinforced, Imbued, Demonic, and Ethereal — each requiring more LP and a higher altar tier. Advancing the altar's slate tier unlocks progressively more powerful crafting recipes and higher maximum LP storage."]
 			id: "AL01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DBED815C8D4DB3F8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AL03000000000005"
 				item: "bloodmagic:blankslate"
@@ -129,7 +204,18 @@
 			dependencies: ["AL01000000000005"]
 			description: ["The Sigil of the Fast Miner accelerates mining speed while held or stored in a Sigil of Holding. It drains LP from your bound network continuously while active — a meaningful cost that makes managing your blood infrastructure necessary, not optional. Pair with passive LP regeneration rituals so active sigils do not drain you dry during extended mining sessions. The Sigil of the Fast Miner is the first practical return on your LP investment."]
 			id: "AL01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1EE6B25793576A7F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AL03000000000006"
 				item: "bloodmagic:blankslate"
@@ -148,7 +234,18 @@
 			dependencies: ["AL01000000000005"]
 			description: ["The Sigil of Air grants sustained levitation — a toggle-mode sigil that drains LP at a flat rate while airborne. Flight in Blood Magic carries a direct LP cost, making blood network infrastructure necessary before it is usable for extended exploration. The Sigil of Air effectively gates aerial travel behind a functioning LP generation system. It is one of the most powerful mobility tools in the early-magic stack, but it will drain an unprepared network dry within seconds."]
 			id: "AL01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0D6E0D220453C57B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AL03000000000007"
 				item: "minecraft:feather"
@@ -167,7 +264,18 @@
 			dependencies: ["AL01000000000006", "AL01000000000007"]
 			description: ["The Ritual Diviner is a wand that places Ritual Stones in the correct pattern for a given ritual when used on a Master Ritual Stone. Without it, ritual layouts require exact memorization or an external reference chart. Blood Magic rituals include passive LP regeneration from nearby mobs, crop growth acceleration, mob binding for will crystal generation, and dungeon summoning. The Diviner removes the barrier between wanting a ritual and having it."]
 			id: "AL01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E45EA607649128DE"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "AL03000000000008"
 				item: "minecraft:stone_bricks"
@@ -186,7 +294,18 @@
 			dependencies: ["AL01000000000008"]
 			description: ["Living Armor is Blood Magic's endgame protective system — armor that grows and adapts based on your behavior. A fresh set starts with no inherent stats; upgrades are applied by binding training data from damage received, mining speed, and LP usage into upgrade points. Over time it becomes one of the most effective armor sets in the pack: customizable, upgradeable, and integrated directly into your blood network. The upgrade core is the seed."]
 			id: "AL01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3AEA63558ACC96BA"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "AL03000000000009"
 				item: "mmorpg:currency/mirror"
 				type: "item"
@@ -203,7 +322,18 @@
 		{
 			description: ["Ars Nouveau runs on Source — a magical energy generated by Sourcelinks placed near plants, fires, Mana Jars, or Lily Pads of Fertility. Source Gems are crystallized Source, used for crafting glyphs, armor, and Enchanting Apparatus recipes. The entire Ars Nouveau material chain begins with generating Source: build Sourcelinks and a Source Jar before attempting any further AN progression. Without Source, the mod is a locked door."]
 			id: "AL01000000000010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "35045B371286B743"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "AL03000000000010"
 				item: "ars_nouveau:source_gem"
@@ -222,7 +352,18 @@
 			dependencies: ["AL01000000000010"]
 			description: ["The Enchanting Apparatus is Ars Nouveau's primary crafting block. Surround it with Pedestals loaded with reagent items, supply Source from a linked Source Jar, and place the input item in the center slot — the Apparatus processes everything into the crafted output. All high-tier Ars Nouveau gear, spellbooks, and unique materials pass through the Apparatus. Build it once and use it for the entire magic tech tree."]
 			id: "AL01000000000011"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E591F2C64CEF546"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AL03000000000011"
 				item: "ars_nouveau:source_gem"
@@ -241,7 +382,18 @@
 			dependencies: ["AL01000000000011"]
 			description: ["The Alchemist's Crown is a mid-tier Ars Nouveau armor piece crafted at the Enchanting Apparatus. Wearing it reduces the Source cost of active spells. Wearing two or more pieces of the Alchemist's set grants passive Source regeneration based on nearby Sourcelinks. The crown unlocks the armor tier — completing the full Alchemist set (crown, robes, leggings, boots) makes a Source-efficient caster capable of sustained combat spellcasting without Source depletion."]
 			id: "AL01000000000012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6F97A58F189ABF59"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "AL03000000000012"
 				item: "ars_nouveau:source_gem"
@@ -259,6 +411,16 @@
 		{
 			description: ["Mine & Slash's Alchemy profession converts gathered herbs into potions at the Alchemy Station. Unlike combat skills, Alchemy levels up exclusively by crafting potions — not by killing mobs. Each brew awards profession experience, and higher alchemy levels unlock more potent recipe tiers. Potions scale with profession level, making a dedicated Alchemy build the single highest-leverage support investment for endgame atlas map content."]
 			id: "6AF61DE43B13E826"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DDF167B4D4D5D908"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B94FEAA23870FA6"
 				title: "Mine and Slash Alchemy"
@@ -272,7 +434,18 @@
 			dependencies: ["6AF61DE43B13E826"]
 			description: ["Mine & Slash herbs spawn in the overworld and inside dungeon maps. Collect them by right-clicking — no specific tool required. The Alchemy Station opens a recipe interface where you combine herbs in patterns to produce the intended potion tier. Begin with the lowest-tier health or mana potion and work upward through energy, resistance, and speed potions as your profession level increases. Consistency of brewing matters more than any single recipe."]
 			id: "AL01000000000013"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "69061ABA953AC25F"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AL03000000000013"
 				item: "minecraft:golden_apple"
@@ -291,7 +464,18 @@
 			dependencies: ["AL01000000000013"]
 			description: ["At Alchemy level 10, resistance and regeneration potions unlock. By level 20, speed and power variants become available. At level 30, the full potion roster is accessible — including endgame attribute potions that stack additively on top of Mine & Slash gear affixes. A high-level alchemist stocking their own supply has a decisive advantage in high-tier atlas maps: potions are the difference between clearing the opening room and dying in it."]
 			id: "AL01000000000014"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E1F5F0C70AB263E0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AL03000000000014"
 				item: "mmorpg:currency/mirror"
@@ -315,7 +499,18 @@
 			]
 			description: ["Blood sustains the altar. Source powers the apparatus. Qi refines the crystal. Herbs fill the flasks. Four alchemical traditions — each complete in itself, each contributing to a different axis of power. The convergence of all four is not a milestone. It is a method. The Grand Alchemist does not choose a discipline. They master the interplay between them."]
 			id: "AL01000000000015"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "45ADC0688A9B219D"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AL03000000000015"
 				item: "mmorpg:currency/mirror"

@@ -32,7 +32,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0D1D6AA7D64C4EE8"
 					silent: true
 					title: "1250 Experience"
@@ -41,7 +41,7 @@
 			]
 			subtitle: "Risk of Rain"
 			tasks: [{
-				entity: "riskofrain_mobs:lemurian_entity"
+				entity: "minecraft:piglin_brute"
 				icon: "nightlights:octopus_purple"
 				id: "13BF61F2B380DC9E"
 				type: "kill"
@@ -79,7 +79,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "124DB96872E3BE33"
 					silent: true
 					title: "1250 Experience"
@@ -120,7 +120,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6F4E216D74BB3692"
 					silent: true
 					title: "2000 Experience"
@@ -166,7 +166,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "01CC496042A47CC6"
 					silent: true
 					title: "1250 Experience"
@@ -218,7 +218,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3544639BC2E3A192"
 					silent: true
 					title: "1750 Experience"
@@ -235,7 +235,7 @@
 					value: 12L
 				}
 				{
-					entity: "realmrpg_wyrms:red_wyrm"
+					entity: "iceandfire:fire_dragon"
 					icon: "minecraft:blaze_powder"
 					id: "123E1ECFC39D0945"
 					type: "kill"
@@ -273,7 +273,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2604E2CD0966E3DD"
 					silent: true
 					title: "2250 Experience"
@@ -282,7 +282,7 @@
 			]
 			subtitle: "Fiery Adventure"
 			tasks: [{
-				entity: "monsterplus:lava_squid"
+				entity: "minecraft:magma_cube"
 				icon: "ftb_ph:lava_squid"
 				id: "6EC7ADFF37CD9E71"
 				type: "kill"
@@ -301,7 +301,7 @@
 				"&b+50% Physical to Fire Damage&r"
 				"&a5% Chance of Dropping Net Rune&r"
 			]
-			icon: "simplehats:burning_m_bison"
+			icon: "lightmanscurrency:coin_gold"
 			id: "05AD0B9A77F0325F"
 			rewards: [
 				{
@@ -314,7 +314,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "79DBFB1E7228F818"
 					silent: true
 					title: "2500 Experience"
@@ -331,7 +331,7 @@
 			shape: "diamond"
 			subtitle: "Fiery Adventure"
 			tasks: [{
-				entity: "monsterplus:mother_lava_squid"
+				entity: "mutantmonsters:mutant_zombie"
 				icon: "ftb_ph:lava_squid"
 				id: "01A75F2295A67935"
 				type: "kill"
@@ -372,7 +372,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 7500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2D5BE1067A169265"
 					silent: true
 					title: "7500 Experience"
@@ -416,7 +416,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "friendsandfoes:wildfire_crown"
+				id: "minecraft:blaze_rod"
 				tag: {
 					Damage: 0
 				}
@@ -433,7 +433,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "777824462105E261"
 					silent: true
 					title: "2500 Experience"
@@ -450,7 +450,7 @@
 			shape: "diamond"
 			subtitle: "Fiery Adventure"
 			tasks: [{
-				entity: "friendsandfoes:wildfire"
+				entity: "minecraft:blaze"
 				icon: "ftb_ph:wildfire"
 				id: "6541A85B5313AC4F"
 				type: "kill"
@@ -482,7 +482,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 4500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4E1BE362EAFA93B2"
 					silent: true
 					title: "4500 Experience"
@@ -538,7 +538,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6FEAA0D1FF245EA5"
 					silent: true
 					title: "2000 Experience"
@@ -547,10 +547,8 @@
 			]
 			subtitle: "Fiery Adventure"
 			tasks: [{
-				advancement: "friendsandfoes:nether/find_citadel"
-				criterion: ""
 				id: "6E38DD14F2F2B52D"
-				type: "advancement"
+				type: "checkmark"
 			}]
 			title: "A Castle in the Dark"
 			x: 4.5d
@@ -572,7 +570,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "46A8D34E894763CE"
 					silent: true
 					title: "1750 Experience"
@@ -602,7 +600,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "3F6B3CF23487B7AE"
 				silent: true
 				title: "1500 Experience"
@@ -646,7 +644,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "55F31513DD96482E"
 					silent: true
 					title: "2000 Experience"
@@ -746,7 +744,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 5000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "603037141A03BB23"
 					silent: true
 					title: "5000 Experience"
@@ -784,7 +782,7 @@
 				id: "3D45F31ADFFF1165"
 				item: {
 					Count: 1
-					id: "stalwart_dungeons:ancient_fire"
+					id: "minecraft:ghast_tear"
 					tag: {
 						Damage: 0
 					}
@@ -805,12 +803,12 @@
 			]
 			description: ["Defeat all of the mini-bosses of Act II to complete this achievement. Then show it off with your hot new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:fakefire"
+			icon: "lightmanscurrency:coin_gold"
 			id: "389CFAF34A692969"
 			rewards: [
 				{
 					id: "42E82408B8908750"
-					item: "simplehats:fakefire"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 				{
@@ -839,7 +837,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "35B0C955A02DD55F"
 				silent: true
 				title: "1000 Experience"
@@ -900,7 +898,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "1E68A513E06D4438"
 				silent: true
 				title: "1000 Experience"
@@ -909,7 +907,7 @@
 			subtitle: "DPS Meter"
 			tasks: [{
 				id: "201D6D22A54727D4"
-				item: "dummmmmmy:target_dummy"
+				item: "minecraft:armor_stand"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1049,7 +1047,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3EC017DEA512E603"
 					silent: true
 					title: "2500 Experience"
@@ -1074,7 +1072,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "031D6995F7F53586"
 				silent: true
 				title: "1250 Experience"
@@ -1105,7 +1103,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 2000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "49B99CB75F267628"
 				silent: true
 				title: "2000 Experience"
@@ -1142,7 +1140,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "266DF2422C836890"
 				silent: true
 				title: "1500 Experience"
@@ -1178,7 +1176,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 1500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4746DD37A746BEE2"
 					silent: true
 					title: "1500 Experience"
@@ -1201,12 +1199,12 @@
 				{
 					count: 32L
 					id: "52D1CE65EA3CECD6"
-					item: { Count: 32, id: "chococraft:gysahl_green" }
+					item: { Count: 32, id: "minecraft:golden_carrot" }
 					type: "item"
 				}
 				{
 					id: "4959FE52F1E77C4D"
-					item: "chococraft:chocobo_saddle"
+					item: "minecraft:saddle"
 					type: "item"
 				}
 			]
@@ -1233,7 +1231,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 5000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7E7FC3B9C75BC6F8"
 				silent: true
 				title: "5000 Experience"
@@ -1243,7 +1241,7 @@
 			subtitle: "Big Baddies"
 			tasks: [{
 				id: "02751A7FE39DD1D0"
-				item: "stalwart_dungeons:awful_crystal"
+				item: "minecraft:magma_cream"
 				type: "item"
 			}]
 			title: "Defenders of the Nether"
@@ -1280,7 +1278,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7CB1E8320DED257E"
 					silent: true
 					title: "2500 Experience"

@@ -46,7 +46,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 125"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "72B420BFEB4D2F50"
 					silent: true
 					title: "125 Experience"
@@ -107,7 +107,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "602249117C6F72CE"
 					silent: true
 					title: "250 Experience"
@@ -170,7 +170,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 150"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "44AC5FC2AAB8AE3B"
 					silent: true
 					title: "150 Experience"
@@ -224,7 +224,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2E30BFE015E9A7C4"
 					silent: true
 					title: "250 Experience"
@@ -281,7 +281,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "55703D37D362DFBB"
 					silent: true
 					title: "250 Experience"
@@ -322,7 +322,7 @@
 				""
 				"Now that you know who's behind the rise in hostile creatures, it's time to &ebring the fight&r to them."
 			]
-			icon: "simplehats:hockeymask"
+			icon: "lightmanscurrency:coin_iron"
 			id: "56FF2D399F956629"
 			rewards: [
 				{
@@ -341,7 +341,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2DA88FAF6ABE615D"
 					silent: true
 					title: "500 Experience"
@@ -404,7 +404,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "332F58B90C64735B"
 					silent: true
 					title: "500 Experience"
@@ -451,14 +451,14 @@
 				"&b+20% Elemental Resistance&r"
 				"&a10% Chance of Dropping Owd Rune&r"
 			]
-			icon: "simplehats:crown"
+			icon: "lightmanscurrency:coin_iron"
 			id: "3E1EC6A042CC9310"
 			rewards: [
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 2500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "61C78A9757B59F10"
 					silent: true
 					title: "2500 Experience"
@@ -472,7 +472,7 @@
 				}
 				{
 					id: "4DE8F79CE150A66E"
-					item: "simplehats:crown"
+					item: "lightmanscurrency:coin_iron"
 					title: "Crown"
 					type: "item"
 				}
@@ -526,7 +526,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5D215F1369125AE0"
 					silent: true
 					title: "750 Experience"
@@ -588,7 +588,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "78A0C5335BFD302F"
 					silent: true
 					title: "750 Experience"
@@ -635,7 +635,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 1000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "28B6646CDD4EB2CA"
 				silent: true
 				title: "1000 Experience"
@@ -737,7 +737,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 150"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7C2C1418BEA78297"
 					silent: true
 					title: "150 Experience"
@@ -746,7 +746,7 @@
 			]
 			subtitle: "The Underground"
 			tasks: [{
-				entity: "monsterplus:glow_skeleton"
+				entity: "minecraft:stray"
 				icon: "ftb_ph:glow_skeleton"
 				id: "60852F7DA78E9C10"
 				type: "kill"
@@ -771,7 +771,7 @@
 			]
 			icon: {
 				Count: 1
-				id: "monsterplus:darkstar"
+				id: "mowziesmobs:naga_fang"
 				tag: {
 					Damage: 0
 				}
@@ -794,7 +794,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2B3FC6937853FEFE"
 					silent: true
 					title: "750 Experience"
@@ -817,10 +817,10 @@
 			shape: "diamond"
 			subtitle: "The Underground"
 			tasks: [{
-				entity: "monsterplus:abyssologer"
+				entity: "minecraft:evoker"
 				icon: {
 					Count: 1
-					id: "monsterplus:darkstar"
+					id: "mowziesmobs:naga_fang"
 					tag: {
 						Damage: 0
 					}
@@ -876,7 +876,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 125"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "25DDEDBC06834D92"
 					silent: true
 					title: "125 Experience"
@@ -886,7 +886,7 @@
 			subtitle: "The Extras"
 			tasks: [{
 				id: "36690510781ADE4D"
-				item: "globalxp:xp_block"
+				item: "minecraft:experience_bottle"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1136,12 +1136,12 @@
 			]
 			description: ["Read all of the &eLost Pages&r of Act I to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:rabbitears"
+			icon: "lightmanscurrency:coin_iron"
 			id: "245FE9BAB6F6F545"
 			rewards: [
 				{
 					id: "64F19AB06C8D2784"
-					item: "simplehats:rabbitears"
+					item: "lightmanscurrency:coin_iron"
 					title: "Bunny Ears"
 					type: "item"
 				}
@@ -1171,7 +1171,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 750"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "66A431F69E17BCEF"
 				silent: true
 				title: "750 Experience"
@@ -1180,7 +1180,7 @@
 			subtitle: "Comforts"
 			tasks: [{
 				id: "43A73897ACED59B9"
-				item: "comforts:sleeping_bag_white"
+				item: "minecraft:white_bed"
 				type: "item"
 			}]
 			x: 10.5d
@@ -1198,7 +1198,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "598543904735A2F9"
 				silent: true
 				title: "100 Experience"
@@ -1228,7 +1228,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "76647498F1F2AB21"
 				silent: true
 				title: "250 Experience"
@@ -1276,7 +1276,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "20F3E066F9F557B2"
 				silent: true
 				title: "250 Experience"
@@ -1329,7 +1329,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 350"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "033A0EE9F9202F38"
 					silent: true
 					title: "350 Experience"
@@ -1346,7 +1346,7 @@
 			subtitle: "Your Own Lab"
 			tasks: [{
 				entity: "mutantmonsters:spider_pig"
-				icon: { Count: 2, id: "simplehats:pighead" }
+				icon: { Count: 2, id: "lightmanscurrency:coin_iron" }
 				id: "13735D779752C9AC"
 				type: "kill"
 				value: 2L
@@ -1368,7 +1368,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "400C5F606A015EFD"
 					silent: true
 					title: "250 Experience"
@@ -1385,7 +1385,7 @@
 			subtitle: "Wild Chocobos"
 			tasks: [{
 				id: "7280DA5550AACF38"
-				item: "chococraft:chocopedia"
+				item: "minecraft:lead"
 				type: "item"
 			}]
 			title: "Chococraft and Mounts"
@@ -1427,7 +1427,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "0860A55C77EDCD28"
 					silent: true
 					title: "250 Experience"
@@ -1474,7 +1474,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "608D719FC25BE82F"
 					silent: true
 					title: "250 Experience"
@@ -1554,7 +1554,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 75"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "50EBE487632EBE6A"
 					silent: true
 					title: "75 Experience"
@@ -1595,7 +1595,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1606255B78C8641A"
 					silent: true
 					title: "750 Experience"
@@ -1605,7 +1605,7 @@
 			subtitle: "The Extras"
 			tasks: [{
 				id: "06F088656E20DBC2"
-				item: "transmog:transmogrification_table"
+				item: "minecraft:smithing_table"
 				type: "item"
 			}]
 			title: "Looking Cooler"
@@ -1662,7 +1662,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 50"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1EDD4D6B60F3D507"
 					silent: true
 					title: "50 Experience"
@@ -1708,7 +1708,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "786CEB796300A021"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1745,7 +1745,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 150"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "659249CB38D17C7E"
 				silent: true
 				title: "150 Experience x Lv."
@@ -1782,7 +1782,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 150"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "0A9CB394B575F1E7"
 				silent: true
 				title: "150 Experience x Lv."
@@ -1826,7 +1826,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4FB3264B31FDBA13"
 				silent: true
 				title: "200 Experience x Lv."
@@ -1868,7 +1868,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 16000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "428905CD2D70AC2E"
 				silent: true
 				title: "16000 Experience"
@@ -1904,7 +1904,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6FF4F59F68177438"
 				silent: true
 				title: "100 Experience x Lv."
@@ -1930,7 +1930,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 350"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "50ED13731B6C4940"
 				silent: true
 				title: "350 Experience"
@@ -1984,7 +1984,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6745F9E1DFB1E3DF"
 					silent: true
 					title: "250 Experience"
@@ -2019,7 +2019,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 200"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "13D41258E79CCB8D"
 				silent: true
 				title: "200 Experience x Lv."
@@ -2057,7 +2057,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 16000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7591A16B2A0D894F"
 				silent: true
 				title: "16000 Experience"
@@ -2090,7 +2090,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 120"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "04E41165D049095A"
 				silent: true
 				title: "120 Experience x Lv."
@@ -2117,7 +2117,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "597C6F3B17BA40CF"
 					silent: true
 					title: "500 Experience"
@@ -2174,7 +2174,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 120"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "3F5DE85074BA9ED5"
 				silent: true
 				title: "120 Experience x Lv."
@@ -2207,7 +2207,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 150"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "2FE4336CA3038867"
 				silent: true
 				title: "150 Experience x Lv."
@@ -2266,7 +2266,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "10A31C7272F8C27A"
 				silent: true
 				title: "500 Experience"
@@ -2276,18 +2276,12 @@
 			tasks: [
 				{
 					id: "164D7BC468D2116C"
-					item: "bountiful:bountyboard"
+					item: "supplementaries:notice_board"
 					type: "item"
 				}
 				{
 					id: "264FCC3C7B7531D6"
-					item: {
-						Count: 1
-						id: "bountiful:decree"
-						tag: {
-							"bountiful:decree_data": "{}"
-						}
-					}
+					item: "minecraft:paper"
 					type: "item"
 				}
 			]
@@ -2326,7 +2320,7 @@
 			subtitle: "The Underground"
 			tasks: [{
 				id: "3002A87574C474C4"
-				item: "kobolds:kobold_template"
+				item: "minecraft:emerald"
 				type: "item"
 			}]
 			title: "Free Trimming"

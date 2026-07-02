@@ -188,7 +188,7 @@
 		{
 			dependencies: ["141911C5DD68CD2A"]
 			description: ["{ftbquests.mechanics.wireless_power.description}"]
-			icon: "start_core:uhv_64a_dream_link_energy_hatch"
+			icon: "minecraft:ender_eye"
 			id: "2F63F0E239737E38"
 			tasks: [{
 				id: "6FCD3DDD086DB963"
@@ -251,7 +251,7 @@
 				"{@pagebreak}"
 				"{ftbquests.mechanics.threading.description.6}"
 			]
-			icon: "start_core:threading_controller"
+			icon: "minecraft:comparator"
 			id: "143CFCE710B59455"
 			size: 1.0d
 			tasks: [{

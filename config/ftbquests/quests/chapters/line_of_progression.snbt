@@ -325,9 +325,19 @@
 			]
 			disable_toast: true
 			id: "5B91E94506FB37D6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5F55D0E919C93921"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5E8B1849D3F9B987"
-				item: "start_core:uv_fusion_reactor"
+				item: "gtceu:uv_fusion_reactor"
 				type: "item"
 			}]
 			x: 11.5d
@@ -336,6 +346,16 @@
 		{
 			dependencies: ["4B51B15B49620F57"]
 			id: "3953F99FD9B7CB61"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "44CD84C7DEC91BD0"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6E7C9CDE540B69E8"
 				item: "gtceu:cupronickel_coil_block"
@@ -351,6 +371,16 @@
 			]
 			disable_toast: true
 			id: "2DC49C15916A65C2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5958773AC4CAB3EA"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "29E9C0E62F507901"
 				item: "gtceu:kanthal_coil_block"
@@ -366,6 +396,16 @@
 			]
 			disable_toast: true
 			id: "29A965DF6AD94B80"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "41DA1BF61F5F28C4"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3B880A2C75C79995"
 				item: "gtceu:nichrome_coil_block"
@@ -381,6 +421,16 @@
 			]
 			disable_toast: true
 			id: "760F3F2D5BAA554D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "6D01CF939584BBAC"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "648045D6D6349B5B"
 				item: "gtceu:rtm_alloy_coil_block"
@@ -396,6 +446,16 @@
 			]
 			disable_toast: true
 			id: "289AF2AEBB2759A5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5C9830DDD135989A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2FAB11F6589A021D"
 				item: "gtceu:hssg_coil_block"
@@ -408,6 +468,16 @@
 			dependencies: ["289AF2AEBB2759A5"]
 			disable_toast: true
 			id: "6FCC918C3F8DF9D2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "EC401475086B2A37"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7E7F096E2ECD2644"
 				item: "gtceu:naquadah_coil_block"
@@ -420,6 +490,16 @@
 			dependencies: ["6FCC918C3F8DF9D2"]
 			disable_toast: true
 			id: "5EBE45141E470090"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "21017B51FFF77FF5"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "139A6FA8B8551CF7"
 				item: "gtceu:trinium_coil_block"
@@ -432,6 +512,16 @@
 			dependencies: ["5EBE45141E470090"]
 			disable_toast: true
 			id: "761E799972E221FF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "78D72C1301C99BE7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "01E7438144206D7A"
 				item: "gtceu:tritanium_coil_block"
@@ -443,6 +533,16 @@
 		{
 			dependencies: ["761E799972E221FF"]
 			id: "26172AE6B7457FF3"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7B39771FCF26E4D6"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "01BDFBE32900BB05"
 				item: "kubejs:zalloy_coil_block"
@@ -454,6 +554,16 @@
 		{
 			dependencies: ["5C15427D1679D4C3"]
 			id: "799097E0842CBF97"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A6DBE4143056DE45"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5AD036D3DB1F79A5"
@@ -493,6 +603,16 @@
 		{
 			dependencies: ["6EB85BBD539AEB57"]
 			id: "603BAC558368B935"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BEB6B0E813762058"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "373022AEC280DFC3"
@@ -527,6 +647,16 @@
 		{
 			dependencies: ["0F7A1EA1AB52F795"]
 			id: "4B83C0BEDE616449"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3034E9936AA412F0"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "70C1C8DDF44068E1"
@@ -546,6 +676,16 @@
 		{
 			dependencies: ["5C302CB1A1068EE1"]
 			id: "2FF72B005CDCDC1A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "972DCDF4B8F446A2"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "40B51C6418980A77"
@@ -566,6 +706,16 @@
 			dependencies: ["4FF433145C67693F"]
 			disable_toast: true
 			id: "32BC114D5C9630BC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "907984E3AA220E7A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "4FCD731015994620"
@@ -618,9 +768,19 @@
 			dependencies: ["6BD707B1FCC47DC7"]
 			disable_toast: true
 			id: "3883C93F8D66832B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D231842FBADE2F08"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3667178AAE6464EE"
-				item: "start_core:zpm_fusion_reactor"
+				item: "gtceu:zpm_fusion_reactor"
 				type: "item"
 			}]
 			x: 11.5d
@@ -630,6 +790,16 @@
 			id: "12CC0981524E1563"
 			invisible: true
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "008CE3EFB4C67BF0"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "03D2F19E7E4E8C5A"
 				title: "{ftbquests.positioner.title}"
@@ -644,6 +814,16 @@
 				"123F0103224A8C43"
 			]
 			id: "6C6BD459EC785524"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D23CEDEE5351CE85"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "02B80B4707C41992"
 				item: "kubejs:iv_universal_circuit"
@@ -655,6 +835,16 @@
 		{
 			dependencies: ["52FE319F5E176C37"]
 			id: "2C1F52216F0003E6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4A7C9F6E2816C2C3"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7CD0CAE01546EEB9"
 				item: "kubejs:ev_universal_circuit"
@@ -666,6 +856,16 @@
 		{
 			dependencies: ["73931EAA3EC5C9A9"]
 			id: "4CDBB14A234A17CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "574DCDD51F823CE2"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "62DFADAAB182EEAF"
 				item: "kubejs:hv_universal_circuit"
@@ -677,6 +877,16 @@
 		{
 			dependencies: ["7836F17B34B47B16"]
 			id: "5E106516E1301149"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "98F67D0BEA6B6DCB"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "60BB405CE6E39232"
 				item: "kubejs:mv_universal_circuit"
@@ -691,6 +901,16 @@
 				"4E1271A47BFEE3B9"
 			]
 			id: "088E1B8DCADB8E5F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1938607BF6D7B160"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0663B9E066B17558"
 				item: "kubejs:lv_universal_circuit"
@@ -702,6 +922,16 @@
 		{
 			dependencies: ["3B81632EF4586280"]
 			id: "725838B2E5E0F1ED"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "3189B3BF28BFD919"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "03CF650CB7C72095"
 				item: "kubejs:ulv_universal_circuit"
@@ -713,6 +943,16 @@
 		{
 			dependencies: ["53A9F3758C218CDC"]
 			id: "780DE9C5FAC1A07B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "8942876BAA02AB5A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "60F21FFB33D8FCB2"
 				item: "kubejs:luv_universal_circuit"
@@ -727,6 +967,16 @@
 				"26250BA1D20AE2DC"
 			]
 			id: "68F9735CB776A7A5"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DD425A4BC90EAA9C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5A0D53C0B8BFACF3"
 				item: "kubejs:zpm_universal_circuit"
@@ -738,6 +988,16 @@
 		{
 			dependencies: ["3FC351F05F2AC743"]
 			id: "0D4D54F0410EB78A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0A1CDD883C9F21C4"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "753E7D945E8041B9"
 				item: "kubejs:uv_universal_circuit"
@@ -749,6 +1009,16 @@
 		{
 			dependencies: ["707C2E9BA62A60C5"]
 			id: "435A9E0547D1D700"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A3427A27FA2EE4C1"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "52E18B22878011BB"
 				item: "kubejs:uhv_universal_circuit"
@@ -761,6 +1031,16 @@
 			dependencies: ["25583D0BF59E1BC8"]
 			id: "5584A2F87AC8631E"
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "30CE4F8BB834B9B1"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "58B4EB491E26C14B"
 				item: {
@@ -777,6 +1057,16 @@
 			dependencies: ["5944C4DE27F98FF3"]
 			id: "73B54F4D395FB5EC"
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FE6B74C8E5CF4D42"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1581178AE7A9FA51"
 				item: {
@@ -793,6 +1083,16 @@
 			dependencies: ["3B81632EF4586280"]
 			id: "4E1271A47BFEE3B9"
 			subtitle: "{ftbquests.line_of_progression.basic_electronic_circuit.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B035BC617AAAC743"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B2E15771AD1AAC7"
 				item: "gtceu:basic_electronic_circuit"
@@ -805,6 +1105,16 @@
 			dependencies: ["75942788374CDEF3"]
 			id: "297CE2423324B92B"
 			subtitle: "{ftbquests.line_of_progression.nand_chip.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DF8C30752AA30131"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3B54565722872EC4"
 				item: "gtceu:nand_chip"
@@ -819,10 +1129,19 @@
 				"482A52DE98E8E8F9"
 			]
 			id: "4EB51296C24A7AEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4894F803E748EDFF"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6808DD2FC6753A87"
-				item: "start_core:uev_fusion_reactor"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: 5.0d
@@ -830,6 +1149,16 @@
 		{
 			dependencies: ["26172AE6B7457FF3"]
 			id: "2F433D6475315B10"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D4A89060EF81DB0"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1C467DA0649A64D1"
 				item: "kubejs:magmada_alloy_coil_block"
@@ -841,6 +1170,16 @@
 		{
 			dependencies: ["2F433D6475315B10"]
 			id: "21A2A4E7121B56DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "51EE4163BD7EA1D6"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4728FB2F32BFDD15"
 				item: "kubejs:abyssal_alloy_coil_block"
@@ -855,6 +1194,16 @@
 				"395C32B51E768458"
 			]
 			id: "5FE5E2D9034DA872"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0AB1D272DC772E57"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "5489A4E5C4CDD453"
@@ -877,10 +1226,19 @@
 				"5B91E94506FB37D6"
 			]
 			id: "482A52DE98E8E8F9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "E6C4BAA4C9B349F9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "683B58DDBB478348"
-				item: "start_core:uhv_fusion_reactor"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: 3.5d
@@ -888,10 +1246,19 @@
 		{
 			dependencies: ["4EB51296C24A7AEB"]
 			id: "486FFD25F047E52C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7F56F1F432C62B75"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1A494CE1BE2CC207"
-				item: "start_core:uiv_fusion_reactor"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: 6.5d
@@ -899,9 +1266,19 @@
 		{
 			dependencies: ["67ABB3BF6D0C183B"]
 			id: "6BD707B1FCC47DC7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5680A07F4FB1F4F4"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "210DA27D042C1096"
-				item: "start_core:luv_fusion_reactor"
+				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]
 			x: 11.5d
@@ -911,6 +1288,16 @@
 			dependencies: ["421DF7880AD00F58"]
 			id: "26250BA1D20AE2DC"
 			subtitle: "{ftbquests.line_of_progression.quantum_processor_mainframe.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "20CB48197BFBA98B"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "4A26D2B8B936BCEF"
 				item: "gtceu:quantum_processor_mainframe"
@@ -922,6 +1309,16 @@
 		{
 			dependencies: ["3B1453C435E3950B"]
 			id: "0B105880E4EC0BD1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7C32F6E5D6C71B5E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6086AB2EA119E261"
 				item: "kubejs:uxv_universal_circuit"
@@ -934,6 +1331,16 @@
 			dependencies: ["52FE319F5E176C37"]
 			id: "123F0103224A8C43"
 			subtitle: "{ftbquests.line_of_progression.micro_processor_mainframe.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5EC018FE03C874B8"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7931ADCF2E9D396D"
 				item: "gtceu:micro_processor_mainframe"
@@ -946,10 +1353,19 @@
 			dependencies: ["25583D0BF59E1BC8"]
 			id: "1B2DAB9E61F1BC8D"
 			subtitle: "{ftbquests.line_of_progression.uhv_parallel_hatch.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FC712F737F9EC636"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "5D29BD3CAD284868"
-				item: "start_core:uhv_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 8.5d
 			y: 3.5d
@@ -958,10 +1374,19 @@
 			dependencies: ["5944C4DE27F98FF3"]
 			id: "1BCB63466873E3F4"
 			subtitle: "{ftbquests.line_of_progression.uev_parallel_hatch.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7634A31C0D041B57"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "2EABAEDD0AB34282"
-				item: "start_core:uev_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 8.5d
 			y: 5.0d
@@ -974,6 +1399,16 @@
 			]
 			id: "3377AD18FED17C17"
 			subtitle: "{ftbquests.line_of_progression.parallel_multiblocks.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AB080EED6CD34838"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "33180B5FFC0BA018"
@@ -1160,6 +1595,16 @@
 				"[ \"===> [\", { \"text\": \"X\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C78BD4A7A0B98E4\" } }, \"] <===\" ]"
 			]
 			id: "59A2D2A6FAB6B857"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "999FBE9377686A2E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6838C385EDE13940"
 				item: {
@@ -1235,10 +1680,19 @@
 		{
 			dependencies: ["1B2DAB9E61F1BC8D"]
 			id: "2017314705A370D7"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "0E91FF108D82C4B9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0E7A636846F4EAD4"
-				item: "start_core:uhv_absolute_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 3.5d
@@ -1246,10 +1700,19 @@
 		{
 			dependencies: ["1BCB63466873E3F4"]
 			id: "1AABEA43501AE48E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "829180B2A7C9E2F1"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "79E2BEC3F46FC70C"
-				item: "start_core:uev_absolute_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 5.0d
@@ -1257,10 +1720,19 @@
 		{
 			dependencies: ["7FABD2E818B70D35"]
 			id: "1F31C14571D0E728"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "81A9C46F2CD0EBF3"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3A46A0E4A0E1C7C1"
-				item: "start_core:uiv_absolute_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 6.5d
@@ -1273,6 +1745,16 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.line_of_progression.primitive_multiblocks.description}"]
 			id: "5433FBE02D3113D2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "9AB1D13DD02BF854"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "100C1BE8C7FA79BD"
 				item: {
@@ -1332,6 +1814,16 @@
 				"[ \"===> [\", { \"text\": \"X\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34EDF98BDC245F77\" } }, \"] <===\" ]"
 			]
 			id: "7C0D6B4B6BEB2A90"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F7D7353AF5B37614"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3C8A122102F67A52"
 				item: {
@@ -1403,6 +1895,16 @@
 				"[ \"===> [\", { \"text\": \"X\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"27F5DD0860E43CFF\" } }, \"] <===\" ]"
 			]
 			id: "7285911FDF79FFD6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A2374C29430CA06"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0475B22953A6154C"
 				item: {
@@ -1446,6 +1948,16 @@
 				"[ \"===> [\", { \"text\": \"X\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"143CFCE710B59455\" } }, \"] <===\" ]"
 			]
 			id: "15A8836C76F01893"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "87BC8AD74250F820"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "54C1B737D6BEACB9"
 				item: {
@@ -1513,6 +2025,16 @@
 		{
 			dependencies: ["314B6ABE72E4A438"]
 			id: "2AD42DCC4043A567"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "06072F835781AA68"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7865CC22C14E929D"
 				item: {
@@ -1580,6 +2102,16 @@
 				"[ \"===> [\", { \"text\": \"X\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2152FBCC48D5D7AC\" } }, \"] <===\" ]"
 			]
 			id: "6C2A5583F90D6298"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4786C41BBCAD662E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "0302EB54B8AC906D"
 				item: {
@@ -1647,6 +2179,16 @@
 		{
 			dependencies: ["493DD013C818BB7B"]
 			id: "78FD32AC70AFE0CD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "49808A18DFA9FC8C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "76FE6CE055369717"
 				item: {
@@ -1688,23 +2230,11 @@
 							}
 							{
 								Count: 1b
-								id: "start_core:hellforge"
-							}
-							{
-								Count: 1b
 								id: "gtceu:atomic_materialization_plant"
 							}
 							{
 								Count: 1b
 								id: "gtceu:draco_infusion"
-							}
-							{
-								Count: 1b
-								id: "start_core:abyssal_containment_room"
-							}
-							{
-								Count: 1b
-								id: "start_core:abyssal_harvester"
 							}
 							{
 								Count: 1b
@@ -1721,10 +2251,6 @@
 							{
 								Count: 1b
 								id: "gtceu:primordial_infusion"
-							}
-							{
-								Count: 1b
-								id: "start_core:fornaxs_infernal_rotary_engine"
 							}
 						]
 					}

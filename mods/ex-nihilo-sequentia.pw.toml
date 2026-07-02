@@ -1,0 +1,13 @@
+name = "Ex Nihilo: Sequentia"
+filename = "exnihilosequentia-1.20.1-5.0.0-build.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/WhVa4xyw/versions/fuELToQ4/exnihilosequentia-1.20.1-5.0.0-build.6.jar"
+hash-format = "sha512"
+hash = "c27ae2ebbb4a8f883a47512c25f357879b71ff9cd261d530566f6bb8dbdbb66324df3383939af85ee3146abffecdd92d38dbeb73ec378cfdfcc51231d008ec5b"
+
+[update]
+[update.modrinth]
+mod-id = "WhVa4xyw"
+version = "fuELToQ4"

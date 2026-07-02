@@ -52,14 +52,14 @@
 				}
 				{
 					id: "748848F226B0215D"
-					item: "stalwart_dungeons:chorundum"
+					item: "lightmanscurrency:coin_diamond"
 					type: "item"
 				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "720DE9C64034C331"
 					silent: true
 					title: "25000 Experience"
@@ -97,7 +97,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 17050"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6D064F971867F5AB"
 					silent: true
 					title: "17050 Experience"
@@ -148,7 +148,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 18250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3763B6E506B98B16"
 					silent: true
 					title: "18250 Experience"
@@ -200,7 +200,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 15750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3799D574CFAF86F6"
 					silent: true
 					title: "15750 Experience"
@@ -237,7 +237,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 27500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "45B406CDBD1F2A26"
 					silent: true
 					title: "27500 Experience"
@@ -286,7 +286,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "69E5D302B19DFCB4"
 					silent: true
 					title: "20500 Experience"
@@ -332,7 +332,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 30000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "32BBAFAF37E1995B"
 					silent: true
 					title: "30000 Experience"
@@ -387,7 +387,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 24750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3201ACAD0D312816"
 					silent: true
 					title: "24750 Experience"
@@ -442,7 +442,7 @@
 				}
 				{
 					id: "3422F45908DFFA9A"
-					item: "simplehats:paperbag"
+					item: "lightmanscurrency:coin_diamond"
 					title: "Paper Bag"
 					type: "item"
 				}
@@ -450,7 +450,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 35000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1E6490E881BC5AA2"
 					silent: true
 					title: "35000 Experience"
@@ -508,7 +508,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 19000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "568A68D30118ED12"
 					silent: true
 					title: "19000 Experience"
@@ -517,8 +517,8 @@
 			]
 			subtitle: "Endventure"
 			tasks: [{
-				entity: "realmrpg_wyrms:ender_wyrm"
-				icon: "simplehats:dragonskullender"
+				entity: "alexsmobs:void_worm"
+				icon: "lightmanscurrency:coin_diamond"
 				id: "18796A37D4AFC777"
 				type: "kill"
 				value: 12L
@@ -553,7 +553,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7E4B99CDF9BF72C0"
 					silent: true
 					title: "20500 Experience"
@@ -618,12 +618,12 @@
 			]
 			description: ["&eComplete&r all of the &equests&r in Act V to complete this achievement. Then show it off with your new hat!"]
 			hide_dependency_lines: true
-			icon: "simplehats:rgbsunglasses"
+			icon: "lightmanscurrency:coin_diamond"
 			id: "4ABF5C9676202847"
 			rewards: [
 				{
 					id: "32163DBB344176A5"
-					item: "simplehats:rgbsunglasses"
+					item: "lightmanscurrency:coin_diamond"
 					type: "item"
 				}
 				{
@@ -710,7 +710,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 17500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "43413049B841CA66"
 				silent: true
 				title: "17500 Experience"
@@ -745,7 +745,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 20500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "1D82E166861E21EA"
 					silent: true
 					title: "20500 Experience"
@@ -783,7 +783,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 16500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "09276F91256B5A16"
 				silent: true
 				title: "16500 Experience"
@@ -809,7 +809,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 25500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "4C937CC2C36181EE"
 				silent: true
 				title: "25500 Experience"
@@ -853,7 +853,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 26750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "23D7F4B1237A1E14"
 					silent: true
 					title: "26750 Experience"
@@ -888,7 +888,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 25500"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "2902961DDA1F44C2"
 				silent: true
 				title: "25500 Experience"
@@ -922,7 +922,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 18000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5AA6257209EEFA31"
 					silent: true
 					title: "18000 Experience"
@@ -992,7 +992,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 22750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7EC6BA5FD16D04E9"
 					silent: true
 					title: "22750 Experience"
@@ -1008,7 +1008,7 @@
 			subtitle: "Utilities"
 			tasks: [{
 				id: "613E6DBC63B51865"
-				item: "disenchanting:disenchanter"
+				item: "minecraft:grindstone"
 				type: "item"
 			}]
 			x: 4.5d
@@ -1029,7 +1029,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 22000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "03B6539402A8BCD3"
 					silent: true
 					title: "22000 Experience"
@@ -1044,8 +1044,8 @@
 			]
 			subtitle: "Outer End"
 			tasks: [{
-				entity: "outer_end:purpur_golem"
-				icon: "stalwart_dungeons:purpur_bricks_wall"
+				entity: "minecraft:shulker"
+				icon: "minecraft:purpur_block"
 				id: "34A5EB2CC3DF0793"
 				type: "kill"
 				value: 3L
@@ -1057,7 +1057,7 @@
 		{
 			dependencies: ["7EA6A0131C5FF143"]
 			description: ["You'll find &eStalkers, Entombed&r, and many other vicious creatures of the void in new End biomes. Check out the &eAzure Forest, Crystal Crag, and Primordial Pools&r!"]
-			icon: "outer_end:cooked_stalker_meat"
+			icon: "minecraft:chorus_fruit"
 			id: "594A647C82F46BD8"
 			rewards: [
 				{
@@ -1075,7 +1075,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 21500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7FAF80D19C2F9781"
 					silent: true
 					title: "21500 Experience"
@@ -1085,14 +1085,14 @@
 			subtitle: "Outer End"
 			tasks: [
 				{
-					entity: "outer_end:stalker"
-					icon: "outer_end:cooked_stalker_meat"
+					entity: "minecraft:enderman"
+					icon: "minecraft:chorus_fruit"
 					id: "6317E691F5CE9B74"
 					type: "kill"
 					value: 8L
 				}
 				{
-					entity: "outer_end:entombed"
+					entity: "minecraft:endermite"
 					icon: "chipped:simple_purpur_block_pillar"
 					id: "7E34EBD5D2D398F9"
 					type: "kill"
@@ -1119,7 +1119,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 25000"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6EE60480A254A4A7"
 					silent: true
 					title: "25000 Experience"
@@ -1135,8 +1135,8 @@
 			shape: "diamond"
 			subtitle: "Endventure"
 			tasks: [{
-				entity: "stalwart_dungeons:shelterer_without_armor"
-				icon: "stalwart_dungeons:shelterer_altar"
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "minecraft:end_stone_bricks"
 				id: "62D0B75824CE2C88"
 				type: "kill"
 				value: 1L
@@ -1164,7 +1164,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 22500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "375D153441230272"
 					silent: true
 					title: "22500 Experience"
@@ -1209,7 +1209,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 30000"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "6BB4ACC18BB30125"
 				silent: true
 				title: "30000 Experience"
@@ -1217,8 +1217,8 @@
 			}]
 			subtitle: "Home Sweet Home"
 			tasks: [{
-				entity: "remnant_bosses:ossukage"
-				icon: "remnant_bosses:ossukage_sword"
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "minecraft:netherite_sword"
 				id: "32F61D09125C7156"
 				type: "kill"
 				value: 1L

@@ -1,6 +1,30 @@
 # Dev Notes — Supremacy Modpack
 
-_Last updated: 2026-06-30. This file is the canonical pending-work tracker for future sessions._
+_Last updated: 2026-07-01. This file is the canonical pending-work tracker for future sessions._
+
+---
+
+## ✅ 2026-07-01 GAP-FIX SESSION (see pack_gap_analysis.md for the audit)
+
+- **9 mods added** (packwiz metafiles, index/pack hashes rebuilt): Stargate Journey, BOMD Forge (+CERBON's API), Aquamirae, Illager Invasion, LootJS, Expanded AE, Ex Nihilo Sequentia (+NovaCore). **Tetra + mutil removed** (weapons policy), config/tetra.toml deleted.
+- **All broken quest references fixed** — the audit found ~40 namespaces referenced by quests with no backing mod. Big-3 boss mods installed; everything else retargeted to installed equivalents or converted to checkmarks (start_core 105 refs, campaign small-mods, quality_of_life, storage_solutions RS→AE2 full rewrite, simplehats→tiered coins). Zero broken namespace refs remain.
+- **Star Tech kubejs content layer PORTED** from THETA-1-HOTFIX-3 (normal mode): `kubejs/{startup,server,client}_scripts/star_tech/`, merged assets (1,457 files incl. quest-lang `assets/ftbquestlocalizer` — quest text was showing raw `{ftbquests.csg.*}` keys before), data (incl. sgjourney structures + ruined portal replacements), `kubejs/config` (packmode=default). ~300 previously-phantom `kubejs:` items + all custom `gtceu:` machines now registered. Supremacy's 5 adapted compat scripts retired to `kubejs_retired/` (superseded by ST originals). Configs copied for sgjourney/exnihilo/expandedae. Dead ST scripts for absent mods removed (project_red, solar_energy, xycraft).
+- **MnS XP rewards**: 2,635 quests across 46 chapters now grant `/mine_and_slash give xp_times_lvl` (50 early / 100 mid / 150 late). Broken `ftb_ph:exp` icons (FTB Placeholders not installed) replaced with experience bottle.
+- **MnS entity configs**: 16 boss/mob mods tuned in `mmorpg_entity/all_mobs_in_mod/` (hp/dmg/loot/exp multipliers + min-level floors; cataclysm 4×HP floor-40 down to alexsmobs 1.3×).
+- **Ad Astra woven into Main Story**: 7 new quests in the_stars_await (NASA workbench → rocket → Moon → Desh → Mars → "Echoes of the Gate"); finale now requires the rocket arc. Ad Astra is the mechanism that leads into Stargate Journey.
+- **weapon_disable.js extended**: MCDW recipes removed mod-wide (+ loot stripped via LootJS). RoE kept (it's Recreation of Exile — MnS ecosystem). TACZ kept playable per decision.
+- **starter_cleanup.js rewritten**: wipe-then-regrant (quest book granted after wipe, 100-tick delay, new persistentData key `supremacy_starter_cleanup`).
+- **loot_drops.js written** (LootJS): all 9 Orb Forge inputs wired; structure chests sweetened with tiered coins.
+- Quest files were CRLF; edited files are now LF (cosmetic; explains large git diffs).
+
+### 🔴 NEW ITEMS REQUIRING IN-GAME TESTING (2026-07-01)
+1. **Boot test the ST layer** — expect nonfatal KubeJS log errors from ST scripts referencing absent mods (thermal.js/systeams, tags.js, recipe_helpers.js, sieving.js, mass_removals.js). Confirm packmode reads as `default`.
+2. **NovaCore jar is tagged NeoForge on Modrinth** (1.20.1 NeoForge = Forge-compatible); confirm it loads under Forge 47.
+3. **BOMD Forge port namespace** — quests use `bosses_of_mass_destruction:`; confirm the Forge port keeps it.
+4. **ST recipe philosophy tensions** (from ST `mass_removals.js`, now active): vanilla **Eye of Ender recipe removed** (conflicts with Campaign act_v End access timing — ST re-adds a gated path; verify players can reach the End at MnS act-v level), **create:andesite_alloy removed** (interacts with playtest note about early Create), **AE2 inscriber/charger recipe types removed** (GT-gated — conflicts with Logbook ae2.snbt teaching vanilla inscriber), thermal machines GT-gated.
+5. **LootJS verification** — `matchDimension` condition + loot table paths (`blue_skies:entities/summoner` etc.) need JEI/log confirmation; MnS `mmorpg:` item ids for chest injection still TODO (coins are placeholder).
+6. **Retargeted item/entity IDs to spot-check in JEI**: `mowziesmobs:naga_fang`, `functionalstorage:controller_extension`, `rftoolsbuilder:builder`, `thermal:dynamo_stirling`, `waystones:warp_scroll`/`warp_stone`, `supplementaries:notice_board`, `ad_astra:*` (space suit pieces, moon/mars stones), `gtceu:luv/zpm/uv_fusion_reactor`.
+7. **Starter kit** — verify wipe-then-regrant grants the quest book and nothing else is lost (existing playtest worlds will re-trigger the wipe once due to the new key).
 
 ---
 

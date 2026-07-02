@@ -52,6 +52,16 @@
 			id: "4DF07CB3D60C901C"
 			shape: "rsquare"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A303430902021CC4"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
@@ -74,7 +84,18 @@
 				"{image:kubejs:textures/quests/husk_structure.png width:360 height:180 align:center fit:true}"
 			]
 			id: "71145B6D6BA8016A"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F7FE1860F1CFC243"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "71AD72BA81F1063D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -92,7 +113,18 @@
 			dependencies: ["4DF07CB3D60C901C"]
 			description: ["{ftbquests.draconic_age.hellstones.description}"]
 			id: "709EF5314988C381"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B37ED068B2EE5ACC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5D45784E429EBA2F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -121,7 +153,18 @@
 			]
 			description: ["{ftbquests.draconic_age.cryostate_quantum_chiller.description}"]
 			id: "665FC02BC2BC414F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4F7EFF0398FFAAE7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "4E7C78B863728E16"
 				item: "lightmanscurrency:coin_diamond"
@@ -148,7 +191,18 @@
 			]
 			description: ["{ftbquests.draconic_age.hellforge.description}"]
 			id: "1EB60E6DE2086158"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E05C356EF2D0A17"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "185D1A2732AA70F4"
 				item: "lightmanscurrency:coin_diamond"
@@ -159,8 +213,7 @@
 			tasks: [
 				{
 					id: "5A3365B01BF98E8E"
-					item: "start_core:hellforge"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "04BFB2FB927005B1"
@@ -178,7 +231,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uev_alloys.description}"]
 			id: "059CB064A515B157"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "995055F266214A8A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "31E5B85946E6668B"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -213,7 +277,18 @@
 			description: ["{ftbquests.draconic_age.coolants.description}"]
 			icon: "gtceu:bec_og_bucket"
 			id: "70EEDB38B78F5C7F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ADA1455A70A47468"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "571DBC5F0C326282"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -251,7 +326,18 @@
 			dependencies: ["5224152A7D22A0B5"]
 			description: ["{ftbquests.draconic_age.magmada_alloy_coil.description}"]
 			id: "310FC3F86513555F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "91E6F89BACE8B270"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "65414C96C1276990"
 				item: "lightmanscurrency:coin_diamond"
@@ -274,7 +360,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uev_energy_input_hatch.description}"]
 			id: "799F6F79B9FF86DF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BABD364607D9B428"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "074DD9323BA686E2"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -295,7 +392,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uev_energy_input_hatch_4a.description}"]
 			id: "538113DD6E1EA84D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "66077E3C72BDD1E9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2F4C85BFA986611D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -313,7 +421,18 @@
 			dependencies: ["538113DD6E1EA84D"]
 			description: ["{ftbquests.draconic_age.uev_energy_input_hatch_16a.description}"]
 			id: "11971C9E5BF28E5C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "583DF99B99780565"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7F047D7FFE2D5BA3"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -332,7 +451,18 @@
 			description: ["{ftbquests.draconic_age.end_armor.description}"]
 			hide_dependency_lines: true
 			id: "6180202612DCDBF4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "55B6364FBC4C5E8C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "006592623F96E0FB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -405,6 +535,16 @@
 			id: "28DE3D2A96C4D0C8"
 			shape: "rsquare"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C73AC7D4DFA44635"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
@@ -419,7 +559,18 @@
 			dependencies: ["0168A45EB73911AC"]
 			description: ["{ftbquests.draconic_age.abyssal_harvester.description}"]
 			id: "18FD654260DFF1D6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E6ECB2A93E4BA01E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3E63D34C298D5B9F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -427,8 +578,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "1DBA5C2531A8F6B4"
-				item: "start_core:abyssal_harvester"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -6.5d
 			y: 5.0d
@@ -438,7 +588,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.draconic_age.dragon_cells.description}"]
 			id: "0168A45EB73911AC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8C33FE7DB846A22B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2208D0AE73F8D04F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -468,7 +629,18 @@
 			dependencies: ["059CB064A515B157"]
 			description: ["{ftbquests.draconic_age.uev_machine_hull.description}"]
 			id: "498E36C4683EAA6C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D2887C54D370A393"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "31D0FBC77051AC9D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -489,7 +661,18 @@
 			]
 			description: ["{ftbquests.draconic_age.draconic_processing_unit.description}"]
 			id: "1AF4BF803FEF14FE"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9CC106D4F3D2CBA7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2E1CEDC71658AC53"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -511,7 +694,18 @@
 			]
 			description: ["{ftbquests.draconic_age.voidic_metals.description}"]
 			id: "7EB9C44EE7515882"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1D94DE8B8006F8E0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1BB07819120B3601"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -551,7 +745,18 @@
 				"{ftbquests.draconic_age.draco_infusion.description.2}"
 			]
 			id: "395C32B51E768458"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2DD8EA1E50B33C0B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "232BBBF8A8E9703F"
 				item: "lightmanscurrency:coin_diamond"
@@ -576,7 +781,18 @@
 			description: ["{ftbquests.draconic_age.uiv_alloys.description}"]
 			hide_dependency_lines: true
 			id: "097D8B4DF03A8617"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E7ED106B8FBDB9F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "36AFA4CFB73E41F6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -613,7 +829,18 @@
 			]
 			description: ["{ftbquests.draconic_age.abyssal_alloy_coil.description}"]
 			id: "2DACE6EF41A118D9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A75B132C4AC29AA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "28CB3399C4DBB677"
 				item: "lightmanscurrency:coin_diamond"
@@ -633,7 +860,18 @@
 			dependencies: ["097D8B4DF03A8617"]
 			description: ["{ftbquests.draconic_age.uiv_machine_hull.description}"]
 			id: "3F9D1B0CED0D4133"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FED2F12C7176FE7D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "48554ED3B7411A9C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -654,7 +892,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uiv_energy_input_hatch.description}"]
 			id: "45E628CF1DA8D380"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F6EB1332B7898E03"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3931D2A84A679EEC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -675,7 +924,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uiv_energy_input_hatch_4a.description}"]
 			id: "69493DCA3D764771"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BAD2C7F8B1B94AF4"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2592355F8935A980"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -693,7 +953,18 @@
 			dependencies: ["69493DCA3D764771"]
 			description: ["{ftbquests.draconic_age.uiv_energy_input_hatch_16a.description}"]
 			id: "54944370404CEA94"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A219CCAB37A0EBD5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3ACAFF1C700E1EFF"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -712,7 +983,18 @@
 			description: ["{ftbquests.draconic_age.hellish_magmas.description}"]
 			icon: "gtceu:highly_unstable_nether_magma_bucket"
 			id: "1AEBAE3050B72906"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ED540BF2EB8672E0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "43B8FDF64F3E83FE"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -731,7 +1013,18 @@
 			description: ["{ftbquests.draconic_age.mystical_metals.description}"]
 			hide_dependent_lines: true
 			id: "0032335FFAE6E012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E10189194E83C038"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4508B9B5A9191A97"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -783,7 +1076,18 @@
 			dependencies: ["0168A45EB73911AC"]
 			description: ["{ftbquests.draconic_age.draco_circuit_assembler.description}"]
 			id: "1772F46C9EAF6FB7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "680CED46348E84AA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2149BF78BEF347F5"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -805,7 +1109,18 @@
 			]
 			description: ["{ftbquests.draconic_age.draconic_microchip_processor.description}"]
 			id: "169C2E9DA1CF8F53"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EFAC81FE7E59FC82"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3767B7D9C3E1212A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -824,7 +1139,18 @@
 			dependencies: ["169C2E9DA1CF8F53"]
 			description: ["{ftbquests.draconic_age.draconic_processor.description}"]
 			id: "26FDB9612063F49D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D9FCD4EC789BF1A8"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "369733BBEC093142"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -843,7 +1169,18 @@
 			dependencies: ["26FDB9612063F49D"]
 			description: ["{ftbquests.draconic_age.draconic_processor_assembly.description}"]
 			id: "66D49CB8D8819E3F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "10E3C93A1245CD84"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4F559A2D7738B87F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -862,7 +1199,18 @@
 			dependencies: ["66D49CB8D8819E3F"]
 			description: ["{ftbquests.draconic_age.draconic_processor_computer.description}"]
 			id: "6F3DF16481990D99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9AFF023855A648AD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4D321A14B798F316"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -881,7 +1229,18 @@
 			dependencies: ["6F3DF16481990D99"]
 			description: ["{ftbquests.draconic_age.draconic_processor_mainframe.description}"]
 			id: "5944C4DE27F98FF3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4BEDB282C7FFA90C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "7CA11CAA27400754"
 				item: "lightmanscurrency:coin_diamond"
@@ -902,7 +1261,18 @@
 			dependencies: ["5944C4DE27F98FF3"]
 			description: ["{ftbquests.draconic_age.uev_fusion_reactor.description}"]
 			id: "2E34F23A42004285"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D456A4BF8318C48F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "2E601807C6A28763"
 				item: "lightmanscurrency:coin_diamond"
@@ -912,8 +1282,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "68A19390992AB6E6"
-				item: "start_core:uev_fusion_reactor"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 3.5d
 			y: -3.0d
@@ -922,7 +1291,18 @@
 			dependencies: ["3AE729D3F47E9A2B"]
 			description: ["{ftbquests.draconic_age.draco_boule.description}"]
 			id: "06EC98F6E6AFC2AF"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B499697558149301"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "25348F8CF999B3FB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -940,7 +1320,18 @@
 			dependencies: ["06EC98F6E6AFC2AF"]
 			description: ["{ftbquests.draconic_age.draco_wafer.description}"]
 			id: "0DF30CDA8DE68E0C"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AFAB389F2BA46563"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "389DB35D298BFC27"
 				item: "lightmanscurrency:coin_diamond"
@@ -960,7 +1351,18 @@
 			dependencies: ["0DF30CDA8DE68E0C"]
 			description: ["{ftbquests.draconic_age.draco_advanced_soc_wafer.description}"]
 			id: "074635DC3322DC99"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E342CA690CAF0E8A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "741879FCA3600628"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -990,7 +1392,18 @@
 			description: ["{ftbquests.draconic_age.sterile_cleaning_maintenance_hatch.description}"]
 			hide_dependent_lines: true
 			id: "032E72446266F7D4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CF5FFA3E83385808"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6B358F196D9422BE"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -998,8 +1411,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "3DC8DB69B3F016B1"
-				item: "start_core:sterile_cleaning_maintenance_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -2.5d
 			y: -3.0d
@@ -1008,7 +1420,18 @@
 			dependencies: ["31F87896FF834E63"]
 			description: ["{ftbquests.draconic_age.abyssal_containment_room.description}"]
 			id: "09B55AFE7C06EC82"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "22E7ECEF829FBE6D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5C220EE9FD21B829"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1017,8 +1440,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "054C06846B9D4D16"
-				item: "start_core:abyssal_containment_room"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 5.5d
 			y: 1.0d
@@ -1028,7 +1450,18 @@
 			description: ["{ftbquests.draconic_age.draconyallium_ingot.description}"]
 			hide_dependency_lines: true
 			id: "37F9C85CFCFFDA5F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "652869CF4ABB85C9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "60D4025181F9B52A"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1049,7 +1482,18 @@
 			]
 			description: ["{ftbquests.draconic_age.uiv_auxiliary_boosted_fusion_reactor.description}"]
 			id: "38C2E3061C764F05"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "17067ACC8F4D6C95"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "40C1A432BCA32E06"
 				item: "lightmanscurrency:coin_diamond"
@@ -1059,8 +1503,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5BCB1B1022CB00AB"
-				item: "start_core:uiv_fusion_reactor"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: -1.0d
@@ -1073,7 +1516,18 @@
 			]
 			description: ["{ftbquests.draconic_age.pure_dragon_breath.description}"]
 			id: "3AE729D3F47E9A2B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0E483889DCD1BF8A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "418B437BE865C801"
 				item: "lightmanscurrency:coin_diamond"
@@ -1095,7 +1549,18 @@
 			description: ["{ftbquests.draconic_age.uipic_chip.description}"]
 			hide_dependent_lines: true
 			id: "694E1F6458D5F72F"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AF3BE778404D3732"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "09238F2539219DCC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1120,7 +1585,18 @@
 		{
 			dependencies: ["3B1453C435E3950B"]
 			id: "7FABD2E818B70D35"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5ABE57CFC190B658"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5913DB9A14802483"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1129,8 +1605,7 @@
 			subtitle: "{ftbquests.draconic_age.uiv_parallel_hatch.subtitle}"
 			tasks: [{
 				id: "1A9F5B4EAFB66C03"
-				item: "start_core:uiv_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 9.5d
 			y: -1.0d
@@ -1140,6 +1615,16 @@
 			invisible: true
 			optional: true
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "491A265D4C4A7E65"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "19E2EB40AB845664"
 				type: "checkmark"
@@ -1156,7 +1641,18 @@
 			]
 			description: ["{ftbquests.draconic_age.aurourium_ingot.description}"]
 			id: "218CABD676F3B732"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C6D1593422AB6148"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "265BFA194E2D1AB4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1179,7 +1675,18 @@
 			]
 			description: ["{ftbquests.draconic_age.mega_abs.description}"]
 			id: "5FEC7470D01CEBDD"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "07B8E3889E1F977A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "313934EB6CD7410B"
 				item: "lightmanscurrency:coin_diamond"
@@ -1199,7 +1706,18 @@
 			dependencies: ["5944C4DE27F98FF3"]
 			description: ["{ftbquests.draconic_age.uev_parallels.description}"]
 			id: "0ECE55AB7BBDAAA4"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "96721A50E39B1BD6"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "19D703078F0CF47C"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1209,13 +1727,11 @@
 			tasks: [
 				{
 					id: "1BD274EF66F992D9"
-					item: "start_core:uev_absolute_parallel_hatch"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "49D422384FDA1B13"
-					item: "start_core:uev_parallel_hatch"
-					type: "item"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.draconic_age.uev_parallels.title}"
@@ -1227,7 +1743,18 @@
 			description: ["{ftbquests.draconic_age.nyanium_ingot.description}"]
 			hide_dependency_lines: true
 			id: "1D94473AA9436C60"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4BE13B9DFE675076"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6FD29172BC5919BE"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1245,7 +1772,18 @@
 			dependencies: ["28DE3D2A96C4D0C8"]
 			description: ["{ftbquests.draconic_age.end_city.description}"]
 			id: "64780055536CEEF3"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "03B354C2728437AF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "25078307CEF39E7F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1270,6 +1808,16 @@
 			icon: "minecraft:dragon_breath"
 			id: "46DD931FCA5AF574"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "CB73E7C7A4F8789C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "10E4C7905079E82E"
 				title: "{ftbquests.draconic_age.dragon_breath_looping.title}"
@@ -1286,7 +1834,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.draconic_age.nether_talisman.description}"]
 			id: "7C65EDBD752F898D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "44313AE63B3973B9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7D864BD9CC68CDDB"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1308,7 +1867,18 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.draconic_age.end_talisman.description}"]
 			id: "4397DEEDB7C52BAC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A439DDBCEC546826"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "44B118BD6E9873F6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1325,7 +1895,18 @@
 		{
 			dependencies: ["5944C4DE27F98FF3"]
 			id: "46127DF821C7C175"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B0196F7B1EB765C7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "16763B12FE534552"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1333,8 +1914,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "765DD1CACEFD3F85"
-				item: "start_core:daydream_spire"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 3.5d
 			y: -1.0d
@@ -1343,7 +1923,18 @@
 			dependencies: ["16FDCABFC80579D5"]
 			description: ["{ftbquests.draconic_age.abyssal_processor_mainframe.description}"]
 			id: "3B1453C435E3950B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "660D9DD3B66A736B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6CB5C3D8188E33D0"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1363,7 +1954,18 @@
 			dependencies: ["3AE6E85C2FC76DE9"]
 			description: ["{ftbquests.draconic_age.abyssal_processor_computer.description}"]
 			id: "16FDCABFC80579D5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6A987D1DBF717291"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "748B871094F29C87"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1382,7 +1984,18 @@
 			dependencies: ["6F50E6C2CBCF8272"]
 			description: ["{ftbquests.draconic_age.abyssal_processor_assembly.description}"]
 			id: "3AE6E85C2FC76DE9"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1EBEA0C8D14A551D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1307F45A07A8F297"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1405,7 +2018,18 @@
 			]
 			description: ["{ftbquests.draconic_age.draconic_enrichment_serum.description}"]
 			id: "1799430093ABCC64"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1FB5B6BB55CFA6AC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "2C713C0E55A96415"
 				item: "lightmanscurrency:coin_diamond"
@@ -1426,7 +2050,18 @@
 				"694E1F6458D5F72F"
 			]
 			id: "4D556DE76399E083"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5762FA728D4C09B2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "058BF3F098253930"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1435,8 +2070,7 @@
 			subtitle: "{ftbquests.draconic_age.uiv_absolute_parallel_hatch.subtitle}"
 			tasks: [{
 				id: "2388751B6210D3C4"
-				item: "start_core:uiv_absolute_parallel_hatch"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 9.5d
 			y: -3.0d
@@ -1445,7 +2079,18 @@
 			dependencies: ["64DC78AF9E2FAB32"]
 			description: ["{ftbquests.draconic_age.draconic_circuit_board.description}"]
 			id: "1C9396E2587051F7"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81CB82C5C5074365"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "170A7AD04A8BFCA6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1474,7 +2119,18 @@
 			dependencies: ["1799430093ABCC64"]
 			description: ["{ftbquests.draconic_age.abyssal_circuit_board.description}"]
 			id: "6D6C79E7CBBCC893"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3D36E7183D62B5C1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0D4F24ECDD2D65B4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1496,7 +2152,18 @@
 			]
 			description: ["{ftbquests.draconic_age.lepton_resonant_thallium_antimonide_ingot.description}"]
 			id: "31F87896FF834E63"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "891653C86A16D106"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "028D0D1B11438E2C"
 				item: "lightmanscurrency:coin_diamond"
@@ -1520,7 +2187,18 @@
 			description: ["{ftbquests.draconic_age.draco_abyssal_ingot.description}"]
 			hide_dependency_lines: true
 			id: "6A82CC9F01960097"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "81BC28AF0AC0F5D0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "3210FE0BBF45E34D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1541,7 +2219,18 @@
 			]
 			description: ["{ftbquests.draconic_age.enriched_pallarovium_alloy_ingot.description}"]
 			id: "5224152A7D22A0B5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BCD5A80840E32B53"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0A16190629DBA7B9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1560,7 +2249,18 @@
 			description: ["{ftbquests.draconic_age.super_heavy_elements.description}"]
 			hide_dependent_lines: true
 			id: "4777033988C9F512"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "95B306671561CEF2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6A7658ABB5B22219"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1609,7 +2309,18 @@
 			]
 			description: ["{ftbquests.draconic_age.rhenium_super_composite_alloy_ingot.description}"]
 			id: "33FBF8561A3D901D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A35723DFAC787745"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "703863528004F25F"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1627,7 +2338,18 @@
 			dependencies: ["4DF07CB3D60C901C"]
 			description: ["{ftbquests.draconic_age.bastion.description}"]
 			id: "68970C6696FA90E6"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "873E1D8AAEF1E993"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "49A048AE15AAE4F1"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1647,7 +2369,18 @@
 			dependencies: ["1B6159E114BA50ED"]
 			description: ["{ftbquests.draconic_age.draconic_qmds.description}"]
 			id: "61E082759BC89A1E"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8810F26B7116A506"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1460A867F3CE58DC"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1688,7 +2421,18 @@
 			dependencies: ["310FC3F86513555F"]
 			description: ["{ftbquests.draconic_age.polonium_bismide_ingot.description}"]
 			id: "00333140377A33F5"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DCCBBA6FA415C44D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "4ADD6A8943EA9210"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1711,6 +2455,16 @@
 			id: "4A13D4F1B22DBCAF"
 			shape: "gear"
 			size: 1.5d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "FE4EA7C873586589"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6A05D7EFE5CC5E6D"
 				item: "gtceu:multithreaded_component_synthesis_forge"
@@ -1723,7 +2477,18 @@
 			dependencies: ["31F87896FF834E63"]
 			description: ["{ftbquests.draconic_age.atomic_materialization_plant.description}"]
 			id: "7C050BBD087D46BD"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2B405E1B556EF69F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "0624D90E24CCA3B2"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1741,7 +2506,18 @@
 			dependencies: ["0168A45EB73911AC"]
 			description: ["{ftbquests.draconic_age.component_part_hub.description}"]
 			id: "49E80236C69B95C1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2F6CE6993401ABAA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "32CC08CCB827F2D6"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1759,7 +2535,18 @@
 			dependencies: ["5A724E912A475EAB"]
 			description: ["{ftbquests.draconic_age.poomba.component_data_core}"]
 			id: "681FD6DF05A9DF79"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B291151CD8F8617D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "1E34E2CB3DC6C4E4"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1767,12 +2554,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "1600579B58EEF6A8"
-				item: {
-					Count: 1
-					id: "start_core:component_data_core"
-					tag: { }
-				}
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 5.5d
 			y: 7.0d
@@ -1781,7 +2563,18 @@
 			dependencies: ["6D6C79E7CBBCC893"]
 			description: ["{ftbquests.draconic_age.abyssal_printed_circuit_board.description}"]
 			id: "5A724E912A475EAB"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "63C5EC3B8AACCB28"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "2EB652113BA6B7C9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1804,10 +2597,19 @@
 			id: "076F21506A7C19D5"
 			size: 1.0d
 			subtitle: "{ftbquests.draconic_age.threading_controller.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "C5E38F52949C736A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "37C21F56452F96BB"
-				item: "start_core:threading_controller"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 9.5d
 			y: -5.0d
@@ -1816,7 +2618,18 @@
 			dependencies: ["11EA350764763463"]
 			description: ["{ftbquests.draconic_age.uev_supreme_thread_helix.description}"]
 			id: "13508A2A55EAA6E1"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1DA3ACD96C3BA734"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6F25641E021199E7"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1824,8 +2637,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "303F341173DA5E7E"
-				item: "start_core:uev_supreme_thread_helix"
-				type: "item"
+				type: "checkmark"
 			}]
 			x: 11.5d
 			y: -7.0d
@@ -1835,6 +2647,16 @@
 			description: ["{ftbquests.draconic_age.hell_forge_catalysts.description}"]
 			id: "68204750A7B0569E"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "962809B084F05B8A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "06B0A98E6FE20328"
 				item: {
@@ -1868,7 +2690,18 @@
 			dependencies: ["076F21506A7C19D5"]
 			description: ["{ftbquests.draconic_age.threading_multiblocks.description}"]
 			id: "589A4AA6BF7C5097"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2046969DD0D17FB5"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "6363036C2FF73E28"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1938,7 +2771,18 @@
 			dependencies: ["074635DC3322DC99"]
 			description: ["{ftbquests.draconic_age.prismalic_helix_core.title}"]
 			id: "4450509C08F416EC"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6C81372F08CFC784"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "7F794F231F8464BA"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1959,7 +2803,18 @@
 			]
 			description: ["{ftbquests.draconic_age.prisma_helical_nucleus.title}"]
 			id: "578BB997FB677D37"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CD23EAEA185DFCF1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "5520D9C4880B014D"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
@@ -1977,6 +2832,16 @@
 			dependencies: ["31F87896FF834E63"]
 			id: "70F533114F1D74B2"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5CF69C6008EB1005"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "15A9C024C52E78F1"
 				item: "gtceu:ultimate_ebf"
@@ -1990,6 +2855,16 @@
 			id: "6F50E6C2CBCF8272"
 			size: 1.0d
 			subtitle: "{ftbquests.draconic_age.abyssal_processor.subtitle}"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "4DF43E4565963A9C"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3583D680BB94770A"
 				item: "kubejs:abyssal_processor"
@@ -2002,6 +2877,16 @@
 			dependencies: ["5A724E912A475EAB"]
 			id: "7C7300975C25047A"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "595DBB0F40444F58"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "568E6E799FB86802"
 				item: "kubejs:abyssal_processing_unit"
@@ -2018,6 +2903,16 @@
 			icon: "gtceu:oganesson_plasma_bucket"
 			id: "5FAEC6FD93ACC381"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "36F5B8A01D1E8931"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "36A35F698B08CADD"
 				item: "gtceu:oganesson_plasma_bucket"
@@ -2033,21 +2928,28 @@
 			description: ["{ftbquests.draconic_age.specialized_helix_t1.description}"]
 			id: "11EA350764763463"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DAA96572BFAD3BF7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "05B523EF9E82BC45"
-					item: "start_core:uhv_coprocessor_thread_helix"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "64EF874BC68C9F69"
-					item: "start_core:uhv_overdrive_thread_helix"
-					type: "item"
+					type: "checkmark"
 				}
 				{
 					id: "2EFB75E30D1CF8DE"
-					item: "start_core:uhv_weaving_thread_helix"
-					type: "item"
+					type: "checkmark"
 				}
 			]
 			title: "{ftbquests.draconic_age.specialized_helix_t1.title}"
@@ -2061,6 +2963,16 @@
 			]
 			id: "6A49DA8ECA601B4B"
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "21555B3BE054A4E1"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "1068E21FB43FA7B9"
 				item: "kubejs:borealic_reflector_casing"
@@ -2078,6 +2990,16 @@
 			hide_dependent_lines: true
 			id: "7255F8A417A52A46"
 			optional: true
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "1BE30A23D743F760"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7B34E58D08A73A5A"
 				item: "kubejs:compass_of_the_flame"
@@ -2090,6 +3012,16 @@
 			dependencies: ["28DE3D2A96C4D0C8"]
 			icon: "minecraft:dragon_egg"
 			id: "64DC78AF9E2FAB32"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "B1C30F57569B3BE9"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [
 				{
 					id: "7E1817E0AC74A1EB"
@@ -2109,6 +3041,16 @@
 		{
 			dependencies: ["2E34F23A42004285"]
 			id: "5A6856892D99F5ED"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "F55FB9CB2BF0CE0F"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "03CD93D6A3F4C4B3"
 				item: "gtceu:borealic_concentrate_bucket"
@@ -2122,6 +3064,16 @@
 			hide_dependency_lines: true
 			id: "7809407ED588BCBD"
 			shape: "gear"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7DDB54B095FA82F5"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3C82B2D2AF0F6099"
 				item: "kubejs:end_coordinate_crystal"
@@ -2136,6 +3088,16 @@
 				"694E1F6458D5F72F"
 			]
 			id: "6BAC4AC1B7032B93"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "788E9191F5FFF6F7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "6542FCC23D69CF5C"
 				item: "gtceu:primordial_infusion"
@@ -2147,6 +3109,16 @@
 		{
 			dependencies: ["09B55AFE7C06EC82"]
 			id: "10019AD38638B628"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5DF42792158E923E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "3A40738B3A56C2E2"
 				item: "kubejs:prismalic_reflector_casing"
@@ -2158,6 +3130,16 @@
 		{
 			dependencies: ["0E75A2FC17ED0C28"]
 			id: "07872C5ED6FAE66E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "029E3C5FC23702E5"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "102068348306ABB6"
 				item: "kubejs:dragonic_reflector_casing"
@@ -2169,6 +3151,16 @@
 		{
 			dependencies: ["6A82CC9F01960097"]
 			id: "2BD5C9B89DCEC339"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "BE83F166CE05F8B7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "7C71CE2BE4CF25FF"
 				item: "gtceu:abyssal_akreyriadix_stabiliser"
@@ -2180,6 +3172,16 @@
 		{
 			dependencies: ["31F87896FF834E63"]
 			id: "212353E6819931CD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "D655B20B0AA0C4A0"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "358435C7049A09C8"
 				item: "gtceu:true_synthesis_array"

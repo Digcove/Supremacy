@@ -11,7 +11,18 @@
 		{
 			description: ["Applied Energistics 2 converts item storage into a digital network accessible from anywhere through ME Terminals. Items stored in ME Cells are indexed and searchable regardless of where the physical cells sit on the network. The ME Controller is the mandatory hub — exactly one per logical network, connected to every other component directly or via cable. Power is delivered through an ME Energy Acceptor block fed by any power source, or natively from GTCEu cables at higher tiers. Every other AE2 block is optional; the minimum viable network is a Controller, a Drive, a Cell, and a Terminal. Everything else is throughput and reach."]
 			id: "AE01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "95B50D0018E184E3"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000001"
 				item: "mmorpg:stone/1"
@@ -32,7 +43,18 @@
 			dependencies: ["AE01000000000001"]
 			description: ["Certus Quartz Crystals grow from Certus Quartz Buds on Skystone and Charged Skystone found in meteorite craters scattered across the overworld. Buds grow through four stages and drop a crystal when fully grown and broken. Accelerate production by placing Certus Quartz Seeds in water — each seed matures into a crystal and can be harvested without destroying the water block. Certus consumption across the full AE2 progression is heavy and never plateaus; establish a growing array early and expand it before you think you need to."]
 			id: "AE01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2B342C7A7EA7A54A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "AE03000000000002"
 				item: "ae2:certus_quartz_crystal"
@@ -51,7 +73,18 @@
 			dependencies: ["AE01000000000001"]
 			description: ["The ME Controller is the hub every AE2 network requires. Place it first, then connect cables and components to it directly or through cable runs. Connecting two ME Controllers merges or splits the network depending on orientation — maintain exactly one per logical network. The Controller requires continuous power; if power drops, all terminals go offline and stored item access is suspended until power is restored. Establish reliable power delivery to the Controller before adding any other network components."]
 			id: "AE01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B0BCAB837766E84A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000003"
 				item: "mmorpg:currency/mirror"
@@ -70,7 +103,18 @@
 			dependencies: ["AE01000000000001"]
 			description: ["The ME Inscriber presses printed circuit components using engraved press dies found inside Skystone Meteorite chests in the overworld — check for meteor craters and dig to find the chest. Four presses exist: Logic, Calculation, Engineering, and Silicon. Each press occupies the top or bottom slot of an Inscriber; the material to press goes in the center slot. Run multiple Inscribers in parallel — processor production is the primary throughput constraint throughout all of AE2 progression, and a single machine stalls the entire downstream build."]
 			id: "AE01000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F89D29A98F893E18"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000004"
 				item: "mmorpg:currency/mirror"
@@ -89,7 +133,18 @@
 			dependencies: ["AE01000000000002"]
 			description: ["The ME Charger block charges Certus Quartz Crystals by consuming power. Place a raw crystal in the Charger and supply it with any power source — it outputs a Charged Certus Quartz Crystal. Charged crystals discharge over time outside the Charger, so use them promptly after charging or keep them inside until needed. The Charger consumes minimal power and can be fed from any early-game generator. Build it before attempting Fluix synthesis — charged certus is a required reagent."]
 			id: "AE01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9C0B2483003CF157"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AE03000000000005"
 				item: "ae2:charged_certus_quartz_crystal"
@@ -115,7 +170,18 @@
 			dependencies: ["AE01000000000003"]
 			description: ["The ME Drive accepts up to ten ME Storage Cells and exposes all of their contents to the network. Each Drive holds any mix of item and fluid cells regardless of tier. Place the Drive adjacent to the Controller or connect via cable — connection order does not matter. Build a second Drive before the first fills; migrating cells to overflow storage under active load is inconvenient, and the second Drive costs almost nothing relative to the cells it will hold."]
 			id: "AE01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B10BCF049C74CDAC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 1
 				id: "AE03000000000006"
 				item: "ae2:1k_item_storage_cell"
@@ -134,7 +200,18 @@
 			dependencies: ["AE01000000000004"]
 			description: ["Each press produces one printed component type. Logic Press: iron ingot → Printed Logic Processor. Calculation Press: pure certus quartz crystal → Printed Calculation Processor. Engineering Press: gold ingot → Printed Engineering Processor. Silicon Press: sand or silicon dust → Printed Silicon. All four types are required to assemble the final processors. Automate Inscriber input and output with hoppers or import/export buses as soon as possible — manually cycling four machines is a consistent production stall."]
 			id: "AE01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B29CAB4F7F378C18"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000007"
 				item: "mmorpg:currency/mirror"
@@ -170,7 +247,18 @@
 			dependencies: ["AE01000000000005"]
 			description: ["Fluix Crystals are synthesized by throwing Charged Certus Quartz, Nether Quartz, and Redstone into the same water source block simultaneously. The three items react and produce Fluix Crystals after a short delay. Fluix is the primary material for ME cables, cell components, cores, and most networking parts — consumption is continuous and has no crafting substitute. Maintain a dedicated synthesis pool near your base and keep it stocked; Fluix production is a silent bottleneck that halts expansion the moment the pool runs dry."]
 			id: "AE01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "75FDBD73A76AFD89"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "AE03000000000008"
 				item: "ae2:fluix_crystal"
@@ -189,7 +277,18 @@
 			dependencies: ["AE01000000000006"]
 			description: ["ME Cables carry the channel signal between network components. Glass Cable carries 8 channels and is the cheapest option. Covered Cable also carries 8 and prevents color bleed between adjacent cables. Smart Cable shows live channel utilization via color indicators — use it to identify congested segments before they cause component dropouts. Dense Covered Cable carries 32 channels and is required for high-density runs between Controllers and distribution nodes. Run Smart Dense Cable on your network spine so saturation is always visible."]
 			id: "AE01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "676508F39C40A385"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "AE03000000000009"
 				item: "ae2:fluix_covered_cable"
@@ -223,7 +322,18 @@
 			]
 			description: ["The three processor types are assembled in a fifth Inscriber run: each printed component is combined with Printed Silicon and Fluix Crystal. Logic Processors go into basic AE2 components; Calculation Processors into storage cells, crafting units, and pattern providers; Engineering Processors into advanced devices including Dense Energy Cells and Quantum Bridges. Processor velocity determines the pace of all downstream AE2 construction. Five Inscribers running simultaneously — one per printed type plus one for final assembly — is the practical minimum for smooth early expansion."]
 			id: "AE01000000000010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "680E747E0EDDFE84"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AE03000000000010"
 				item: "ae2:logic_processor"
@@ -257,7 +367,18 @@
 			]
 			description: ["Cell Components are the media inside AE2 storage cells — each tier (1k, 4k, 16k, 64k, 256k) stores more bytes per component at higher material cost. A 1k component stores 1,024 bytes; 256k stores 262,144. A Cell Housing (item or fluid type) completes the cell. Each cell in a Drive carries a 63-type limit by default regardless of tier — use a Cell Workbench to partition cells to specific items and prevent miscellaneous drops consuming type slots. Run 4k and 16k as your primary storage tier; 64k and 256k for high-volume bulk commodities."]
 			id: "AE01000000000011"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AB05623D743549FA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "AE03000000000011"
 				item: "ae2:cell_component_4k"
@@ -296,7 +417,18 @@
 			]
 			description: ["The ME Terminal displays all items stored across the network's Drive array, searchable and sortable in real time. The Crafting Terminal adds an integrated 3x3 crafting grid that auto-pulls ingredients from network storage — items drawn for crafting are debited from the network immediately. Both require one channel on the connected cable segment. Use the Crafting Terminal as the primary interaction point; the plain Terminal is useful for read-only secondary access where the crafting grid is not needed and channel budget is tight."]
 			id: "AE01000000000012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "634A03566F4E555A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000012"
 				item: "mmorpg:currency/mirror"
@@ -325,7 +457,18 @@
 			]
 			description: ["Blank Patterns are the base medium for encoding autocrafting recipes. Insert one into the Pattern Encoding Terminal and program it with a crafting, processing, or smelt recipe — the pattern stores exactly which items go in and which come out. Encoded patterns are placed in Pattern Providers adjacent to Molecular Assemblers or GTCEu machines, instructing the network how to produce items on demand. Keep a full stack of Blank Patterns on hand; complex autocrafting trees require many patterns, and modifying a recipe means re-encoding from scratch."]
 			id: "AE01000000000013"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "414706755910C4E7"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "AE03000000000013"
 				item: "ae2:blank_pattern"
@@ -344,7 +487,18 @@
 			dependencies: ["AE01000000000011"]
 			description: ["ME Storage Cells are assembled from a Cell Component and a Cell Housing — Item Cell Housing for items, Fluid Cell Housing for fluids. Install completed cells in ME Drives to expose their contents to the network. Partition important bulk cells using a Cell Workbench to reserve specific item types and prevent type-slot exhaustion from random drops. Dual Cell Housing (from Expanded AE) holds both item and fluid types in a single cell — useful for machines that output both and reduces Drive slot consumption at scale."]
 			id: "AE01000000000014"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0D759048B17DC252"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000014"
 				item: "ae2:cell_component_16k"
@@ -375,7 +529,18 @@
 			dependencies: ["AE01000000000012"]
 			description: ["The Crafting CPU is a multiblock assembled from Crafting Units, Crafting Storage blocks, Crafting Accelerators, and a Crafting Monitor. The CPU processes one autocrafting job at a time — Crafting Storage tier determines how complex a tree it can plan simultaneously; Crafting Accelerators reduce ticks between ingredient dispensing steps. Build at minimum a 3x3 structure with a 16k or 64k Crafting Storage and four to eight Accelerators. Undersized CPUs visibly stall on multi-step GTCEu processing chains that require many intermediate crafting passes."]
 			id: "AE01000000000015"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1B993C84D1FCB493"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000015"
 				item: "mmorpg:currency/mirror"
@@ -394,7 +559,18 @@
 			dependencies: ["AE01000000000013"]
 			description: ["The Pattern Provider pushes encoded pattern ingredients into adjacent inventories or machines. For item crafting, pair it with a Molecular Assembler; for GTCEu processing recipes, pair it with a GT ME Input Bus, which bypasses the need for assemblers entirely. Each Provider slot holds one pattern; swap patterns to change what a machine can produce on demand. The Ex Pattern Provider (from ExtendedAE) extends this with multiple simultaneous output channels and improved throughput — use it for high-volume production lines that exhaust the standard Provider's single-slot dispatch."]
 			id: "AE01000000000016"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E94289DBE80D2E2A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000016"
 				item: "mmorpg:currency/mirror"
@@ -423,7 +599,18 @@
 			]
 			description: ["The Import Bus pulls items from adjacent inventories into the network automatically. The Export Bus pushes items from the network into adjacent inventories. Both require one channel and a filter — configure filters to restrict which items each bus handles. An unfiltered Import Bus on a machine output chest pulls everything, flooding the network with intermediate products and waste. An unfiltered Export Bus does nothing. Always set filters before placing either bus adjacent to an active machine buffer. The Ex Import and Ex Export Buses from ExtendedAE support higher throughput and expanded filter options for high-density machine clusters."]
 			id: "AE01000000000017"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "624E2E9505E02C75"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000017"
 				item: "mmorpg:currency/mirror"
@@ -449,7 +636,18 @@
 			dependencies: ["AE01000000000015"]
 			description: ["Crafting Accelerators reduce the ticks between ingredient dispatch steps inside the Crafting CPU. Each accelerator cuts processing delay by a fixed increment. For short 1-2 step recipes, two accelerators suffice; for deep GTCEu processing trees with many intermediate steps, eight to sixteen accelerators is the practical minimum. Expanded AE adds higher-tier accelerators (x2 through x1M) that multiply dispatch speed further — stack them in the CPU structure for chains that would otherwise take minutes to complete per item."]
 			id: "AE01000000000018"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "41D3D395FEF2D3CA"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000018"
 				item: "mmorpg:currency/mirror"
@@ -475,7 +673,18 @@
 			dependencies: ["AE01000000000016"]
 			description: ["The Molecular Assembler accepts ingredient pushes from an adjacent Pattern Provider and assembles them into finished items using an internal crafting grid. Each Assembler handles one pattern at a time from one Provider. For high throughput, arrange multiple Provider-Assembler pairs in a grid — the CPU dispatches to any available Assembler in parallel. The Assembler Matrix (from ExtendedAE) replaces the traditional grid arrangement with a multiblock structure that scales throughput to thousands of operations per second; build it when Molecular Assembler arrays become the bottleneck."]
 			id: "AE01000000000019"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B5DAAC49FD07B8B1"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000019"
 				item: "mmorpg:currency/mirror"
@@ -501,7 +710,18 @@
 			dependencies: ["AE01000000000003"]
 			description: ["ME Energy Cells buffer network power between the generator and the Controller. The standard Energy Cell stores 200,000 AE; Dense Energy Cell stores 1,600,000 AE. MEGACells adds the Mega Energy Cell for enormous buffer capacity at endgame. A Dense Energy Cell buffer prevents network dropout during brief generator interruptions — one Dense Cell per network is the baseline minimum. The network drops all operations instantly if the Controller loses power with no buffer in place, so size the buffer against your longest expected generator gap."]
 			id: "AE01000000000020"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9845FA2526DDE1FB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000020"
 				item: "mmorpg:currency/mirror"
@@ -535,7 +755,18 @@
 			dependencies: ["AE01000000000016"]
 			description: ["The ME Interface acts as a bidirectional buffer between the ME network and external inventories or machines. Unlike the Pattern Provider which only pushes, the Interface can both supply items from the network and accept returns into it. They are most commonly used in complex autocrafting trees where crafted intermediates need to buffer before further processing, or as a universal input point for machines that don't use dedicated GT ME bus integration. The Ex Interface (from ExtendedAE) handles higher item throughput and supports more simultaneous transfer channels for large machine clusters."]
 			id: "AE01000000000021"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4031F4A78B75E828"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000021"
 				item: "mmorpg:currency/mirror"
@@ -561,7 +792,18 @@
 			dependencies: ["AE01000000000009"]
 			description: ["P2P Tunnels compress high-channel-count connections into a single cable by pairing tunnel endpoints. One input-side tunnel connects to the signal source; the matching endpoint outputs the tunneled channels at the destination. Each pair consumes one channel on the cable it travels through but carries up to 32 channels inside the tunnel. Better P2P's Advanced Memory Card simplifies tunnel pairing by storing endpoint link data, replacing the tedious right-click-to-pair workflow when managing many tunnels across a large base."]
 			id: "AE01000000000022"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "BAD858A545D5EB29"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000022"
 				item: "mmorpg:currency/mirror"
@@ -587,7 +829,18 @@
 			dependencies: ["AE01000000000012"]
 			description: ["Wireless Crafting Terminals connect to the network via a Wireless Access Point placed on any cable segment; they require charge and range. The AE2 Wireless Terminals mod also provides the Wireless Universal Terminal, which combines terminal, pattern encoding, and extended functionality into one handheld device. The AE Infinity Booster card extends wireless range significantly when inserted into a terminal — build one as soon as the wireless terminal becomes your primary interface, since default range is limited to a small radius around the access point."]
 			id: "AE01000000000023"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B5C968B81BB2C8DF"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AE03000000000023"
 				item: "mmorpg:currency/mirror"
@@ -618,7 +871,18 @@
 			dependencies: ["AE01000000000021"]
 			description: ["GTCEu ME Input and Output Buses replace the traditional export-bus-to-chest-to-input-hatch pipeline with a direct network-to-machine connection. The ME Input Bus pulls items from the network into the machine's processing slot; the ME Output Bus pushes results directly back into the network. ME Input and Output Hatches do the same for fluids. These eliminate the intermediate chest layer entirely and make GTCEu machine automation significantly cleaner. The GT machine and the AE2 network must share a power source — connect them through compatible cable interfaces."]
 			id: "AE01000000000024"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "07AC8BDDFC2B556C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AE03000000000024"
 				item: "mmorpg:currency/mirror"
@@ -657,7 +921,18 @@
 			]
 			description: ["The GTCEu ME Assembler is a tiered GT machine that performs AE2 crafting-type recipes at GT machine speed with overclocking support. Higher tiers run faster. Connect via Pattern Provider with the relevant crafting patterns loaded; results return to the network through the output bus. The GTCEu Large ME Assembler is a multiblock version with higher base throughput. Use GT ME Assemblers for high-volume crafting operations that overwhelm standard Molecular Assembler arrays — the speed difference at IV tier and above is substantial."]
 			id: "AE01000000000025"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E14395911BA87A0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AE03000000000025"
 				item: "mmorpg:currency/mirror"
@@ -683,7 +958,18 @@
 			dependencies: ["AE01000000000024"]
 			description: ["GTCEu Stocking Input Buses and Hatches maintain a target stock level in the machine's input buffer rather than only pulling when a crafting job is active. The stocking bus monitors current inventory and replenishes from the network whenever stock drops below a configured threshold. This eliminates startup delay on machines running a single recipe continuously — the next batch of ingredients is always pre-loaded before the previous run finishes. ExpandedGT adds expanded and tag-filter stocking variants with higher per-tick transfer rates for multi-slot machines with complex ingredient mixes."]
 			id: "AE01000000000026"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3170224DC4CA6092"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AE03000000000026"
 				item: "mmorpg:currency/mirror"
@@ -717,7 +1003,18 @@
 			]
 			description: ["The Storage Bus exposes an adjacent non-AE2 inventory — chest, barrel, or machine buffer — as a virtual storage location on the network. Items in the external inventory become searchable and withdrawable through ME Terminals as if they were inside a Drive. Use Storage Buses to integrate high-capacity vanilla storage (barrels for bulk materials) without converting to ME cells. Always configure the bus filter to restrict which item types it indexes — an unfiltered Storage Bus on a crowded machine buffer increases terminal search time and can mask inventory state."]
 			id: "AE01000000000027"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5D39E62A77664174"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000027"
 				item: "mmorpg:currency/mirror"
@@ -736,7 +1033,18 @@
 			dependencies: ["AE01000000000011"]
 			description: ["MEGACells extends the cell component tier above 256k with components at 1M, 4M, 16M, 64M, and 256M bytes. Each tier follows the same housing and component assembly workflow as standard cells but requires higher-tier materials. Mega cells are essential for endgame bulk storage — a single 256M cell holds more material than a full Drive of 256k cells. MEGACells also provides the Bulk Cell, which stores a single item type in unlimited quantity at the cost of only tracking that one type. Build bulk cells for materials that genuinely overflow standard mega cells."]
 			id: "AE01000000000028"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4A0D8410FC44B35C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000028"
 				item: "mmorpg:currency/mirror"
@@ -767,7 +1075,18 @@
 			dependencies: ["AE01000000000012"]
 			description: ["The ME Requester (from ME Requester mod) places automated crafting requests to the AE2 network on a configurable schedule. Set a target stock level for any craftable item; the Requester submits a crafting job whenever network stock drops below that threshold. This turns autocrafting from a reactive system into a proactive one — items are produced in advance rather than on demand. The Requester Terminal provides a network-wide view of all active requesters and their stock levels. Use requesters for materials that are consumed continuously and must never go to zero."]
 			id: "AE01000000000029"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9DD811A3DDED74A2"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "AE03000000000029"
 				item: "mmorpg:currency/mirror"
@@ -793,7 +1112,18 @@
 			dependencies: ["AE01000000000009"]
 			description: ["The AE2 Network Analyser (from AE2 Network Analyser mod) is a handheld diagnostic tool that displays channel usage, power draw, and component counts for any network segment you right-click. It removes the guesswork from channel debugging — when a component drops offline unexpectedly, the analyser shows exactly which cable segment hit saturation and which component claims what channel budget. Keep one in your inventory when expanding the network; debugging a channel overflow without it requires tracing every cable run manually."]
 			id: "AE01000000000030"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "83D881A8BC81B3BD"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000030"
 				item: "mmorpg:currency/mirror"
@@ -812,7 +1142,18 @@
 			dependencies: ["AE01000000000016"]
 			description: ["The Programmed Circuit Card (from PC Card mod) is a pattern-configurable circuit card that replicates the GTCEu circuit selector mechanic inside the AE2 autocrafting system. When encoded into a pattern, it specifies which GTCEu circuit configuration the machine should use for that recipe — solving the ambiguity that arises when a single machine has multiple recipes that differ only by circuit number. Without it, the network cannot distinguish between circuit 1 and circuit 2 variants of the same recipe. Configure one card per circuit variant required by your autocrafting setup."]
 			id: "AE01000000000031"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F5ADAFA3D61E0BD9"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "AE03000000000031"
 				item: "mmorpg:currency/mirror"
@@ -836,7 +1177,18 @@
 			]
 			description: ["The network is complete. Drives loaded with MEGACells hold more material than any base will ever produce in a session. Stocking hatches keep every GT machine fed without intervention. GTCEu ME Assemblers handle crafting at machine speed. The Requester ensures nothing runs out. The Analyser catches problems before they cascade. The Infinity Booster means the terminal goes everywhere you do. The factory is no longer a collection of machines — it is a single organism that knows what it has, knows what it needs, and produces the difference automatically."]
 			id: "AE01000000000032"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "706A36F08296FA94"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "AE03000000000032"
 				item: "mmorpg:currency/mirror"

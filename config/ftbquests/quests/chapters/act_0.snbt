@@ -111,7 +111,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 400"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4A429E1B6344E4A4"
 					silent: true
 					title: "400 Experience"
@@ -149,7 +149,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3BC953334872A751"
 					silent: true
 					title: "200 Experience"
@@ -195,7 +195,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3B10C874A7833200"
 					silent: true
 					title: "200 Experience"
@@ -241,7 +241,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "3098C9D09E030015"
 					silent: true
 					title: "200 Experience"
@@ -280,7 +280,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "539974DB413EB4B5"
 					silent: true
 					title: "200 Experience"
@@ -339,7 +339,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 200"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "555EEACB001F9F25"
 					silent: true
 					title: "200 Experience"
@@ -371,7 +371,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 700"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "1EDA06CB95371D19"
 				silent: true
 				title: "700 Experience"
@@ -442,7 +442,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 250"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4B863DDA4942C800"
 					silent: true
 					title: "250 Experience"
@@ -482,7 +482,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give exp @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "513F1792134DC311"
 					silent: true
 					title: "500 Experience"
@@ -569,7 +569,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 250"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "23B96BB571FA8D03"
 				silent: true
 				title: "250 Experience"
@@ -860,7 +860,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give exp @p 50"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "2CD733C2EAA8C466"
 				silent: true
 				title: "50 Experience"
@@ -893,11 +893,11 @@
 				""
 				"&lPerform the following to prevent the GUI from failing to load. Before exiting the game, you need turn off VR in the main menu and subsequently, re-enable it on log in.&r"
 			]
-			icon: "simplehats:goggles"
+			icon: "lightmanscurrency:coin_iron"
 			id: "3FD1760A231D429D"
 			rewards: [{
 				id: "08FDBED97918BF5A"
-				item: "simplehats:goggles"
+				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
 			shape: "circle"

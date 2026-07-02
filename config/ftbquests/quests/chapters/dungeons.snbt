@@ -11,7 +11,18 @@
 		{
 			description: ["Map-based dungeons are the primary endgame content loop. Dungeon Realm provides instanced dungeons opened via a Map Device block — put a Dungeon Map in the device, enter the instance, kill mobs to raise your kill percentage, find the Boss Teleporter, and clear the boss for the Reward Room. Library of Exile adds a separate portal-based atlas system with its own map pool and boss rotation. Ancient Obelisks add wave-based encounters directly in the overworld with no separate dimension. All three systems use Mine and Slash scaling — mobs match your character level and roll affixes that shift the difficulty and loot ceiling."]
 			id: "DG01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C3855823D8F72DF7"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 1
 				id: "DG03000000000001"
 				item: "mmorpg:stone/1"
@@ -32,7 +43,18 @@
 			dependencies: ["DG01000000000001"]
 			description: ["The Map Creator is crafted from paper and redstone dust and produces a single Common Dungeon Map when used. Common maps run Tier 0–10 content — the entry tier. Higher tier maps are found only inside Reward Rooms; you cannot craft them. Craft a Map Creator before you reach level 55 so you have a starting map ready when the content becomes accessible. The map_creator item is consumed on use and produces one dungeon_map."]
 			id: "DG01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0BEFC31511574100"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 1
 				id: "DG03000000000002"
 				item: "dungeon_realm:dungeon_map"
@@ -51,7 +73,18 @@
 			dependencies: ["DG01000000000002"]
 			description: ["The Map Device is a placeable block that accepts Dungeon Maps. Place it down, then right-click it with a Dungeon Map to enter the instanced dungeon. The Home Pearl is a consumable that teleports you back to the overworld location where you entered the map. Always carry Home Pearls before entering a map — dying inside removes your map entry tag, and without a Home Pearl or a return teleporter block, you lose your position. Craft both before attempting your first map run."]
 			id: "DG01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "91FBAD1481B3184A"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "DG03000000000003"
 				item: "dungeon_realm:home_pearl"
@@ -77,7 +110,18 @@
 			dependencies: ["DG01000000000003"]
 			description: ["Dungeon Realm generates a randomized instanced dungeon when you activate the Map Device. Kill percentage tracks how many dungeon mobs you have eliminated — higher percentage increases the quality of loot in the Reward Room at the end. Uncommon exploration unlocks at certain thresholds; Rare and Epic unlock at higher ones. Explore every room before triggering the Boss Teleporter. Rushing the boss immediately gives you the lowest reward tier."]
 			id: "DG01000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9D3BAE1754018BF5"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "DG03000000000004"
 				item: "mmorpg:currency/mirror"
@@ -98,7 +142,18 @@
 			dependencies: ["DG01000000000004"]
 			description: ["The Boss Teleporter block spawns somewhere inside the dungeon and links to the Boss Room. It does not appear on any map marker — finding it requires full exploration of the instance. The Boss Room hosts a level-scaled map boss with elevated stats. Completing the boss opens the Reward Room, which drops gear, currency, and potentially a higher-tier Dungeon Map for your next run. Kill percentage at the moment of boss death determines Reward Room loot quality."]
 			id: "DG01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4A46212492132A0B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "DG03000000000005"
 				item: "mmorpg:currency/mirror"
@@ -117,7 +172,18 @@
 			dependencies: ["DG01000000000005"]
 			description: ["Inside Dungeon Realm maps, Harvest Portals occasionally spawn — entry points into The Harvest dimension. Inside, clearing the encounter yields Chaotic Gems, a special currency used in Orb Forge and Mine and Slash upgrade recipes. Harvest portals are uncommon and do not spawn in every map. When one appears, it is worth entering — Chaotic Gems are not obtainable through any other consistent source. Exit via the Library of Exile return block inside the Harvest room."]
 			id: "DG01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "819E2370DCEE24BB"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "DG03000000000006"
 				item: "mmorpg:material/farming/0"
@@ -136,7 +202,18 @@
 			dependencies: ["DG01000000000005"]
 			description: ["Bosses in Legendary (Tier 61–80) and Mythic (Tier 81–100) maps have a chance to drop Uber Fragments. Combining fragments produces a Dungeon Map Uber Upgrade. Apply this to any map to convert it into an Uber Map — an encounter against a greatly empowered version of a campaign boss. Uber Bosses drop Unique Jewels and endgame gear not obtainable anywhere else in the Dungeon Realm system. Reaching Legendary tier maps is the prerequisite; the Uber system is the endgame beyond it."]
 			id: "DG01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A7553CCE37B87EF8"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "DG03000000000007"
 				item: "mmorpg:currency/mirror"
@@ -155,7 +232,18 @@
 			dependencies: ["DG01000000000001"]
 			description: ["Library of Exile adds a portal system built from Portal Frame blocks. Assemble the frame structure, then use an atlas map on it to open a connection to a Library of Exile instance. Library of Exile operates as a parallel mapping system to Dungeon Realm — different map pool, different boss roster, different loot tables. The two systems do not share progress. Build the Library portal as a second dungeon entry point once you have the Dungeon Realm system running."]
 			id: "DG01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FE5A9F92806CA69B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "DG03000000000008"
 				item: "mmorpg:stone/2"
@@ -174,7 +262,18 @@
 			dependencies: ["DG01000000000008"]
 			description: ["Dungeon Maps and Library of Exile atlas maps both roll random affixes when generated. Player affixes reduce your resistances, slow movement, or cut healing. Mob affixes increase health, add elemental damage types, or raise movement speed. A map with heavy affixes is significantly harder — but yields substantially better loot on completion. Some affixes can be rerolled using currency items before entering. High-affix maps that you can clear are the most efficient way to gear up."]
 			id: "DG01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "4A4C7E4CBCDD8BB0"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "DG03000000000009"
 				item: "mmorpg:stone/2"
@@ -193,7 +292,18 @@
 			dependencies: ["DG01000000000001"]
 			description: ["Ancient Obelisks are structure blocks that spawn in the overworld. Right-clicking an Obelisk with an Obelisk Map triggers a wave-based encounter at that location — no separate dimension, no map device needed. Mobs spawn in waves at the obelisk site and scale to your Mine and Slash character level. Completing all waves yields obelisk-tier loot drops. Obelisk Maps are found in chests and structures worldwide, and can also be crafted. Obelisks provide a dimension-free alternative to map running for early dungeon content."]
 			id: "DG01000000000010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B01FBEED2D96BF23"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "DG03000000000010"
 				item: "ancient_obelisks:obelisk_map"
@@ -212,7 +322,18 @@
 			dependencies: ["DG01000000000010"]
 			description: ["Obelisk Maps roll affixes just like Dungeon Maps — mob health, elemental damage, player stat reductions. A high-affix Obelisk encounter at your character level is a meaningful combat test without the overhead of portal construction or map device management. Use Obelisks as a fast, accessible source of Mine and Slash gear drops at mid-game before you have a full map-running setup established. Each Obelisk can be activated repeatedly with different maps."]
 			id: "DG01000000000011"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "8445F6F1966A9BDE"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "DG03000000000011"
 				item: "mmorpg:currency/mirror"
@@ -237,7 +358,18 @@
 			]
 			description: ["Maps run. Portals opened. Waves cleared. Bosses killed. The dungeon systems in this pack form a fully independent progression arc that sits on top of the Mine and Slash gear loop: Dungeon Realm for instanced map runs, Library of Exile for atlas alternates, Ancient Obelisks for wave encounters, The Harvest for Chaotic Gem farming. Each system feeds into the next. The Master Delver has run them all — and the Uber Bosses still wait at the top."]
 			id: "DG01000000000012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6E15A83B34B340BC"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "DG03000000000012"
 				item: "mmorpg:currency/mirror"

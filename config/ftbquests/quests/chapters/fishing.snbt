@@ -17,7 +17,18 @@
 		{
 			description: ["Aquaculture 2 heavily expands fishing with 30+ catchable species organized by biome, a customizable rod system, and Neptune's Bounty treasure boxes fished from open ocean. The Iron Fishing Rod accepts hooks and fishing line as optional modifiers attached through the Tackle Box interface. Hooks change what fish can be caught; fishing line changes cast distance and retrieval speed. Build the full kit before heading to a dedicated fishing spot — the default vanilla rod cannot catch Aquaculture species."]
 			id: "FI01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "2DC96D5D221D2D00"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "FI03000000000001"
 				item: "aquaculture:fishing_line"
@@ -59,7 +70,18 @@
 		{
 			description: ["Carp are caught in rivers and freshwater lakes. A common, low-tier Aquaculture catch found throughout most overworld water. Edible as raw or cooked fish and used as a secondary ingredient in Mine and Slash Cooking station recipes at lower tiers."]
 			id: "FI01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A312DEE38724759"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000002"
 				item: "minecraft:cooked_cod"
 				type: "item"
@@ -76,7 +98,18 @@
 		{
 			description: ["Bluegill are a small freshwater fish found in ponds, rivers, and lakes. One of the most common Aquaculture 2 fish in temperate biomes. Catching bluegill levels Mine and Slash Fishing profession while providing food."]
 			id: "FI01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DB3A62DCF5D4920F"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000003"
 				item: "minecraft:cooked_cod"
 				type: "item"
@@ -93,7 +126,18 @@
 		{
 			description: ["Brown Trout inhabit cold freshwater rivers and lakes in taiga and mountain biomes. Slightly rarer than carp or bluegill, and produces higher saturation when cooked. Trout are among the most useful early Aquaculture catches for food."]
 			id: "FI01000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "63EDF6995DEAE12E"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000004"
 				item: "minecraft:cooked_salmon"
 				type: "item"
@@ -110,7 +154,18 @@
 		{
 			description: ["Catfish are found in rivers and murky freshwater biomes. In addition to being a food source, catfish are a Mine and Slash Tiered Fish source at lower fishing levels. Catching catfish in the Aquaculture 2 system counts toward Mine and Slash Fishing profession experience."]
 			id: "FI01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1BB22AA2CDE67DF0"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000005"
 				item: "minecraft:cooked_cod"
 				type: "item"
@@ -127,7 +182,18 @@
 		{
 			description: ["Atlantic Cod are caught in cold ocean biomes and are one of the most common Aquaculture ocean catches. They are a direct upgrade from vanilla Cod in terms of saturation and can be used in Mine and Slash Cooking recipes as a fish ingredient. A reliable cold-ocean staple."]
 			id: "FI01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EE553169AED23303"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000006"
 				item: "minecraft:cooked_cod"
 				type: "item"
@@ -144,7 +210,18 @@
 		{
 			description: ["Tuna are caught in warm and lukewarm ocean biomes. A large, high-saturation fish that provides considerably more food than smaller species. Tuna are one of the better Aquaculture food sources for extended ocean exploration runs."]
 			id: "FI01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FF8C9C6416F56113"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000007"
 				item: "minecraft:cooked_salmon"
 				count: 2
@@ -162,7 +239,18 @@
 		{
 			description: ["Atlantic Herring are schooling fish found in cold and frozen ocean biomes. They are one of the smaller Aquaculture catches but are frequently used in Mine and Slash Cooking recipes as a fish ingredient at mid-tier levels."]
 			id: "FI01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AF9590F0C4D57924"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000008"
 				item: "minecraft:cooked_cod"
 				type: "item"
@@ -179,7 +267,18 @@
 		{
 			description: ["Red Grouper are rare catches in warm ocean biomes. They do not appear frequently and require patience or a dedicated ocean fishing setup. Red Grouper are among the highest-saturation edible fish in Aquaculture 2 when cooked."]
 			id: "FI01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "056AB95BEFE349E0"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000009"
 				item: "minecraft:cooked_salmon"
 				count: 3
@@ -197,7 +296,18 @@
 		{
 			description: ["The Arapaima is one of the largest freshwater fish in Aquaculture 2, found in jungle and swamp biomes. It is a rare catch that rewards persistence — arapaima drop fish bones in addition to food, and catching one is a milestone in the Aquaculture collection. Arapaima may appear as a larger fish in the tank display."]
 			id: "FI01000000000010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "92682DCCBB478C36"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "FI03000000000010"
 				item: "minecraft:emerald"
@@ -215,7 +325,18 @@
 		{
 			description: ["The Muskellunge is a rare predatory freshwater fish caught in cold and taiga biomes. One of the uncommon Aquaculture 2 catches that requires both the correct biome and some patience. Muskellunge is a higher-saturation food source than common freshwater fish."]
 			id: "FI01000000000011"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "1FE3994E5BD9AA11"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "FI03000000000011"
 				item: "minecraft:emerald"
@@ -233,7 +354,18 @@
 		{
 			description: ["Jellyfish are caught in warm and deep ocean biomes. They are inedible but are used as a crafting ingredient — fish bones, jellyfish, and similar non-food aquatic catches are secondary Aquaculture outputs used in some recipe trees. The jellyfish is one of the odder Aquaculture catches and worth finding for completion."]
 			id: "FI01000000000012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "D91CED4BBF2D41DD"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000012"
 				item: "minecraft:slime_ball"
 				type: "item"
@@ -250,7 +382,18 @@
 		{
 			description: ["Pacific Halibut are a large flatfish caught in cold and frozen ocean biomes. Among the rarest of the standard ocean catches, the Pacific Halibut is identifiable by its flat body and spotted pattern. It provides high saturation when cooked and is a prestige catch in the Aquaculture 2 system."]
 			id: "FI01000000000013"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "280A2BE19EDFAE34"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "FI03000000000013"
 				item: "minecraft:emerald"
@@ -268,7 +411,18 @@
 		{
 			description: ["Blobfish are found only in deep ocean biomes — specifically at significant depth. Alex's Mobs adds them as a passive deep-sea creature. Catching or killing a Blobfish requires going deep and searching carefully; they are ambient creatures that do not actively attack. Blobfish drop fish bones and are one of the more unusual aquatic collectable creatures in the pack."]
 			id: "FI01000000000014"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6817CA82990D3CB6"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "FI03000000000014"
 				item: "minecraft:bone"
 				count: 3
@@ -286,7 +440,18 @@
 		{
 			description: ["Blue Skies adds its own fish species to the Everbright and Everdawn dimensions — the Charscale Moki and Grittle Flatfish inhabit dimension-specific water sources. These are unique catches available only by fishing in their home dimension. Blue Skies fish do not drop in the overworld; access requires opening and stabilizing both Blue Skies portals first."]
 			id: "FI01000000000015"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9248DDA7790B77E3"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "FI03000000000015"
 				item: "minecraft:emerald"
@@ -311,7 +476,18 @@
 		{
 			description: ["The Undergarden has its own aquatic ecology. The Gwibling is an Undergarden fish caught by fishing in the dimension's water sources. Raw Gwibling is edible but provides limited nutrition; cooked Gwibling provides significantly more. Undergarden fishing also levels the Mine and Slash Fishing profession and provides a source of Tiered Fish at appropriate levels when your character's fishing profession is leveled."]
 			id: "FI01000000000016"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "33CC029328F7464E"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "FI03000000000016"
 				item: "minecraft:emerald"
@@ -329,7 +505,18 @@
 		{
 			description: ["As the Mine and Slash Fishing profession levels, fishing yields Tiered Fish — Spiritual (1-20), Celestial (21-40), Empyrean (41-60), Angelic (61-80), Divine (81-100), and Godly (100). Tiered Fish are the primary ingredient in Mine and Slash Cooking recipes for seafood dishes that grant Experience and Loot bonuses when consumed. A dedicated fishing session with a high fishing level produces enough Tiered Fish for a full cooking batch."]
 			id: "FI01000000000017"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "33602EA8EE04CA24"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 10
 				id: "FI03000000000017"
 				item: "mmorpg:material/fishing/0"
@@ -347,7 +534,18 @@
 		{
 			description: ["Neptune's Bounty is a special treasure chest item caught by fishing in open ocean biomes while using an Aquaculture 2 rod. Opening it has a chance to yield Neptunium Ingots — a rare material used to craft the Neptunium Fishing Rod and Neptunium armor. Neptunium Ingots cannot be crafted; they are exclusively obtained from Neptune's Bounty boxes. Dedicated ocean fishing is the only path to Neptunium."]
 			id: "FI01000000000018"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "081EB8508FF1021B"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "FI03000000000018"
 				item: "aquaculture:iron_hook"
@@ -366,7 +564,18 @@
 			dependencies: ["FI01000000000018"]
 			description: ["The Neptunium Fishing Rod is the highest-tier fishing rod in Aquaculture 2, crafted from Neptunium Ingots obtained from Neptune's Bounty boxes. It has higher durability than the iron rod and improves the odds of catching rare fish and treasure boxes. The Neptunium Rod makes the Arapaima, Pacific Halibut, and rare dimension fish significantly more accessible — it is the endgame of the Aquaculture 2 system."]
 			id: "FI01000000000019"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "60D56B961AC0CE78"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "FI03000000000019"
 				item: "mmorpg:currency/mirror"
@@ -398,7 +607,18 @@
 			]
 			description: ["The overworld's rivers and oceans, the Blue Skies dimensions, the Undergarden, and the deep ocean — each water source has its own fish population, its own catches, and its own ecological logic. The Master Angler has fished them all: rare freshwater giants, alien dimension fish, deep ocean creatures, and the Neptunium endgame. Fishing is not a passive activity in this pack. It is a fully realized profession with its own progression arc."]
 			id: "FI01000000000020"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "13CE1DEA8855BEC2"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "FI03000000000020"
 				item: "mmorpg:currency/mirror"

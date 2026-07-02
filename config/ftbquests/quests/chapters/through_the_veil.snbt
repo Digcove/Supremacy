@@ -14,6 +14,16 @@
 			invisible: true
 			optional: true
 			size: 1.0d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "DF5FF972758B908A"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "VL0F0000000000FF"
 				title: "{ftbquests.positioner.title}"
@@ -26,7 +36,18 @@
 			dependencies: ["IV0100000000001A"]
 			description: ["Naquadah is not mined so much as refined. The raw ore must be crushed, washed, and centrifuged before the EBF will accept it. Pull the first ingots from the dust before you think about stargates."]
 			id: "VL01000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "CD9B0281118AFF04"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000001"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -44,7 +65,18 @@
 			dependencies: ["VL01000000000001"]
 			description: ["Enriching raw naquadah in the EBF amplifies its dimensional resonance coefficient. Every alloy in the stargate structural matrix requires this intermediate form—there is no shortcut through the smelting step."]
 			id: "VL01000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A40A1A26F3E2327B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000002"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -62,7 +94,18 @@
 			dependencies: ["VL01000000000002"]
 			description: ["Naquadah Alloy combines enriched naquadah with Osmiridium under extreme heat. The resulting material is self-resonant—it sustains an Einstein-Rosen bridge without continuous energy input, which is the only reason stargates are practical at all."]
 			id: "VL01000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "055E3388EB8AA8E8"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "VL03000000000003"
 				item: "lightmanscurrency:coin_emerald"
@@ -88,6 +131,16 @@
 			id: "VL01000000000004"
 			shape: "rsquare"
 			size: 1.25d
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "AE1E566BA0FD0170"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
 			tasks: [{
 				id: "VL02000000000004"
 				title: "Become a Spirit Ancestor"
@@ -101,7 +154,18 @@
 			dependencies: ["VL01000000000004"]
 			description: ["Naquadah crystal lattices are the only medium that can decode a DHD signal burst and translate it into a stable wormhole formation sequence in time. Grow the interface crystal and set it into its housing."]
 			id: "VL01000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A02E9B1FA258BE69"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000005"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -119,7 +183,18 @@
 			dependencies: ["VL01000000000001"]
 			description: ["14 ring segments form the rotating aperture of a Classic Stargate. Each is precision-cast from naquadah alloy plate and etched with a portion of the address encoding geometry. Incomplete rings produce unstable wormholes."]
 			id: "VL01000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "17CD3D10B6D1F870"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000006"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -137,7 +212,18 @@
 			dependencies: ["VL01000000000006"]
 			description: ["9 chevrons lock each glyph into the gate's seven-symbol address matrix. Their geometry requires sub-millimeter manufacturing tolerance—loose chevrons let the kawoosh destabilize mid-formation."]
 			id: "VL01000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C7AD677AE4FA7607"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000007"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -155,7 +241,18 @@
 			dependencies: ["VL01000000000007"]
 			description: ["The base block anchors the full ring assembly and houses the primary inter-dimensional power conduit. Without a stable foundation the gate would physically translate across the floor when the wormhole activates."]
 			id: "VL01000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EDBD4BDBFE82448D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL03000000000008"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -177,7 +274,18 @@
 			description: ["14 ring blocks. 9 chevrons. 1 base block. Place the crystal interface and align the assembly. When the seventh chevron locks and the kawoosh erupts, you will understand why the Ancients considered this their greatest work."]
 			icon: "sgjourney:classic_stargate"
 			id: "VL01000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7C61F63D6E2B5EAB"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 5
 				id: "VL03000000000009"
 				item: "lightmanscurrency:coin_emerald"
@@ -215,7 +323,18 @@
 			hide_dependency_lines: true
 			id: "VL0100000000000A"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "520DA4F6C97F5F96"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL0300000000000A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -233,7 +352,18 @@
 			dependencies: ["VL01000000000009"]
 			description: ["Step through the active stargate into Abydos—a harsh desert planet orbiting a binary star. The locals call it a gift from the gods. You call it the first confirmed proof that the universe extends far beyond the Overworld."]
 			id: "VL0100000000000B"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "F069A162DA25CC52"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL0300000000000B"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -257,7 +387,18 @@
 			hide_dependency_lines: true
 			id: "VL0100000000000C"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "AB03BEC1321032A0"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL0300000000000C"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
@@ -308,7 +449,18 @@
 			dependencies: ["VL0100000000000B"]
 			description: ["The Goa'uld built their temples to intimidate, to worship Ra, and to guard naquadah deposits. Inside you will find the golden idol that marks a sanctioned traveler—and relics the System Lords never intended to leave this world."]
 			id: "VL0100000000000D"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "E529C85F4B7EBFFC"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 2
 				id: "VL0300000000000D"
 				item: "lightmanscurrency:coin_emerald"
@@ -331,7 +483,18 @@
 			hide_dependency_lines: true
 			id: "VL0100000000000E"
 			optional: true
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9EA85CB20302E857"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "VL0300000000000E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"

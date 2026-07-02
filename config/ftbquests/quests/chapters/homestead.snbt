@@ -11,7 +11,18 @@
 		{
 			description: ["Your first home does not need to be grand. It needs a roof, walls, a door, and a bed. Sleeping through the night resets the phantom counter, sets your spawn point, and prevents the most preventable cause of early-game death — drowning in the dark. Build before nightfall on your first day."]
 			id: "E001000000000001"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "69B88A2C75345EA9"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000001"
 				item: "minecraft:oak_planks"
 				count: 64
@@ -30,7 +41,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Waystones provide fast travel between named locations you have discovered or crafted. Right-click a Waystone to bind to it; open the Waystone GUI to teleport between discovered stones. Early teleportation replaces the need for minecart networks and greatly reduces travel time between your base, mining sites, and dimensional portals."]
 			id: "E001000000000002"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "01D552DBF0F32A87"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000002"
 				item: "waystones:waystone"
 				type: "item"
@@ -48,7 +70,18 @@
 			dependencies: ["E001000000000002"]
 			description: ["Attunement Powder lets you link two Waystones as a private pair — useful for long-distance outposts. A Warp Stone (Attunement Powder + Ender Pearl) is a pocket-sized single-use teleporter back to your last activated Waystone. Keep one in your hotbar when exploring far from your established network."]
 			id: "E001000000000003"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "DE6088B3706767B2"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 3
 				id: "E003000000000003"
 				item: "waystones:warp_stone"
@@ -67,7 +100,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Supplementaries adds dozens of functional decorative blocks. Wall Sconces provide atmospheric lighting at head height without floor clutter. Jar blocks can store a single item or mob visually on a shelf. Ropes can be climbed; Wind Vanes spin in the direction of wind. The Globe shows a spinning Earth model. Start with a Sconce and a Sign to personalize your entrance."]
 			id: "E001000000000004"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "B438CBFA3DC69060"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "E003000000000004"
 				item: "supplementaries:wall_lantern"
@@ -86,7 +130,18 @@
 			dependencies: ["E001000000000004"]
 			description: ["Supplementaries' Jar is a functional display block — place one on a surface and right-click with an item to store it visually. Items placed in jars can be retrieved later. Firefly Jars provide gentle, ambient light. Jars work well as labeled pantry storage or as decorative specimen displays on shelves."]
 			id: "E001000000000005"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7B867FAFF452262A"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "E003000000000005"
 				item: "supplementaries:jar"
@@ -105,7 +160,18 @@
 			dependencies: ["E001000000000004"]
 			description: ["Supplementaries Ropes function as climbable chains of plant fiber — hang them from a ceiling or attach them to a wall to create scalable surfaces. Rope Arrows shot at a surface leave a climbable rope at impact. A simple alternative to ladders for vertical access in builds where ladder aesthetics don't fit."]
 			id: "E001000000000006"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "ACA410C49317AE24"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 16
 				id: "E003000000000006"
 				item: "supplementaries:rope"
@@ -124,7 +190,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Handcrafted adds furniture that functions as sittable blocks — chairs, stools, benches, and sofas. Beds from Handcrafted are stylistically varied and work as functional sleep points. Tables and shelves add visual depth to interiors. All furniture pieces come in every wood type. Furnishing a room makes it feel inhabited rather than staged."]
 			id: "E001000000000007"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "FBE8C7EDD08EFF95"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000007"
 				item: "handcrafted:oak_chair"
 				type: "item"
@@ -142,7 +219,18 @@
 			dependencies: ["E001000000000007"]
 			description: ["Handcrafted shelves mount on walls and display held items aesthetically. Place one book, tool, or decorative item on each shelf face. Countertops from Handcrafted pair naturally with Farmer's Delight cooking stations to build a functional kitchen layout. The full room kit — chairs, table, counter, shelf — turns any interior into a believable living space."]
 			id: "E001000000000008"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EE8830354BF39592"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000008"
 				item: "handcrafted:oak_shelf"
 				count: 4
@@ -161,7 +249,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Macaw's Windows adds glazed window blocks with detailed frames, shutters, and varying glass types. Proper windows let light into builds while maintaining wall structure — far more visually interesting than a square glass hole. Pair with Macaw's Doors for full architectural coherence."]
 			id: "E001000000000009"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "29C3CA7736BA5132"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "E003000000000009"
 				item: "mcwwindows:oak_window"
@@ -180,7 +279,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Macaw's Doors adds double-door variants, iron-framed doors, custom wood styles, and screen doors. Standard vanilla doors are functional but visually thin — Macaw's variants give buildings proper entrances with visual weight. Pair with the matching trapdoor or window style for coherent facades."]
 			id: "E001000000000010"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9C13FCCE6A934901"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000010"
 				item: "mcwdoors:oak_glass_door"
 				type: "item"
@@ -198,7 +308,18 @@
 			dependencies: ["E001000000000009"]
 			description: ["Macaw's Roofs adds sloped roof block variants — gabled, hipped, and flat cap styles in every wood and stone type. A proper sloped roof transforms a boxy structure into a believable building. Start with a simple gable; more complex hip roof shapes become possible once you understand how the pieces connect at ridges and corners."]
 			id: "E001000000000011"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6C6C712640943856"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 8
 				id: "E003000000000011"
 				item: "mcwroofs:oak_roof"
@@ -217,7 +338,18 @@
 			dependencies: ["E001000000000010"]
 			description: ["Macaw's Furniture adds cabinets, fridges, kitchen counters, and seating variants. The fridge block stores food items. Cabinets work as functional storage. Placing a kitchen counter, a fridge, and a Farmer's Delight Stove creates a fully decorated working kitchen — both functional and visually consistent."]
 			id: "E001000000000012"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0790752F5962CB55"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000012"
 				item: "mcwfurnitures:oak_cabinet"
 				type: "item"
@@ -235,7 +367,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Farmer's Delight adds the Stove — a functional cooking block that accepts fuel and processes Farmer's Delight recipes. The Cutting Board accepts tools like knives to process ingredients. The Skillet cooks single items faster than a furnace. Together, these three blocks form a complete Farmer's Delight kitchen capable of preparing every recipe in the mod."]
 			id: "E001000000000013"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "EE1259DA5053069B"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000013"
 				item: "farmersdelight:stove"
 				type: "item"
@@ -253,7 +396,18 @@
 			dependencies: ["E001000000000013"]
 			description: ["The Cutting Board with a Knife enables raw ingredient processing — slicing meat, dicing vegetables, and breaking down raw food into components used in Farmer's Delight recipes. The knife consumes durability with each cut. Stone knives are easiest to craft; iron and beyond work faster. Place the Cutting Board on a counter surface for a clean kitchen layout."]
 			id: "E001000000000014"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "A2B4EB1F7134BBC3"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000014"
 				item: "farmersdelight:cutting_board"
 				count: 2
@@ -272,7 +426,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Amendments adds small functional improvements — clocks that display time visually, cake stands that elevate cakes, lantern-style light sources with different burn animations, and ladder variants. The cake stand is purely cosmetic but makes a large difference in kitchen builds. Amendments is the mod for details that vanilla forgets."]
 			id: "E001000000000015"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "65BDC80CF1121F85"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000015"
 				item: "amendments:cake_stand"
 				type: "item"
@@ -290,7 +455,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Sophisticated Backpacks are upgradeable portable storage systems — accessible in-inventory without placing. Slot upgrades increase capacity; filter upgrades restrict which items enter. Pickup upgrades vacuum nearby items automatically. A Sophisticated Backpack replaces the inventory juggling of early exploration with a managed, categorized carry system."]
 			id: "E001000000000016"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6BE2F49FE935D685"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000016"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
@@ -308,7 +484,18 @@
 			dependencies: ["E001000000000016"]
 			description: ["Sophisticated Storage scales up with tier upgrades — Iron, Gold, Diamond, and Netherite barrels and chests each hold more than the last. The Barrel is the most compact: stores 18–126 items depending on tier. Pipe connections via Create or XNet can filter into labeled Sophisticated Storage barrels to create a self-organizing base storage system."]
 			id: "E001000000000017"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6F938E4826AC9692"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000017"
 				item: "sophisticatedstorage:barrel"
 				type: "item"
@@ -326,7 +513,18 @@
 			dependencies: ["E001000000000001"]
 			description: ["Storage Drawers provide bulk single-item storage in a compact, visually-labeled front-face format. Each drawer face displays what it holds and how much. A Controller Slave can link multiple drawer sets to a single access panel. Combined with a Create belt input system, Storage Drawers become the base of a fully automatic sorted warehouse."]
 			id: "E001000000000018"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "C175701FF2E5D29C"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				count: 4
 				id: "E003000000000018"
 				item: "storagedrawers:oak_drawers_1"
@@ -351,7 +549,18 @@
 			]
 			description: ["A true homestead is more than a starting box — it is a base of operations that grows with your progression. When your home has fast travel, furnished rooms, a working kitchen, a proper storage system, and real windows with a sloped roof, it has graduated from shelter to headquarters. The work never ends, but it gets more comfortable."]
 			id: "E001000000000019"
-			rewards: [{
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "9D48FBEFE4AAB6E5"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
 				id: "E003000000000019"
 				item: "mmorpg:currency/mirror"
 				type: "item"

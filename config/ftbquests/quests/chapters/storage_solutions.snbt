@@ -10,9 +10,9 @@
 	quests: [
 		{
 			description: [
-				"&eRefined Storage&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. "
+				"&eApplied Energistics 2&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. "
 				""
-				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
+				"The &eController&r is the core of the storage network. All other Applied Energistics 2 must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
 				""
 				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined. "
 			]
@@ -21,16 +21,16 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "5703DB65FB3ABDD3"
 				silent: true
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "Applied Energistics 2"
 			tasks: [{
 				id: "4B2ED6A485F2593C"
-				item: "refinedstorage:controller"
+				item: "ae2:controller"
 				type: "item"
 			}]
 			title: "Interconnecting Chests"
@@ -58,7 +58,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "0A7512AB8CD1DC80"
 				silent: true
 				title: "100 Experience x Lv."
@@ -95,7 +95,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "643E5E2551F6B2B5"
 				silent: true
 				title: "100 Experience x Lv."
@@ -153,7 +153,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "02AE780F088113BE"
 				silent: true
 				title: "100 Experience x Lv."
@@ -177,7 +177,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "7798F68FE81EC7D9"
 					silent: true
 					title: "500 Experience x Lv."
@@ -192,7 +192,7 @@
 				}
 				{
 					id: "02E5D59D4BFE5460"
-					item: "simplehats:camerabeard"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -269,7 +269,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "35288E68A43A8D5E"
 				silent: true
 				title: "100 Experience x Lv."
@@ -301,7 +301,7 @@
 				""
 				"&eFluid storage&r requires specialized versions of both to store fluids within the network."
 				""
-				"Each Refined Storage block has a priority you can set where the network will first take or receive items from."
+				"Each Applied Energistics 2 block has a priority you can set where the network will first take or receive items from."
 				""
 				"A basic storage system (&eController, Disk Drive and any Grid&r) uses 0 energy to run!"
 			]
@@ -310,42 +310,42 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7999735B9C4588BA"
 				silent: true
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "Applied Energistics 2"
 			tasks: [
 				{
 					id: "6B0223CDA914FC54"
-					item: "refinedstorage:disk_drive"
+					item: "ae2:drive"
 					type: "item"
 				}
 				{
 					id: "2B7765A169A2D050"
-					item: "refinedstorage:1k_storage_disk"
+					item: "ae2:item_storage_cell_1k"
 					type: "item"
 				}
 				{
 					id: "1F1B445738E62077"
-					item: "refinedstorage:grid"
+					item: "ae2:terminal"
 					type: "item"
 				}
 				{
 					id: "265EE9FA99B4B2AC"
-					item: "refinedstorage:64k_fluid_storage_disk"
+					item: "ae2:fluid_storage_cell_64k"
 					type: "item"
 				}
 				{
 					id: "6EFC8A82C99ABB40"
-					item: "refinedstorage:fluid_grid"
+					item: "ae2:fluid_storage_cell_4k"
 					type: "item"
 				}
 				{
 					id: "18DA127DD1997096"
-					item: "refinedstorage:crafting_grid"
+					item: "ae2:crafting_terminal"
 					type: "item"
 				}
 			]
@@ -367,27 +367,27 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "29386B5711B850B7"
 				silent: true
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "Applied Energistics 2"
 			tasks: [
 				{
 					id: "06B652F2C9EA0322"
-					item: "refinedstorage:storage_monitor"
+					item: "ae2:storage_monitor"
 					type: "item"
 				}
 				{
 					id: "121B3364E98AC4FB"
-					item: "refinedstorage:pattern_grid"
+					item: "ae2:pattern_encoding_terminal"
 					type: "item"
 				}
 				{
 					id: "62C84E7861D0E991"
-					item: "refinedstorage:crafter"
+					item: "ae2:molecular_assembler"
 					type: "item"
 				}
 			]
@@ -400,7 +400,7 @@
 			description: [
 				"These allow you to &eaccess&r a network's inventory from &efar away&r."
 				""
-				"Simply craft a &eNetwork Transmitter&r and connect it to your Refined Storage system in your main base."
+				"Simply craft a &eNetwork Transmitter&r and connect it to your Applied Energistics 2 system in your main base."
 				""
 				"Next up, craft a &eNetwork Card&r."
 				""
@@ -419,7 +419,7 @@
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "4CE32B206F01E1BD"
 					silent: true
 					title: "500 Experience x Lv."
@@ -434,7 +434,7 @@
 				}
 				{
 					id: "2FF2FEA283ED6A28"
-					item: "simplehats:tvhead"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -444,17 +444,17 @@
 			tasks: [
 				{
 					id: "61BC6B3C28C327BF"
-					item: "refinedstorage:network_transmitter"
+					item: "ae2:quantum_ring"
 					type: "item"
 				}
 				{
 					id: "2E8BDBC699EB34D8"
-					item: "refinedstorage:network_card"
+					item: "ae2:memory_card"
 					type: "item"
 				}
 				{
 					id: "15F235BE4FC02695"
-					item: "refinedstorage:network_receiver"
+					item: "ae2:quantum_link"
 					type: "item"
 				}
 			]
@@ -475,7 +475,7 @@
 				""
 				"To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r"
 				""
-				"The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!"
+				"The &eMana Fluxfield&r converts Botania Mana into FE for Applied Energistics 2 item manipulation!"
 				""
 				"Each block can have filters applied to it."
 			]
@@ -485,7 +485,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "5DE6A4583A76E4E5"
 					silent: true
 					title: "100 Experience x Lv."
@@ -494,25 +494,25 @@
 				{
 					count: 8
 					id: "73E8823D7A15F046"
-					item: "refinedstorage:quartz_enriched_iron"
+					item: "ae2:certus_quartz_crystal"
 					type: "item"
 				}
 			]
-			subtitle: "Refined Storage"
+			subtitle: "Applied Energistics 2"
 			tasks: [
 				{
 					id: "16E23820542D9533"
-					item: "refinedstorage:exporter"
+					item: "ae2:export_bus"
 					type: "item"
 				}
 				{
 					id: "398A9D9D275E80A0"
-					item: "refinedstorage:importer"
+					item: "ae2:import_bus"
 					type: "item"
 				}
 				{
 					id: "21E2D50800CDD38A"
-					item: "refinedstorage:interface"
+					item: "ae2:interface"
 					type: "item"
 				}
 				{
@@ -533,7 +533,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "7C40E770D3092D25"
 				silent: true
 				title: "100 Experience x Lv."
@@ -579,7 +579,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "5B55E6903CC702C9"
 				silent: true
 				title: "100 Experience x Lv."
@@ -628,7 +628,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "2C33C7226B9351E6"
 				silent: true
 				title: "100 Experience x Lv."
@@ -701,7 +701,7 @@
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "236882E6AC66900C"
 				silent: true
 				title: "100 Experience x Lv."
@@ -748,7 +748,7 @@
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 500"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "2AFF0D9FFE57369A"
 					silent: true
 					title: "500 Experience x Lv."
@@ -763,7 +763,7 @@
 				}
 				{
 					id: "0115F4FB21EAD46B"
-					item: "simplehats:bucket"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -842,7 +842,7 @@
 				{
 					command: "/mine_and_slash give xp_times_lvl @p 750"
 					elevate_perms: true
-					icon: "ftb_ph:exp"
+					icon: "minecraft:experience_bottle"
 					id: "6937B10EF0E96632"
 					silent: true
 					title: "750 Experience x Lv."
@@ -857,7 +857,7 @@
 				}
 				{
 					id: "42A93AE6423DC86D"
-					item: "simplehats:policebucket"
+					item: "lightmanscurrency:coin_gold"
 					type: "item"
 				}
 			]
@@ -878,22 +878,22 @@
 				"4A3CBD5BF1BC9968"
 				"6EF2C5B82615DD1B"
 			]
-			description: ["The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
+			description: ["The &eExternal Storage&r allows you to link &eApplied Energistics 2&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
 			id: "4E4A3F37E8B476D5"
 			rewards: [{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
-				icon: "ftb_ph:exp"
+				icon: "minecraft:experience_bottle"
 				id: "632F0EE8C983348E"
 				silent: true
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Refined Storage"
+			subtitle: "Applied Energistics 2"
 			tasks: [{
 				id: "3A278D31677ADF0F"
-				item: "refinedstorage:external_storage"
+				item: "ae2:storage_bus"
 				type: "item"
 			}]
 			title: "Compatibility"

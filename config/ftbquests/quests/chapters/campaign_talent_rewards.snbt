@@ -79,7 +79,7 @@
 			subtitle: "Act I"
 			tasks: [{
 				disable_toast: true
-				icon: "simplehats:crown"
+				icon: "lightmanscurrency:coin_gold"
 				id: "2F3F84C83D1BDAA1"
 				stat: "minecraft:walk_one_cm"
 				title: "Complete: The Mastermind"
@@ -114,7 +114,7 @@
 				disable_toast: true
 				icon: {
 					Count: 1
-					id: "monsterplus:darkstar"
+					id: "mowziesmobs:naga_fang"
 					tag: {
 						Damage: 0
 					}
@@ -151,7 +151,7 @@
 			subtitle: "Act I"
 			tasks: [{
 				disable_toast: true
-				icon: "chococraft:chocopedia"
+				icon: "minecraft:lead"
 				id: "086D24D4B3BA3FB7"
 				stat: "minecraft:walk_one_cm"
 				title: "Complete: Chococraft and Mounts"
@@ -184,7 +184,7 @@
 			subtitle: "Act II"
 			tasks: [{
 				disable_toast: true
-				icon: "simplehats:burning_m_bison"
+				icon: "lightmanscurrency:coin_gold"
 				id: "02F878B205B83EE5"
 				stat: "minecraft:walk_one_cm"
 				title: "Complete: The Mother"
@@ -252,7 +252,7 @@
 				disable_toast: true
 				icon: {
 					Count: 1
-					id: "friendsandfoes:wildfire_crown"
+					id: "minecraft:blaze_rod"
 					tag: {
 						Damage: 0
 					}
@@ -850,7 +850,7 @@
 				""
 				"&eThis quest unlocks once you reach Act IV.&r"
 			]
-			icon: "simplehats:questbook"
+			icon: "lightmanscurrency:coin_gold"
 			id: "7841F2CFAF08C739"
 			rewards: [
 				{
@@ -997,7 +997,6 @@
 				}
 				{
 					auto: "invisible"
-					command: "/advancement revoke @p only friendsandfoes:nether/find_citadel"
 					elevate_perms: true
 					icon: "minecraft:writable_book"
 					id: "35CE577C4914B554"
@@ -1285,7 +1284,7 @@
 			subtitle: "Epilogue"
 			tasks: [{
 				disable_toast: true
-				icon: "simplehats:hatbag_epic"
+				icon: "lightmanscurrency:coin_gold"
 				id: "1FF5BDAB9E7E9AB7"
 				stat: "minecraft:walk_one_cm"
 				title: "Complete: Defeat All Twilight Forest Bosses!"
