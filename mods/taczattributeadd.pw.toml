@@ -1,0 +1,13 @@
+name = "TaczAttributeAdd"
+filename = "taa-1.3.4+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FL4iBpQn/versions/mvE4ymWZ/taa-1.3.4%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "b0838762bafa81278c9765e5793b96b2561e2fe979829b81fb361d45755c0f31cddd23a1609e0f0e16c92ab8472f6ef81ccd227f3d1a8a176a500bdaa7b64271"
+
+[update]
+[update.modrinth]
+mod-id = "FL4iBpQn"
+version = "mvE4ymWZ"

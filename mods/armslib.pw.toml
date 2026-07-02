@@ -1,0 +1,13 @@
+name = "ArmsLib"
+filename = "ArmsLib-1.20.1-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2aqI5ikI/versions/HAHcYsk2/ArmsLib-1.20.1-2.0.0.jar"
+hash-format = "sha512"
+hash = "0684f164391b0fb2ea96a893007c9eb708decb56bc48718ea7a47fd8d81d37c6c37eeb8d603a95d83b8f044f92e40d13d2a5ce2937c7ac364234f030e624d400"
+
+[update]
+[update.modrinth]
+mod-id = "2aqI5ikI"
+version = "HAHcYsk2"

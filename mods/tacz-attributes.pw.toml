@@ -1,0 +1,13 @@
+name = "TaCZ_Attributes"
+filename = "tacz_attributes-1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b3ab25e7747731cf11f34f626d61f0cf6e009fb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7779881
+project-id = 1113285

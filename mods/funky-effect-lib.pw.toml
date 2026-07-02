@@ -1,0 +1,13 @@
+name = "Funky Effect Lib"
+filename = "funky_effect_lib-1.0.1-mc1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d1dfc2b3cbca78292f2f9ec1b0036ada3215143a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8313266
+project-id = 1568522
