@@ -25,6 +25,10 @@ _Last updated: 2026-06-30. This file is the canonical pending-work tracker for f
 - **KubeJS compat scripts** — ae2_gtceu_compat, thermal_compat, functional_storage_recipes, flux_networks_recipes, general_compat (adapted from Star Tech THETA-1; Star Tech custom materials excluded)
 - **AE2 channels** — set to `infinite` in config/ae2/common.json
 - **kubejs:coin replaced** — all 1,268 phantom `kubejs:coin` references across 27 Star Tech chapter files replaced with tiered `lightmanscurrency:coin_*` (iron → gold → emerald → diamond → netherite by progression stage). Kill tasks confirmed native FTBQuests (`type: "kill"`), no extra mod needed.
+- **Iron's Spells fixed** — installed Mine and Slash Compatibility Addon; switched `mine_and_slash_compatibility-server.toml` from ORIGINAL_MODE → COMPATIBLE_MODE so Iron's Spells spells properly convert to MnS damage.
+- **TF uncrafting disabled** — `disableUncrafting = true` in `config/twilightforest-common.toml` (prevents recipe reversal exploits, matches C2E2).
+- **Blue Skies gated** — created `config/blue_skies-common.toml` with `zeal_lighter_cost = 32` (4× default cost to enter Everbright/Everdawn; matches C2E2 gate timing). Born in Chaos mobs allowed to spawn in Blue Skies dims.
+- **TF origin dimension intentionally OVERWORLD** — C2E2 gates TF behind Deeper Darker, but Supremacy's GT progression gates REQUIRE TF trophies (Naga Scale for Cupronickel Coil, Lich Trophy for HV Hull). Must remain accessible from overworld.
 
 ---
 
@@ -160,6 +164,23 @@ All these items render as purple missing-texture until PNGs are provided. All mu
 ---
 
 ---
+
+## 🔴 BALANCE — REQUIRES ACTION
+
+### No Anti-Mob-Farm System
+C2E2 uses a dedicated `anti_mob_farm` mod that requires players to deal ≥50% of total damage for loot, with per-chunk kill penalties regenerating over time. Without it, any AoE or spawner farm trivially grinds gear. The mod may not be publicly available — check the C2E2 mod list. If unavailable, partially mitigate with InControl spawning density limits.
+
+### No MnS Item Injection into Mod Structure Chests
+C2E2 injects MnS items (salvage stones, orbs, runes) into Better Dungeons/Better Desert Temples/Better Ocean Monuments/Blue Skies/Undergarden chest loot tables via OpenLoader data overlays. Supremacy has no loot table overlays — mod structure chests feel empty relative to what C2E2 players expect. Fix: create `kubejs/data/<mod>/loot_tables/` overrides or use LootJS to inject MnS currency into structure chests.
+
+### No InControl Mob Spawning Rules
+C2E2 blocks Born in Chaos bosses (Lifestealer, Nightmare Stalker, Supreme Bonescaller) from Overworld spawning and forces them only into Blue Skies dimensions. Without this, these ultra-hard bosses spawn at overworld mob levels where players aren't ready. Add InControl rules to `config/incontrol/` (if InControl is installed).
+
+### Attribute Cap Verification Needed (In-Game)
+C2E2 uses AttributesFix to raise `generic.max_health`/`armor`/`attack_damage` to 1,000,000. Supremacy has Apothic Attributes (successor mod) which should handle this automatically, but must be verified in-game at high MnS levels.
+
+### soul_forged_ingot — Two Intentional Recipes (Not a Bug)
+Both `convergence_recipes.js` (magic path: charged_qi_crystal + manasteel + soul_crystal + soul_rune) and `gtceu_progression_gates.js` (tech path: spirit_iron + stainless_steel + qi_crystal × 8 → 2 ingots) define recipes. These are two valid crafting paths for different player routes. JEI will show both.
 
 ## 🟡 QUEST BOOK — MISSING COIN REWARDS (chapters with 0 coins despite 15+ quests)
 

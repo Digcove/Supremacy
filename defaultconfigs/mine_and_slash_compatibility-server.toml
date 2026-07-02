@@ -1,6 +1,6 @@
 #Compatibility Presets. Unlocked by installing the Compatibility addon
 #Allowed Values: LITE_MODE, ORIGINAL_MODE, COMPATIBLE_MODE
-COMPATIBILITY_PRESETS = "ORIGINAL_MODE"
+COMPATIBILITY_PRESETS = "COMPATIBLE_MODE"
 
 #It's advised to ONLY pick a COMPATIBILITY_PRESETS and not mess further with the configs.
 [compatibility_configs]

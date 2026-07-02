@@ -1,0 +1,13 @@
+name = "Mine and Slash Compatibility"
+filename = "Mine_and_lash-Compatibility-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LCUv4wXA/versions/cB822RyC/Mine_and_lash-Compatibility-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "8afeb26ce1a362b6beb8aa10b64542e080dede75e0c76a553dd9c32b7a94fa77d06967cbc453cb8afa7cdc783fe27c4584710fcc451788117cff7cb72dc168a3"
+
+[update]
+[update.modrinth]
+mod-id = "LCUv4wXA"
+version = "cB822RyC"
