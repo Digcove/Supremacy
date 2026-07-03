@@ -22017,10 +22017,6 @@ file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/primitives/
 hash = "9068a0db941ceb17063fdf481584b6b2aa16927f32848dde699955a57453017e"
 
 [[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/resource_production/akreyrium_line/abyssal_akreyriadix_stabilizer.js"
-hash = "b758394492abdbf76899f2328f9211fb43896067d5d1709f884db565fd98d69d"
-
-[[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/resource_production/akreyrium_line/folding_akreyrium_stabiliser.js"
 hash = "b2e60c0d18f095124df36f77b2e08be675183a11a7cab48b0ccbe2913a5177bb"
 
@@ -22089,16 +22085,8 @@ file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/stargate_re
 hash = "5466e2fc3ce9e17a6c9c22f4367a56741816d020fede4689d7a6ffff499be2b4"
 
 [[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/stargate_related_multiblocks/runic_inscriber.js"
-hash = "e5173a2bf41aeb170cc1525fe0ad5a932e8aee9220fa29f118e5318d83ae187f"
-
-[[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/chemical_plant.js"
 hash = "553378aa8c9b93e40338bb5bc651b0ffcc2619f8088e513d2895aa82ddf8fb50"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/cyclonic_sifter.js"
-hash = "9ce1e54514a7a3f1ba4d1cc59b7b4d2f0f8623e596910f65b2905f854ed3f821"
 
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/exotic_gas_siphon.js"
@@ -22113,24 +22101,8 @@ file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_g
 hash = "f3f2a6cf1a769655386c2fa66225e100dd79c3bb52e0977be49ed9e805c83c8c"
 
 [[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/manifold_centrifuge.js"
-hash = "5604a4b6235b52a9a9ef3104b6a3b6017d2b62ab143186c2b09c4538aba780db"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/super_pressure_heat_chamber.js"
-hash = "f6abd4efc33cc2c3fb94ad3526fd2220e25d0f6c5111a74cf1f300656eaec943"
-
-[[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/abydos_multis/titan_forge.js"
 hash = "07b805006938697cc9ebadfe210506884046c279a6e19ca3d8994ad97c6743c7"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/end_multis/draco_circuit_assembly.js"
-hash = "4216a79ee89dc55acffa5572e8b5f0c711ce24585795b4386184eb0ed61ee3fa"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/nether_multis/mega_abs.js"
-hash = "981c6b1d39cbf2386b16e8385d9aaf97a989a049a8bddac386b9ab1131f2550f"
 
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/pre_gate/component_part_assembly.js"
@@ -22139,18 +22111,6 @@ hash = "8e543d81f935c6307fd9f15e229b1ca6c1221e62a2aa6fb48ca3ad0085f9876b"
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/pre_gate/heat_chamber.js"
 hash = "81c413228de0d221a924c4b122c6732cf5f3dbc2ad2fa0c18416336271c46c06"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/riftic_multis/kaledoscopic_fractalizer.js"
-hash = "a3d00a915a6c8b5ccdbc1fe2673302be1e641ae6efd44bcc511a46e4e1121919"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/riftic_multis/riftion_injector.js"
-hash = "754bf99bea0e93b64bf4065995aabf367796a6ffe4130e84266c995ae94fc842"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/very_late_game_multis/riftic_multis/riftion_slammer.js"
-hash = "0381867bf877926b06a87348f487a4b85d33a9d4738fbc4acdddd1cab7bd985d"
 
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/single_blocks/advanced_composter.js"
