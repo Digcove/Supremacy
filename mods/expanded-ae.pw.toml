@@ -1,13 +1,13 @@
 name = "Expanded AE"
-filename = "expandedae-1.2.2.jar"
+filename = "expandedae-1.4.1.b.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ayN3DZKb/versions/KXyq9wjS/expandedae-1.2.2.jar"
-hash-format = "sha512"
-hash = "41362670774ada683740a6eb71bafe6472d8b7a6f227465c79b3942efa72b5eb2607da1d3b98dd54399fd10991d7e70c91d79d223c75c42fdb9e8debfdbb7841"
+hash-format = "sha1"
+hash = "9415e5223cf8cb073f602ca5751e5b819b8d5f74"
+mode = "metadata:curseforge"
 
 [update]
-[update.modrinth]
-mod-id = "ayN3DZKb"
-version = "KXyq9wjS"
+[update.curseforge]
+file-id = 8048572
+project-id = 1213351
