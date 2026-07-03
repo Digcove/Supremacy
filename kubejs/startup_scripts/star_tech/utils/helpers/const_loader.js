@@ -47,12 +47,5 @@
     const $FluidHatchPartMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.part.FluidHatchPartMachine')
         //Adding new fluid hatch types
 
-    const $LayeredWorkableElectricMultiblockMachine = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.LayeredWorkableElectricMultiblockMachine",);    
-        //.machine((holder) => new $LayeredWorkableElectricMultiblockMachine(holder))
-            //Layered Input Supported Machine
-    
     // Formatting Util
     const $FormattingUtil = Java.loadClass('com.gregtechceu.gtceu.utils.FormattingUtil');
-
-    // Optical Computation Machine (for multiblocks that use CWU)
-    const $OpticalComputationMachine = Java.loadClass('com.gregtechceu.gtceu.common.machine.multiblock.electric.research.OpticalComputationMachine');
