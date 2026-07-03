@@ -21509,10 +21509,6 @@ file = "kubejs/server_scripts/star_tech/common/systems/fusion/plasma_turbines.js
 hash = "90ac580213713f08bf586364f8ac57c1213901ed05f00627511f5bc266a172dd"
 
 [[files]]
-file = "kubejs/server_scripts/star_tech/common/systems/fusion/start_fusion_machines.js"
-hash = "61043cc548ed77b74e3b3da4df47a7c6c89c112f28c7734e771d5f06c0a3856b"
-
-[[files]]
 file = "kubejs/server_scripts/star_tech/common/systems/gate_based/asg.js"
 hash = "439e4d05d7f5e5173c985391ee25b97bfe6907d077de7363d563b48aa6cab388"
 
@@ -22179,10 +22175,6 @@ hash = "d5221a9d3d5d9fc50474f7fe143b3caed2046ac8f8c8e6cea9cd8581ad585140"
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/objects/blocks/extras.js"
 hash = "ef28fbfaa7164eb8b4965fa43ccd8993190bd1566f89a03c0f73493c745aac67"
-
-[[files]]
-file = "kubejs/startup_scripts/star_tech/common/objects/blocks/fusion.js"
-hash = "3413d57d1fbc8039511559cb3948c8a7ff79cf870c1c5d80516005f4c3e2a228"
 
 [[files]]
 file = "kubejs/startup_scripts/star_tech/common/objects/blocks/gate_blocks.js"
