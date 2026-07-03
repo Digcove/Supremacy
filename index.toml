@@ -22899,11 +22899,6 @@ hash = "b9a7e71472f5f88229bf2f9e214b223b3900052bdc56075906d7a22acf74568c"
 metafile = true
 
 [[files]]
-file = "mods/hats-classic.pw.toml"
-hash = "a725d7eebceb0d0b35e7bc5375741bc52081102b6bdb5d47e4c0b8df75984aa1"
-metafile = true
-
-[[files]]
 file = "mods/ice-and-fire-dragons.pw.toml"
 hash = "94c7c45a70d0cea86695ecd467f8e5c22510442c53c44291a570986e234428e5"
 metafile = true
