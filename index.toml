@@ -22045,10 +22045,6 @@ file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/resource_pr
 hash = "3902182c576efb245e071c4433ea29f9d7a9c43e7a568abf0312a899380136ae"
 
 [[files]]
-file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/resource_production/large sieve/mechanical_sieve.js"
-hash = "d16d01d76334bc6e36058a1d3bf46e22dc46397c7694380ae7873439454e2021"
-
-[[files]]
 file = "kubejs/startup_scripts/star_tech/common/machines/multiblocks/resource_production/miners/void_excavator.js"
 hash = "35def255b88e60da444524946a968990651865a3056bdff84ca323eadbb677c1"
 
