@@ -1,10 +1,10 @@
-name = "Fakelorant Gun Pack"
+name = "Fakelorant Gunpack"
 filename = "fakelorant_pack-1.0.6-HOTFIX.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "01fc79ae77d1decbbd648c4a91ec0d76fa2ff35c"
+hash = "b23f3d359d1d214824a6f65a8dab1bcf18a8da65"
 mode = "metadata:curseforge"
 
 [update]

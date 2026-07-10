@@ -1,12 +1,12 @@
-name = "Unnamed Pack"
+name = "Supremacy"
 author = "evancyrulik"
-version = "0.1.0"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "af9ac67489cfc2cf67e19bbdadced2ac41daac339b9bf03feb19d80c173ac987"
+hash = "37c46641dc7fc4a9a57135d636fb1a933678fcc1a021df359c04efaa84e203ff"
 
 [versions]
 forge = "47.4.20"

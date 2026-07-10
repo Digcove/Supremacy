@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".claude/settings.local.json"
-hash = "d065b74d3621d9635b52d2910e2e0dafa980e3cf0659c0cb54e44d3ea81612bf"
+hash = "c1210a14a5334709d42b43785a2ab988c43aa634dec870b4449d3e230f625abc"
 
 [[files]]
 file = ".vscode/settings.json"
@@ -22482,7 +22482,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
+hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
 metafile = true
 
 [[files]]
@@ -22686,7 +22686,7 @@ metafile = true
 
 [[files]]
 file = "mods/cucumber.pw.toml"
-hash = "31b3ecd1317f2d2b9802592def351b5567196d726283530f72e33f5c827e5807"
+hash = "20c32f8edb2bb36f9311d01857856948c249e7a22aca8868942c525678f3c3cc"
 metafile = true
 
 [[files]]
@@ -22740,6 +22740,11 @@ hash = "76700218b9a2e6ca8854512ca7c90511c756ae7f76a93fa81518d9d0e81ef084"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "fbad2488da791994cbb4a0541e2dd22c536dbe6ca8f7edfdd9af12120e283fd2"
+metafile = true
+
+[[files]]
 file = "mods/entityjs-0.6.9-1.20.1.jar"
 hash = "ee445b31596291ddc07d17e6e266097671d589fc22fe199f902debaf7c7ccaee"
 
@@ -22784,6 +22789,11 @@ hash = "7cd4c2565a55c1903820a8c2e6e6bff5c29bf7623dd18aa03d8ba39c2b6d5025"
 metafile = true
 
 [[files]]
+file = "mods/extended-crafting.pw.toml"
+hash = "35775a3e5a7305ce1bdd0885a68bb439d7acb8f9868d0b9cd25ca091609fe965"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d7139e5db4b5a9b5d80330854bb23ce2cd197009b6d8e3636aa017434066b830"
 metafile = true
@@ -22811,6 +22821,11 @@ metafile = true
 [[files]]
 file = "mods/framework.pw.toml"
 hash = "9e2175476f720e0b2d21b28e91873cecf5555648e2137310e1b7cf98f6b98ab8"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-2.pw.toml"
+hash = "b3693e7a5647d4e28fc30ad3e85193c668a98a410dc3f425f19561cfea68957f"
 metafile = true
 
 [[files]]
@@ -22914,6 +22929,11 @@ hash = "de2f38aea5766676305ffff2000100c889b9278583379cfa04bba375ff45b6ec"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
+metafile = true
+
+[[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "6439c6f409308c4a89a12708b54cef41aa5382dc78e6f352b3e8005e96a21a8e"
 metafile = true
@@ -22921,6 +22941,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-petroleum.pw.toml"
 hash = "4550431d436af712c10bd486ab1271828a73318112fb895f0150c5ffa15a1796"
+metafile = true
+
+[[files]]
+file = "mods/in-control.pw.toml"
+hash = "66e31f260f763f9643e4efd3af083fb2b9810c49cbc221cec82caf82ec19222a"
 metafile = true
 
 [[files]]
@@ -23214,6 +23239,11 @@ hash = "19bcecfa3d942e4dddda2f84987b10718809ee9b09ee8461d993b951b538810d"
 metafile = true
 
 [[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "311e6ff7804f35deac9b3bd48bba8708590f1d8b6648048e7a021b4c5583d3fc"
+metafile = true
+
+[[files]]
 file = "mods/novacore.pw.toml"
 hash = "6f15aaeac3615f9f1af2e6090e60dbe1d4ac4abe7abbb6fe81bf502fce7379b2"
 metafile = true
@@ -23301,6 +23331,11 @@ metafile = true
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "62f429f37e8e20637dd5ca5479045fd6831d5b65bcfe3c49cc5a4c6eaf9eb540"
+metafile = true
+
+[[files]]
+file = "mods/polylib.pw.toml"
+hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
 metafile = true
 
 [[files]]
@@ -23426,6 +23461,11 @@ metafile = true
 [[files]]
 file = "mods/soul-land-v1.pw.toml"
 hash = "e432a78fab473508cf909bb03e34ede730e50b782ff1c95da16fc1dd632cae05"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
 
 [[files]]
@@ -23692,13 +23732,8 @@ hash = "917cf79cfcc0223a5d62ca5b798487cc2743d21c679ca4b67558a21d6fa56665"
 metafile = true
 
 [[files]]
-file = "tacz/fakelorant-gun-pack.pw.toml"
-hash = "bdd11b6cf31d1f59b896446208cdf9cc9590fca9e59ac89396219c135be71dcc"
-metafile = true
-
-[[files]]
-file = "tacz/ghouls-guns.pw.toml"
-hash = "e9bfa75443099dcb7d07d89a15f22ac50f28caa4e458f498677a3d4677258e13"
+file = "tacz/fakelorant-gunpack.pw.toml"
+hash = "eef292e358aa725f87b65b42b746374f6f15136fd9c177f82375dff258eca281"
 metafile = true
 
 [[files]]
@@ -23710,6 +23745,42 @@ metafile = true
 file = "tacz/warhammer-40k-darktide-gun-pack.pw.toml"
 hash = "63912a36323198d39ab75ed6bf840b4344e5621c135cd263c0abd74ad034f243"
 metafile = true
+
+[[files]]
+file = "tasks/00_conventions.md"
+hash = "fbda2f99071fc5e320856af6a733e76b8a53f387c599556afe98e9c76f2e0c61"
+
+[[files]]
+file = "tasks/01_mods.md"
+hash = "3ea3b14931830dff5c47cae58d7b644ee144ddff9d076ac42d85a4c05d6b25f8"
+
+[[files]]
+file = "tasks/02_guns.md"
+hash = "5774a909f90b40b2abdcdd16665b82e9315c5b061a22585d7396c84b1e6af349"
+
+[[files]]
+file = "tasks/03_quest_audit.md"
+hash = "8355ccba631739745ef39ff84f5964cc9e59a1c975ca568279460563c9c3a2e4"
+
+[[files]]
+file = "tasks/04_economy.md"
+hash = "0c49d534fa455150f2f4ea2a1f4a5216c27cd9b1f3069b5dc495ca1e2ed42673"
+
+[[files]]
+file = "tasks/05_chapters.md"
+hash = "47349815e7dd190e020811e09e42f091dd7612bf4227af82b2f8a7289b9dc96e"
+
+[[files]]
+file = "tasks/06_balance.md"
+hash = "0e7b1ac3b16ed71e7b63420affe25ebc76955fddb3e6d3c76c136136fc64afc9"
+
+[[files]]
+file = "tasks/07_extreme_crafting.md"
+hash = "656d5d4cdcc97c9510849d69d9f1b344a0b399201a76edd9ecb399f96ed0a3c9"
+
+[[files]]
+file = "tasks/08_handoff.md"
+hash = "debf88ab34daddba403cf41dc477d8fbbdd06fb1c6f68d7b1bd80eb065664f08"
 
 [[files]]
 file = "texture_checklist.md"
