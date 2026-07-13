@@ -3,7 +3,11 @@
 // Ported from C2E2; adapted for Supremacy's dimlist (dungeon_realm, the_harvest, ancient_obelisks).
 
 // ========= CONFIGURATION ========= //
-const SPAWN_COORDS = { x: 0, y: 64, z: 0 }; // TODO: set actual spawn coords
+// WS6: PLACEHOLDER VALUE — this MUST be set to the actual server/world spawn
+// coordinates before launch. Players who lose their saved return location are
+// teleported here; if it is left at {0, 64, 0} they may be dropped into
+// unloaded terrain, mid-air, or inside blocks at world origin.
+const SPAWN_COORDS = { x: 0, y: 64, z: 0 };
 const SPAWN_DIMENSION = "minecraft:overworld";
 
 const INPUT_DEVICES = {

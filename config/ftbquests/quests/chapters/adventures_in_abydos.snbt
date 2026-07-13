@@ -72,7 +72,7 @@
 				Count: 1
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "chipped:block/sand/desert_sand"
+					Icon: "minecraft:block/sand"
 				}
 			}
 			id: "493DD013C818BB7B"

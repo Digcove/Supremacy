@@ -92,7 +92,7 @@
 			}]
 			tasks: [{
 				id: "754BE6456ADB77C8"
-				item: "soulland:sleeve_dart"
+				item: "soulland:silent_sleeve_dart"
 				type: "item"
 			}]
 			title: "Sleeve Darts"
@@ -262,6 +262,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["4B84D5A3ED42C784"]
 			description: ["Buddha's Fury Tang Lotus is the apex of Tang Sect hidden weapon design — a nine-petal lotus that seals in explosive spirit energy, detonating on impact in a pattern that covers every escape vector. It requires Level 90 cultivation to deploy and demands mastery of every preceding Tang Sect technique. The two legendary weapons — Yama's Invitation and Bodhi Blood — are single-use and drop only from the most powerful sources. This lotus is the weapon you build toward."]
 			id: "23D5469DF20A7E80"
 			rewards: [
@@ -285,11 +286,175 @@
 			size: 1.5d
 			tasks: [{
 				id: "54943CE6FA5646E8"
-				item: "soulland:buddha_fury_tang_lotus"
+				item: "soulland:buddhas_fury_tang_lotus"
 				type: "item"
 			}]
 			title: "Buddha's Fury Tang Lotus"
 			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0194FAB6E9EFFA13"]
+			description: ["The Tang Sect outfits its disciples in light, unadorned armor built for speed and concealment rather than raw plating. The full Regalia — helmet, robe, leggings, and boots — is crafted at a standard crafting table from Spirit Steel reinforced with Spirit Iron. It bridges the gap between the early Spirit Cloth set and the Soul Forged plate that GTCEu-era cultivators wear, and it is the expected uniform for anyone practicing hidden weapon doctrine seriously."]
+			id: "3A3A97CE4003CDF0"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A3ACC521094D293"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3A3A803D1161443F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A3AEC7E71E735E3"
+					item: "soulland:tang_sect_helmet"
+					type: "item"
+				}
+				{
+					id: "3A3A51AE3C5D3B31"
+					item: "soulland:tang_sect_chestplate"
+					type: "item"
+				}
+				{
+					id: "3A3AB86E36BF9BA2"
+					item: "soulland:tang_sect_leggings"
+					type: "item"
+				}
+				{
+					id: "3A3AA23DF6991CE6"
+					item: "soulland:tang_sect_boots"
+					type: "item"
+				}
+			]
+			title: "Tang Sect Regalia"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A7C9E2F5B8D1A3C"]
+			description: ["Between the humble Sleeve Dart and the Godly Zhuge Crossbow sits the Tang Sect's working arsenal. The Bone Piercing Needle punches through armor a dart cannot. The Tense Back Flower Crossbow mounts across the shoulders and answers an ambush from behind with a full volley. The Powder Shooting Shadow carries the sect's poisons to targets well outside throwing range. Each is forged at the Forging Table as your rank climbs — collect all three to round out your concealed loadout."]
+			id: "3A3A48EE2F17D414"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A3A7111AC829037"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "3A3A9006E61637CD"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A3AF83BFF4DC65E"
+					item: "soulland:bone_piercing_needle"
+					type: "item"
+				}
+				{
+					id: "3A3A74BCE8AEAF1E"
+					item: "soulland:tense_back_crossbow"
+					type: "item"
+				}
+				{
+					id: "3A3AF742C7322973"
+					item: "soulland:powder_shooting_shadow"
+					type: "item"
+				}
+			]
+			title: "Needles and Shadows"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B84D5A3ED42C784"]
+			description: ["The Sect Inheritance Token marks a cultivator as a full inheritor of Tang Sect doctrine. It is assembled from a Nine Petal Jade Lotus, Jade Phosphor Moss, Heaven Blue Vine, an Immortal Herb, a Spirit Iron Ingot, and two Soul Crystals — rare herbs from the deepest Qi zones of the Spirit Beast Forest combined with endgame crafting material. Producing one proves you have mastered herb gathering, alchemy-grade botany, and soul crystal acquisition in equal measure."]
+			id: "3A3A3185B5533EC9"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A3A8D586E1C2844"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "3A3A588C194F41B4"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A3A9D8DD0D88C2F"
+				item: "soulland:sect_inheritance_token"
+				type: "item"
+			}]
+			title: "Sect Inheritance Token"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23D5469DF20A7E80"]
+			description: ["Yama's Invitation and Bodhi Blood are the Tang Sect's two legendary hidden weapons — each destroyed in the act of use, each capable of deciding a fight against opponents far above your rank. They cannot be forged; they drop only from the most powerful sources in the world. Holding both at once is the final collector's milestone of hidden weapon doctrine. Spend them wisely: a one-use weapon saved forever is a weapon wasted."]
+			id: "3A3A29844F888E06"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "3A3A20554E92EF02"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "3A3A1FD4D9A9DC68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A3A6D3E30E85A01"
+					item: "soulland:yamas_invitation"
+					type: "item"
+				}
+				{
+					id: "3A3A5C2F41F96B12"
+					item: "soulland:bodhi_blood"
+					type: "item"
+				}
+			]
+			title: "Legendary Hidden Weapons"
+			x: 14.0d
 			y: -0.5d
 		}
 		{
@@ -397,7 +562,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Iron's Spells & Spellbooks puts spellcasting in the off-hand for the Cloth armor path. The Iron Spellbook starts with several spell slots; higher-tier books hold more and cast at greater power. Spell Scrolls drop from enemies, mage towers, and dungeon chests — right-click a scroll while holding your Spellbook to inscribe it permanently. Spells cost Mana, which regenerates passively and scales with Intelligence and Wisdom stat soul investment. For cultivators on the Cloth path, this is your primary damage system alongside soul ring active skills and Tang Sect techniques."]
+			description: ["Iron's Spells & Spellbooks puts spellcasting in the off-hand for the Cloth armor path. Craft the &eIronbound Tome&r yourself at a crafting table — chains, leather, and paper — this quest only completes when you craft it, not when you loot one. The Tome starts with several spell slots; higher-tier books hold more and cast at greater power. Spell Scrolls drop from enemies, mage towers, and dungeon chests — right-click a scroll while holding your Spellbook to inscribe it permanently. Spells cost Mana, which regenerates passively and scales with Intelligence and Wisdom stat soul investment. For cultivators on the Cloth path, this is your primary damage system alongside soul ring active skills and Tang Sect techniques."]
 			id: "5976D1DDED910B15"
 			rewards: [
 				{
@@ -420,6 +585,7 @@
 				{
 					id: "3F2B5D7A9C1E3F81"
 					item: "irons_spellbooks:iron_spell_book"
+					only_from_crafting: true
 					type: "item"
 				}
 				{

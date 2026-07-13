@@ -71,6 +71,12 @@
 			id: "A001000000000002"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A03060F65072D"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -100,6 +106,12 @@
 			description: ["Jungles are the densest biome in the game — cocoa beans, melons, and parrots are found here exclusively. Jungle temples contain loot behind tripwire puzzles; disarm them before looting. Ocelots spawn naturally and can be tamed with raw fish. The density of foliage makes navigation difficult but rewarding."]
 			id: "A001000000000003"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A2591EC5AEE0C"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -191,6 +203,12 @@
 			id: "A001000000000006"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A57E999B952AA"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -220,6 +238,12 @@
 			description: ["Badlands (Mesa) are one of the rarest overworld biomes — gold ore generates at all Y levels here, far above its normal range. Mineshafts expose at the surface as oxidized wood structures cutting through the red and orange terracotta layers. A reliable early gold source with spectacular visual character."]
 			id: "A001000000000007"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A2F12CA5D7FDE"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -251,6 +275,12 @@
 			id: "A001000000000008"
 			rewards: [
 				{
+					count: 5
+					id: "3A3AADC40D22C789"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -281,6 +311,12 @@
 			id: "A001000000000009"
 			rewards: [
 				{
+					count: 10
+					id: "3A3A2DFE0E5D6AD2"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -310,6 +346,12 @@
 			description: ["The Frozen Peaks are among the highest-elevation biomes — jagged, snow-covered mountain summits where only Goats and the occasional powder snow trap await. Goats ram players and mobs off ledges; a Screaming Goat's horn is a rare drop with utility uses. The peak elevation makes them natural landmarks."]
 			id: "A001000000000010"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AC7109C825E80"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -370,6 +412,12 @@
 			id: "A001000000000012"
 			rewards: [
 				{
+					count: 15
+					id: "3A3AA99ED7CE6B16"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -399,6 +447,12 @@
 			description: ["The Soul Sand Valley is a distinctive Nether biome — blue fire burns on soul sand, Ghasts float through open caverns, and skeletons congregate in dense numbers. Soul Sand slows movement; Soul Soil does not. Soul Speed enchantment grants movement bonus. The aesthetic is used heavily in Soul Land cultivation themes."]
 			id: "A001000000000013"
 			rewards: [
+				{
+					count: 10
+					id: "3A3A4A45402BCEA4"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -430,6 +484,12 @@
 			id: "A001000000000014"
 			rewards: [
 				{
+					count: 10
+					id: "3A3A975FE2C10FE1"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -459,6 +519,12 @@
 			description: ["The Warped Forest is the only Nether biome where Endermen spawn naturally. It is otherwise peaceful — no hostile Nether mobs spawn here. Warped Fungi drives away Hoglins. The blue-cyan palette contrasts the rest of the Nether sharply. Endermen from this biome carry ender pearls useful for early teleportation and Ender Chest crafting."]
 			id: "A001000000000015"
 			rewards: [
+				{
+					count: 10
+					id: "3A3A646537EB4CEB"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -490,6 +556,12 @@
 			id: "A001000000000016"
 			rewards: [
 				{
+					count: 12
+					id: "3A3AB6F78C937419"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -520,6 +592,12 @@
 			id: "A001000000000017"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A8B9C75FE1EF4"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -548,6 +626,12 @@
 			description: ["The Aether is a sky dimension of floating islands, eternal daylight, and dangerous dungeons filled with unique bosses. Enter through a water-activated portal. The Aether contains materials unavailable elsewhere — Zanite for tools, Gravitite for armor that falls upward, and the Aether dungeons for rare accessories. The Slider, Valkyrie Queen, and Sun Spirit guard the tier-locked loot."]
 			id: "A001000000000018"
 			rewards: [
+				{
+					count: 3
+					id: "3A3A37DCE5E1AF9A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -579,6 +663,12 @@
 			id: "A001000000000019"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A9D240664809A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -608,6 +698,12 @@
 			id: "A001000000000020"
 			rewards: [
 				{
+					count: 4
+					id: "3A3A82146EE7DD0C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -636,6 +732,12 @@
 			description: ["Blue Skies: Everdawn is the warmer of the two sky dimensions — volcanic terrain, ember-lit skies, and aggressive mob variants distinguish it from the Everbright. Unique foraging resources and crafting materials are exclusive to this dimension. The Everdawn boss rewards are separate from the Everbright track; both must be explored for full progression."]
 			id: "A001000000000021"
 			rewards: [
+				{
+					count: 4
+					id: "3A3A7252EB8A908E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -671,6 +773,12 @@
 			id: "A001000000000022"
 			rewards: [
 				{
+					count: 2
+					id: "3A3A56A1ED018967"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -698,6 +806,12 @@
 			description: ["The vanilla adventuring_time advancement requires visiting every one of the 53 overworld biomes. With Terralith and Regions Unexplored installed, the biome count is significantly larger — but the vanilla advancement only tracks the original 53. Complete it by deliberately using Nature's Compass to seek out lesser-visited variants."]
 			id: "A001000000000023"
 			rewards: [
+				{
+					count: 4
+					id: "3A3ADCB69A1210FA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -741,6 +855,12 @@
 			hide_until_deps_complete: true
 			id: "47031F18136D2A2F"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A415031DB7C14"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

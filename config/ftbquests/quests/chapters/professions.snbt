@@ -49,6 +49,12 @@
 			id: "PR01000000000002"
 			rewards: [
 				{
+					count: 5
+					id: "3A3ABCAA1C72CEE5"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -84,6 +90,12 @@
 			description: ["Farming and harvesting produce grants Farming experience. Tier 0 (level 1-20): Wheat, Beetroot, Carrot, Potato. Tier 1 (21-40): Melon, Pumpkin, Tomato, Onion, Cocoa Beans, Rice. Tier 2 (41-60): Corn, Nether Wart, Gysahl Green. Tier 3 (61-80): Pine Fruit, Winter Leaves. Tier 4 (81-100): Scalefruit, Fiery Beans. Tier 5 (100): Cryoroot, Solnut. In-range harvesting drops Tiered Produce — used in Cooking and Alchemy station recipes. A Botany Pot setup growing multiple Pam's HC crops simultaneously is the most efficient way to level Farming."]
 			id: "PR01000000000003"
 			rewards: [
+				{
+					count: 5
+					id: "3A3A918F3CE7EFD2"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -187,6 +199,12 @@
 			id: "PR01000000000006"
 			rewards: [
 				{
+					count: 8
+					id: "3A3A45B4FF7DF6D9"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -216,6 +234,12 @@
 			description: ["The Gear Crafting Station produces Crafted Gear Souls: armor, offhand, jewelry, and weapon souls that can be equipped and carry full affix rolls. Gear Crafting requires three components: Tiered Ore (determines the item level of the output), Stones (determine rarity), and Ingots with an Identifier Item (determines the gear slot). The result is a craftable gear soul of chosen slot, level, and rarity — bypassing the randomness of drops. Check JEI for exact recipe requirements."]
 			id: "PR01000000000007"
 			rewards: [
+				{
+					count: 8
+					id: "3A3ABAA32377F08E"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -247,6 +271,12 @@
 			id: "PR01000000000008"
 			rewards: [
 				{
+					count: 6
+					id: "3A3AF0677D970EEC"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -276,6 +306,12 @@
 			description: ["The Alchemy Station brews potions that provide temporary combat stat boosts. Alchemy recipes use Tiered ingredients as the base: Meat yields Health and Resource Potions; Produce yields Core Stat Potions; Fish yields Damage Buff Potions. Additionally, one Stone (for rarity) and 1-2 secondary food items are required per recipe. Unlike vanilla potions, MnS potions scale with the tier of ingredients used — higher tiers produce stronger and longer-duration effects. Check JEI for specific recipes."]
 			id: "PR01000000000009"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AF903165FD0DE"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -307,6 +343,12 @@
 			id: "PR01000000000010"
 			rewards: [
 				{
+					count: 8
+					id: "3A3A0BFC6D59C4BA"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -337,6 +379,12 @@
 			id: "PR01000000000011"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A7C9F049ED236"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -366,6 +414,12 @@
 			description: ["The first tier of MnS Alchemy produces Health Potions and Resource Potions using Spiritual Meat, a Common Stone, and secondary food ingredients like Cooked Chicken and Apples. Health Potions restore HP over time when consumed; Resource Potions restore Mana and Energy. Both scale with the tier of Tiered Meat used — Spiritual ingredients produce Tier 0 potions; higher tiers require higher-level gathered materials. Brew in batches of 16 for dungeon runs."]
 			id: "PR01000000000012"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AE8CDC8FD0CFE"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -419,6 +473,12 @@
 			description: ["Core Buff Potions target the three primary Mine and Slash stats: Strength, Intelligence, and Dexterity. These are brewed from Tiered Produce, a Common Stone, and secondary vegetables. Strength potions scale Physical Damage and maximum HP; Intelligence scales Spell Damage and Mana; Dexterity scales Attack Speed and Dodge. A set of all three before a difficult atlas map run effectively boosts your build's ceiling for the duration — stack them with food buffs for the highest effective stat totals."]
 			id: "PR01000000000013"
 			rewards: [
+				{
+					count: 10
+					id: "3A3A1303A66DD0F1"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -480,6 +540,12 @@
 			id: "PR01000000000014"
 			rewards: [
 				{
+					count: 10
+					id: "3A3AB5189599FE46"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -522,6 +588,12 @@
 			description: ["Professions in Mine and Slash are a parallel economy that runs underneath the combat system. Every crafted gear soul, every infusion scroll, every buff potion, and every recovery flask is a product of a profession system that requires dedicated leveling and grinding. A character who ignores professions relies entirely on drops; a character who invests in them shapes their own power curve. The disciplines covered here form the full crafting loop — from salvaging spent gear to crafting better replacements."]
 			id: "PR01000000000015"
 			rewards: [
+				{
+					count: 25
+					id: "3A3A1AE9F69BDFE6"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

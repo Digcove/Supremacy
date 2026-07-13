@@ -42,7 +42,7 @@
 			subtitle: "Risk of Rain"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
-				icon: "nightlights:octopus_purple"
+				icon: "minecraft:glow_ink_sac"
 				id: "13BF61F2B380DC9E"
 				type: "kill"
 				value: 24L

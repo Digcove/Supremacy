@@ -1093,7 +1093,7 @@
 				}
 				{
 					entity: "minecraft:endermite"
-					icon: "chipped:simple_purpur_block_pillar"
+					icon: "minecraft:purpur_pillar"
 					id: "7E34EBD5D2D398F9"
 					type: "kill"
 					value: 8L

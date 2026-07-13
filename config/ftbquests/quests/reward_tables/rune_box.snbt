@@ -1,0 +1,19 @@
+{
+	icon: "mmorpg:runes/toq"
+	id: "4B4B8E2196C562D5"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "mmorpg:runes/ita" }
+		{ item: "mmorpg:runes/mos" }
+		{ item: "mmorpg:runes/nos" }
+		{ item: "mmorpg:runes/cen" }
+		{ item: "mmorpg:runes/dos" }
+		{ item: "mmorpg:runes/eno" }
+		{ item: "mmorpg:runes/fey" }
+		{ item: "mmorpg:runes/har" }
+		{ item: "mmorpg:runes/toq" }
+		{ item: "mmorpg:runes/xer" }
+	]
+	title: "Rune Box"
+}

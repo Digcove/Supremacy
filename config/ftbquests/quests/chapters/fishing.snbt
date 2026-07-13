@@ -19,6 +19,12 @@
 			id: "FI01000000000001"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AEC1BEA45326D"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -128,6 +134,12 @@
 			id: "FI01000000000004"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A4912B5D786A9"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -155,6 +167,12 @@
 			description: ["Catfish are found in rivers and murky freshwater biomes. In addition to being a food source, catfish are a Mine and Slash Tiered Fish source at lower fishing levels. Catching catfish in the Aquaculture 2 system counts toward Mine and Slash Fishing profession experience."]
 			id: "FI01000000000005"
 			rewards: [
+				{
+					count: 5
+					id: "3A3A9BD8B22B7426"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -211,6 +229,12 @@
 			description: ["Tuna are caught in warm and lukewarm ocean biomes. A large, high-saturation fish that provides considerably more food than smaller species. Tuna are one of the better Aquaculture food sources for extended ocean exploration runs."]
 			id: "FI01000000000007"
 			rewards: [
+				{
+					count: 6
+					id: "3A3AA9D6E4059702"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -269,6 +293,12 @@
 			id: "FI01000000000009"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A2A13060B2B1B"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -297,6 +327,12 @@
 			description: ["The Arapaima is one of the largest freshwater fish in Aquaculture 2, found in jungle and swamp biomes. It is a rare catch that rewards persistence — arapaima drop fish bones in addition to food, and catching one is a milestone in the Aquaculture collection. Arapaima may appear as a larger fish in the tank display."]
 			id: "FI01000000000010"
 			rewards: [
+				{
+					count: 10
+					id: "3A3A369676CB4468"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -327,6 +363,12 @@
 			id: "FI01000000000011"
 			rewards: [
 				{
+					count: 10
+					id: "3A3AFC067274C619"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -356,6 +398,12 @@
 			id: "FI01000000000012"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AB6D7FECCF5FD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -383,6 +431,12 @@
 			description: ["Pacific Halibut are a large flatfish caught in cold and frozen ocean biomes. Among the rarest of the standard ocean catches, the Pacific Halibut is identifiable by its flat body and spotted pattern. It provides high saturation when cooked and is a prestige catch in the Aquaculture 2 system."]
 			id: "FI01000000000013"
 			rewards: [
+				{
+					count: 10
+					id: "3A3AD369211D2986"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -413,6 +467,12 @@
 			id: "FI01000000000014"
 			rewards: [
 				{
+					count: 12
+					id: "3A3A17C2A23EDFC8"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -441,6 +501,12 @@
 			description: ["Blue Skies adds its own fish species to the Everbright and Everdawn dimensions — the Charscale Moki and Grittle Flatfish inhabit dimension-specific water sources. These are unique catches available only by fishing in their home dimension. Blue Skies fish do not drop in the overworld; access requires opening and stabilizing both Blue Skies portals first."]
 			id: "FI01000000000015"
 			rewards: [
+				{
+					count: 12
+					id: "3A3AEC475D94101A"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -478,6 +544,12 @@
 			id: "FI01000000000016"
 			rewards: [
 				{
+					count: 12
+					id: "3A3A8DE6D4069BEB"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -506,6 +578,12 @@
 			description: ["As the Mine and Slash Fishing profession levels, fishing yields Tiered Fish — Spiritual (1-20), Celestial (21-40), Empyrean (41-60), Angelic (61-80), Divine (81-100), and Godly (100). Tiered Fish are the primary ingredient in Mine and Slash Cooking recipes for seafood dishes that grant Experience and Loot bonuses when consumed. A dedicated fishing session with a high fishing level produces enough Tiered Fish for a full cooking batch."]
 			id: "FI01000000000017"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AF107B7426F33"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -536,6 +614,12 @@
 			id: "FI01000000000018"
 			rewards: [
 				{
+					count: 15
+					id: "3A3AEA0C952C59E2"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -565,6 +649,12 @@
 			description: ["The Neptunium Fishing Rod is the highest-tier fishing rod in Aquaculture 2, crafted from Neptunium Ingots obtained from Neptune's Bounty boxes. It has higher durability than the iron rod and improves the odds of catching rare fish and treasure boxes. The Neptunium Rod makes the Arapaima, Pacific Halibut, and rare dimension fish significantly more accessible — it is the endgame of the Aquaculture 2 system."]
 			id: "FI01000000000019"
 			rewards: [
+				{
+					count: 15
+					id: "3A3AC7F1EA1C5C28"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -608,6 +698,12 @@
 			description: ["The overworld's rivers and oceans, the Blue Skies dimensions, the Undergarden, and the deep ocean — each water source has its own fish population, its own catches, and its own ecological logic. The Master Angler has fished them all: rare freshwater giants, alien dimension fish, deep ocean creatures, and the Neptunium endgame. Fishing is not a passive activity in this pack. It is a fully realized profession with its own progression arc."]
 			id: "FI01000000000020"
 			rewards: [
+				{
+					count: 30
+					id: "3A3A8FE75921DFD7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

@@ -12,6 +12,12 @@
 			id: "3292CA5DF4982006"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A69068C7938FE"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -70,6 +76,12 @@
 			id: "B001000000000002"
 			rewards: [
 				{
+					count: 10
+					id: "3A3A3558D644473C"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -99,6 +111,12 @@
 			id: "B001000000000003"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A0E7A8F37F29F"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -126,6 +144,12 @@
 			description: ["YUNG's Better Desert Temples replace the vanilla pyramid with a multi-floor structure of booby-trapped corridors, hidden vaults, and TNT-laden floors. Disarm rather than detonate — the TNT room contains valuable loot below the pressure plate puzzle. Sand-colored floors hide the drop into the main chamber."]
 			id: "B001000000000004"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A008AAFFD2C41"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -155,6 +179,12 @@
 			id: "B001000000000005"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AD79807A3A585"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -182,6 +212,12 @@
 			description: ["YUNG's Better Ocean Monuments transform the vanilla prismarine fortress into a genuine multi-wing dungeon. An Elder Guardian guards the treasure vault; three more patrol the wings. Mining fatigue blocks digging — come with either Milk Buckets to cure it, or enough combat power to clear it fast. Sponge rooms are now multiple layers deep."]
 			id: "B001000000000006"
 			rewards: [
+				{
+					count: 12
+					id: "3A3A97ED3CD67A83"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -212,6 +248,12 @@
 			id: "B001000000000007"
 			rewards: [
 				{
+					count: 10
+					id: "3A3ADC79040E7EA1"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -229,7 +271,7 @@
 			}]
 			tasks: [{
 				id: "B002000000000008"
-				structure: "betternetherfortresses:fortress"
+				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
 			title: "Better Nether Fortress"
@@ -240,6 +282,12 @@
 			description: ["When Dungeons Arise scatters large, heavily decorated structures across the overworld — abandoned temples, fortified mansions, pirate ships, and coliseums. The Abandoned Temple features multi-floor layouts with mob spawners, traps, and high-value loot chests. Many WDA structures contain unique loot tables that include weapons and armor above what vanilla structures offer."]
 			id: "B001000000000008"
 			rewards: [
+				{
+					count: 10
+					id: "3A3A9B7401EA6C5F"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -269,6 +317,12 @@
 			description: ["The WDA Coliseum is one of the largest surface structures in the pack — a full arena with tiered stone seating surrounding a combat floor populated by hostile mobs. Clearing the central spawners rewards the high-value loot cache in the underground vault. It is a landmark visible from a significant distance."]
 			id: "B001000000000009"
 			rewards: [
+				{
+					count: 12
+					id: "3A3A0797CD41C6A0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -300,6 +354,12 @@
 			id: "B001000000000010"
 			rewards: [
 				{
+					count: 10
+					id: "3A3AD1B1105503DF"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -330,6 +390,12 @@
 			id: "B001000000000011"
 			rewards: [
 				{
+					count: 12
+					id: "3A3AE91E70CE5509"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -358,6 +424,12 @@
 			description: ["Terralith adds spires — natural rock pillars that rise dramatically above the landscape, decorated with vegetation and mineral deposits. The Frosted Dungeon generates underground in cold biomes and contains unique ice-themed loot. Terralith's fortified villages are larger than vanilla, with stone walls and multiple professions clustered inside."]
 			id: "B001000000000012"
 			rewards: [
+				{
+					count: 8
+					id: "3A3ACB841B4DEBF9"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -388,6 +460,12 @@
 			description: ["Terralith Fortified Villages are enclosed settlements with stone walls, watchtowers, and more villager professions than vanilla. The fortification makes them naturally defensible against raids. Trade with the enclosed villagers for unusual profession-specific trades not available in open villages."]
 			id: "B001000000000013"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AC4C50C29CAC1"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -435,7 +513,7 @@
 			}]
 			tasks: [{
 				id: "B002000000000015"
-				structure: "townandtower:village/abandoned/plains"
+				structure: "#towns_and_towers:town"
 				type: "structure"
 			}]
 			title: "Towns & Towers Village"
@@ -475,6 +553,12 @@
 			description: ["Buried Treasure spawns beneath beaches and underwater near shipwrecks. A Treasure Map from a shipwreck chest or cartographer villager marks the X precisely. The cache always contains a Heart of the Sea, which is required to craft the Conduit — a powerful underwater breathing and combat structure."]
 			id: "B001000000000016"
 			rewards: [
+				{
+					count: 15
+					id: "3A3ACF7813C5F382"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -542,6 +626,12 @@
 			description: ["The continent is riddled with ancient ruins, dungeons, and faction strongholds — each holding loot, lore, and risk. Having visited this breadth of structures expands your map knowledge and uncovers items that cannot be crafted. Exploration is not optional; it is the other half of progression."]
 			id: "55E25F89DA6FCF5D"
 			rewards: [
+				{
+					count: 6
+					id: "3A3AC6C234166D66"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

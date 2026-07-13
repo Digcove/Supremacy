@@ -13,6 +13,12 @@
 			id: "5E18F03C7637CC27"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A0F56891CD701"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -89,6 +95,12 @@
 			description: ["Jade Silk Armor is woven from spirit cloth and imbued with Qi, making it ideal for cultivators who prioritize mana regeneration and soul power throughput over raw physical defense. It is the preferred armor of dedicated meditation-path characters and spellcasters."]
 			id: "36285B3BA9B195F6"
 			rewards: [
+				{
+					count: 3
+					id: "3A3A4935AB579541"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -185,7 +197,14 @@
 		{
 			description: ["Uncommon armor souls carry a second affix alongside the primary stat, offering small bonuses to elemental resistance or health. Found in standard dungeon loot and M&S mob drops from moderate-difficulty zones."]
 			id: "3912749E1F6993A8"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A65FBEB570EC7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -213,7 +232,14 @@
 		{
 			description: ["Rare armor souls open three affix slots, allowing a meaningful combination of defense, resistance, and utility. This tier represents the first point where a fully-souled armor set begins to feel purpose-built rather than opportunistic."]
 			id: "759A526428245CDA"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A9F889A5C4662"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -241,7 +267,14 @@
 		{
 			description: ["Epic armor souls carry four affixes and begin to appear in late-game loot pools. At this tier, the gap between a carefully selected soul and a random drop is significant — use Orbs of Alteration to reroll until the affix combination matches your build."]
 			id: "5321D66E124CFD37"
-			rewards: [{
+			rewards: [
+				{
+					count: 2
+					id: "3A3ABE47BCB69AF3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -269,7 +302,14 @@
 		{
 			description: ["Legendary armor souls are five-affix pinnacle gear, exclusive to the highest-tier dungeon bosses and Atlas map completion rewards. A full set of Legendary-souled armor transforms your character from capable to formidable."]
 			id: "484E4A14F94A2FA8"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A30E7F4D8EADB"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -297,7 +337,14 @@
 		{
 			description: ["Mythic armor souls are the absolute ceiling of Mine & Slash's gear system. Six affixes at maximum value ranges. Obtaining even one is a milestone achievement. Apply it to the highest-quality armor base you can find and protect it accordingly."]
 			id: "7ED5179B901C4287"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A1E05150CCACF"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -326,7 +373,14 @@
 			dependencies: ["5E18F03C7637CC27"]
 			description: ["Netherite is obtained by smithing Diamond armor with Netherite Ingots — themselves smelted from Ancient Debris mined in the lower Nether. The resulting set is the strongest vanilla armor in the game: knockback resistant, fire immune, and it floats in lava. It will carry you comfortably through the mid-game until dedicated magical and GT armor paths take over."]
 			id: "309C1EFF44D1F770"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A11F49CA7707B"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -429,6 +483,12 @@
 			id: "AR01000000000002"
 			rewards: [
 				{
+					count: 3
+					id: "3A3ACE5302D99640"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -476,6 +536,12 @@
 			id: "AR01000000000003"
 			rewards: [
 				{
+					count: 4
+					id: "3A3A9D6009BC27B5"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -522,6 +588,12 @@
 			description: ["Steel Plate armor is the GT benchmark for mid-game survival. Steel plates require steel ingots — produced in the Electric Blast Furnace at 1000 K minimum — formed into plates via the Plate Bending Machine. A full Steel Plate set combined with Rare or Epic MnS armor souls provides strong defense well into IV-tier GTCEu content. Steel is the armor baseline to maintain until Tungstensteel and higher GT alloys become practical replacements at LuV and above."]
 			id: "AR01000000000004"
 			rewards: [
+				{
+					count: 5
+					id: "3A3A468A55D5174B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -576,6 +648,12 @@
 			id: "AR01000000000005"
 			rewards: [
 				{
+					count: 2
+					id: "3A3AB810ED398556"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -622,6 +700,12 @@
 			description: ["Titanium Plate armor represents the upper boundary of the GTCEu plate armor track. Titanium requires the Electric Blast Furnace at 1941 K and access to Rutile or Ilmenite ore — both found in high-tier ore veins. The plates are expensive to produce but the resulting armor is among the strongest non-magical sets available. A full Titanium set with Epic or Legendary MnS armor souls is the recommended armor loadout entering IV-tier GTCEu and late-game dimensional content."]
 			id: "AR01000000000006"
 			rewards: [
+				{
+					count: 3
+					id: "3A3AAE6F98217985"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -676,6 +760,12 @@
 			id: "AR01000000000007"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A0496810B7B0B"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -701,6 +791,38 @@
 			title: "The Well-Armored"
 			x: 0.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["AR01000000000001"]
+			description: ["This chapter covers defense only — if you came here looking for weapons, they live elsewhere by design. &eTinkers Construct&r in this pack forges tools, never weapons or armor. Melee damage comes from &eSpartan Weaponry&r's weapon catalog and &eIron's Spells 'n Spellbooks&r' casting, with &eMine and Slash&r affixes and stat souls riding on top of both. Firearms are the late-game option, gated behind terrasteel and GregTech components — the &eArmory&r chapter under the Adventure tab is their full manual. Build your defense here, then pick your offense from the systems built to provide it."]
+			icon: "spartanweaponry:diamond_longsword"
+			id: "5F5F000000000002"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5F5F200000000002"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5F5F300000000002"
+					item: "mmorpg:currency/mirror"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F5F100000000002"
+				title: "Weapons live elsewhere"
+				type: "checkmark"
+			}]
+			title: "Weapons Are Elsewhere"
+			x: -5.0d
+			y: 2.0d
 		}
 	]
 	title: "Armor"

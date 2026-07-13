@@ -1,0 +1,120 @@
+{
+	icon: "mmorpg:chest/epic_gear"
+	id: "4B4B113A2C25DDFB"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:sword_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":45},\"imp\":{\"p\":5,\"imp\":\"dusk_blade\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"of_gluttony\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":26,\"id\":\"crit_prefix\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":4,\"id\":\"catalyzing\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"sword\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Sword (Lv. 60)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:staff_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":49},\"imp\":{\"p\":55,\"imp\":\"cursed_staff\"},\"affixes\":{\"suf\":[{\"p\":52,\"id\":\"heal_suff\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":6,\"id\":\"warlords\",\"rar\":\"common\",\"ty\":\"prefix\"},{\"p\":51,\"id\":\"water_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"staff\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Staff (Lv. 60)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:bow_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":41},\"imp\":{\"p\":88,\"imp\":\"thicket_bow\"},\"affixes\":{\"suf\":[{\"p\":26,\"id\":\"of_consumption\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"fletchers\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":3,\"id\":\"wep_item_both\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"bow\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Bow (Lv. 60)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:hammer_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":51},\"imp\":{\"p\":1,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":44,\"id\":\"of_consumption\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":42,\"id\":\"heal_crit_dmg_prefix\",\"rar\":\"rare\",\"ty\":\"prefix\"},{\"p\":31,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"hammer\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Hammer (Lv. 60)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:axe_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":36},\"imp\":{\"p\":86,\"imp\":\"war_axe\"},\"affixes\":{\"suf\":[{\"p\":24,\"id\":\"of_brutality\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":24,\"id\":\"precise\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"axe\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Axe (Lv. 60)"
+		}
+		{
+			item: {
+				Count: 1
+				id: "roe_weapons:spear_5"
+				tag: {
+					Damage: 0
+					mmorpg_gear: "{\"baseStats\":{\"p\":32},\"imp\":{\"p\":8,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":41,\"id\":\"of_ease\",\"rar\":\"rare\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":27,\"id\":\"wep_item_both\",\"rar\":\"uncommon\",\"ty\":\"prefix\"},{\"p\":44,\"id\":\"physical_wep_dmg\",\"rar\":\"rare\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"rare\",\"lvl\":60,\"gtype\":\"spear\"}"
+					mmorpg_potential: "{\"potential\":25}"
+				}
+			}
+			title: "Spear (Lv. 60)"
+		}
+		{
+			item: "mmorpg:stat_soul/family/weapon/epic"
+			title: "Epic Weapon Soul"
+		}
+		{
+			item: "mmorpg:stat_soul/family/armor/epic"
+			title: "Epic Armor Soul"
+		}
+		{
+			item: "mmorpg:chest/epic_gear"
+			title: "Epic Gear Chest"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 60 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Randomized Unique (Lv. 60)"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 80 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Randomized Unique (Lv. 80)"
+			type: "command"
+		}
+		{
+			auto: "enabled"
+			command: "/mine_and_slash give unique_gear @p random 100 1"
+			elevate_perms: true
+			icon: "mmorpg:chest/legendary_gear"
+			silent: true
+			title: "Randomized Unique (Lv. 100)"
+			type: "command"
+		}
+	]
+	title: "Gear Box (Endgame)"
+}

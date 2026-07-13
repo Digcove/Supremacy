@@ -1702,7 +1702,7 @@
 				"&b+30% Dodge Rating&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "1DEC808C04130184"
 			rewards: [{
 				auto: "enabled"
@@ -1739,7 +1739,7 @@
 			]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "39A431C3F5565DCC"
 			rewards: [{
 				auto: "enabled"
@@ -1776,7 +1776,7 @@
 				"&b+25% Elemental Resistance&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "761BC90863C35627"
 			rewards: [{
 				auto: "enabled"
@@ -1820,7 +1820,7 @@
 				"&b+50% Elemental Resistance&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "58995DE0C6EBA1AB"
 			rewards: [{
 				auto: "enabled"
@@ -1862,7 +1862,7 @@
 				"&a15% Chance of Dropping Owd Rune&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "0CE7FFFDD4066916"
 			rewards: [{
 				auto: "enabled"
@@ -1898,7 +1898,7 @@
 				"&e&oThe Bestiary books will unlock as you progress through the Acts.&r&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "7032850A1F1FFF32"
 			rewards: [{
 				auto: "enabled"
@@ -2013,7 +2013,7 @@
 				"&b+30% Chaos Resistance&r"
 			]
 			hide_dependency_lines: true
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "0D04908025368D7B"
 			rewards: [{
 				auto: "enabled"
@@ -2051,7 +2051,7 @@
 				"&b+50% Elemental Resistance&r"
 				"&b+50% Chaos Resistance&r"
 			]
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "32228E2B053EF761"
 			rewards: [{
 				auto: "enabled"
@@ -2084,7 +2084,7 @@
 				"&b+25% Physical to Chaos Damage&r"
 				"&b+75% Chaos Resistance&r"
 			]
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "4E589D39C44CAAD2"
 			rewards: [{
 				auto: "enabled"
@@ -2168,7 +2168,7 @@
 				"&b+30% Dodge Chance&r"
 				"&b+60% Bleed Chance&r"
 			]
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "6F1CBC071DD2414C"
 			rewards: [{
 				auto: "enabled"
@@ -2201,7 +2201,7 @@
 				"&b+50% Armor&r"
 				"&b+100% Physical to Chaos Damage&r"
 			]
-			icon: "mca:book_supporters"
+			icon: "minecraft:writable_book"
 			id: "16739950F16AB006"
 			rewards: [{
 				auto: "enabled"

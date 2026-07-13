@@ -328,6 +328,38 @@
 			x: -3.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["JW01000000000001"]
+			description: ["Rings and necklaces can roll &esockets&r — empty slots that accept gems for flat, guaranteed stat bonuses on top of the piece's random affixes. A Socket Adder is the currency item that carves a new socket into a piece that lacks one; gems of higher tiers carry stronger bonuses and can be pried back out with an extraction orb when your build changes. Socket Adders and the rest of the Mine and Slash currency pool are exactly what the &eOrb Forge&r machine line mass-produces — once your forge tier is running, socketing stops being a lucky drop and becomes a production line. A fully socketed jewelry set is often a bigger power spike than the next soul tier."]
+			icon: "mmorpg:currency/socket_adder"
+			id: "5F5F000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5F5F200000000001"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 1
+					id: "5F5F300000000001"
+					item: "mmorpg:gems/amethyst/0"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F5F100000000001"
+				item: "mmorpg:currency/socket_adder"
+				type: "item"
+			}]
+			title: "Sockets and Gems"
+			x: -4.5d
+			y: -1.5d
+		}
 	]
 	title: "Jewlery"
 }

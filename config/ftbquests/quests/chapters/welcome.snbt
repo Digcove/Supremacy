@@ -1,5 +1,5 @@
 {
-	autofocus_id: "7168A2D5D4EE14E9"
+	autofocus_id: "5D5D000000000001"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "welcome"
@@ -11,162 +11,263 @@
 	quests: [
 		{
 			description: [
-				"DEV NOTE:"
+				"Welcome to &eSupremacy&r — a pack about earning power from every direction at once."
 				""
-				"ADD welcome and info here"
+				"The spine is technology: GregTech CEu, from your first bronze boiler to fusion. Wrapped around it is magic — Botania, Ars Nouveau, Blood Magic, and the Soul Land cultivation path — and standing in your way is &eMine and Slash&r, an ARPG layer that levels your character, rolls your gear, and scales every fight. Tech, magic, and combat are not separate games here; they gate each other, trade materials, and meet in the endgame."
+				""
+				"You are on a community server. Other players are your economy, your rivals, and your raid team. Start with the &eMain Story&r tab, punch a tree, and begin the climb."
 			]
 			icon: "gtceu:creative_energy"
-			id: "7168A2D5D4EE14E9"
-			size: 5.0d
-			subtitle: "WhaleCum"
-			title: "Welcome"
-			x: 1.0d
-			y: 0.5d
-		}
-		{
-			description: [
-				"DEV NOTE:"
-				""
-				"Add Lore Here"
+			id: "5D5D000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5D5D200000000001"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 10
+					id: "5D5D300000000001"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 			]
-			icon: "effortlessbuilding:building_techniques_book"
-			id: "0873486517E58FE4"
 			size: 3.0d
-			subtitle: "A tale older than time."
-			title: "Lore"
-			x: 5.0d
-			y: 0.5d
-		}
-		{
-			description: [
-				"DEV NOTE:"
-				""
-				"IDK if we need anything for this???"
-			]
-			icon: "kubejs:draconic_processor_mainframe"
-			id: "00C537F19FBE1A6E"
-			size: 2.0d
-			subtitle: "Files for the server"
-			title: "Server Files"
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			description: ["{ftbquests.welcome.1x_channels.description}"]
-			icon: "ae2:controller"
-			id: "01D554315C80E32A"
-			optional: true
-			rewards: [{
-				command: "/ae2 channelmode default"
-				icon: "ae2:singularity"
-				id: "1D572460D352C71E"
-				type: "command"
-			}]
-			shape: "octagon"
 			tasks: [{
-				id: "393E31B11D51498A"
+				id: "5D5D100000000001"
+				title: "Welcome to Supremacy"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.welcome.1x_channels.title}"
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			description: ["{ftbquests.welcome.2x_channels.description}"]
-			icon: "ae2:controller"
-			id: "1D223731850769CF"
-			optional: true
-			rewards: [{
-				command: "/ae2 channelmode x2"
-				icon: "ae2:singularity"
-				id: "54D4CA19DD85D1DA"
-				type: "command"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "3CAB0FFD4B992B4C"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.welcome.2x_channels.title}"
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			description: ["{ftbquests.welcome.3x_channels.description}"]
-			icon: "ae2:controller"
-			id: "650968485BE86ECC"
-			optional: true
-			rewards: [{
-				command: "/ae2 channelmode x3"
-				icon: "ae2:singularity"
-				id: "4AC0AA5B4584E54A"
-				type: "command"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "0163CFF55BAB86F4"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.welcome.3x_channels.title}"
-			x: 5.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			description: ["{ftbquests.welcome.4x_channels.description}"]
-			icon: "ae2:controller"
-			id: "2EE5068AEA2B2F0C"
-			optional: true
-			rewards: [{
-				command: "/ae2 channelmode x4"
-				icon: "ae2:singularity"
-				id: "55E25D0F70A7EE4D"
-				type: "command"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "4BC87C6C2733C4F9"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.welcome.4x_channels.title}"
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			can_repeat: true
-			description: ["{ftbquests.welcome.disable_channels.description}"]
-			icon: "ae2:controller"
-			id: "3CCF44ACC8A78039"
-			optional: true
-			rewards: [{
-				command: "/ae2 channelmode infinite"
-				icon: "ae2:singularity"
-				id: "78355C4A04F1FBD1"
-				type: "command"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "55AA30056411A62E"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.welcome.disable_channels.title}"
-			x: -2.5d
-			y: 4.0d
-		}
-		{
-			id: "38D8AFED26B5D252"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "2A47E38B1F508C78"
-				title: "{ftbquests.welcome.positioner.title}"
-				type: "checkmark"
-			}]
-			x: 1.0d
+			title: "Welcome to Supremacy"
+			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["This book is the pack's documentation — every tab is a manual, not a checklist. &eMain Story&r is the spine: follow it when you do not know what to do next. &eCampaign&r is the Mine and Slash ARPG arc — acts, bosses, and the Gem Shop. &eStar Tech&r tabs are the GregTech bible, from steam to stargates, with a separate chemistry reference. &eHome Sweet Home&r covers your base: farming, storage, commerce. &eAdventure&r covers the world: dungeons, structures, dimensions, and the Armory. &eGodlike Power&r is gear optimization — armor, jewelry, ascension. Read the chapter before the grind; most of this pack's traps are documented."]
+			icon: "ftbquests:book"
+			id: "5D5D000000000002"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000002"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000002"
+				title: "Tour the quest book tabs"
+				type: "checkmark"
+			}]
+			title: "How to Read This Book"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["You will die in this pack, and early on you will die often — Mine and Slash mobs scale to your character level and do not respect fresh spawns. Do not panic: the &eCorpse&r mod catches everything. Death leaves a corpse at the spot holding your full inventory; walk back and click it to take it all back. Nothing despawns, nothing burns off a timer. The cost of dying is the walk. Once you can afford it, keep a recovery compass or a waystone warp on hand to make that walk short."]
+			icon: "minecraft:recovery_compass"
+			id: "5D5D000000000003"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000003"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000003"
+				title: "Understand death recovery"
+				type: "checkmark"
+			}]
+			title: "Death and Recovery"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Mine and Slash in five minutes: your character has a &elevel&r — kills and quest rewards raise it, and mobs scale with you. Gear drops with &erarity&r tiers from Common to Mythic, rolling random stats called affixes. Bad drops are not trash: &esalvage&r them at a salvage station for crafting materials and stat souls, then apply souls to the gear you actually wear. Talent points build toward a class identity. That is the whole loop — kill, loot, salvage, improve. The &eCampaign&r tab's Act 0 walks you through it properly; open it before your first dungeon."]
+			icon: "mmorpg:stone/1"
+			id: "5D5D000000000004"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000004"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000004"
+				title: "Learn the Mine and Slash loop"
+				type: "checkmark"
+			}]
+			title: "Mine and Slash in Five Minutes"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["The Twilight Forest opens from the Overworld from day one — diamonds around a water pool, throw in the flower, done. That is deliberate, not an oversight. GregTech progression in this pack requires Twilight boss trophies as crafting gates, so the dimension is early-game territory with late-game consequences. Go early for the Naga and Lich; come back later for the bosses your GT tier demands."]
+			icon: "twilightforest:naga_trophy"
+			id: "5D5D000000000005"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000005"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000005"
+				title: "Twilight Forest is early-game"
+				type: "checkmark"
+			}]
+			title: "FAQ: The Twilight Opens Early"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Soul Forged Ingots have &etwo&r recipes, and both are correct. One path runs through magic — Soul Land cultivation and its spirit metals; the other runs through technology — GregTech processing. They converge on the same ingot on purpose: the pack does not force a mage to build a chemical plant or an engineer to meditate. When you see duplicate recipes for convergence materials in the recipe viewer, that is a fork in the road, not a bug."]
+			icon: "soulland:soul_forged_ingot"
+			id: "5D5D000000000006"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000006"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000006"
+				title: "Two paths, one ingot"
+				type: "checkmark"
+			}]
+			title: "FAQ: Two Roads to Soul Steel"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Applied Energistics 2 channels are &einfinite&r in this pack, by config. Any cable carries any number of devices; you never need dense cables for capacity, controllers for channel routing, or the channel-planning discipline other packs demand. Build your ME network for aesthetics and cable length, nothing else. If a guide or video tells you to plan channels — that advice is for a different server."]
+			icon: "ae2:controller"
+			id: "5D5D000000000007"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000007"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000007"
+				title: "Channels are infinite"
+				type: "checkmark"
+			}]
+			title: "FAQ: Infinite AE2 Channels"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Tinkers Construct here is &etools only&r — pickaxes, mattocks, and the Smeltery, with its weapons removed and no Tinkers armor. Combat lives elsewhere by design: &eSpartan Weaponry&r for melee variety, &eIron's Spells 'n Spellbooks&r for casting, and &eMine and Slash&r affixes riding on all of it. If a Tinkers weapon recipe seems missing, it is not missing — it never existed in this pack. Build Tinkers for the best tools in the early game and look to the combat mods for your damage."]
+			icon: "tconstruct:pickaxe"
+			id: "5D5D000000000008"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000008"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000008"
+				title: "Tinkers is tools-only"
+				type: "checkmark"
+			}]
+			title: "FAQ: Tools, Not Weapons"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Guns are the pack's &elate-game&r weapon class — the Gun Smith Table is gated behind Botania terrasteel, and every firearm recipe demands high-tier GregTech components, HV and beyond. There is no early musket and there will not be one. This is deliberate pacing: melee and spells carry the early and mid game, and flat-damage firearms arrive when boss health pools start demanding them. The full doctrine, tier ladder, and drop-only arsenals are documented in the &eArmory&r chapter under the Adventure tab."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ak47"
+				}
+			}
+			id: "5D5D000000000009"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D200000000009"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D100000000009"
+				title: "Guns come late"
+				type: "checkmark"
+			}]
+			title: "FAQ: Guns Come Late"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D5D000000000001"]
+			description: ["Shared world, simple rules. &eClaim&r your land with FTB Chunks before you build — claims are protection, not decoration. Do not grief, do not loot other players' unclaimed builds, and leave public farms as stocked as you found them. Trade through &eLightman's&r shops rather than honor-system chests; the blocks enforce fairness so nobody has to. The Commerce chapter under Home Sweet Home covers coins, shops, and the trading network. A good neighbor with a good shop is worth more than any drop in this pack."]
+			icon: "lightmanscurrency:coin_gold"
+			id: "5D5D00000000000A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "5D5D20000000000A"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "5D5D10000000000A"
+				title: "Respect the server"
+				type: "checkmark"
+			}]
+			title: "Server Etiquette"
+			x: 0.0d
+			y: 8.5d
 		}
 	]
 	title: "{ftbquests.welcome.title}"

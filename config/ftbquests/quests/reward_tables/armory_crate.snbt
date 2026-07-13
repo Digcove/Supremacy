@@ -1,0 +1,65 @@
+{
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunId: "destiny:ace_of_spades"
+		}
+	}
+	id: "4B4B613541390B54"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "destiny:ace_of_spades"
+				}
+			}
+			title: "Ace of Spades"
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "destiny:suros_regime"
+				}
+			}
+			title: "SUROS Regime"
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "destiny:whisper"
+				}
+			}
+			title: "Whisper of the Worm"
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "zeta:apw1"
+				}
+			}
+			title: "APW-1 Anti-Materiel Rifle"
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "zeta:ac7"
+				}
+			}
+			title: "AC-7 Autocannon"
+		}
+	]
+	title: "Armory Crate"
+}

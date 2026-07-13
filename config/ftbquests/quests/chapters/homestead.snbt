@@ -13,6 +13,12 @@
 			id: "E001000000000001"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A7C194C295B59"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -43,6 +49,12 @@
 			id: "E001000000000002"
 			rewards: [
 				{
+					count: 8
+					id: "3A3A3116CDBCF7BD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -71,6 +83,12 @@
 			description: ["Attunement Powder lets you link two Waystones as a private pair — useful for long-distance outposts. A Warp Stone (Attunement Powder + Ender Pearl) is a pocket-sized single-use teleporter back to your last activated Waystone. Keep one in your hotbar when exploring far from your established network."]
 			id: "E001000000000003"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A88968E2DA71C"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -192,6 +210,12 @@
 			id: "E001000000000007"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A38E6ACD13CBC"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -251,6 +275,12 @@
 			id: "E001000000000009"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A32643894C9F7"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -281,6 +311,12 @@
 			id: "E001000000000010"
 			rewards: [
 				{
+					count: 5
+					id: "3A3A5EC2D400F838"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -309,6 +345,12 @@
 			description: ["Macaw's Roofs adds sloped roof block variants — gabled, hipped, and flat cap styles in every wood and stone type. A proper sloped roof transforms a boxy structure into a believable building. Start with a simple gable; more complex hip roof shapes become possible once you understand how the pieces connect at ridges and corners."]
 			id: "E001000000000011"
 			rewards: [
+				{
+					count: 6
+					id: "3A3A732886FBDF5D"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -340,6 +382,12 @@
 			id: "E001000000000012"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A34740A1BB044"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -369,6 +417,12 @@
 			id: "E001000000000013"
 			rewards: [
 				{
+					count: 8
+					id: "3A3A56A276195569"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -397,6 +451,12 @@
 			description: ["The Cutting Board with a Knife enables raw ingredient processing — slicing meat, dicing vegetables, and breaking down raw food into components used in Farmer's Delight recipes. The knife consumes durability with each cut. Stone knives are easiest to craft; iron and beyond work faster. Place the Cutting Board on a counter surface for a clean kitchen layout."]
 			id: "E001000000000014"
 			rewards: [
+				{
+					count: 5
+					id: "3A3A912CD6A90613"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -457,6 +517,12 @@
 			id: "E001000000000016"
 			rewards: [
 				{
+					count: 10
+					id: "3A3A158D1DB540B3"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -486,6 +552,12 @@
 			id: "E001000000000017"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AB4B2DA9A6707"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -514,6 +586,12 @@
 			description: ["Storage Drawers provide bulk single-item storage in a compact, visually-labeled front-face format. Each drawer face displays what it holds and how much. A Controller Slave can link multiple drawer sets to a single access panel. Combined with a Create belt input system, Storage Drawers become the base of a fully automatic sorted warehouse."]
 			id: "E001000000000018"
 			rewards: [
+				{
+					count: 8
+					id: "3A3AE9A71AE626C3"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -550,6 +628,12 @@
 			description: ["A true homestead is more than a starting box — it is a base of operations that grows with your progression. When your home has fast travel, furnished rooms, a working kitchen, a proper storage system, and real windows with a sloped roof, it has graduated from shelter to headquarters. The work never ends, but it gets more comfortable."]
 			id: "E001000000000019"
 			rewards: [
+				{
+					count: 20
+					id: "3A3AD6028D2DDDFD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

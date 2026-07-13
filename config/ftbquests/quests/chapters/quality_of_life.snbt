@@ -136,7 +136,7 @@
 				id: "1C116CCF53EC0709"
 				item: {
 					Count: 1
-					id: "simplybackpacks:commonbackpack"
+					id: "sophisticatedbackpacks:backpack"
 					tag: { }
 				}
 				type: "item"
@@ -169,8 +169,8 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.quality_of_life.architects_palette.description}"]
-			icon: "architects_palette:abyssaline"
+			description: ["Handcrafted adds benches, chairs, tables, counters, and shelf blocks in every wood type. Furnish your base — or stock a furniture stall and sell comfort to the rest of the server."]
+			icon: "handcrafted:oak_bench"
 			id: "5D369315B632436F"
 			shape: "rsquare"
 			rewards: [{
@@ -185,15 +185,15 @@
 			}]
 			tasks: [{
 				id: "633549F4F9B8A804"
-				title: "{ftbquests.quality_of_life.architects_palette.title}"
+				title: "Handcrafted"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 5.0d
 		}
 		{
-			description: ["{ftbquests.quality_of_life.dustrial_decor.description}"]
-			icon: "dustrial_decor:industrial_iron_block"
+			description: ["Decorative Blocks adds beams, palisades, seats, braziers, and chandeliers — structural detail blocks that make builds read as real places. Towns that look alive trade more."]
+			icon: "decorative_blocks:brazier"
 			id: "064FA34CC2599EBE"
 			shape: "rsquare"
 			rewards: [{
@@ -208,7 +208,7 @@
 			}]
 			tasks: [{
 				id: "7A657F38412F3CBC"
-				title: "{ftbquests.quality_of_life.dustrial_decor.title}"
+				title: "Decorative Blocks"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -216,7 +216,7 @@
 		}
 		{
 			description: ["{ftbquests.quality_of_life.fantasy_furniture.description}"]
-			icon: "fantasyfurniture:nordic/bed_single"
+			icon: "minecraft:red_bed"
 			id: "043100DC9FEC89E7"
 			shape: "rsquare"
 			rewards: [{
@@ -351,16 +351,8 @@
 				id: "06123F1FF50AD404"
 				item: {
 					Count: 1
-					id: "jetboots:jetboots"
-					tag: {
-						bml-item-xp: 0
-						energy: 0
-						jetboots-muffled: 1b
-						jetboots-upgrade-muffled: 1b
-						jetboots-upgrade-shock-absorber: 1b
-						jetboots-upgrade-thruster: 1b
-						max_energy: 2880000
-					}
+					id: "create_jetpack:jetpack"
+					tag: { }
 				}
 				type: "item"
 			}]

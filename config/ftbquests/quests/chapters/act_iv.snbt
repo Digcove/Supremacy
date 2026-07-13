@@ -1383,7 +1383,7 @@
 				}
 				{
 					entity: "blue_skies:whistleshell_crab"
-					icon: "crabbersdelight:crab"
+					icon: "minecraft:nautilus_shell"
 					id: "08F1BF19E13526CD"
 					type: "kill"
 					value: 4L
@@ -1418,7 +1418,7 @@
 			tasks: [
 				{
 					entity: "blue_skies:nyctofly"
-					icon: "moresnifferflowers:dragonfly"
+					icon: "minecraft:torchflower"
 					id: "697C724F5CE76BE1"
 					type: "kill"
 					value: 8L

@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "commerce"
+	group: "1E24DF067925061D"
+	icon: "lightmanscurrency:coin_gold"
+	id: "5E5EC00000000000"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Supremacy runs on coin. Lightman's Currency provides the server's money: a chain of coins from copper and iron up through gold, emerald, diamond, and netherite, each tier worth ten of the one below it. Coins arrive as quest rewards, turn up in loot chests across the world, and — most importantly — change hands between players. Everything in this chapter builds toward one idea: the other players on this server are your market. Hold a coin and start thinking like a merchant."]
+			id: "5E5E000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000001"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E5E300000000001"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5E5E100000000001"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			title: "The Coin of the Realm"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E5E000000000001"]
+			description: ["The Coin Mint converts raw material into money and back again: feed it ingots and it stamps coins of the matching tier. This is how new currency enters the economy — your mining trips and GT casting lines can literally print money. The mint works in reverse as well, melting surplus coins back into usable metal. Set one up early; a stack of iron you were going to smelt into plates anyway is also a starting fund."]
+			id: "5E5E000000000002"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000002"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E300000000002"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000002"
+				item: "lightmanscurrency:coinmint"
+				type: "item"
+			}]
+			title: "Minting Money"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E5E000000000002"]
+			description: ["The ATM is your bank branch. It exchanges coins up and down the tier chain at the fixed 10:1 rate — a hundred iron coins compress into one emerald coin without losing a copper of value — and it deposits money into your personal bank account, where it cannot be dropped, burned, or looted from your corpse. Traders can be set to pay earnings straight into that account. Carry pocket money; bank everything else."]
+			id: "5E5E000000000003"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000003"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E300000000003"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000003"
+				item: "lightmanscurrency:atm"
+				type: "item"
+			}]
+			title: "Banking at the ATM"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5E000000000003"]
+			description: ["A wallet keeps your coins out of your item inventory and picks up dropped currency automatically. Higher-tier wallets — copper up through netherite — hold more and unlock on-the-go exchanging, so loose iron converts itself into cleaner denominations while you fight. Equip the wallet in its dedicated slot and stop letting coins compete with dungeon loot for backpack space."]
+			id: "5E5E000000000004"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000004"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E300000000004"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000004"
+				item: "lightmanscurrency:wallet_copper"
+				type: "item"
+			}]
+			title: "Wallets"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E5E000000000001"]
+			description: ["The Display Case is the simplest shop in the game: place it, open it as the owner, set a trade — an item and its price — and stock it from your inventory. Any player who clicks the case sees the offer and pays coins directly into the case's storage; you collect earnings whenever you pass by. No chest-swap honor system, no sign contracts — the block enforces the deal. Sell what your base overproduces. Someone on this server needs exactly the thing you throw away."]
+			id: "5E5E000000000005"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000005"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 5
+					id: "5E5E300000000005"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000005"
+				item: "lightmanscurrency:display_case"
+				type: "item"
+			}]
+			title: "Your First Shop"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E5E000000000005"]
+			description: ["The Vending Machine is the Display Case grown up: many trade slots in one block, buy and sell offers side by side, and enough internal storage to run unattended for days. Configure each slot with its own price, keep the machine stocked, and it becomes passive income while you are off running maps. A wall of vending machines with clear labels is the classic server shop — one machine per product line."]
+			id: "5E5E000000000006"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000006"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E5E300000000006"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000006"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "Vending at Scale"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5E000000000006"]
+			description: ["The Trading Terminal lists every network-enabled trader on the server in one searchable interface — browse other players' shops, compare prices, and buy remotely without walking to their storefront. Flip the network setting on in your own traders and your goods appear in every terminal on the server. This is what turns scattered shop stalls into an actual economy: the moment prices are visible to everyone, competition starts."]
+			id: "5E5E000000000007"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000007"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E5E300000000007"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000007"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			title: "The Trading Terminal"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E5E000000000001"]
+			description: ["Goblin Traders are wandering merchants of the underground: regular goblins haunt the caves of the Overworld, and their vein cousins deal from the Nether. Their stock includes enchantments and oddities the villager economy never carries, refreshed on their own schedule. They are cowardly, easily missed, and worth stopping for every time you hear one. Strike a deal with a goblin to complete this quest."]
+			icon: "goblintraders:goblin_trader_spawn_egg"
+			id: "5E5E000000000008"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000008"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E300000000008"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000008"
+				title: "Trade with a Goblin Trader"
+				type: "checkmark"
+			}]
+			title: "Goblin Bazaars"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E5E000000000008"]
+			description: ["Villagers remain the oldest trading partners in the game. Assign professions with workstations — lectern for librarians, smithing table for toolsmiths — and each villager restocks twice a day while working. A proper trading hall with a breeder, a rail of workstations, and cured discounts turns emeralds into a renewable resource. Villager goods complement the player economy rather than competing with it: enchanted books and gear from villagers, bulk materials and rare drops from players."]
+			icon: "minecraft:emerald"
+			id: "5E5E000000000009"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000009"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "5E5E300000000009"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "5E5E100000000009"
+				title: "Trade with a villager"
+				type: "advancement"
+			}]
+			title: "The Village Exchange"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5E000000000001"]
+			description: ["FTB Teams binds players into a party that shares what matters: quest progress in this book is tracked per team, and land claims are held by the team rather than one player. Create or join one through the team button in your inventory screen or the /ftbteams command. On a community server a team is the difference between a base and a settlement — pool your claims, split the GT grind, and specialize. One member runs the smeltery, one runs the maps, one runs the shop."]
+			icon: "minecraft:white_banner"
+			id: "5E5E00000000000A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000A"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E30000000000A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000A"
+				title: "Create or join an FTB Team"
+				type: "checkmark"
+			}]
+			title: "Better Together"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E5E00000000000A"]
+			description: ["FTB Chunks protects your land. Open the map with the minimap key or the map button in your inventory, drag across the chunks you want, and they are claimed — other players cannot break, place, or open containers inside. Force-loading keeps your machines running while you are away, within a limited chunk budget. On a server, claim before you build: an unclaimed base is a suggestion, not a home. Claim your shop as well, and let the trader blocks handle the security of the goods."]
+			icon: "minecraft:filled_map"
+			id: "5E5E00000000000B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000B"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E5E30000000000B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000B"
+				title: "Claim the chunks around your base"
+				type: "checkmark"
+			}]
+			title: "Stake Your Claim"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5E000000000001"]
+			description: ["Waystones are the server's public travel network. Craft one, place it, and name it — any player who clicks it once has it attuned and can teleport to it from any other waystone. A shop nobody can reach earns nothing: plant a waystone at your storefront and your customer base becomes the whole server instead of your neighbors. Waystones also generate naturally in villages and structures; attune every one you pass."]
+			id: "5E5E00000000000C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000C"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 1
+					id: "5E5E30000000000C"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000C"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Waystones"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E5E00000000000C"]
+			description: ["The travel network extends beyond the stones themselves. The Warp Stone is a rechargeable personal teleporter to any attuned waystone; warp scrolls are cheap single-use copies for guests and emergencies; return scrolls send you to your nearest bound point. Keep a warp stone on your hotbar during expeditions — the trip home from a dungeon should cost a click, not an hour. Sell warp scrolls at your shop and you are quite literally selling convenience."]
+			id: "5E5E00000000000D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000D"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E30000000000D"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000D"
+				item: "waystones:warp_stone"
+				type: "item"
+			}]
+			title: "Scrolls and Stones"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E5E000000000005"]
+			description: ["A shop that looks like a dirt hut sells like one. Macaw's mods carry the structural vocabulary a storefront needs: real doors with glass panes and shop-front styles, windows with shutters and blinds, awning-grade roofs in every wood and shingle, and bridges to carry the market district across the river. Frame the building before you furnish it — a recognizable silhouette is what makes players walk over in the first place."]
+			icon: "mcwdoors:oak_glass_door"
+			id: "5E5E00000000000E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000E"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "5E5E30000000000E"
+					item: "mcwwindows:oak_pane_window"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E5E40000000000E"
+					item: "mcwroofs:oak_attic_roof"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000E"
+				title: "Build a storefront with Macaw's blocks"
+				type: "checkmark"
+			}]
+			title: "Frame the Storefront"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E5E000000000005"]
+			description: ["Handcrafted fills the inside: counters for the till, shelves and cupboards for display stock, tables, chairs, and benches for the tavern corner. Its furniture accepts items placed on top, so real goods sit on real shelves instead of living in item frames. A counter between you and the customer, wares on the wall behind — the oldest shop layout in the world still reads instantly in Minecraft."]
+			icon: "handcrafted:oak_counter"
+			id: "5E5E00000000000F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E20000000000F"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5E5E30000000000F"
+					item: "handcrafted:oak_counter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E5E40000000000F"
+					item: "handcrafted:oak_chair"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E10000000000F"
+				title: "Furnish an interior with Handcrafted"
+				type: "checkmark"
+			}]
+			title: "Furnish the Interior"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5E5E000000000005"]
+			description: ["Supplementaries and Amendments supply the finishing details that make a town feel inhabited: sign posts pointing to the market square, notice boards for server announcements, item shelves and pedestals to showcase a flagship product, ropes, flags, and wall lanterns for the street outside. Detail is signage — it tells a passing player what a building is for before they ever click a trader. Dress the district, not just your own plot."]
+			icon: "supplementaries:sign_post_oak"
+			id: "5E5E000000000010"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000010"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5E5E300000000010"
+					item: "supplementaries:sign_post_oak"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5E5E400000000010"
+					item: "supplementaries:rope"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5E5E100000000010"
+				title: "Add signage and street detail"
+				type: "checkmark"
+			}]
+			title: "Signs of Life"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"5E5E000000000007"
+				"5E5E00000000000B"
+				"5E5E00000000000E"
+				"5E5E00000000000F"
+				"5E5E000000000010"
+			]
+			description: ["A claimed plot, a built storefront, stocked traders on the network, and a waystone at the door. That is not a base anymore — it is an institution. Check this quest off when your shop is open to the public and something has actually sold. The economy of this server is nothing more than the sum of players who decided to build one; you just became part of the infrastructure."]
+			icon: "lightmanscurrency:cash_register"
+			id: "5E5E000000000011"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5E5E200000000011"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "5E5E300000000011"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5E5E100000000011"
+				title: "Open a public shop"
+				type: "checkmark"
+			}]
+			title: "Pillar of the Community"
+			x: 0.0d
+			y: 12.5d
+		}
+	]
+	title: "Commerce"
+}

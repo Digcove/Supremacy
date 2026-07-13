@@ -1,0 +1,55 @@
+{
+	icon: "mmorpg:currency/orb_of_quality"
+	id: "4B4B873CEBD15F62"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: "mmorpg:currency/orb_of_quality"
+			title: "Orb of Quality"
+		}
+		{
+			item: "mmorpg:currency/affix_common_reroll"
+			title: "Common Affix Reroll Orb"
+		}
+		{
+			item: "mmorpg:currency/upgrade_common_affix"
+			title: "Common Affix Upgrade Orb"
+		}
+		{
+			item: "mmorpg:currency/affix_tier_up_down"
+			title: "Affix Tier Reroll Orb"
+		}
+		{
+			item: "mmorpg:currency/gear_rarity_random"
+			title: "Gear Rarity Reroll Orb"
+		}
+		{
+			item: "mmorpg:currency/socket_adder"
+			title: "Socket Adder"
+		}
+		{
+			item: "mmorpg:currency/enchant_reroll"
+			title: "Enchant Reroll Orb"
+		}
+		{
+			item: "mmorpg:currency/extract_gem"
+			title: "Gem Extractor"
+		}
+		{
+			count: 2
+			item: "mmorpg:currency/sharpening_stone_2"
+			title: "Sharpening Stones"
+		}
+		{
+			count: 16
+			item: "mmorpg:stone/2"
+			title: "Salvage Stones"
+		}
+		{
+			item: "mmorpg:chest/currency"
+			title: "Currency Chest"
+		}
+	]
+	title: "Salvage Box"
+}

@@ -1,0 +1,13 @@
+name = "FTB Placeholders"
+filename = "FTB_PlaceHolders-1.0.6a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e60275811ec3088a901a4d7a6ff7f3597f06d33"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6321756
+project-id = 1187311

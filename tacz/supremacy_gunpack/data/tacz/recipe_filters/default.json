@@ -1,0 +1,9 @@
+{
+  "blacklist": [
+    "tacz:test",
+    "^destiny:.*$",
+    "^zeta:.*$",
+    "^warhammer:.*$",
+    "^fakelorant:.*$"
+  ]
+}

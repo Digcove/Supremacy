@@ -45,6 +45,12 @@
 			id: "DG01000000000002"
 			rewards: [
 				{
+					count: 2
+					id: "3A3A913CCA917AB7"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -74,6 +80,12 @@
 			description: ["The Map Device is a placeable block that accepts Dungeon Maps. Place it down, then right-click it with a Dungeon Map to enter the instanced dungeon. The Home Pearl is a consumable that teleports you back to the overworld location where you entered the map. Always carry Home Pearls before entering a map — dying inside removes your map entry tag, and without a Home Pearl or a return teleporter block, you lose your position. Craft both before attempting your first map run."]
 			id: "DG01000000000003"
 			rewards: [
+				{
+					count: 3
+					id: "3A3A08D862F50FFD"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -112,6 +124,12 @@
 			id: "DG01000000000004"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A0385B9887642"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -144,6 +162,12 @@
 			id: "DG01000000000005"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A653E5E4D19FA"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -173,6 +197,12 @@
 			description: ["Inside Dungeon Realm maps, Harvest Portals occasionally spawn — entry points into The Harvest dimension. Inside, clearing the encounter yields Chaotic Gems, a special currency used in Orb Forge and Mine and Slash upgrade recipes. Harvest portals are uncommon and do not spawn in every map. When one appears, it is worth entering — Chaotic Gems are not obtainable through any other consistent source. Exit via the Library of Exile return block inside the Harvest room."]
 			id: "DG01000000000006"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A614A24D9F2FB"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -204,6 +234,12 @@
 			id: "DG01000000000007"
 			rewards: [
 				{
+					count: 4
+					id: "3A3A6D7C46E75959"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -233,6 +269,12 @@
 			description: ["Library of Exile adds a portal system built from Portal Frame blocks. Assemble the frame structure, then use an atlas map on it to open a connection to a Library of Exile instance. Library of Exile operates as a parallel mapping system to Dungeon Realm — different map pool, different boss roster, different loot tables. The two systems do not share progress. Build the Library portal as a second dungeon entry point once you have the Dungeon Realm system running."]
 			id: "DG01000000000008"
 			rewards: [
+				{
+					count: 3
+					id: "3A3A5CDB770FCFBB"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -294,6 +336,12 @@
 			id: "DG01000000000010"
 			rewards: [
 				{
+					count: 3
+					id: "3A3AEB14BFFAD003"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -323,6 +371,12 @@
 			description: ["Obelisk Maps roll affixes just like Dungeon Maps — mob health, elemental damage, player stat reductions. A high-affix Obelisk encounter at your character level is a meaningful combat test without the overhead of portal construction or map device management. Use Obelisks as a fast, accessible source of Mine and Slash gear drops at mid-game before you have a full map-running setup established. Each Obelisk can be activated repeatedly with different maps."]
 			id: "DG01000000000011"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A6E0B2F9B641F"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
@@ -360,6 +414,12 @@
 			id: "DG01000000000012"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AEC2AC96DE20D"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 100"
 					elevate_perms: true
@@ -385,6 +445,39 @@
 			title: "Master Delver"
 			x: 0.0d
 			y: -15.5d
+		}
+		{
+			dependencies: ["DG01000000000012"]
+			description: ["Beyond the map systems sits the Convergence Gateway — the pack's repeatable endgame boss encounter, built on Gateways to Eternity. Craft a Gate Pearl from Ancient Anima, Witherite, Ignitium, and a Charged Ender Pearl — proof of one clear through each endgame boss line — then throw it at open ground to raise the gate. Four waves answer: Born in Chaos elites, the Lich and the Gauntlet, the Ancient Remnant flanked by Lifestealers, and finally Ignis. Survive all four and the gate pays out an Endgame Boss Token, the input the Orb Forge's UEV and UIV tiers demand. Cataclysm bosses drop tokens too, but the Gateway is the intended farm — the pearl recipe repeats for as long as you can keep winning."]
+			icon: "gateways:gate_pearl"
+			id: "6D6D4F8A2C1E9B37"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "6D6DB94E6F2A1D58"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "6D6D1C7F8E4B0A96"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume: false
+				id: "6D6D7D3E5A0C8F21"
+				item: "kubejs:endgame_boss_token"
+				type: "item"
+			}]
+			title: "The Convergence Gateway"
+			x: 0.0d
+			y: -18.0d
 		}
 	]
 	title: "Dungeons"

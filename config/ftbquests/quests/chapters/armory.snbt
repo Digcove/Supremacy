@@ -1,0 +1,970 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armory"
+	group: "274C28999D7BBD26"
+	icon: "tacz:gun_smith_table"
+	id: "5C5CC00000000000"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Mine and Slash melee reads your character sheet — every point of strength, every affix, every level multiplies your swing. Firearms do not read it at all. A gun's damage is flat: the same at level 1 as at level 100, gated behind GregTech materials instead of character progression. That is the design. Late-game bosses stack armor and health pools that punish short melee windows, and flying or burrowing targets never give you one. Sustained, ranged, flat DPS closes those fights. Guns are the last weapon class this pack unlocks, and they are worth the wait — melee carries you to the endgame, firepower carries you through it."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ak47"
+				}
+			}
+			id: "5C5C000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000001"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 8
+					id: "5C5C300000000001"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5C5C100000000001"
+				title: "Read the Firepower Doctrine"
+				type: "checkmark"
+			}]
+			title: "Firepower Doctrine"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5C000000000001"]
+			description: ["Every firearm in the pack is built at the Gun Smith Table, and the table itself is gated behind &eterrasteel&r — Botania's chapter six milestone. The chain runs deeper than vanilla Botania: manasteel here is infused from Soul Land &espirit iron&r, not plain iron, so the road to your first gun passes through cultivation as well as flowers. Terrasteel itself is forged on the Terrestrial Agglomeration Plate from manasteel, a mana pearl, and a mana diamond under a heavy mana payment. If your mana generation cannot fund terrasteel, it cannot fund an armory — build out Botania first."]
+			icon: "botania:terrasteel_ingot"
+			id: "5C5C000000000002"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000002"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5C5C300000000002"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000002"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "The Terrasteel Toll"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5C5C000000000002"]
+			description: ["The Gun Smith Table is the single crafting station for every gun, every round of ammunition, and every attachment you will ever make. Open it and browse by category tab — each entry lists its full material cost before you commit. In this pack those costs have been rebuilt around GregTech: plates, motors, and higher-tier components replace the default scrap-metal recipes, so the table doubles as a shopping list for your GT production lines. Place it next to your material storage; you will be back here constantly."]
+			id: "5C5C000000000003"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000003"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5C5C300000000003"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					title: "9mm Starter Crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000003"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "The Gun Smith Table"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C5C000000000003"]
+			description: ["Firearms handle differently from anything else in your hotbar. Fire with left click. Hold right click to aim down sights — accuracy and recoil control improve dramatically while aiming. Reload with &eR&r; rounds are pulled from matching ammo in your inventory or an ammo box. Many guns carry multiple fire modes — semi, burst, full-auto — cycled with the fire-select key. The gun HUD by your hotbar shows the loaded round count and current fire mode. Every key is rebindable under Options, Controls, in the TACZ category — check that menu once before your first fight, not during it."]
+			icon: "minecraft:book"
+			id: "5C5C000000000004"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000004"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5C5C300000000004"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000004"
+				title: "Learn the TACZ controls"
+				type: "checkmark"
+			}]
+			title: "Controls and Handling"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C5C000000000004"]
+			description: ["Sidearms are the entry tier of the arsenal: pistols and revolvers like the M1911, Glock 17, Desert Eagle, and Rhino 357. Their recipes are built on &eHV-tier&r materials — stainless steel plates and HV components. Stainless steel is mixed from iron, nickel, manganese, and chrome dusts, then blasted into ingots in the Electric Blast Furnace. A sidearm will not replace your melee build, but it is always in your pocket, always loaded, and it teaches the handling fundamentals every later platform shares."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:deagle"
+				}
+			}
+			id: "5C5C000000000005"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000005"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 48
+					id: "5C5C300000000005"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:45acp"
+						}
+					}
+					title: ".45 ACP Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5C5C100000000005"
+					item: "gtceu:stainless_steel_plate"
+					type: "item"
+				}
+				{
+					id: "5C5C100000000006"
+					title: "Craft any pistol or revolver"
+					type: "checkmark"
+				}
+			]
+			title: "HV: Sidearms"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C5C000000000004"]
+			description: ["Shotguns — the M870, SPAS-12, and double barrels — share the sidearm's &eHV&r material tier but trade range for overwhelming close-quarters burst. Their recipes lean on HV electric motors, your first machine-grade component in a weapon. In dungeon corridors and boss adds phases, a shotgun deletes whatever reaches melee range without asking your character sheet for permission. Pair one with a longer-ranged primary rather than carrying it alone."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m870"
+				}
+			}
+			id: "5C5C000000000006"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000006"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 32
+					id: "5C5C300000000006"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:12g"
+						}
+					}
+					title: "12 Gauge Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C100000000007"
+					item: "gtceu:hv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5C5C100000000008"
+					title: "Craft any shotgun"
+					type: "checkmark"
+				}
+			]
+			title: "HV: Scatterguns"
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C5C000000000005"]
+			description: ["Submachine guns and personal defense weapons — the MP5, P90, Vector, UMP45, and Uzi — open the &eEV&r material tier. Titanium is the cost of entry: rutile processed through titanium tetrachloride, reduced with magnesium, and blasted in the EBF. What you buy with it is volume of fire — high rate, controllable recoil, fast handling. SMGs are the workhorse for clearing Mine and Slash map mobs, where a hundred light rounds beat five heavy ones."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:hk_mp5a5"
+				}
+			}
+			id: "5C5C000000000007"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000007"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5C5C300000000007"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:9mm"
+						}
+					}
+					title: "9mm Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5C5C100000000009"
+					item: "gtceu:titanium_plate"
+					type: "item"
+				}
+				{
+					id: "5C5C10000000000A"
+					title: "Craft any SMG or PDW"
+					type: "checkmark"
+				}
+			]
+			title: "EV: Submachine Guns"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5C5C000000000006"]
+			description: ["Assault rifles are the center of the arsenal: the AK-47, M4A1, HK416, SCAR-L, G36K, and their kin. They sit at &eEV&r tier with EV electric motors at the heart of the recipe. An assault rifle does everything acceptably — range, rate of fire, damage per shot — which makes it the default primary from the moment you can afford one until the day you specialize. If you build only one gun production line, build the one that feeds your rifle."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m4a1"
+				}
+			}
+			id: "5C5C000000000008"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000008"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 64
+					id: "5C5C300000000008"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					title: "5.56x45 Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C10000000000B"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5C5C10000000000C"
+					title: "Craft any assault rifle"
+					type: "checkmark"
+				}
+			]
+			title: "EV: Assault Rifles"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5C5C000000000007"]
+			description: ["Designated marksman and battle rifles — the Mk14, SPR15, SKS, FN FAL, and HK G3 — fire full-power cartridges that hit far harder per round than assault rifle fare. Their recipes step up to &eIV&r tier and tungsten steel: tungsten alloyed with steel at extreme EBF temperatures. A DMR rewards the player who lands headshots at range before the enemy closes — in open-air boss arenas and Atlas maps with dangerous ranged mobs, it is the safest damage you can deal."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:mk14"
+				}
+			}
+			id: "5C5C000000000009"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000009"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 48
+					id: "5C5C300000000009"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:308"
+						}
+					}
+					title: ".308 Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "5C5C10000000000D"
+					item: "gtceu:tungsten_steel_plate"
+					type: "item"
+				}
+				{
+					id: "5C5C10000000000E"
+					title: "Craft any DMR or battle rifle"
+					type: "checkmark"
+				}
+			]
+			title: "IV: Marksman Rifles"
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5C5C000000000008"]
+			description: ["Light machine guns — the M249, RPK, and ultimately the minigun — are sustained-fire platforms built on &eIV&r motors, with the largest weapons reaching into &eLuV&r components. An LMG's job is uptime: a belt or drum that keeps firing through an entire add wave without a reload window. The ammunition bill is enormous, which is the real gate — do not build an LMG until your ammo production line can feed it without bankrupting your brass supply."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:m249"
+				}
+			}
+			id: "5C5C00000000000A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000A"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 96
+					id: "5C5C30000000000A"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:556x45"
+						}
+					}
+					title: "Belt-Fed Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C10000000000F"
+					item: "gtceu:iv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5C5C100000000010"
+					title: "Craft any machine gun"
+					type: "checkmark"
+				}
+			]
+			title: "LuV: Machine Guns"
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5C5C000000000009"]
+			description: ["Sniper rifles — the AWP, M700, Kar98k, and M95 — are the apex of precision, priced at &eZPM&r tier with naquadah alloy plates and ZPM motors. One aimed shot delivers more damage than any other single trigger pull in the pack. Against Cataclysm bosses with punishing melee-range mechanics, opening the fight from eighty blocks away is not cowardice; it is doctrine. Slow handling and tiny magazines mean a sniper is always paired with a fallback weapon."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:ai_awp"
+				}
+			}
+			id: "5C5C00000000000B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000B"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 32
+					id: "5C5C30000000000B"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:338"
+						}
+					}
+					title: ".338 Bundle"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C100000000011"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "5C5C100000000012"
+					title: "Craft any sniper rifle"
+					type: "checkmark"
+				}
+			]
+			title: "ZPM: Precision Rifles"
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5C5C00000000000A"]
+			description: ["Ordnance is the top of the ladder: the RPG-7, the M320 grenade launcher, and the M107 anti-materiel rifle. These recipes demand &eZPM&r field generators — the same components your late-game GT multiblocks are begging for, which is exactly the point. Explosive rounds trade single-target efficiency for area denial and burst damage on grouped elites. Rockets are expensive per shot; treat them as a boss-opener and emergency button, not a primary."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "tacz:rpg7"
+				}
+			}
+			id: "5C5C00000000000C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000C"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 4
+					id: "5C5C30000000000C"
+					item: {
+						Count: 1
+						id: "tacz:ammo"
+						tag: {
+							AmmoId: "tacz:rpg_rocket"
+						}
+					}
+					title: "Rocket Crate"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5C5C100000000013"
+					item: "gtceu:zpm_field_generator"
+					type: "item"
+				}
+				{
+					id: "5C5C100000000014"
+					title: "Craft a launcher or anti-materiel rifle"
+					type: "checkmark"
+				}
+			]
+			title: "ZPM: Ordnance"
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5C5C000000000004"]
+			description: ["A gun without ammunition is an expensive club. Every weapon feeds on a specific caliber — check the gun's tooltip — and every caliber is crafted at the Gun Smith Table's ammo tab. In this pack ammunition inputs have been shifted toward GregTech &ebrass&r: copper and zinc mixed and alloyed into cheap, endlessly reproducible casing stock. Ammo is deliberately cheap relative to the guns themselves; scarcity gates the weapon, not the trigger. Stock your table's chest with brass and gunpowder and craft in bulk."]
+			icon: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+			id: "5C5C00000000000D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000D"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 16
+					id: "5C5C30000000000D"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000015"
+				item: "tacz:ammo"
+				title: "Craft any ammunition"
+				type: "item"
+			}]
+			title: "Ammunition Works"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C5C00000000000D"]
+			description: ["The Ammo Box holds a deep reserve of a chosen caliber and reloads feed from it automatically — iron, gold, and diamond tiers hold progressively more. Two companion mods extend it: &eCurios for Ammo Box&r adds a dedicated belt slot so the box rides outside your inventory, and &eApplied Ammo Box&r links a box to your ME network, pulling replacement rounds straight from AE2 storage. A gunner with a networked ammo box never sees an empty magazine at home base."]
+			id: "5C5C00000000000E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000E"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "5C5C30000000000E"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000016"
+				item: "tacz:ammo_box"
+				type: "item"
+			}]
+			title: "The Ammo Box"
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5C5C00000000000E"]
+			description: ["Hand-crafting rounds stops scaling the day you build an LMG. Industrialize: a GT mixer turning copper and zinc dust into brass, an alloy smelter or EBF line casting ingots, and conveyors or AE2 export buses keeping the Gun Smith Table's supply chest full. Create-side, a depot-and-press line handles plate stock for casings just as well. The target is simple — walk to the table, craft a thousand rounds, walk away. When ammunition stops being a decision, guns become your primary weapon in practice and not just on paper."]
+			icon: "gtceu:brass_ingot"
+			id: "5C5C00000000000F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C20000000000F"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C30000000000F"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000017"
+				title: "Automate your ammunition supply"
+				type: "checkmark"
+			}]
+			title: "Feeding the War Machine"
+			x: -4.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5C5C000000000004"]
+			description: ["Attachments turn one rifle into five different weapons. Scopes and sights change engagement range, grips tame recoil, suppressors and compensators reshape muzzle behavior, stocks trade handling for stability, and extended magazines buy uptime. Craft them at the Gun Smith Table — attachment recipes stay deliberately cheap so experimenting costs little — then open the gun's attachment screen with the attachment key (see the TACZ controls menu) and slot them in. Re-fit for the fight in front of you: a map-clearing loadout and a boss loadout rarely share a scope."]
+			icon: "minecraft:spyglass"
+			id: "5C5C000000000010"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000010"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "5C5C300000000010"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000018"
+				item: "tacz:attachment"
+				title: "Craft any attachment"
+				type: "item"
+			}]
+			title: "Attachments"
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C5C000000000010"]
+			description: ["Guns level up. Every kill made with a weapon feeds experience into that specific gun, and each level raises its damage — the weapon-leveling system rewards commitment to a platform over hoarding a locker of unfired steel. The experience lives on the individual item: a veteran AK that has cleared fifty maps outshoots a factory-fresh copy of itself. Check a gun's tooltip for its current level and progress. When choosing between two similar weapons, the one you have already bled with usually wins."]
+			icon: "minecraft:enchanted_book"
+			id: "5C5C000000000011"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000011"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "5C5C300000000011"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C100000000019"
+				title: "Level up a weapon through kills"
+				type: "checkmark"
+			}]
+			title: "Weapon Leveling"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5C5C00000000000B"
+				"5C5C00000000000C"
+			]
+			description: ["Four arsenals from other wars circulate in Supremacy, and none of them can be crafted — no Gun Smith Table recipe exists for any of them, by design. They enter the world three ways: as drops from the endgame bosses of &eCataclysm&r and &eBosses of Mass Destruction&r, in the loot of high-tier &eMine and Slash Atlas maps&r, and inside the &eArmory Crate&r sold at the Gem Shop. Exact rates are yours to discover. What follows is the catalog of what is out there — so you know what you are looking at when it finally drops."]
+			icon: "tacz:statue"
+			id: "5C5C000000000012"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000012"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C300000000012"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5C5C10000000001A"
+				title: "Read the drop-only catalog"
+				type: "checkmark"
+			}]
+			title: "Relics of Distant Wars"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5C5C000000000012"]
+			description: ["Exotic frames from a Golden Age that never happened here: the Gjallarhorn rocket launcher, the Ace of Spades and Thorn hand cannons, the Hammerhead machine gun, and dozens more. The Destiny arsenal is the largest of the four themed collections, spanning every weapon class from sidearm to heavy. These are boss-tier drops with signature behaviors you will not find on any craftable platform — when one falls from a Cataclysm boss or an Atlas map chest, it is an event."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "destiny:gjallarhorn"
+				}
+			}
+			id: "5C5C000000000013"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000013"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C300000000013"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C10000000001B"
+				title: "Study the Destiny catalog"
+				type: "checkmark"
+			}]
+			title: "Destiny: Exotic Frames"
+			x: -4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5C5C000000000012"]
+			description: ["Super Earth's expeditionary surplus: LAS-pattern laser rifles that trade magazines for heat management, plasma weapons with arcing projectiles, the MG-X42 machine gun, and a full line of Helldivers service arms. The collection favors sustained suppression and energy weapons — niches no craftable gun fills. Hunt them in endgame boss drops, Atlas map loot, and the Gem Shop's Armory Crate."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "zeta:mgx42"
+				}
+			}
+			id: "5C5C000000000014"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000014"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C300000000014"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C10000000001C"
+				title: "Study the Helldivers catalog"
+				type: "checkmark"
+			}]
+			title: "Helldivers: Super Earth Surplus"
+			x: -1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5C5C000000000012"]
+			description: ["Munitions of the Imperium, straight from the hives of Tertium: Kantrael-pattern lasguns, Accatran designs, the Artemia flamer pattern, and psyker force staves that behave like no conventional firearm. The Darktide collection is the strangest of the four — several of its weapons are closer to spellcasting implements than rifles. All of it is drop-only: endgame bosses, Atlas maps, and the Armory Crate."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "warhammer:kantrael_xii"
+				}
+			}
+			id: "5C5C000000000015"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000015"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C300000000015"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C10000000001D"
+				title: "Study the Darktide catalog"
+				type: "checkmark"
+			}]
+			title: "Darktide: Arms of the Imperium"
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5C5C000000000012"]
+			description: ["Protocol weapons of uncertain provenance: the Vandal and Phantom rifles, the Sheriff and Ghost sidearms, the Operator sniper system, and the rest of a ten-weapon tactical kit. The Fakelorant collection is compact but every entry is a precision instrument tuned for crisp, deliberate gunplay. Like the other themed arsenals, none of it is craftable — watch for them in endgame boss drops, Atlas map loot, and the Armory Crate."]
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "fakelorant:vandal"
+				}
+			}
+			id: "5C5C000000000016"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000016"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "5C5C300000000016"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C5C10000000001E"
+				title: "Study the Fakelorant catalog"
+				type: "checkmark"
+			}]
+			title: "Fakelorant: Protocol Weapons"
+			x: 4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"5C5C000000000013"
+				"5C5C000000000014"
+				"5C5C000000000015"
+				"5C5C000000000016"
+			]
+			description: ["The Harbinger is Cataclysm's mechanized executioner — a flying weapons platform with phases that punish grounded melee and reward exactly the arsenal you have spent this chapter building. Bring it down with gunfire. There is no better proof that the doctrine holds: melee brought you to the endgame, and firepower ended it. The armory is yours, gunner. Keep the production lines warm."]
+			icon: "lightmanscurrency:coin_netherite"
+			id: "5C5C000000000017"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 150"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "5C5C200000000017"
+					silent: true
+					title: "150 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 1
+					id: "5C5C300000000017"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "5C5C10000000001F"
+				title: "Slay the Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Supremacy Through Firepower"
+			x: 0.0d
+			y: 25.0d
+		}
+	]
+	title: "Armory"
+}

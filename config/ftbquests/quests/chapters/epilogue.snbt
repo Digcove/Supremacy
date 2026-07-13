@@ -302,7 +302,7 @@
 		{
 			dependencies: ["54B478D596CE17D6"]
 			description: ["&eHostile Wolves&r are strange Wolves that can only be found in a &eHedge Maze&r. Legend says these Wolves hate humans because they always steal their treasures. Unfortunately, these Wolves cannot be tamed."]
-			icon: "doggytalents:dog_plushie_toy_item"
+			icon: "minecraft:bone"
 			id: "2BE20402219A9B78"
 			rewards: [
 				{
@@ -333,7 +333,7 @@
 		{
 			dependencies: ["54B478D596CE17D6"]
 			description: ["&eHedge Spiders&r are almost identical to normal overworld Spiders aside from their distinct green color. The only difference between this species and their Overworld counterparts is that they are able to spawn in brightly-lit &eHedge Mazes&r. Legend says these Spiders are brave enough to protect their treasure from explorers."]
-			icon: "chipped:stringy_cobweb"
+			icon: "minecraft:cobweb"
 			id: "039BE2259D553B13"
 			rewards: [
 				{
@@ -531,7 +531,7 @@
 				"&b+50% Physical to Lightning Damage&r"
 				"&b+50% Physical to Chaos Damage&r"
 			]
-			icon: "mca:book_death"
+			icon: "minecraft:written_book"
 			id: "7CEF2BA760AB0B2E"
 			rewards: [
 				{
@@ -1503,11 +1503,9 @@
 		{
 			dependencies: ["09AFF8CC33BD244B"]
 			description: [
-				"Upon killing the &eNaga&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Ironwood&r in a circle around the monument like so:"
+				"The &eNaga&r was only the first of its kind. The Twilight Forest generates courtyards without number \u2014 somewhere out there, another serpent coils and waits."
 				""
-				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
-				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"Hunt down and slay a &esecond Naga&r in a fresh courtyard."
 			]
 			id: "249CFC4219E590E5"
 			rewards: [{
@@ -1518,10 +1516,10 @@
 			}]
 			subtitle: "Respawning"
 			tasks: [{
-				advancement: "dimasic_server:nagaresp"
-				criterion: ""
+				entity: "twilightforest:naga"
 				id: "4443B8B332438AA1"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			x: 6.0d
 			y: -1.5d
@@ -1529,11 +1527,9 @@
 		{
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"Upon killing the &eLich&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Gold&r in a circle around the monument like so:"
+				"Every Lich Tower holds a master. Destroying one &eLich&r broke a single link in the Twilight's necromantic order \u2014 the rest still scheme atop their towers."
 				""
-				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
-				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"Find another &eLich Tower&r and destroy its &eLich&r."
 			]
 			id: "478246DF0A50447C"
 			rewards: [{
@@ -1544,10 +1540,10 @@
 			}]
 			subtitle: "Respawning"
 			tasks: [{
-				advancement: "dimasic_server:lichresp"
-				criterion: ""
+				entity: "twilightforest:lich"
 				id: "46647FC4FDDBF7CE"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			x: 9.0d
 			y: -1.5d
@@ -1555,11 +1551,9 @@
 		{
 			dependencies: ["5BB55F41502BE69C"]
 			description: [
-				"Upon killing the &eUr-Ghast&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eCrying Obsidian&r in a circle around the monument like so:"
+				"The &eUr-Ghast&r you felled was not unique. Above every Dark Tower, another mass of sorrow and fury drifts against the stars."
 				""
-				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
-				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"Scale a second &eDark Tower&r and bring down its &eUr-Ghast&r."
 			]
 			id: "52FABBC48E005524"
 			rewards: [{
@@ -1570,10 +1564,10 @@
 			}]
 			subtitle: "Respawning"
 			tasks: [{
-				advancement: "dimasic_server:urghastresp"
-				criterion: ""
+				entity: "twilightforest:ur_ghast"
 				id: "16328367B255603E"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			x: 10.5d
 			y: -4.5d
@@ -1581,11 +1575,9 @@
 		{
 			dependencies: ["1E2D94E70E2A1134"]
 			description: [
-				"Upon killing the &eSnow Queen&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eBlocks of Lapis Lazuli&r in a circle around the monument like so:"
+				"In every Aurora Palace, a &eSnow Queen&r reigns over the ice. The one you defeated has sisters \u2014 each as cold, each as deadly."
 				""
-				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
-				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"Storm another &eAurora Palace&r and end its &eSnow Queen&r."
 			]
 			id: "15CD2A688D39C87D"
 			rewards: [{
@@ -1596,10 +1588,10 @@
 			}]
 			subtitle: "Respawning"
 			tasks: [{
-				advancement: "dimasic_server:snawqueenresp"
-				criterion: ""
+				entity: "twilightforest:snow_queen"
 				id: "4F68D5C6E346A550"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			x: 10.5d
 			y: 4.5d
@@ -1607,11 +1599,9 @@
 		{
 			dependencies: ["18C4B8D73A50CFAC"]
 			description: [
-				"Upon killing the &eHydra&r, a &eRespawn Monument&r will appear. You can activate the block to respawn the boss by placing &eAncient Debris&r in a circle around the monument like so:"
+				"Fireswamps breed &eHydras&r the way ponds breed frogs. Somewhere in the Twilight, another lair steams and hungers."
 				""
-				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
-				""
-				"Then, on the monument itself, place a &eWither Skeleton Skull&r facing &eNorth&r. &cIt MUST face North!&r"
+				"Seek out a second &eHydra Lair&r and slay the beast within."
 			]
 			id: "1DD47026109BE225"
 			rewards: [{
@@ -1622,10 +1612,10 @@
 			}]
 			subtitle: "Respawning"
 			tasks: [{
-				advancement: "dimasic_server:hydraresp"
-				criterion: ""
+				entity: "twilightforest:hydra"
 				id: "5757A2AFA61E5A7F"
-				type: "advancement"
+				type: "kill"
+				value: 1L
 			}]
 			x: 13.5d
 			y: -1.5d

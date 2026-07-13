@@ -1,0 +1,13 @@
+name = "Wooden Bucket"
+filename = "woodenbucket-1.20.1-2.1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bdc37639e79f33760402d8f7cf2f1b470a74d70"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7930776
+project-id = 585328

@@ -3,11 +3,11 @@ filename = "supermartijn642corelib-1.1.21-forge-mc1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8a403876730a7186165e109f7f5292d31c6c3f4c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rOUBggPv/versions/2vPGeoPe/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar"
+hash-format = "sha512"
+hash = "3e96e92e60dff9a663191bcddd22af55e6df0a89a9aa7594b34cda43bbf858ba086e408dbbfe3cf40978c8449fe5cf88276aec17ac922569bdab13c7ceced688"
 
 [update]
-[update.curseforge]
-file-id = 7783320
-project-id = 454372
+[update.modrinth]
+mod-id = "rOUBggPv"
+version = "2vPGeoPe"

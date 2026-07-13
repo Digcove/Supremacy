@@ -10,7 +10,7 @@
 	quests: [
 		{
 			description: ["Applied Energistics 2 converts item storage into a digital network accessible from anywhere through ME Terminals. Items stored in ME Cells are indexed and searchable regardless of where the physical cells sit on the network. The ME Controller is the mandatory hub — exactly one per logical network, connected to every other component directly or via cable. Power is delivered through an ME Energy Acceptor block fed by any power source, or natively from GTCEu cables at higher tiers. Every other AE2 block is optional; the minimum viable network is a Controller, a Drive, a Cell, and a Terminal. Everything else is throughput and reach."]
-			id: "AE01000000000001"
+			id: "3A3AA1EBEA96F96D"
 			rewards: [
 				{
 					auto: "enabled"
@@ -40,10 +40,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE01000000000001"]
+			dependencies: ["3A3AA1EBEA96F96D"]
 			description: ["Certus Quartz Crystals grow from Certus Quartz Buds on Skystone and Charged Skystone found in meteorite craters scattered across the overworld. Buds grow through four stages and drop a crystal when fully grown and broken. Accelerate production by placing Certus Quartz Seeds in water — each seed matures into a crystal and can be harvested without destroying the water block. Certus consumption across the full AE2 progression is heavy and never plateaus; establish a growing array early and expand it before you think you need to."]
-			id: "AE01000000000002"
+			id: "3A3AD58DCD5BB221"
 			rewards: [
+				{
+					count: 1
+					id: "3A3AD787EEDD27AB"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -70,10 +76,16 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["AE01000000000001"]
+			dependencies: ["3A3AA1EBEA96F96D"]
 			description: ["The ME Controller is the hub every AE2 network requires. Place it first, then connect cables and components to it directly or through cable runs. Connecting two ME Controllers merges or splits the network depending on orientation — maintain exactly one per logical network. The Controller requires continuous power; if power drops, all terminals go offline and stored item access is suspended until power is restored. Establish reliable power delivery to the Controller before adding any other network components."]
-			id: "AE01000000000003"
+			id: "3A3AA5EAB1BE9CB8"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AC6DA66200358"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -100,10 +112,16 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["AE01000000000001"]
+			dependencies: ["3A3AA1EBEA96F96D"]
 			description: ["The ME Inscriber presses printed circuit components using engraved press dies found inside Skystone Meteorite chests in the overworld — check for meteor craters and dig to find the chest. Four presses exist: Logic, Calculation, Engineering, and Silicon. Each press occupies the top or bottom slot of an Inscriber; the material to press goes in the center slot. Run multiple Inscribers in parallel — processor production is the primary throughput constraint throughout all of AE2 progression, and a single machine stalls the entire downstream build."]
-			id: "AE01000000000004"
+			id: "3A3ADB9605FCB7D5"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A6E9EE073A3CE"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -130,9 +148,9 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["AE01000000000002"]
+			dependencies: ["3A3AD58DCD5BB221"]
 			description: ["The ME Charger block charges Certus Quartz Crystals by consuming power. Place a raw crystal in the Charger and supply it with any power source — it outputs a Charged Certus Quartz Crystal. Charged crystals discharge over time outside the Charger, so use them promptly after charging or keep them inside until needed. The Charger consumes minimal power and can be fed from any early-game generator. Build it before attempting Fluix synthesis — charged certus is a required reagent."]
-			id: "AE01000000000005"
+			id: "3A3AAAF0CF8B8B9B"
 			rewards: [
 				{
 					auto: "enabled"
@@ -167,10 +185,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["AE01000000000003"]
+			dependencies: ["3A3AA5EAB1BE9CB8"]
 			description: ["The ME Drive accepts up to ten ME Storage Cells and exposes all of their contents to the network. Each Drive holds any mix of item and fluid cells regardless of tier. Place the Drive adjacent to the Controller or connect via cable — connection order does not matter. Build a second Drive before the first fills; migrating cells to overflow storage under active load is inconvenient, and the second Drive costs almost nothing relative to the cells it will hold."]
-			id: "AE01000000000006"
+			id: "3A3A5B74B81A2685"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AB2E80600716C"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -197,10 +221,16 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["AE01000000000004"]
+			dependencies: ["3A3ADB9605FCB7D5"]
 			description: ["Each press produces one printed component type. Logic Press: iron ingot → Printed Logic Processor. Calculation Press: pure certus quartz crystal → Printed Calculation Processor. Engineering Press: gold ingot → Printed Engineering Processor. Silicon Press: sand or silicon dust → Printed Silicon. All four types are required to assemble the final processors. Automate Inscriber input and output with hoppers or import/export buses as soon as possible — manually cycling four machines is a consistent production stall."]
-			id: "AE01000000000007"
+			id: "3A3A6920E4FBE6E5"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A999F9F826EEB"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -244,9 +274,9 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["AE01000000000005"]
+			dependencies: ["3A3AAAF0CF8B8B9B"]
 			description: ["Fluix Crystals are synthesized by throwing Charged Certus Quartz, Nether Quartz, and Redstone into the same water source block simultaneously. The three items react and produce Fluix Crystals after a short delay. Fluix is the primary material for ME cables, cell components, cores, and most networking parts — consumption is continuous and has no crafting substitute. Maintain a dedicated synthesis pool near your base and keep it stocked; Fluix production is a silent bottleneck that halts expansion the moment the pool runs dry."]
-			id: "AE01000000000008"
+			id: "3A3AA374D9F495EA"
 			rewards: [
 				{
 					auto: "enabled"
@@ -274,10 +304,16 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["AE01000000000006"]
+			dependencies: ["3A3A5B74B81A2685"]
 			description: ["ME Cables carry the channel signal between network components. Glass Cable carries 8 channels and is the cheapest option. Covered Cable also carries 8 and prevents color bleed between adjacent cables. Smart Cable shows live channel utilization via color indicators — use it to identify congested segments before they cause component dropouts. Dense Covered Cable carries 32 channels and is required for high-density runs between Controllers and distribution nodes. Run Smart Dense Cable on your network spine so saturation is always visible."]
-			id: "AE01000000000009"
+			id: "3A3AD1D28D629131"
 			rewards: [
+				{
+					count: 1
+					id: "3A3A6F44D02043E3"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -317,12 +353,18 @@
 		}
 		{
 			dependencies: [
-				"AE01000000000007"
-				"AE01000000000008"
+				"3A3A6920E4FBE6E5"
+				"3A3AA374D9F495EA"
 			]
 			description: ["The three processor types are assembled in a fifth Inscriber run: each printed component is combined with Printed Silicon and Fluix Crystal. Logic Processors go into basic AE2 components; Calculation Processors into storage cells, crafting units, and pattern providers; Engineering Processors into advanced devices including Dense Energy Cells and Quantum Bridges. Processor velocity determines the pace of all downstream AE2 construction. Five Inscribers running simultaneously — one per printed type plus one for final assembly — is the practical minimum for smooth early expansion."]
 			id: "AE01000000000010"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A55B0A2DC538B"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -362,12 +404,18 @@
 		}
 		{
 			dependencies: [
-				"AE01000000000008"
+				"3A3AA374D9F495EA"
 				"AE01000000000010"
 			]
 			description: ["Cell Components are the media inside AE2 storage cells — each tier (1k, 4k, 16k, 64k, 256k) stores more bytes per component at higher material cost. A 1k component stores 1,024 bytes; 256k stores 262,144. A Cell Housing (item or fluid type) completes the cell. Each cell in a Drive carries a 63-type limit by default regardless of tier — use a Cell Workbench to partition cells to specific items and prevent miscellaneous drops consuming type slots. Run 4k and 16k as your primary storage tier; 64k and 256k for high-volume bulk commodities."]
 			id: "AE01000000000011"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AC628B7598A2F"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -412,12 +460,18 @@
 		}
 		{
 			dependencies: [
-				"AE01000000000009"
+				"3A3AD1D28D629131"
 				"AE01000000000010"
 			]
 			description: ["The ME Terminal displays all items stored across the network's Drive array, searchable and sortable in real time. The Crafting Terminal adds an integrated 3x3 crafting grid that auto-pulls ingredients from network storage — items drawn for crafting are debited from the network immediately. Both require one channel on the connected cable segment. Use the Crafting Terminal as the primary interaction point; the plain Terminal is useful for read-only secondary access where the crafting grid is not needed and channel budget is tight."]
 			id: "AE01000000000012"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AFAC86FF6A52A"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -453,7 +507,7 @@
 		{
 			dependencies: [
 				"AE01000000000010"
-				"AE01000000000006"
+				"3A3A5B74B81A2685"
 			]
 			description: ["Blank Patterns are the base medium for encoding autocrafting recipes. Insert one into the Pattern Encoding Terminal and program it with a crafting, processing, or smelt recipe — the pattern stores exactly which items go in and which come out. Encoded patterns are placed in Pattern Providers adjacent to Molecular Assemblers or GTCEu machines, instructing the network how to produce items on demand. Keep a full stack of Blank Patterns on hand; complex autocrafting trees require many patterns, and modifying a recipe means re-encoding from scratch."]
 			id: "AE01000000000013"
@@ -488,6 +542,12 @@
 			description: ["ME Storage Cells are assembled from a Cell Component and a Cell Housing — Item Cell Housing for items, Fluid Cell Housing for fluids. Install completed cells in ME Drives to expose their contents to the network. Partition important bulk cells using a Cell Workbench to reserve specific item types and prevent type-slot exhaustion from random drops. Dual Cell Housing (from Expanded AE) holds both item and fluid types in a single cell — useful for machines that output both and reduces Drive slot consumption at scale."]
 			id: "AE01000000000014"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AF39494FB1E53"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -531,6 +591,12 @@
 			id: "AE01000000000015"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A6F32E445D2EB"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -560,6 +626,12 @@
 			description: ["The Pattern Provider pushes encoded pattern ingredients into adjacent inventories or machines. For item crafting, pair it with a Molecular Assembler; for GTCEu processing recipes, pair it with a GT ME Input Bus, which bypasses the need for assemblers entirely. Each Provider slot holds one pattern; swap patterns to change what a machine can produce on demand. The Ex Pattern Provider (from ExtendedAE) extends this with multiple simultaneous output channels and improved throughput — use it for high-volume production lines that exhaust the standard Provider's single-slot dispatch."]
 			id: "AE01000000000016"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A7CA6966CED1F"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -595,11 +667,17 @@
 		{
 			dependencies: [
 				"AE01000000000014"
-				"AE01000000000009"
+				"3A3AD1D28D629131"
 			]
 			description: ["The Import Bus pulls items from adjacent inventories into the network automatically. The Export Bus pushes items from the network into adjacent inventories. Both require one channel and a filter — configure filters to restrict which items each bus handles. An unfiltered Import Bus on a machine output chest pulls everything, flooding the network with intermediate products and waste. An unfiltered Export Bus does nothing. Always set filters before placing either bus adjacent to an active machine buffer. The Ex Import and Ex Export Buses from ExtendedAE support higher throughput and expanded filter options for high-density machine clusters."]
 			id: "AE01000000000017"
 			rewards: [
+				{
+					count: 1
+					id: "3A3A107CB540EEA3"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -638,6 +716,12 @@
 			id: "AE01000000000018"
 			rewards: [
 				{
+					count: 2
+					id: "3A3A04195B85335D"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -675,6 +759,12 @@
 			id: "AE01000000000019"
 			rewards: [
 				{
+					count: 2
+					id: "3A3AAAF1D9EF43D2"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -707,7 +797,7 @@
 			y: -15.0d
 		}
 		{
-			dependencies: ["AE01000000000003"]
+			dependencies: ["3A3AA5EAB1BE9CB8"]
 			description: ["ME Energy Cells buffer network power between the generator and the Controller. The standard Energy Cell stores 200,000 AE; Dense Energy Cell stores 1,600,000 AE. MEGACells adds the Mega Energy Cell for enormous buffer capacity at endgame. A Dense Energy Cell buffer prevents network dropout during brief generator interruptions — one Dense Cell per network is the baseline minimum. The network drops all operations instantly if the Controller loses power with no buffer in place, so size the buffer against your longest expected generator gap."]
 			id: "AE01000000000020"
 			rewards: [
@@ -757,6 +847,12 @@
 			id: "AE01000000000021"
 			rewards: [
 				{
+					count: 1
+					id: "3A3A1887827A0EAA"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -789,10 +885,16 @@
 			y: -17.5d
 		}
 		{
-			dependencies: ["AE01000000000009"]
+			dependencies: ["3A3AD1D28D629131"]
 			description: ["P2P Tunnels compress high-channel-count connections into a single cable by pairing tunnel endpoints. One input-side tunnel connects to the signal source; the matching endpoint outputs the tunneled channels at the destination. Each pair consumes one channel on the cable it travels through but carries up to 32 channels inside the tunnel. Better P2P's Advanced Memory Card simplifies tunnel pairing by storing endpoint link data, replacing the tedious right-click-to-pair workflow when managing many tunnels across a large base."]
 			id: "AE01000000000022"
 			rewards: [
+				{
+					count: 2
+					id: "3A3A39E19B1A804F"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -830,6 +932,12 @@
 			description: ["Wireless Crafting Terminals connect to the network via a Wireless Access Point placed on any cable segment; they require charge and range. The AE2 Wireless Terminals mod also provides the Wireless Universal Terminal, which combines terminal, pattern encoding, and extended functionality into one handheld device. The AE Infinity Booster card extends wireless range significantly when inserted into a terminal — build one as soon as the wireless terminal becomes your primary interface, since default range is limited to a small radius around the access point."]
 			id: "AE01000000000023"
 			rewards: [
+				{
+					count: 2
+					id: "3A3AB7AA97D41118"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -872,6 +980,12 @@
 			description: ["GTCEu ME Input and Output Buses replace the traditional export-bus-to-chest-to-input-hatch pipeline with a direct network-to-machine connection. The ME Input Bus pulls items from the network into the machine's processing slot; the ME Output Bus pushes results directly back into the network. ME Input and Output Hatches do the same for fluids. These eliminate the intermediate chest layer entirely and make GTCEu machine automation significantly cleaner. The GT machine and the AE2 network must share a power source — connect them through compatible cable interfaces."]
 			id: "AE01000000000024"
 			rewards: [
+				{
+					count: 3
+					id: "3A3AB3272ADF5404"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -923,6 +1037,12 @@
 			id: "AE01000000000025"
 			rewards: [
 				{
+					count: 3
+					id: "3A3A89452E5D3160"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -959,6 +1079,12 @@
 			description: ["GTCEu Stocking Input Buses and Hatches maintain a target stock level in the machine's input buffer rather than only pulling when a crafting job is active. The stocking bus monitors current inventory and replenishes from the network whenever stock drops below a configured threshold. This eliminates startup delay on machines running a single recipe continuously — the next batch of ingredients is always pre-loaded before the previous run finishes. ExpandedGT adds expanded and tag-filter stocking variants with higher per-tick transfer rates for multi-slot machines with complex ingredient mixes."]
 			id: "AE01000000000026"
 			rewards: [
+				{
+					count: 3
+					id: "3A3A80F48261D7B0"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -999,11 +1125,17 @@
 		{
 			dependencies: [
 				"AE01000000000017"
-				"AE01000000000009"
+				"3A3AD1D28D629131"
 			]
 			description: ["The Storage Bus exposes an adjacent non-AE2 inventory — chest, barrel, or machine buffer — as a virtual storage location on the network. Items in the external inventory become searchable and withdrawable through ME Terminals as if they were inside a Drive. Use Storage Buses to integrate high-capacity vanilla storage (barrels for bulk materials) without converting to ME cells. Always configure the bus filter to restrict which item types it indexes — an unfiltered Storage Bus on a crowded machine buffer increases terminal search time and can mask inventory state."]
 			id: "AE01000000000027"
 			rewards: [
+				{
+					count: 1
+					id: "3A3AE87852B81C5F"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -1034,6 +1166,12 @@
 			description: ["MEGACells extends the cell component tier above 256k with components at 1M, 4M, 16M, 64M, and 256M bytes. Each tier follows the same housing and component assembly workflow as standard cells but requires higher-tier materials. Mega cells are essential for endgame bulk storage — a single 256M cell holds more material than a full Drive of 256k cells. MEGACells also provides the Bulk Cell, which stores a single item type in unlimited quantity at the cost of only tracking that one type. Build bulk cells for materials that genuinely overflow standard mega cells."]
 			id: "AE01000000000028"
 			rewards: [
+				{
+					count: 3
+					id: "3A3AD31B8D24A622"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -1077,6 +1215,12 @@
 			id: "AE01000000000029"
 			rewards: [
 				{
+					count: 2
+					id: "3A3AFEFC46E91B75"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
 					elevate_perms: true
@@ -1109,7 +1253,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["AE01000000000009"]
+			dependencies: ["3A3AD1D28D629131"]
 			description: ["The AE2 Network Analyser (from AE2 Network Analyser mod) is a handheld diagnostic tool that displays channel usage, power draw, and component counts for any network segment you right-click. It removes the guesswork from channel debugging — when a component drops offline unexpectedly, the analyser shows exactly which cable segment hit saturation and which component claims what channel budget. Keep one in your inventory when expanding the network; debugging a channel overflow without it requires tracing every cable run manually."]
 			id: "AE01000000000030"
 			rewards: [
@@ -1178,6 +1322,12 @@
 			description: ["The network is complete. Drives loaded with MEGACells hold more material than any base will ever produce in a session. Stocking hatches keep every GT machine fed without intervention. GTCEu ME Assemblers handle crafting at machine speed. The Requester ensures nothing runs out. The Analyser catches problems before they cascade. The Infinity Booster means the terminal goes everywhere you do. The factory is no longer a collection of machines — it is a single organism that knows what it has, knows what it needs, and produces the difference automatically."]
 			id: "AE01000000000032"
 			rewards: [
+				{
+					count: 6
+					id: "3A3A3B96EA3C3F83"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"

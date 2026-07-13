@@ -148,32 +148,16 @@
 			dependencies: ["7EC83EEF3F7A89B8"]
 			icon: {
 				Count: 1
-				id: "jetboots:jetboots"
-				tag: {
-					bml-item-xp: 0
-					energy: 0
-					jetboots-muffled: 1b
-					jetboots-upgrade-muffled: 1b
-					jetboots-upgrade-shock-absorber: 1b
-					jetboots-upgrade-thruster: 1b
-					max_energy: 2880000
-				}
+				id: "create_jetpack:jetpack"
+				tag: { }
 			}
 			id: "169A5A9ED201C8FE"
 			rewards: [{
 				id: "2CE17CD3594DD62B"
 				item: {
 					Count: 1
-					id: "jetboots:jetboots"
-					tag: {
-						bml-item-xp: 0
-						energy: 0
-						jetboots-muffled: 1b
-						jetboots-upgrade-muffled: 1b
-						jetboots-upgrade-shock-absorber: 1b
-						jetboots-upgrade-thruster: 1b
-						max_energy: 2880000
-					}
+					id: "create_jetpack:jetpack"
+					tag: { }
 				}
 				type: "item"
 			}]

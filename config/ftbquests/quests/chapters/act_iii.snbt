@@ -505,13 +505,7 @@
 			subtitle: "Undersea Adventure"
 			tasks: [{
 				entity: "aquamirae:tortured_soul"
-				icon: {
-					Count: 1
-					id: "betterarcheology:soul_totem"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "minecraft:soul_lantern"
 				id: "6DC389E918151695"
 				type: "kill"
 				value: 16L

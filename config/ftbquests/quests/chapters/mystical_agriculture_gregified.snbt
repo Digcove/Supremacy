@@ -14,7 +14,14 @@
 			id: "56B697F3D73D8A5F"
 			shape: "hexagon"
 			size: 1.5d
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A0BD038AAD698"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -36,7 +43,14 @@
 			dependencies: ["56B697F3D73D8A5F"]
 			id: "01D112D51BBE3D90"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A9944DC05C6B3"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -58,7 +72,14 @@
 			dependencies: ["01D112D51BBE3D90"]
 			id: "56B3C3437ED6767A"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A9397621C7B43"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -80,7 +101,14 @@
 			dependencies: ["56B3C3437ED6767A"]
 			id: "2E2F3E90BB63363D"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3AE99AD2315256"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -102,7 +130,14 @@
 			dependencies: ["2E2F3E90BB63363D"]
 			id: "6A564F02CB57A5F3"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 6
+					id: "3A3A168D8C4D9784"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -124,7 +159,14 @@
 			dependencies: ["6A564F02CB57A5F3"]
 			id: "60220FD4C658E3E1"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 8
+					id: "3A3A80AF286F071E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -146,7 +188,14 @@
 			dependencies: ["60220FD4C658E3E1"]
 			id: "621667D1102BAA1D"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 8
+					id: "3A3A1D4825BFA05A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -435,7 +484,14 @@
 			dependencies: ["7836ECD05F001FF0"]
 			hide_dependent_lines: true
 			id: "3FFF83B44C77414A"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A7CB59F7FA932"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -461,7 +517,14 @@
 			]
 			hide_dependent_lines: true
 			id: "54FFE44A7DDD84AD"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A74A75B81269C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -487,7 +550,14 @@
 			]
 			hide_dependent_lines: true
 			id: "56A10DA87155CD39"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A5D6BEAB58794"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -512,7 +582,14 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "16B4E2C89C1470DC"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A11492291D432"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -537,7 +614,14 @@
 			]
 			hide_dependent_lines: true
 			id: "1E1EF797DFA378A5"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A40AB02122A8C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -563,7 +647,14 @@
 			]
 			hide_dependent_lines: true
 			id: "1FCC274B027FD50D"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AEAED7F787FF8"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -589,7 +680,14 @@
 			]
 			hide_dependent_lines: true
 			id: "4AC5675A19FF8A18"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AB00A2A4FAC4C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -640,7 +738,14 @@
 			]
 			hide_dependent_lines: true
 			id: "01A1A684A06400DC"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AA379D1E91370"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -665,7 +770,14 @@
 				"433E31BBB73FE3A3"
 			]
 			id: "1C8DAB37D3B1ADD9"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AEC93E92E9CB4"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -690,7 +802,14 @@
 				"433E31BBB73FE3A3"
 			]
 			id: "41ED6D8F4CBABB03"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A64786214B7F5"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -716,7 +835,14 @@
 			]
 			hide_dependent_lines: true
 			id: "5CBCC150F84FDE88"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AF6819C00AEF6"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -742,7 +868,14 @@
 			]
 			hide_dependent_lines: true
 			id: "7C550C34DDFDD746"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3ACA8631072F4C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -767,7 +900,14 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "3630E2354CAE560D"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AB06D75767B43"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -792,7 +932,14 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "600C68A6B3860141"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A0EB8BA82717A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -813,7 +960,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "7EBC869AEE92E452"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A203D6A9C5AB9"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -855,7 +1009,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "78ADC2FA4F532A03"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A5786CD9AAF38"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -876,7 +1037,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "5182004E4AA2B1C3"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A43CA637D4C38"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -897,7 +1065,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "7BECB788CE6A488A"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A51C66A99CF88"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -918,7 +1093,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "541316BA2C4F2013"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AB65212FDE6DB"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -939,7 +1121,14 @@
 		{
 			dependencies: ["3FFF83B44C77414A"]
 			id: "1C69FFC21B256DEE"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AEEA717FDF90D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -964,7 +1153,14 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "35C7A94BECD94748"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3ABE334B9D7151"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -990,7 +1186,14 @@
 			]
 			hide_dependent_lines: true
 			id: "571124D1AC5B3986"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A464C1B60B9C8"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1016,7 +1219,14 @@
 			]
 			hide_dependent_lines: true
 			id: "7BB1DEFF61304927"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A0C73601ADFC1"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1091,7 +1301,14 @@
 			]
 			hide_dependent_lines: true
 			id: "2B7C5B2F9E98F1A0"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A3106532298ED"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1138,7 +1355,14 @@
 		{
 			dependencies: ["5E7D047B235A9B34"]
 			id: "08BBF8D7FDF00425"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A7FC72CE9728B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1164,7 +1388,14 @@
 			]
 			hide_dependent_lines: true
 			id: "2422A707D07866EB"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A15D1613F767C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1188,7 +1419,14 @@
 				"5CBCC150F84FDE88"
 			]
 			id: "58E25CA6B70548D2"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A82C3760B4689"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1212,7 +1450,14 @@
 				"5E7D047B235A9B34"
 			]
 			id: "3F96EFD86E1A78A1"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3ABFD9A878579B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1237,7 +1482,14 @@
 				"1C7BB73E5BFEF10A"
 			]
 			id: "0BD41DC3D4D5F5BB"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A188B99B58DAE"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1258,7 +1510,14 @@
 		{
 			dependencies: ["51BA5B19B455D233"]
 			id: "5E63356573257FCC"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A5CD15228C33C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1284,7 +1543,14 @@
 			]
 			hide_dependent_lines: true
 			id: "5C70FDF9640E2376"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A9C902E6CB54F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1310,7 +1576,14 @@
 			]
 			hide_dependent_lines: true
 			id: "5E7D047B235A9B34"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3ACD2ED64FA7DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1335,7 +1608,14 @@
 				"5CBCC150F84FDE88"
 			]
 			id: "2C20C34FF81539D7"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A06B9F37B7CD2"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1356,7 +1636,14 @@
 		{
 			dependencies: ["7BB1DEFF61304927"]
 			id: "3E5C9F9CCECB2AEC"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3AB49CD6318DE9"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1381,7 +1668,14 @@
 				"571124D1AC5B3986"
 			]
 			id: "5E2337F0467FC00C"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A35990737E7F5"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1402,7 +1696,14 @@
 		{
 			dependencies: ["2142753CCA47D3DE"]
 			id: "07895E684C78C55B"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A5D4C4B75AD9F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1424,7 +1725,14 @@
 			dependencies: ["2B7C5B2F9E98F1A0"]
 			hide_dependent_lines: true
 			id: "2142753CCA47D3DE"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A7F7E5B5A7759"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1449,7 +1757,14 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "4EC15C3BFF40C196"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3AA6B7FA58924D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1474,7 +1789,14 @@
 				"5E7D047B235A9B34"
 			]
 			id: "310C3E32A4D433F6"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A718376E8BB1A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1499,7 +1821,14 @@
 				"7A378D0908AE6744"
 			]
 			id: "5352BCC9385B3CF8"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A8FD20B1B7B14"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1524,7 +1853,14 @@
 				"7A378D0908AE6744"
 			]
 			id: "6ED859669AA81C44"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AEE4EEF47683D"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1545,7 +1881,14 @@
 		{
 			dependencies: ["56A10DA87155CD39"]
 			id: "13776F374B1DE1F8"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AEC819D8B8EC0"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1570,7 +1913,14 @@
 				"26874A1DDDAF1CA3"
 			]
 			id: "611127A958068922"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A9C705E6275DF"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1592,7 +1942,14 @@
 			dependencies: ["6823588331374DE5"]
 			hide_dependent_lines: true
 			id: "4E577EF028A1E249"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A22E352F87B72"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1618,7 +1975,14 @@
 			]
 			hide_dependent_lines: true
 			id: "6823588331374DE5"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A9407B44C7BCF"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1639,7 +2003,14 @@
 		{
 			dependencies: ["4E577EF028A1E249"]
 			id: "68C8A39BA0B446E2"
-			rewards: [{
+			rewards: [
+				{
+					count: 6
+					id: "3A3AD18677DF09D0"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1664,7 +2035,14 @@
 				"2A51036C7A74D5CC"
 			]
 			id: "3833C5B31BFDB229"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A0ACE85C36D5E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1690,7 +2068,14 @@
 			icon: "gtceu:12_crown_4_li_bucket"
 			id: "113753237D12FA9E"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A4B12BEEEE223"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1724,7 +2109,14 @@
 			icon: "gtceu:15_crown_5_na_bucket"
 			id: "5BA4AA05957C3680"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A1FA7BDBF438F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1758,7 +2150,14 @@
 			icon: "gtceu:18_crown_6_k_bucket"
 			id: "0305CA2E461A29ED"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3A86D52BA4FF2B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1791,7 +2190,14 @@
 			]
 			icon: "gtceu:12_crown_4_bucket"
 			id: "6A23EECC4324E1BE"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A08CEC62DC4FA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1824,7 +2230,14 @@
 			]
 			icon: "gtceu:15_crown_5_bucket"
 			id: "52B4ECEDABA275E0"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A4B5C28A49961"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1858,7 +2271,14 @@
 			]
 			icon: "gtceu:18_crown_6_bucket"
 			id: "1BE177A3432F9704"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3AC4D6064EBF67"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1889,7 +2309,14 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "47E764421365FF63"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3AF8442D31B4A9"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1912,7 +2339,14 @@
 			dependency_requirement: "one_completed"
 			hide_dependent_lines: true
 			id: "6D9D31BEE724E7F2"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A6F71685A45E1"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -1932,7 +2366,14 @@
 		}
 		{
 			id: "7FB28453EDD67A57"
-			rewards: [{
+			rewards: [
+				{
+					count: 3
+					id: "3A3A7054C43C26B2"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2381,7 +2822,14 @@
 			]
 			icon: "gtceu:cryptand_bucket"
 			id: "6248DA726DD737E9"
-			rewards: [{
+			rewards: [
+				{
+					count: 5
+					id: "3A3ACD427807D8AB"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2415,7 +2863,14 @@
 			icon: "gtceu:cryptand_li_bucket"
 			id: "5CD6970DA4F94C3B"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A42680AF13BBB"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2449,7 +2904,14 @@
 			icon: "gtceu:cryptand_na_bucket"
 			id: "4DD1697CC78CC83C"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3AD7739CC14F48"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2483,7 +2945,14 @@
 			icon: "gtceu:cryptand_k_bucket"
 			id: "182B1B1A1DFEF069"
 			shape: "hexagon"
-			rewards: [{
+			rewards: [
+				{
+					count: 4
+					id: "3A3A19F5AFC96954"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2514,7 +2983,14 @@
 			hide_dependency_lines: true
 			id: "6AC8588F6172617D"
 			shape: "rsquare"
-			rewards: [{
+			rewards: [
+				{
+					count: 8
+					id: "3A3AC7E48F41EEF5"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2536,7 +3012,14 @@
 			dependencies: ["3CB63B290C9EFAA2"]
 			id: "63A83F8EC256BE94"
 			shape: "rsquare"
-			rewards: [{
+			rewards: [
+				{
+					count: 8
+					id: "3A3A4F07F7E9A462"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2557,7 +3040,14 @@
 		{
 			id: "39189DA37201FB2D"
 			shape: "rsquare"
-			rewards: [{
+			rewards: [
+				{
+					count: 6
+					id: "3A3A778044FC211F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2619,7 +3109,14 @@
 		{
 			id: "1DEE4153C7FBD7AC"
 			shape: "rsquare"
-			rewards: [{
+			rewards: [
+				{
+					count: 6
+					id: "3A3A95D88CCF540C"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true
@@ -2707,7 +3204,14 @@
 			dependency_requirement: "one_completed"
 			description: ["{ftbquests.mystical_agriculture_gregified.ma_chem_looping.description}"]
 			id: "31FE488A7302A0D2"
-			rewards: [{
+			rewards: [
+				{
+					count: 12
+					id: "3A3A961C2765ED0E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
 				auto: "enabled"
 				command: "/mine_and_slash give xp_times_lvl @p 100"
 				elevate_perms: true

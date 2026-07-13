@@ -43,6 +43,12 @@
 			id: "CL01000000000002"
 			rewards: [
 				{
+					count: 5
+					id: "3A3AACD6CDE12C77"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -80,6 +86,12 @@
 			id: "CL01000000000003"
 			rewards: [
 				{
+					count: 8
+					id: "3A3AE30C5EE557C0"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -110,6 +122,12 @@
 			id: "CL01000000000004"
 			rewards: [
 				{
+					count: 10
+					id: "3A3A1DF28E527768"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -138,6 +156,12 @@
 			description: ["Farmer's Respite adds brewed teas, coffees, and hot drinks crafted in the Farmer's Delight Cooking Pot. Tea starts with Green Tea Leaves — harvested from green tea bushes that grow in forested and jungle biomes. The leaves can also be grown in a Botany Pot using a biome-appropriate soil. Stocking Green Tea Leaves unlocks the full Farmer's Respite drink tree, each drink providing different utility effects when consumed."]
 			id: "CL01000000000005"
 			rewards: [
+				{
+					count: 5
+					id: "3A3A850CBB85A9E6"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -169,6 +193,12 @@
 			id: "CL01000000000006"
 			rewards: [
 				{
+					count: 6
+					id: "3A3A371C24C43D23"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -198,6 +228,12 @@
 			description: ["Farmer's Respite teas diversify into temperature-spectrum brews. Long Yellow Tea — brewed from dried chamomile — provides Regeneration for a short window. Strong Hot Cocoa uses cocoa beans and milk to deliver Strength and slow movement speed reduction during combat. Both brew from the Cooking Pot in batches of 2. The Yellow Tea + Green Tea combination covers Haste and Regeneration simultaneously before a difficult encounter."]
 			id: "CL01000000000007"
 			rewards: [
+				{
+					count: 8
+					id: "3A3A205FF20028E1"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -236,6 +272,12 @@
 			id: "CL01000000000008"
 			rewards: [
 				{
+					count: 10
+					id: "3A3AF946D3BA7247"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
 					elevate_perms: true
@@ -265,6 +307,12 @@
 			description: ["The advanced Farmer's Respite repertoire covers Coffee Cake Slice — a portable baked good brewed with coffee beans — and the Long-Brewing teas: Long Purulent Tea provides Poison Resistance; Long Dandelion Tea provides Night Vision. Brewing the full range of Farmer's Respite teas covers Fire Resistance, Haste, Regeneration, Strength, Night Vision, and Poison Resistance from a single mod. A stocked drinks chest replaces six different potion types."]
 			id: "CL01000000000009"
 			rewards: [
+				{
+					count: 12
+					id: "3A3A9059309FEDDB"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -311,6 +359,12 @@
 			description: ["Alex's Mobs adds wild game to the overworld — animals that do not fit vanilla's biome populations but provide unique food sources. Moose inhabit cold forests; their meat provides higher saturation than vanilla beef. Catfish are found in river and lake biomes; cooked catfish provide a strong saturation gain from an abundant source. Wild game hunting is a reliable mid-game food solution before Farmer's Delight farming is fully automated."]
 			id: "CL01000000000010"
 			rewards: [
+				{
+					count: 6
+					id: "3A3A9BD7E0C721BD"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"
@@ -405,6 +459,12 @@
 			description: ["A feast prepared. Teas brewed. Wild game hunted and cooked. The kitchen infrastructure is complete and the larder is full. Cooking in this pack is not a side activity — it is the single most cost-effective source of combat buffs available without Magic or GTCEu. A well-stocked food inventory entering a dungeon is the difference between surviving the floor boss and being respawned outside it."]
 			id: "CL01000000000013"
 			rewards: [
+				{
+					count: 25
+					id: "3A3A5A5E0B5F7162"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 50"

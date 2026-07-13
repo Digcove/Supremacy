@@ -143,6 +143,8 @@ All 7 machine recipe types are KubeJS-registered but no MBD2 multiblock structur
 
 ## 🟠 ORB FORGE — UNWIRED LOOT DROPS
 
+**RESOLVED (WS6, 2026-07):** All 9 items are wired in `kubejs/server_scripts/loot_drops.js`; target loot-table/dimension ids verified against the shipped mod jars, and the LootJS 2.13.1 API calls were corrected file-wide (`addLootTableModifier` / `anyDimension` / `addWeightedLoot`). `kubejs:endgame_boss_token` additionally comes from the repeatable Convergence Gateway (`kubejs/data/gateways/gateways/supremacy_endgame.json`). Caveat: the Blue Skies trophies depended on `mods/blue-skies.pw.toml`, which pointed at the wrong CurseForge project (a modpack zip, not the mod) — corrected to the real mod (Modrinth `DOSy3C4M` v1.3.31) plus its required dependency `mods/structure-gel-api.pw.toml`; needs `packwiz refresh` at integration. Original table kept for reference:
+
 These Orb Forge input items have no loot source — players can't obtain them without creative mode. Wire them via `kubejs/server_scripts/loot_drops.js` using LootJS, or add data JSON overrides.
 
 | Item | Intended Source |

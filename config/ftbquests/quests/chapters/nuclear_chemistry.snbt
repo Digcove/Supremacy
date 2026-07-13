@@ -16,16 +16,6 @@
 			description: ["GTCEu's chemistry system is the backbone of advanced material production. Chemical Reactors combine two or more inputs into a product; Electrolyzers split compounds using electricity; Centrifuges separate mixtures by density; Chemical Baths coat or wash materials in reagents. Mastering these machines unlocks alloys, plastics, acids, and fuels that no other crafting system can produce. Oil refining and nuclear fuel processing are the apex of this chain."]
 			dependencies: []
 			id: "NC01000000000001"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "7C311202334E5BD7"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000001"
 				type: "checkmark"
@@ -58,22 +48,18 @@
 			description: ["The LV Chemical Reactor is the entry point to GTCEu's chemical processing chain. It takes two or more fluid or item inputs and produces a chemical product — plastics, acids, circuit components, dyes, and more. Nearly every advanced material in the tech tree passes through a Chemical Reactor at least once. Craft one early and keep it loaded; you will never stop using it."]
 			dependencies: ["NC01000000000001"]
 			id: "NC01000000000002"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "A8B198EE8C87EDD4"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000002"
 				type: "item"
 				item: "gtceu:lv_chemical_reactor"
 			}]
 			rewards: [
+				{
+					count: 2
+					id: "3A3AC9017FB3CCAF"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -100,22 +86,18 @@
 			description: ["The LV Electrolyzer passes a direct current through dissolved compounds to break them into constituent elements. Water becomes hydrogen and oxygen. Salt becomes sodium and chlorine. Alumina yields aluminum. Electrolysis is the only way to produce many pure elements in quantity — especially hydrogen, which is the universal GTCEu chemical feedstock and fuel source. Every electrolyzer you build will run continuously."]
 			dependencies: ["NC01000000000002"]
 			id: "NC01000000000003"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "D1298ACF063BEFA4"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000003"
 				type: "item"
 				item: "gtceu:lv_electrolyzer"
 			}]
 			rewards: [
+				{
+					count: 2
+					id: "3A3A3C0D7FACBDA0"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -142,16 +124,6 @@
 			description: ["The LV Centrifuge uses high rotational speed to separate mixture components by density. It is used for ore purification — centrifuging crushed ore to recover byproduct dusts — and for separating gas mixtures, processing biomass into methane, and dozens of other reactions where density differences allow separation. Many GTCEu ore-processing lines route through a Centrifuge at the dust-washing step to recover additional byproducts that would otherwise be lost."]
 			dependencies: ["NC01000000000002"]
 			id: "NC01000000000004"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "4896F4351AFCD1B8"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000004"
 				type: "item"
@@ -184,16 +156,6 @@
 			description: ["The LV Chemical Bath immerses items in a fluid reagent to chemically treat them. The primary use case is ore washing: bath crushed ores in Sodium Persulfate to recover extra dust byproducts before smelting, adding roughly 10% yield per ore. Chemical Baths also dye items, apply coatings, and perform other surface reactions. Building one alongside your ore processing line is a straightforward early efficiency upgrade that pays for itself within minutes of operation."]
 			dependencies: ["NC01000000000002"]
 			id: "NC01000000000005"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "57453EC3FB569740"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000005"
 				type: "item"
@@ -226,16 +188,6 @@
 			description: ["Some chemical reactions require higher EU/t to drive — more energetic bond-breaking, more heat, more precision. The MV and HV Chemical Reactors handle these recipes, unlocking key plastics, solvents, and advanced chemical chains that feed into EV-tier circuits and beyond. Upgrade your Chemical Reactor as your power generation scales; each voltage tier simply has access to a broader recipe set, so nothing you have built becomes obsolete."]
 			dependencies: ["NC01000000000002"]
 			id: "NC01000000000006"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "4D35D5C2BB271133"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000006"
@@ -249,6 +201,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 3
+					id: "3A3A99AB4895F105"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -275,16 +233,6 @@
 			description: ["GTCEu's multiblock chemistry machines handle industrial-scale throughput that single-block machines cannot match. The Large Chemical Reactor processes chemical reactions simultaneously across internal coil layers; the Large Electrolyzer and Large Centrifuge do the same for their processes. These multiblocks typically use Invar and Stainless Steel casings with Cupronickel heating coils — building them marks the transition from workshop chemistry to factory-scale chemical engineering capable of supporting your nuclear program."]
 			dependencies: ["NC01000000000006"]
 			id: "NC01000000000007"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "EBD39017DEDF1915"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000008"
@@ -305,6 +253,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 4
+					id: "3A3A4CE089B920ED"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -331,22 +285,18 @@
 			description: ["Crude oil is a complex mixture of hydrocarbons that GTCEu refines into fuels, chemical feedstocks, and lubricants. Oil deposits generate underground and can be pumped continuously with the GTCEu Pump or extracted by right-clicking with empty buckets. Heavy oil, light oil, and natural gas variants each have different compositions and different refining pathways. Getting a reliable oil supply early is worth the effort — petroleum fuels are the most energy-dense inputs to GTCEu combustion generators and pay off rapidly."]
 			dependencies: ["NC01000000000001"]
 			id: "NC01000000000008"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "3DBA11E7BDE7F312"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000011"
 				type: "item"
 				item: "gtceu:oil_bucket"
 			}]
 			rewards: [
+				{
+					count: 3
+					id: "3A3A9D9331B664D2"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -373,22 +323,18 @@
 			description: ["The Distillation Tower is the core multiblock of the oil refinery chain. It separates crude oil into fractions by boiling point: heavy fuel oil, naphtha, light fuel oil, sulfuric compounds, and gases all emerge from different output hatches arranged by height. The tower requires a steel or titanium casing structure with multiple output fluid hatches — each hatch height corresponds to a different boiling fraction. One Distillation Tower fed by a steady pump produces all downstream fuel inputs simultaneously."]
 			dependencies: ["NC01000000000008"]
 			id: "NC01000000000009"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "418B33880575685B"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000012"
 				type: "item"
 				item: "gtceu:distillation_tower"
 			}]
 			rewards: [
+				{
+					count: 4
+					id: "3A3A8961356177F8"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -415,16 +361,6 @@
 			description: ["The Distillation Tower outputs multiple fractions simultaneously. Naphtha is the light fraction used as chemical feedstock and gasoline precursor. Heavy oil and light fuel oil are energy-dense combustion fuels at different grades. Sulfurous fractions — sulfuric naphtha, sulfuric light fuel oil — must be de-sulfurized by the Cracker before they reach maximum energy density. Route each fraction appropriately: feedstocks to reactors, combustibles to engines, and heavy residuals to the cracker."]
 			dependencies: ["NC01000000000009"]
 			id: "NC01000000000010"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "042A828E73ADCE88"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000013"
@@ -465,22 +401,18 @@
 			description: ["The GTCEu Cracker applies steam or hydrogen at high temperature and pressure to break large hydrocarbon chains into smaller, more useful molecules. Steam-cracking produces light olefins and de-sulfurized fractions; hydrogen-cracking pushes further toward high-grade fuels and gasoline precursors. The Cracker is the bridge between raw distillation output and true petroleum products. It requires Stainless Steel casings and Cupronickel heating coils, and connects directly to the Distillation Tower's heavy fraction outputs."]
 			dependencies: ["NC01000000000010"]
 			id: "NC01000000000011"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "4ED87E353CE6113F"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000015"
 				type: "item"
 				item: "gtceu:cracker"
 			}]
 			rewards: [
+				{
+					count: 4
+					id: "3A3AD4C76C9840E3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -507,22 +439,18 @@
 			description: ["Bio-diesel is produced by reacting seed oil with methanol in the LV Chemical Reactor — no oil supply required. It has lower energy density than petroleum diesel but is a practical early combustion fuel while you establish a proper refinery. Bio-diesel also demonstrates the Chemical Reactor's fluid-in fluid-out workflow that the entire petroleum chain depends on. Pressing seeds into oil and reacting with methanol produced by biomass processing is a closed, renewable fuel loop viable from the early game."]
 			dependencies: ["NC01000000000011"]
 			id: "NC01000000000012"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "D72F28F0E1D87F12"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000016"
 				type: "item"
 				item: "gtceu:bio_diesel_bucket"
 			}]
 			rewards: [
+				{
+					count: 3
+					id: "3A3A80BD2F6C7862"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -549,16 +477,6 @@
 			description: ["Diesel is the standard petroleum fuel for GTCEu combustion engines. Produced from heavy fuel oil fractions through the refinery chain, diesel offers significantly more EU/t than bio-diesel in combustion generators and justifies the multiblock investment of the Distillation Tower. Diesel also unlocks the Large Combustion Engine, which processes fluid fuel at industrial throughput. Establish a diesel pipeline and your power requirements in the LV–HV tier are largely covered with minimal ongoing attention."]
 			dependencies: ["NC01000000000012"]
 			id: "NC01000000000013"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "0ECD7415D7ED1BFA"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000017"
 				type: "item"
@@ -591,16 +509,6 @@
 			description: ["Cetane-Boosted Diesel adds cetane enhancers (a Chemical Reactor step) to standard diesel to raise its combustion rating, increasing EU output in combustion engines by roughly 25%. Gasoline, produced from cracked naphtha fractions through a separate pathway, powers different engine tiers and Gas Turbines. Both are significant upgrades over base diesel. Running cetane-boosted diesel in the Large Combustion Engine is the standard mid-game power strategy that carries cleanly into HV with no further refinery changes required."]
 			dependencies: ["NC01000000000013"]
 			id: "NC01000000000014"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "96D3DAFAF7C34542"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000018"
@@ -615,6 +523,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 4
+					id: "3A3A97A54BFF85A9"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -641,22 +555,18 @@
 			description: ["High Octane Gasoline is the apex petroleum fuel, produced by multi-step refining of cracked naphtha through catalytic reforming reactions in the Chemical Reactor chain. It provides the highest EU/t per bucket among fossil fuels when burned in Gas Turbines and combustion engines. The production chain is lengthy and demands consistent chemical reactor throughput, making it a late oil-refinery milestone rather than a quick upgrade. Reaching this point means your refinery is a genuine chemical plant with multiple parallel processing lines."]
 			dependencies: ["NC01000000000014"]
 			id: "NC01000000000015"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "CEB23A5434EA80C9"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000020"
 				type: "item"
 				item: "gtceu:high_octane_gasoline_bucket"
 			}]
 			rewards: [
+				{
+					count: 5
+					id: "3A3AE6872858C0CD"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -683,16 +593,6 @@
 			description: ["Natural uranium consists of about 99.3% U-238 and 0.7% U-235. Only U-235 sustains the fission chain reaction required for reactor fuel. GTCEu models enrichment accurately: ore is crushed and processed through the standard ore-to-dust chain, then the Large Centrifuge separates U-235 from U-238 based on the slight mass difference between isotopes. You need industrial chemistry infrastructure — specifically the Large Centrifuge — before you can produce U-235 in meaningful quantities. This is by design."]
 			dependencies: ["NC01000000000007"]
 			id: "NC01000000000016"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "C29161ED16F31135"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000021"
@@ -706,6 +606,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 1
+					id: "3A3ABA48DBADEF32"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -732,16 +638,6 @@
 			description: ["Before enrichment can scale, uranium is converted to gaseous Uranium Hexafluoride (UF6) by reacting uranium dust with Fluorine in the Chemical Reactor. UF6 flows through the Large Centrifuge, where the tiny mass difference between U235-F6 and U238-F6 molecules allows cascaded separation. Enriched UF6 contains higher U-235 concentration; the depleted stream is stored or discarded. This process mirrors how real-world centrifuge enrichment plants operate and consumes significant chemical reactor throughput to run continuously."]
 			dependencies: ["NC01000000000016"]
 			id: "NC01000000000017"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "6435D1EC1ABCB3DF"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000023"
@@ -755,6 +651,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 1
+					id: "3A3AF220C3297BD6"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -781,22 +683,18 @@
 			description: ["Enriched UF6 is converted back to uranium oxide, pressed into fuel pellets, and assembled into fuel rods. LEU-238 fuel rods — Low Enriched Uranium with a U-238 cladding — are the standard GTCEu reactor fuel. Each rod contains multiple pellets sealed in zircaloy cladding to prevent fission products from entering the coolant loop. Assembly requires a Chemical Reactor and an Assembling Machine working in sequence. Produce at least four rods before building the reactor, as the machine expects a full core load before it will sustain criticality."]
 			dependencies: ["NC01000000000017"]
 			id: "NC01000000000018"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "6B93DCD2B6CE071A"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000025"
 				type: "item"
 				item: "kubejs:leu238_fuel_rod"
 			}]
 			rewards: [
+				{
+					count: 2
+					id: "3A3AA7565E53D3D3"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -823,22 +721,18 @@
 			description: ["The GTCEu Nuclear Reactor is a large multiblock structure that sustains a controlled fission chain reaction to generate enormous EU output. Fuel rods are loaded into the reactor core and consumed over time as fission proceeds. The reactor requires a coolant loop — distilled water at minimum, higher-grade coolants for better efficiency — and a proper casing structure of Lead or Tungstensteel to contain radiation. A correctly fueled and cooled reactor generates more power than any combustion generator in the pack and requires minimal oversight until the rods are spent."]
 			dependencies: ["NC01000000000018"]
 			id: "NC01000000000019"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "46C0A2178EDFAF57"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000026"
 				type: "item"
 				item: "gtceu:nuclear_reactor"
 			}]
 			rewards: [
+				{
+					count: 2
+					id: "3A3AD48DB6C39B92"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -865,16 +759,6 @@
 			description: ["Spent fuel rods are not waste — they are feedstock for the next stage of the nuclear cycle. Dissolve the spent rods in chemical baths, centrifuge the resulting solution, and separate the isotope fractions by chemical reactivity. Depleted UF6 can be re-enriched. More valuably, spent uranium fuel produces Plutonium-239 through neutron capture and beta decay during reactor operation. Plutonium is recovered by chemical reprocessing of the dissolved spent fuel. This closes the fuel cycle and provides material for significantly higher-yield rods."]
 			dependencies: ["NC01000000000019"]
 			id: "NC01000000000020"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "7CC49670BC6148B7"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "NC02000000000027"
@@ -889,6 +773,12 @@
 				}
 			]
 			rewards: [
+				{
+					count: 2
+					id: "3A3AB8D1D251C727"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -915,22 +805,18 @@
 			description: ["Plutonium-239 fuel rods provide substantially higher energy output than LEU-238 rods — the same reactor runs hotter and longer per rod loaded. MOX (Mixed Oxide) rods blend plutonium with uranium to manage the higher reactivity, extending fuel lifetime while maintaining elevated output. The plutonium fuel cycle requires more advanced chemical processing to handle reprocessed materials, but the payoff in sustained power output makes it the standard endgame reactor fuel and the entry point for the full nuclear material ladder that feeds into Americium and Curium."]
 			dependencies: ["NC01000000000020"]
 			id: "NC01000000000021"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "531745D3B93085A3"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000029"
 				type: "item"
 				item: "kubejs:plu_fuel_rod"
 			}]
 			rewards: [
+				{
+					count: 3
+					id: "3A3A47DC2976B9F1"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"
@@ -958,22 +844,18 @@
 			description: ["From a Chemical Reactor producing basic reagents to a closed nuclear fuel cycle processing plutonium and MOX rods, you have traversed the full chemistry and nuclear chain in GTCEu. Your oil refinery provides high-grade fuels for combustion power; your electrolyzers and centrifuges support circuit production and alloy synthesis; your reactor generates the EU needed to push into EV and beyond. The chemical industry is not a sidequest — it is the foundation on which all late-game GTCEu material production is built."]
 			dependencies: ["NC01000000000021", "NC01000000000015"]
 			id: "NC01000000000022"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 150"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "DC232630C6BB7EB8"
-				silent: true
-				title: "150 Experience x Lv."
-				type: "command"
-			}]
 			tasks: [{
 				id: "NC02000000000030"
 				type: "checkmark"
 				title: "Complete the chemical industry"
 			}]
 			rewards: [
+				{
+					count: 4
+					id: "3A3A235A0CD63BD1"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
 				{
 					auto: "enabled"
 					command: "/mine_and_slash give xp_times_lvl @p 150"

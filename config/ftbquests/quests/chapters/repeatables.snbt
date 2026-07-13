@@ -146,13 +146,7 @@
 			shape: "gear"
 			tasks: [{
 				entity: "aquamirae:tortured_soul"
-				icon: {
-					Count: 1
-					id: "betterarcheology:soul_totem"
-					tag: {
-						Damage: 0
-					}
-				}
+				icon: "minecraft:soul_lantern"
 				id: "22D7A87BF0EBDA8C"
 				type: "kill"
 				value: 30L

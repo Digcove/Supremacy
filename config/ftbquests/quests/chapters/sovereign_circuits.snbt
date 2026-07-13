@@ -899,7 +899,7 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "IV0200000000001A"
+				id: "3A3AE1B7096C44D2"
 				item: "gtceu:luv_fusion_reactor"
 				type: "item"
 			}]

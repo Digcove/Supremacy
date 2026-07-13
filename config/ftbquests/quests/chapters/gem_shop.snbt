@@ -1,0 +1,365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gem_shop"
+	group: "1E3C4B5FFAE48A39"
+	icon: "lightmanscurrency:coinpile_gold"
+	id: "4B4B017BC8C554F5"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Every coin you earn from quests, bosses, and trade eventually needs somewhere to go. The &eGem Shop&r is that somewhere: a permanent exchange where coins are &cconsumed&r in return for Mine && Slash gems, runes, crafting currency, gear, and — for the truly wealthy — firearms."
+				""
+				"Each stall below is a repeatable quest. Hand over the listed coins and the quest completes, letting you &epick one reward&r from its box. The coins are gone for good — this is a sink, not a bank."
+				""
+				"Coin tiers exchange at &e10:1&r — 10 Iron = 1 Gold, 10 Gold = 1 Emerald, 10 Emerald = 1 Diamond, 10 Diamond = 1 Netherite. Use Lightman's Currency ATMs or the coin mint to change denominations before you shop."
+			]
+			icon: "lightmanscurrency:coinpile_gold"
+			id: "4B4B45AE078FEDA0"
+			rewards: [{
+				count: 5
+				id: "4B4B02D013C0FE30"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4B4B90BCAB64CDF2"
+				title: "Open for Business"
+				type: "checkmark"
+			}]
+			title: "The Gem Shop"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Fresh rations for adventurers who would rather fight than farm. A few iron coins buy a bundle of hearty food — enough to keep saturation up through a dungeon run."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:bread"
+			id: "4B4B2CBC38E85918"
+			rewards: [
+				{
+					count: 6
+					id: "4B4B0CDADDB8DF1C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B4BC9B1D3CB9A32"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B4B968D21F5AA32"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "5 Iron Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4B4BF12851E6E55B"
+				item: {
+					Count: 5
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			title: "Field Rations"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"A bundle of profession materials for Mine && Slash crafting: fishing hauls, farm produce, meat, and a stack of salvage stones. Useful when your profession levels have outpaced your gathering."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:material/fishing/0"
+			id: "4B4B791796C676F9"
+			rewards: [
+				{
+					count: 2
+					id: "4B4BF7AB9B59E984"
+					item: "mmorpg:material/fishing/0"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B4B6E9FD2DE80B7"
+					item: "mmorpg:material/farming/0"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B4BBA3F7B4825E8"
+					item: "mmorpg:material/meat/0"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B4BA1F646E79EE1"
+					item: "mmorpg:stone/0"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "8 Iron Coins"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "4B4BEF082F1D253A"
+				item: {
+					Count: 8
+					id: "lightmanscurrency:coin_iron"
+				}
+				type: "item"
+			}]
+			title: "Angler's Bundle"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Augment gems (auras) reserve part of your energy to grant a passive benefit — regeneration, resistances, armor, and more. Socket one into your Mine && Slash spellbook to activate it."
+				""
+				"This box lets you &epick one augment&r from the full common selection."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:skill_gems/aura/str"
+			id: "4B4B9838C977EF50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4BA18401946662"
+				table_id: 5425434981028796048L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "32 Gold Coins"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4B4BB72FD4D5DCE6"
+				item: {
+					Count: 32
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			title: "Augment Gem Box"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Support gems link to a socketed skill gem and modify how it behaves — extra projectiles, ailment chances, leech, cooldown reduction. The right support gem is often a bigger upgrade than a new weapon."
+				""
+				"This box lets you &epick one support gem&r from the full common selection."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:skill_gems/support/dex"
+			id: "4B4B7D91E84B15CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B71DF5DBE26FC"
+				table_id: 5425560595067196805L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "48 Gold Coins"
+			tasks: [{
+				consume_items: true
+				count: 48L
+				id: "4B4B6136A657906D"
+				item: {
+					Count: 48
+					id: "lightmanscurrency:coin_gold"
+				}
+				type: "item"
+			}]
+			title: "Support Gem Box"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Runes socket into gear for flat stat bonuses, and specific combinations form &erunewords&r with powerful extra effects. Chasing one missing rune from mob drops can take hours — or you can buy it here."
+				""
+				"This box lets you &epick one rune&r from the low and mid tiers."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:runes/toq"
+			id: "4B4B80FA127AD3E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B90EBAF7811E3"
+				table_id: 5425586451012477653L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "4 Emerald Coins"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4B4B3BFB56C14693"
+				item: {
+					Count: 4
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			title: "Rune Box"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Crafting currency is the heart of the Mine && Slash gear game: orbs that reroll affixes, upgrade tiers, add sockets, and polish quality. This box carries the everyday workhorses plus a stack of salvage stones."
+				""
+				"Pick &eone item&r per purchase."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:currency/orb_of_quality"
+			id: "4B4B570147F58AA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B9A721DB85872"
+				table_id: 5425578871822049122L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "6 Emerald Coins"
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "4B4BF24204460CF3"
+				item: {
+					Count: 6
+					id: "lightmanscurrency:coin_emerald"
+				}
+				type: "item"
+			}]
+			title: "Salvage Box"
+			x: -3.75d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"A curated selection of &9Rare&r level 30 weapons — one of each archetype — alongside rare stat souls and a rare gear chest. Meant to patch a weak slot while you push through the mid game, not to replace found loot."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:chest/rare_gear"
+			id: "4B4B7CB0D9E421F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B4FC3E558F1C8"
+				table_id: 5425573810490432611L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "1 Diamond Coin"
+			tasks: [{
+				consume_items: true
+				id: "4B4BAEA50BC64095"
+				item: "lightmanscurrency:coin_diamond"
+				type: "item"
+			}]
+			title: "Gear Box — Mid Game"
+			x: -1.25d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"Level 60 weapons, epic stat souls, an epic gear chest — or gamble on a &6randomized Unique&r at level 60, 80, or 100. Uniques carry fixed signature effects that no crafted item can imitate."
+			]
+			hide_dependency_lines: true
+			icon: "mmorpg:chest/epic_gear"
+			id: "4B4BCA96CC7C614F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B1F0BCEAD5746"
+				table_id: 5425449117644348923L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "5 Diamond Coins"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "4B4B445C8D5FE19B"
+				item: {
+					Count: 5
+					id: "lightmanscurrency:coin_diamond"
+				}
+				type: "item"
+			}]
+			title: "Gear Box — Endgame"
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4B4B45AE078FEDA0"]
+			description: [
+				"For the industrialist with more netherite coins than enemies: a crate of themed firearms from distant arsenals. Guns are the pack's &clate-game&r weapon class — expensive, ammo-hungry, and worth every coin."
+				""
+				"Pick &eone firearm&r per crate. Ammunition and gunsmithing are your problem."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunId: "destiny:ace_of_spades"
+				}
+			}
+			id: "4B4BBFABC88379F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4B3D9E5A21C704"
+				table_id: 5425537057453312852L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "2 Netherite Coins"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4B4BFBA036F5DB4E"
+				item: {
+					Count: 2
+					id: "lightmanscurrency:coin_netherite"
+				}
+				type: "item"
+			}]
+			title: "Armory Crate"
+			x: 3.75d
+			y: 5.0d
+		}
+	]
+	title: "Gem Shop"
+}

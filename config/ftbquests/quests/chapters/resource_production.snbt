@@ -223,51 +223,6 @@
 					item: "exnihilosequentia:dust"
 					type: "item"
 				}
-				{
-					id: "3DCC378A2057E894"
-					item: {
-						Count: 1
-						id: "xycraft_world:xychorium_gem_blue"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "26C4D2B9E181FB7B"
-					item: {
-						Count: 1
-						id: "xycraft_world:xychorium_gem_green"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "7819FCF87FCF6741"
-					item: {
-						Count: 1
-						id: "xycraft_world:xychorium_gem_red"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "32A8006F9D7B860E"
-					item: {
-						Count: 1
-						id: "xycraft_world:xychorium_gem_dark"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "5F40C7FBB6F602A6"
-					item: {
-						Count: 1
-						id: "xycraft_world:xychorium_gem_light"
-						tag: { }
-					}
-					type: "item"
-				}
 			]
 			title: "{ftbquests.resource_production.sieving_dust_water.title}"
 			x: -6.5d
