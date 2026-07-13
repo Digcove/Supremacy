@@ -2370,7 +2370,11 @@ hash = "fa408aa444ced485ca7a7b1d870757f6ee8ad434d10d315364698884dc21be94"
 
 [[files]]
 file = "dev_notes.md"
-hash = "c2c638705097eed9028ffaa90106c3fe30334e066df7e383be3f152c4b23fd00"
+hash = "314775bffe93e5ca10fe14946c5326246ea603c2cc441a8868bb2c7a43897c1e"
+
+[[files]]
+file = "in_game_testing.md"
+hash = "85077141df0749bc847ba0077559e5f5d72da10abaf318451a3fc4dcd3b06ba1"
 
 [[files]]
 file = "kubejs/assets/create_new_age/lang/en_us.json"
@@ -21118,7 +21122,7 @@ hash = "46c2159e565a3b387264e8696564525b09395829baa21d4c5f9ddd3b1248c157"
 
 [[files]]
 file = "kubejs/server_scripts/gtceu_progression_gates.js"
-hash = "72971941898a0124e18f628b6192052271c7a2af8922b701bb8d0d01e2266126"
+hash = "24c1e1406f1e035a7b3eceb5e75a687fec696cdd08e320136aa33f7f37f3a807"
 
 [[files]]
 file = "kubejs/server_scripts/loot_drops.js"
@@ -23848,12 +23852,16 @@ hash = "a9421a7a29ac8ee6e0598ea20025ad2c30e6198b796324184600621743437c91"
 metafile = true
 
 [[files]]
+file = "orb_forge_build_spec.md"
+hash = "de910994ffe50843a605570df9de2b3b33decdbfe841f6dba8e779913d10c0cd"
+
+[[files]]
 file = "pack_gap_analysis.md"
-hash = "f96dd0856eee880522f9962a01bbb20eee3e4dd9a354cd5ed54e3897a4252bbd"
+hash = "7b75048af85c81d4c455806556b835e8b1e72ba2e1d1b95805396373e49eef83"
 
 [[files]]
 file = "playtest_notes_2.md"
-hash = "7a7cd10dbda57f574c957ae451aa4709800ca76acbc3a7eb4de64096a67485ef"
+hash = "8c604d175315ecaa116499de43dd20ceb25e6a0aea26f0b9cd06b8517fd3b831"
 
 [[files]]
 file = "resourcepacks/adventurers-chest-lootr.pw.toml"
@@ -23972,4 +23980,4 @@ hash = "f3a22870e9dcb0705c8c7be09f1a8d52e0fc16b5d09c87e5c6001f364c3f67c8"
 
 [[files]]
 file = "texture_checklist.md"
-hash = "f0e8eb7aeccb76ede2a046393e718bdc4abc32454f95bab7a8f32092095d8048"
+hash = "4b53541a06a9ae2f8d578b9f32e240be38a0c6c9ccf1e0ef791ce7c1e2c8be72"

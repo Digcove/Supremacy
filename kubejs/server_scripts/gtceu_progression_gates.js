@@ -48,8 +48,8 @@ ServerEvents.recipes(event => {
         'I I'
     ], {
         L: '#minecraft:logs',
-        I: 'forge:ingots/iron',
-        T: 'botania:terrasteel'
+        I: '#forge:ingots/iron',
+        T: 'botania:terrasteel_ingot'
     })
 
     // ME Controller: Terrasteel (Botania Ch6) + Titanium Plate (EBF Ch7) gate
@@ -59,7 +59,7 @@ ServerEvents.recipes(event => {
         'tFt',
         'TtT'
     ], {
-        T: 'botania:terrasteel',
+        T: 'botania:terrasteel_ingot',
         t: 'gtceu:titanium_plate',
         F: 'ae2:fluix_crystal'
     })

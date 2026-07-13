@@ -1,6 +1,47 @@
 # Dev Notes — Supremacy Modpack
 
-_Last updated: 2026-07-01. This file is the canonical pending-work tracker for future sessions._
+_Last updated: 2026-07-12. This file is the canonical pending-work tracker for future sessions._
+
+---
+
+## ✅ 2026-07-12 FINISH PASS (WS1–WS8; task specs in `tasks/`, agent reports in `tasks/reports/`)
+
+- **Pack renamed** "Supremacy" v1.0.0 in pack.toml.
+- **Guns are THE late-game weapon (hybrid gating)**: `tacz_gating.js` re-recipes all 53 default TACZ
+  guns with GT materials (HV pistols/shotguns → EV SMG/rifles → IV/LuV DMR/LMG → ZPM snipers/heavy);
+  4 themed packs (Destiny, Helldivers/zeta, Warhammer, Fakelorant) are drop-only via boss kills, MnS
+  map dimensions, and the Gem Shop Armory Crate; `tacz/supremacy_gunpack/` filter fallback. Ghoul's
+  Guns REMOVED (upstream file is asset-only, zero guns); Fakelorant hash fixed (was byte-copy of Ghoul's).
+- **New chapters**: `armory` (Adventure, 5C5C ids), `commerce` (Home Sweet Home, 5E5E), `gem_shop`
+  (Campaign, 4B4B, + NEW `quests/reward_tables/` with 7 choice tables), `welcome` rewritten (5D5D,
+  DEV NOTEs gone, FAQ/divergences/death-recovery), jewlery +4 / armor +3 fills (5F5F).
+- **Reward audit**: Star Tech chapters confirmed 100% MnS XP coverage; 225 coin rewards added to the
+  11 zero-coin chapters; fixed double-`rewards:` key bug in multiblock_mechanics + nuclear_chemistry;
+  fixed crash-class duplicate quest ids (AE01×9 across ae2/voltage_and_vitality; IV02 in sovereign_circuits).
+- **Playtest-2 applied** (professions KEPT by decision): Ironbound Tome `only_from_crafting`, Tang Clan
+  id fixes + 4 quests, 3 Soul Land bridge quests in act_0, compressed-iron chest strip, flint compass cut.
+- **Extended Crafting**: table gates on the GT ladder + 11 capstone recipes (7 Orb Forge controllers
+  get their first recipes; triune_catalyst migrated to 7×7; blood_tempered_coil wired into every tier-3+
+  capstone — dead-end item resolved; epilogue Uber Fragment 9×9).
+- **Balance**: `config/incontrol/spawn.json` (C2E2 rules); Gateways `supremacy_endgame` 4-wave gate →
+  `kubejs:endgame_boss_token` + gate pearl recipe; **loot_drops.js rewritten to LootJS 2.x API**
+  (was written against 3.x — nothing in the file would have loaded).
+- **Mod repairs found by integration sweep**: **Blue Skies metafile pointed at a modpack, not the mod**
+  (never actually installed!) → real mod + Structure Gel added. 30+ broken quest refs fixed by adding
+  the mods the source packs expected: FTB Placeholders, Effortless Building, Customizable Elytra,
+  Simple Magnets, Rechiseled, EnderChests+EnderTanks, Watut, Wooden Bucket, Programmed Circuit Card,
+  SoLOnion (loose jar from C2E2), OpenLoader + C2E2 `resources.zip` (mmorpg/lightmans/cte2 textures the
+  ported MnS data expects). Remaining refs edited: xycraft ghost tasks deleted, jetboots→create_jetpack,
+  simplybackpacks→sophisticated, betterfortresses/towns_and_towers ids, dimasic_server respawn
+  advancements → TF boss re-kill quests, broken icons → vanilla.
+- **Ops layer**: spark, FTB Backups 2, EntityCulling, ImmediatelyFast, NetherPortalFix.
+- **Bug fixes**: `botania:terrasteel` → `terrasteel_ingot` + `#forge:ingots/iron` tag prefix in
+  gtceu_progression_gates.js (Gun Smith Table + ME Controller gates were uncraftable).
+- Verified: 12,588 quest ids duplicate-free, 71 snbt files brace-balanced, namespace sweep clean,
+  all custom server scripts parse.
+
+### 🔴 ALL in-game testing now lives in `in_game_testing.md` (supersedes the lists below)
+### 🟠 MBD2 build specs for the 7 Orb Forge machines: `orb_forge_build_spec.md`
 
 ---
 

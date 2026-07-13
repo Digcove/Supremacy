@@ -2,6 +2,12 @@
 All files go in: `kubejs/assets/kubejs/textures/item/`
 Format: 16×16 PNG
 
+> Updated 2026-07-12 (finish pass): 22 registered items still need textures (all below except the
+> planned-only sections). One additional registered item was already missing:
+> `blood_tempered_coil.png` (convergence item, now a recurring Extended Crafting ingredient — see
+> `kubejs/startup_scripts/convergence_items.js`). No new texture-needing items were added by the
+> finish pass. Endgame boss token is now dropped by the Gateways "Convergence Gateway" wave.
+
 ## Status Key
 - [ ] Not started
 - [~] In progress
@@ -32,21 +38,15 @@ Format: 16×16 PNG
 - [ ] `flint_sword.png`
 - [ ] `flint_hoe.png`
 
-### Navigation
-- [ ] `flint_compass.png` — primitive compass, points toward nearest gravel
+### Convergence System (registered, missing)
+- [ ] `blood_tempered_coil.png` — Blood Magic tempered coil, used across Extended Crafting capstones
 
 ---
 
-## Boneanner Armor System
-- [ ] `boneanner_chestplate.png` — bone + banana chestplate, copper-tier defense, iron durability
-- [ ] `boneanner_leggings.png` — bone + banana leggings, copper-tier defense, iron durability
-- [ ] `boneanner_boots.png` — bone + banana boots, copper-tier defense, iron durability
-
----
-
-## Stoner Spear System
-- [ ] `compressed_stick.png` — 9 sticks compressed into 1
-- [ ] `stoner_spear.png` — Stone Spear + compressed cobblestone weapon with Unbreaking V / Knockback III
+## PLANNED ONLY — items below are NOT registered in any startup script (no texture needed yet)
+- ~~`flint_compass.png`~~ — CUT per playtest 2 (do not implement)
+- [ ] `boneanner_chestplate.png` / `boneanner_leggings.png` / `boneanner_boots.png` — bone + banana armor (planned)
+- [ ] `compressed_stick.png` / `stoner_spear.png` — Stoner Spear system (planned)
 
 ---
 

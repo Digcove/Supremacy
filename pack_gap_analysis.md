@@ -4,6 +4,16 @@ _Generated 2026-07-01. Independent audit of the pack vs Craft to Exile 2 (v1.1.3
 
 > **STATUS UPDATE (2026-07-01 fix session):** §1–8, §11 and most of §12 are FIXED — 9 mods added, all broken quest refs repaired, the full Star Tech kubejs content layer ported (which also fixed ~300 phantom `kubejs:` items and the quest-lang keys this audit missed), MnS XP + entity configs added, weapon/starter/loot scripts rewritten, Ad Astra woven into the Main Story. See the dated session block at the top of `dev_notes.md` for details and the new in-game verification list. Still open: Orb Forge MBD2 structures + 22 textures (§12), gem shop/economy pass (§9–10), tab restructure (§10, deferred by decision), playtest-2 backlog (§13), ops/performance mods (§15), worldgen consolidation (§16)._
 
+> **STATUS UPDATE (2026-07-12 finish pass):** §7 (weapon policy — TACZ hybrid-gated, guns are THE
+> late-game weapon with an Armory chapter), §9–10 (gem shop + reward tables + coin pass; ST tabs keep
+> XP, Logbook keeps coins), §12 (Orb Forge loot wired on LootJS 2.x; EC recipes for controllers;
+> MBD2 build spec written — only the in-game editor step and 22 textures remain), §13 (playtest-2
+> applied, professions kept), §15 (ops/perf mods added), §17 (blood_tempered_coil wired,
+> In Control rules, endgame_boss_token → Gateways) are DONE. A deeper namespace sweep than §5's found
+> and fixed 30+ more broken refs (incl. Blue Skies never actually being installed). Remaining:
+> **worldgen consolidation (§16 — open DECISION)**, MBD2 in-game builds, textures, and the live-server
+> economy re-price. Testing list: `in_game_testing.md`. Session details: `dev_notes.md` top block._
+
 ---
 
 ## 🔴 CRITICAL — The pack is currently unfinishable
