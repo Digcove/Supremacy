@@ -8,3 +8,4 @@ IGNORE FOR GIT!!! - Star Technology/
 
 # Large export files
 *.mrpack
+config/openloader/resources/resources.zip
