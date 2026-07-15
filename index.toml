@@ -23427,6 +23427,11 @@ hash = "ef29e05b101324450e0a2b2e02652bbc81ef263f614de8f4beaaf6b4e069d0c9"
 metafile = true
 
 [[files]]
+file = "mods/pehkui.pw.toml"
+hash = "ff455d3439b8e4ffbf78dc1e8998c1b59200bd10c74c77f9fe90e98f606e0f0d"
+metafile = true
+
+[[files]]
 file = "mods/pipez.pw.toml"
 hash = "4b0bda60db3fc2f47e876e6e2e4a15c5d4f0d0e8a98fc8ce10a1b6694549b466"
 metafile = true
@@ -23779,6 +23784,11 @@ metafile = true
 [[files]]
 file = "mods/weapon-leveling.pw.toml"
 hash = "c64b4cd6aeb3e5ea8d5134fe4c5a6d724a126dc45844571e7e746671b2854d4f"
+metafile = true
+
+[[files]]
+file = "mods/wh40kmc-project.pw.toml"
+hash = "1eaad90bb130895e22e85dbdd00b9653ea87e3a583636a11d364dc2db52cd67f"
 metafile = true
 
 [[files]]

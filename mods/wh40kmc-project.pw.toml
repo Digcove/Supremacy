@@ -1,0 +1,13 @@
+name = "Hammercraft 40k"
+filename = "warhammer40kmod-1.0.7-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70381182ad2042eff2f01facdf804a97c0035302"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7892507
+project-id = 964310
