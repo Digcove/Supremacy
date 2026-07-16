@@ -1978,7 +1978,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "1975612247c7155a22e50e152c9ea5c8b29fc17645691e90467dc2d8f20a0feb"
+hash = "3274f1531fe0841fb1d8fa854e2401db8ec7fb9a061c5b115aa623b597563d5e"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -23102,13 +23102,8 @@ hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "2ca4af8ff09938ac870652fa8b47e2c1ae127decc2365a0a2fc9c8afbf25e38d"
-metafile = true
-
-[[files]]
-file = "mods/jeioptimizer.pw.toml"
-hash = "475815ae49c41c1ff7f9ba2c82f37785d419270d85d61dd5339c994f4679c0e2"
+file = "mods/jeasync.pw.toml"
+hash = "a7744081a5d6d860a212dff27e1253fd599608fbaf43fcbe9c4135fb1039fe81"
 metafile = true
 
 [[files]]
