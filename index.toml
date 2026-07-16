@@ -22967,11 +22967,6 @@ hash = "ea05f8426dda347174d1690299c4517a489c6c17370a98fd812e9d06ce1dbcfd"
 metafile = true
 
 [[files]]
-file = "mods/funky-effect-lib.pw.toml"
-hash = "47d3df8f0ee2a189b8ecfdebe5c7ea94e5b88bd6fcfcec2e57e0655501a76623"
-metafile = true
-
-[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "3615ee2360b9bb6b1ae231185fa11b8757a6c5e4cedb2a4a69a71b8ac7a25f07"
 metafile = true
