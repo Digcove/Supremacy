@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".claude/scheduled_tasks.lock"
+hash = "a1fb5b4d5550c6ac8fd0c45d49bb26523bd3a99720517e7b9e582d2f98ee9331"
+
+[[files]]
 file = ".claude/settings.local.json"
 hash = "d3e6de21f9340b0ba42110437859d93d8a05799f8415c4733b0abc96ffa9e2e1"
 
@@ -1978,7 +1982,7 @@ hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "1975612247c7155a22e50e152c9ea5c8b29fc17645691e90467dc2d8f20a0feb"
+hash = "3274f1531fe0841fb1d8fa854e2401db8ec7fb9a061c5b115aa623b597563d5e"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -22823,6 +22827,11 @@ hash = "a1575677daaaf6ea6dac12e5a10073e34025e5ca2c35b6d36ad4a5a0edbc0e82"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "09455e81afb0af9383c906f8b48854c1a037ccd26cf7edcecc9685ebb8233e39"
+metafile = true
+
+[[files]]
 file = "mods/enderchests.pw.toml"
 hash = "ab8a8cc82a310000a19367f7331b1b6b2819d7c052ba168dc61ac6522fbf8ac1"
 metafile = true
@@ -23102,23 +23111,8 @@ hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "2ca4af8ff09938ac870652fa8b47e2c1ae127decc2365a0a2fc9c8afbf25e38d"
-metafile = true
-
-[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "664a573384edf644e9b788c7c29fe32593917ac8283bb794cc46b471a0a6504a"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-professions-jep.pw.toml"
-hash = "08a365f0717fbd5561ff746bc6c41185b0c84582a1cd834115b933266328a5ff"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "2f4dd47f2ac99a55c332638116596bbdc38a06ac86336bb662e42c604c3a96e6"
 metafile = true
 
 [[files]]
