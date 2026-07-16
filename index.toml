@@ -1394,7 +1394,7 @@ hash = "cefa51e1542d757d463fdaf880e6f950f4e2e3426a36733a389b0b742fd52f6b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/early_game.snbt"
-hash = "65602f0a6b5000403dacc754d78bdc4d58e1511205055eaa9db2d0a17193ff52"
+hash = "5ff090a5bfbbbd619a7416ce0fcdbd09e8e574f347b47fbcccd2825e0bdd91ca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/epilogue.snbt"
@@ -1522,7 +1522,7 @@ hash = "8a94c1609b4ef70cf49c716df8f6a2f3a709f3dba00ad96c25126e5327a79ab8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_awakening.snbt"
-hash = "5d1b4c22fdc714b61dc15fa9f0c9a371353e54693e67e1f42468e6600a9fb0a8"
+hash = "c4eb29586bfb6145c71d4a47d2c491f00ba08e491c6064af6ef391b3efd4e919"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_cultivation.snbt"
