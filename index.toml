@@ -23677,11 +23677,6 @@ hash = "b14480a10327655a4a8658fcb8476947907ebb2de20407c551c060c5c9b3871c"
 metafile = true
 
 [[files]]
-file = "mods/taczs-bizarre-enchantments.pw.toml"
-hash = "5495c177bae82e19e1f1e4af6e48644ddadc7647268322b9b364b9afd718695d"
-metafile = true
-
-[[files]]
 file = "mods/telepass.pw.toml"
 hash = "657f8584c7517b777a644db5f8e479f22baa06e81ba08609f6c884b006bb0609"
 metafile = true
