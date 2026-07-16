@@ -9,7 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			description: ["Welcome to Craft to Exile: Soul Land. Open your Master Bag and take stock of what you carry. This world is governed by three intertwined forces — soul cultivation, industrial machinery, and magical power. Your journey begins here, on the ground, with nothing but your talent and your will. Press M at a Cultivation Altar when you are ready."]
 			id: "73CE4DB9AE29B81C"
 			rewards: [

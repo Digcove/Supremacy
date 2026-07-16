@@ -3243,7 +3243,6 @@
 			y: -1.0d
 		}
 		{
-			can_repeat: true
 			disable_toast: true
 			icon: "minecraft:suspicious_sand"
 			id: "066196A262A14BCD"
