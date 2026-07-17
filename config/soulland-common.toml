@@ -48,7 +48,7 @@
 	#HUD Settings
 	[general.hud]
 		#Show cultivation HUD overlay
-		show_hud = true
+		show_hud = false
 		#HUD X position offset from top-left
 		#Range: 0 ~ 1000
 		hud_x = 5
