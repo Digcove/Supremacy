@@ -5,6 +5,7 @@
 // Items granted after the wipe. Add to this list to change the starter kit.
 const STARTER_KIT = [
     'ftbquests:book',
+    'narutoto:select_ninja',
 ]
 
 // Wait longer than mods take to hand out their starter items.
