@@ -24,17 +24,16 @@ ServerEvents.recipes(event => {
         type: 'botania:mana_infusion'
     })
 
-    // Soul Land -> Botania integration
     event.recipes.botania.manaInfusion(
         'botania:manasteel_ingot',
-        'soulland:spirit_iron_ingot',
+        'minecraft:iron_ingot',
         3000
     )
 
     // Charged Qi Crystal
     event.recipes.botania.manaInfusion(
         'kubejs:charged_qi_crystal',
-        'soulland:qi_crystal',
+        'minecraft:amethyst_shard',
         2000
     )
 

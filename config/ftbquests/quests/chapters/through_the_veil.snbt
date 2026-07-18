@@ -123,11 +123,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"VL01000000000003"
-				"07B89901B2D44559"
-			]
-			description: ["Your soul has expanded beyond the limits of a single world. The Spirit Ancestor confirms what the dimensional resonance has been whispering: the walls between planes are thin, and yours is a form capable of passing through them."]
+			dependencies: ["VL01000000000003"]
+			description: ["Naquadah alloy in hand, the dimensional resonance has been whispering: the walls between planes are thin, and yours is a form capable of passing through them."]
 			id: "VL01000000000004"
 			shape: "rsquare"
 			size: 1.25d
@@ -143,7 +140,7 @@
 			}]
 			tasks: [{
 				id: "VL02000000000004"
-				title: "Become a Spirit Ancestor"
+				title: "Cross the Threshold"
 				type: "checkmark"
 			}]
 			title: "Spirit Sovereign"

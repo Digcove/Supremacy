@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.bloodmagic.altar(
         'kubejs:soul_rune',
-        'soulland:spirit_steel_ingot',
+        'bloodmagic:demonslate',
         3,
         10000,
         50,

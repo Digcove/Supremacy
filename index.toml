@@ -1314,7 +1314,7 @@ hash = "def69c62ea98ab9b6c4fb0729ed3caceebc6614f179e3985d78aa558f4ae5906"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act_0.snbt"
-hash = "f5dd2e6f3e451e040f7fbef237a330f9f7066c46bc648ef2e7a2ebccec7f2226"
+hash = "72e7a17f4aa7df47d7bbc978b52d8a95c071003fd00370ad7b22164a1f380aab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act_i.snbt"
@@ -1346,7 +1346,7 @@ hash = "c52f90f88965e6851e9e12643120160c948ebbe722281072efaa7b05727ab3b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alchemy.snbt"
-hash = "c450ed135d5664f3d17e5f5e731f1fe48ab0dcc8f56bc7590105a4d973294bbd"
+hash = "6009de17658903ffb991c38f74fd37feee337179fbf65077b770b91f2a5cd495"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
@@ -1354,7 +1354,7 @@ hash = "57decdf00780ffb60df204f2b373c96308fef35ceaa30af9f804db5436fd4573"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armor.snbt"
-hash = "1b100c159d772b0d7b9d27442409050e134341392d2ef4da732cd575cf8cd2f8"
+hash = "8ad92f299aa1e2eaa20d789e10c058a7681857c316853d4e5a0709ab452e1207"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/armory.snbt"
@@ -1375,6 +1375,10 @@ hash = "761f2d9c81ff1452b31e0c8aa871e408a11b2ac8dae719728290b9a84e7da74c"
 [[files]]
 file = "config/ftbquests/quests/chapters/campaign_talent_rewards.snbt"
 hash = "135706fde9721dcc33619eb0340fb9d87796330de4153e4f41c76c522ccd6be3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/combat_systems.snbt"
+hash = "fe43fea33f670286ff98131041a6dcbda708480e9d87906c55900f817e545201"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/commerce.snbt"
@@ -1402,11 +1406,11 @@ hash = "5f0a96cdd82924c7639d68f0ee4a21a87e63bc3c1634c5d25f55e011ecdfeb85"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/event_horizon.snbt"
-hash = "80e15998a9a3e6035a9f3c343cca03f07f5647acbd2b62afe9733b20f893087e"
+hash = "8d3f1cb938d516c8cb2f88c53ba8aa9817ac6aabdda80530eecef24edfb8c290"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/farming.snbt"
-hash = "b9435fe72184c1fe204e1a191407265d225342e30a1d2ee837dbc6fb7358cac9"
+hash = "e6f0a3bb2e20460b57ff1625fc2d86779297a4a2de7137088ab8658f7849ce8f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
@@ -1430,7 +1434,7 @@ hash = "74e4eb3f73d684d6434c894709738a5fef3695abf8cec556dc903c388adc3bbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_soul_refinement.snbt"
-hash = "96a953fdd899d34a06933923c48297d7019d1fec6ccf8875158b517667c17c3a"
+hash = "482490976f7ccfd829a5bda2b9982cfe27aacd00d0daec462b403771af9d6e0b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jewlery.snbt"
@@ -1522,15 +1526,11 @@ hash = "8a94c1609b4ef70cf49c716df8f6a2f3a709f3dba00ad96c25126e5327a79ab8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_awakening.snbt"
-hash = "c4eb29586bfb6145c71d4a47d2c491f00ba08e491c6064af6ef391b3efd4e919"
+hash = "79a82ae8c0b00bfb14daffe50da738411d68c4bf015dce1dc7156ace89d1f338"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/soul_land_cultivation.snbt"
-hash = "c9b9269b43666b9b33833adabe285d2960ed10a44fe2dfaa79d68c4120bd29eb"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/soul_land_weapons.snbt"
-hash = "7f44abb81025af44e5b209b27e15e93f5ec1d8804bc39e9941a8d81d51179eff"
+hash = "5ab96a2f63757079f85fa57ba278e6646b28b2f8daa1d90eb6160b0d089c611c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sovereign_circuits.snbt"
@@ -1554,7 +1554,7 @@ hash = "52b3aa4b4313f6c85bac3808005236808443ea040c50a374da8ebcc8d25592a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/through_the_veil.snbt"
-hash = "e1a2a431bc37990e30f707ad670a0a7920d44bd4188f6fd0fa1bb2965ac7cf10"
+hash = "db2fd8d42b53679cbb843b1e0f0d671b32576c0d1a25959ecf71e9f7110db223"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/voltage_and_vitality.snbt"
@@ -1562,7 +1562,7 @@ hash = "0bf82c2608dd3c49def3090d1c7f001a5a75622ae97fbef000472051b4367702"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "3098adceaca23d2dc0a2b922a75b68aab6f86a66f9a12909ddd6b8919798a194"
+hash = "4b0bd024e3da112426e13008245d434c54cea6438b80ac9b517da94adaa7d461"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/armory_crate.snbt"
@@ -2209,10 +2209,6 @@ file = "config/sophisticatedstorage-common.toml"
 hash = "c28b85c07cc46de89e8d4e18db0386be880e7c62badaebc60973afa5f687632b"
 
 [[files]]
-file = "config/soulland-common.toml"
-hash = "8ba46685e7a34edb747949ce5c19616d201fbc6a6a04c5ccb07bf13d3cae3e7f"
-
-[[files]]
 file = "config/spartanweaponry-client.toml"
 hash = "740623428c235a9fb377e96c6d6730ccf3779218f725bd56fa53bb4112f9b670"
 
@@ -2358,7 +2354,7 @@ hash = "a16630bdc2fbecab73b939d2adb903481b3c1f84bf1bd02cc2bed1d1189f9770"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash-server.toml"
-hash = "52786bd9d68f30296ca1b6ce131e438dd78f43569fe9628ac9b5e9e945fa3338"
+hash = "f4f20a6fef40535277b906963d237a4c1739de9b62d9995e973b7fe8243fb7f7"
 
 [[files]]
 file = "defaultconfigs/mine_and_slash_compatibility-server.toml"
@@ -10653,10 +10649,6 @@ file = "kubejs/data/mmorpg/mmorpg_entity/all_mobs_in_mod/savage_and_ravage.json"
 hash = "daee345fed06cf46d43476285d9c7ae4960ecbf2bc74f49d73c954b0a8b8fc86"
 
 [[files]]
-file = "kubejs/data/mmorpg/mmorpg_entity/all_mobs_in_mod/soulland.json"
-hash = "aa1dada0d37c6dbaf55cefc156abf95f21629c6da41917abb547a7824e63bdd6"
-
-[[files]]
 file = "kubejs/data/mmorpg/mmorpg_entity/all_mobs_in_mod/twilightforest.json"
 hash = "de98b3e90cf6211a7e2c16e21d497f18c09c666400099f8bd4ce1299082c0dee"
 
@@ -14295,246 +14287,6 @@ hash = "30017231c1e9e3523c1395d9a9db3d8aa924a051c38d27e26da54a4e4479787e"
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_profession/salvaging.json"
 hash = "afd9a906921bcafb286a992582501f9c8e7f5bbabd903b62d66bc7a97a964e87"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_0.json"
-hash = "b50c00a61e1a35944cc1de3c8332dbdf72070658d15260db5af7cf72322cbd32"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_1.json"
-hash = "ea155016592e5d7265a0ca63be4de83c302f30ff1d724a91ed5840415baab638"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_2.json"
-hash = "d9251d2da30f6df3ac0535c3c7f60283ff43a872143c186e3b9fdcbb222ae6ff"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_3.json"
-hash = "839b257c6d20986921f7c51b544cee9acd91b9918d2d4c2546f7a46385ef8450"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_4.json"
-hash = "bed0c236c3d6b8a53b68857d936199f396b3ef461a169444286f63a08a0b8b38"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_epic_5.json"
-hash = "9455b37e09a9a8074e9033d695eb08b3cc9f609dba982cfe2cbdfa06a5bb5802"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_0.json"
-hash = "1b56ba36e814c04767632601b4cf6c98872acf1ec84bf10312667b1b8b4af620"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_1.json"
-hash = "87002b1a5e4783b557e8523dd36dcfe3b94ba4ebab9ab6e1a0441926e657c8c9"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_2.json"
-hash = "74491c7b63deb7ee2ceba34b6491f96f6d1ff0b168003c805fd025099c462633"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_3.json"
-hash = "5e528af4dd2ceacabeaff02e89f5b63ddbe4a85cb4d3bd5ef7112f841f042c24"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_4.json"
-hash = "ebb8715945cbf92d30a10b39ad9953a2aa4531cba8ae952b2402fdcf8c3477da"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_legendary_5.json"
-hash = "f2b778f13beeeae7810d2aa46ef7bf5964dc51bb178eb98740f8b45aa5e706c7"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_0.json"
-hash = "b8249fbde2114f0e03d844e519d41432b3c22badc7424100169216aacc3232c7"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_1.json"
-hash = "dc54233d78102567c4e37a7b39004a16bbeab38f270c264f276754488405cd54"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_2.json"
-hash = "c30a838389d81906afb6596daee3013cb043b644de4cb4f4ed550362c6201508"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_3.json"
-hash = "113131dd47e2a17f942695d2b9669224e5f9f0a8083164e20b29d67ddafda8a8"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_4.json"
-hash = "8fcbd99b4c20d5afa62718631882c179680a8d34e6add5698cff9611d3dac3cc"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_mythic_5.json"
-hash = "c57b715ec4572f244a7a246a14366d93f69833bfc2c843d56651bfadd855840a"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_0.json"
-hash = "026907ea29b420e8d1c65ff6ed11dbd1014172f027f7457a301c302d39010cf2"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_1.json"
-hash = "3585801fb20a26ad253b54b4f2e64f5bc74d169c25258f1253aff06e83963268"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_2.json"
-hash = "4d92b5f17a74b58e218b231110ca1f584f7f52b8ceeae70fc638e7d9e82771a4"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_3.json"
-hash = "e1e4596199f8bf4f58c938c373ff54c32a92e481040ad31da696f935903b119c"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_4.json"
-hash = "b314010809e8214800eb63894b5f7837a650df72748bfe21cf0660952077d06e"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_rare_5.json"
-hash = "f336b78a3be719f82df3bbf0f11b02af2bc80be559ec8a60900e138fb502caa5"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_0.json"
-hash = "cbaf49f62c32806db47a477bdcd6487bac11c5bc44d57500afe42daf4b002e29"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_1.json"
-hash = "d76558e4430222409ee87cebc0add09925af494bf77a8090139d56e6f394ea54"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_2.json"
-hash = "b95ccd56f3e36483b98fca48fe58494a83f2ba81baed3741897cd12fc2a296d1"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_3.json"
-hash = "b132ae56f8f4a60422a49293c1535cc15467556d486e77bc968191313bea3b23"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_4.json"
-hash = "57ff33f7a0130b0247c67194f425acb193e19ca2b169f4e13d09320893ca0b3e"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_armor_uncommon_5.json"
-hash = "c523da3e86dc5c0f9b5b87b787887ec39cbed0fa4af8c5b0a1555f34997ca793"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_0.json"
-hash = "197fd616ed6fa260284481423b26bd7d21dda5987abf821a42ab87e14ca68bc1"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_1.json"
-hash = "d8ad138a8a43a741981f3983379e4e0afc0e68ec66b6a617358ddb70c66f5582"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_2.json"
-hash = "01791502733b873c8ca3b1b3ca53314df5134d69f23a75f78c1ab0dee6f1bd26"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_3.json"
-hash = "eb17179b3f786be2cc6d3f99c661e858107910e5d97a807a1e8122651e1096d4"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_4.json"
-hash = "07d337d05642701a994ca005592a55cf4e1b42166aa618065f7c10b3dff233fd"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_epic_5.json"
-hash = "9ed752c2f62cf79404d6193379c924935a6aca5805b502b85b29f656e3887864"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_0.json"
-hash = "b0189064e8a80959c9f82c32f2a7dc249ae10e5ea9823943560f40c28765bfe0"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_1.json"
-hash = "015f024a4f963d86ff856d4f4afd7244bb52f6746c75dc66c17685856920f251"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_2.json"
-hash = "23c216160bdfc723a8bfd22cacf12e87d2a4b0feaa1bb4309c55f52ac9419bb8"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_3.json"
-hash = "b140fa69361448c6ccab76215acba9fb15edf3724bd0ee5adc9166c1048a6ac7"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_4.json"
-hash = "9eaa3a6bf496aa345974f69b9f5864127d020810fe9a35d74208f754bccd271d"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_legendary_5.json"
-hash = "0bc9bd50629c1deff9a2ee9d7bfb57f4b07c4714b84e2ee7331144e1915efe97"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_0.json"
-hash = "16159345b5dfb3edd793b40eeb52c5cb0b1f064322b38bd69584c9bcdd89ac93"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_1.json"
-hash = "3784546005ea8bd944ffb4e05b4aff352d17cfaff32af4c4f5980ce52344c19c"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_2.json"
-hash = "1f0cd26073e6dfe95c8ade88b7bfcc40ae5e026eb3f5b4ad6597375fd4fa46a4"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_3.json"
-hash = "d7b07b730f7c7595115cbb212dc6a5a527dfbff3ad61254b19e4c1b99e3adb5f"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_4.json"
-hash = "753a052a74a2a07e387df12dda15ac71c0eaa7893b54271d5b67fe9e1fc92c08"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_mythic_5.json"
-hash = "04d868cd43a40dd1a7223f1394e92904b7bf5f647d4fc13b0fc610f51134ee45"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_0.json"
-hash = "2381796df72eca352941f1ebe5e2247da2e259d1faec23bb2ba42cb9bd7db044"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_1.json"
-hash = "601fe3f9901080ee035b09940092a29b4fd5102d3f8e35274ae9f4d0348d14ab"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_2.json"
-hash = "4288d22e7ec4874c1fcab3bee3d595588e5abca5ce9eb86a1c9adaf87a8b4196"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_3.json"
-hash = "a83380f56fe262c575cad4dfdf8657d419772055d3def499c4c2d88f72f1b678"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_4.json"
-hash = "8813ee47e89a0f0de9b5aa916822828e891d8b4f52889a11a6cbeda4e200b62e"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_rare_5.json"
-hash = "3c69516ab554a6d16f06d7e83b6f5e0fb079bc8b2145b5e95f5cedf2308b11e6"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_0.json"
-hash = "c10d5be56696b68feb24796a43da6df6cc5e90f0c83516c9c07a265ef3d618de"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_1.json"
-hash = "314dc60c85583d935a53e0bbf241f1bd281f31af2e66945c3eaeaee20fdc1cd9"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_2.json"
-hash = "907985f9d353a384f6586ecb0dfb145a0178db3858678b3a7e42048820f0a0f7"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_3.json"
-hash = "f625c5c05f9a679e5723221900ea62bec8f3541403d236284d2e3724bddf9426"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_4.json"
-hash = "a3908755a26f3053556daea7b083fb74abe2e9974659be37d7a05c8af2c57e29"
-
-[[files]]
-file = "kubejs/data/mmorpg/mmorpg_profession_recipe/sl_weapon_uncommon_5.json"
-hash = "c56b1c1e26d5ecd9782866c2a2f562aee8fd8b8366d42b7e6ccaa0a05011c7db"
 
 [[files]]
 file = "kubejs/data/mmorpg/mmorpg_prophecy_modifier/axe.json"
@@ -21098,19 +20850,19 @@ hash = "e5ea62c9a3586cce3b33b7a701fc523b2ae645a7a2ba0c8dd43d49396e5399a7"
 
 [[files]]
 file = "kubejs/server_scripts/ars_nouveau_recipes.js"
-hash = "175d5d70877a1a7ff4326edee7b72ace5567fa47574ceae9ac4859ba6b701cc8"
+hash = "96006d99a6300637e56d70737c67103fa5151a77de30184b1dce399a1991641f"
 
 [[files]]
 file = "kubejs/server_scripts/blood_magic_recipes.js"
-hash = "bd676d7fc90690d56e6840adcf2e797d3c5c785f8d0501f6a1ed58fbb9ac36f3"
+hash = "5fc42d5f48bf71a2aec2a8e4b4899a0c6aa2cdef0864418b219329e6fda53773"
 
 [[files]]
 file = "kubejs/server_scripts/botania_recipies.js"
-hash = "35fe963406532a8d83d96b26293ed45352acbc6123c8d939e79a348aba895077"
+hash = "fda654c3736d84452f53aa309b1d8369b80481358fff0ff83b2374a9b1806b41"
 
 [[files]]
 file = "kubejs/server_scripts/convergence_recipes.js"
-hash = "3957d8780f844a4f66656834b721183957f731545802e15ea636088c54ae3f65"
+hash = "7b0629cd74e92553e472a901be9e5eaa798f056edfdde49734567c193c7e638e"
 
 [[files]]
 file = "kubejs/server_scripts/dimension_return.js"
@@ -21118,11 +20870,11 @@ hash = "de1645ba5292d886c676fed2d24af5cc062f8eb5004aafeee99a1c5294ad22ae"
 
 [[files]]
 file = "kubejs/server_scripts/extended_crafting_capstones.js"
-hash = "46c2159e565a3b387264e8696564525b09395829baa21d4c5f9ddd3b1248c157"
+hash = "ad6d344cecc2540fd93ea65e4230fb91865fe8c2604682fa0d689b9876920192"
 
 [[files]]
 file = "kubejs/server_scripts/gtceu_progression_gates.js"
-hash = "24c1e1406f1e035a7b3eceb5e75a687fec696cdd08e320136aa33f7f37f3a807"
+hash = "02992c8f36a00ef446d5eb70bb93cef8b85b72a1f0b3460762e7b2fdab7c3126"
 
 [[files]]
 file = "kubejs/server_scripts/loot_drops.js"
@@ -21155,10 +20907,6 @@ hash = "3fc23f01031816f2bcf0a76ab237e5219f6ef7ba693dd7f5c5b87197f347a047"
 [[files]]
 file = "kubejs/server_scripts/orb_forge/tier_7_master_forge.js"
 hash = "42baf8c540412e201b9d9bd96d14fcdeceacaf26a55e0a2a1f285216fa3c69f3"
-
-[[files]]
-file = "kubejs/server_scripts/soulland_recipes.js"
-hash = "11a7bcfb8072fde82f8bbcde4cb278d47f85dfa41817c74f1b0bbe6a3f907be4"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_eggs.js"
@@ -23322,6 +23070,11 @@ hash = "5245bca3c4a2189d7e94b65cccaa38bab453ee7313c4bff210b40fcef787d742"
 metafile = true
 
 [[files]]
+file = "mods/narutoto-ninja-world.pw.toml"
+hash = "fc1ecea4cecef12f7322165f2863006665c18d91f567b7aee6831af0876ccc6c"
+metafile = true
+
+[[files]]
 file = "mods/naturalist.pw.toml"
 hash = "edef7fb6b865af65b2f78d348149cfbcf01366ec7e88a5fe503d212e9526f09c"
 metafile = true
@@ -23422,6 +23175,11 @@ hash = "ef29e05b101324450e0a2b2e02652bbc81ef263f614de8f4beaaf6b4e069d0c9"
 metafile = true
 
 [[files]]
+file = "mods/pehkui.pw.toml"
+hash = "ff455d3439b8e4ffbf78dc1e8998c1b59200bd10c74c77f9fe90e98f606e0f0d"
+metafile = true
+
+[[files]]
 file = "mods/pipez.pw.toml"
 hash = "4b0bda60db3fc2f47e876e6e2e4a15c5d4f0d0e8a98fc8ce10a1b6694549b466"
 metafile = true
@@ -23433,7 +23191,7 @@ metafile = true
 
 [[files]]
 file = "mods/playeranimator.pw.toml"
-hash = "765987a78e5d8c782d0da2de99998b43b5907d6c41347d3804045ad109e4a586"
+hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
@@ -23579,11 +23337,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
 hash = "417ab465d909e310825d1e4b91974a30093e7500acd5dfb87e9169a74d6205f9"
-metafile = true
-
-[[files]]
-file = "mods/soul-land-v1.pw.toml"
-hash = "e432a78fab473508cf909bb03e34ede730e50b782ff1c95da16fc1dd632cae05"
 metafile = true
 
 [[files]]

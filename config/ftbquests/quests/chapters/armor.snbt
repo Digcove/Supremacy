@@ -9,7 +9,7 @@
 	quests: [
 		{
 			dependencies: ["060FDDC6B781BC29"]
-			description: ["Diamond marks the last milestone of the vanilla armor track before magical and technological paths diverge. A full diamond set is strong enough to carry you through the Nether and early exploration, but the Soul Land and GregTech armor tiers that follow will eventually render it obsolete."]
+			description: ["Diamond marks the last milestone of the vanilla armor track before magical and technological paths diverge. A full diamond set is strong enough to carry you through the Nether and early exploration, but the GregTech armor tiers that follow will eventually render it obsolete."]
 			id: "5E18F03C7637CC27"
 			rewards: [
 				{
@@ -88,82 +88,6 @@
 			]
 			title: "Diamond Standard"
 			x: -1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["5570A9272D0E0755"]
-			description: ["Jade Silk Armor is woven from spirit cloth and imbued with Qi, making it ideal for cultivators who prioritize mana regeneration and soul power throughput over raw physical defense. It is the preferred armor of dedicated meditation-path characters and spellcasters."]
-			id: "36285B3BA9B195F6"
-			rewards: [
-				{
-					count: 3
-					id: "3A3A4935AB579541"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "FE1A9E11946C82FB"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "77337EA4FC186694"
-				item: "soulland:cultivation_manual"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6294827B5E2A3E11"
-					item: {
-						Count: 1
-						id: "soulland:jade_silk_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7BB38500A3C06373"
-					item: {
-						Count: 1
-						id: "soulland:jade_silk_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "490BD7AE41E8B0F7"
-					item: {
-						Count: 1
-						id: "soulland:jade_silk_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "46E0624C4030FC2F"
-					item: {
-						Count: 1
-						id: "soulland:jade_silk_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "A set for cultivating"
-			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -755,8 +679,8 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["AR01000000000006", "484E4A14F94A2FA8", "36285B3BA9B195F6"]
-			description: ["Three armor paths, fully realized. The GTCEu plate track ended at Titanium, your MnS armor souls are Legendary grade, and you understand what Jade Silk is for. From here, the remaining armor upgrades — Tungstensteel and higher GT alloys, Mythic MnS souls, and late-game magical sets — are refinements rather than unlocks. Continue into the endgame with a loadout that covers every defense category."]
+			dependencies: ["AR01000000000006", "484E4A14F94A2FA8"]
+			description: ["Two armor paths, fully realized. The GTCEu plate track ended at Titanium, and your MnS armor souls are Legendary grade. From here, the remaining armor upgrades — Tungstensteel and higher GT alloys, Mythic MnS souls, and late-game magical sets — are refinements rather than unlocks. Continue into the endgame with a loadout that covers every defense category."]
 			id: "AR01000000000007"
 			rewards: [
 				{

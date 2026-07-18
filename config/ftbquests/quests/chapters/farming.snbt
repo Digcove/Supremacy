@@ -9,7 +9,7 @@
 	quests: [
 		{
 			dependencies: ["3ABDA0A1EA25EB8F"]
-			description: ["Pam's HarvestCraft adds over 80 crops across every biome — each biome holds seeds you cannot find elsewhere. The agave crop grows in warm and arid regions; its juice is a Farmer's Delight cooking ingredient. Beyond food, Pam's crops provide raw inputs for Mine & Slash alchemy, Soul Land pill crafting, and every advanced Cooking Pot recipe. Many Pam's crops self-seed if left to mature, so a diverse farm propagates itself without seed repurchasing. Your farm is your supply chain — diversify it before you need it."]
+			description: ["Pam's HarvestCraft adds over 80 crops across every biome — each biome holds seeds you cannot find elsewhere. The agave crop grows in warm and arid regions; its juice is a Farmer's Delight cooking ingredient. Beyond food, Pam's crops provide raw inputs for Mine & Slash alchemy and every advanced Cooking Pot recipe. Many Pam's crops self-seed if left to mature, so a diverse farm propagates itself without seed repurchasing. Your farm is your supply chain — diversify it before you need it."]
 			id: "22C4FB700C4C7B5F"
 			rewards: [
 				{
@@ -114,7 +114,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Vegetable Soup requires carrots, potatoes, Pam's cabbage, and water in the Cooking Pot. It provides six hunger bars and a short Regeneration effect — enough to replace cooked pork chops as your expedition food. Cook it in batches of six servings and stock your inventory before heading into Mine & Slash combat. At higher cultivation ranks, food buff stacking with Soul Land cultivation bonuses and M&S stat soul investments creates a meaningful composite effect that individual hunger values obscure. Feed yourself properly before every serious encounter."]
+			description: ["Vegetable Soup requires carrots, potatoes, Pam's cabbage, and water in the Cooking Pot. It provides six hunger bars and a short Regeneration effect — enough to replace cooked pork chops as your expedition food. Cook it in batches of six servings and stock your inventory before heading into Mine & Slash combat. Food buff stacking with M&S stat soul investments creates a meaningful composite effect that individual hunger values obscure. Feed yourself properly before every serious encounter."]
 			id: "1F736DBC0CBACE22"
 			rewards: [
 				{
@@ -455,7 +455,7 @@
 			y: -5.0d
 		}
 		{
-			description: ["Botany Pots grow any plantable item in a compact single-block footprint — Pam's HarvestCraft seeds, vanilla crops, saplings, vines, mushrooms, and most modded plants. They require no sunlight, no farmland, and no irrigation. Soul Land spirit herbs can be grown in Botany Pots using the appropriate soil type, making them the passive indoor source for cultivation-speed alchemicals. A shelf of Botany Pots in your base runs continuously regardless of chunk loading state, producing steady output with zero player attention."]
+			description: ["Botany Pots grow any plantable item in a compact single-block footprint — Pam's HarvestCraft seeds, vanilla crops, saplings, vines, mushrooms, and most modded plants. They require no sunlight, no farmland, and no irrigation. A shelf of Botany Pots in your base runs continuously regardless of chunk loading state, producing steady output with zero player attention."]
 			id: "7F19B559E12AA6C0"
 			rewards: [
 				{
@@ -484,7 +484,7 @@
 			y: -7.5d
 		}
 		{
-			description: ["The Hopper Botany Pot adds an auto-output slot that connects to hoppers and item pipes below the block. Link it to a sorted chest network via Create conveyors or GT item pipes and the pot outputs its harvest automatically on maturity — no player interaction required. A wall of Hopper Botany Pots growing Soul Land spirit herbs, each sorted by herb type into labeled chests, provides the passive cultivation alchemy supply that supports higher cultivation ranks without regular Spirit Beast Forest expeditions."]
+			description: ["The Hopper Botany Pot adds an auto-output slot that connects to hoppers and item pipes below the block. Link it to a sorted chest network via Create conveyors or GT item pipes and the pot outputs its harvest automatically on maturity — no player interaction required. A wall of Hopper Botany Pots, each sorted by crop type into labeled chests, provides a fully passive supply chain for your alchemy and cooking needs."]
 			id: "4A826D4AF741D1C0"
 			optional: true
 			rewards: [
@@ -539,10 +539,9 @@
 		{
 			dependencies: [
 				"1A2B3C4D00000001"
-				"5FC6C2D842B38AD2"
 				"6CD3FDD027906C44"
 			]
-			description: ["Tertium Essence is not merely a crafting upgrade — it requires the ambient magical field of an active soul ring bond and a functional mana generation system. The soul ring creates a spiritual resonance field around your cultivation base; the Botania mana pool grounds that field into physical mana flux. Together they stabilize the essence matrix required for Tier 3 crop growth. A single Endoflame or Hydroangeas setup is sufficient — what matters is that the mana loop is active and your first soul ring is bound."]
+			description: ["Tertium Essence is not merely a crafting upgrade — it requires a functional mana generation system. The Botania mana pool grounds ambient magical energy into physical mana flux, stabilizing the essence matrix required for Tier 3 crop growth. A single Endoflame or Hydroangeas setup is sufficient — what matters is that the mana loop is active."]
 			id: "1A2B3C4D00000002"
 			rewards: [{
 				auto: "enabled"
@@ -556,10 +555,10 @@
 			}]
 			tasks: [{
 				id: "2A2B3C4D00000002"
-				title: "Soul and Mana Converge"
+				title: "Mana Converges"
 				type: "checkmark"
 			}]
-			title: "Soul and Mana Converge"
+			title: "Mana Converges"
 			x: 10.0d
 			y: -5.0d
 		}
@@ -658,7 +657,7 @@
 				"5C0DE456A7C99012"
 				"4470A64D131B98EF"
 			]
-			description: ["The Gaia Guardian is Botania's ultimate test — a magical boss summoned on a Natural Altar that demands mastery of the mana system and serious combat preparation. Defeating it proves your magical development has reached a level sufficient to stabilize Tier 5 growth matrices. The Spirit King cultivation rank represents a parallel spiritual attainment; together, the two milestones produce the combined resonance that permits Supremium growth. Prepare a large flat area, Mana Tablets, and Pixie Dust supplies before summoning."]
+			description: ["The Gaia Guardian is Botania's ultimate test — a magical boss summoned on a Natural Altar that demands mastery of the mana system and serious combat preparation. Defeating it proves your magical development has reached a level sufficient to stabilize Tier 5 growth matrices and permits Supremium growth. Prepare a large flat area, Mana Tablets, and Pixie Dust supplies before summoning."]
 			id: "1A2B3C4D00000006"
 			rewards: [{
 				auto: "enabled"
@@ -782,9 +781,8 @@
 			dependencies: [
 				"1A2B3C4D00000009"
 				"BC01000000000004"
-				"07B89901B2D44559"
 			]
-			description: ["Insanium Essence from Mystical Agriculture Additions is an engineered essence — it requires the LP reservoir of an Archmage's Blood Orb and Spirit Ancestor cultivation rank to stabilize. The Archmage's Orb provides the stored life energy needed for the growth ritual; Spirit Ancestor attainment signals that your soul has entered a resonance tier capable of sustaining the unstable Insanium matrix. Once both thresholds clear, Insanium seeds become craftable — covering the final tier of exotic materials."]
+			description: ["Insanium Essence from Mystical Agriculture Additions is an engineered essence — it requires the LP reservoir of an Archmage's Blood Orb to stabilize the growth ritual. Once the orb is built, Insanium seeds become craftable — covering the final tier of exotic materials."]
 			id: "1A2B3C4D0000000A"
 			rewards: [{
 				auto: "enabled"
@@ -1684,7 +1682,7 @@
 		}
 		{
 			dependencies: ["1A2B3C4D00000023"]
-			description: ["The Awakened Supremium Leggings provide movement augmentation via charms — Sprint Charm gives permanent Speed I; Wither Resistance prevents the Wither effect from reducing max health during Mine & Slash dungeon runs. A full Awakened Supremium set with Absorption and Sprint charms creates a mobile tank build that works across most combat encounters without Soul Land cultivation stat investments."]
+			description: ["The Awakened Supremium Leggings provide movement augmentation via charms — Sprint Charm gives permanent Speed I; Wither Resistance prevents the Wither effect from reducing max health during Mine & Slash dungeon runs. A full Awakened Supremium set with Absorption and Sprint charms creates a mobile tank build that works across most combat encounters."]
 			id: "1A2B3C4D00000025"
 			optional: true
 			rewards: [

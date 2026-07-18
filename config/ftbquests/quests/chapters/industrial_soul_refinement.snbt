@@ -635,7 +635,7 @@
 		}
 		{
 			dependencies: ["7D2E4F6A8B1C3D56"]
-			description: ["GregTech Community Edition is the industrial backbone of the late game. It begins simply — hand tools, iron, and fire — and escalates into vast automated factories processing every ore and alloy on the periodic table. Reaching Spirit Scholar means your cultivation has stabilized enough to direct that same discipline toward industry. The path from campfire smelting to electric machinery is long, but every step is deliberate."]
+			description: ["GregTech Community Edition is the industrial backbone of the late game. It begins simply — hand tools, iron, and fire — and escalates into vast automated factories processing every ore and alloy on the periodic table. The path from campfire smelting to electric machinery is long, but every step is deliberate."]
 			id: "1727551BEC3E69D1"
 			rewards: [
 				{
@@ -661,10 +661,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				advancement: "soulland:cultivation/spirit_scholar"
-				criterion: ""
 				id: "5AABDD49B6BB5D21"
-				type: "advancement"
+				title: "Begin the industrial path"
+				type: "checkmark"
 			}]
 			title: "The Way of Steel"
 			x: 14.0d
@@ -2539,7 +2538,7 @@
 		}
 		{
 			dependencies: ["5A5B0010CCDD0010"]
-			description: ["Stainless Steel is alloyed from Iron, Chrome, Nickel, and Manganese in the EBF. Chrome is produced by processing Chromite Ore through the Macerator to obtain Chromite Dust, then through the MV Electrolyzer to yield Chrome Ingots — the same pipeline introduced in the Kanthal Alloy chain. Nickel comes from Pentlandite ore; Manganese from Pyrolusite or as a processing byproduct. Your Kanthal Coils reach 2700K, comfortably above the Stainless Steel alloying range. Smelt at least 16 ingots — Stainless Steel is consumed by both the HV Hull and the Soul Forged Ingot recipe."]
+			description: ["Stainless Steel is alloyed from Iron, Chrome, Nickel, and Manganese in the EBF. Chrome is produced by processing Chromite Ore through the Macerator to obtain Chromite Dust, then through the MV Electrolyzer to yield Chrome Ingots — the same pipeline introduced in the Kanthal Alloy chain. Nickel comes from Pentlandite ore; Manganese from Pyrolusite or as a processing byproduct. Your Kanthal Coils reach 2700K, comfortably above the Stainless Steel alloying range. Smelt at least 16 ingots — Stainless Steel is consumed by the HV Hull recipe."]
 			id: "484E50B0B8072B04"
 			rewards: [
 				{
@@ -2817,46 +2816,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["430AF7D410417947"]
-			description: ["Soul Forged is the first alloy that cannot be explained by metallurgy alone. Spirit Iron Ingots from the Soul Land progression, Stainless Steel from the Electric Blast Furnace, and a Qi Crystal from your cultivation path are combined in a shaped crafting recipe — the crystal acts as a resonance anchor that aligns the metal's grain structure to soul power frequency. The resulting ingot is lighter than Steel and resonates with spirit energy, making it the ideal substrate for Mine & Slash Tier 3 gear at the M&S profession table. Every high-tier Soul Land equipment recipe from this point forward draws on it."]
-			id: "1135AE4ACDABB358"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "BA7A67248A22B1A8"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-					count: 6
-					id: "410B21E84B34A1CD"
-					item: "lightmanscurrency:coin_gold"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0416B481F3EFB7B0"
-					item: "soulland:soul_forged_ingot"
-					type: "item"
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				count: 2L
-				id: "649D9EF8365AD080"
-				item: "soulland:soul_forged_ingot"
-				type: "item"
-			}]
-			title: "Soul Forged Ingot"
-			x: 80.0d
-			y: -3.0d
-		}
-		{
 			dependencies: ["78C758B8AD001E3A"]
 			description: ["The Ur-Ghast is a massive flying creature that patrols the Dark Tower — a towering fortress found in the Dark Forest. It requires Ur-Ghast Tears (thrown by the boss mid-fight) to be redirected back at it for damage; conventional attacks do little until this mechanic is resolved. Its Trophy is required for the EV Machine Hull recipe, alongside Titanium Plates. Applied Energistics 2's ME Controller additionally requires Terrasteel Plates from the Botania endgame — two separate progression threads must converge at Extreme Voltage. Prepare for both."]
 			id: "5F36072A0F88C16F"
@@ -2889,5 +2848,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Industrial Soul Refinement"
+	title: "Industrial Refinement"
 }

@@ -1,20 +1,5 @@
 ServerEvents.recipes(event => {
 
-    event.shaped(
-        'soulland:soul_forged_ingot',
-        [
-            'ACA',
-            'BDB',
-            'ACA'
-        ],
-        {
-            A: 'kubejs:charged_qi_crystal',
-            B: 'botania:manasteel_ingot',
-            C: 'soulland:soul_crystal',
-            D: 'kubejs:soul_rune'
-        }
-    )
-
     // ================== WS6: Convergence Gateway pearl ==================
     // Opener for the repeatable endgame Gateways wave fight defined in
     // kubejs/data/gateways/gateways/supremacy_endgame.json. The gate is the

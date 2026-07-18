@@ -148,11 +148,6 @@
 		"botania:terra_axe:axe",
 		"botania:flight_tiara:head",
 		"alexsmobs:tarantula_hawk_elytra:elytra",
-		"soulland:spirit_iron_sword:sword",
-		"soulland:spirit_sword:sword",
-		"soulland:spirit_halberd:spear",
-		"soulland:sea_god_trident:spear",
-		"soulland:asura_god_saber:sword",
 		# Spartan Weaponry — swords
 		"spartanweaponry:wooden_longsword:sword",
 		"spartanweaponry:stone_longsword:sword",
@@ -756,19 +751,12 @@
 	#Range: 1 ~ 1000
 	SHOW_SKULL_ON_MOBS_THAT_ARE_X_LEVELS_HIGHER_THAN_YOU = 10
 	SCALE_MOB_LEVEL_TO_NEAREST_PLAYER = true
-	#Items protected from accidental soul-cleaning. Soul Land milestone armor and divine paths are permanently protected.
+	#Items protected from accidental soul-cleaning.
 	SOUL_CLEANER_ITEM_BLACKLIST = [
 		"minecraft:elytra",
 		"botania:flight_tiara",
 		"botania:terra_sword",
-		"alexsmobs:tarantula_hawk_elytra",
-		"soulland:soul_forged_helmet",
-		"soulland:soul_forged_chestplate",
-		"soulland:soul_forged_leggings",
-		"soulland:soul_forged_boots",
-		"soulland:sea_god_chestplate",
-		"soulland:seraph_chestplate",
-		"soulland:asura_chestplate"
+		"alexsmobs:tarantula_hawk_elytra"
 	]
 	#Range: 0 ~ 10000000
 	MAX_POSSIBLE_FAVOR = 2500

@@ -3,13 +3,13 @@
 	default_quest_shape: ""
 	filename: "soul_land_awakening"
 	group: "66B93D134A8EFA8F"
-	icon: "soulland:white_soul_ring"
+	icon: "minecraft:crafting_table"
 	id: "1FA3DF418E17E2FC"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to Craft to Exile: Soul Land. Open your Master Bag and take stock of what you carry. This world is governed by three intertwined forces — soul cultivation, industrial machinery, and magical power. Your journey begins here, on the ground, with nothing but your talent and your will. Press M at a Cultivation Altar when you are ready."]
+			description: ["Welcome to Craft to Exile 2. Open your Master Bag and take stock of what you carry. This world is governed by intertwined forces — industrial machinery and magical power, tested by an ARPG combat layer that scales every fight. Your journey begins here, on the ground, with nothing but your talent and your will."]
 			id: "73CE4DB9AE29B81C"
 			rewards: [
 				{
@@ -290,126 +290,6 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["78CD039E8C931F77"]
-			description: ["Spirit Iron Ore generates at iron depth and glows faintly blue-grey. Smelt it into Spirit Iron Ingots — the base material for all early Soul Land crafting, including the Forging Table and Spirit Iron armor. It also gates access to this pack's custom Nature's Compass recipe, modified to require Spirit Iron."]
-			id: "3C869BA745F7E08E"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "405B367DB6F8762E"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 2
-				id: "2800EA26EB76E110"
-				item: "soulland:spirit_dew_root"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "1F730152CA6F2A84"
-				item: "soulland:spirit_iron_ingot"
-				type: "item"
-			}]
-			title: "Spirit Iron"
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["6E317C68C5F44D16"]
-			description: ["The Forging Table is the crafting station for all Soul Land items — hidden weapons, armor sets, herbs into pills, and spirit tools. Unlike a standard crafting table, it handles recipes unique to Soul Land's cultivation system. Keep it accessible; you will return to it throughout the entire modpack progression."]
-			id: "5E33BC8AED91B4B9"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "60A318CF7C925A61"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-					count: 8
-					id: "6F3102D3DC09B7EF"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5E6D50C8AEB7BB33"
-					item: "minecraft:string"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6640878A46668A43"
-					item: "minecraft:chain"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "15211D813F21A381"
-				item: "soulland:forging_table"
-				type: "item"
-			}]
-			title: "The Forging Table"
-			x: 3.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["5E33BC8AED91B4B9"]
-			description: ["The Silent Sleeve Dart is the entry point of the Tang Sect's hidden weapon system — compact needles fired in rapid bursts from concealed wrist-mounted launchers. It requires minimal soul power to operate and can be used effectively from rank 1. Upgrade to higher-tier Tang Sect weapons as your cultivation advances."]
-			id: "203FAF595F10C378"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "46F2DB1E671CFE33"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "2F94F60874EA36D3"
-				item: "soulland:silent_sleeve_dart"
-				type: "item"
-			}]
-			title: "Silent Sleeve Dart"
-			x: 4.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["5E33BC8AED91B4B9"]
-			description: ["The Flying God Claw is a mid-tier Tang Sect hidden weapon — a retractable steel claw launched on a wire, capable of grappling targets, pulling items, and striking at range. It demands more soul power than the Sleeve Dart but delivers far greater versatility in combat."]
-			id: "3FF2BD148A95264A"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "6E12F930520B4B04"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "6B325CCC9BCDA426"
-				item: "soulland:flying_god_claw"
-				type: "item"
-			}]
-			title: "Flying God Claw"
-			x: 4.5d
-			y: -9.0d
-		}
-		{
 			dependencies: ["6E317C68C5F44D16"]
 			description: ["Mine & Slash uses a gear soul system to modify your equipment. Weapon stat souls are applied to weapons to set a primary damage stat — physical, elemental, or soul power scaling. Your first Common soul is the baseline; upgrade to higher rarity souls as you find them to dramatically increase your damage output."]
 			id: "1DDEDD7CE556B85B"
@@ -515,32 +395,6 @@
 			title: "The Melter"
 			x: 4.0d
 			y: -6.5d
-		}
-		{
-			dependencies: [
-				"203FAF595F10C378"
-				"3FF2BD148A95264A"
-			]
-			description: ["The Tang Sect's hidden weapons span 16 items across a full progression arc — from Sleeve Darts and Godly Zhuge Crossbows to legendary single-use weapons capable of killing beasts a hundred ranks above your own. Each weapon requires specific soul power thresholds. The full catalog is documented in the cultivation manual."]
-			id: "3BAA6E1DEABA9E59"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "07A690986F2C739C"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "34547304255D421D"
-				title: "Hidden Weapons"
-				type: "checkmark"
-			}]
-			title: "Art of the Hidden Weapon"
-			x: 5.5d
-			y: -8.5d
 		}
 		{
 			dependencies: ["6E317C68C5F44D16"]
@@ -813,8 +667,8 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["3C869BA745F7E08E"]
-			description: ["Nature's Compass lets you search for any biome by name and points you toward the nearest one. Essential for locating rare biomes containing unique crops, Spirit Beasts, and Soul Land herbs. In this pack the recipe has been modified to require Spirit Iron Ingots — the continent's natural order rewards those who cultivate."]
+			dependencies: ["78CD039E8C931F77"]
+			description: ["Nature's Compass lets you search for any biome by name and points you toward the nearest one. Essential for locating rare biomes containing unique crops and resources."]
 			id: "05350BD6B36C9089"
 			rewards: [{
 				auto: "enabled"
@@ -864,7 +718,7 @@
 		}
 		{
 			dependencies: ["7F3D68FF64242454"]
-			description: ["The Explorer's Compass points toward the nearest structure of any type you select. Use it to locate AE2 Meteorites for Inscriber Presses, dungeons for M&S loot, and Soul Land locations including the Shrek Academy. In this pack the recipe has been modified to use Copper Ingots instead of Cracked Stone Bricks."]
+			description: ["The Explorer's Compass points toward the nearest structure of any type you select. Use it to locate AE2 Meteorites for Inscriber Presses and dungeons for M&S loot. In this pack the recipe has been modified to use Copper Ingots instead of Cracked Stone Bricks."]
 			id: "14D59603427FE034"
 			rewards: [{
 				auto: "enabled"
@@ -1027,36 +881,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["73CE4DB9AE29B81C"]
-			description: ["Spirit Herbs grow in the Star Dou Great Forest and surrounding spirit-dense biomes. They are consumed by holding — each herb provides a pulse of cultivation experience, but diminishing returns kick in after three uses per herb type. Alchemy is required for efficient late-game cultivation speed; raw herb consumption alone will not carry you to the higher ranks."]
-			id: "3D2D38E41E9F7301"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "2EF7FBA9E8072DD2"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "6D78E71EF3665D24"
-				item: "soulland:soul_crystal"
-				type: "item"
-			}]
-			tasks: [{
-				count: 10L
-				id: "6E794FCA92B42C93"
-				item: "soulland:spirit_herb"
-				type: "item"
-			}]
-			title: "Spirit Herbs"
-			x: -2.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["78CD039E8C931F77"]
 			description: ["Mine & Slash jewelry occupies dedicated Curios ring and necklace slots, adding powerful passive bonuses entirely separate from your armor. Gold is an early crafting component for basic jewelry pieces. The Emerald Stoneplate Ring reward gives you a functional piece immediately — equip it and note how the stat contribution changes your effective power."]
 			id: "3160A49FB7E8CE2A"
@@ -1108,275 +932,6 @@
 			title: "Jeweler's Eye"
 			x: -2.0d
 			y: -7.0d
-		}
-		{
-			dependencies: [
-				"3D2D38E41E9F7301"
-				"3160A49FB7E8CE2A"
-			]
-			description: ["The Cultivation Altar is your meditation hub. Press M while standing at it to begin passive soul power accumulation. Meditation speed is influenced by your talent, local Qi density, and Foundation Stability. Herbs and pills improve these values. Place your altar in a high-Qi location — the Star Dou Forest edges have naturally elevated density — and return to it between expeditions."]
-			id: "022A0AD9DA7A55DE"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "D81BC304F54C17D4"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "4D0746FE80531982"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "069DA918FCB98AA7"
-				item: "soulland:cultivation_altar"
-				type: "item"
-			}]
-			title: "Meditation Begins"
-			x: -2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["022A0AD9DA7A55DE"]
-			description: ["Your cultivation practice is established. The Soul Land Cultivation chapter continues from here — tracking your ring absorption, Botania mana infusion for Spirit Steel, and the full path through Spirit Scholar toward higher stages. The continent's power is vast; begin the climb."]
-			id: "33EAD812978BAB9C"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "829D50A237FAF120"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "776D383466B88799"
-				title: "Soul Land Cultivation"
-				type: "checkmark"
-			}]
-			title: "The Cultivator's Path"
-			x: -3.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["3D2D38E41E9F7301"]
-			description: ["Spirit Cloth is woven from spirit herb fibers at the Forging Table. It is the primary material for the Spirit Cloth armor set — a magic-focused early armor path suited to spellcasters and cultivators. Gather a substantial supply before crafting; a full set requires significant cloth to produce."]
-			id: "2F79165FD4DEF64F"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "575BAAA784FBEDD0"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-					count: 4
-					id: "3E47B45EA03D9D43"
-					item: "soulland:spirit_cloth"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1B62CC830442D154"
-					item: "minecraft:string"
-					type: "item"
-				}
-			]
-			tasks: [{
-				count: 20L
-				id: "1E6A50855A1D1CC8"
-				item: "soulland:spirit_cloth"
-				type: "item"
-			}]
-			title: "Spirit Weaving"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2F79165FD4DEF64F"]
-			description: ["Spirit Cloth Armor provides moderate physical defense with a significant bonus to magic damage and mana regeneration. It is the preferred early armor for Iron's Spells casters, Botania mana users, and any build that relies on soul power throughput rather than raw physical durability. Apply Magic Shield stat souls to maximize the synergy."]
-			id: "4BCB50F8C52E2AFA"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "EF693A05DD4CCDC4"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 4
-				id: "04CF97A61CAEBF3C"
-				item: "botania:fertilizer"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "181EA8CFD71A954E"
-					item: {
-						Count: 1
-						id: "soulland:spirit_cloth_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "12A84DEF3C56A6E3"
-					item: {
-						Count: 1
-						id: "soulland:spirit_cloth_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "151B6FF7A88DA44D"
-					item: {
-						Count: 1
-						id: "soulland:spirit_cloth_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "242160FED1DAE82F"
-					item: {
-						Count: 1
-						id: "soulland:spirit_cloth_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Robes of the Scholar"
-			x: -5.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["3C869BA745F7E08E"]
-			description: ["Qi Crystals are found as ore at diamond depth and are required across multiple Soul Land crafting chains. They also serve as catalyst components for Botania's mana infusion gate. Mine a substantial supply when you first reach diamond depth — demand only increases as your Soul Land progression advances."]
-			id: "4DED53395D239509"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "498D6EF31DFA5D7F"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 3
-				id: "3052A0ADD1DCBBBD"
-				item: "soulland:soul_crystal"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "7FF3AF584420EEFA"
-				item: "soulland:qi_crystal"
-				type: "item"
-			}]
-			title: "Qi Crystals"
-			x: 4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: [
-				"4BCB50F8C52E2AFA"
-				"4DED53395D239509"
-			]
-			description: ["Shrek Academy is the most prestigious soul master institution on the continent — and the hardest armor set to earn at this stage. The full Shrek Academy set is reserved for those who have proven themselves through both spirit cultivation and material mastery. Wear it with the weight it deserves."]
-			hide_until_deps_complete: true
-			id: "5570A9272D0E0755"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 50"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "C2B1699E7703FE24"
-					silent: true
-					title: "50 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "15F0FA252067AF65"
-				item: "soulland:spirit_detector"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "497C2ED22F56D47F"
-					item: {
-						Count: 1
-						id: "soulland:shrek_academy_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3FAC2627E0AEC21A"
-					item: {
-						Count: 1
-						id: "soulland:shrek_academy_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "745A43F20C5FE1FC"
-					item: {
-						Count: 1
-						id: "soulland:shrek_academy_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "47AFFCDEFB5E5C0B"
-					item: {
-						Count: 1
-						id: "soulland:shrek_academy_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Shrek Academy"
-			x: -5.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["3ABDA0A1EA25EB8F"]
@@ -1462,5 +1017,5 @@
 			y: 3.5d
 		}
 	]
-	title: "Soul Land Awakening"
+	title: "Awakening"
 }

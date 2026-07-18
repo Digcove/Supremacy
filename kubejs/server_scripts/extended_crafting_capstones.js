@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
             'T  A  T',
             ' GSSSG ',
             ' SDBDS ',
-            'ASBCBSA',
+            'ASB BSA',
             ' SDBDS ',
             ' GSSSG ',
             'T  A  T'
@@ -307,8 +307,7 @@ ServerEvents.recipes(event => {
             G: { item: 'botania:mana_pearl' },
             S: { item: 'ars_nouveau:source_gem' },
             D: { item: 'bloodmagic:demonslate' },
-            B: { item: 'bloodmagic:blankslate' },
-            C: { item: 'soulland:soul_crystal' }
+            B: { item: 'bloodmagic:blankslate' }
         },
         result: { item: 'kubejs:triune_catalyst', count: 2 }
     })
@@ -390,9 +389,9 @@ ServerEvents.recipes(event => {
             'A   I   B',
             ' T     N ',
             '  C   D  ',
-            ' M  S  O ',
+            ' M     O ',
             '  E U F  ',
-            ' W  S  X ',
+            ' W     X ',
             '  G   H  ',
             ' T     N ',
             'A   I   B'
@@ -411,7 +410,6 @@ ServerEvents.recipes(event => {
             N: { item: 'naturesaura:sky_ingot' },                // Nature's Aura
             M: { item: 'bloodmagic:demonslate' },                // Blood Magic
             O: { item: 'occultism:afrit_essence' },              // Occultism
-            S: { item: 'soulland:soul_forged_ingot' },           // Soul Land
             W: { item: 'ars_nouveau:wilden_tribute' },           // Ars Nouveau
             X: { item: 'forbidden_arcanus:stellarite_piece' },   // Forbidden Arcanus
             U: { item: 'mmorpg:stone/5' }                        // MnS Mythic core

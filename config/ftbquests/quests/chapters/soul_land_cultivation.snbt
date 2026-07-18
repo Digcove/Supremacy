@@ -15,69 +15,31 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["33EAD812978BAB9C"]
-			description: ["Your martial soul has awakened. The Soul Land mod tracks your cultivation rank from 1 to 120 across 14 stages — from Spirit Scholar to God. Your Talent score, assigned at birth, determines your starting pace but not your ceiling. Meditate regularly at your Cultivation Altar, use herbs wisely, and always complete your breakthrough cycles."]
+			description: ["Beyond the workshop and the smeltery lies a different kind of power. Botania draws mana from the land itself; Blood Magic draws it from your own vitality. Both run in parallel with your GregTech industry, and both converge — Manasteel feeds the Blood Altar's early recipes, and Blood Magic's rituals will later sustain your mana infrastructure at scale."]
 			id: "330FEE9467B9D8A6"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "EEFEA75F3945A227"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "5C6DA795C4125F36"
-				item: "soulland:spirit_condensing_pill"
-				type: "item"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "EEFEA75F3945A227"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
 			}]
 			tasks: [{
-				advancement: "soulland:story/awakening"
-				criterion: ""
 				icon: "forbidden_arcanus:enchanted_soul"
 				id: "50BC48737A980C71"
-				type: "advancement"
+				title: "Two currents, one path"
+				type: "checkmark"
 			}]
-			title: "The First Awakening"
+			title: "A New Discipline"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["330FEE9467B9D8A6"]
-			description: ["A Soul Ring is absorbed from a defeated spirit beast. The White Ring comes from a 10-year beast — found in the Star Dou Forest Edge. Each ring permanently enhances one of your martial soul's skills; rings cannot be removed once absorbed. The age and species of the beast determines the ring's power. Choose carefully — you only get nine rings across your entire lifetime."]
-			id: "5FC6C2D842B38AD2"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "58CF1EBF90FBCC6E"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 2
-				id: "6A1B1D2DEBDF475A"
-				item: "soulland:spirit_condensing_pill"
-				type: "item"
-			}]
-			tasks: [{
-				id: "32EB55AE42EEA5BF"
-				item: "soulland:white_soul_ring"
-				type: "item"
-			}]
-			title: "First Soul Ring"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["330FEE9467B9D8A6"]
-			description: ["Botania's mystical flowers bloom across every biome, each with a distinct color and function. Gathering four unique types and reading the Lexica Botania is your introduction to a mana-based magic system that runs in parallel with your soul cultivation. Botania and Soul Land share material gates — you will need both."]
+			description: ["Botania's mystical flowers bloom across every biome, each with a distinct color and function. Gathering four unique types and reading the Lexica Botania is your introduction to a mana-based magic system that runs in parallel with your GregTech industry."]
 			id: "5497889D31975BB4"
 			rewards: [
 				{
@@ -118,30 +80,6 @@
 			title: "Mystical Flowers"
 			x: 0.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["5FC6C2D842B38AD2"]
-			description: ["The soul ring is now bound to your martial soul. Your spirit beast hunting should continue — Yellow Rings (100-year beasts) await in the Outer Forest, and Purple Rings (1000-year) in the Inner Forest. Each ring slot unlocks at a specific cultivation rank, so prioritize rank advancement alongside ring collection."]
-			id: "503C916FBA9B26FD"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "926529BCB2134331"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				advancement: "soulland:story/first_ring"
-				criterion: ""
-				id: "2653006433AF9847"
-				type: "advancement"
-			}]
-			title: "Bound in Soul"
-			x: 3.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["5497889D31975BB4"]
@@ -327,68 +265,29 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["503C916FBA9B26FD"]
-			description: ["Qi Crystal Ore generates at diamond depth and emits a faint luminescence. Mine it raw and smelt it to obtain Qi Crystals — a key reagent in Soul Land forging recipes and a catalyst used in Botania's mana infusion gate for Spirit Steel. Keep a stockpile; demand increases significantly as you advance."]
-			id: "10ED7158063F7663"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "40339E6589C18386"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 8
-				id: "5F7BD71A8643EE9A"
-				item: "soulland:qi_crystal"
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "6AB03783F6ED9643"
-				item: "soulland:spirit_ore_raw"
-				type: "item"
-			}]
-			title: "Qi Crystal Ore"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"6CD3FDD027906C44"
 				"5B7F342A6DC75143"
 				"73045CEAB13DB4AD"
-				"10ED7158063F7663"
 			]
-			description: ["Manasteel is produced by infusing Iron Ingots with 3,000 mana in Botania's mana infusion process — drop the ingot into a Mana Pool. In this pack, the infusion recipe has been modified to also yield Spirit Steel Ingots, gating mid-tier Soul Land crafting behind your Botania progress. This is the first major convergence of the two systems."]
+			description: ["Manasteel is produced by infusing Iron Ingots with 3,000 mana in Botania's mana infusion process — drop the ingot into a Mana Pool. This is a foundational Botania material: Manasteel Armor, the Blood Altar's gold-ingot gate, and the Terrestrial Agglomeration Plate all draw on it."]
 			id: "6DACE8982D9E9FA0"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "19F5DB15FE671E61"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 4
-				id: "6E0A6DA357311FF2"
-				item: "soulland:spirit_steel_ingot"
-				type: "item"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "19F5DB15FE671E61"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
 			}]
 			tasks: [{
 				id: "01A110C3DE5BDAB4"
 				item: "botania:manasteel_ingot"
 				type: "item"
 			}]
-			title: "Manasteel & Spirit Steel"
+			title: "Manasteel"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -709,11 +608,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "009A712D0C85A7EE"
-					item: "soulland:blood_coagulation_herb"
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "27B707D2E3E3ED14"
@@ -803,23 +697,17 @@
 		}
 		{
 			dependencies: ["5D935273D1D08BAC"]
-			description: ["The Weak Blood Orb stores Life Points outside the altar, allowing portable LP management and access to low-tier sigils in the field. Creating it requires 2,000 LP — a substantial but necessary investment. The Blood Coagulation Herb found in Soul Land helps offset the health cost of large sacrifices."]
+			description: ["The Weak Blood Orb stores Life Points outside the altar, allowing portable LP management and access to low-tier sigils in the field. Creating it requires 2,000 LP — a substantial but necessary investment."]
 			id: "38C29C6628EE73D9"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "970C7CFB0F62E7EB"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "13AB7F23DBC527E5"
-				item: "soulland:blood_coagulation_herb"
-				type: "item"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "970C7CFB0F62E7EB"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
 			}]
 			tasks: [{
 				id: "6217A9B44934FD3F"
@@ -845,12 +733,7 @@
 					title: "100 Experience x Lv."
 					type: "command"
 				}
-				{
-				count: 3
-				id: "52A32474753AEFD6"
-				item: "soulland:blood_coagulation_herb"
-				type: "item"
-			}]
+			]
 			tasks: [{
 				count: 16L
 				id: "23561829A55F55A2"
@@ -996,276 +879,6 @@
 			title: "The Alfheim Portal"
 			x: 6.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["5FC6C2D842B38AD2"]
-			description: ["Spirit Scholar is the first formal cultivation rank — the point where your soul power stabilizes and your martial soul begins to express its unique traits. Continue your breakthrough cycles every 10 ranks, absorb more soul rings as higher-age beasts become accessible, and deepen your Alchemy practice to accelerate your ascent."]
-			id: "792CE5342E2F27E8"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "1BFEFA08FBDAA255"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				advancement: "soulland:cultivation/spirit_scholar"
-				criterion: ""
-				id: "0A4D1EF6DEE78401"
-				type: "advancement"
-			}]
-			title: "Spirit Scholar"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["792CE5342E2F27E8"]
-			description: ["The Yellow Ring is absorbed from a 100-year spirit beast — far older than the creatures found at the Star Dou Forest Edge. You must venture into the Outer Forest, where soul power density rises and the predators grow proportionally more dangerous. Each ring permanently adds an active skill to your martial soul; choose the beast that complements your fighting style. The Spirit Detector reveals the age of nearby beasts — use it to find a 100-year target before committing to the hunt."]
-			id: "5815ABC064A26E99"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "212634C796B4943E"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 2
-				id: "08746265B71C5046"
-				item: "soulland:spirit_condensing_pill"
-				type: "item"
-			}]
-			tasks: [{
-				id: "321C2666A2C1609C"
-				item: "soulland:yellow_soul_ring"
-				type: "item"
-			}]
-			title: "Yellow Ring"
-			x: 1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5815ABC064A26E99"]
-			description: ["Spirit Elder marks your recognition as a second-tier cultivator — ranks 11 through 20. Your Yellow Ring slot is now active, and your soul power has stabilized enough to begin absorbing century-aged beast skills. Maintain steady breakthrough cycles and manage your Foundation Stability carefully. Overuse of herbs generates instability; meditation and pills are the remedy. The gap between an undisciplined scholar and a disciplined elder widens fast at this stage."]
-			id: "17C5B665758D7130"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "E876BA7D55872DBD"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "0B6B04B93CD2C84D"
-				item: "soulland:breakthrough_pill"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "soulland:cultivation/spirit_elder"
-				criterion: ""
-				id: "560C210B9F5D4867"
-				type: "advancement"
-			}]
-			title: "Spirit Elder"
-			x: 1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["792CE5342E2F27E8"]
-			description: ["Press [B] to attempt a Breakthrough when your soul power reaches the next rank threshold. Press [Shift+B] to consume a Foundation Pill and boost success rate. Foundation Stability is a hidden stat: herb overuse, death, and failed breakthroughs each add instability points, which lower success probability and slow meditation speed. Stability recovers through meditation and resets faster with pills. Stock Breakthrough Pills before every major threshold — they drop from dungeon chests and high-tier beast kills."]
-			id: "7DAE3A2B358785F6"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "7EA787719408A046"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 3
-				id: "2BFE900939FA418D"
-				item: "soulland:breakthrough_pill"
-				type: "item"
-			}]
-			tasks: [{
-				id: "74182429EE20697F"
-				title: "Breakthrough Mechanics"
-				type: "checkmark"
-			}]
-			title: "The Breakthrough Cycle"
-			x: 0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["17C5B665758D7130"]
-			description: ["The Purple Ring comes from a 1000-year spirit beast — creatures that have survived long enough to develop genuine domain auras and active combat skills. Defeating one at Spirit Elder tier is a serious fight; approach it fully prepared. The power gap between a Yellow and Purple Ring is substantial — a single Purple Ring can define an entire build direction. Use the Spirit Detector to identify a 1000-year target in the Inner Forest without accidentally aggroing older, more lethal beasts in the vicinity."]
-			id: "10A7D1DB2655CBDF"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "FD311AA46105E2C9"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "332E563B23E92F6C"
-				item: {
-					Count: 1
-					id: "mmorpg:stat_soul/family/weapon/rare"
-					tag: {
-						tier: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5CB36F5C397A5556"
-				item: "soulland:purple_soul_ring"
-				type: "item"
-			}]
-			title: "Purple Ring"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["10A7D1DB2655CBDF"]
-			description: ["Spirit King — ranks 21 through 30 — is the tier where your martial soul's power begins to consolidate into something the continent recognizes as formidable. Three ring slots are active, your soul power output enables sustained combat, and your foundation in both Botania mana and Blood Magic LP is now established. At rank 30, the Martial Soul Transformation first manifests — press [V] to activate T1, overlaying your body with the physical traits of your martial soul."]
-			id: "4BCFBD1E3F78FB52"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "4EB3DBC9BB863AA0"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-					count: 2
-					id: "0AB2EACC64171F7E"
-					item: "soulland:breakthrough_pill"
-					type: "item"
-				}
-				{
-					id: "37FBFAE3769F322A"
-					item: {
-						Count: 1
-						id: "mmorpg:stat_soul/family/weapon/epic"
-						tag: {
-							tier: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "soulland:cultivation/spirit_king"
-				criterion: ""
-				id: "4470A64D131B98EF"
-				type: "advancement"
-			}]
-			title: "Spirit King"
-			x: 1.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4BCFBD1E3F78FB52"]
-			description: ["At rank 30, your Martial Soul Transformation first manifests. Press [V] to activate T1 — the physical traits of your martial soul overlay your form: limb augmentations, elemental traces, and a temporary amplification of attack power and sensory range. Two further tiers follow: T2 at rank 60 integrates chest, head, and glowing runic overlays. T3 at rank 90 triggers full Spirit Avatar mode — a complete hybrid body transformation representing the peak expression of your martial soul's original form. Each tier is a permanent threshold, not a cooldown."]
-			id: "737BC9163766D4DF"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "D0A909822C29C463"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "7C67C7D7947C9E0F"
-				item: {
-					Count: 1
-					id: "mmorpg:stat_soul/family/weapon/legendary"
-					tag: {
-						tier: 0
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "61AFBB34FE579D8D"
-				title: "First Transformation"
-				type: "checkmark"
-			}]
-			title: "First Transformation"
-			x: 1.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["737BC9163766D4DF"]
-			description: ["Spirit Ancestor — ranks 31 through 40 — marks your transition to genuine continental power. Four ring slots are active, your transformation capabilities have deepened, and your soul power output is sufficient to begin pursuing the Soul Forged equipment tier. Soul Forged Ingots — Spirit Iron fused with GTCEu-grade Stainless Steel and Qi Crystals — require industrial-scale Electric Blast Furnace production. The Greg chapter's factory infrastructure becomes necessary here; cultivation alone cannot sustain your equipment requirements."]
-			id: "07B89901B2D44556"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "8D5BF5D8A69B8FE2"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-					count: 3
-					id: "07B89901B2D44557"
-					item: "lightmanscurrency:coin_iron"
-					type: "item"
-				}
-				{
-					id: "07B89901B2D44558"
-					item: {
-						Count: 1
-						id: "mmorpg:stat_soul/family/armor/epic"
-						tag: {
-							tier: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "soulland:cultivation/spirit_ancestor"
-				criterion: ""
-				id: "07B89901B2D44559"
-				type: "advancement"
-			}]
-			title: "Spirit Ancestor"
-			x: 1.5d
-			y: 7.5d
 		}
 		{
 			dependencies: ["6DF58A9163227678"]
@@ -1489,24 +1102,17 @@
 				"09A01ED1974A1836"
 				"38C29C6628EE73D9"
 			]
-			description: ["The Reinforced Slate is created by infusing a Blank Slate with 5,000 LP at the Blood Altar — your first Tier 2 crafting operation. With Reinforced Slates in hand, the altar can be upgraded to Tier 2, granting access to the Apprentice Blood Orb and mid-tier recipes. Build at least four before proceeding; the upgrade path ahead demands them in multiples. The Blood Coagulation Herb significantly offsets the health cost of large LP expenditures — keep a supply on hand during heavy sacrifice sessions."]
+			description: ["The Reinforced Slate is created by infusing a Blank Slate with 5,000 LP at the Blood Altar — your first Tier 2 crafting operation. With Reinforced Slates in hand, the altar can be upgraded to Tier 2, granting access to the Apprentice Blood Orb and mid-tier recipes. Build at least four before proceeding; the upgrade path ahead demands them in multiples."]
 			id: "6D1EF567B8DAA123"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "A5CEB8333A023844"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 3
-				id: "6D1EF567B8DAA124"
-				item: "soulland:blood_coagulation_herb"
-				type: "item"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "A5CEB8333A023844"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
 			}]
 			tasks: [{
 				count: 4L
@@ -1533,12 +1139,7 @@
 					title: "100 Experience x Lv."
 					type: "command"
 				}
-				{
-				count: 3
-				id: "7E2FA678C9EBB235"
-				item: "soulland:blood_coagulation_herb"
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "7E2FA678C9EBB236"
 				item: "bloodmagic:apprenticebloodorb"
@@ -1563,12 +1164,7 @@
 					title: "100 Experience x Lv."
 					type: "command"
 				}
-				{
-				count: 2
-				id: "3C9B405566061433"
-				item: "soulland:blood_coagulation_herb"
-				type: "item"
-			}]
+			]
 			tasks: [{
 				id: "4B000679E54854FC"
 				item: "bloodmagic:masterritualstone"
@@ -1610,7 +1206,7 @@
 		}
 		{
 			dependencies: ["7E2FA678C9EBB234"]
-			description: ["The Magician's Blood Orb stores 40,000 LP — the Tier 3 orb and the gateway to Blood Magic's most powerful rituals and sigil crafting. Constructing it requires Imbued Slates in addition to the standard LP sacrifice at a T3 Blood Altar. With the Magician Orb equipped, advanced sigils become available — including passive flight assistance, environmental immunity, and life-drain combat effects that pair directly with Soul Land's cultivation mechanics."]
+			description: ["The Magician's Blood Orb stores 40,000 LP — the Tier 3 orb and the gateway to Blood Magic's most powerful rituals and sigil crafting. Constructing it requires Imbued Slates in addition to the standard LP sacrifice at a T3 Blood Altar. With the Magician Orb equipped, advanced sigils become available — including passive flight assistance, environmental immunity, and life-drain combat effects."]
 			id: "6CE87A114AFD77FE"
 			rewards: [
 				{
@@ -1640,11 +1236,10 @@
 		}
 		{
 			dependencies: [
-				"07B89901B2D44556"
 				"5C0DE456A7C99012"
+				"6CE87A114AFD77FE"
 			]
-			description: ["You have achieved Spirit Ancestor in cultivation, claimed victory over Botania's guardian of the living world, and built the infrastructure of blood ritual sacrifice. Three power systems — soul cultivation, mana, and life force — now run concurrently. Each amplifies the others in ways no single system can match alone. Spirit Steel alone is no longer sufficient for your equipment demands. Soul Forged alloy — requiring GTCEu-grade Stainless Steel smelted only in an Electric Blast Furnace — is the next material gate. Build your factory."]
-			icon: "soulland:soul_crystal"
+			description: ["You have claimed victory over Botania's guardian of the living world and built a full Blood Magic ritual infrastructure. Two power systems — mana and life force — now run concurrently alongside your GregTech industry. Each amplifies the others in ways no single system can match alone."]
 			id: "388C72C20F961A3A"
 			rewards: [
 				{
@@ -1674,21 +1269,16 @@
 					}
 					type: "item"
 				}
-				{
-					id: "2027F68DDA2AD39A"
-					item: "soulland:soul_crystal"
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "3B9795F5A4F8E586"
-				title: "The Way of the Soul"
+				title: "Mana and Blood"
 				type: "checkmark"
 			}]
-			title: "The Way of the Soul"
+			title: "Mana and Blood"
 			x: 5.0d
 			y: 8.0d
 		}
 	]
-	title: "Soul Land Cultivation"
+	title: "Convergence"
 }

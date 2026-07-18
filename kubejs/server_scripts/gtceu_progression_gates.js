@@ -130,15 +130,4 @@ ServerEvents.recipes(event => {
         E: 'minecraft:echo_shard'
     })
 
-    // Soul Forged Ingot: Stainless Steel (HV tier gate) + Spirit Iron + Qi Crystal
-    event.shaped('soulland:soul_forged_ingot', [
-        'ISI',
-        'SQS',
-        'ISI'
-    ], {
-        I: 'soulland:spirit_iron_ingot',
-        S: 'gtceu:stainless_steel_ingot',
-        Q: 'soulland:qi_crystal'
-    }, 2)
-
 })

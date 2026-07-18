@@ -8,117 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Soul Land's alchemical tradition operates through the Spirit Herb Forest biome — a dimension-adjacent zone where spiritual herbs grow in concentrated qi. Herbs consumed raw give small temporary buffs with three-use diminishing returns. Pills crafted at the Cultivation Altar are more potent: Breakthrough Pills amplify advancement success, Foundation Pills heal Foundation Instability, and Recovery Pills restore spent qi. The Cultivation Altar functions as your spiritual laboratory."]
-			id: "645C17C6B1EF54F1"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 100"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "F03D33DC1E8468E8"
-				silent: true
-				title: "100 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "52C6E4709C7F64EB"
-				title: "Spiritual Alchemy"
-				type: "checkmark"
-			}]
-			title: "Spiritual Alchemy"
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["645C17C6B1EF54F1"]
-			description: ["Qi Crystals are the fundamental currency of the Soul Land material system. Two Spirit Iron Ingots combined with an Amethyst Shard yield a single Qi Crystal at the crafting table. Qi Crystals are used as reagents in Soul Land and GTCEu gate recipes — the Cultivation Altar accepts them in advanced pill batches. Stack a supply early; demand only increases as cultivation tier rises."]
-			id: "AL01000000000001"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "1C348540F912D7D3"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 4
-				id: "AL03000000000001"
-				item: "soulland:spirit_iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "AL02000000000001"
-				item: "soulland:qi_crystal"
-				type: "item"
-			}]
-			title: "Qi Crystal"
-			x: -4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["AL01000000000001"]
-			description: ["Soul Crystals are a higher tier of qi-infused crystal produced at the Ars Nouveau Enchanting Apparatus. The ritual fuses spiritual qi with magical source alongside Blank Slates and Source Gems to produce a denser crystalline matrix. Soul Crystals bridge the Soul Land and Convergence Forge material chains — they are required in endgame Convergence recipes and cannot be obtained by any simpler method."]
-			id: "AL01000000000002"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "719DF2A3D25692FF"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				count: 2
-				id: "AL03000000000002"
-				item: "soulland:qi_crystal"
-				type: "item"
-			}]
-			tasks: [{
-				id: "AL02000000000002"
-				item: "soulland:soul_crystal"
-				type: "item"
-			}]
-			title: "Soul Crystal"
-			x: -4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["AL01000000000002"]
-			description: ["Soul Forged Ingots combine Spirit Iron Ingots with Soul Crystals and Qi Crystals under EBF heat to produce the highest-tier Soul Land metallic material. Used in Convergence Forge gates and in GTCEu recipe chains that incorporate Soul Land metals. These ingots are the convergence point where Soul Land cultivation and Great Technology Electric meet — and proof that neither system is complete without the other."]
-			id: "AL01000000000003"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/mine_and_slash give xp_times_lvl @p 100"
-					elevate_perms: true
-					icon: "minecraft:experience_bottle"
-					id: "D5FA50B54C628BA7"
-					silent: true
-					title: "100 Experience x Lv."
-					type: "command"
-				}
-				{
-				id: "AL03000000000003"
-				item: "mmorpg:currency/mirror"
-				type: "item"
-			}]
-			tasks: [{
-				id: "AL02000000000003"
-				item: "soulland:soul_forged_ingot"
-				type: "item"
-			}]
-			title: "Soul Forged Ingot"
-			x: -4.0d
-			y: -6.0d
-		}
-		{
 			description: ["Blood Magic converts Life Points sacrificed at the Blood Altar into crafted power. The altar's tier determines which recipes are available — each tier requires Reinforced, Infused, Demonically Infused, or Ethereal Slates placed as upgrades. Begin by building the altar using the Sacrificial Orb to self-sacrifice, then accumulate LP to start slate progression. The altar is your Blood Magic laboratory for everything that follows."]
 			id: "099035739255D6E7"
 			rewards: [{
@@ -492,12 +381,11 @@
 		}
 		{
 			dependencies: [
-				"AL01000000000003"
 				"AL01000000000009"
 				"AL01000000000012"
 				"AL01000000000014"
 			]
-			description: ["Blood sustains the altar. Source powers the apparatus. Qi refines the crystal. Herbs fill the flasks. Four alchemical traditions — each complete in itself, each contributing to a different axis of power. The convergence of all four is not a milestone. It is a method. The Grand Alchemist does not choose a discipline. They master the interplay between them."]
+			description: ["Blood sustains the altar. Source powers the apparatus. Herbs fill the flasks. Three alchemical traditions — each complete in itself, each contributing to a different axis of power. The convergence of all three is not a milestone. It is a method. The Grand Alchemist does not choose a discipline. They master the interplay between them."]
 			id: "AL01000000000015"
 			rewards: [
 				{

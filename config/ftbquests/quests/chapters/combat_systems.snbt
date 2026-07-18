@@ -1,0 +1,585 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat_systems"
+	group: "4FE047BB6D602D58"
+	icon: "narutoto:kage_icon"
+	id: "E9A52F52147BB77F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6E317C68C5F44D16"]
+			description: ["Spartan Weaponry expands physical combat beyond vanilla swords into dedicated fighting disciplines. The Halberd has extended reach and excels against clustered groups. The Greatsword swings in a wide arc. The Katana and Dagger reward attack speed builds. The Lance shines during mounted combat on horseback or Valkyrien Skies vessels. The Javelin is the only throwable. Every weapon type synergizes differently with Mine & Slash's stat soul system — choose your first based on your intended combat style, not material tier. Tinkers and Silent Gear weapons are disabled in this pack; Spartan Weaponry is your physical combat system."]
+			id: "391B1915D8FB0F0F"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "0D1F15EDF7BF9B1B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+				count: 3
+				id: "6EB46166D150DD07"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CF28EADF7B0D485"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_halberd"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_greatsword"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_katana"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_dagger"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_lance"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_javelin"
+							}
+							{
+								Count: 1b
+								id: "spartanweaponry:iron_saber"
+							}
+						]
+					}
+				}
+				title: "Iron Spartan Weapon"
+				type: "item"
+			}]
+			title: "A Weapon of Your Own"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: ["Iron's Spells & Spellbooks puts spellcasting in the off-hand for the Cloth armor path. Craft the &eIronbound Tome&r yourself at a crafting table — chains, leather, and paper — this quest only completes when you craft it, not when you loot one. The Tome starts with several spell slots; higher-tier books hold more and cast at greater power. Spell Scrolls drop from enemies, mage towers, and dungeon chests — right-click a scroll while holding your Spellbook to inscribe it permanently. Spells cost Mana, which regenerates passively and scales with Intelligence and Wisdom stat soul investment."]
+			id: "5976D1DDED910B15"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7D3B52401C163ED6"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+				count: 3
+				id: "5E81A14CA19D7841"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F2B5D7A9C1E3F81"
+					item: "irons_spellbooks:iron_spell_book"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "4A3C6E8B0D2F4A92"
+					title: "Inscribe Your First Spell"
+					type: "checkmark"
+				}
+			]
+			title: "Iron's Spellbook"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Apotheosis overhauls the enchanting table entirely — bookshelves matter by type, not just count. Different shelf types push enchantment power past vanilla's Level 30 cap and gate higher enchantment tier availability. Build your setup with varied shelf types to reach Level 30+ power. A Halberd with Sweeping Edge III + Sharpness V clears rooms; a Katana with Attack Speed + Looting III becomes a stat soul farming machine. Gems from Apotheosis socket into M&S socket slots and stack with your stat soul allocations."]
+			id: "52E5DB76B1C28F49"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "76CFC209639790AE"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+				count: 4
+				id: "3CB27BE231123504"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B4D7F9A2E1B5CA3"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					id: "6C5E8A0B3F2C6DB4"
+					item: "apotheosis:arcane_bookshelf"
+					type: "item"
+				}
+			]
+			title: "Enchant Your Blade"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			description: ["A different kind of power has entered the world — the way of the ninja. This is a fully optional combat path: pick a clan, learn jutsu, and climb from Genin to Kage entirely outside the pack's main tech and magic progression. Nothing here gates anything else, and nothing else gates this. Open your ninja panel with &eK&r to get started."]
+			icon: "narutoto:kage_icon"
+			id: "7A7A000000000001"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A100000000001"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "7A7A200000000001"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7A7A300000000001"
+				item: "narutoto:select_ninja"
+				type: "item"
+			}]
+			title: "Enter the Ninja World"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A7A000000000001"]
+			description: ["Your clan determines your starting playstyle — the Uchiha lean into fire and genjutsu, the Hyuga into taijutsu and the Byakugan, the Nara into shadow control. Your village determines which Kage rank you climb toward. Both choices are made from the ninja panel and shape everything that follows."]
+			id: "7A7A000000000002"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A100000000002"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7A7A300000000002"
+				title: "Select your clan and village"
+				type: "checkmark"
+			}]
+			title: "Choose Your Path"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A7A000000000002"]
+			description: ["Every ninja carries a Kunai and a handful of Shuriken — cheap, disposable, and always useful. Both are plain crafting-table recipes; no jutsu points required."]
+			id: "7A7A000000000003"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 50"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A100000000003"
+					silent: true
+					title: "50 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 2
+					id: "7A7A200000000003"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7A7A300000000003"
+					item: "narutoto:kunai_weapon"
+					type: "item"
+				}
+				{
+					id: "7A7A400000000003"
+					item: "narutoto:shuriken_item"
+					type: "item"
+				}
+			]
+			title: "A Ninja's Toolkit"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A7A000000000002"]
+			description: ["Every ninja's chakra resonates with one of the five basic natures — Fire, Water, Wind, Lightning, or Earth — plus rarer Wood affinity for the fortunate few. Your nature determines which jutsu scrolls you can learn effectively. Discover yours through the ninja panel."]
+			icon: "narutoto:wind_icon"
+			id: "7A7A000000000004"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 50"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A100000000004"
+				silent: true
+				title: "50 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7A7A300000000004"
+				title: "Discover your chakra nature"
+				type: "checkmark"
+			}]
+			title: "Chakra Nature"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A7A000000000002"]
+			description: ["Genin is the first official rank — a licensed ninja, no longer an academy student. Every level grants 5 attribute points and 2 jutsu points to spend from the ninja panel."]
+			id: "7A7A000000000005"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 75"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A100000000005"
+					silent: true
+					title: "75 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 3
+					id: "7A7A200000000005"
+					item: "lightmanscurrency:coin_iron"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "narutoto:genin"
+				criterion: ""
+				id: "7A7A300000000005"
+				type: "advancement"
+			}]
+			title: "Genin"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A7A000000000005"]
+			description: ["Spend your first jutsu points from the ninja panel (&eK&r) to learn a technique matching your clan and chakra nature."]
+			icon: "narutoto:rasengan_item"
+			id: "7A7A000000000006"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 75"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A100000000006"
+				silent: true
+				title: "75 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				id: "7A7A300000000006"
+				title: "Learn your first jutsu"
+				type: "checkmark"
+			}]
+			title: "First Jutsu"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A7A000000000005"]
+			description: ["Ten levels in, the fundamentals are settled: rank, clan, chakra nature, and a jutsu or two. The climb from here is steady — kill ninjas, complete tasks, and keep spending points as they come."]
+			id: "7A7A000000000007"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 75"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A100000000007"
+				silent: true
+				title: "75 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "narutoto:level_10"
+				criterion: ""
+				id: "7A7A300000000007"
+				type: "advancement"
+			}]
+			title: "Level 10"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7A7A000000000007"]
+			description: ["Chunin marks a ninja trusted with real responsibility — squad leadership, harder missions, and a noticeably deeper jutsu pool."]
+			id: "7A7A000000000008"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A100000000008"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "7A7A200000000008"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/uncommon"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "narutoto:chunin"
+				criterion: ""
+				id: "7A7A300000000008"
+				type: "advancement"
+			}]
+			title: "Chunin"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A7A000000000008"]
+			description: ["Twenty levels in, the gap between a Chunin and the ninjas still stuck at Genin is obvious in a fight. Keep climbing."]
+			id: "7A7A000000000009"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A100000000009"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "narutoto:level_20"
+				criterion: ""
+				id: "7A7A300000000009"
+				type: "advancement"
+			}]
+			title: "Level 20"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7A7A000000000009"]
+			description: ["Jonin is an elite rank — full mastery of your clan's techniques and enough jutsu points invested to specialize seriously. Only a handful of paths remain above this: the Kage seat of your village, or renown as a Sannin-tier legend."]
+			id: "7A7A00000000000A"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 125"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A10000000000A"
+					silent: true
+					title: "125 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "7A7A20000000000A"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/rare"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "narutoto:jonin"
+				criterion: ""
+				id: "7A7A30000000000A"
+				type: "advancement"
+			}]
+			title: "Jonin"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7A7A00000000000A"]
+			description: ["Thirty levels in, few ninjas outside the endgame bosses can match you one-on-one."]
+			id: "7A7A00000000000B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 125"
+				elevate_perms: true
+				icon: "minecraft:experience_bottle"
+				id: "7A7A10000000000B"
+				silent: true
+				title: "125 Experience x Lv."
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "narutoto:level_30"
+				criterion: ""
+				id: "7A7A30000000000B"
+				type: "advancement"
+			}]
+			title: "Level 30"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A7A000000000005"]
+			description: ["Not every ninja stays loyal to their village. Abandoning it costs standing and safety — hunter-nin will be sent after you — but some techniques and freedoms are only available to those who walk this path. Entirely optional, and not a requirement for anything else in this chapter."]
+			id: "7A7A00000000000C"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "7A7A10000000000C"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "narutoto:become_missing_nin"
+				criterion: ""
+				id: "7A7A30000000000C"
+				type: "advancement"
+			}]
+			title: "Missing-Nin"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A7A00000000000B"]
+			description: ["The Nine-Tailed Fox is the heaviest fight this chapter offers — a legendary beast fight, not a quest-line requirement. Bring everything you have."]
+			icon: {
+				Count: 1
+				id: "narutoto:nine_tails_mode_armor_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A7A00000000000D"
+			optional: true
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 200"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A10000000000D"
+					silent: true
+					title: "200 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "7A7A20000000000D"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/legendary"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "narutoto:beat_ninetails"
+				criterion: ""
+				id: "7A7A30000000000D"
+				type: "advancement"
+			}]
+			title: "The Nine-Tails"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A7A00000000000B"]
+			description: ["Kage is the peak of the ninja world — leader of your village, strongest of your generation. Ascending is a matter of in-game standing and mastery, not a craftable item. This capstone simply marks that you got there."]
+			icon: "narutoto:kage_icon"
+			id: "7A7A00000000000E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 200"
+					elevate_perms: true
+					icon: "minecraft:experience_bottle"
+					id: "7A7A10000000000E"
+					silent: true
+					title: "200 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "7A7A20000000000E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "7A7A40000000000E"
+					item: {
+						Count: 1
+						id: "mmorpg:stat_soul/family/weapon/legendary"
+						tag: {
+							tier: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7A7A30000000000E"
+				title: "Ascend to Kage"
+				type: "checkmark"
+			}]
+			title: "Kage's Ascent"
+			x: 0.0d
+			y: 14.0d
+		}
+	]
+	title: "Combat Systems"
+}

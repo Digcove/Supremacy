@@ -13,7 +13,7 @@
 			description: [
 				"Welcome to &eSupremacy&r — a pack about earning power from every direction at once."
 				""
-				"The spine is technology: GregTech CEu, from your first bronze boiler to fusion. Wrapped around it is magic — Botania, Ars Nouveau, Blood Magic, and the Soul Land cultivation path — and standing in your way is &eMine and Slash&r, an ARPG layer that levels your character, rolls your gear, and scales every fight. Tech, magic, and combat are not separate games here; they gate each other, trade materials, and meet in the endgame."
+				"The spine is technology: GregTech CEu, from your first bronze boiler to fusion. Wrapped around it is magic — Botania, Ars Nouveau, and Blood Magic — and standing in your way is &eMine and Slash&r, an ARPG layer that levels your character, rolls your gear, and scales every fight. Tech, magic, and combat are not separate games here; they gate each other, trade materials, and meet in the endgame."
 				""
 				"You are on a community server. Other players are your economy, your rivals, and your raid team. Start with the &eMain Story&r tab, punch a tree, and begin the climb."
 			]
@@ -141,30 +141,6 @@
 			}]
 			title: "FAQ: The Twilight Opens Early"
 			x: -5.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5D5D000000000001"]
-			description: ["Soul Forged Ingots have &etwo&r recipes, and both are correct. One path runs through magic — Soul Land cultivation and its spirit metals; the other runs through technology — GregTech processing. They converge on the same ingot on purpose: the pack does not force a mage to build a chemical plant or an engineer to meditate. When you see duplicate recipes for convergence materials in the recipe viewer, that is a fork in the road, not a bug."]
-			icon: "soulland:soul_forged_ingot"
-			id: "5D5D000000000006"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give xp_times_lvl @p 50"
-				elevate_perms: true
-				icon: "minecraft:experience_bottle"
-				id: "5D5D200000000006"
-				silent: true
-				title: "50 Experience x Lv."
-				type: "command"
-			}]
-			tasks: [{
-				id: "5D5D100000000006"
-				title: "Two paths, one ingot"
-				type: "checkmark"
-			}]
-			title: "FAQ: Two Roads to Soul Steel"
-			x: -2.5d
 			y: 6.0d
 		}
 		{
