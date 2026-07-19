@@ -981,6 +981,10 @@ file = "config/attributeslib.cfg"
 hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 
 [[files]]
+file = "config/auto_repair_kit-common.toml"
+hash = "f9d88dc928161c9b0e1af33927c944102872427bc148f9d3bc461f43e42446b9"
+
+[[files]]
 file = "config/bettercombat/client.json5"
 hash = "0465e24927788c2735edcb33ce1ad1a8ab2633b6aaf3f2ae97b678c81e025344"
 
@@ -21626,7 +21630,7 @@ hash = "ad457e381fc3f6eed2414658e31b889f5ae64b0e6ee884587b36ed50cb2ba0ba"
 
 [[files]]
 file = "kubejs/server_scripts/starter_cleanup.js"
-hash = "b4e8ebb732e365be04750384ed18097ffad1b3d8892a735f93edee0d67399657"
+hash = "13b532245ce6ecf6c8afa1bb3ddfb74372679fad63381c98983a51612b7c5a00"
 
 [[files]]
 file = "kubejs/server_scripts/tacz_gating.js"

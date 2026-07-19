@@ -1,0 +1,3 @@
+[general]
+	#What items can be used to charge the repair kits. Usage: minecraft:diamond;50  to make diamonds charge the kit for 50 durability
+	charge_material_items = ["mmorpg:stone/0;10", "mmorpg:stone/1;25", "mmorpg:stone/2;50", "mmorpg:stone/3;250", "mmorpg:stone/4;500"]
